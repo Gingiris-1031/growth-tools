@@ -4,7 +4,7 @@ title: "GitHub Stars History: How to Track and Analyze Repository Growth"
 date: 2026-03-31
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-history.jpg"
-description: "Track your GitHub stars history and analyze growth milestones. How to use star history data to improve your open source marketing strategy."
+description: "Track your GitHub stars history and analyze growth milestones. Lessons from AFFiNE's 60K star journey — tools, benchmarks, and what star velocity actually means."
 faq:
   - q: "How do I see the star history of a GitHub repository?"
     a: "To view GitHub star history: visit star-history.com and enter any public repository URL to see a visual timeline of star growth. Alternatively, use the GitHub API: GET https://api.github.com/repos/{owner}/{repo}/stargazers with the header Accept: application/vnd.github.v3.star+json to retrieve timestamped star data. The GitHub Insights tab (visible only to repo owners) shows the past 14 days of traffic including stars."
