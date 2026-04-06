@@ -7,100 +7,154 @@ image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-histor
 description: "How to track GitHub stars history for any repo in 2026. Free tools, the GitHub API, and real growth analysis from AFFiNE's journey to 60K stars."
 faq:
   - q: "How do you track GitHub star history?"
-    a: "Tools for tracking GitHub star history: Star History (star-history.com) — free, visual star growth chart for any public repo. GitStar Ranking — tracks star velocity and trending repos. GitHub's native Insights tab (only accessible to repo owners) shows traffic and star data for the past 14 days. For historical data beyond 14 days, the GitHub API endpoint GET /repos/{owner}/{repo}/stargazers with Accept: application/vnd.github.v3.star+json returns timestamped star data."
+    a: "Tools for tracking GitHub star history: Star History (star-history.com) — free, visual star growth chart for any public repo. GitStar Ranking — tracks star velocity and trending repos. GitHub's native Insights tab (only accessible to repo owners) shows traffic and star data for the past 14 days. For historical data beyond 14 days, use the GitHub API: GET /repos/{owner}/{repo}/stargazers with Accept: application/vnd.github.v3.star+json to retrieve timestamped star data."
+  - q: "How do I see the star history of a GitHub repository?"
+    a: "Go to star-history.com, paste any public repository URL, and get an instant visual timeline of star growth. You can compare up to 5 repos on the same chart. For raw data, use the GitHub API with the stargazers endpoint and the special Accept header for timestamped results."
   - q: "What is a good GitHub star growth rate?"
-    a: "GitHub star growth benchmarks by project stage: Newly launched (week 1) — 100+ stars is a successful launch; 500+ is exceptional. Growing project (months 1-6) — 500-1,000 stars/month is strong organic growth. Established project — 1,000-5,000 stars/month indicates significant developer mindshare. Viral moment (HN front page, major tweet) — 1,000-5,000 stars in 24-48 hours is typical for viral events. Absolute numbers matter less than trajectory — consistent monthly growth signals a healthy project."
+    a: "Benchmarks: Newly launched (week 1) — 100+ stars is a successful launch, 500+ is exceptional. Growing project (months 1-6) — 500-1,000 stars/month is strong. Viral moment (HN front page) — 1,000-5,000 stars in 24-48 hours. AFFiNE hit 1,000 stars in 72 hours and 6,000 in 7 days, which represents an unusually fast cold start. Consistent monthly growth matters more than absolute numbers."
+  - q: "What causes sudden spikes in GitHub stars?"
+    a: "Common causes of star spikes: Hacker News front page (Show HN) — 500-3,000 stars in 24 hours. Reddit viral post in a large dev subreddit — 200-1,000 stars. Product Hunt top 5 finish — 200-600 stars. GitHub Trending placement — 100-300 stars/day for 3-7 days. Influential newsletter or tweet — 100-500 stars. Understanding which event caused each spike lets you engineer future ones deliberately."
   - q: "Why do GitHub repos lose stars?"
-    a: "GitHub repositories rarely actually lose stars (users unstarring is uncommon). Apparent star loss or stagnation happens because: star velocity slows when initial launch momentum fades, the project appears abandoned (no recent commits), a competitor launches with better positioning, or the technology becomes deprecated. The best defense against star stagnation: consistent commits, regular releases, and periodic relaunch moments (major version releases, new feature launches) that re-activate distribution."
+    a: "Repos rarely actually lose stars (unstarring is uncommon). Apparent stagnation happens when: star velocity slows as launch momentum fades, the project appears abandoned (no recent commits), a competitor launches with better positioning, or the tech becomes deprecated. Best defense: consistent commits, regular releases, and periodic relaunch moments that re-activate distribution."
 ---
+
 ## TL;DR
 
-- GitHub stars history shows how a repo gained popularity over time
-- Use tools like Star History, GitHub API, or browser extensions to track
-- Look for organic growth patterns vs artificial spikes
-- Star velocity matters more than total count for trending projects
+- GitHub stars history shows how a repo gained popularity — velocity matters more than raw count
+- Use star-history.com for instant visual charts, GitHub API for raw timestamped data
+- Spikes tell you what distribution channels worked; the baseline between spikes tells you if growth is sustainable
+- AFFiNE: 0 → 1,000 in 72 hours, 0 → 6,000 in 7 days, 0 → 10,000 in 43 days
 
 ---
 
 ## Why Track GitHub Stars History?
 
-GitHub stars are the social proof of open source. But raw numbers don't tell the whole story.
+GitHub stars are the social proof of open source. But raw totals don't tell the full story.
 
-A repo with 10k stars gained over 5 years is very different from one that got 10k stars in 2 weeks. **Stars history reveals the real growth story.**
+A repo with 10,000 stars gained over 5 years is very different from one that got 10,000 stars in 2 weeks. **Star history reveals the real growth story** — whether traction is organic or spike-driven, whether the project is accelerating or stagnating, and which distribution channels actually move the needle.
 
-I've helped grow AFFiNE from 0 to 33k+ GitHub stars. Here's how to read and use star data effectively.
+I grew AFFiNE from 0 to 60,000+ GitHub stars. Tracking our own star history was one of the highest-value habits in that process.
 
 ---
 
-## How to Track GitHub Stars History (Step by Step)
+## How to Track GitHub Stars History
 
-1. **Go to [star-history.com](https://star-history.com)** — paste your repo URL and get an instant visual chart. Free, no signup required.
+### Step-by-step
+
+1. **Go to [star-history.com](https://star-history.com)** — paste your repo URL for an instant visual timeline. Free, no signup required.
 2. **Compare with competitors** — add up to 5 repos on the same chart to benchmark your growth trajectory.
-3. **Pull timestamped data via GitHub API** — use `GET /repos/{owner}/{repo}/stargazers` with `Accept: application/vnd.github.v3.star+json` for raw star-by-date data.
-4. **Set up weekly tracking** — screenshot your star-history chart every Monday to identify growth trends before they become obvious.
-5. **Identify your spike triggers** — cross-reference star spikes with your activity log (launches, HN posts, viral tweets) to find your highest-ROI distribution channels.
+3. **Pull timestamped data via GitHub API** — for raw data beyond the chart:
+   ```bash
+   curl -H "Accept: application/vnd.github.v3.star+json" \
+     "https://api.github.com/repos/OWNER/REPO/stargazers?per_page=100"
+   ```
+4. **Set up weekly tracking** — screenshot your star-history chart every Monday to identify trends before they become obvious.
+5. **Cross-reference spikes with activity** — overlay your star chart with your content/launch calendar to identify which channels drive the most stars.
 
-## How to Check GitHub Stars History
+### Tools comparison
 
-### Method 1: Star History (Free)
-
-The easiest way. Go to [star-history.com](https://star-history.com), paste the repo URL, and get an instant chart.
-
-**Features:**
-- Compare multiple repos on one chart
-- Embed charts in README
-- Free, no signup required
-
-### Method 2: GitHub API
-
-For developers who want raw data:
-
-```bash
-curl -H "Accept: application/vnd.github.v3.star+json" \
-  "https://api.github.com/repos/OWNER/REPO/stargazers?per_page=100"
-```
-
-### Method 3: Browser Extensions
-
-- **GitHub Repo Stats** - Shows star history inline
-- **Refined GitHub** - Adds star charts
+| Tool | Type | Price | Best For |
+|------|------|-------|----------|
+| [Star History](https://star-history.com) | Web | Free | Quick visual charts, competitor comparison |
+| [GitHub API](https://docs.github.com/en/rest/activity/starring) | API | Free | Raw data, custom analysis |
+| [OSS Insight](https://ossinsight.io) | Web | Free | Deep analytics, community health metrics |
+| [Repo Analytics](https://repo-analytics.github.io) | Web | Free | Detailed per-repo stats |
+| GitHub Insights (native) | Web | Free | Owner-only, 14-day window |
 
 ---
 
-## What GitHub Stars History Tells You
+## What Star History Tells You
 
-### Organic Growth Pattern
+### Organic vs spike-driven growth
 
-Healthy repos show:
-- Steady upward curve
-- Small spikes after launches
-- Consistent baseline growth
+**Healthy repos** show a mix of both:
+- Steady baseline (50–200 stars/day) between events
+- Clean spikes that correspond to identifiable events
+- Baseline rising gradually over months
 
-### Red Flags
+**Red flags:**
+- **Sudden vertical spike with no clear cause** → possibly fake stars
+- **Flat line after initial spike** → project appears abandoned
+- **Declining baseline** → losing relevance to competitors
 
-Watch out for:
-- **Sudden vertical spikes** with no clear cause → possibly fake stars
-- **Flat lines** after initial spike → abandoned project
-- **Declining trends** → losing relevance
+### Spike anatomy
 
----
+After a successful launch event, the typical pattern:
+- **Hours 0–24:** Spike peak (viral distribution)
+- **Days 2–7:** Gradual decay as content circulates
+- **Week 2+:** New baseline, higher than pre-spike
 
-## Tools for GitHub Star Analysis
-
-| Tool | Type | Price |
-|------|------|-------|
-| [Star History](https://star-history.com) | Web | Free |
-| [GitHub API](https://docs.github.com/en/rest/activity/starring) | API | Free |
-| [OSS Insight](https://ossinsight.io) | Web | Free |
-
-More GitHub tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)
+The new baseline is what matters most. A spike that doesn't raise the baseline means the audience didn't retain. A spike that raises your baseline by 20 stars/day means your project's reach permanently expanded.
 
 ---
 
-## Related Resources
+## AFFiNE Star History: The Real Data
 
-- [Growth Tools Directory](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth
-- [Open Source Marketing Guide](https://github.com/Gingiris/gingiris-opensource) — 0 to 33k stars strategy
+Here's what our star history actually looked like:
+
+| Period | Stars | What Drove It |
+|--------|-------|--------------|
+| Day 1–3 (Aug 2022) | 0 → 1,000 | Reddit (r/selfhosted, r/opensource) + HN |
+| Day 5 | ~4,000 | GitHub Trending #1 All Languages |
+| Week 1 | 6,000 | Trending compounding + Product Hunt |
+| Week 2–4 | ~100/day baseline | Community engagement, follow-up content |
+| Month 2–6 | Steady 50–150/day | SEO content, awesome-list additions, PH relaunches |
+| Month 12 | 25,000 | Multiple HN posts, 28 Trending appearances |
+| Month 30 | 60,000+ | Sustained organic + content flywheel |
+
+**The key pattern:** Each Trending appearance raised our baseline by 10–20 stars/day. After 28 appearances over 5 months, our baseline was nearly self-sustaining.
+
+---
+
+## Star Benchmarks
+
+| Stars | What It Signals |
+|-------|-----------------|
+| 0–100 | Early stage, personal project |
+| 100–500 | Gaining traction, early adopters |
+| 500–1,000 | Legitimate project, worth trying |
+| 1,000–5,000 | Established, active community |
+| 5,000–10,000 | Well-known in the developer community |
+| 10,000–50,000 | Significant project, press covers it |
+| 50,000+ | Elite tier (React, Vue, TailwindCSS level) |
+
+For fundraising: 1,000+ organic stars is a meaningful signal. Investors check your star growth curve — a smooth, multi-country distribution is more credible than a single-week spike.
+
+---
+
+## Using Star Data for Decisions
+
+### As a maintainer
+
+- Identify which content/launches drive spikes → double down
+- Track competitor star velocity → find your benchmark
+- Set milestone alerts → use star milestones as PR moments ("We just hit 10K stars")
+
+### As an investor
+
+Stars indicate developer interest and marketing effectiveness — not user adoption. Look for:
+- Multi-country distribution (global vs. concentrated)
+- Organic growth pattern (not artificial spikes)
+- Correlation with forks, issues, contributors
+
+### As a user evaluating tools
+
+Before adopting an open source project:
+- Verify stars are still growing (not stagnant for 12+ months)
+- Check recent commit activity alongside star count
+- Compare trajectory with alternatives
+
+---
+
+## Common Mistakes in Star Analysis
+
+**Optimizing for total count, not velocity** — a 1,000-star repo growing 200/month is healthier than a 5,000-star repo growing 10/month.
+
+**Ignoring geography** — if 70%+ of stars come from one country in a concentrated burst, that's worth investigating.
+
+**Not tracking competitors** — star charts are public. Use them as competitive intelligence to learn what content drives spikes in your category.
+
+**Missing the baseline signal** — the spike gets attention, but the baseline rising after the spike is what tells you something permanently improved.
 
 ---
 
@@ -108,13 +162,9 @@ More GitHub tools → [Growth Tools Directory](https://gingiris.github.io/growth
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Star Growth Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
-| 📖 | [How to Get GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [How to Get More GitHub Stars: 0 to 60K](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [10 Proven Star Growth Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
-
-## Related Articles
-
-- [GitHub Star Growth: 10 Proven Tactics That Got Us 33k Stars](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
-- [GitHub README Best Practices: How to Write a README That Gets Stars](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
-
