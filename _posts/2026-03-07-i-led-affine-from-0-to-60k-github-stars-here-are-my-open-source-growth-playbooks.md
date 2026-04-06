@@ -4,101 +4,144 @@ title: "I Led AFFiNE from 0 to 60k GitHub Stars — Here Are My Open Source Grow
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 date: 2026-03-07
-description: " - 🚀 60,000+ GitHub stars - 🏆 30x Product Hunt 1 Daily - 🌍 Users in 200+ countries - 💰 $10M+ in funding After leaving AFFiNE in 2024, I de"
+description: "The real story behind AFFiNE's 0 to 60K GitHub stars — 43 days to 10K, 28 Trending appearances, 30x Product Hunt #1. Playbooks now open source."
 tags: [["opensource", "startup", "growth", "marketing"]]
 faq:
   - q: "How did AFFiNE get 60k GitHub stars?"
-    a: "AFFiNE grew to 60k GitHub stars through a combination of strategies: 30+ Product Hunt launches over 18 months, consistent community seeding in developer spaces (r/selfhosted, Discord servers, Hacker News), an open source distribution model that made evaluation frictionless, and investing heavily in contributor onboarding so contributors became the most active advocates."
+    a: "AFFiNE reached 60K GitHub stars through a coordinated launch strategy: English-only distribution in week one (to protect data integrity for investors), concentrated multi-channel launches that triggered GitHub Trending, 30+ Product Hunt campaigns over 18 months, and consistent weekly content that kept the baseline growing. The first 10K came in 43 days; the rest compounded over two and a half years."
   - q: "What is the best way to grow an open source project?"
-    a: "The highest-leverage tactics for open source growth: (1) Write a README that works as a product page — clear problem statement, compelling screenshots, instant setup. (2) Participate authentically in communities where your users are before promoting. (3) Launch repeatedly on Product Hunt — each launch reaches a new audience. (4) Invest in contributor experience — fast PR reviews, clear contribution guides, public recognition. Contributors become your best advocates."
+    a: "The highest-leverage tactics: (1) Concentrate your launch — Reddit, HN, Product Hunt, Twitter all within 48 hours to trigger GitHub Trending. (2) Protect your data integrity in week one — organic, global distribution is more valuable than raw numbers. (3) Shift to 1v1 user conversations after 1,000 stars. (4) Build a weekly content cadence that keeps the baseline star rate elevated between launch spikes."
   - q: "How long does it take to get 1,000 GitHub stars?"
-    a: "Timeline varies significantly by strategy. With active community seeding and a Product Hunt launch: 1-4 weeks. With organic growth only (no active distribution): 3-12 months. The fastest path is combining a compelling README, a coordinated launch day with 50-100 supporters, and immediate community participation in the first 48 hours."
+    a: "With active, coordinated distribution: days to a few weeks. AFFiNE hit 1,000 stars in 72 hours. Without active distribution: 3-12 months. The fastest path combines a compelling README, a coordinated 48-hour launch window, and genuine community participation."
 gumroad_url: "https://gingiris.gumroad.com/l/vhmkew"
 gumroad_title: "Open-Source Project Integrated Marketing Action Manual"
 gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含 Reddit、HN、GitHub 社区运营 SOP 和内容分发全流程。"
 ---
-
 
 - 🚀 **60,000+ GitHub stars**
 - 🏆 **30x Product Hunt #1 Daily**
 - 🌍 **Users in 200+ countries**
 - 💰 **$10M+ in funding**
 
-After leaving AFFiNE in 2024, I decided to open source everything I learned. No paywalls, no courses to sell — just free, battle-tested playbooks.
+I was COO at AFFiNE from launch through our Series A fundraise. I ran the growth operation that took us from 0 to 10,000 GitHub stars in 43 days, and from there to 60,000+ over two and a half years.
+
+In 2024, I left AFFiNE. Since then, I've been open sourcing everything I learned — the actual playbooks, not the cleaned-up retrospective version.
+
+---
+
+## The Story Behind the Numbers
+
+We launched AFFiNE in August 2022 with one week of preparation time. That's not a humblebrag — it was genuinely chaotic. We had a product, a GitHub repo, and a rough plan.
+
+The first decision I made that shaped everything: **no Chinese social media for the first week.** Not a single post.
+
+The reason was strategic. We were in the middle of fundraising. Sophisticated investors — especially US-based VCs — run scripts on your GitHub data. They check star velocity, geographic distribution, whether growth looks organic. If your first week of stars came predominantly from China, the read is: founders asked their friends and colleagues. Vanity metric, not signal.
+
+We needed the data to be clean. So we went English-only, overseas-first, and let Reddit, Hacker News, and Product Hunt do the work.
+
+**What happened:**
+- 72 hours: 1,000 stars
+- 7 days: 6,000 stars
+- Day 5: #1 on GitHub Trending All Languages
+- 43 days: 10,000 stars
+- Aug–Dec 2022: 28 appearances on GitHub Trending
+
+The star distribution in week one: ~19% China, ~20% US, 10-15% Europe. A genuine global spread that held up in diligence.
+
+---
+
+## What Changed After 6,000 Stars
+
+At 6,000 stars, we made a deliberate pivot.
+
+We stopped pushing. We started listening.
+
+Every user who had exchanged five or more messages with us — in Discord, on GitHub, via email — got a calendar invite for a 30-minute 1v1 call. No sales pitch. Just: "Tell us how you're using AFFiNE and what's broken."
+
+Those conversations were more valuable than any distribution tactic. They told us which features actually mattered, which user segments were most engaged, and what the real blockers to adoption were. That insight shaped the next six months of product development.
+
+The lesson: stars are a launchpad, not a destination. After you've validated that developers find your project interesting, the next job is figuring out which developers, and why.
+
+---
+
+## Product Hunt: A Campaign, Not a Launch
+
+We launched on Product Hunt 30+ times over 18 months and won daily #1 more than 20 times.
+
+Most founders think of Product Hunt as a one-time event. That's the wrong frame. PH is a campaign platform. Each launch reaches a new audience that hasn't seen you before. Major new features, version releases, different product angles — each one is a legitimate launch opportunity.
+
+The real value of Product Hunt is not the traffic (it drops 80-90% within 72 hours). It's the badge. "#1 on Product Hunt" on your README and website is social proof that converts skeptical visitors. It also attracts press and newsletter coverage that compounds over months.
+
+Weekly exposure multipliers: PH Weekly badge = 7x the exposure of a Daily badge. Monthly badge = 30x. If you have the momentum to chase weekly or monthly, it's worth it.
+
+---
 
 ## The Playbooks
 
-### 1. 🚀 [AI Product Launch Playbook](https://github.com/Gingiris/gingiris-launch)
+After leaving AFFiNE, I documented everything and open-sourced it. Four playbooks, all free:
 
-Everything you need to launch a product globally:
+### 1. [AI Product Launch Playbook](https://github.com/Gingiris/gingiris-launch)
 
-- **Product Hunt SOPs** — The exact process that got us 30x #1 rankings
-- **KOL Outreach Templates** — How to get influencers to talk about you
-- **Reddit & HackerNews Strategies** — Community marketing that actually works
-- **UGC Growth Tactics** — Scaling through user-generated content
+The exact process behind 30+ Product Hunt launches and our GitHub growth campaigns:
 
-### 2. 💼 [B2B SaaS Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)
+- **Product Hunt SOPs** — Hunter selection, upvote velocity management, first maker comment templates
+- **KOL Outreach Templates** — How to find, qualify, and brief influencers (with pricing benchmarks)
+- **Reddit & HackerNews Strategies** — Community seeding that doesn't get you banned
+- **Launch Window Optimization** — When to launch, how to concentrate multi-channel pushes
 
-From PMF to ecosystem growth:
+### 2. [B2B SaaS Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)
 
-- **PMF Validation Framework** — How to know you've found product-market fit
-- **PLG vs SLG Strategies** — When to use which approach
-- **Real Case Studies** — HeyGen, Deel, Vercel, Supabase breakdowns
-- **Affiliate & Channel Partnerships** — Building a growth ecosystem
+For open source projects with a commercial layer:
 
-### 3. 🌟 [Open Source Launch Marketing](https://github.com/Gingiris/gingiris-opensource)
+- **PMF Validation Framework** — The signals that tell you you've found fit
+- **PLG vs SLG Strategies** — When to switch from product-led to sales-led
+- **Outbound Templates** — Cold outreach that converts without being spammy
+- **Channel Attribution** — How to know which distribution actually drives revenue
 
-GitHub-specific growth strategies:
+### 3. [Open Source Launch Marketing](https://github.com/Gingiris/gingiris-opensource)
 
-- **Star Growth Tactics** — Ethical ways to grow your star count
-- **Developer Community Building** — Creating engaged contributors
-- **HackerNews Launch Guide** — Timing and positioning for HN
-- **Community Distribution Channels** — Where to share your OSS project
+GitHub-specific growth from 0 to 10K stars:
 
-### 4. 📱 [ASO & App Cold Start](https://github.com/Gingiris/gingiris-aso-growth)
+- **Star Growth Tactics** — The coordinated launch sequence that triggered Trending
+- **Community Building SOP** — Discord onboarding, contributor programs, community calls
+- **Awesome List Strategy** — How to get listed (and why Chinese awesome-lists have higher acceptance rates)
+- **Content Distribution** — The weekly cadence that keeps baseline growth elevated
 
-Mobile app growth strategies:
+### 4. [ASO & App Cold Start](https://github.com/Gingiris/gingiris-aso-growth)
 
-- **App Store Optimization** — Keywords, screenshots, descriptions
-- **UGC Creator Operations** — Building a creator network
-- **Multi-Platform Content Strategy** — TikTok, Instagram, YouTube Shorts
-- **AI Matrix Accounts** — Scaling content with AI
+Mobile app growth for founders adding a mobile layer:
+
+- **App Store Optimization** — Keywords, screenshots, A/B test methodology
+- **UGC Creator Operations** — Building a creator network on a startup budget
+- **Multi-Platform Content** — TikTok, Instagram, YouTube Shorts distribution
+
+---
 
 ## Why I'm Sharing This
 
-When I started, I couldn't find practical, actionable guides for global product launches. Everything was either too theoretical or locked behind expensive courses.
+When I started at AFFiNE, the playbooks I needed didn't exist. Everything was either too theoretical or locked behind expensive courses.
 
-These playbooks are what I wish I had when I started. They're messy, opinionated, and based on real failures and successes.
+I made real mistakes — some that cost us months of momentum, a few that I'd rather not repeat. These playbooks document both: what worked, and what I'd do differently.
 
-## How to Use Them
+If you're building an open source project and trying to figure out global distribution, I hope these save you the time it took me to learn it.
 
-1. **Star the repos** if you find them useful (helps others discover them)
-2. **Pick one playbook** that matches your current challenge
-3. **Adapt, don't copy** — every product is different
-4. **Contribute back** — PRs and issues welcome!
+---
 
 ## Let's Connect
 
-I do consulting for startups going global. If you're working on something interesting:
+I do consulting for AI and open source startups going global. If you're working on something interesting:
 
-- 💬 Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
 - 🐦 Twitter: [@AFFiNE_iris](https://twitter.com/AFFiNE_iris)
+- 📬 Email: iris.wei@gingiris.com
 
----
-
-**What's your biggest challenge with product launches or growth?** Drop a comment — I read everything and try to help where I can.
-
----
-
-*All playbooks are MIT licensed. Use them however you want.*
+Drop a comment below with your biggest challenge — I read everything.
 
 ---
 
 ## Further Reading
 
-- [Word of Mouth Marketing: How to Engineer Organic Growth](https://gingiris.github.io/growth-tools/blog/2026/04/word-of-mouth-marketing/)
-- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/growth-hacking-for-startups/)
-- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
-- [How to Get More GitHub Stars: 33K Case Study](https://gingiris.github.io/growth-tools/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Developer Marketing: How to Reach Technical Audiences](https://gingiris.github.io/growth-tools/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
-- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/open-source-marketing-the-complete-guide/)
+- [How We Grew AFFiNE from 0 to 60K Stars: The Full Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [GitHub Star Growth: 10 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
+- [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide/)

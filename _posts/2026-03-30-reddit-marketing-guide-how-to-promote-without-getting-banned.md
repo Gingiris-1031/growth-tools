@@ -4,37 +4,47 @@ title: "Reddit Marketing Guide: How to Promote Without Getting Banned"
 date: 2026-03-30
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-reddit-marketing.jpg"
-description: "How to promote on Reddit without getting banned. Community-first strategy, subreddit rules, soft-sell content techniques, and real-world examples."
+description: "How to promote on Reddit without getting banned — real data from AFFiNE's open source launch. 80–100K impressions, 5–8% star conversion, and the account-building approach that made it work."
 faq:
   - q: "Is Reddit marketing effective for SaaS?"
-    a: "Yes, when done correctly. Reddit has 73M daily active users with topic-specific communities. A single well-received post in the right subreddit can drive thousands of targeted visitors. The key is being genuinely helpful, not promotional."
+    a: "Yes, when done correctly. Reddit has 73M daily active users with topic-specific communities. For open source tools, a well-received post in r/selfhosted or r/opensource can drive 5–8% star conversion from impressions. For SaaS launches, expect lower conversion (~1%) but still meaningful volume. The key is being a genuine community member before you ever mention your product."
   - q: "How do you promote on Reddit without getting banned?"
-    a: "Follow the 9:1 rule — contribute 9 genuine comments/posts for every 1 promotional mention. Read each subreddit's rules before posting. Never use link shorteners. Don't post the same content in multiple subs simultaneously."
-  - q: "What subreddits are best for SaaS marketing?"
-    a: "r/SaaS, r/startups, r/Entrepreneur, r/indiehackers, and niche subreddits specific to your product category. For developer tools: r/programming, r/webdev, r/devops. Always check rules first."
+    a: "Build karma first — get to at least 80 karma before posting anything promotional. The fastest legitimate path: post cat or dog photos on r/catpics or r/dogpictures, you can reach 200 karma in a day. Then lurk in your target subreddits for 1–2 weeks, commenting helpfully. When you post your product, write it like you're explaining something to a colleague, not marketing to a customer."
+  - q: "What subreddits are best for open source / developer tools?"
+    a: "r/selfhosted, r/opensource, r/coolgithubprojects, r/github for open source. r/SaaS, r/SideProject, r/indiehackers for startup launches. r/PKMS, r/productivity for productivity tools. r/programming for broad developer reach. Always search the subreddit first to find posts that weren't removed — that format works."
   - q: "Can you automate Reddit marketing?"
-    a: "Partially. You can use tools to schedule posts and monitor mentions. But automated commenting and engagement is against Reddit's ToS and gets detected quickly. Real community participation cannot be automated."
+    a: "Partially. You can schedule posts. But automated commenting and engagement is against Reddit's ToS and gets detected. Real community participation cannot be automated — and it's the participation that makes the promotion work. A genuine account with history converts; a fresh account with a product link gets banned."
   - q: "How do you find the right subreddit for your product?"
-    a: "Use Reddit Search, SubredditStats, or the Reddit List tool. Search for keywords your users would use, check post frequency and engagement quality, verify the community isn't dead or bot-heavy."
+    a: "Search Reddit for the problem your product solves, not the product itself. The communities where people discuss the problem are your communities. Also search for competitors — subreddits where competitors have been well-received are likely good fits for you too."
 ---
 ## TL;DR
 
-- Reddit has 73M daily active users — it's where early adopters make decisions
-- Reddit hates self-promotion but rewards genuine value: follow the 9:1 rule
-- Find your subreddits first, lurk 2 weeks before posting anything
-- 80% give value, 20% soft-sell — never hard sell
-- Best posting time: 6–8 AM PST Tuesday–Thursday for US audiences
-- AFFiNE hit the front page of r/programming with 2,000+ upvotes using this exact approach
+- Reddit drove 80–100K impressions and 2,000+ GitHub stars for AFFiNE's open source launch
+- The same product on a Product Hunt launch: 30–40K impressions, ~1% upvote conversion
+- Open source developer tools convert significantly better on Reddit than SaaS launches
+- Account karma matters: build to 80+ before any promotional posts
+- Lurk in your target subreddits for 1–2 weeks first — understand what format doesn't get removed
 
 ---
 
-## Why Reddit Marketing Matters
+## The Real Numbers First
 
-Reddit has 1.7 billion monthly visits. It's where early adopters hang out, decisions get influenced, and products go viral overnight.
+During AFFiNE's open source launch in August 2022, Reddit was our single biggest distribution channel.
 
-But here's the catch: **Reddit users hate marketers.** Post the wrong way and you'll get banned, downvoted to oblivion, or worse — your brand becomes a meme for all the wrong reasons.
+**Open source launch (AFFiNE):**
+- Total Reddit impressions: 80–100K
+- Star conversion rate: 5–8%
+- Stars driven: 2,000+ cumulative in month one
 
-I've used Reddit to help grow AFFiNE from 0 to 33k GitHub stars and launch 30+ products to Product Hunt #1. Here's what actually works.
+**Product Hunt launch (same product, different campaign):**
+- Total Reddit impressions: 30–40K
+- Upvote conversion rate: ~1%
+
+The difference matters. Open source developer tools convert significantly better on Reddit because the audience is actively looking for useful tools to try. SaaS launches feel more promotional. If you're launching an open source project, Reddit should be your first channel. If you're launching a SaaS, Reddit is still worth it — but set realistic expectations.
+
+Reddit has 1.7 billion monthly visits and 73M daily active users. It's where early adopters discover tools, where developer decisions get influenced, and where products go viral overnight. It's also where the most aggressive spam detection in social media lives.
+
+**Reddit users hate marketers.** Post the wrong way and you'll get banned, downvoted to oblivion, and your brand becomes a cautionary tale. Here's what actually works — based on running these campaigns at AFFiNE and for 150+ AI startups since.
 
 ---
 

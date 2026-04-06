@@ -4,315 +4,228 @@ title: "Product Hunt Launch Playbook: The Definitive Guide (30x #1 Winner)"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
-description: "The complete Product Hunt launch playbook from a 30x #1 winner. Strategy, tactics, 6-week timeline, and real examples from AFFiNE's launch history."
+description: "30x Product Hunt #1 daily, 10x weekly top 3, 1x monthly #1. The real mechanics behind winning — upvote velocity, hunter selection, vote quality, post-launch conversion."
 faq:
   - q: "How do you get #1 on Product Hunt?"
-    a: "The factors that most influence a #1 finish: (1) Launch day preparation — have 100+ supporters ready to upvote in the first 2 hours. (2) Hunter selection — a hunter with 5k+ followers gives you initial visibility. (3) Active engagement — comment on every comment, respond to every question throughout the day. (4) Gallery assets — high-quality screenshots and a demo GIF/video significantly increase conversion from viewers to upvoters. (5) Community — your existing newsletter, Twitter, and community are your biggest asset on launch day."
+    a: "The factors that most influence a #1 finish: (1) Upvote velocity — PH clears fake or low-weight votes every ~2 hours, so keep your rate under 100/hour from diverse IPs. (2) Account age — votes from accounts registered 6+ months ago carry significantly more weight. (3) Launch timing — 2nd or 3rd week of month, Tuesday, 12:01 AM PT gives you the full 24-hour window. (4) Engagement — comments and responses signal authenticity to the algorithm. (5) Hunter credibility — a gold-badge hunter gets you featured faster."
   - q: "How do you prepare for a Product Hunt launch?"
-    a: "Product Hunt launch preparation timeline: T-4 weeks: finalize product, write tagline and description, prepare gallery assets. T-2 weeks: select hunter, recruit upvote supporters, prepare email and social announcements. T-1 week: schedule all communications, brief your team, prepare response templates for comments. T-1 day: send reminder to supporters, queue all scheduled posts. Launch day: post at 12:01 AM PT, send notifications, monitor and engage all day."
+    a: "6-week prep: T-6 weeks — set up coming soon page. T-4 weeks — select hunter, start LinkedIn DM outreach. T-2 weeks — prepare all assets, brief your community. T-1 week — send notify page to supporters, begin Reddit seeding. Launch day — post 12:01 AM PT, notify community, engage every comment, keep upvote velocity under 100/hour."
   - q: "Should you launch on Product Hunt if you're pre-launch?"
-    a: "Yes — a pre-launch 'coming soon' page on Product Hunt builds followers who get notified on launch day. This is free future audience building. For the actual product launch, wait until you have at least an MVP that works end-to-end. Product Hunt voters expect to be able to try the product immediately. Launching a non-functional product wastes your one high-impact launch window."
+    a: "Set up a coming soon page immediately — it's free future audience. Collect people who click 'Notify Me'; they receive a push notification on launch day. Start building this list weeks in advance. For the actual product launch, wait until you have a working MVP. PH voters expect to try the product immediately."
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
 gumroad_title: "Product Hunt Launch Action Guide"
 gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
 ---
-# Product Hunt Launch Playbook: The Definitive Guide
 
-I've launched on Product Hunt **30+ times** and won #1 Daily on 30 of them. This isn't another generic guide — it's the exact playbook we used at AFFiNE to get 33,000 GitHub stars.
+## My Track Record
 
-## What You'll Learn
+Before I share any tactics, you should know what this is based on:
 
-This guide consolidates everything I've written about Product Hunt launches into one resource:
+- **30x Product Hunt #1 Daily**
+- **10x PH Weekly Top 3**
+- **2x PH Monthly Top 5 (including 1x Monthly #1)**
+- Coached 30+ teams to their own daily #1 finishes
 
-| Topic | What's Covered |
-|-------|----------------|
-| **Strategy** | Why PH matters, setting goals, timing |
-| **Preparation** | 6-week timeline, assets, community |
-| **Launch Day** | Hour-by-hour tactics |
-| **Conversion** | Turning traffic into users |
-| **Open Source** | Special tactics for OSS projects |
+This guide was first written after AFFiNE's February 2024 launch. It's been updated with everything learned since.
 
 ---
 
-## Part 1: Strategy Foundation
+## The One Thing Most Guides Get Wrong
 
-### Why Product Hunt Still Matters in 2026
+Most Product Hunt guides focus on upvote count. That's the wrong metric to optimize for.
 
-Product Hunt isn't a growth channel — it's a **validation and momentum accelerator**.
+PH runs an automatic vote-clearing system every ~2 hours. It removes upvotes from:
+- Newly registered accounts
+- Low-engagement accounts
+- Accounts from the same IP region (if too many vote in a short window)
+- Votes that look like a coordinated spike
 
-The real value:
-- 🎯 **Targeted audience**: Early adopters actively seeking new tools
-- 📧 **Email capture opportunity**: 1,000-3,000 leads from a #1 launch
-- 🔗 **Backlinks & PR**: Featured in newsletters, picked up by media
-- ✅ **Social proof**: "#1 on Product Hunt" badge has weight
+I've personally watched products lose 90 votes in a single clearing cycle. I've seen products get disqualified from the leaderboard entirely. In 2024, PH tightened the rules further — one clearing cycle removed 300 upvotes from a single product in a day.
 
-What PH is NOT:
-- ❌ A sustainable customer acquisition channel
-- ❌ A place for "finished" products (early adopters want to discover)
-- ❌ Something you can game with fake votes
+**What this means:** raw upvote count is not what PH ranks you on. It's the *quality-weighted* upvote count after clearing.
 
-> **Deep dive**: [Product Hunt Launch Strategy: From Zero to #1 Daily](https://dev.to/iris1031/product-hunt-launch-strategy-from-zero-to-1-daily-18j9)
-
-### Setting the Right Goals
-
-**Stop optimizing for upvotes.** Upvotes are vanity metrics.
-
-Your real KPIs:
-1. **Email signups** (target: 1,000+)
-2. **Quality comments** (engagement signals)
-3. **Conversion rate** (visitors → signups)
-
-| Launch Result | Expected Traffic | Realistic Email Capture |
-|---------------|------------------|------------------------|
-| Top 10 | 2,000-3,000 | 200-400 |
-| Top 5 | 5,000-7,000 | 500-800 |
-| #1 Daily | 10,000+ | 1,000-3,000 |
+The implication for strategy: every tactic that chases cheap upvotes from low-quality accounts is fighting the algorithm. Every tactic that builds genuine relationships with high-quality accounts works *with* the algorithm.
 
 ---
 
-## Part 2: The 6-Week Preparation Timeline
+## Part 1: The Badge Economics
 
-### Week 1-2: Foundation
+### Why you're actually doing this
 
-**Build your seed audience first.** This is the #1 mistake founders make.
+Paid conversion on PH mostly happens *after* you have a badge, not during the launch.
 
-You need **400+ supporters** before launch:
-- Newsletter subscribers
-- Twitter followers who engage
-- Community members you've helped
-- Beta users
+The badge ("Product of the Day," "Product of the Week," etc.) is social proof that persists. Embed it on your landing page, put it in your GitHub README, include it in your email signature. Every visitor who sees it is implicitly told: other people evaluated this and vouched for it.
 
-**Actions:**
-- [ ] Audit your existing audience
-- [ ] Start a "launching soon" waitlist
-- [ ] Join 3-5 adjacent communities (Indie Hackers, relevant subreddits)
+**Exposure multipliers:**
+- PH homepage shows yesterday's Daily winner, last week's Weekly winner, last month's Monthly winner
+- Weekly badge exposure ≈ 7× Daily badge exposure
+- Monthly badge exposure ≈ 30× Daily badge exposure
 
-### Week 3-4: Community Building
+If you have the momentum to chase Weekly or Monthly, the compounding exposure is worth the effort.
 
-**Product Hunt amplifies momentum. It doesn't create it.**
-
-Spend these weeks:
-- Helping others in startup communities
-- Sharing genuine value (not promoting)
-- Building relationships with potential supporters
-
-> **Checklist**: [Startup Launch Checklist: 47 Tasks Before, During & After Launch Day](https://dev.to/iris1031/startup-launch-checklist-47-tasks-before-during-after-launch-day-9md)
-
-### Week 5: Asset Preparation
-
-**Your PH listing:**
-- Tagline: < 60 characters, benefit-focused
-- Description: Problem → Solution → Proof
-- Images: 4-6 high-quality screenshots or GIFs
-- First comment: Your maker story (draft it now)
-
-**Your website:**
-- Clear CTA above the fold
-- Email capture form ready
-- Fast loading (< 2s)
-- Mobile optimized
-
-### Week 6: Final Prep
-
-- [ ] Schedule launch for Tuesday-Thursday
-- [ ] Brief your supporters (but don't ask for votes yet)
-- [ ] Test all links and forms
-- [ ] Prepare email automation for new signups
-- [ ] Write social media posts for launch day
+**Only the top 5 get a badge.** There is no participation trophy.
 
 ---
 
-## Part 3: Launch Day Execution
+## Part 2: Launch Timing
 
-### Timing
+### For monthly badge hunters
 
-Launch at **12:01 AM Pacific Time** to get the full 24-hour window.
+Launch in the **2nd or 3rd week of the month, on a Tuesday.**
 
-**Best days**: Tuesday, Wednesday, Thursday
-**Avoid**: Monday (high competition), Friday (low traffic), Weekends
+Why:
+- Avoids week-1 competition (experienced teams often launch on Mondays of week 1)
+- Weekly badge window spans a full Mon–Sun, so a Tuesday launch captures most of it
+- Wednesday and Thursday also work; Friday–Sunday if you only want daily #1 (lower competition)
 
-### The First Hour (Critical)
+Spend time watching [hunted.space](https://hunted.space) for 2–4 weeks before your launch. You can see the daily high-vote trend for the past 10 days. That tells you what target you're actually aiming for.
 
-1. **Post your maker comment immediately** — Tell your story, not your features
-2. **Notify seed audience** — "We just launched, would love your feedback"
-3. **Start responding to comments** — Every single one
+### For daily badge only
 
-### The Quality Algorithm
-
-Product Hunt's ranking isn't just about vote count. It weighs:
-
-| Factor | Weight | What It Means |
-|--------|--------|---------------|
-| Account age | High | Votes from 6+ month accounts matter more |
-| Engagement | High | Comments and time-on-page |
-| Authenticity | High | Natural traffic patterns |
-| Vote velocity | Medium | Steady growth, not spikes |
-
-**What gets you penalized:**
-- ❌ Mass votes from new accounts
-- ❌ Vote exchange groups
-- ❌ Asking people to "upvote" (ask for "feedback" instead)
-
-> **Tactics deep dive**: [Product Hunt Launch: 7 Tactics That Got Us #1 (30 Times)](https://dev.to/iris1031/product-hunt-launch-7-tactics-that-got-us-1-30-times-2gn)
-
-### Hour-by-Hour Checklist
-
-**Hours 1-4** (12am-4am PT):
-- Post maker comment
-- Notify core supporters
-- Respond to early comments
-
-**Hours 5-12** (4am-12pm PT):
-- Monitor ranking
-- Continue engaging
-- Share on social (not asking for votes)
-- Brief supporters in different time zones
-
-**Hours 13-20** (12pm-8pm PT):
-- Peak traffic time
-- Maximum engagement
-- Update maker comment if needed
-
-**Hours 21-24** (8pm-12am PT):
-- Final push
-- Thank supporters
-- Plan post-launch follow-up
+**Friday, Saturday, Sunday** — fewer featured products, lower competition threshold.
 
 ---
 
-## Part 4: Converting Traffic
+## Part 3: Hunter Selection
 
-### Email Capture Strategy
+The hunter matters less than most people think — and more than most people think, in different ways.
 
-**Offer something valuable in exchange for email:**
-- Free template or resource
-- Early access to new features
-- Exclusive community access
-- Launch discount
+What a hunter *does* give you:
+- **Immediate feature placement** — gold-badge hunters get their launches featured faster (skipping the queue)
+- **Brand association** — established hunters lend credibility
+- **Notifications** — hunters with large followings send auto-notifications to their followers
 
-**Landing page formula:**
-```plaintext
-Headline: Clear benefit
-Subhead: How you deliver it
-Social proof: Logos, numbers, testimonials
-CTA: Single, clear action (email signup)
-```
+What a hunter *doesn't* give you:
+- Upvotes (most hunters don't actively campaign for you)
+- Sustained engagement
+- LinkedIn or Twitter amplification (unless you negotiate this explicitly)
 
-### Post-Launch Email Sequence
-
-Set this up BEFORE launch:
-
-| Email | Timing | Content |
-|-------|--------|---------|
-| 1 | Immediate | Welcome + immediate value |
-| 2 | Day 2 | Product walkthrough |
-| 3 | Day 4 | Case study / social proof |
-| 4 | Day 7 | Limited offer |
-| 5 | Day 10 | Final CTA |
+**Practical advice:** Find a hunter with a gold badge who will at minimum write an authentic first comment on your launch. Negotiate in writing what they'll do on launch day. Most hunters are open to discussing terms; some charge for their time.
 
 ---
 
-## Part 5: Open Source Special Tactics
+## Part 4: Building Your Upvote Base
 
-If you're launching an open source project, the game is different.
+### The quality hierarchy
 
-### GitHub Stars as Secondary KPI
+Not all upvotes are equal. Rough quality ranking:
 
-For OSS, track both:
-1. Email signups (primary)
-2. GitHub stars (secondary)
+1. **Accounts 6+ months old with prior engagement** — highest weight, rarely cleared
+2. **Accounts 2–6 months old** — medium weight
+3. **New accounts (< 2 months)** — often cleared, especially if many vote simultaneously
+4. **Accounts from same IP range** — high clearing risk
 
-Stars provide:
-- Credibility for future fundraising
-- Community validation
-- Contributor attraction
+The implication: start building relationships with high-quality accounts weeks before launch. Communities where these accounts are active:
 
-> **OSS-specific guide**: [Product Hunt for Open Source: The Step-by-Step Playbook](https://dev.to/iris1031/product-hunt-for-open-source-the-step-by-step-playbook-1ab9)
+**Telegram groups**: Members tend to be active PH participants with aged accounts. One-on-one DMs from these groups convert better than group announcements.
 
-### Combining PH + GitHub Growth
+**LinkedIn groups (PH-adjacent)**: Response rate to DMs can reach 60%. Filter to founders, makers, and core team members — they're most likely to have active PH accounts and will actually use your product. Avoid generic tech KOLs who have no interest in your product category.
 
-The AFFiNE playbook:
-1. Launch on PH → Drive traffic to GitHub
-2. Hit GitHub Trending → More organic stars
-3. Leverage stars for press/community building
-4. Repeat with new features
+**WeChat startup groups** (for teams with Chinese networks): High conversion rate for DMs. The key is doing it personally — one message at a time, not a group blast.
 
-> **GitHub growth deep dive**: [How I Got 33K GitHub Stars: The Complete Marketing Playbook](https://dev.to/iris1031/how-i-got-33k-github-stars-the-complete-marketing-playbook-529)
+**Velocity rule:** Keep incoming upvotes under 100 per hour, and ensure geographic diversity within each hour. If 80 of your first 100 votes come from the same city in the same 30 minutes, expect the clearing algorithm to flag them.
 
-### The Cold Start Problem
+### Organic distribution that actually works
 
-Getting your first 1,000 stars is the hardest part.
+**Reddit**: For the AFFiNE PH launch, Reddit drove 3–4K impressions and ~1% upvote conversion. For the open source launch on the same product, Reddit drove 80–100K impressions and 5–8% star conversion. The difference: the PH launch audience is more jaded to promotional content.
 
-**Phase 1 (0-100 stars)**: Your personal network
-**Phase 2 (100-1,000 stars)**: Content + communities
-**Phase 3 (1,000+ stars)**: Organic + viral moments
+The Reddit approach that works: be an existing community member, not a one-day guest. Post in r/SaaS, r/SideProject, r/indiehackers, and niche subreddits where your users already hang out. Lead with your story, not your upvote ask.
 
-> **Cold start tactics**: [The Cold Start Problem for GitHub Projects: How to Get Your First 1,000 Stars](https://dev.to/iris1031/the-cold-start-problem-for-github-projects-how-to-get-your-first-1000-stars-31c9)
+**LinkedIn DM**: The highest-ROI channel per hour of effort. With 3 people DMing full-time on launch day, you can generate 200–300 quality upvotes. Use a tool for scale but personalize the opener — copy-paste messages don't convert.
 
 ---
 
-## Part 6: After the Launch
+## Part 5: Launch Day Execution
 
-### Day 2-7: Follow Up
+### 12:01 AM PT — what to do in the first hour
 
-- [ ] Send thank you messages to top engagers
-- [ ] Reply to any unanswered comments
-- [ ] Share launch results on social
-- [ ] Start nurturing email list
+1. **Post your maker comment** — Write this 48 hours in advance. Tell your story, not your feature list. What problem did you personally face? Why did you build this? What's one thing you want feedback on?
+2. **Notify your coming soon subscribers** — They already opted in; this is the warmest list you have
+3. **Send your briefed supporters a message** — Keep it simple: "We just launched — would love your thoughts"
+4. **Respond to every comment as it comes in** — Early engagement signals authenticity to PH's algorithm
 
-### Week 2-4: Capitalize
+### Velocity management throughout the day
 
-- [ ] Reach out to people who showed interest
-- [ ] Write a "lessons learned" post
-- [ ] Plan your next launch (yes, you can launch again)
+Monitor [hunted.space](https://hunted.space) throughout the day. You can see real-time vote counts and whether the clearing algorithm is running. If you see a sudden drop, it's the system doing its job — don't panic, don't compensate by pushing more low-quality votes.
 
-### Long Term
+Spread your outreach across time zones:
+- 12:01–4 AM PT: core team + early-rising supporters
+- 4–10 AM PT: European contacts
+- 10 AM–4 PM PT: US peak hours (highest traffic on PH)
+- 4–10 PM PT: final push
 
-Product Hunt isn't one-and-done. You can launch:
-- Major new features
-- V2 or rebrand
-- Different product angles
+### What to ask for (and what not to ask for)
 
-We launched AFFiNE multiple times over 18 months.
+**Ask for:** "We just launched on PH — would love your honest feedback."
 
----
-
-## Complete Resource Library
-
-I've written extensively about each part of this process:
-
-### Product Hunt
-- [Product Hunt Launch: The Complete 2026 Playbook for #1](https://dev.to/iris1031/product-hunt-launch-the-complete-2026-playbook-for-1-39ai)
-- [Product Hunt Launch: 7 Tactics That Got Us #1 (30 Times)](https://dev.to/iris1031/product-hunt-launch-7-tactics-that-got-us-1-30-times-2gn)
-- [Product Hunt Launch Strategy: From Zero to #1 Daily](https://dev.to/iris1031/product-hunt-launch-strategy-from-zero-to-1-daily-18j9)
-- [Product Hunt for Open Source: The Step-by-Step Playbook](https://dev.to/iris1031/product-hunt-for-open-source-the-step-by-step-playbook-1ab9)
-
-### GitHub Stars
-- [How I Got 33K GitHub Stars: The Complete Marketing Playbook](https://dev.to/iris1031/how-i-got-33k-github-stars-the-complete-marketing-playbook-529)
-- [GitHub Star Growth: 7 Proven Tactics That Got Us 33k Stars](https://dev.to/iris1031/github-star-growth-7-proven-tactics-that-got-us-33k-stars-57f)
-- [The Cold Start Problem for GitHub Projects](https://dev.to/iris1031/the-cold-start-problem-for-github-projects-how-to-get-your-first-1000-stars-31c9)
-- [GitHub Repo Promotion: 15 Channels That Actually Drive Stars](https://dev.to/iris1031/github-repo-promotion-15-channels-that-actually-drive-stars-1f18)
-
-### General Launch
-- [Startup Launch Checklist: 47 Tasks](https://dev.to/iris1031/startup-launch-checklist-47-tasks-before-during-after-launch-day-9md)
-- [Open Source Launch Checklist: 127 Tasks](https://dev.to/iris1031/open-source-launch-checklist-127-tasks-for-a-successful-release-325a)
-- [Developer Marketing Playbook](https://dev.to/iris1031/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026-3lbf)
+**Don't ask for:** "Please upvote us." PH's terms prohibit explicit upvote solicitation, and the phrasing also converts worse — people are more likely to act when asked for something they can give (feedback) rather than something that feels like a favor (a vote).
 
 ---
 
-## Key Takeaways
+## Part 6: Post-Launch Conversion
 
-1. **Prepare 6 weeks ahead** — PH amplifies momentum, doesn't create it
-2. **Focus on email capture** — Upvotes are vanity, emails are value
-3. **Quality > Quantity** — 100 engaged users beat 1,000 random votes
-4. **Engage authentically** — Respond to every comment
-5. **Plan for multiple launches** — It's a campaign, not a one-time event
+### The 72-hour cliff
+
+Traffic drops 80–90% within 72 hours of launch. This is normal. It is not a reason to panic. It is a reason to have your follow-up plan ready before launch day.
+
+**The day-of capture:**
+- Embed your PH vote button on your homepage so traffic from KOLs and social media flows back to PH
+- Have an email capture on your landing page with a clear value offer ("Get the launch resources" / "Join X founders already using this")
+
+**The post-launch sequence:**
+- Day 1: Thank you + launch recap + what's next
+- Day 3: Tutorial / quick-start guide for new signups
+- Day 7: Case study or early user win
+- Day 14: Early access or discount for active users
+
+### Badge placement
+
+Once you have a badge, use it everywhere:
+- GitHub README (drives star conversion from developer traffic)
+- Landing page hero section (drives signup from cold visitors)
+- Email footer (drives word-of-mouth from existing users)
+- Pitch deck (signals traction to investors)
+
+---
+
+## Part 7: Multi-Launch Strategy
+
+We launched AFFiNE on Product Hunt 30+ times over 18 months. This is not a strategy most guides recommend. Here's why it works:
+
+- Each major feature release is a legitimate new launch
+- Each launch reaches PH's daily audience, most of whom have never seen you
+- Repeated badge accumulation compounds social proof
+- The second and third launches are easier — you already have warm supporters and a practiced team
+
+The playbook: treat every significant product update as a potential PH moment. Set a threshold ("if this ships X, we launch"). Don't launch for every minor update, but don't save your launches for "the perfect moment" either.
+
+---
+
+## The Budget Question
+
+**If your budget is under $5K, skip the paid channels and invest in LinkedIn DMs.**
+
+Same budget: 10 Twitter KOLs at $200 each = 10 posts that fade in 48 hours. The same $2K spent on a dedicated DM operation (3 interns for one week) = 300–500 quality upvotes from real accounts who actually tried your product.
+
+PH is worth fighting for because of the badge and the downstream conversion. But the highest-ROI path to a #1 finish is high-quality personal outreach, not paid distribution.
+
+---
+
+## Summary
+
+1. **Optimize for vote quality, not volume** — the clearing algorithm will punish you otherwise
+2. **Keep velocity under 100/hour** from geographically diverse sources
+3. **Launch 2nd or 3rd week, Tuesday** for the best Weekly badge shot
+4. **Build relationships with high-quality PH accounts** weeks before launch
+5. **LinkedIn DM converts best** — 60% response rate, minimal ban risk
+6. **The badge is the product** — use it everywhere, for months after launch
+7. **Multi-launch is a strategy** — each major feature is a legitimate launch moment
 
 ---
 
 ## Free Resources
 
-📘 **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)** — Full open-source guide with templates
+📘 **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)** — Full templates and SOPs
 
 📗 **[Gingiris Open Source Marketing](https://github.com/Gingiris/gingiris-opensource)** — OSS-specific tactics
 
@@ -320,21 +233,13 @@ I've written extensively about each part of this process:
 
 ---
 
-*Questions? Drop a comment below or find me on Twitter [@iris_carrot](https://twitter.com/iris_carrot).*
-
----
-
 ## 📚 Related Reading
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Launch on Product Hunt](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [After Product Hunt: 7 Ways to Keep the Momentum](https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
+| 📖 | [How to Launch on Product Hunt: Step-by-Step](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [AFFiNE GitHub Stars: 0 to 60K Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
-
-## Related Articles
-
-- [Startup Launch Checklist: 47 Tasks Before, During & After Launch Day](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/)
-- [How I Led AFFiNE from 0 to 60k GitHub Stars: Open Source Growth Playbooks](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/)
-
