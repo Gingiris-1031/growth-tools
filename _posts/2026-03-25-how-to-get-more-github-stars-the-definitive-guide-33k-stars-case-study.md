@@ -18,6 +18,21 @@ faq:
     a: "Coordinate your push: publish content, notify your community, post on Reddit and HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier to hit than All Languages. AFFiNE hit Trending on day five of our open source launch by concentrating all distribution into one window."
 ---
 
+
+## Key Stats
+
+| Metric | Data |
+|--------|------|
+| AFFiNE GitHub stars | 60,000+ |
+| Time to 1,000 stars | 72 hours |
+| Time to 10,000 stars | 43 days |
+| GitHub Trending appearances (5 months) | 28× |
+| Reddit star conversion (open source launch) | 5–8% |
+| Stars from Reddit (month 1) | 2,000+ |
+| Overseas user share | ~80% |
+
+---
+
 ## TL;DR
 
 - We had one week to prepare. No grand strategy, just focused execution.

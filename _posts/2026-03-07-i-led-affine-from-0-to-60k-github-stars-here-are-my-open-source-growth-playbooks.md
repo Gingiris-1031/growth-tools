@@ -23,6 +23,17 @@ gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含
 - 🌍 **Users in 200+ countries**
 - 💰 **$10M+ in funding**
 
+## Key Stats
+
+| Metric | Data |
+|--------|------|
+| AFFiNE GitHub stars | 60,000+ |
+| Product Hunt #1 Daily wins | 30× |
+| Countries with AFFiNE users | 200+ |
+| Funding raised | $10M+ |
+| Time to 10,000 stars | 43 days |
+| GitHub Trending appearances | 28× |
+
 I was COO at AFFiNE from launch through our Series A fundraise. I ran the growth operation that took us from 0 to 10,000 GitHub stars in 43 days, and from there to 60,000+ over two and a half years.
 
 In 2024, I left AFFiNE. Since then, I've been open sourcing everything I learned — the actual playbooks, not the cleaned-up retrospective version.

@@ -14,6 +14,19 @@ faq:
     a: "Context matters more than the raw number. 100 stars: people find it credible enough to try. 1,000 stars: legitimately popular in a niche. 5,000 stars: well-known in the developer community. 10,000+: significant project that attracts press and investors. For a new tool, reaching 100 in month one and 1,000 in month three is strong growth."
 ---
 
+## Key Stats
+
+| Metric | Data |
+|--------|------|
+| Stars in week 1 | 6,000 |
+| Stars in 43 days | 10,000 |
+| GitHub Trending appearances | 28× in 5 months |
+| Reddit impressions (open source launch) | 80–100K |
+| Reddit star conversion rate | 5–8% |
+| Stars from Reddit (cumulative) | 2,000+ |
+
+---
+
 ## The Real Story: 6,000 Stars in 7 Days
 
 When we launched AFFiNE in August 2022, we had one week of preparation time. These are the 10 tactics that drove 6,000 stars in the first week and 10,000 in 43 days.

@@ -17,6 +17,21 @@ gumroad_title: "Product Hunt Launch Action Guide"
 gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
 ---
 
+## Key Stats
+
+| Metric | Data |
+|--------|------|
+| Product Hunt #1 Daily wins | 30× |
+| Product Hunt Weekly Top 3 | 10× |
+| Product Hunt Monthly Top 5 | 2× (incl. 1× Monthly #1) |
+| PH vote-clearing cycle | Every ~2 hours |
+| Safe upvote velocity | ≤100/hour |
+| Weekly badge exposure vs. Daily | 7× |
+| Monthly badge exposure vs. Daily | 30× |
+| LinkedIn DM reply rate | ~60% |
+
+---
+
 ## My Track Record
 
 Before I share any tactics, you should know what this is based on:

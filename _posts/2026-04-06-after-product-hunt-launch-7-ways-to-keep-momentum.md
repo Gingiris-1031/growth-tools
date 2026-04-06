@@ -9,6 +9,18 @@ seo_description: "Won Product Hunt #1 — now what? Traffic drops 80-90% in 72 h
 keywords: [product hunt launch, product hunt marketing, startup launch, launch momentum]
 ---
 
+
+## Key Stats
+
+| Metric | Data |
+|--------|------|
+| PH traffic drop within 72 hours | 80–90% |
+| AFFiNE Product Hunt #1 wins | 30× |
+| Weekly badge exposure vs. Daily | 7× |
+| Monthly badge exposure vs. Daily | 30× |
+
+---
+
 ## TL;DR
 
 - PH traffic drops 80–90% within 72 hours — this is normal, not failure

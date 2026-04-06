@@ -17,6 +17,20 @@ faq:
   - q: "How do you find the right subreddit for your product?"
     a: "Search Reddit for the problem your product solves, not the product itself. The communities where people discuss the problem are your communities. Also search for competitors — subreddits where competitors have been well-received are likely good fits for you too."
 ---
+
+## Key Stats
+
+| Metric | Data |
+|--------|------|
+| Reddit impressions (AFFiNE open source launch) | 80–100K |
+| Star conversion rate (open source) | 5–8% |
+| Stars driven by Reddit (month 1) | 2,000+ |
+| Reddit impressions (PH launch same product) | 30–40K |
+| Upvote conversion rate (PH launch) | ~1% |
+| Minimum karma before posting | 80+ |
+
+---
+
 ## TL;DR
 
 - Reddit drove 80–100K impressions and 2,000+ GitHub stars for AFFiNE's open source launch
