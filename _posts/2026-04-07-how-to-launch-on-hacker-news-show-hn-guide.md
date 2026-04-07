@@ -18,6 +18,16 @@ faq:
     a: "Developer tools, open source projects, technical infrastructure, AI/ML research projects, and unconventional technical approaches to well-known problems. HN responds strongly to: novel technical architecture, open source code they can inspect, clear articulation of what you built and why, and honest acknowledgment of limitations. Consumer apps, SaaS without technical depth, and marketing-heavy pitches consistently underperform."
 ---
 
+Hacker News front page doesn't feel like other traffic spikes.
+
+Reddit gives you volume. Product Hunt gives you votes. HN gives you something harder to measure — engineers who actually read what you built, file specific bug reports, and sometimes email you at midnight with architectural critiques better than anything your own team had raised.
+
+The first time AFFiNE hit the HN front page, we got 300+ comments in 6 hours. Most were useful. Some were brutal. (One commenter wrote a 600-word technical teardown of our CRDT implementation. He was right about most of it.) All of them were from people who'd genuinely tried the product.
+
+This guide is about how to get that kind of attention — and what to do with it when it arrives.
+
+---
+
 ## Key Stats
 
 | Metric | Data |
@@ -153,7 +163,7 @@ The first 30 minutes after posting are what determines your front page trajector
 **What to ask for:**
 > "I'm launching on Hacker News tomorrow at 9 AM ET. Link: [URL]. If it looks interesting to you, any feedback in the comments would mean a lot — I'm trying to figure out [specific question]."
 
-Never say "please upvote." It reads as manipulation and HN regulars will sometimes downvote your post specifically if they see coordinated upvote requests. Ask for engagement (comments, feedback) not votes. Genuine engagement produces votes as a byproduct.
+Never say "please upvote." It reads as manipulation — and HN regulars will sometimes actively downvote your post if they see coordinated upvote requests. (I made this mistake once. Not twice.) and HN regulars will sometimes downvote your post specifically if they see coordinated upvote requests. Ask for engagement (comments, feedback) not votes. Genuine engagement produces votes as a byproduct.
 
 ---
 
