@@ -18,6 +18,14 @@ faq:
     a: "Search Reddit for the problem your product solves, not the product itself. The communities where people discuss the problem are your communities. Also search for competitors — subreddits where competitors have been well-received are likely good fits for you too."
 ---
 
+Here's the thing nobody tells you about Reddit marketing: the fastest way to get banned is to try to do marketing.
+
+Reddit banned our first account. And our second. The third one lasted — because by then we'd learned to stop thinking like marketers and start thinking like community members who happened to have built something people might find useful.
+
+That shift in mindset is the whole strategy, honestly. Everything else is implementation.
+
+---
+
 ## Key Stats
 
 | Metric | Data |
