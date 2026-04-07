@@ -19,6 +19,19 @@ faq:
 ---
 
 
+It was 2 AM on a Thursday in August 2022.
+
+I was sitting on the floor of our Shanghai office — laptop on my knees, Slack muted, watching AFFiNE's GitHub star counter tick upward in real time.
+
+72 hours earlier: zero.
+Now: 1,000.
+
+I may or may not have screamed. There was nobody there to hear it. (There was also nobody there to tell me that the hardest part hadn't started yet.)
+
+This guide covers both parts — the sprint to 1,000, and everything that came after, all the way to 60,000+.
+
+---
+
 ## Key Stats
 
 | Metric | Data |
