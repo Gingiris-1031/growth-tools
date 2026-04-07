@@ -18,6 +18,12 @@ faq:
     a: "Yes — if you can trigger it. GitHub Trending is viewed by tens of thousands of developers daily who are actively looking for new projects. Unlike social media, Trending visitors are already in 'discovery mode,' which means conversion rates to stars and actual users are significantly higher than most other channels. The compound effect matters: each Trending appearance raises your baseline star rate, making the next appearance easier to trigger."
 ---
 
+It was a Tuesday morning in August 2022. I had been awake since 5 AM, watching our GitHub star counter. Not because I was anxious — I had actually set an alarm. We had been building toward this push for weeks: timed content, coordinated posts, a spreadsheet with 40 developers ready to share. By noon, the counter had moved from 340 to 680. By 8 PM: 1,100.
+
+On day five of AFFiNE's open source launch, I opened GitHub Trending for the first time expecting to scroll past our name. Instead: there it was. Row seven. All Languages. We hit it with approximately 200+ stars in a single day.
+
+I screenshotted it. I sent it to the team with zero context. (The context was: I had no idea this was going to happen. The algorithm worked before I understood it. I'm writing this so you can make it happen on purpose.)
+
 ## Key Stats
 
 | Metric | Data |
@@ -256,3 +262,4 @@ Total week 1: ~6,000 stars. Total day 43: 10,000 stars.
 | 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
