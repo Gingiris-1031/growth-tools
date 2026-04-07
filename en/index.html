@@ -572,81 +572,113 @@
     <script>
         // Tools Data
         const tools = [
-            // 社媒监听 & 分析
-            { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", category: "社媒监听", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
-            { name: "Vizzylabs", desc: "爆款内容分析，了解社媒趋势", category: "社媒监听", price: "free", url: "https://app.vizzylabs.ai/trending", icon: "📊" },
-            { name: "Tweet Binder", desc: "Twitter 转化率监控工具", category: "社媒监听", price: "paid", url: "https://www.tweetbinder.com/", icon: "🐦" },
-            { name: "PH Deck", desc: "每日 Product Hunt Featured 产品追踪", category: "社媒监听", price: "free", url: "https://www.phdeck.com/", icon: "🎯" },
+            // Community Directory
+            { name: "AI HUB (Discord)", desc: "Largest Discord AI community · 538K members · Direct join", category: "Communities", price: "free", url: "https://discord.gg/aihub", icon: "💬" },
+            { name: "Data Science/ML/AI", desc: "Discord · 30K developers · ML/DL/AI hub", category: "Communities", price: "free", url: "https://discord.com/invite/v3zeSGb", icon: "💬" },
+            { name: "Mistral AI Discord", desc: "Discord · 32K members · AI model developer community", category: "Communities", price: "free", url: "https://discord.gg/mistralai", icon: "💬" },
+            { name: "The AI Protocol", desc: "Discord · 59K members · Web3 + AI intersection", category: "Communities", price: "free", url: "https://discord.gg/theaiprotocol", icon: "💬" },
+            { name: "Data Science (Discord)", desc: "Discord · 18K members · Data science professionals", category: "Communities", price: "free", url: "https://discord.com/invite/UYNaemm", icon: "💬" },
+            { name: "r/MachineLearning", desc: "Reddit · Academic & industry ML discussion", category: "Communities", price: "free", url: "https://www.reddit.com/r/MachineLearning", icon: "🔴" },
+            { name: "r/LocalLLaMA", desc: "Reddit · Most active local LLM community", category: "Communities", price: "free", url: "https://www.reddit.com/r/LocalLLaMA", icon: "🔴" },
+            { name: "r/selfhosted", desc: "Reddit · Self-hosted tools · Good OSS exposure", category: "Communities", price: "free", url: "https://www.reddit.com/r/selfhosted", icon: "🔴" },
+            { name: "r/SideProject", desc: "Reddit · Side project showcase · Developer-heavy", category: "Communities", price: "free", url: "https://www.reddit.com/r/SideProject", icon: "🔴" },
+            { name: "r/startups", desc: "Reddit · Startup community · Product posts welcome", category: "Communities", price: "free", url: "https://www.reddit.com/r/startups", icon: "🔴" },
+            { name: "Vibe Coding Collective", desc: "Meetup · 1,119 members · AI-assisted coding enthusiasts", category: "Communities", price: "free", url: "https://www.meetup.com/vibe-coders-collective/", icon: "📍" },
+            { name: "vibec.net Community", desc: "Vibe Coding platform community · 32K developers", category: "Communities", price: "free", url: "https://vibec.net/community", icon: "⌨️" },
+            { name: "ODSC Slack", desc: "Slack · 5K data scientists · Top data science conference community", category: "Communities", price: "free", url: "https://odsc.com/", icon: "💼" },
+            { name: "Hacker News (Show HN)", desc: "Highest-quality developer community · Essential for OSS launches", category: "Communities", price: "free", url: "https://news.ycombinator.com/shownew", icon: "🟠" },
+            { name: "Dev.to Community", desc: "Developer blog + discussion platform · Strong content distribution", category: "Communities", price: "free", url: "https://dev.to/", icon: "💻" },
+            { name: "Indie Hackers", desc: "Core community for indie devs & SaaS founders", category: "Communities", price: "free", url: "https://www.indiehackers.com/", icon: "🛠️" },
+            { name: "Lobste.rs", desc: "High-quality developer link sharing · Technical depth community", category: "Communities", price: "free", url: "https://lobste.rs/", icon: "🦞" },
+            { name: "r/datascience", desc: "Reddit · Data science beginner to advanced discussion", category: "Communities", price: "free", url: "https://www.reddit.com/r/datascience", icon: "🔴" },
+            { name: "r/ecommerce", desc: "Reddit · E-commerce discussion · SaaS tool demand active", category: "Communities", price: "free", url: "https://www.reddit.com/r/ecommerce", icon: "🔴" },
+            { name: "Browse All 180+ Communities →", desc: "Full directory · Discord / Reddit / Slack / Meetup direct join links", category: "Communities", price: "free", url: "https://gingiris.github.io/growth-tools/communities", icon: "🗺️" },
             
-            // KOL/红人管理
-            { name: "EEzycollab", desc: "KOL 匹配 + 邮件发送一体化", category: "KOL管理", price: "freemium", url: "https://www.eezycollab.com/", icon: "🤝" },
-            { name: "Nanoinfluencer", desc: "KOL 匹配 / 竞品账号调研", category: "KOL管理", price: "freemium", url: "https://www.nanoinfluencer.ai/", icon: "👥" },
-            { name: "EasyKOL", desc: "KOL 管理平台", category: "KOL管理", price: "paid", url: "https://easykol.com/", icon: "📋" },
-            { name: "NoxInfluencer", desc: "红人信息数据库", category: "KOL管理", price: "freemium", url: "https://cn.noxinfluencer.com/", icon: "🔍" },
-            { name: "Connpass", desc: "日本社群/KOL 资源", category: "KOL管理", price: "free", url: "https://connpass.com/", icon: "🇯🇵" },
+            // Social Listening & Analytics
+            { name: "Toolify Social Listening", desc: "AI social monitoring — track product mentions across platforms", category: "Social Listening", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
+            { name: "Vizzylabs", desc: "Viral content analysis — understand social media trends", category: "Social Listening", price: "free", url: "https://app.vizzylabs.ai/trending", icon: "📊" },
+            { name: "Tweet Binder", desc: "Twitter conversion monitoring tool", category: "Social Listening", price: "paid", url: "https://www.tweetbinder.com/", icon: "🐦" },
+            { name: "PH Deck", desc: "Daily Product Hunt featured product tracker", category: "Social Listening", price: "free", url: "https://www.phdeck.com/", icon: "🎯" },
             
-            // 社媒触达工具
-            { name: "GeeLark", desc: "AI copilot for social media marketing (多平台)", category: "社媒触达", price: "paid", url: "https://www.geelark.com/?utm_source=Gingiris", icon: "🦜" },
-            { name: "xAutoDM", desc: "Twitter 自动 DM 工具", category: "社媒触达", price: "paid", url: "https://xautodm.com/", icon: "✉️" },
-            { name: "Phantombuster", desc: "LinkedIn DM 自动化", category: "社媒触达", price: "paid", url: "https://phantombuster.com/", icon: "👻" },
-            { name: "LinkedHelper", desc: "LinkedIn 浏览器插件", category: "社媒触达", price: "paid", url: "https://www.linkedhelper.com/", icon: "🔗" },
+            // KOL Management
+            { name: "EEzycollab", desc: "KOL matching + email outreach in one platform", category: "KOL Management", price: "freemium", url: "https://www.eezycollab.com/", icon: "🤝" },
+            { name: "Nanoinfluencer", desc: "KOL matching / competitor account research", category: "KOL Management", price: "freemium", url: "https://www.nanoinfluencer.ai/", icon: "👥" },
+            { name: "EasyKOL", desc: "KOL management platform", category: "KOL Management", price: "paid", url: "https://easykol.com/", icon: "📋" },
+            { name: "NoxInfluencer", desc: "Creator data & analytics database", category: "KOL Management", price: "freemium", url: "https://cn.noxinfluencer.com/", icon: "🔍" },
+            { name: "Connpass", desc: "Japan community & KOL resources", category: "KOL Management", price: "free", url: "https://connpass.com/", icon: "🇯🇵" },
             
-            // Reddit 增长
-            { name: "Reddit Marketing Strategist", desc: "AI Agent: 找 Subreddit + 读懂规则", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-8poxa0f1xq9q", icon: "🤖" },
-            { name: "Agent Launch Strategy", desc: "AI Agent: 规划长期内容策略", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-1fd6npqlkqsg", icon: "📝" },
-            { name: "Reddit Soft-Sell Agent", desc: "AI Agent: 去掉营销味改写内容", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-c0aezfsqhrdl", icon: "✨" },
-            { name: "Reddit User Pain Points", desc: "AI Agent: 抓取分析用户痛点", category: "Reddit", price: "free", url: "https://leapility.com/share/agent/i-6nto7kumdswl", icon: "🎯" },
-            { name: "Buy Upvotes", desc: "Reddit Upvote 购买 (谨慎使用)", category: "Reddit", price: "paid", url: "https://www.buyupvotes.io/dashboard/", icon: "⬆️" },
-            { name: "Reddit List", desc: "高质量 Reddit 社区目录", category: "Reddit", price: "free", url: "https://www.reddit-list.com/en", icon: "📋" },
+            // Social Outreach
+            { name: "GeeLark", desc: "AI copilot for social media marketing (multi-platform)", category: "Social Outreach", price: "paid", url: "https://www.geelark.com/?utm_source=Gingiris", icon: "🦜" },
+            { name: "DMpro.ai", desc: "X/Twitter auto DM (xAutoDM replacement) · 450+ DM/day", category: "Social Outreach", price: "paid", url: "https://www.dmpro.ai/", icon: "✉️" },
+            { name: "Drippi.ai", desc: "AI-personalized DMs based on profile & recent tweets", category: "Social Outreach", price: "paid", url: "https://www.drippi.ai/", icon: "🎯" },
+            { name: "Phantombuster", desc: "LinkedIn DM automation", category: "Social Outreach", price: "paid", url: "https://phantombuster.com/", icon: "👻" },
+            { name: "LinkedHelper", desc: "LinkedIn browser extension for outreach", category: "Social Outreach", price: "paid", url: "https://www.linkedhelper.com/", icon: "🔗" },
             
-            // SEO 工具
-            { name: "AITDK", desc: "AI SEO 插件，关键词分析", category: "SEO", price: "free", url: "https://aitdk.com/", icon: "🔑" },
-            { name: "Keywords Everywhere", desc: "关键词搜索量查询插件", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
-            { name: "Semrush", desc: "全面 SEO 分析平台", category: "SEO", price: "paid", url: "https://www.semrush.com/", icon: "📊" },
+            // Reddit
+            { name: "Reddit Marketing Strategist", desc: "AI Agent: Find subreddits + understand community rules", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-8poxa0f1xq9q", icon: "🤖" },
+            { name: "Agent Launch Strategy", desc: "AI Agent: Plan long-term content strategy", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-1fd6npqlkqsg", icon: "📝" },
+            { name: "Reddit Soft-Sell Agent", desc: "AI Agent: Rewrite content to remove the marketing smell", category: "Reddit", price: "freemium", url: "https://leapility.com/?agent=i-c0aezfsqhrdl", icon: "✨" },
+            { name: "Reddit User Pain Points", desc: "AI Agent: Scrape and analyze user pain points", category: "Reddit", price: "free", url: "https://leapility.com/share/agent/i-6nto7kumdswl", icon: "🎯" },
+            { name: "BuyUpvotes.io", desc: "Reddit upvote campaigns · Boost visibility on launch posts (use responsibly)", category: "Reddit", price: "paid", url: "https://www.buyupvotes.io/dashboard/order-upvotes/", icon: "⬆️" },
+            { name: "Fanscang", desc: "Social promotion platform covering Reddit & multi-channel", category: "Reddit", price: "paid", url: "https://www.fanscang.com/other.html", icon: "🚀" },
+            { name: "Reddit List", desc: "High-quality Reddit community directory", category: "Reddit", price: "free", url: "https://www.reddit-list.com/en", icon: "📋" },
             
-            // 链接追踪
-            { name: "Juicebox", desc: "Short link + UTM 追踪", category: "链接追踪", price: "freemium", url: "https://juicebox.ai/pricing", icon: "🔗" },
-            { name: "Shortpen", desc: "Short link 生成", category: "链接追踪", price: "freemium", url: "https://shortpen.com/pricing/", icon: "✂️" },
-            { name: "Bitly", desc: "短链接生成标杆", category: "链接追踪", price: "freemium", url: "https://bitly.com", icon: "⚡" },
+            // SEO
+            { name: "AITDK", desc: "AI SEO plugin for keyword analysis", category: "SEO", price: "free", url: "https://aitdk.com/", icon: "🔑" },
+            { name: "Keywords Everywhere", desc: "Search volume lookup plugin", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
+            { name: "Semrush", desc: "Comprehensive SEO analysis platform", category: "SEO", price: "paid", url: "https://www.semrush.com/", icon: "📊" },
             
-            // UGC 管理
-            { name: "Growi", desc: "达人管理专用平台", category: "UGC管理", price: "paid", url: "https://www.growi.io/grow", icon: "🌱" },
-            { name: "MagicBrief", desc: "AI 生成 KOL/UGC Brief", category: "UGC管理", price: "freemium", url: "https://magicbrief.com/", icon: "✨" },
-            { name: "Sideshift", desc: "UGC 创作者支付 (美国达人)", category: "UGC管理", price: "paid", url: "https://sideshift.app/", icon: "💰" },
-            { name: "Viral.app", desc: "UGC 流量追踪", category: "UGC管理", price: "paid", url: "https://viral.app/", icon: "📈" },
-            { name: "DansUGC", desc: "UGC 内容生成辅助", category: "UGC管理", price: "paid", url: "https://dansugc.com/", icon: "🎬" },
+            // Link Tracking
+            { name: "Juicebox", desc: "Short link + UTM tracking", category: "Link Tracking", price: "freemium", url: "https://juicebox.ai/pricing", icon: "🔗" },
+            { name: "Shortpen", desc: "Short link generation", category: "Link Tracking", price: "freemium", url: "https://shortpen.com/pricing/", icon: "✂️" },
+            { name: "Bitly", desc: "Industry-standard short link tool", category: "Link Tracking", price: "freemium", url: "https://bitly.com", icon: "⚡" },
             
-            // 社区发现
-            { name: "Discord Hunt", desc: "找 Discord 社区", category: "社区发现", price: "free", url: "https://discordhunt.com/", icon: "🎮" },
-            { name: "DevHunt", desc: "开发者工具打榜平台", category: "社区发现", price: "free", url: "https://devhunt.org/", icon: "🛠️" },
+            // UGC Management
+            { name: "Growi", desc: "Creator management platform for UGC campaigns", category: "UGC Management", price: "paid", url: "https://www.growi.io/grow", icon: "🌱" },
+            { name: "MagicBrief", desc: "AI-generated KOL/UGC creative briefs", category: "UGC Management", price: "freemium", url: "https://magicbrief.com/", icon: "✨" },
+            { name: "Sideshift", desc: "UGC creator payments (US creators)", category: "UGC Management", price: "paid", url: "https://sideshift.app/", icon: "💰" },
+            { name: "Viral.app", desc: "UGC traffic tracking", category: "UGC Management", price: "paid", url: "https://viral.app/", icon: "📈" },
+            { name: "DansUGC", desc: "UGC content generation assistant", category: "UGC Management", price: "paid", url: "https://dansugc.com/", icon: "🎬" },
             
-            // 内容创作
-            { name: "Arcade", desc: "交互式产品 Demo 制作", category: "内容创作", price: "freemium", url: "https://www.arcade.software/", icon: "🎮" },
-            { name: "Imgflip", desc: "梗图生成器", category: "内容创作", price: "free", url: "https://imgflip.com/memetemplates", icon: "😂" },
-            { name: "Daily Dose of DS", desc: "技术框架图制作", category: "内容创作", price: "free", url: "https://www.dailydoseofds.com/", icon: "📊" },
+            // Community Discovery
+            { name: "Discord Hunt", desc: "Find Discord communities for your niche", category: "Community Discovery", price: "free", url: "https://discordhunt.com/", icon: "🎮" },
+            { name: "DevHunt", desc: "Developer tools launch platform", category: "Community Discovery", price: "free", url: "https://devhunt.org/", icon: "🛠️" },
             
-            // 埋点 & 分析
-            { name: "Mixpanel", desc: "用户行为分析", category: "分析埋点", price: "freemium", url: "https://mixpanel.com/", icon: "📈" },
-            { name: "PostHog", desc: "开源用户行为分析", category: "分析埋点", price: "freemium", url: "https://posthog.com/", icon: "🦔" },
+            // Content Creation
+            { name: "Arcade", desc: "Interactive product demos for launch pages", category: "Content Creation", price: "freemium", url: "https://www.arcade.software/", icon: "🎮" },
+            { name: "Loom", desc: "Quick video recording for product walkthroughs", category: "Content Creation", price: "freemium", url: "https://www.loom.com/", icon: "🎥" },
+            { name: "Canva", desc: "Social media visual design", category: "Content Creation", price: "freemium", url: "https://www.canva.com/", icon: "🎨" },
             
-            // 邮件营销
-            { name: "Loops", desc: "邮件营销自动化", category: "邮件营销", price: "freemium", url: "https://loops.so/", icon: "📧" },
+            // Analytics
+            { name: "PostHog", desc: "Open-source product analytics — self-host or cloud", category: "Analytics", price: "freemium", url: "https://posthog.com/", icon: "📊" },
+            { name: "Mixpanel", desc: "Event-based user analytics", category: "Analytics", price: "freemium", url: "https://mixpanel.com/", icon: "📈" },
             
-            // 广告投放
-            { name: "AdQuick", desc: "硅谷广告牌聚合平台", category: "广告投放", price: "paid", url: "https://www.adquick.com", icon: "📢" },
-            { name: "Platon Agent", desc: "投放关联 Agent", category: "广告投放", price: "paid", url: "https://platonagent.ai", icon: "🤖" },
+            // Email Marketing
+            { name: "Mailchimp", desc: "Email marketing — free up to 500 contacts", category: "Email Marketing", price: "freemium", url: "https://mailchimp.com/", icon: "📧" },
             
-            // 其他工具
-            { name: "Prolific", desc: "海外用户调研平台", category: "用户调研", price: "paid", url: "https://www.prolific.com/", icon: "🔬" },
-            { name: "Qwoted", desc: "媒体资源平台", category: "媒体PR", price: "freemium", url: "https://www.qwoted.com/", icon: "📰" },
-            { name: "GlueClub", desc: "快速建联 Operation 大佬", category: "网络拓展", price: "paid", url: "https://www.glueclub.com/", icon: "🤝" },
-            { name: "WeAreWisely", desc: "获客增长服务", category: "增长服务", price: "paid", url: "https://wearewisely.com/en/", icon: "🚀" },
-            { name: "RapidAPI", desc: "API 集成市场", category: "开发工具", price: "freemium", url: "https://rapidapi.com/", icon: "⚡" },
+            // Paid Ads
+            { name: "AdCreative.ai", desc: "AI-generated ad creatives for social platforms", category: "Paid Ads", price: "paid", url: "https://www.adcreative.ai/", icon: "🎯" },
+            { name: "Foreplay", desc: "Ad inspiration and swipe file tool", category: "Paid Ads", price: "freemium", url: "https://foreplay.co/", icon: "💡" },
             
-            // Gingiris 免费工具
-            { name: "PH Comment Generator", desc: "Product Hunt 评论生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/ph-comment-generator/", icon: "💬" },
-            { name: "GitHub Issue Generator", desc: "开源项目 Issue 生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/github-issue-generator/", icon: "📝" },
-            { name: "GitHub README Generator", desc: "README 模板生成器", category: "Gingiris", price: "free", url: "https://gingiris.github.io/github-readme-generator/", icon: "📄" },
+            // User Research
+            { name: "Maze", desc: "User testing and research platform", category: "User Research", price: "freemium", url: "https://maze.co/", icon: "🔬" },
+            
+            // Media & PR
+            { name: "Prowly", desc: "PR media outreach and press release distribution", category: "Media & PR", price: "paid", url: "https://prowly.com/", icon: "📰" },
+            
+            // Network Building
+            { name: "Clay", desc: "Data enrichment + personalized outreach at scale", category: "Network Building", price: "paid", url: "https://www.clay.com/", icon: "🤝" },
+            
+            // Growth Services
+            { name: "GrowthHackers", desc: "Growth marketing community and services", category: "Growth Services", price: "freemium", url: "https://growthhackers.com/", icon: "🚀" },
+            
+            // Dev Tools
+            { name: "Vercel", desc: "Frontend deployment — GitHub integration, instant preview", category: "Dev Tools", price: "freemium", url: "https://vercel.com/", icon: "⚡" },
+            
+            // Gingiris Tools
+            { name: "GitHub README Generator", desc: "Generate star-winning README with badges, Quick Start, contributor guides", category: "Gingiris", price: "free", url: "https://gingiris.github.io/growth-tools/tools/github-readme-generator", icon: "🫚" },
+            { name: "GitHub Issue Generator", desc: "Generate professional bug report & feature request templates", category: "Gingiris", price: "free", url: "https://gingiris.github.io/growth-tools/tools/github-issue-generator", icon: "🫚" },
+            { name: "PH Comment Generator", desc: "Generate authentic Product Hunt launch comments (30x #1 strategy)", category: "Gingiris", price: "free", url: "https://gingiris.github.io/growth-tools/tools/ph-comment-generator", icon: "🫚" },
         ];
         
         // Get categories
@@ -664,7 +696,7 @@
             
             list.innerHTML = `
                 <li class="category-item active" data-category="all">
-                    📁 全部工具
+                    📁 All Tools
                     <span class="category-count">${allCount}</span>
                 </li>
                 ${categories.map(cat => {
@@ -692,12 +724,14 @@
         
         function getCategoryIcon(cat) {
             const icons = {
-                '社媒监听': '📡', 'KOL管理': '👥', '社媒触达': '✉️', 'Reddit': '🔴',
-                'SEO': '🔍', '链接追踪': '🔗', 'UGC管理': '🎬', '社区发现': '🌐',
-                '内容创作': '🎨', '分析埋点': '📊', '邮件营销': '📧', '广告投放': '📢',
-                '用户调研': '🔬', '媒体PR': '📰', '网络拓展': '🤝', '增长服务': '🚀',
-                '开发工具': '⚡', 'Gingiris': '🫚'
+                'Social Listening': '📡', 'KOL Management': '👥', 'Social Outreach': '✉️', 'Reddit': '🔴',
+                'SEO': '🔍', 'Link Tracking': '🔗', 'UGC Management': '🎬', 'Community Discovery': '🌐',
+                'Content Creation': '🎨', 'Analytics': '📊', 'Email Marketing': '📧', 'Paid Ads': '📢',
+                'User Research': '🔬', 'Media & PR': '📰', 'Network Building': '🤝', 'Growth Services': '🚀',
+                'Dev Tools': '⚡', 'Gingiris': '🫚', 'Communities': '🗺️'
             };
+            return icons[cat] || '📁';
+        };
             return icons[cat] || '📁';
         }
         
@@ -731,7 +765,7 @@
             }
             
             // Update header
-            title.textContent = activeCategory === 'all' ? '全部工具' : activeCategory;
+            title.textContent = activeCategory === 'all' ? 'All Tools' : activeCategory;
             count.textContent = `${filtered.length} tools`;
             
             if (filtered.length === 0) {
