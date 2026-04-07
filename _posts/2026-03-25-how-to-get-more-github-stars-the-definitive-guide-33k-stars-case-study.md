@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "AFFiNE GitHub Stars: How We Grew from 0 to 60K — The 2026 Playbook"
+title: "AFFiNE GitHub Stars: 60K+ and How We Got There — The Complete 2026 Playbook"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
-description: "How AFFiNE grew from 0 to 60,000+ GitHub stars. The exact launch sequences, distribution tactics, and community playbooks — from the inside, by the team that did it."
+description: "AFFiNE has 60,000+ GitHub stars as of 2026 — built from zero in 5 months. The exact launch sequences, Reddit playbook, HN timing, and community tactics. Written by the team that ran it."
 faq:
   - q: "How long does it take to get 1000 GitHub stars?"
     a: "With active promotion, 1-3 months is realistic for a useful open source project. AFFiNE hit 1,000 stars in 72 hours after launch, 6,000 in the first week. Without promotion, reaching 1,000 can take 6-12 months. The fastest path: a coordinated launch across Reddit, HN, and Product Hunt within the same 48-hour window."
