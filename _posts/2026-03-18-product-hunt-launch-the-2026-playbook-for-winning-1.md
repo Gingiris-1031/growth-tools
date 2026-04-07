@@ -21,6 +21,14 @@ faq:
     a: "The badge is the primary asset. It provides: (1) Social proof on your landing page that converts cold visitors. (2) A high-DA backlink from producthunt.com that helps SEO. (3) Ongoing exposure — PH's homepage shows yesterday's winners, last week's weekly winners, last month's monthly winners. Weekly badge exposure = 7× daily; monthly = 30×."
 ---
 
+The first time I launched on Product Hunt, we got 84 upvotes. That was enough for #5 on the day. I thought we had done something wrong.
+
+The second time: 130 upvotes. #3.
+
+The third time, I stopped thinking about upvotes as the metric that mattered and started thinking about Product Hunt as a distribution system with very specific input requirements. That shift — from "how do I get votes" to "how do I run this as a campaign" — is what eventually led to 30 daily #1 wins. (Not immediately. We got #1 for the first time on launch number seven, I think. I was in Singapore. It was 4 AM.)
+
+This playbook is the system, as of 2026.
+
 ## Key Stats
 
 | Metric | Data |
@@ -225,3 +233,4 @@ The weekly and monthly badge multipliers (7× and 30× more exposure respectivel
 | 📖 | [AFFiNE GitHub Stars: 0 to 60K](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
