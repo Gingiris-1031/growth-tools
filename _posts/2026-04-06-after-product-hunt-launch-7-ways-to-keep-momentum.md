@@ -10,6 +10,14 @@ keywords: [product hunt launch, product hunt marketing, startup launch, launch m
 ---
 
 
+The morning after AFFiNE hit #1 on Product Hunt, I opened Google Analytics expecting to see the wave still rolling.
+
+It wasn't. Traffic was down 70%. By hour 36: down 85%.
+
+I had launched on PH before. I knew the drop was coming. What I didn't fully understand yet was that the drop is not the event — the launch is the event, and everything you do in the next 30 days determines whether it turns into something durable or just becomes a screenshot in a Notion page. (I have a lot of screenshots in my Notion pages from launches where I forgot this.)
+
+Here's what the follow-through system looks like after 30 #1 wins.
+
 ## Key Stats
 
 | Metric | Data |
