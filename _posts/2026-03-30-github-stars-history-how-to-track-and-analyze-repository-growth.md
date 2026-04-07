@@ -17,6 +17,14 @@ faq:
   - q: "Why do GitHub repos lose stars?"
     a: "Repos rarely actually lose stars (unstarring is uncommon). Apparent stagnation happens when: star velocity slows as launch momentum fades, the project appears abandoned (no recent commits), a competitor launches with better positioning, or the tech becomes deprecated. Best defense: consistent commits, regular releases, and periodic relaunch moments that re-activate distribution."
 ---
+There's a moment, somewhere around 8,000 stars, when you stop caring about the total and start caring about the rate.
+
+I remember the exact day this happened for AFFiNE. We had been publishing our star count in every investor update, every press mention, every "about us" page. One of our advisors pushed back: "The number doesn't tell me anything. Show me the growth curve. Show me when it accelerates."
+
+So I pulled the full star history. And for the first time, I could see it: not a single smooth curve but a series of spikes — each one corresponding to a specific event. A Hacker News front page appearance. A GitHub Trending day. A particular Reddit post that hit r/programming. The gaps between the spikes told the story too. (Our lowest week was 23 stars total. That was the week after a conference when nobody was doing anything.)
+
+Here's how to read your own star history — and what to do with it.
+
 
 ## TL;DR
 
@@ -168,3 +176,4 @@ Before adopting an open source project:
 | 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
