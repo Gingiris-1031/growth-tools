@@ -14,6 +14,14 @@ faq:
     a: "Context matters more than the raw number. 100 stars: people find it credible enough to try. 1,000 stars: legitimately popular in a niche. 5,000 stars: well-known in the developer community. 10,000+: significant project that attracts press and investors. For a new tool, reaching 100 in month one and 1,000 in month three is strong growth."
 ---
 
+I want to be honest about the first tactic we tried: it didn't work.
+
+In the early days of AFFiNE, we built it in private for six months, then clicked "make public" on a Tuesday morning and posted a quiet announcement on our personal social accounts. We got 47 stars in the first week. Which felt amazing — until we realized 38 of them were from people we already knew.
+
+The 33,000 stars didn't come from doing one thing well. They came from finding 10 things that worked, doing them all at the same time, and then doing the whole thing again when the effect wore off. (It always wears off. The question is whether you've raised your baseline enough to launch from a higher floor.)
+
+Here are the 10 tactics, in the order we figured them out.
+
 ## Key Stats
 
 | Metric | Data |
@@ -215,3 +223,4 @@ The compound effect: well-maintained repos attract contributors, and contributor
 | 📖 | [GitHub Stars History](https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
