@@ -106,7 +106,51 @@
     .footer a:hover { color: var(--accent); }
 
     @media (max-width: 600px) { .hero h1 { font-size: 28px; } .tool-card { flex-direction: column; } }
-</style>
+
+    /* External Tools Sections */
+    .ext-tools-section {
+        max-width: 900px; margin: 0 auto 3rem; padding: 0 1.5rem;
+    }
+    .ext-section-header { margin-bottom: 1.5rem; }
+    .ext-badge {
+        display: inline-block; font-size: 0.72rem; font-weight: 600;
+        padding: 0.2rem 0.6rem; border-radius: 20px;
+        background: var(--green-light); color: var(--accent);
+        margin-bottom: 0.5rem; letter-spacing: 0.03em;
+    }
+    .ext-badge.new { background: #fef3c7; color: #92400e; }
+    .ext-section-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .ext-section-desc { color: var(--text-secondary); font-size: 0.9rem; }
+    .ext-tools-grid {
+        display: grid; grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .api-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+    @media (max-width: 640px) { .ext-tools-grid { grid-template-columns: 1fr; } }
+    .ext-tool-card {
+        background: var(--surface); border: 1px solid var(--border);
+        border-radius: 10px; padding: 1.1rem 1.2rem;
+        transition: border-color 0.15s, box-shadow 0.15s;
+    }
+    .ext-tool-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-md); }
+    .ext-tool-card.recommended { border-color: var(--accent); }
+    .ext-tool-head { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.6rem; }
+    .ext-tool-icon { font-size: 1.4rem; line-height: 1; padding-top: 2px; }
+    .ext-tool-head h3 { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.15rem; }
+    .ext-tool-head h3 a { color: var(--text); }
+    .ext-tool-head h3 a:hover { color: var(--accent); }
+    .ext-tag {
+        font-size: 0.68rem; font-weight: 500; padding: 0.1rem 0.5rem;
+        border-radius: 10px; background: var(--green-light); color: var(--accent);
+    }
+    .ext-tool-card p { font-size: 0.84rem; color: var(--text-secondary); line-height: 1.55; margin-bottom: 0.75rem; }
+    .ext-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .ext-meta span {
+        font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 10px;
+        background: var(--surface-hover); color: var(--text-secondary); border: 1px solid var(--border);
+    }
+
+    </style>
 </head>
 <body>
     <header class="header">
@@ -183,6 +227,150 @@
         </div>
     </div>
     
+
+    <!-- X DM & Outreach Tools -->
+    <section class="ext-tools-section">
+        <div class="ext-section-header">
+            <span class="ext-badge new">⚡ Updated Apr 2026</span>
+            <h2 class="ext-section-title">X (Twitter) DM Outreach Tools</h2>
+            <p class="ext-section-desc">xAutoDM has been suspended (new signups closed). Here are the working alternatives tested by our team.</p>
+        </div>
+        <div class="ext-tools-grid">
+            <div class="ext-tool-card recommended">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">📨</span>
+                    <div>
+                        <h3><a href="https://www.dmpro.ai/" target="_blank" rel="nofollow noopener">DMpro.ai</a></h3>
+                        <span class="ext-tag">Recommended replacement</span>
+                    </div>
+                </div>
+                <p>450+ daily DMs per account, drag-and-drop automation sequences with conditional logic, multi-account dashboard. From $49/mo. Best xAutoDM alternative in 2026.</p>
+                <div class="ext-meta"><span>💰 From $49/mo</span><span>✅ Safety throttling built-in</span><span>🔗 Multi-account</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🎯</span>
+                    <div>
+                        <h3><a href="https://www.drippi.ai/" target="_blank" rel="nofollow noopener">Drippi.ai</a></h3>
+                        <span class="ext-tag">Best personalization</span>
+                    </div>
+                </div>
+                <p>AI-personalized DMs using prospect profile, recent tweets, and website data. 42% higher reply rates than generic DMs. Better quality, higher price.</p>
+                <div class="ext-meta"><span>💰 From $76/mo</span><span>✅ AI personalization</span><span>📊 CRM built-in</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🤖</span>
+                    <div>
+                        <h3><a href="https://tweethunter.io/" target="_blank" rel="nofollow noopener">Tweet Hunter</a></h3>
+                        <span class="ext-tag">Auto-DM on engagement</span>
+                    </div>
+                </div>
+                <p>Automatically DM users who like, retweet, or reply to your tweets. Good for community building — lower volume but high intent targeting.</p>
+                <div class="ext-meta"><span>💰 From $49/mo</span><span>✅ Trigger-based</span><span>📝 Content scheduling</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- API Tools -->
+    <section class="ext-tools-section">
+        <div class="ext-section-header">
+            <span class="ext-badge">🔑 API Stack</span>
+            <h2 class="ext-section-title">好用的API工具 (Developer API Stack)</h2>
+            <p class="ext-section-desc">APIs we actually use at Gingiris — for data collection, content distribution, and growth automation.</p>
+        </div>
+        <div class="ext-tools-grid api-grid">
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">📊</span>
+                    <div>
+                        <h3><a href="https://sheet0.com/" target="_blank" rel="nofollow noopener">Sheet0.com</a></h3>
+                        <span class="ext-tag">Data collection API</span>
+                    </div>
+                </div>
+                <p>Scrape and structure data into Excel — Discord communities, KOL lists, PH hunters, YC companies. All the lists on this site were built with Sheet0.</p>
+                <div class="ext-meta"><span>🔑 API available</span><span>📋 Output: Excel/CSV</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🐙</span>
+                    <div>
+                        <h3><a href="https://docs.github.com/en/rest" target="_blank" rel="nofollow noopener">GitHub REST API</a></h3>
+                        <span class="ext-tag">Repo automation</span>
+                    </div>
+                </div>
+                <p>Update READMEs, manage issues, track stars, automate repo operations. Free for public repos. Used to auto-update Gingiris repos from this site.</p>
+                <div class="ext-meta"><span>🔑 Free tier generous</span><span>✅ No rate limit for reads</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">✍️</span>
+                    <div>
+                        <h3><a href="https://developers.forem.com/api" target="_blank" rel="nofollow noopener">dev.to API</a></h3>
+                        <span class="ext-tag">Content distribution</span>
+                    </div>
+                </div>
+                <p>Publish and update articles on dev.to programmatically. All blog posts on this site are auto-synced to dev.to/iris1031 via API.</p>
+                <div class="ext-meta"><span>🔑 Free</span><span>📤 Publish + update articles</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🔍</span>
+                    <div>
+                        <h3><a href="https://serper.dev/" target="_blank" rel="nofollow noopener">Serper.dev</a></h3>
+                        <span class="ext-tag">Search API</span>
+                    </div>
+                </div>
+                <p>Google Search results via API — 2,500 free queries/month. Used for keyword research, competitor monitoring, and GEO content verification.</p>
+                <div class="ext-meta"><span>🔑 2500 free/mo</span><span>⚡ Real-time results</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🕷️</span>
+                    <div>
+                        <h3><a href="https://www.firecrawl.dev/" target="_blank" rel="nofollow noopener">Firecrawl</a></h3>
+                        <span class="ext-tag">Web scraping API</span>
+                    </div>
+                </div>
+                <p>Scrape any webpage and convert to clean Markdown — great for competitive analysis, content research, and building datasets. LLM-friendly output.</p>
+                <div class="ext-meta"><span>🔑 500 pages free/mo</span><span>📄 Markdown output</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🤖</span>
+                    <div>
+                        <h3><a href="https://console.anthropic.com/" target="_blank" rel="nofollow noopener">Anthropic Claude API</a></h3>
+                        <span class="ext-tag">AI / LLM API</span>
+                    </div>
+                </div>
+                <p>The API behind this site's content automation. Best for long-form writing, analysis, and code generation. Claude Sonnet 4.6 is the sweet spot for cost/quality.</p>
+                <div class="ext-meta"><span>🔑 Pay-as-you-go</span><span>⚡ Sonnet 4.6 recommended</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">🚂</span>
+                    <div>
+                        <h3><a href="https://railway.app/" target="_blank" rel="nofollow noopener">Railway</a></h3>
+                        <span class="ext-tag">Deployment + env vars</span>
+                    </div>
+                </div>
+                <p>Deploy apps and manage API keys as env vars — no DevOps required. Used to host Analook backend. $5/mo hobby plan covers most indie projects.</p>
+                <div class="ext-meta"><span>🔑 $5/mo hobby</span><span>✅ Auto-deploy from GitHub</span></div>
+            </div>
+            <div class="ext-tool-card">
+                <div class="ext-tool-head">
+                    <span class="ext-tool-icon">📬</span>
+                    <div>
+                        <h3><a href="https://resend.com/" target="_blank" rel="nofollow noopener">Resend</a></h3>
+                        <span class="ext-tag">Email API</span>
+                    </div>
+                </div>
+                <p>Developer-first email API. 3,000 free emails/month, react-email integration, excellent deliverability. Better than SendGrid for startups.</p>
+                <div class="ext-meta"><span>🔑 3000 free/mo</span><span>✅ React Email</span></div>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <p>© 2025 <a href="https://gingiris.com">Gingiris</a> · Built by <a href="https://twitter.com/Iris_carrot">@Iris</a> · <a href="https://github.com/Gingiris/growth-tools">GitHub</a></p>
     </footer>
