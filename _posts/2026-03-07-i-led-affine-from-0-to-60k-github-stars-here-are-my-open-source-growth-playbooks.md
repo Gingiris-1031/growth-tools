@@ -23,6 +23,14 @@ gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含
 - 🌍 **Users in 200+ countries**
 - 💰 **$10M+ in funding**
 
+In August 2022, I helped launch AFFiNE as an open source project. We had no distribution, no English-language audience, no playbook.
+
+Five months later: 28 appearances on GitHub Trending. 60,000+ stars total. 200+ countries represented in our user base.
+
+I'm not writing this to brag. (Okay, maybe slightly.) I'm writing it because I couldn't find this information when I needed it — and I spent two years figuring it out the expensive way so you don't have to.
+
+---
+
 ## Key Stats
 
 | Metric | Data |
