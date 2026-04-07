@@ -17,6 +17,18 @@ gumroad_title: "Product Hunt Launch Action Guide"
 gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
 ---
 
+The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
+
+We were #1 at midnight. By 6 AM we'd dropped to #3. By noon we were back at #1 and stayed there.
+
+I didn't sleep. I answered every comment. I watched the vote counter like a hawk.
+
+30 launches later — I stopped panicking. The algorithm stopped feeling arbitrary. I had a map.
+
+This is that map.
+
+---
+
 ## Key Stats
 
 | Metric | Data |
@@ -55,7 +67,7 @@ PH runs an automatic vote-clearing system every ~2 hours. It removes upvotes fro
 - Accounts from the same IP region (if too many vote in a short window)
 - Votes that look like a coordinated spike
 
-I've personally watched products lose 90 votes in a single clearing cycle. I've seen products get disqualified from the leaderboard entirely. In 2024, PH tightened the rules further — one clearing cycle removed 300 upvotes from a single product in a day.
+I've personally watched products lose 90 votes in a single clearing cycle — including ours, once, in a launch where we'd been too aggressive in a single geographic window. (It's a gut-punch the first time you see it.). I've seen products get disqualified from the leaderboard entirely. In 2024, PH tightened the rules further — one clearing cycle removed 300 upvotes from a single product in a day.
 
 **What this means:** raw upvote count is not what PH ranks you on. It's the *quality-weighted* upvote count after clearing.
 
