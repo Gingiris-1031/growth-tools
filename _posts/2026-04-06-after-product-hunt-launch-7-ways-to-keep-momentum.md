@@ -9,6 +9,9 @@ seo_description: "Won Product Hunt #1 — now what? Traffic drops 80-90% in 72 h
 keywords: [product hunt launch, product hunt marketing, startup launch, launch momentum]
 ---
 
+> 📖 **まだローンチ前ですか？** まずはこちらから：[Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+
+
 
 The morning after AFFiNE hit #1 on Product Hunt, I opened Google Analytics expecting to see the wave still rolling.
 
