@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>오픈소스 성장 도구 모음 | 100+ Growth Tools — Gingiris 한국어판</title>
+    <meta name="title" content="오픈소스 성장 도구 모음 | 100+ Growth Tools — Gingiris 한국어판">
+    <meta name="description" content="한국 개발자를 위한 성장 도구 100+. 소셜 리스닝, 커뮤니티 디렉토리, Reddit 전략, SEO 도구, 한국 특화 도구(OKKY·Velog·프로그래머스) 완벽 정리. AFFiNE 60k stars·30회 PH #1 실전 경험 기반.">
+    <meta name="keywords" content="개발자 도구, growth tools, 성장 도구, 오픈소스, OKKY, Velog, 프로그래머스, Reddit, SEO, Product Hunt, 한국 개발자">
+    <meta name="author" content="Gingiris">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gingiris.github.io/growth-tools/ko/">
+
+    <!-- hreflang -->
+    <link rel="alternate" hreflang="ko" href="https://gingiris.github.io/growth-tools/ko/">
+    <link rel="alternate" hreflang="zh-CN" href="https://gingiris.github.io/growth-tools/">
+    <link rel="alternate" hreflang="en" href="https://gingiris.github.io/growth-tools/en/">
+    <link rel="alternate" hreflang="ja" href="https://gingiris.github.io/growth-tools/ja/">
+    <link rel="alternate" hreflang="x-default" href="https://gingiris.github.io/growth-tools/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gingiris.github.io/growth-tools/ko/">
+    <meta property="og:title" content="오픈소스 성장 도구 모음 | Gingiris">
+    <meta property="og:description" content="한국 개발자를 위한 성장 도구 100+. 한국 특화 도구 포함.">
+    <meta property="og:site_name" content="Gingiris Growth Tools">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #f8f7f4;
+            --surface: #ffffff;
+            --surface-hover: #f3f2ef;
+            --border: #e8e6e1;
+            --border-hover: #c8c5be;
+            --text: #1a1a1a;
+            --text-secondary: #6b6860;
+            --text-muted: #9b9890;
+            --green: #16a34a;
+            --green-light: #dcfce7;
+            --green-mid: #4ade80;
+            --blue: #5a9ab5;
+            --blue-light: #eaf4f8;
+            --accent: #16a34a;
+            --accent-hover: #15803d;
+            --accent-bg: #dcfce7;
+            --price-free-bg: #dcfce7;
+            --price-free-text: #166534;
+            --price-freemium-bg: #eaf4f8;
+            --price-freemium-text: #2e7da0;
+            --price-paid-bg: #fef3e8;
+            --price-paid-text: #c06a1a;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.04);
+            --shadow-lg: 0 8px 24px rgba(0,0,0,0.09), 0 3px 8px rgba(0,0,0,0.05);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        a { color: inherit; text-decoration: none; }
+
+        /* Language banner */
+        .lang-banner {
+            background: linear-gradient(90deg, #052e16, #14532d);
+            color: rgba(255,255,255,0.9);
+            text-align: center;
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .lang-banner a {
+            color: #86efac;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+        .lang-banner a:hover { color: #bbf7d0; }
+
+        /* Header */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(248, 247, 244, 0.92);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 24px;
+            height: 60px;
+        }
+
+        .header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 15px;
+            flex-shrink: 0;
+        }
+
+        .logo-img { height: 28px; width: auto; }
+
+        .logo-divider {
+            width: 1px;
+            height: 18px;
+            background: var(--border);
+        }
+
+        .logo-sub {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        .search-box {
+            flex: 1;
+            max-width: 360px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 8px 14px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--surface);
+            font-size: 13.5px;
+            font-family: inherit;
+            color: var(--text);
+            transition: border-color 0.15s, box-shadow 0.15s;
+            outline: none;
+        }
+
+        .search-box input:focus {
+            border-color: #4ade80;
+            box-shadow: 0 0 0 3px rgba(74,222,128,0.15);
+        }
+
+        .header-links {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            margin-left: auto;
+        }
+
+        .header-links a {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            padding: 6px 10px;
+            border-radius: 7px;
+            transition: background 0.15s, color 0.15s;
+            white-space: nowrap;
+        }
+
+        .header-links a:hover { background: var(--surface-hover); color: var(--text); }
+
+        .submit-btn {
+            background: var(--accent-bg) !important;
+            color: var(--accent) !important;
+            border: 1px solid rgba(22,163,74,0.2);
+            font-weight: 600 !important;
+        }
+
+        .theme-toggle {
+            width: 34px;
+            height: 34px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: transparent;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            transition: background 0.15s, border-color 0.15s;
+            flex-shrink: 0;
+            font-family: inherit;
+        }
+
+        .theme-toggle:hover { background: var(--surface-hover); }
+
+        /* Layout */
+        .main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px 24px 0;
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 24px;
+            min-height: calc(100vh - 120px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: sticky;
+            top: 84px;
+            height: fit-content;
+        }
+
+        .sidebar h3 {
+            font-size: 11.5px;
+            font-weight: 700;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+            padding: 0 10px;
+        }
+
+        .category-list {
+            list-style: none;
+        }
+
+        .category-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 10px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13.5px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: background 0.12s, color 0.12s;
+            margin-bottom: 1px;
+        }
+
+        .category-item:hover { background: var(--surface); color: var(--text); }
+        .category-item.active { background: var(--accent-bg); color: var(--accent); font-weight: 600; }
+
+        .category-count {
+            font-size: 11px;
+            background: var(--border);
+            padding: 2px 7px;
+            border-radius: 10px;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .category-item.active .category-count {
+            background: rgba(22,163,74,0.15);
+            color: var(--accent);
+        }
+
+        /* Content */
+        .content { min-width: 0; padding-bottom: 48px; }
+
+        .content-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .content-header h1 {
+            font-size: 22px;
+            font-weight: 750;
+            letter-spacing: -0.3px;
+        }
+
+        .tool-count {
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-left: 8px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 6px;
+        }
+
+        .filter-btn {
+            padding: 6px 14px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background: transparent;
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+
+        .filter-btn:hover { border-color: var(--border-hover); color: var(--text); }
+        .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+        /* Stats banner */
+        .stats-banner {
+            background: linear-gradient(135deg, #052e16 0%, #14532d 50%, #166534 100%);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .stats-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .stats-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .stats-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.15);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .stats-author-name {
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .stats-author-bio {
+            font-size: 12px;
+            color: rgba(255,255,255,0.65);
+            margin-top: 2px;
+        }
+
+        .stats-numbers {
+            display: flex;
+            gap: 20px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 20px;
+            font-weight: 800;
+            color: #86efac;
+            letter-spacing: -0.5px;
+        }
+
+        .stat-label {
+            display: block;
+            font-size: 11px;
+            color: rgba(255,255,255,0.55);
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        .stats-repos {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 16px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .stats-repos-label {
+            font-size: 11px;
+            color: rgba(255,255,255,0.4);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-right: 4px;
+        }
+
+        .repo-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+            font-weight: 600;
+            color: rgba(255,255,255,0.85);
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.12);
+            padding: 5px 11px;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: background 0.15s;
+        }
+
+        .repo-link:hover { background: rgba(255,255,255,0.16); color: #fff; }
+
+        /* Tools grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 12px;
+        }
+
+        .tool-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: border-color 0.15s, box-shadow 0.15s, transform 0.1s;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .tool-card:hover {
+            border-color: var(--border-hover);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-1px);
+        }
+
+        .tool-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .tool-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: var(--accent-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .tool-info { min-width: 0; }
+
+        .tool-name {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .tool-category {
+            font-size: 11.5px;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-top: 2px;
+        }
+
+        .tool-desc {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            flex: 1;
+        }
+
+        .tool-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: auto;
+        }
+
+        .price-tag {
+            font-size: 11.5px;
+            font-weight: 700;
+            padding: 3px 9px;
+            border-radius: 6px;
+        }
+
+        .price-free { background: var(--price-free-bg); color: var(--price-free-text); }
+        .price-freemium { background: var(--price-freemium-bg); color: var(--price-freemium-text); }
+        .price-paid { background: var(--price-paid-bg); color: var(--price-paid-text); }
+
+        .tool-link {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--accent);
+            transition: color 0.15s;
+        }
+
+        .tool-card:hover .tool-link { color: var(--accent-hover); }
+
+        /* Dark mode */
+        [data-theme="dark"] {
+            --bg: #111110;
+            --surface: #1c1c1a;
+            --surface-hover: #242422;
+            --border: #2a2a27;
+            --border-hover: #3a3a36;
+            --text: #f0ede8;
+            --text-secondary: #9b9890;
+            --text-muted: #6b6860;
+            --green-light: rgba(74,222,128,0.12);
+            --accent-bg: rgba(22,163,74,0.15);
+            --price-free-bg: rgba(22,163,74,0.15);
+            --price-freemium-bg: rgba(90,154,181,0.15);
+            --price-paid-bg: rgba(192,106,26,0.15);
+        }
+
+        [data-theme="dark"] .header { background: rgba(17,17,16,0.92); }
+        [data-theme="dark"] .search-box input { color: var(--text); }
+
+        /* Guide banner */
+        .guide-banner {
+            background: var(--accent-bg);
+            border: 1px solid rgba(22,163,74,0.2);
+            border-radius: 8px;
+            padding: 10px 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--accent);
+            display: none;
+        }
+
+        .guide-banner a { color: var(--accent); font-weight: 600; }
+        .guide-banner a:hover { color: var(--accent-hover); }
+
+        /* Footer */
+        .footer {
+            border-top: 1px solid var(--border);
+            padding: 20px 24px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .footer a { color: var(--text-secondary); font-weight: 500; transition: color 0.15s; }
+        .footer a:hover { color: var(--accent); }
+
+        /* No results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+
+        .no-results h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .sidebar { display: none; }
+            .header-links { display: none; }
+            .tools-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Language banner -->
+<div class="lang-banner">
+    🇰🇷 한국어판 &nbsp;|&nbsp;
+    <a href="../">中文版 →</a>
+    <a href="../en/" style="margin-left:8px">English →</a>
+    <a href="../ja/" style="margin-left:8px">日本語 →</a>
+</div>
+
+<!-- Header -->
+<header class="header">
+    <div class="header-inner">
+        <a href="/growth-tools/ko/" class="logo">
+            <img src="https://gingiris.com/brand/logo-primary.webp"
+                 onerror="this.onerror=null;this.style.display='none'"
+                 alt="Gingiris" class="logo-img">
+            <span class="logo-divider"></span>
+            <span class="logo-sub">성장 도구 모음</span>
+        </a>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="도구 검색...">
+        </div>
+        <nav class="header-links">
+            <a href="https://github.com/Gingiris/growth-tools/issues/new?template=submit-tool.yml" class="submit-btn">➕ 도구 추가</a>
+            <a href="/growth-tools/blog/">📝 블로그</a>
+            <a href="/growth-tools/blog/2026/04/07/korea-developer-communities-ko/">🇰🇷 한국 커뮤니티</a>
+            <a href="/growth-tools/blog/2026/04/07/github-stars-guide-ko/">⭐ GitHub Stars 가이드</a>
+            <a href="https://github.com/Gingiris/growth-tools">⭐ GitHub</a>
+        </nav>
+        <button class="theme-toggle" id="themeToggle" title="다크 모드 전환" aria-label="다크 모드 전환">🌙</button>
+    </div>
+</header>
+
+<div class="main">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h3>카테고리</h3>
+        <ul class="category-list" id="categoryList">
+            <!-- Generated by JS -->
+        </ul>
+    </aside>
+
+    <!-- Content -->
+    <main class="content">
+        <!-- Stats Banner -->
+        <div class="stats-banner">
+            <div class="stats-top">
+                <div class="stats-author">
+                    <div class="stats-avatar">🌱</div>
+                    <div class="stats-author-info">
+                        <div class="stats-author-name">Iris · Gingiris</div>
+                        <div class="stats-author-bio">전 AFFiNE COO · 오픈소스 해외 진출 컨설턴트</div>
+                    </div>
+                </div>
+                <div class="stats-numbers">
+                    <div class="stat-item">
+                        <span class="stat-value">60k</span>
+                        <span class="stat-label">GitHub Stars</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">30x</span>
+                        <span class="stat-label">PH #1</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">28회</span>
+                        <span class="stat-label">GitHub Trending</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-value">100+</span>
+                        <span class="stat-label">도구 수</span>
+                    </div>
+                </div>
+            </div>
+            <div class="stats-repos">
+                <span class="stats-repos-label">한국어 아티클</span>
+                <a href="/growth-tools/blog/2026/04/07/korea-developer-communities-ko/" class="repo-link">🇰🇷 한국 개발자 커뮤니티 완전 가이드</a>
+                <a href="/growth-tools/blog/2026/04/07/github-stars-guide-ko/" class="repo-link">⭐ GitHub Stars 늘리는 전략</a>
+                <a href="/growth-tools/blog/" class="repo-link">📝 전체 글 목록</a>
+            </div>
+        </div>
+
+        <div class="content-header">
+            <div>
+                <h1 id="categoryTitle">전체 도구</h1>
+                <span class="tool-count" id="toolCount">100+ 도구</span>
+            </div>
+            <div class="filters">
+                <button class="filter-btn active" data-price="all">전체</button>
+                <button class="filter-btn" data-price="free">무료</button>
+                <button class="filter-btn" data-price="freemium">프리미엄</button>
+                <button class="filter-btn" data-price="paid">유료</button>
+            </div>
+        </div>
+
+        <div class="guide-banner" id="guideBanner"><a href="#" id="guideBannerLink" target="_blank"></a></div>
+        <div class="tools-grid" id="toolsGrid"></div>
+
+        <div class="no-results" id="noResults" style="display:none;">
+            <h3>도구를 찾을 수 없습니다</h3>
+            <p>다른 키워드나 카테고리를 시도해보세요</p>
+        </div>
+    </main>
+</div>
+
+<footer class="footer">
+    <p>
+        © 2026 Gingiris · 한국 개발자를 위한 성장 도구 모음 ·
+        <a href="https://twitter.com/Iris_carrot">@Iris</a> ·
+        <a href="https://github.com/Gingiris/growth-tools">GitHub</a> ·
+        <a href="https://gingiris.com">Gingiris</a> ·
+        <a href="/growth-tools/blog/">블로그</a> ·
+        <a href="/growth-tools/">中文版</a> ·
+        <a href="/growth-tools/en/">English</a> ·
+        <a href="/growth-tools/ja/">日本語</a>
+    </p>
+</footer>
+
+<script>
+    // Dark mode
+    const themeToggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    function setTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        themeToggle.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    setTheme(saved || (prefersDark ? 'dark' : 'light'));
+    themeToggle.addEventListener('click', () => {
+        setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    });
+
+    // Tools data — Korea version with Korean descriptions + Korea-specific tools
+    const tools = [
+        // 🇰🇷 한국 특화 도구
+        { name: "OKKY", desc: "국내 최대 개발자 커뮤니티 포럼. 기술 질문·취업·프로젝트 모집 등 다양한 주제로 활발한 토론이 이루어짐", category: "🇰🇷 한국 특화", price: "free", url: "https://okky.kr", icon: "💬" },
+        { name: "카카오 기술 블로그", desc: "카카오 엔지니어링 블로그 및 오픈소스. 카카오 내부 기술 스택과 아키텍처 인사이트를 공유하는 공식 채널", category: "🇰🇷 한국 특화", price: "free", url: "https://tech.kakao.com", icon: "🟡" },
+        { name: "네이버 D2", desc: "네이버 개발자 포털 및 오픈소스. 네이버 기술 블로그, 오픈소스 프로젝트, 개발자 행사 정보를 제공", category: "🇰🇷 한국 특화", price: "free", url: "https://d2.naver.com", icon: "🟢" },
+        { name: "프로그래머스", desc: "한국 최대 코딩 테스트 플랫폼. 채용 연계 코딩 테스트와 다양한 알고리즘 문제로 한국 개발자들이 가장 많이 사용", category: "🇰🇷 한국 특화", price: "freemium", url: "https://programmers.co.kr", icon: "💻" },
+        { name: "인프런", desc: "한국 개발자 강의 플랫폼 및 커뮤니티. 국내 최대 IT 교육 플랫폼으로 강의 판매 및 커뮤니티 활동 가능", category: "🇰🇷 한국 특화", price: "freemium", url: "https://inflearn.com", icon: "📚" },
+        { name: "DEVOCEAN by SKT", desc: "SKT 오픈소스 개발자 커뮤니티. SK텔레콤이 운영하는 오픈소스·기술 블로그·개발자 네트워킹 플랫폼", category: "🇰🇷 한국 특화", price: "free", url: "https://devocean.sk.com", icon: "🌊" },
+        { name: "Wanted", desc: "개발자 채용 + 커뮤니티 플랫폼. 채용 정보뿐만 아니라 커리어 관련 질문과 기술 토론도 활발히 이루어짐", category: "🇰🇷 한국 특화", price: "free", url: "https://www.wanted.co.kr", icon: "🎯" },
+        { name: "Velog", desc: "한국 개발자 블로그 플랫폼. 마크다운 기반의 심플한 개발 블로그 플랫폼으로 한국 개발자 커뮤니티에서 인기", category: "🇰🇷 한국 특화", price: "free", url: "https://velog.io", icon: "✍️" },
+        { name: "AWSKRUG", desc: "AWS 한국 사용자 그룹. 서울을 중심으로 전국 각지에서 정기 모임을 운영하는 국내 최대 클라우드 커뮤니티", category: "🇰🇷 한국 특화", price: "free", url: "https://awskrug.github.io", icon: "☁️" },
+        { name: "GDG Korea", desc: "Google 개발자 그룹 코리아. 서울·부산·대전 등 전국에 지부를 둔 구글 기술 기반 개발자 커뮤니티", category: "🇰🇷 한국 특화", price: "free", url: "https://gdg.community.dev/korea", icon: "🔵" },
+
+        // 소셜 리스닝
+        { name: "Brandwatch", desc: "소셜 미디어 모니터링 도구. 브랜드·경쟁사·업계 트렌드를 실시간으로 분석하는 엔터프라이즈급 리스닝 플랫폼", category: "🎧 소셜 리스닝", price: "paid", url: "https://www.brandwatch.com", icon: "📡" },
+        { name: "Mention", desc: "브랜드 언급 추적. 소셜 미디어·뉴스·블로그 등 다양한 채널에서 브랜드 멘션을 실시간으로 모니터링", category: "🎧 소셜 리스닝", price: "freemium", url: "https://mention.com", icon: "🔔" },
+        { name: "Talkwalker", desc: "AI 기반 소셜 리스닝. 이미지·동영상까지 분석하는 차세대 소셜 인텔리전스 플랫폼", category: "🎧 소셜 리스닝", price: "paid", url: "https://www.talkwalker.com", icon: "🤖" },
+        { name: "Keyhole", desc: "해시태그 및 키워드 추적. 인스타그램·트위터 해시태그 캠페인 성과를 실시간 측정하고 분석", category: "🎧 소셜 리스닝", price: "freemium", url: "https://keyhole.co", icon: "🔑" },
+        { name: "Brand24", desc: "실시간 브랜드 모니터링. 소셜 미디어와 뉴스에서 브랜드 언급을 자동 수집해 감성 분석까지 제공", category: "🎧 소셜 리스닝", price: "freemium", url: "https://brand24.com", icon: "📊" },
+
+        // 커뮤니티 디렉토리
+        { name: "Reddit", desc: "개발자 커뮤니티의 허브. r/programming·r/webdev 등 기술 서브레딧에서 수백만 명의 개발자와 소통 가능", category: "🌐 커뮤니티 디렉토리", price: "free", url: "https://reddit.com", icon: "🔴" },
+        { name: "Discord", desc: "기술 커뮤니티 플랫폼. 오픈소스 프로젝트·스타트업·기술 그룹의 실시간 소통 공간으로 광범위하게 활용됨", category: "🌐 커뮤니티 디렉토리", price: "free", url: "https://discord.com", icon: "💜" },
+        { name: "DEV.to", desc: "개발자 블로그 및 커뮤니티. 영어권 개발자 커뮤니티에서 기술 글을 발행하고 네트워킹하기에 최적의 플랫폼", category: "🌐 커뮤니티 디렉토리", price: "free", url: "https://dev.to", icon: "💻" },
+        { name: "Indie Hackers", desc: "인디 개발자 커뮤니티. 수익화 중인 독립 개발자들이 경험을 공유하는 SaaS·부업 창업자의 핵심 커뮤니티", category: "🌐 커뮤니티 디렉토리", price: "free", url: "https://www.indiehackers.com", icon: "🛠️" },
+        { name: "Hacker News", desc: "Y Combinator 기술 포럼. 최고 수준의 기술·스타트업 논의가 이루어지는 Show HN은 OSS 론칭의 필수 채널", category: "🌐 커뮤니티 디렉토리", price: "free", url: "https://news.ycombinator.com", icon: "🟠" },
+
+        // 소셜 아웃리치
+        { name: "Hunter.io", desc: "이메일 주소 탐색 도구. 도메인으로 기업 이메일을 빠르게 찾고 검증하는 세일즈·PR 담당자 필수 도구", category: "📣 소셜 아웃리치", price: "freemium", url: "https://hunter.io", icon: "🔍" },
+        { name: "Lemlist", desc: "개인화 콜드 이메일. 이미지·동영상 맞춤화를 통해 오픈율과 응답률을 크게 높이는 아웃리치 플랫폼", category: "📣 소셜 아웃리치", price: "paid", url: "https://lemlist.com", icon: "✉️" },
+        { name: "Apollo.io", desc: "B2B 영업 인텔리전스. 2억 7천만 개 이상의 연락처 DB를 보유한 종합 세일즈 인텔리전스·아웃리치 플랫폼", category: "📣 소셜 아웃리치", price: "freemium", url: "https://apollo.io", icon: "🚀" },
+        { name: "Mailshake", desc: "콜드 아웃리치 자동화. 이메일·LinkedIn·전화를 통합한 멀티채널 세일즈 인게이지먼트 플랫폼", category: "📣 소셜 아웃리치", price: "paid", url: "https://mailshake.com", icon: "📧" },
+
+        // SEO 도구
+        { name: "Ahrefs", desc: "SEO 분석 및 백링크 도구. 업계 표준 SEO 도구로 백링크·키워드·경쟁사 분석을 종합적으로 제공", category: "🔍 SEO 도구", price: "paid", url: "https://ahrefs.com", icon: "🔗" },
+        { name: "SEMrush", desc: "SEO 및 경쟁사 분석. 키워드 리서치·사이트 감사·경쟁사 트래픽 분석까지 올인원 SEO 마케팅 플랫폼", category: "🔍 SEO 도구", price: "freemium", url: "https://semrush.com", icon: "📈" },
+        { name: "Google Search Console", desc: "구글 검색 성능 모니터링. 구글 검색에서 사이트 노출·클릭·순위 데이터를 무료로 제공하는 공식 도구", category: "🔍 SEO 도구", price: "free", url: "https://search.google.com/search-console", icon: "🔎" },
+        { name: "Screaming Frog", desc: "사이트 크롤링 및 기술 SEO. 대규모 사이트의 broken link·중복 콘텐츠·메타 태그 오류를 빠르게 발견", category: "🔍 SEO 도구", price: "freemium", url: "https://www.screamingfrog.co.uk", icon: "🐸" },
+        { name: "DataForSEO", desc: "SEO 데이터 API. 개발자 친화적인 SEO 데이터 API로 대규모 키워드·SERP 데이터를 프로그래밍 방식으로 수집", category: "🔍 SEO 도구", price: "freemium", url: "https://dataforseo.com", icon: "📡" },
+
+        // 개발 도구
+        { name: "GitHub", desc: "코드 협업 및 오픈소스 플랫폼. 전 세계 1억 명 이상의 개발자가 사용하는 오픈소스 협업과 코드 관리의 중심", category: "🛠️ 개발 도구", price: "free", url: "https://github.com", icon: "🐙" },
+        { name: "Linear", desc: "이슈 트래킹 도구. 빠르고 심플한 UX로 소프트웨어 팀의 프로젝트·이슈·로드맵을 효율적으로 관리", category: "🛠️ 개발 도구", price: "freemium", url: "https://linear.app", icon: "📋" },
+        { name: "Vercel", desc: "프론트엔드 배포 플랫폼. Next.js를 만든 팀이 운영하는 프론트엔드 배포 및 서버리스 함수 플랫폼", category: "🛠️ 개발 도구", price: "freemium", url: "https://vercel.com", icon: "▲" },
+        { name: "Supabase", desc: "오픈소스 Firebase 대안. PostgreSQL 기반의 오픈소스 백엔드 플랫폼으로 인증·DB·스토리지를 빠르게 구축", category: "🛠️ 개발 도구", price: "freemium", url: "https://supabase.com", icon: "⚡" },
+        { name: "Railway", desc: "풀스택 앱 배포 플랫폼. 설정 없이 간단하게 백엔드·데이터베이스·크론 작업을 클라우드에 배포할 수 있는 플랫폼", category: "🛠️ 개발 도구", price: "freemium", url: "https://railway.app", icon: "🚂" },
+
+        // Reddit
+        { name: "r/SaaS", desc: "SaaS 창업자 커뮤니티. SaaS 제품 홍보·피드백·성장 전략을 논의하는 핵심 서브레딧", category: "🕷️ Reddit", price: "free", url: "https://reddit.com/r/SaaS", icon: "🔴" },
+        { name: "r/startups", desc: "스타트업 토론 포럼. 초기 스타트업의 아이디어 검증·투자·팀 빌딩에 관한 다양한 논의가 이루어지는 공간", category: "🕷️ Reddit", price: "free", url: "https://reddit.com/r/startups", icon: "🔴" },
+        { name: "r/marketing", desc: "마케팅 전문가 커뮤니티. SEO·콘텐츠 마케팅·성장 전략 등 마케팅 실무자들의 인사이트와 사례 공유", category: "🕷️ Reddit", price: "free", url: "https://reddit.com/r/marketing", icon: "🔴" },
+        { name: "r/webdev", desc: "웹 개발자 커뮤니티. 프론트엔드·백엔드·풀스택 개발 관련 질문과 기술 공유가 활발한 서브레딧", category: "🕷️ Reddit", price: "free", url: "https://reddit.com/r/webdev", icon: "🔴" },
+        { name: "r/opensource", desc: "오픈소스 프로젝트 홍보. 오픈소스 프로젝트를 소개하고 컨트리뷰터를 모집하기 좋은 커뮤니티", category: "🕷️ Reddit", price: "free", url: "https://reddit.com/r/opensource", icon: "🔴" },
+    ];
+
+    const categoryGuides = {
+        '🇰🇷 한국 특화': { title: '📖 한국 개발자 커뮤니티 완전 가이드 → OKKY·Velog·AWSKRUG 활용법', url: '/growth-tools/blog/2026/04/07/korea-developer-communities-ko/' },
+        'Reddit':         { title: '📖 Reddit 마케팅 완전 가이드 → 계정 밴 없이 홍보하는 방법', url: 'https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/' },
+        '🔍 SEO 도구':    { title: '📖 GitHub Stars 늘리기 완전 가이드 → 33K Stars 케이스 스터디', url: '/growth-tools/blog/2026/04/07/github-stars-guide-ko/' },
+        '🌐 커뮤니티 디렉토리': { title: '📖 한국 개발자 커뮤니티 완전 가이드 → 처음 1000명 유저 찾는 법', url: '/growth-tools/blog/2026/04/07/korea-developer-communities-ko/' },
+        '🕷️ Reddit':      { title: '📖 Reddit 마케팅 완전 가이드 → 계정 밴 없이 홍보하는 방법', url: 'https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/' },
+        '🛠️ 개발 도구':   { title: '📖 AFFiNE 0→60K GitHub Stars 성장 플레이북', url: 'https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/' },
+        '🎧 소셜 리스닝': { title: '📖 GitHub Trending 28회 달성 전략 → AFFiNE 실전 사례', url: '/growth-tools/blog/2026/04/07/github-stars-guide-ko/' },
+        '📣 소셜 아웃리치': { title: '📖 오픈소스 해외 진출 완전 가이드 → 첫 번째 해외 유저 확보하기', url: 'https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/' },
+    };
+
+    const categories = [...new Set(tools.map(t => t.category))];
+    let activeCategory = 'all';
+    let activePrice = 'all';
+    let searchQuery = '';
+
+    function getCategoryIcon(cat) {
+        const icons = {
+            '🇰🇷 한국 특화': '🇰🇷',
+            '🎧 소셜 리스닝': '🎧',
+            '🌐 커뮤니티 디렉토리': '🌐',
+            '📣 소셜 아웃리치': '📣',
+            '🔍 SEO 도구': '🔍',
+            '🛠️ 개발 도구': '🛠️',
+            '🕷️ Reddit': '🕷️',
+        };
+        return icons[cat] || '📁';
+    }
+
+    function renderCategories() {
+        const list = document.getElementById('categoryList');
+        const allCount = tools.length;
+        list.innerHTML = `
+            <li class="category-item active" data-category="all">
+                📁 전체 도구
+                <span class="category-count">${allCount}</span>
+            </li>
+            ${categories.map(cat => {
+                const count = tools.filter(t => t.category === cat).length;
+                return `<li class="category-item" data-category="${cat}">
+                    ${cat}
+                    <span class="category-count">${count}</span>
+                </li>`;
+            }).join('')}
+        `;
+        list.querySelectorAll('.category-item').forEach(item => {
+            item.addEventListener('click', () => {
+                list.querySelectorAll('.category-item').forEach(i => i.classList.remove('active'));
+                item.classList.add('active');
+                activeCategory = item.dataset.category;
+                renderTools();
+            });
+        });
+    }
+
+    function getPriceLabel(price) {
+        const labels = { free: '무료', freemium: '프리미엄', paid: '유료' };
+        return labels[price] || price;
+    }
+
+    function renderTools() {
+        const grid = document.getElementById('toolsGrid');
+        const noResults = document.getElementById('noResults');
+        const title = document.getElementById('categoryTitle');
+        const count = document.getElementById('toolCount');
+
+        let filtered = tools;
+        if (activeCategory !== 'all') filtered = filtered.filter(t => t.category === activeCategory);
+        if (activePrice !== 'all') filtered = filtered.filter(t => t.price === activePrice);
+        if (searchQuery) {
+            const q = searchQuery.toLowerCase();
+            filtered = filtered.filter(t =>
+                t.name.toLowerCase().includes(q) ||
+                t.desc.toLowerCase().includes(q) ||
+                t.category.toLowerCase().includes(q)
+            );
+        }
+
+        title.textContent = activeCategory === 'all' ? '전체 도구' : activeCategory;
+        count.textContent = `${filtered.length}개 도구`;
+
+        const banner = document.getElementById('guideBanner');
+        const bannerLink = document.getElementById('guideBannerLink');
+        const guide = categoryGuides[activeCategory];
+        if (guide) {
+            bannerLink.href = guide.url;
+            bannerLink.textContent = guide.title;
+            banner.style.display = 'flex';
+        } else {
+            banner.style.display = 'none';
+        }
+
+        if (filtered.length === 0) {
+            grid.style.display = 'none';
+            noResults.style.display = 'block';
+            return;
+        }
+
+        grid.style.display = 'grid';
+        noResults.style.display = 'none';
+
+        grid.innerHTML = filtered.map(tool => `
+            <a href="${tool.url}" target="_blank" class="tool-card">
+                <div class="tool-header">
+                    <div class="tool-icon">${tool.icon}</div>
+                    <div class="tool-info">
+                        <div class="tool-name">${tool.name}</div>
+                        <div class="tool-category">${tool.category}</div>
+                    </div>
+                </div>
+                <div class="tool-desc">${tool.desc}</div>
+                <div class="tool-footer">
+                    <span class="price-tag price-${tool.price}">${getPriceLabel(tool.price)}</span>
+                    <span class="tool-link">접속 →</span>
+                </div>
+            </a>
+        `).join('');
+    }
+
+    document.getElementById('searchInput').addEventListener('input', e => {
+        searchQuery = e.target.value;
+        renderTools();
+    });
+
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activePrice = btn.dataset.price;
+            renderTools();
+        });
+    });
+
+    renderCategories();
+    renderTools();
+</script>
+</body>
+</html>
