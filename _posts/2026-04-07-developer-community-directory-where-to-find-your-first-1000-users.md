@@ -14,6 +14,7 @@ faq:
     a: "HN itself is a community, not a Discord/Slack. To engage: comment on posts in your domain, upvote genuinely good content, and build karma before launching your Show HN. For Show HN success, read our guide: post 9-10 AM ET weekdays, write a technical first comment, respond to every comment in the first 2 hours."
   - q: "What Slack communities are good for SaaS founders?"
     a: "Best Slack communities for SaaS founders: Open Data Science Conference (5K devs), Online Geniuses (marketing), Product Hunt Makers (product), Rands Leadership (engineering leaders). Most are invite-based. Search 'Slack community for [your niche]' to find current invite links as many rotate."
+hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja/
 ---
 
 ## Key Stats
