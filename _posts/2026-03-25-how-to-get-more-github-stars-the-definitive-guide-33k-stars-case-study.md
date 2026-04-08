@@ -17,6 +17,7 @@ faq:
   - q: "How do I get my repo on GitHub Trending?"
     a: "Coordinate your push: publish content, notify your community, post on Reddit and HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier to hit than All Languages. AFFiNE hit Trending on day five of our open source launch by concentrating all distribution into one window."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-increase-guide-ja/
+hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-guide-ko/
 ---
 
 
