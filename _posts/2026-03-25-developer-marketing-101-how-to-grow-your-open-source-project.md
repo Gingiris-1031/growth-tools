@@ -309,3 +309,6 @@ More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+---
+
+**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
