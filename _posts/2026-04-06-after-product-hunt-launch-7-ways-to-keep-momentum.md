@@ -3,7 +3,7 @@ title: "After Product Hunt Launch: 7 Ways to Keep the Momentum Going"
 description: "Won Product Hunt #1 — now what? Traffic drops 80-90% in 72 hours. Here's the exact follow-through system from 30x daily #1 experience."
 date: 2026-04-06
 tags: [producthunt, startup, marketing, growth]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/ris1031/after-product-hunt-launch-7-ways-to-keep-the-momentum-going-1120
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/
 seo_title: "After Product Hunt Launch: 7 Ways to Keep the Momentum Going"
 seo_description: "Won Product Hunt #1 — now what? Traffic drops 80-90% in 72 hours. Here's the exact follow-through system from 30x daily #1 experience."
 keywords: [product hunt launch, product hunt marketing, startup launch, launch momentum]
