@@ -15,6 +15,7 @@ faq:
   - q: "What Slack communities are good for SaaS founders?"
     a: "Best Slack communities for SaaS founders: Open Data Science Conference (5K devs), Online Geniuses (marketing), Product Hunt Makers (product), Rands Leadership (engineering leaders). Most are invite-based. Search 'Slack community for [your niche]' to find current invite links as many rotate."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja/
+hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/korea-developer-communities-ko/
 ---
 
 ## Key Stats
