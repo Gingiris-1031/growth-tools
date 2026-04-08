@@ -17,6 +17,7 @@ faq:
   - q: "Is it worth trying to get on GitHub Trending?"
     a: "Yes — if you can trigger it. GitHub Trending is viewed by tens of thousands of developers daily who are actively looking for new projects. Unlike social media, Trending visitors are already in 'discovery mode,' which means conversion rates to stars and actual users are significantly higher than most other channels. The compound effect matters: each Trending appearance raises your baseline star rate, making the next appearance easier to trigger."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-trending-guide-ja/
+hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-trending-guide-ko/
 ---
 
 It was a Tuesday morning in August 2022. I had been awake since 5 AM, watching our GitHub star counter. Not because I was anxious — I had actually set an alarm. We had been building toward this push for weeks: timed content, coordinated posts, a spreadsheet with 40 developers ready to share. By noon, the counter had moved from 340 to 680. By 8 PM: 1,100.
