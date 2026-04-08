@@ -20,6 +20,7 @@ faq:
   - q: "What is the Product Hunt badge worth?"
     a: "The badge is the primary asset. It provides: (1) Social proof on your landing page that converts cold visitors. (2) A high-DA backlink from producthunt.com that helps SEO. (3) Ongoing exposure — PH's homepage shows yesterday's winners, last week's weekly winners, last month's monthly winners. Weekly badge exposure = 7× daily; monthly = 30×."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
+hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko/
 ---
 
 The first time I launched on Product Hunt, we got 84 upvotes. That was enough for #5 on the day. I thought we had done something wrong.
