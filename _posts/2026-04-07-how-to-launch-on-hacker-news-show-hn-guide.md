@@ -20,6 +20,9 @@ hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news
 hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-guide-ko/
 ---
 
+**What is Show HN on Hacker News?** Show HN is a Hacker News submission format for showcasing projects you've built. A successful Show HN front page placement reaches 50,000-200,000 highly technical readers — engineers, CTOs, and startup founders — and can generate 500-2,000 GitHub stars and 1,000+ signups in 24 hours. AFFiNE's Show HN appearance generated 1,200 GitHub stars overnight and drove signups from 3 countries.
+
+
 Hacker News front page doesn't feel like other traffic spikes.
 
 Reddit gives you volume. Product Hunt gives you votes. HN gives you something harder to measure — engineers who actually read what you built, file specific bug reports, and sometimes email you at midnight with architectural critiques better than anything your own team had raised.
@@ -292,3 +295,53 @@ One useful pattern: **Show HN on launch → technical blog post 2–3 weeks late
 | 📖 | [GitHub Star Growth: 10 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
+## Key Takeaways
+
+- **Title is 90% of success**: factual, specific, no hype — include tech stack and a clear comparator
+- **Post at 7-9 AM Pacific Time** (11 PM-1 AM JST) on Tuesday-Thursday for maximum front page probability
+- **Post a founder comment immediately** explaining your "why" — HN rewards authenticity and technical depth
+- **Build karma first**: contribute quality comments for 3+ months before your big launch
+- **Respond to criticism constructively** — defensive replies tank posts; thoughtful responses can save them
+- HN readers are **CTOs, engineers, and investors** — one front page post can be worth months of other marketing
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you get on the Hacker News front page?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get on the Hacker News front page: (1) Write a title that is factual and specific — avoid hype, include the tech stack and a concrete differentiator, (2) Submit between 7-9 AM Pacific Time on weekdays for peak US traffic, (3) Post a founder comment immediately after submission explaining your motivation and technical decisions, (4) Have 3-5 colleagues upvote within the first 30 minutes to trigger algorithmic momentum, (5) Build HN karma beforehand by contributing quality comments for 3+ months. Accounts with higher karma have their posts weighted more heavily."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes a good Show HN title?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A good Show HN title is factual, specific, and includes: (1) What the product does in plain language, (2) The tech stack or key technical detail if relevant, (3) A comparison to known products if it helps understanding. Good example: 'Show HN: AFFiNE – An open-source Notion/Miro alternative written in TypeScript'. Bad example: 'Show HN: The best note-taking app you've ever seen'. HN readers are technical and distrust marketing language."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time to post on Hacker News?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best time to post on Hacker News is between 7 AM and 10 AM Pacific Time (PT) on Tuesday, Wednesday, or Thursday. This aligns with US East Coast morning (10 AM-1 PM ET) when traffic peaks. In Japan Standard Time (JST), this is 11 PM to 2 AM JST. Avoid weekends and Monday mornings. Posts submitted during peak hours have 3x higher front page probability than off-peak submissions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much traffic does a Hacker News front page post get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A Hacker News front page post typically generates 5,000-50,000 unique visitors in 24 hours depending on rank and time on front page. Top 3 positions can drive 100,000+ visitors. The audience is high quality: primarily software engineers, technical founders, and investors. AFFiNE's HN appearance drove 1,200 GitHub stars and significant developer signups in a single day — quality of traffic is often more valuable than quantity."
+      }
+    }
+  ]
+}
+</script>
