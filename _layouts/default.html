@@ -8,6 +8,12 @@
     <meta name="author" content="{{ page.author | default: site.author }}">
     <meta name="google-site-verification" content="k4XyIH1GtMfoPNDhBRKaVE98gYFE9bk_HtH430A3QJE">
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
+    {% if page.hreflang_ja %}<link rel="alternate" hreflang="ja" href="{{ page.hreflang_ja }}">
+    <link rel="alternate" hreflang="en" href="{{ page.canonical_url | default: page.url | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.canonical_url | default: page.url | absolute_url }}">{% endif %}
+    {% if page.hreflang_en %}<link rel="alternate" hreflang="en" href="{{ page.hreflang_en }}">
+    <link rel="alternate" hreflang="ja" href="{{ page.canonical_url | default: page.url | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ page.hreflang_en }}">{% endif %}
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{ page.title }}">
