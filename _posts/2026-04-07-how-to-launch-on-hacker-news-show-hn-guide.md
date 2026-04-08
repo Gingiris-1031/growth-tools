@@ -16,6 +16,7 @@ faq:
     a: "Yes — HN's guidelines allow resubmitting if the project has significantly changed or you believe the previous submission didn't represent it well. Wait at least a month. Change your title and first comment substantially. Don't submit the exact same post twice. Many projects that went unnoticed on first submission have broken through on a second attempt with better positioning."
   - q: "What kinds of projects do well on Hacker News?"
     a: "Developer tools, open source projects, technical infrastructure, AI/ML research projects, and unconventional technical approaches to well-known problems. HN responds strongly to: novel technical architecture, open source code they can inspect, clear articulation of what you built and why, and honest acknowledgment of limitations. Consumer apps, SaaS without technical depth, and marketing-heavy pitches consistently underperform."
+hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
 ---
 
 Hacker News front page doesn't feel like other traffic spikes.
