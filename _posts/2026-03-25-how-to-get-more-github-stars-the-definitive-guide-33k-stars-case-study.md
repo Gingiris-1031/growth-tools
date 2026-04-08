@@ -20,6 +20,9 @@ hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-star
 hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-guide-ko/
 ---
 
+**How do you get more GitHub stars?** Getting GitHub stars requires a combination of: (1) optimizing your README as a product page with GIFs and clear value proposition, (2) strategic "ignition" — launching on Hacker News, Product Hunt, and Reddit simultaneously to create a star velocity spike, (3) building a contributor community on Discord, and (4) targeting language-specific GitHub Trending. AFFiNE grew from 0 to **60,000+ GitHub stars** in 3 years using these tactics, appearing on GitHub Trending **28 times in 5 months**.
+
+
 
 It was 2 AM on a Thursday in August 2022.
 
@@ -306,3 +309,53 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
+## Key Takeaways
+
+- **README is your product page**: add a GIF, one-line pitch, and 3-step Quick Start — AFFiNE saw 2.3x star rate after README optimization
+- **Star velocity matters more than total count** for Trending — 50 stars/day can rank you in language-specific Trending
+- **Multi-channel ignition**: launch on HN + Product Hunt + Reddit simultaneously for compounding effect
+- **Contributors are long-term assets**: 300 active contributors brought hundreds of organic stars per month through word-of-mouth
+- **Language-specific Trending** (TypeScript, Python, etc.) has far less competition than All Languages
+- AFFiNE's 60,000 stars in 3 years = roughly **55 stars per day on average**, achieved through systematic repeatable launches
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you get more GitHub stars fast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get GitHub stars quickly: (1) Post a Show HN on Hacker News — a front page placement can add 500-2,000 stars in 24 hours, (2) Submit to Product Hunt, (3) Post to relevant subreddits like r/programming and r/selfhosted, (4) Get featured on a popular 'Awesome' list, (5) Reach out to developers with large Twitter followings. AFFiNE gained 5,000 stars in a single week through coordinated multi-channel launches."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many GitHub stars is considered good?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GitHub star benchmarks: 100+ stars means your project has found initial traction. 1,000+ stars puts you in the top 5% of repositories. 5,000+ stars is considered a successful open source project. 10,000+ stars is highly notable and will appear on GitHub Trending regularly. 50,000+ stars (like AFFiNE's 60,000+) represents a top-tier open source project with strong community adoption."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you get on GitHub Trending?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To get on GitHub Trending, you need to accumulate stars faster than competing repositories in a short window (24 hours, week, or month). Key tactics: (1) Coordinate a launch across multiple platforms on the same day to create star velocity, (2) Target language-specific Trending (TypeScript, Python, etc.) where competition is lower — 50 stars/day can rank you in language-specific Trending, (3) Time launches to coincide with US working hours for maximum engagement. AFFiNE appeared on GitHub Trending 28 times in 5 months using this approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a good README help get GitHub stars?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a well-optimized README significantly increases GitHub stars. Key README elements that drive stars: an animated GIF showing the product in action, a one-line value proposition above the fold, star/contributor/license badges, a Quick Start guide under 3 steps, and clear use case examples. AFFiNE saw a 2.3x increase in weekly star acquisition rate after optimizing their README with these elements."
+      }
+    }
+  ]
+}
+</script>
