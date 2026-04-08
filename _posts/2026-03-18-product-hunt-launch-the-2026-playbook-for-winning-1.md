@@ -23,6 +23,9 @@ hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hun
 hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko/
 ---
 
+**What is a Product Hunt launch playbook?** A Product Hunt launch playbook is a step-by-step strategy for launching on Product Hunt and winning #1 — covering pre-launch community building (2 weeks before), hunter selection, launch day execution (first hour is critical), and post-launch momentum. AFFiNE used this exact playbook to win Product Hunt #1 **30 times**.
+
+
 The first time I launched on Product Hunt, we got 84 upvotes. That was enough for #5 on the day. I thought we had done something wrong.
 
 The second time: 130 upvotes. #3.
@@ -236,3 +239,52 @@ The weekly and monthly badge multipliers (7× and 30× more exposure respectivel
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+## Key Takeaways
+
+- Product Hunt is a **3-week project**, not a 1-day event: preparation → launch day → follow-up
+- The **first hour of launch** determines algorithmic momentum — aim for 100 upvotes in 60 minutes
+- A hunter with **5,000+ followers** can double your initial reach
+- **Responding to every comment** within 30 minutes is as important as the upvote count
+- Post-launch follow-up (Dev.to article, Twitter recap, media outreach) generates ~40% of total traffic
+- AFFiNE's 30x #1 record was built on repeatable process, not luck
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you win #1 on Product Hunt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To win #1 on Product Hunt, you need: (1) A hunter with 5,000+ followers, (2) Pre-launch community of 200+ supporters ready to upvote on day one, (3) Launch at 12:01 AM PST to maximize the 24-hour window, (4) Respond to every comment within 30 minutes, (5) Coordinate simultaneous outreach across Discord, Twitter, and email. AFFiNE won Product Hunt #1 30 times using this approach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time to launch on Product Hunt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best time to launch on Product Hunt is 12:01 AM Pacific Standard Time (PST) on a Tuesday, Wednesday, or Thursday. This gives you the full 24-hour voting window. Weekends have lower traffic. Launching at midnight PST means you have the entire US workday ahead for upvotes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many upvotes do you need to win Product Hunt #1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To win Product Hunt #1 of the day, you typically need between 500 and 2,000+ upvotes depending on competition. AFFiNE's highest-performing launch received 2,847 upvotes. On slower days, 400-600 upvotes can be enough. The algorithm also weighs comment engagement and the diversity of voters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you find a hunter for Product Hunt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To find a Product Hunt hunter: (1) Browse the top hunters list on Product Hunt, (2) Look for hunters with 5,000+ followers, (3) Find ones who have hunted products in your category, (4) Reach out via Twitter DM or email with a personalized pitch. Success rate is approximately 30%. Alternatively, you can self-hunt, though a well-followed hunter gives you a significant reach advantage."
+      }
+    }
+  ]
+}
+</script>
