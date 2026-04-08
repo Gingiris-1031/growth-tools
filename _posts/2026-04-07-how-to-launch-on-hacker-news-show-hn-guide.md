@@ -17,6 +17,7 @@ faq:
   - q: "What kinds of projects do well on Hacker News?"
     a: "Developer tools, open source projects, technical infrastructure, AI/ML research projects, and unconventional technical approaches to well-known problems. HN responds strongly to: novel technical architecture, open source code they can inspect, clear articulation of what you built and why, and honest acknowledgment of limitations. Consumer apps, SaaS without technical depth, and marketing-heavy pitches consistently underperform."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
+hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-guide-ko/
 ---
 
 Hacker News front page doesn't feel like other traffic spikes.
