@@ -13,6 +13,8 @@ faq:
   - q: "What should a bug report GitHub issue template include?"
     a: "A bug report template should include: Environment section (OS, browser/runtime version, package version), Steps to Reproduce (numbered list, minimum reproduction steps), Expected Behavior (what should happen), Actual Behavior (what actually happens, including error messages or screenshots), and Additional Context (logs, related issues, workarounds tried). Keep it short enough that reporters actually fill it out — the most useful templates take under 3 minutes to complete. Long templates lead to reporters deleting sections entirely."
 ---
+**What is a GitHub issue template?** A GitHub issue template is a pre-formatted markdown file that guides contributors when filing bugs or feature requests. Stored at `.github/ISSUE_TEMPLATE/`, issue templates reduce low-quality bug reports, increase contribution rates, and help maintainers triage faster. Well-designed issue templates can increase contribution volume by 2-3x by lowering the barrier for first-time contributors.
+
 ## TL;DR
 
 - Good issue templates increase contributor activity by 40%+
@@ -89,6 +91,8 @@ Any alternative solutions you've considered.
 **Additional Context**
 Mockups, examples, references.
 ```
+
+> 📖 **Related:** [GitHub PR Template Guide: Write Descriptions That Get Merged Faster](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/)
 
 ### 3. Pull Request Template
 
@@ -174,3 +178,52 @@ Before opening an issue:
 For more open source growth strategies, see [github.com/Gingiris/gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — the complete playbook from 0 to 60k stars.
 
 *Part of the [Gingiris Open Source Growth Playbook](https://github.com/Gingiris/gingiris-opensource) — helping developers build open source communities.*
+
+## Key Takeaways
+
+- Store issue templates in `.github/ISSUE_TEMPLATE/` — create multiple for bug reports, feature requests, and questions
+- Always include: **Describe the bug**, **Steps to reproduce**, **Expected behavior**, **Environment** (OS, version)
+- Add `assignees` and `labels` in frontmatter to auto-assign issues to the right team member
+- A good issue template reduces "can you provide more info?" back-and-forth by 60%+
+- Use `ISSUE_TEMPLATE/config.yml` to disable blank issues and force template usage
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I create a GitHub issue template?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To create a GitHub issue template: (1) Create a directory at .github/ISSUE_TEMPLATE/ in your repository, (2) Add markdown files for each template type — e.g., bug_report.md and feature_request.md, (3) Add YAML frontmatter with name, about, title, labels, and assignees fields, (4) Commit to your default branch. GitHub will show a template chooser when users click 'New Issue'."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should a GitHub bug report template include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A GitHub bug report template should include: (1) Describe the bug — a clear description of what the bug is, (2) Steps to reproduce — numbered list of exact steps, (3) Expected behavior — what should happen, (4) Actual behavior — what actually happens, (5) Screenshots — if applicable, (6) Environment — OS, browser, app version, Node version. This information lets maintainers reproduce and fix bugs without follow-up questions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you have multiple GitHub issue templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can have multiple GitHub issue templates. Create multiple .md files in the .github/ISSUE_TEMPLATE/ directory — one for each type (bug report, feature request, documentation, question, etc.). GitHub displays a template chooser dialog when contributors click 'New Issue'. Add a config.yml file to the same directory to disable blank issues and require template selection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do GitHub issue templates increase contributions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GitHub issue templates increase contributions by lowering the barrier for first-time contributors. When the form is pre-structured, contributors spend less mental effort figuring out what information to provide. Clear templates signal a well-maintained project, which attracts more contributors. Projects with issue templates typically see 2-3x higher contribution rates compared to projects without them, and significantly fewer incomplete or duplicate issues."
+      }
+    }
+  ]
+}
+</script>
