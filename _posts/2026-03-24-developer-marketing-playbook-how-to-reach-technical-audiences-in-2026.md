@@ -32,6 +32,15 @@ Developers hate being marketed to. They can smell a sales pitch from miles away.
 
 After building developer communities around products with 30K+ GitHub stars, here is the developer marketing playbook that actually works.
 
+| Key Stat | Value |
+|----------|-------|
+| GitHub stars built | 30,000+ |
+| Content mix rule | 80% educational, 20% product |
+| Time to Hello World target | Under 5 minutes |
+| Organic momentum timeline | 6-12 months |
+| AI startups consulted | 150+ |
+| Reddit r/programming reach | 6M+ developers |
+
 ## The Developer Marketing Mindset
 
 **Traditional marketing:** Convince people to buy
@@ -227,4 +236,51 @@ Developers self-educate and self-serve — they evaluate tools by reading code a
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is developer marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Developer marketing is reaching software developers as your primary audience. It differs from traditional marketing because developers distrust ads, read code, and make decisions based on peer recommendations and hands-on evaluation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What channels work best for developer marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GitHub (your repo IS your storefront), Dev.to and Hashnode for technical content, Hacker News for launches, Reddit (r/programming, tech-specific subs), technical newsletters, and Discord/Slack developer communities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you measure developer marketing success?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GitHub stars and forks, repo traffic, API sign-ups, documentation pageviews, community size (Discord/Slack members), and developer NPS. Traditional marketing metrics like impressions are less meaningful."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What content works best for reaching developers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deep technical tutorials with working code, honest engineering retrospectives, benchmark comparisons, open source announcements, and build-in-public updates. Content that treats developers as smart peers, not as a demographic."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is developer marketing different from B2B marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Developers self-educate and self-serve — they evaluate tools by reading code and running demos, not by talking to sales. Developer marketing must earn trust through transparency, technical depth, and genuine community participation."
+      }
+    }
+  ]
+}
+</script>
