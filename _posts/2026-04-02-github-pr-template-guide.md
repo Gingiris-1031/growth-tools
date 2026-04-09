@@ -13,6 +13,8 @@ faq:
   - q: "How do PR templates improve code review?"
     a: "PR templates improve code review by: reducing back-and-forth (reviewers have context upfront), catching common omissions (missing tests, missing documentation), standardizing how changes are described across the codebase, making it easier for new contributors to understand what's expected, and creating a searchable history of why changes were made. Teams with good PR templates report 30-50% faster review cycles because reviewers spend less time asking clarifying questions."
 ---
+**What is a GitHub PR template?** A GitHub PR template (pull request template) is a markdown file stored at `.github/pull_request_template.md` that automatically pre-fills a description form every time a developer opens a pull request. PR templates improve code review quality, reduce back-and-forth, and help teams ship faster. AFFiNE's PR template contributed to a 300+ contributor open source project maintaining consistent review standards across 60,000+ GitHub stars.
+
 ## TL;DR
 
 - PR templates increase merge rate by 30%+ — they make reviews faster and reduce back-and-forth
@@ -256,3 +258,52 @@ For more open source growth strategies, see [github.com/Gingiris/gingiris-openso
 
 - [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/)
 - [GitHub README Best Practices: How to Write a README That Gets Stars](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
+
+## Key Takeaways
+
+- Store your PR template at `.github/pull_request_template.md` — GitHub auto-loads it for every new PR
+- Include: **What changed**, **Why**, **How to test**, **Screenshots** (for UI changes), and **Checklist**
+- Keep it under 20 lines — longer templates get ignored by contributors
+- Multiple templates (bug fix vs. feature vs. hotfix) can be stored in `.github/PULL_REQUEST_TEMPLATE/`
+- AFFiNE's PR template helped 300+ contributors maintain consistent review quality at 60,000+ stars
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should a GitHub PR template include?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A GitHub PR template should include: (1) Description — what changed and why, (2) Type of change — bug fix, feature, breaking change, (3) How to test — step-by-step testing instructions, (4) Screenshots — for UI/UX changes, (5) Checklist — tests passing, docs updated, no console errors. Keep it under 20 lines to ensure contributors actually fill it out."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where do you put a GitHub PR template?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Put your GitHub PR template at .github/pull_request_template.md in your repository root. GitHub automatically loads this file as the default description for every new pull request. For multiple templates, create a .github/PULL_REQUEST_TEMPLATE/ directory with separate .md files, then link to them using URL query parameters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I create a GitHub pull request template?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To create a GitHub PR template: (1) Create a file at .github/pull_request_template.md in your repo, (2) Write your template using markdown — include sections for description, changes, testing steps, and a checklist, (3) Commit and push to your default branch. The template will automatically appear in the description field for all future pull requests. No configuration needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a PR template improve open source contributions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. PR templates significantly improve open source contribution quality by setting clear expectations for contributors. They reduce reviewer back-and-forth, ensure testing instructions are included, and help maintainers process PRs faster. Projects with PR templates report 40-60% fewer revision cycles on average. AFFiNE uses a PR template to maintain quality across 300+ contributors."
+      }
+    }
+  ]
+}
+</script>
