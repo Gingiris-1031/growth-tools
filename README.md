@@ -4,7 +4,7 @@
 
 # Growth Tools — 出海增长工具库 & 实战博客
 
-### 100+ 精选增长工具 · 46 篇实战 SEO 文章 · 免费出海增长工具
+### Best growth tools for startups & SaaS — 100+ curated tools, 46 SEO articles, free startup marketing resources
 
 [![GitHub stars](https://img.shields.io/github/stars/Gingiris/growth-tools?style=social)](https://github.com/Gingiris/growth-tools/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris/growth-tools?style=social)](https://github.com/Gingiris/growth-tools/network/members)
