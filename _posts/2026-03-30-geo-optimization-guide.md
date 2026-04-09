@@ -13,6 +13,8 @@ faq:
   - q: "How do you get your content cited by ChatGPT?"
     a: "To get your content cited by ChatGPT and other AI engines: (1) Ensure your content is indexed by Bing (ChatGPT's primary web source) — submit via IndexNow or Bing Webmaster Tools. (2) Use FAQ structure — AI engines frequently pull from Q&A formatted content. (3) Include specific, verifiable statistics with source attribution. (4) Be the original source — publish original research or data AI engines have reason to cite. (5) Build domain authority through backlinks — AI engines weight authority similarly to search engines."
 ---
+**What is Generative Engine Optimization (GEO)?** Generative Engine Optimization (GEO) is the practice of optimizing content to appear in AI-generated answers from systems like ChatGPT, Claude, Perplexity, and Google AI Overviews. Unlike traditional SEO which targets search rankings, GEO targets AI citation — getting your content quoted, referenced, or summarized by AI assistants. Studies from Princeton show that content with specific statistics, direct answer formats, and FAQ schemas has 30-40% higher AI citation rates.
+
 ## TL;DR
 
 - **GEO** = Generative Engine Optimization，让 AI 搜索（ChatGPT/Perplexity/AI Overviews）引用你的内容
@@ -104,6 +106,32 @@ Allow: /
 
 ---
 
+
+## 7 GEO Tactics That Increase AI Citation Rate
+
+### 1. Direct Answer Format
+Start every key section with a one-sentence answer to an implied question. AI systems extract these first.
+
+### 2. Specific Statistics with Attribution
+Vague claims get ignored. Specific data gets cited.
+- ❌ "Companies that use GEO see better results"
+- ✅ "Content with specific statistics has 30-40% higher AI citation rates (Princeton NLP study, 2024)"
+
+### 3. FAQ Schema JSON-LD
+Add FAQPage structured data to your articles. Perplexity and Google AI Overviews actively parse this.
+
+### 4. llms.txt File
+Add `/llms.txt` to your site root listing your key pages, statistics, and crawl permissions. AI agents check this file before indexing your site.
+
+### 5. Open AI Crawlers in robots.txt
+Explicitly allow GPTBot, ClaudeBot, PerplexityBot, and Google-Extended in your robots.txt. Some CDNs (including Cloudflare) block these by default.
+
+### 6. Key Stats Tables
+Put your most citable numbers in a markdown table near the top of each article. AI systems are trained to extract structured data.
+
+### 7. Regular Content Updates
+AI training data has freshness bias. Add a "Last updated" date and refresh your statistics every 1-2 months.
+
 ## 总结
 
 SEO 和 GEO 都重要，创建**既能排名又能被引用**的内容：
@@ -126,3 +154,51 @@ SEO 和 GEO 都重要，创建**既能排名又能被引用**的内容：
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+## Key Takeaways
+
+- GEO = optimizing for AI citations, not just Google rankings — a fundamentally different strategy
+- **FAQ Schema** is the single highest-ROI GEO tactic: structured questions get extracted directly by AI
+- **Specific statistics** (with source attribution) are 30-40% more likely to be cited by AI than vague claims
+- **llms.txt** signals to AI crawlers what your site is about and which pages matter most
+- GEO and SEO reinforce each other — content that ranks in Google is also more likely to be cited by AI
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Generative Engine Optimization (GEO)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generative Engine Optimization (GEO) is the practice of optimizing web content to appear in AI-generated answers from ChatGPT, Claude, Perplexity, Google AI Overviews, and other large language models. GEO focuses on making content easy for AI to extract, cite, and summarize — through direct answer formats, FAQ schemas, specific statistics, and structured data. Unlike SEO which targets search rankings, GEO targets AI citation rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is GEO different from SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SEO (Search Engine Optimization) optimizes content to rank in traditional search results like Google and Bing. GEO (Generative Engine Optimization) optimizes content to be cited by AI systems like ChatGPT, Claude, and Perplexity. Key differences: SEO prioritizes backlinks and domain authority; GEO prioritizes content clarity, specific statistics, and FAQ schema. SEO measures rankings and organic traffic; GEO measures AI citation frequency. Both strategies complement each other — highly-ranked content is also more likely to be cited by AI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you optimize content for ChatGPT and Perplexity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To optimize content for ChatGPT, Perplexity, and other AI systems: (1) Use direct answer formats — start sections with a clear one-sentence answer, (2) Add FAQ Schema JSON-LD structured data, (3) Include specific statistics with source attribution, (4) Add a llms.txt file to your site root, (5) Ensure AI crawlers (GPTBot, ClaudeBot, PerplexityBot) are allowed in robots.txt, (6) Use Key Stats tables near the top of articles, (7) Update content regularly to signal freshness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is llms.txt and how does it help GEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "llms.txt is a plain text file placed at your website's root (e.g., yoursite.com/llms.txt) that provides AI crawlers with a structured overview of your site's content, key statistics, and important pages. Similar to robots.txt for traditional crawlers, llms.txt helps AI agents understand your site's context before indexing. Including citable statistics and key article URLs in llms.txt increases the likelihood that AI systems reference your content accurately."
+      }
+    }
+  ]
+}
+</script>
