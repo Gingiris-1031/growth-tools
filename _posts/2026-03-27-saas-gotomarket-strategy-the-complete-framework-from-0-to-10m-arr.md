@@ -32,16 +32,7 @@ Most SaaS founders obsess over product features while neglecting go-to-market st
 
 After helping AFFiNE grow to 60K+ GitHub stars and advising dozens of SaaS startups, I've identified the patterns that separate successful launches from failed ones.
 
-This guide gives you the complete SaaS go-to-market strategy framework.
-
-| Key Stat | Value |
-|----------|-------|
-| AFFiNE GitHub stars | 60,000+ |
-| HeyGen ARR growth | $0 to $35M in 2 years |
-| PLG upgrade threshold | ACV < $5K/year |
-| Founder-led sales phase | $0 to $500K-$1M ARR |
-| Minimum launch list | 500+ emails |
-| Target activation rate | 40%+ |
+This guide gives you the complete SaaS go-to-market strategy framework. For a deeper dive into B2B-specific growth levers, see our [B2B SaaS growth playbook](https://gingiris.github.io/growth-tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/).
 
 ## The Two Paths: PLG vs SLG
 
@@ -74,6 +65,8 @@ Before any GTM activity, answer these:
 unlike [alternatives] which [limitation].
 ```
 
+Not sure if your positioning is right? Use our [product-market fit checklist](https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist/) to pressure-test your assumptions before committing to a GTM plan.
+
 ### 2. Build Your Launch List
 
 Start collecting emails 8+ weeks before launch:
@@ -86,7 +79,7 @@ Start collecting emails 8+ weeks before launch:
 | Beta user invites | 50-200 | High |
 | Community participation | 100-300 | High |
 
-**Target: 500+ emails minimum before launch day.**
+**Target: 500+ emails minimum before launch day.** For proven tactics on building this early user base, see [how to find beta users for your SaaS](https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas/).
 
 ### 3. Set Up Analytics
 
@@ -142,6 +135,8 @@ Create content → Rank in Google → Get traffic → Convert users →
 Users generate data → Create more content
 ```
 
+For a practical breakdown of building your content engine from scratch, read our [content marketing for startups](https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups/) guide.
+
 **2. Viral Loop (Referral)**
 ```plaintext
 User signs up → Gets value → Invites team → Team invites others
@@ -172,6 +167,8 @@ Happy users recruit new members
 - Cut losing channels ruthlessly
 - Hire first growth/marketing person
 - Build integration partnerships
+
+For a more granular marketing roadmap covering your first 1,000 users, see our [startup marketing strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) framework.
 
 ## Pricing Strategy for GTM
 
@@ -277,60 +274,15 @@ After you have a repeatable sales playbook — typically at $500k-$1M ARR. Hirin
 
 ---
 
-## 📚 Related Reading
+## 📚 Related Guides
 
 | Category | Article |
 |----------|---------|
+| 📖 | [B2B SaaS Growth Playbook: Proven Strategies](https://gingiris.github.io/growth-tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/) |
+| 📖 | [How to Find Beta Users for Your SaaS](https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas/) |
+| 📖 | [Product-Market Fit Checklist](https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist/) |
+| 📖 | [Startup Marketing Strategy: From Zero to First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [Content Marketing for Startups](https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups/) |
 | 📖 | [SaaS Growth Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
-| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is a SaaS go-to-market strategy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A GTM strategy defines how you bring your SaaS product to market: who you target (ICP), how you reach them (channels), what you say (messaging), and how you price and sell. It connects product, marketing, and sales."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between PLG and SLG for SaaS?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "PLG (product-led growth) acquires users through the product itself — free trials, freemium, viral loops. SLG (sales-led growth) uses a sales team to close deals. Most successful SaaS companies combine both: PLG for SMB, SLG for enterprise."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does it take to go from $0 to $1M ARR for SaaS?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Median is 2-3 years for B2B SaaS. Fastest companies do it in 12-18 months. Developer tools and PLG products can move faster. The key variable is how quickly you find ICP and build a repeatable sales motion."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What channels work best for early SaaS GTM?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Founder-led sales (direct outreach), content marketing targeting specific pain points, community-led growth (Slack, Discord, Reddit), and Product Hunt launch. Paid ads rarely work before product-market fit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When should a SaaS startup hire its first sales rep?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "After you have a repeatable sales playbook — typically at $500k-$1M ARR. Hiring sales too early means they will spend months figuring out who to sell to. Founders should close the first 10-20 deals themselves."
-      }
-    }
-  ]
-}
-</script>
