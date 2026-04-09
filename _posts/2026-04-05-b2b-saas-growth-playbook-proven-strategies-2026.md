@@ -17,6 +17,21 @@ This guide breaks down the B2B SaaS growth strategies that actually work in 2026
 
 ---
 
+
+## Key Stats
+
+| Key Stat | Value |
+|----------|-------|
+| B2B SaaS stall zone | $1M–$10M ARR |
+| Target MRR growth rate | 15–20% monthly |
+| Net Revenue Retention target | 110%+ (120%+ at scale) |
+| CAC payback period target | < 12 months |
+| LTV:CAC ratio target | > 3:1 |
+| Monthly churn rate target | < 2% |
+| HeyGen case study ARR | $60M in under 2 years |
+
+---
+
 ## TL;DR
 
 - B2B SaaS growth requires matching your go-to-market (GTM) strategy to your product stage
@@ -213,3 +228,52 @@ The key insight is that B2B SaaS growth isn't about doing everything — it's ab
 ---
 
 **📖 Related Reading:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best go-to-market strategy for B2B SaaS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on your product and target customer. Product-led growth (PLG) works best for tools with clear value propositions, low switching costs, and bottom-up adoption like developer tools and collaboration software. Sales-led growth (SLG) is necessary for complex enterprise software with longer sales cycles and higher contract values. Many successful companies use a hybrid approach, starting with PLG and adding SLG as they move upmarket."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What metrics should B2B SaaS companies track for growth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The core metrics are MRR growth rate (target 15-20% monthly), Net Revenue Retention (target 110%+), Customer Acquisition Cost and CAC payback period (under 12 months), monthly churn rate (under 2%), and LTV to CAC ratio (above 3:1). Net Revenue Retention is especially important as it indicates whether existing customers are expanding their usage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you scale a B2B SaaS company from $1M to $10M ARR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At the $1M to $10M ARR stage, focus on going upmarket with enterprise features, building strategic partnerships for distribution, investing in thought leadership and brand, and systemizing customer success to drive Net Revenue Retention above 120%. This is also the stage to add a sales-led motion if you started with product-led growth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is product-led growth and how does it work for B2B SaaS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Product-led growth puts the product at the center of acquisition, conversion, and retention. Users can sign up, try the product, and upgrade without talking to a salesperson. Key metrics include time to value, viral coefficient, and free-to-paid conversion rate. PLG works best for developer tools, collaboration software, and operations tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is community building important for B2B SaaS growth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Community is a growth moat that keeps competitors at bay. Companies like HubSpot, Salesforce, and Notion have built communities that drive both acquisition and retention. To start, build a community around a problem your buyers face, begin with 100 highly engaged members in Slack or Discord, create rituals like weekly AMAs, and turn power users into advocates who recruit colleagues."
+      }
+    }
+  ]
+}
+</script>
