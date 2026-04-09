@@ -30,16 +30,7 @@ faq:
 
 Developers hate being marketed to. They can smell a sales pitch from miles away. Yet some companies build massive developer communities while others struggle to get any traction. What is the difference?
 
-After building developer communities around products with 30K+ GitHub stars, here is the developer marketing playbook that actually works.
-
-| Key Stat | Value |
-|----------|-------|
-| GitHub stars built | 30,000+ |
-| Content mix rule | 80% educational, 20% product |
-| Time to Hello World target | Under 5 minutes |
-| Organic momentum timeline | 6-12 months |
-| AI startups consulted | 150+ |
-| Reddit r/programming reach | 6M+ developers |
+After building developer communities around products with 30K+ GitHub stars, here is the developer marketing playbook that actually works. For a directory of the communities where developers actually hang out, see our [developer community directory](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/).
 
 ## The Developer Marketing Mindset
 
@@ -84,6 +75,8 @@ Build relationships before you have anything to sell.
 3. Build reputation (become a known helpful presence)
 4. Then introduce your product (when genuinely relevant)
 
+If you are building a developer relations program from scratch, our [developer advocate guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-advocate-guide/) covers the role, hiring profile, and day-one playbook.
+
 ### 3. Developer Experience (DX) as Marketing
 
 Your product experience IS your marketing.
@@ -95,7 +88,7 @@ Your product experience IS your marketing.
 - [ ] Responsive support channels
 - [ ] Well-organized documentation
 
-**Reality:** A great developer experience generates more word-of-mouth than any marketing campaign.
+**Reality:** A great developer experience generates more word-of-mouth than any marketing campaign. Your README is often the first touchpoint — follow our [GitHub README best practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) to make it count.
 
 ## Tactical Playbook
 
@@ -116,7 +109,7 @@ Your product experience IS your marketing.
 **Week 5-6: Content Distribution**
 - Post tutorials to Reddit (r/programming, niche subreddits)
 - Share on Twitter with relevant hashtags
-- Submit to Hacker News (if genuinely valuable)
+- Submit to Hacker News (if genuinely valuable) — see our [guide to launching on Hacker News](https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) for what works and what gets flagged
 
 **Week 7-8: Relationship Building**
 - Engage with developer influencers (comments, not DMs)
@@ -163,6 +156,10 @@ Your product experience IS your marketing.
 - r/devops (500K+)
 - r/selfhosted (300K+)
 - Language/framework specific subs
+
+## Amplifying Reach with KOLs
+
+Developer influencers operate differently from consumer KOLs. They value authenticity above all else, and their audiences will punish inauthentic endorsements. For a detailed breakdown of how to identify, approach, and structure partnerships with technical KOLs, read our [KOL marketing strategy guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/).
 
 ## Measuring Success
 
@@ -227,60 +224,16 @@ Developers self-educate and self-serve — they evaluate tools by reading code a
 
 ---
 
-## 📚 Related Reading
+## 📚 Related Guides
 
 | Category | Article |
 |----------|---------|
+| 📖 | [Developer Community Directory: Where to Find Your First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
+| 📖 | [Developer Advocate Guide: Building a DevRel Program](https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-advocate-guide/) |
+| 📖 | [KOL Marketing Strategy for Technical Products](https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/) |
+| 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [How to Launch on Hacker News (Show HN Guide)](https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) |
 | 📖 | [Developer Marketing 101](https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/) |
 | 📖 | [How to Get GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is developer marketing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Developer marketing is reaching software developers as your primary audience. It differs from traditional marketing because developers distrust ads, read code, and make decisions based on peer recommendations and hands-on evaluation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What channels work best for developer marketing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "GitHub (your repo IS your storefront), Dev.to and Hashnode for technical content, Hacker News for launches, Reddit (r/programming, tech-specific subs), technical newsletters, and Discord/Slack developer communities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you measure developer marketing success?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "GitHub stars and forks, repo traffic, API sign-ups, documentation pageviews, community size (Discord/Slack members), and developer NPS. Traditional marketing metrics like impressions are less meaningful."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What content works best for reaching developers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Deep technical tutorials with working code, honest engineering retrospectives, benchmark comparisons, open source announcements, and build-in-public updates. Content that treats developers as smart peers, not as a demographic."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is developer marketing different from B2B marketing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Developers self-educate and self-serve — they evaluate tools by reading code and running demos, not by talking to sales. Developer marketing must earn trust through transparency, technical depth, and genuine community participation."
-      }
-    }
-  ]
-}
-</script>
