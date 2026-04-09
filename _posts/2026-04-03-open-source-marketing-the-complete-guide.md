@@ -42,6 +42,15 @@ This sounds simple, but it requires a fundamentally different mindset:
 
 The core insight: **your community is your marketing team.** Every contributor, every stargazer, every developer who shares your project with a colleague — they are all marketers.
 
+| Key Stat | Value |
+|----------|-------|
+| AFFiNE GitHub stars | 60,000+ |
+| AFFiNE growth timeline | 0 to 60K stars in 18 months |
+| AFFiNE funding raised | $10M+ |
+| Countries reached | 100+ |
+| Marketing spend | $0 paid marketing |
+| Product Hunt launches coached | 30+ #1 finishes |
+
 ---
 
 ## The Open Source Growth Flywheel
@@ -352,3 +361,52 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 ---
 
 *This guide is part of the [Gingiris Growth Tools](https://gingiris.github.io/growth-tools/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is open source marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open source marketing is the set of strategies used to grow awareness, adoption, and community around open source software projects. It combines traditional software marketing with community-specific tactics: GitHub star growth, developer community building, contributor recruitment, and open source-specific distribution channels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you market an open source project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with a README that functions as a product page. Launch on Hacker News and Product Hunt simultaneously. Seed relevant communities with genuine, value-first participation. Build contributor infrastructure with CONTRIBUTING.md and good first issues. Create content around the problems your project solves for organic discovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do open source companies make money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open source monetization models include: Open Core (free core, paid advanced features), Managed service/SaaS (hosted version), Support and services (enterprise contracts), and Dual licensing. Most successful OSS companies combine open core with managed SaaS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many GitHub stars do you need for a successful open source project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stars alone do not define success, but they signal credibility. First 100 stars give initial credibility. 1,000+ stars indicate real community interest. 10,000+ stars put you in the top tier of open source projects. AFFiNE reached 60,000+ stars through pure community and developer trust with zero paid marketing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the biggest open source marketing mistakes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The biggest mistakes are: marketing before the product is ready, ignoring documentation (docs ARE marketing for open source), asking for stars without providing value, spamming communities, neglecting the community that forms your marketing team, and burning out as a maintainer."
+      }
+    }
+  ]
+}
+</script>
