@@ -34,6 +34,15 @@ After helping AFFiNE grow to 60K+ GitHub stars and advising dozens of SaaS start
 
 This guide gives you the complete SaaS go-to-market strategy framework.
 
+| Key Stat | Value |
+|----------|-------|
+| AFFiNE GitHub stars | 60,000+ |
+| HeyGen ARR growth | $0 to $35M in 2 years |
+| PLG upgrade threshold | ACV < $5K/year |
+| Founder-led sales phase | $0 to $500K-$1M ARR |
+| Minimum launch list | 500+ emails |
+| Target activation rate | 40%+ |
+
 ## The Two Paths: PLG vs SLG
 
 Before diving into tactics, understand which motion fits your business:
@@ -277,4 +286,51 @@ After you have a repeatable sales playbook — typically at $500k-$1M ARR. Hirin
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a SaaS go-to-market strategy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A GTM strategy defines how you bring your SaaS product to market: who you target (ICP), how you reach them (channels), what you say (messaging), and how you price and sell. It connects product, marketing, and sales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between PLG and SLG for SaaS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PLG (product-led growth) acquires users through the product itself — free trials, freemium, viral loops. SLG (sales-led growth) uses a sales team to close deals. Most successful SaaS companies combine both: PLG for SMB, SLG for enterprise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to go from $0 to $1M ARR for SaaS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Median is 2-3 years for B2B SaaS. Fastest companies do it in 12-18 months. Developer tools and PLG products can move faster. The key variable is how quickly you find ICP and build a repeatable sales motion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What channels work best for early SaaS GTM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Founder-led sales (direct outreach), content marketing targeting specific pain points, community-led growth (Slack, Discord, Reddit), and Product Hunt launch. Paid ads rarely work before product-market fit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should a SaaS startup hire its first sales rep?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "After you have a repeatable sales playbook — typically at $500k-$1M ARR. Hiring sales too early means they will spend months figuring out who to sell to. Founders should close the first 10-20 deals themselves."
+      }
+    }
+  ]
+}
+</script>
