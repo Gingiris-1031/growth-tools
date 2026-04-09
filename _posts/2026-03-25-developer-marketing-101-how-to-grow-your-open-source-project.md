@@ -272,6 +272,8 @@ Developers trust people, not companies. Build your personal brand:
 
 ---
 
+> 📖 **Related:** [KOL Marketing Strategy for Developer Tools](https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/)
+
 ## Get the Complete Playbook
 
 This is the fundamentals. For the full implementation guide, get the **[Open-Source Project Integrated Marketing Action Manual](https://gingiris.gumroad.com/l/vhmkew)**:
