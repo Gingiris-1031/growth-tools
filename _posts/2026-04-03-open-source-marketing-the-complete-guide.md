@@ -42,15 +42,6 @@ This sounds simple, but it requires a fundamentally different mindset:
 
 The core insight: **your community is your marketing team.** Every contributor, every stargazer, every developer who shares your project with a colleague — they are all marketers.
 
-| Key Stat | Value |
-|----------|-------|
-| AFFiNE GitHub stars | 60,000+ |
-| AFFiNE growth timeline | 0 to 60K stars in 18 months |
-| AFFiNE funding raised | $10M+ |
-| Countries reached | 100+ |
-| Marketing spend | $0 paid marketing |
-| Product Hunt launches coached | 30+ #1 finishes |
-
 ---
 
 ## The Open Source Growth Flywheel
@@ -90,7 +81,7 @@ Successful open source projects run on a flywheel:
                    └──► Back to Quality
 ```
 
-Each cycle makes the project better and reaches more developers.
+Each cycle makes the project better and reaches more developers. A key accelerant in this flywheel is [getting your repo onto GitHub Trending](https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending/) — even a single day on the trending page can deliver thousands of new stars.
 
 ---
 
@@ -129,6 +120,8 @@ $ [command] [args]
 
 [2-3 sentences on what problem it solves and why it is better]
 ```
+
+Your README is your highest-traffic landing page — it needs to convert browsers into users in under 60 seconds. For a detailed breakdown of README structure, badges, and visuals that drive star conversion, see our [GitHub README best practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) guide.
 
 **Repository settings:**
 - Add topics: your tech stack + use case (e.g., "cli-tool", "productivity", "developer-tools")
@@ -186,6 +179,8 @@ Publish technical content on launch day:
 - Do not pitch — discuss
 - Be prepared for honest criticism
 
+Hacker News is one of the most powerful launch channels for open source projects, but the community has specific norms that trip up first-time posters. Read our [complete Hacker News Show HN guide](https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) before submitting.
+
 **Twitter/X:**
 - Developer ecosystem is active here
 - Share behind-the-scenes development updates
@@ -222,6 +217,8 @@ The biggest barrier to contributions is not motivation — it is friction.
 | Twitter | Updates, community connection | Day 1 |
 | Newsletter | Deep updates, changelog | When you have 1000+ users |
 
+To find the right communities to seed your project in, use our [developer community directory](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) — it maps 50+ communities by language, framework, and audience size.
+
 ### 8. Recognize Contributors
 
 People contribute for intrinsic motivation, but recognition supercharges it:
@@ -236,7 +233,13 @@ People contribute for intrinsic motivation, but recognition supercharges it:
 
 ## Phase 4: Sustainable Growth
 
-### 9. KOL Strategy
+### 9. GitHub Star Growth Strategy
+
+Stars are the currency of open source credibility. While they are a vanity metric on their own, they influence GitHub's discovery algorithms — trending page, search ranking, and recommendation feeds all factor in star velocity.
+
+For a data-driven breakdown of the specific tactics that grew AFFiNE from 0 to 33K stars, see our [GitHub star growth playbook](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/).
+
+### 10. KOL Strategy
 
 Key Opinion Leaders in open source are the maintainers and influential developers in your ecosystem.
 
@@ -256,7 +259,7 @@ If you think it might be useful for your audience, I would be happy to
 share it. No strings attached — just thought you might find it relevant.
 ```
 
-### 10. Integration Ecosystem
+### 11. Integration Ecosystem
 
 The fastest open source growth comes from becoming part of the ecosystem.
 
@@ -271,7 +274,7 @@ The fastest open source growth comes from becoming part of the ecosystem.
 
 ## Phase 5: Maintenance and Sustainability
 
-### 11. Keeping the Flywheel Spinning
+### 12. Keeping the Flywheel Spinning
 
 Open source projects die when maintainers burn out. Sustainability requires:
 
@@ -293,7 +296,7 @@ Open source projects die when maintainers burn out. Sustainability requires:
 - Trust contributors with more responsibility
 - Have a succession plan
 
-### 12. Measuring Open Source Success
+### 13. Measuring Open Source Success
 
 | Metric | What It Measures |
 |--------|------------------|
@@ -351,62 +354,19 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 
 ---
 
-## Related Reading
+## 📚 Related Guides
 
-- [Developer Marketing Guide](/blog/developer-marketing-how-to-reach-technical-audiences/)
-- [GitHub Star Growth: 10 Proven Tactics](/blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
-- [How to Get More GitHub Stars](/blog/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Growth Tools Library](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth
+| Category | Article |
+|----------|---------|
+| 📖 | [GitHub Star Growth: 10 Proven Tactics That Got Us 33K Stars](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [How to Get on GitHub Trending](https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending/) |
+| 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [Developer Community Directory: Where to Find Your First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
+| 📖 | [How to Launch on Hacker News (Show HN Guide)](https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) |
+| 📖 | [How to Get More GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+
+*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
 ---
 
 *This guide is part of the [Gingiris Growth Tools](https://gingiris.github.io/growth-tools/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is open source marketing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Open source marketing is the set of strategies used to grow awareness, adoption, and community around open source software projects. It combines traditional software marketing with community-specific tactics: GitHub star growth, developer community building, contributor recruitment, and open source-specific distribution channels."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you market an open source project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with a README that functions as a product page. Launch on Hacker News and Product Hunt simultaneously. Seed relevant communities with genuine, value-first participation. Build contributor infrastructure with CONTRIBUTING.md and good first issues. Create content around the problems your project solves for organic discovery."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do open source companies make money?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Open source monetization models include: Open Core (free core, paid advanced features), Managed service/SaaS (hosted version), Support and services (enterprise contracts), and Dual licensing. Most successful OSS companies combine open core with managed SaaS."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many GitHub stars do you need for a successful open source project?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stars alone do not define success, but they signal credibility. First 100 stars give initial credibility. 1,000+ stars indicate real community interest. 10,000+ stars put you in the top tier of open source projects. AFFiNE reached 60,000+ stars through pure community and developer trust with zero paid marketing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the biggest open source marketing mistakes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The biggest mistakes are: marketing before the product is ready, ignoring documentation (docs ARE marketing for open source), asking for stars without providing value, spamming communities, neglecting the community that forms your marketing team, and burning out as a maintainer."
-      }
-    }
-  ]
-}
-</script>
