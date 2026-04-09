@@ -25,7 +25,7 @@ I didn't sleep. I answered every comment. I watched the vote counter like a hawk
 
 30 launches later — I stopped panicking. The algorithm stopped feeling arbitrary. I had a map.
 
-This is that map.
+This is that map. If you want a condensed version of the launch-day tasks, see our [Product Hunt launch checklist](https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/).
 
 ---
 
@@ -111,6 +111,8 @@ Spend time watching [hunted.space](https://hunted.space) for 2–4 weeks before 
 
 **Friday, Saturday, Sunday** — fewer featured products, lower competition threshold.
 
+Before committing to a date, run through our [startup launch checklist](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) to make sure nothing gets missed.
+
 ---
 
 ## Part 3: Hunter Selection
@@ -193,7 +195,7 @@ Spread your outreach across time zones:
 
 ### The 72-hour cliff
 
-Traffic drops 80–90% within 72 hours of launch. This is normal. It is not a reason to panic. It is a reason to have your follow-up plan ready before launch day.
+Traffic drops 80–90% within 72 hours of launch. This is normal. It is not a reason to panic. It is a reason to have your follow-up plan ready before launch day. For a deeper dive into sustaining momentum after the initial spike, read our guide on [what to do after your Product Hunt launch](https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/).
 
 **The day-of capture:**
 - Embed your PH vote button on your homepage so traffic from KOLs and social media flows back to PH
@@ -260,12 +262,16 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 ---
 
-## 📚 Related Reading
+## 📚 Related Guides
 
 | Category | Article |
 |----------|---------|
 | 📖 | [After Product Hunt: 7 Ways to Keep the Momentum](https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
+| 📖 | [Product Hunt Launch Checklist: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) |
+| 📖 | [Startup Launch Checklist: 47 Tasks Before, During & After](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) |
 | 📖 | [How to Launch on Product Hunt: Step-by-Step](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 🇯🇵 | [Product Hunt 攻略ガイド（日本語版）](https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/) |
+| 🇰🇷 | [프로덕트헌트 가이드（한국어판）](https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 | 📖 | [AFFiNE GitHub Stars: 0 to 60K Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
