@@ -246,6 +246,8 @@ Your README is your landing page. It needs:
 - A quick-start guide in fewer than five steps
 - A visible star CTA ("⭐ If this helps you, a star would mean a lot")
 
+> 📖 **Related:** [GitHub PR Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/)
+
 ### 5. Ignoring issues
 
 Open, unanswered issues signal an abandoned project. Developers check this before trying anything. Respond within 24 hours — even if just to acknowledge and set expectations.
