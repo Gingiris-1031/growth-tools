@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-03-30
+date: 2026-04-13 20:23:00 +0800
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
@@ -87,6 +87,16 @@ APIs we actually use to run this site and Gingiris tools:
 
 **Sheet0.com** is particularly useful — all the community/influencer lists we reference on this site (Discord AI communities, YC founder lists, PH hunters) were built with Sheet0's data collection API.
 
+
+## 🆕 Picked Up This Week (Week of Apr 13, 2026)
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Lessie AI](https://lessie.ai) | Outreach & Prospecting | Searches 50M+ profiles across LinkedIn, Twitter, GitHub — describe your target in plain language, it scores results and auto-sequences personalized outreach |
+| [ProdShort](https://prodshort.com) | Content Repurposing | Auto-records Google Meet/Zoom/Teams calls and clips them into branded short videos ready for LinkedIn or X |
+| [Velo](https://www.usevelo.ai) | Video Marketing | Turns raw screen recordings into polished AI-avatar video messages — useful for async demos and founder sales pitches |
+| [Claudraband](https://github.com/halfwhey/claudraband) | Developer Tools | Wraps Claude Code in a persistent tmux session with an HTTP daemon — resume sessions later, run non-interactive workflows, drive Claude Code programmatically via ACP |
+
 ---
 
 ## 📚 Full List + Resources
@@ -110,7 +120,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: Apr 2026.*
+*This list updates weekly. Last updated: Apr 13, 2026.*
 
 *Built by [Iris](https://twitter.com/Iris_carrot) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
