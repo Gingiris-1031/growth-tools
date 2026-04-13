@@ -3,7 +3,7 @@ title: "KOL Marketing for B2B SaaS: A Complete Guide (2026)"
 date: 2026-04-08
 description: "Learn how to build effective KOL marketing strategies for B2B SaaS. From finding the right influencers to measuring ROI — a practical guide based on real case studies."
 tags: [KOL, "B2B SaaS", "influencer marketing", "growth", "marketing"]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/08/kol-marketing-b2b-saas-guide"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/08/kol-marketing-b2b-saas-guide/
 seo_title: "KOL Marketing for B2B SaaS: A Complete Guide (2026)"
 seo_description: "Build effective KOL marketing strategies for B2B SaaS. Practical guide with real case studies, evaluation criteria, and ROI measurement."
 keywords: ["KOL marketing", "B2B influencer marketing", "SaaS marketing", "B2B growth"]
