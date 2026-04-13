@@ -4,7 +4,7 @@ title: "SaaS Marketing: The Complete Playbook for 2026 (With Real Examples)"
 description: "The complete SaaS marketing guide for 2026. Learn which channels work at each growth stage, how to build a repeatable acquisition engine, and real examples from products that scaled from 0 to $10M ARR."
 date: 2026-04-03
 tags: [saas-marketing, startup-marketing, growth, saas, marketing]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/03/saas-marketing-guide/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/saas-marketing-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is SaaS marketing?"
