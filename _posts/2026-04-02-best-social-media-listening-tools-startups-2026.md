@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Best Social Listening Tools for Startups in 2026: Free, Multilingual & Competitive Benchmarking"
+title: "Best Social Listening Tools 2026: Free & Multilingual for Startups"
 description: "20+ social listening tools reviewed: best free options, multilingual support (English, Chinese, Japanese, Spanish), and competitive benchmarking features. Tested by a team monitoring an open source product across 200+ countries."
 date: 2026-04-02
 author: Iris
