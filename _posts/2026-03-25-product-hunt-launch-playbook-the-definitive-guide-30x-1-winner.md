@@ -44,6 +44,9 @@ This is that map. If you want a condensed version of the launch-day tasks, see o
 
 ---
 
+
+> **Related reading:** [Best social listening tools for startups](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — how to monitor brand mentions & competitor buzz across Reddit, Twitter, Hacker News without a $500/mo tool.
+
 ## My Track Record
 
 Before I share any tactics, you should know what this is based on:
