@@ -136,6 +136,12 @@ Write for developers, not marketers. The content that works:
 3. Engage authentically in comments
 4. Do not pitch — share and discuss
 
+#### 4b. Product Hunt — Highest-Signal Launch Platform
+
+For developer tools and open source projects, Product Hunt is the top launch platform. A well-executed launch drives GitHub stars, signups, and credibility in hours.
+
+> 📖 **See the complete strategy:** [Product Hunt Launch Playbook — 30x #1 Winner's Guide](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+
 #### 5. Technical Newsletters
 
 Curated newsletters reach highly engaged developer audiences.
@@ -210,6 +216,8 @@ Developer marketing is harder to measure than traditional marketing, but these m
 | **Documentation views** | Analytics |
 | **Community mentions** | HN, Reddit, Twitter |
 
+For automated mention tracking across Reddit, HN, Dev.to and Twitter/X, see [Best Social Media Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — these tools surface organic developer conversations you'd otherwise miss.
+
 ---
 
 ## Tools for Developer Marketing
@@ -244,6 +252,9 @@ The best developer marketing happens when you:
 
 ## Related Reading
 
+- [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [Best Social Media Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide/)
 - [Developer Marketing 101: How to Grow Your Open Source Project](/blog/developer-marketing-101-how-to-grow-your-open-source-project/)
 - [GitHub Star Growth: 10 Proven Tactics](/blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
 - [Growth Tools Library](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth

@@ -187,6 +187,11 @@ Hacker News is one of the most powerful launch channels for open source projects
 - Engage with developers in your space
 - Use relevant hashtags (#OpenSource, #DevTools, your tech stack)
 
+**Product Hunt:**
+- Highest-signal launch platform for open source developer tools
+- A successful Product Hunt launch can deliver 500–2,000 GitHub stars in 48 hours
+- See the [Product Hunt Launch Playbook (30x #1 Winner)](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) for a complete strategy
+
 ---
 
 ## Phase 3: Community Building
@@ -248,6 +253,8 @@ Key Opinion Leaders in open source are the maintainers and influential developer
 2. Reach out with specific value (not "please review my project")
 3. Offer something genuinely useful for their audience
 4. Let them discover and share organically if they find it valuable
+
+> 💡 **Track who's already talking about you.** Before reaching out cold, use social listening tools to find developers who've already mentioned your project. These warm contacts convert far better than cold outreach. See [Best Social Media Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) for a curated list.
 
 **Example outreach:**
 ```
@@ -358,6 +365,9 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 
 | Category | Article |
 |----------|---------|
+| 🚀 | [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 👂 | [Best Social Media Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |
+| 📖 | [Developer Marketing Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences/) |
 | 📖 | [GitHub Star Growth: 10 Proven Tactics That Got Us 33K Stars](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
 | 📖 | [How to Get on GitHub Trending](https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending/) |
 | 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
