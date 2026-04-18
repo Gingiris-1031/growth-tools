@@ -2,7 +2,7 @@
 layout: post
 title: "Product Hunt Launch: The 2026 Playbook for Winning #1"
 date: 2026-03-18
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
 description: "How to run Product Hunt as a campaign — not a one-day event. The 30-day before, during, and after playbook from 30x daily #1 experience."
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
