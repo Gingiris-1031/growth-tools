@@ -186,7 +186,7 @@ Measure what matters:
 | **Referral Traffic** | UTM parameters on KOL links |
 | **Sign-ups / Conversions** | Unique codes, dedicated landing pages |
 | **Revenue Attribution** | Affiliate tracking, discount codes |
-| **Brand Mentions** | Google Alerts, social monitoring |
+| **Brand Mentions** | Google Alerts, [social media listening tools](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |
 | **Content Performance** | KOL-posted content engagement |
 
 ### Tools for Attribution

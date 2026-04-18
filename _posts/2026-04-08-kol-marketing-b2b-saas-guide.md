@@ -140,7 +140,7 @@ B2B KOL marketing is harder to track than performance ads. Here is a framework:
 
 - **Referral traffic**: UTM-tagged links from KOL content to your site
 - **Direct sign-ups**: Meaningful spike in sign-ups from a specific channel
-- **Brand mention volume**: Track with Google Alerts or Mention.com
+- **Brand mention volume**: Track with Google Alerts, Mention.com, or a dedicated [social media listening tool](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — the linked guide compares free vs paid options for startups
 
 ### Mid-Term Metrics (3–6 months)
 

@@ -303,6 +303,8 @@ Thirty Product Hunt #1 wins over 18 months. Each generated newsletter coverage, 
 - **Talkwalker** — Enterprise social listening
 - **F5bot** — Free Reddit mention alerts (simple but effective for bootstrappers)
 
+> 📖 **Full comparison:** [Best Social Media Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — free vs paid, multilingual options, and which tools find WOM signals on Reddit and Twitter/X.
+
 ### NPS + User Feedback
 - **Delighted** — Simplest NPS tool, great for early-stage
 - **Typeform** — Flexible surveys with conditional logic
