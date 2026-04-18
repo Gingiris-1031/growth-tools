@@ -99,6 +99,17 @@ APIs we actually use to run this site and Gingiris tools:
 
 ---
 
+
+## 🆕 Picked Up This Week (Apr 18, 2026)
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Lessie AI](https://lessie.ai) | Outreach Automation | Describe your target in plain language — AI finds prospects and fires personalized outreach sequences automatically |
+| [ProdShort](https://prodshort.com) | Content Repurposing | Drop in a meeting recording, get LinkedIn/X posts back — cuts async content production to near zero |
+| [Offsite](https://teamoffsite.ai) | AI Dev Workspace | Human + AI agent collaboration hub with real-time visibility, MCP support, and Claude Code integration built in |
+| [Brila](https://brila.ai) | Landing Pages | Auto-generates one-page sites from real Google Maps reviews — useful for local-market or SMB-focused GTM |
+| [Claudraband](https://github.com/halfwhey/claudraband) | Developer Tools | Open-source Claude Code power layer — adds session management, keyboard shortcuts, and power-user UX |
+
 ## 📚 Full List + Resources
 
 Full tool database on GitHub (updated weekly):
