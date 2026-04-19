@@ -277,5 +277,6 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 | 🇰🇷 | [프로덕트헌트 가이드（한국어판）](https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 | 📖 | [AFFiNE GitHub Stars: 0 to 60K Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Generative Engine Optimization (GEO): Get Cited by ChatGPT & Perplexity](https://gingiris.github.io/growth-tools/blog/2026/04/17/generative-engine-optimization-complete-guide/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*

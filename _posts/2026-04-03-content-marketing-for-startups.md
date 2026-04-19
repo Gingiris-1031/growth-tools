@@ -302,7 +302,7 @@ Content marketing costs as little as $0 (founder-written) to $5k-15k/month (agen
 ## Related Reading
 
 - [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/growth-hacking-for-startups/)
-- [GEO Optimization: Complete 2026 Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/geo-optimization-guide/)
+- [Generative Engine Optimization (GEO): The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/17/generative-engine-optimization-complete-guide/)
 - [Developer Marketing: How to Reach Technical Audiences](https://gingiris.github.io/growth-tools/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
 - [Startup Marketing Strategy: Zero to 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
 - [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/open-source-marketing-the-complete-guide/)
