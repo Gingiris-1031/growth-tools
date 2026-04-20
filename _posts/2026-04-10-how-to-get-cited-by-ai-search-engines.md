@@ -3,7 +3,7 @@ title: "How to Get Cited by AI Search Engines: ChatGPT, Perplexity & Claude in 2
 description: "Stop writing content that AI ignores. Here's how to structure your articles so ChatGPT, Perplexity, and Claude cite you — with real data from 30+ campaigns."
 date: 2026-04-10
 tags: [ai-seo, perplexity-seo, chatgpt-seo, geo, content-marketing]
-canonical: https://gingiris.github.io/growth-tools/
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
 ---
 
 ## TL;DR
