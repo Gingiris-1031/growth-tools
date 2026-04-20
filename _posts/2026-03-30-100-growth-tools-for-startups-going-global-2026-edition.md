@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-04-13 20:23:00 +0800
+date: 2026-04-20 17:47:00 +0800
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
@@ -110,6 +110,17 @@ APIs we actually use to run this site and Gingiris tools:
 | [Brila](https://brila.ai) | Landing Pages | Auto-generates one-page sites from real Google Maps reviews — useful for local-market or SMB-focused GTM |
 | [Claudraband](https://github.com/halfwhey/claudraband) | Developer Tools | Open-source Claude Code power layer — adds session management, keyboard shortcuts, and power-user UX |
 
+
+## 🆕 Recently Spotted (Week of Apr 20, 2026)
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Notion MCP](https://developers.notion.com/guides/mcp/mcp) | AI Dev Tools | Official Notion MCP server — connect Claude, ChatGPT, or Cursor directly to your Notion workspace for reads, writes, and agentic task flows |
+| [Is Your Site Agent-Ready?](https://isitagentready.com) | SEO / GEO | Free Cloudflare scanner auditing your site's AI-agent compatibility — checks robots.txt, llms.txt, and agent protocol standards in one click |
+| [smolvm](https://github.com/smol-machines/smolvm) | Developer Tools | CLI for subsecond-coldstart portable Linux microVMs — sandbox untrusted code in AI pipelines or ship stateful dev environments as `.smolmachine` files (2.2k stars) |
+| [AGG Loop](https://www.agglabs.com/loop) | Developer Tools | Forever-free, zero-config localhost tunnels — expose webhook endpoints and local APIs without rate limits or a paid tier |
+| [Plain](https://github.com/dropseed/plain) | Developer Framework | Django fork redesigned for the agentic era — PostgreSQL-first with simplified APIs and docs structured for AI agents to navigate your codebase |
+
 ## 📚 Full List + Resources
 
 Full tool database on GitHub (updated weekly):
@@ -131,7 +142,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: Apr 13, 2026.*
+*This list updates weekly. Last updated: Apr 20, 2026.*
 
 *Built by [Iris](https://twitter.com/Iris_carrot) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
