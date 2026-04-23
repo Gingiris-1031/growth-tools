@@ -114,7 +114,7 @@ The right model depends on three variables:
 
 ### SLG Tactics That Work in 2026
 
-1. **Outbound with a specific ICP**: Don't cold email everyone. Build an Ideal Customer Profile from your best 20 customers and target companies that look like them.
+1. **Outbound with a specific ICP**: Don't cold email everyone. Build an Ideal Customer Profile from your best 20 customers and target companies that look like them. Use [social media listening tools](/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) to monitor forums and social channels for ICP pain points in real-time — this surfaces warm leads before they hit your funnel.
 
 2. **Demo-to-close acceleration**: Your demo is your product. Structure it around the prospect's use case, not your feature list. Demo < 15 minutes.
 

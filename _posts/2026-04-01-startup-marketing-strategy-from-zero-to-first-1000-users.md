@@ -119,7 +119,7 @@ For early-stage startup marketing, you need:
 - **Launch platforms**: Product Hunt (for B2C/developer tools)
 - **Analytics**: Google Analytics, Mixpanel (to track what is working)
 
-Check out this [complete growth tools directory](/) for 100+ tools categorized by function — from SEO to social listening to competitor analysis.
+Check out this [complete growth tools directory](/) for 100+ tools categorized by function — from SEO to [social media listening](/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) to competitor analysis.
 
 ## The One Rule That Matters Most
 

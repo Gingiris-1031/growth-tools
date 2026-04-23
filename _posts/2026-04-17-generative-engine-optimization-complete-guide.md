@@ -423,6 +423,22 @@ That's your GEO foundation. From there, gradually restructure articles in QAE fo
         "@type": "Answer",
         "text": "Add 8–12 FAQ questions per article for maximum GEO coverage. Each question is a discrete citation opportunity — more questions give AI systems more entry points into your content. Each answer should be complete and self-contained (AI may cite it without surrounding context), specific with data or named examples, and under 300 words to avoid truncation."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start with generative engine optimization for my website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start generative engine optimization with these five steps in order: (1) Audit your top-10 traffic pages and restructure H2 headings as direct questions with immediate answers (QAE format). (2) Add FAQPage JSON-LD schema to those pages — 8 to 12 questions per article. (3) Create a llms.txt file at your site root listing your best citable content. (4) Submit your URLs to Bing Webmaster Tools via IndexNow to ensure ChatGPT Search can find you. (5) Track citation rate monthly by searching key queries in Perplexity, ChatGPT, and Google AI Overviews and noting whether your content appears. Focus on Perplexity first — it is the most citation-friendly AI search engine for new and low-authority sites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a GEO strategy for startups and small sites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For startups and small sites, the highest-ROI GEO strategy is: (1) Own one specific topic completely — publish the most comprehensive answer to 3 to 5 questions in your niche rather than covering everything broadly. AI systems cite the clearest and most complete answer, not the most authoritative domain. (2) Use original data — even a small survey or case study with specific numbers gives AI a reason to cite you that it cannot get elsewhere. (3) Optimize for Perplexity first — it crawls fresh content aggressively and is less biased toward high-DA domains than Google AI Overviews. (4) Add author credentials (E-E-A-T) — a named author with a verifiable bio increases citation rate, especially for ChatGPT Search. GitHub Pages blogs with domain authority under 20 have achieved Perplexity citations within 2 to 4 weeks using this approach."
+      }
     }
   ]
 }

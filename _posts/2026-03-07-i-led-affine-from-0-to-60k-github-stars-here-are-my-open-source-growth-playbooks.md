@@ -79,6 +79,8 @@ Every user who had exchanged five or more messages with us — in Discord, on Gi
 
 Those conversations were more valuable than any distribution tactic. They told us which features actually mattered, which user segments were most engaged, and what the real blockers to adoption were. That insight shaped the next six months of product development.
 
+> 💡 **Before the calls**: Use [social media listening tools](/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) to identify who's already talking about your project online — those are your warmest contacts. Prioritize them first.
+
 The lesson: stars are a launchpad, not a destination. After you've validated that developers find your project interesting, the next job is figuring out which developers, and why.
 
 ---
