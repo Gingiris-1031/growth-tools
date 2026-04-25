@@ -7,6 +7,7 @@ canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-tr
 description: "AFFiNEのCOOが公開。5ヶ月でGitHub Trendingに28回登場した実際の戦略。スター獲得からREADME最適化まで完全解説。"
 categories: [github, opensource, japanese]
 tags: [GitHub, Trending, オープンソース, スター]
+hreflang_en: https://gingiris.github.io/growth-tools/en/
 ---
 
 2022年の火曜日の朝、午前5時。上海のオフィスで私はひとりMacBookを開いていた。
