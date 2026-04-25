@@ -5,6 +5,7 @@ date: 2026-04-07
 lang: ja
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-increase-guide-ja/
 description: "AFFiNEのCOOがGitHub Stars 60,000件達成の実体験を公開。Trending 28回、実証済みの増やし方を日本語で解説。開発者必読。"
+hreflang_en: https://gingiris.github.io/growth-tools/en/
 ---
 
 2022年8月、木曜日の深夜2時。私は上海のオフィスの床に座っていた——ラップトップを膝に乗せ、Slackをミュートにして、GitHubのスター数をリロードし続けていた。
