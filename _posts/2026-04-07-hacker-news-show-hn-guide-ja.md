@@ -5,6 +5,7 @@ date: 2026-04-07
 lang: ja
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
 description: "Hacker News Show HNでフロントページに載るための投稿方法と攻略法を日本語で解説。AFFiNEの実体験を基にしたエンジニア向け完全ガイド。"
+hreflang_en: https://gingiris.github.io/growth-tools/en/
 ---
 
 2023年の秋、深夜。私はHacker Newsを眺めながら、「AFFiNEをどう投稿すべきか」を1時間悩んでいた。
