@@ -5,6 +5,7 @@ date: 2026-04-07
 lang: ja
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
 description: "AFFiNEでProduct Hunt #1を30回以上獲得した元COOによるPH攻略完全ガイド2026年版。日本人ファウンダー向け実践マニュアル。"
+hreflang_en: https://gingiris.github.io/growth-tools/en/
 ---
 
 2023年2月14日、バレンタインデー。私は上海のオフィスで一人、午前0時を迎えた。
