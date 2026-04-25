@@ -7,6 +7,7 @@ canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-dev
 description: "海外スタートアップが日本のエンジニアコミュニティに参入する方法。Zenn、Qiita、connpassなど15プラットフォームの特徴と活用法を実体験から解説。"
 categories: [community, japanese, marketing]
 tags: [日本, コミュニティ, エンジニア, マーケティング]
+hreflang_en: https://gingiris.github.io/growth-tools/en/
 ---
 
 AFFiNEを日本市場に展開しようとしたとき、私は根本的な思い違いをしていた。
