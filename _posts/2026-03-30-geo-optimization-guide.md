@@ -198,6 +198,22 @@ SEO 和 GEO 都重要，创建**既能排名又能被引用**的内容：
         "@type": "Answer",
         "text": "llms.txt is a plain text file placed at your website's root (e.g., yoursite.com/llms.txt) that provides AI crawlers with a structured overview of your site's content, key statistics, and important pages. Similar to robots.txt for traditional crawlers, llms.txt helps AI agents understand your site's context before indexing. Including citable statistics and key article URLs in llms.txt increases the likelihood that AI systems reference your content accurately."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best generative engine optimization tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best generative engine optimization (GEO) tools include: (1) Schema Markup Generators — for creating FAQ, HowTo, and Article JSON-LD structured data that AI systems parse directly, (2) Perplexity.ai — use it to test whether your content is being cited for target queries, (3) ChatGPT and Claude — run your target queries and check if your domain appears in citations, (4) Google Search Console — monitor AI Overview impressions (available in Performance reports), (5) Surfer SEO and Clearscope — for content structure optimization that benefits both SEO and GEO. Unlike SEO tools, most GEO measurement is still manual: run your target queries in AI systems weekly and track citation frequency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does generative engine optimization take to show results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generative engine optimization (GEO) can show early results faster than traditional SEO. FAQ Schema JSON-LD additions can be parsed by AI crawlers within 1–2 weeks of indexing. However, appearing consistently in AI-generated answers for competitive queries typically takes 2–4 months of compounding effort: publishing structured content, building topical authority, and accumulating backlinks that signal trust to both search engines and AI training pipelines. The fastest GEO win is adding FAQ schema to existing high-traffic pages — content that already ranks in top 20 for a keyword has a 60–70% higher chance of appearing in AI-generated answers for related queries."
+      }
     }
   ]
 }

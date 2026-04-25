@@ -223,11 +223,11 @@ The products that win long-term are the ones that use post-launch data to **iter
 
 This guide covers the post-launch phase. For the **complete Product Hunt launch strategy** — from hunter selection to Day 1 execution to upvote strategy — check out the Gingiris Product Hunt Launch Guide:
 
-📦 **[Gingiris Product Hunt Launch Guide](/blog/)** — $49
+📦 **[Product Hunt Launch Playbook: The Definitive Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** — 30x #1 winner's complete pre-launch strategy (free)
 
 Free resources:
-- Product Hunt Launch Checklist — [gingiris.github.io/growth-tools](/blog/)
-- Startup Launch Playbook — [Gingiris GitHub](/blog/)
+- **[Product Hunt Launch Checklist](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)** — 47 tasks before, during, and after launch day
+- **[How to Launch on Product Hunt](/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/)** — Step-by-step execution guide
 
 ---
 
