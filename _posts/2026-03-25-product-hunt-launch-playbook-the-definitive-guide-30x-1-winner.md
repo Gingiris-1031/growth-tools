@@ -18,6 +18,8 @@ gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准�
 last_modified_at: 2026-04-26
 ---
 
+> 🎯 **Deep dive**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://gingiris.github.io/growth-tools/blog/2026/04/28/product-hunt-hunter-list-2026/) — the data behind why a 1k-follower active hunter beats a 50k-follower dormant one (r=0.61 vs r=0.12).
+
 > 📌 **Deep dive**: [Product Hunt LinkedIn DM Template (60% Open Rate Across 30 Launches)](https://gingiris.github.io/growth-tools/blog/2026/04/26/product-hunt-linkedin-dm-template/) — the exact 4-week T-6 to T-2 sprint, copy-paste templates, and why "comment >> upvote" beats the old playbook.
 
 The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
