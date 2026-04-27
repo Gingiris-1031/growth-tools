@@ -16,6 +16,7 @@ faq:
     a: "Partially. You can schedule posts. But automated commenting and engagement is against Reddit's ToS and gets detected. Real community participation cannot be automated — and it's the participation that makes the promotion work. A genuine account with history converts; a fresh account with a product link gets banned."
   - q: "How do you find the right subreddit for your product?"
     a: "Search Reddit for the problem your product solves, not the product itself. The communities where people discuss the problem are your communities. Also search for competitors — subreddits where competitors have been well-received are likely good fits for you too."
+last_modified_at: 2026-04-26
 ---
 
 Here's the thing nobody tells you about Reddit marketing: the fastest way to get banned is to try to do marketing.
@@ -279,3 +280,12 @@ Use Reddit Search, SubredditStats, or the Reddit List tool. Search for keywords 
   ]
 }
 </script>
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**Reddit conversion benchmark**: 0.3-1.5% post-to-customer for fit subreddits (Q1 2026 sample). r/selfhosted and r/programming consistently outperform r/SaaS.
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
