@@ -8,6 +8,7 @@ canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-h
 description: "Product Hunt에서 #1을 30번 달성한 팀의 실제 전략. 헌터 선정부터 댓글 관리, 출시 후 모멘텀 유지까지 단계별 가이드."
 categories: [producthunt, launch, korean]
 tags: [Product Hunt, 출시, 스타트업, 마케팅]
+last_modified_at: 2026-04-26
 ---
 
 2023년 3월, 수요일 새벽이었다. 상하이 오피스에 세 명이 남아 있었다 — 화면 앞에서 Product Hunt 투표 수를 새로고침하면서.
@@ -153,3 +154,12 @@ Product Hunt에서 진짜 이기는 방법은 출시 전 이미 팬을 만들어
 그 커뮤니티는 Product Hunt 바깥에서 만들어졌다 — Discord, GitHub 이슈, Twitter 스레드, 블로그 댓글에서.
 
 플랫폼은 증폭기일 뿐이다. 신호는 당신이 만들어야 한다.
+
+---
+
+## 게시 후 업데이트 (2026-04)
+
+**2026년 4월 업데이트**: LinkedIn DM 아웃리치가 런칭일 최대 동력 (오픈율 ~60%, 답장율 ~25%).
+
+*최종 업데이트: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
