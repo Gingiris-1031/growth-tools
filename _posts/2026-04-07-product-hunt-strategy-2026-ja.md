@@ -6,6 +6,7 @@ lang: ja
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
 description: "AFFiNEでProduct Hunt #1を30回以上獲得した元COOによるPH攻略完全ガイド2026年版。日本人ファウンダー向け実践マニュアル。"
 hreflang_en: https://gingiris.github.io/growth-tools/en/
+last_modified_at: 2026-04-26
 ---
 
 2023年2月14日、バレンタインデー。私は上海のオフィスで一人、午前0時を迎えた。
@@ -120,3 +121,12 @@ Product Huntの1位は、スタートではなくリレーのバトンだ。
 ---
 
 *Iris（生姜）は、AFFiNEの元COO。Product Hunt 30回以上の#1獲得経験を持つ。現在はGingirisで開源出海コンサルタントとして活動。*
+
+---
+
+## 公開後のアップデート（2026-04）
+
+**2026年4月更新**: LinkedIn DMアウトリーチが最大の launch-day ドライバー（オープン率 ~60%、返信率 ~25%）。
+
+*最終更新: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
