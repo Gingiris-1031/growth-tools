@@ -7,6 +7,7 @@ canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/08/kol-marke
 seo_title: "KOL Marketing for B2B SaaS: A Complete Guide (2026)"
 seo_description: "Build effective KOL marketing strategies for B2B SaaS. Practical guide with real case studies, evaluation criteria, and ROI measurement."
 keywords: ["KOL marketing", "B2B influencer marketing", "SaaS marketing", "B2B growth"]
+last_modified_at: 2026-04-26
 ---
 
 ## TL;DR
@@ -198,3 +199,12 @@ For a complete go-to-market framework, explore the [Gingiris B2B Growth Playbook
 ---
 
 *If you found this guide useful, share it with a founder who is building their first B2B KOL campaign.*
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**KOL ROI 2026 refresh**: micro-influencer (10k-100k) ROI now 3-5x macro (>500k) for B2B SaaS, up from 2-3x in 2025.
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
