@@ -18,6 +18,7 @@ faq:
     a: "Coordinate your push: publish content, notify your community, post on Reddit and HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier to hit than All Languages. AFFiNE hit Trending on day five of our open source launch by concentrating all distribution into one window."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-increase-guide-ja/
 hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-guide-ko/
+last_modified_at: 2026-04-26
 ---
 
 **How do you get more GitHub stars?** Getting GitHub stars requires a combination of: (1) optimizing your README as a product page with GIFs and clear value proposition, (2) strategic "ignition" — launching on Hacker News, Product Hunt, and Reddit simultaneously to create a star velocity spike, (3) building a contributor community on Discord, and (4) targeting language-specific GitHub Trending. AFFiNE grew from 0 to **60,000+ GitHub stars** in 3 years using these tactics, appearing on GitHub Trending **28 times in 5 months**.
@@ -379,3 +380,12 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
   ]
 }
 </script>
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**AFFiNE update**: stars now 60,000+ (from 33k case study). Also: best launch month 2026 update — March, May, October all confirmed strong.
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
