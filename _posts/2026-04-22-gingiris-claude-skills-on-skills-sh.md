@@ -3,7 +3,7 @@ title: "I Shipped 4 Gingiris Claude Skills to skills.sh — One-Line Install, Ze
 date: 2026-04-22
 description: "Four production-grade Claude Skills for Product Hunt launch, open source marketing, B2B SaaS growth, and ASO are now live on skills.sh. Install via npx with a single command."
 tags: [claude-skills, claude-code, product-hunt, open-source-marketing, b2b-saas, aso, developer-marketing]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/
 seo_title: "4 Gingiris Claude Skills on skills.sh — One-Line npx Install (2026)"
 seo_description: "Four battle-tested growth playbooks — Product Hunt launch, open source marketing, B2B SaaS PLG, and ASO — now installable as Claude Skills. Copy the npx command and go."
 keywords: [claude skills, skills.sh, npx skills add, product hunt launch skill, open source marketing skill, b2b saas growth skill, aso skill, claude code skills, agent skills]
