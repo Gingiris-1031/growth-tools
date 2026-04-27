@@ -18,6 +18,8 @@ gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准�
 last_modified_at: 2026-04-26
 ---
 
+> 📌 **Deep dive**: [Product Hunt LinkedIn DM Template (60% Open Rate Across 30 Launches)](https://gingiris.github.io/growth-tools/blog/2026/04/26/product-hunt-linkedin-dm-template/) — the exact 4-week T-6 to T-2 sprint, copy-paste templates, and why "comment >> upvote" beats the old playbook.
+
 The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
 
 We were #1 at midnight. By 6 AM we'd dropped to #3. By noon we were back at #1 and stayed there.
