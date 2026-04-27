@@ -195,6 +195,10 @@ LinkedIn DM outreach is **the single biggest velocity driver** in 2026. Hunters 
 
 ---
 
+
+
+> 🎯 **Companion piece**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://gingiris.github.io/growth-tools/blog/2026/04/28/product-hunt-hunter-list-2026/) — the vetting framework, 4 hunter tiers, and what to actually say in the outreach DM.
+
 ## Related Reading
 
 - **[Master playbook]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — the full Product Hunt launch system across all channels
