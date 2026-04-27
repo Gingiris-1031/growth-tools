@@ -16,6 +16,7 @@ faq:
     a: "Best Slack communities for SaaS founders: Open Data Science Conference (5K devs), Online Geniuses (marketing), Product Hunt Makers (product), Rands Leadership (engineering leaders). Most are invite-based. Search 'Slack community for [your niche]' to find current invite links as many rotate."
 hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja/
 hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/korea-developer-communities-ko/
+last_modified_at: 2026-04-26
 ---
 
 ## Citable Statistics (Developer Communities — 2026)
@@ -260,4 +261,12 @@ Available datasets (updated periodically):
   ]
 }
 </script>
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**Discord vs Telegram benchmark refresh**: Discord now leads B2B SaaS with ~3x faster signup-to-active conversion (n=20 startups, Q1 2026 data).
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
