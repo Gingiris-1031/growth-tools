@@ -635,6 +635,112 @@
             border-color: var(--border-hover);
         }
 
+        /* ── ClawHub Skills Banner ── */
+        .clawhub-banner {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 22px 24px;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .clawhub-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        .clawhub-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .clawhub-subtitle {
+            font-size: 12.5px;
+            color: var(--text-muted);
+            font-weight: 450;
+            margin-top: 2px;
+        }
+
+        .clawhub-cta {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--blue);
+            background: var(--blue-light);
+            border: 1px solid rgba(90,154,181,0.25);
+            border-radius: 20px;
+            padding: 6px 14px;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: background 0.15s, color 0.15s;
+        }
+
+        .clawhub-cta:hover {
+            background: rgba(90,154,181,0.18);
+            color: #2e7da0;
+        }
+
+        .clawhub-skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 10px;
+        }
+
+        .skill-card {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 13px 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            text-decoration: none;
+            transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+        }
+
+        .skill-card:hover {
+            border-color: var(--blue-mid);
+            background: var(--blue-light);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .skill-card-name {
+            font-size: 13.5px;
+            font-weight: 650;
+            color: var(--text);
+            line-height: 1.35;
+        }
+
+        .skill-card-meta {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .skill-installs {
+            font-size: 11.5px;
+            color: var(--text-muted);
+            background: var(--surface-hover);
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 500;
+        }
+
+        .skill-arrow {
+            margin-left: auto;
+            font-size: 12px;
+            color: var(--blue);
+            font-weight: 600;
+        }
+
         /* Stats banner */
         .stats-banner {
             background: linear-gradient(135deg, #1a3020 0%, #2d4a30 55%, #243d28 100%);
@@ -907,9 +1013,53 @@
                     <a href="https://gingiris.github.io/growth-tools/blog" class="repo-link">
                         📝 Blog
                     </a>
+                    <a href="https://clawhub.ai/u/gingiris" target="_blank" class="repo-link">
+                        🤖 ClawHub Skills
+                    </a>
                 </div>
             </div>
             
+            <!-- ClawHub AI Skills -->
+            <div class="clawhub-banner">
+                <div class="clawhub-header">
+                    <div>
+                        <div class="clawhub-title">🤖 AI Agent Playbooks · Cola / OpenClaw</div>
+                        <div class="clawhub-subtitle">Install in AI agents — battle-tested growth playbooks with 1,936+ total installs</div>
+                    </div>
+                    <a href="https://clawhub.ai/u/gingiris" target="_blank" class="clawhub-cta">Browse all 39 skills on ClawHub →</a>
+                </div>
+                <div class="clawhub-skills">
+                    <a href="https://clawhub.ai/s17chgpcnapq54m54xxkc8ge4983hzj2/gingiris-b2b-growth" target="_blank" class="skill-card">
+                        <div class="skill-card-name">💼 B2B SaaS Growth Playbook</div>
+                        <div class="skill-card-meta">
+                            <span class="skill-installs">621 installs</span>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                    </a>
+                    <a href="https://clawhub.ai/s17chgpcnapq54m54xxkc8ge4983hzj2/gingiris-launch" target="_blank" class="skill-card">
+                        <div class="skill-card-name">🚀 GTM Strategy &amp; Product Hunt Launch</div>
+                        <div class="skill-card-meta">
+                            <span class="skill-installs">511 installs</span>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                    </a>
+                    <a href="https://clawhub.ai/s17chgpcnapq54m54xxkc8ge4983hzj2/gingiris-opensource" target="_blank" class="skill-card">
+                        <div class="skill-card-name">⭐ Open Source Marketing &amp; GitHub Stars</div>
+                        <div class="skill-card-meta">
+                            <span class="skill-installs">499 installs</span>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                    </a>
+                    <a href="https://clawhub.ai/s17chgpcnapq54m54xxkc8ge4983hzj2/gingiris-aso-growth" target="_blank" class="skill-card">
+                        <div class="skill-card-name">📱 ASO &amp; Mobile App Growth</div>
+                        <div class="skill-card-meta">
+                            <span class="skill-installs">305 installs</span>
+                            <span class="skill-arrow">→</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
             <div class="content-header">
                 <div>
                     <h1 id="categoryTitle">全部工具</h1>
