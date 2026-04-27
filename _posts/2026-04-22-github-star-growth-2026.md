@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 Tactics That Still Work in 2026"
 date: 2026-04-22
 description: "GitHub star growth guide for open source teams. Learn 7 tactics that still work in 2026, from README conversion to launch sequencing and evergreen SEO."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/22/github-star-growth-2026/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/22/github-star-growth-2026/
 seo_title: "GitHub Star Growth: 7 Tactics That Still Work in 2026"
 seo_description: "A practical GitHub star growth guide with 7 tactics for launch sequencing, README conversion, community distribution, and long-tail SEO."
 keywords: [github star growth, github stars, how to get github stars, open source marketing, developer marketing]
