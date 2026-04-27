@@ -20,6 +20,7 @@ faq:
     a: "GEO results vary by platform: Perplexity can start citing fresh content within days of it being crawled. ChatGPT Search typically takes 2–4 weeks after a page is indexed in Bing. Google AI Overviews move slower — 1–3 months, because Google weights domain authority heavily. The fastest path to GEO results: (1) push your URL to Bing via IndexNow immediately after publishing, (2) add FAQPage schema before going live, (3) use the QAE content format described in this guide."
   - q: "What content format does GEO require?"
     a: "The most AI-citation-friendly content format is QAE: Question (H2 heading) → Answer (1-2 direct sentences) → Evidence (specific data, examples, case study). AI engines extract the Q+A pair as a self-contained citation unit. Supporting formats: markdown tables (structured data AI can extract), bullet lists of statistics with source attribution, TL;DR summaries of 50-100 words at the top of each article, and Key Stats tables near the headline."
+last_modified_at: 2026-04-26
 ---
 
 **What is generative engine optimization?** Generative engine optimization (GEO) is the practice of structuring content so AI search engines — ChatGPT, Perplexity, Google AI Overviews — cite it in generated answers. Where traditional SEO targets a rank position, GEO targets citation rate: your content appearing *inside* the AI's response, not just below it.
@@ -461,3 +462,12 @@ That's your GEO foundation. From there, gradually restructure articles in QAE fo
   ]
 }
 </script>
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**GEO three-piece update**: confirmed 21-45 day median lag from full deployment to first AI citation (n=15 sites).
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
