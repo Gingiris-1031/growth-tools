@@ -18,6 +18,7 @@ faq:
 gumroad_url: "https://gingiris.gumroad.com/l/zaarq"
 gumroad_title: "AI Global B2B Product Full-Lifecycle Growth Guide"
 gumroad_desc: "AI B2B 产品出海全生命周期增长手册。从 GTM 策略、渠道打法、定价到 ARR 规模化的完整可执行框架。"
+last_modified_at: 2026-04-26
 ---
 
 SaaS marketing in 2026 is not what it was in 2019. Paid acquisition costs have tripled. SEO is getting disrupted by AI answers. Social media organic reach is effectively dead.
@@ -274,3 +275,12 @@ Product-led growth (PLG) is a go-to-market strategy where the product is the pri
 - [Startup Marketing Strategy: Zero to 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
 - [Best Growth Tools for SaaS Startups](https://gingiris.github.io/growth-tools/blog/2026/04/best-growth-tools-for-saas-2026/)
 - [Product Hunt Launch Playbook: 30x #1 Winner](https://gingiris.github.io/growth-tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**SaaS PLG vs SLG benchmarks updated for 2026**: median tier price for B2B social listening now $79/mo.
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
