@@ -3,7 +3,7 @@ title: "ASO App Store Optimization: 9 Fixes for More Organic Installs"
 date: 2026-04-23
 description: "ASO app store optimization guide with 9 practical fixes to improve keyword ranking, listing conversion, reviews, and organic installs on iOS and Google Play."
 tags: [aso, app-store-optimization, mobile-growth, ios, google-play]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/23/aso-app-store-optimization-fixes/"
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/23/aso-app-store-optimization-fixes/
 seo_title: "ASO App Store Optimization: 9 Fixes for More Organic Installs"
 seo_description: "A practical ASO app store optimization guide covering keywords, screenshots, ratings, localization, and post-launch testing for iOS and Google Play."
 keywords: [aso app store optimization, app store optimization, aso, mobile app growth, app store seo]
