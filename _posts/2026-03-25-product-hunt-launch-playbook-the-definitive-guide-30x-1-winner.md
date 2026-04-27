@@ -15,6 +15,7 @@ faq:
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
 gumroad_title: "Product Hunt Launch Action Guide"
 gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
+last_modified_at: 2026-04-26
 ---
 
 The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
@@ -347,4 +348,12 @@ PH is worth fighting for because of the badge and the downstream conversion. But
   ]
 }
 </script>
+
+---
+
+## What's Changed Since Publication (2026-04 Update)
+
+**LinkedIn DM open rate up to ~60% in 2026 Q1** (vs 47% in late 2025) — see new companion post for the exact template.
+
+*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
