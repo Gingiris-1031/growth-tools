@@ -1,6 +1,6 @@
 ---
-title: "How to Get Cited by AI Search Engines: ChatGPT, Perplexity & Claude in 2026"
-description: "Stop writing content that AI ignores. Here's how to structure your articles so ChatGPT, Perplexity, and Claude cite you — with real data from 30+ campaigns."
+title: "How to Get Cited by ChatGPT, Claude & Perplexity in 2026 (GEO for AI Search)"
+description: "The 3-piece GEO stack (llms.txt + FAQ Schema + Citable Stats) to get cited by AI search engines. 21-45 day median lag, with real before-after examples."
 date: 2026-04-10
 tags: [ai-seo, perplexity-seo, chatgpt-seo, geo, content-marketing]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
@@ -132,7 +132,7 @@ Our method reduced launch prep time by 60% — tested across
 AI engines crawl Bing's index. Push your URLs to Bing instantly with IndexNow:
 
 ```bash
-# Push new article to Bing (takes effect within minutes)
+# How to Get Cited by ChatGPT, Claude & Perplexity in 2026 (GEO for AI Search)
 curl "https://www.bing.com/indexnow?url=YOUR_URL&key=YOUR_KEY"
 
 # Batch push
