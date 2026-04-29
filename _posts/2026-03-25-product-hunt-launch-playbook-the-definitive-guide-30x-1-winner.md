@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Product Hunt Launch Playbook: 30x #1 Winner's Exact Strategy (2026 Guide)"
+title: "Product Hunt Launch Playbook for B2B SaaS in 2026: 30x #1 Winner's 6-Week Sprint"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
-description: "I've won Product Hunt #1 thirty times. The exact 30-day campaign system: pre-launch seeding, vote velocity rules, hunter selection, and what to do the day traffic drops. Real numbers, no vague advice."
+description: "The exact T-6 to T-0 launch sprint that drove 30 daily #1 wins on Product Hunt. B2B SaaS focus, 2026 algorithm updates, hour-by-hour timeline."
 faq:
   - q: "How do you get #1 on Product Hunt?"
     a: "The factors that most influence a #1 finish: (1) Upvote velocity — PH clears fake or low-weight votes every ~2 hours, so keep your rate under 100/hour from diverse IPs. (2) Account age — votes from accounts registered 6+ months ago carry significantly more weight. (3) Launch timing — 2nd or 3rd week of month, Tuesday, 12:01 AM PT gives you the full 24-hour window. (4) Engagement — comments and responses signal authenticity to the algorithm. (5) Hunter credibility — a gold-badge hunter gets you featured faster."
