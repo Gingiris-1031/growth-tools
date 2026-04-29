@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Reddit Marketing Guide: How to Promote Without Getting Banned"
+title: "Reddit Marketing for B2B SaaS in 2026: How to Promote Without Getting Banned (Subreddit-by-Subreddit Playbook)"
 date: 2026-03-30
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-reddit-marketing.jpg"
-description: "How to promote on Reddit without getting banned — real data from AFFiNE's open source launch. 80–100K impressions, 5–8% star conversion, and the account-building approach that made it work."
+description: "0.3-1.5% post-to-customer conversion in fit subreddits. Includes r/selfhosted, r/programming, r/SaaS playbooks plus 5 mistakes that get you shadowbanned."
 faq:
   - q: "Is Reddit marketing effective for SaaS?"
     a: "Yes, when done correctly. Reddit has 73M daily active users with topic-specific communities. For open source tools, a well-received post in r/selfhosted or r/opensource can drive 5–8% star conversion from impressions. For SaaS launches, expect lower conversion (~1%) but still meaningful volume. The key is being a genuine community member before you ever mention your product."
