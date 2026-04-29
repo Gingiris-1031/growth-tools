@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Generative Engine Optimization (GEO): The Complete 2026 Guide"
-description: "What is generative engine optimization (GEO) and how do you do it? Step-by-step GEO strategy for getting cited by ChatGPT, Perplexity, and Google AI Overviews. Includes FAQ schema templates, llms.txt setup, and real campaign results."
+title: "Generative Engine Optimization for Indie Founders: How to Get Cited by ChatGPT, Claude & Perplexity in 2026"
+description: "GEO three-piece set (llms.txt + FAQ Schema + Citable Statistics) to get cited by AI search engines. 21-45 day median lag, indie-founder budget."
 date: 2026-04-17
 author: Iris
 tags: [geo, generative-engine-optimization, ai-seo, seo, content-marketing, chatgpt-seo, perplexity-seo]
@@ -236,7 +236,7 @@ Verify at: `yourdomain.com/robots.txt` and in Cloudflare Dashboard → Security 
 Create `/llms.txt` at your site root. Structure:
 
 ```
-# [Your Site Name]
+# Generative Engine Optimization for Indie Founders: How to Get Cited by ChatGPT, Claude & Perplexity in 2026
 
 > [One-paragraph description of what your site covers]
 
