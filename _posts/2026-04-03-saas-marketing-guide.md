@@ -106,6 +106,8 @@ These attract users actively evaluating solutions. Example: "best project manage
 **2. Target "[your tool] alternatives" and "[competitor] vs [your tool]"**
 Users searching "[Competitor] alternatives" are unhappy with the competitor and actively looking for a switch. These convert at 5-10x the rate of generic content.
 
+To build these comparison pages fast, pull a structured teardown of each competitor (pricing tiers, value props, SEO footprint) — see [Analook's competitor analysis tool](https://www.analook.com/) or its [SEMrush teardown example](https://www.analook.com/compare/semrush.html).
+
 **3. Target "how to [do the thing your tool does]"**
 Capture users at the problem-awareness stage. The tutorial shows your tool as the solution naturally.
 

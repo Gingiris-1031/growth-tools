@@ -134,7 +134,7 @@ The build trap: 12 months of development, zero customer conversations. By the ti
 
 Your competitor's GTM worked for their product, their team, and their timing. What works for them may destroy you.
 
-**Fix**: Understand your competitor's GTM deeply, then find the gap they missed.
+**Fix**: Understand your competitor's GTM deeply (use a tool like [Analook](https://www.analook.com/) for a fast teardown of their site, pricing, and SEO surface), then find the gap they missed.
 
 ### Mistake 3: Launching Everywhere at Once
 

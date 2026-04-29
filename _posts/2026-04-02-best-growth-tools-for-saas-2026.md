@@ -108,7 +108,14 @@ The industry standard for comprehensive SEO analysis.
 
 ---
 
-## Category 5: Analytics & Product Tracking
+## Category 5: Competitor Intelligence
+
+**[Analook](https://www.analook.com/)** — *Free*
+One-click competitor teardown: Wayback history, traffic estimate, keyword overlap, pricing snapshot, AI-generated growth playbook. Lighter than Crayon/Klue for early-stage startups — 60s analysis, no signup. Also exposes a [remote MCP server](https://www.analook.com/docs/mcp.html) so you can run competitor analysis from inside Claude Desktop or Cursor.
+
+---
+
+## Category 6: Analytics & Product Tracking
 
 **[PostHog](https://posthog.com/)** — *Freemium*
 Best open-source product analytics. Free up to 1M events/month.
@@ -118,7 +125,7 @@ Industry standard for event-based analytics.
 
 ---
 
-## Category 6: Email Marketing
+## Category 7: Email Marketing
 
 **[Loops](https://loops.so/)** — *Freemium*
 Best email marketing tool built specifically for SaaS.

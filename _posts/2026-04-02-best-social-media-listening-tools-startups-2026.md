@@ -79,6 +79,7 @@ Social media listening tracks mentions of your brand, competitors, and industry 
 3. **Set up daily alerts** — configure email digests or Slack notifications so you see relevant mentions within 24 hours.
 4. **Respond and engage** — reply to mentions where your product is genuinely relevant. This is direct lead generation, not brand management.
 5. **Track competitor sentiment weekly** — look for patterns in negative competitor mentions. These are the use cases your positioning should highlight.
+6. **Pair listening with structured competitor teardowns** — social listening surfaces the *signal*, but you still need a snapshot of competitors' pricing, positioning, and SEO to act on it. [Analook](https://www.analook.com/) builds a free side-by-side teardown (Wayback history + traffic + keyword overlap) in under 60 seconds.
 
 ---
 
