@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "GitHub README Template: The Complete 2026 Guide to Get More Stars"
+title: "GitHub README Template (2026): The Complete Best-Practices Guide with 12 Real Examples"
 date: 2026-04-02
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
-description: "GitHub README template guide with copy-paste examples. Structure your README for maximum clarity, star conversion, and contributor onboarding in 2026."
+description: "12 production-grade GitHub README templates with copy-paste sections, badges, GIF placeholders, and the exact structure that took AFFiNE to 60K stars."
 faq:
   - q: "What is a GitHub README template?"
     a: "A GitHub README template is a pre-structured markdown document that provides a starting framework for documenting your repository. A good template includes sections for project description, installation, usage examples, contributing guide, and license — ensuring your README covers the information developers expect when evaluating or using your project."
@@ -220,7 +220,7 @@ Many 10k+ star repos follow this structure:
 Copy and customize this:
 
 ```markdown
-# [Project Name]
+# GitHub README Template (2026): The Complete Best-Practices Guide with 12 Real Examples
 
 > One-line description with primary SEO keywords — what it is, who it's for, why it's different.
 
