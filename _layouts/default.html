@@ -328,10 +328,10 @@
         {{ content }}
 {% if page.layout == 'post' %}
 
-<!-- ───── 3-Tier CTA Block (auto-applied to every page) ───── -->
+<!-- ───── 4-Tier CTA Block (auto-applied to every post) ───── -->
 <aside class="cta-block-gingiris" style="
   margin: 64px auto 32px;
-  max-width: 720px;
+  max-width: 760px;
   padding: 28px;
   border: 2px solid #16a34a;
   border-radius: 16px;
@@ -340,33 +340,41 @@
 
   <div style="text-align:center; margin-bottom:20px;">
     <div style="font-size:13px; color:#166534; letter-spacing:1.5px; font-weight:600;">FOUND THIS USEFUL?</div>
-    <h3 style="margin:6px 0 0; color:#14532d; font-size:22px; font-weight:700;">Three ways to go deeper</h3>
+    <h3 style="margin:6px 0 0; color:#14532d; font-size:22px; font-weight:700;">Four ways to go deeper</h3>
   </div>
 
-  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:14px;">
+  <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap:12px;">
 
     <a href="https://x.com/iris__wei" target="_blank" rel="noopener"
        onclick="if(typeof gtag!=='undefined')gtag('event','cta_click',{'cta_type':'free_follow','destination':'twitter'});"
        style="display:block; padding:14px 12px; background:#ffffff; border:1px solid #16a34a; border-radius:8px; text-decoration:none; text-align:center;">
-      <div style="font-size:12px; color:#15803d; font-weight:600;">FREE · WEEKLY</div>
+      <div style="font-size:11px; color:#15803d; font-weight:600;">FREE · WEEKLY</div>
       <div style="margin-top:4px; color:#14532d; font-weight:700; font-size:15px;">Follow on X</div>
       <div style="margin-top:4px; color:#365314; font-size:12px;">SEO + going-global threads</div>
+    </a>
+
+    <a href="https://gingiris.github.io/growth-tools/?utm_source=blog_footer&amp;utm_medium=cta&amp;utm_campaign=hub_browse" rel="noopener"
+       onclick="if(typeof gtag!=='undefined')gtag('event','cta_click',{'cta_type':'hub_browse','destination':'growth_tools'});"
+       style="display:block; padding:14px 12px; background:#ffffff; border:1px solid #16a34a; border-radius:8px; text-decoration:none; text-align:center;">
+      <div style="font-size:11px; color:#15803d; font-weight:600;">BROWSE · 100+</div>
+      <div style="margin-top:4px; color:#14532d; font-weight:700; font-size:15px;">Growth Tools</div>
+      <div style="margin-top:4px; color:#365314; font-size:12px;">Curated directory · all categories</div>
     </a>
 
     <a href="https://analook.com?utm_source=gingiris&amp;utm_medium=cta&amp;utm_campaign=blog_footer" target="_blank" rel="noopener"
        onclick="if(typeof gtag!=='undefined')gtag('event','cta_click',{'cta_type':'product_trial','destination':'analook'});"
        style="display:block; padding:14px 12px; background:#16a34a; border:1px solid #15803d; border-radius:8px; text-decoration:none; text-align:center;">
-      <div style="font-size:12px; color:#bbf7d0; font-weight:600;">TRY · FREE TIER</div>
+      <div style="font-size:11px; color:#bbf7d0; font-weight:600;">TRY · FREE</div>
       <div style="margin-top:4px; color:#ffffff; font-weight:700; font-size:15px;">Analook</div>
-      <div style="margin-top:4px; color:#dcfce7; font-size:12px;">Competitor analysis tool by Iris</div>
+      <div style="margin-top:4px; color:#dcfce7; font-size:12px;">Competitor analysis tool</div>
     </a>
 
-    <a href="https://gingiris.com/en?utm_source=gingiris&amp;utm_medium=cta&amp;utm_campaign=blog_footer_consult" target="_blank" rel="noopener"
-       onclick="if(typeof gtag!=='undefined')gtag('event','cta_click',{'cta_type':'consulting','destination':'gingiris_com'});"
+    <a href="https://gingiris.gumroad.com/?utm_source=gingiris&amp;utm_medium=cta&amp;utm_campaign=blog_footer" target="_blank" rel="noopener"
+       onclick="if(typeof gtag!=='undefined')gtag('event','cta_click',{'cta_type':'paid_template','destination':'gumroad'});"
        style="display:block; padding:14px 12px; background:#ffffff; border:1px solid #16a34a; border-radius:8px; text-decoration:none; text-align:center;">
-      <div style="font-size:12px; color:#15803d; font-weight:600;">PAID · 1:1</div>
-      <div style="margin-top:4px; color:#14532d; font-weight:700; font-size:15px;">Book Consulting</div>
-      <div style="margin-top:4px; color:#365314; font-size:12px;">Going-global advisory</div>
+      <div style="font-size:11px; color:#15803d; font-weight:600;">PAID · TEMPLATES</div>
+      <div style="margin-top:4px; color:#14532d; font-weight:700; font-size:15px;">Gumroad</div>
+      <div style="margin-top:4px; color:#365314; font-size:12px;">Playbooks &amp; templates</div>
     </a>
 
   </div>
@@ -375,7 +383,6 @@
     Iris — ex-AFFiNE COO · 60k+ GitHub stars · 30x Product Hunt #1 winner
   </p>
 </aside>
-
 {% endif %}
     </main>
 
