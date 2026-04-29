@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Social Media Listening Tools for Startups 2026: Free & Paid Options Reviewed"
-description: "Best social media listening tools for startups in 2026: 20+ options reviewed. Find free tools, multilingual monitoring (EN/CN/JP/ES), and competitor tracking features. Tested by a team watching an open source product across 200+ countries."
+title: "Best Social Listening Tools Under $100/mo for B2B SaaS Startups (2026 Buyer's Guide)"
+description: "27-tool audit with pricing, free-tier limits, and multilingual support. Why startups under 1,500 mentions/mo should stay free, and when paid pays off."
 date: 2026-04-02
 author: Iris
 tags: [social-listening, tools, startup, marketing, analytics]
@@ -36,7 +36,7 @@ last_modified_at: 2026-04-26
 | Free coverage with Google Alerts + Reddit Search | ~80% of relevant conversations |
 | Time to set up a basic social listening stack | Under 30 minutes |
 
-# Best Social Media Listening Tools for Startups in 2026
+# Best Social Listening Tools Under $100/mo for B2B SaaS Startups (2026 Buyer's Guide)
 
 Social media listening is one of the most underused growth levers for early-stage startups. The smartest founders use it to find what users complain about, track competitors, and spot conversations where they can add value.
 
