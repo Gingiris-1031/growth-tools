@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "SaaS Marketing: The Complete Playbook for 2026 (With Real Examples)"
-description: "The complete SaaS marketing guide for 2026. Learn which channels work at each growth stage, how to build a repeatable acquisition engine, and real examples from products that scaled from 0 to $10M ARR."
+title: "SaaS Marketing for Indie Founders (2026): Channels by Stage, Real Examples, $0-Budget Tactics"
+description: "A SaaS marketing playbook for solo founders and tiny teams. Channel-by-stage map (PMF → 10k MRR → scale), real case studies, $0-budget options."
 date: 2026-04-03
 tags: [saas-marketing, startup-marketing, growth, saas, marketing]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/saas-marketing-guide/
