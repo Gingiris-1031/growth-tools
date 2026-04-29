@@ -294,4 +294,77 @@ Use the checklist in this guide monthly. Run the Ellis survey quarterly. Talk to
 
 That's how you find PMF. Not by building more features. By finding the people for whom your product is already irreplaceable — and doubling down on them.
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is product-market fit in simple terms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Product-market fit is when your product solves a real problem so well that users keep using it, tell other people about it without being asked, and get upset when you try to take it away. Operationally: 40%+ of users would be 'very disappointed' if your product disappeared, week-4 retention curves flatten instead of declining to zero, and organic word-of-mouth is your largest acquisition channel. Marc Andreessen coined the term in 2007 — but the cleanest measurable definition came from Sean Ellis's 40% rule in 2010."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you measure product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three measurements that together give a complete picture: (1) Sean Ellis 40% rule — survey active users with 'How would you feel if you could no longer use [product]?'; 40%+ saying 'very disappointed' indicates PMF. (2) Retention curve — plot week-N retention; if the curve flattens (instead of declining to zero) by week 4-8, you have PMF in that segment. (3) Organic growth rate — what share of new users came without paid acquisition or your direct outreach? Above 30% organic is a strong signal. Don't trust any single metric — triangulate across all three."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 40% rule for product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sean Ellis's rule from 2010: ask active users 'How would you feel if you could no longer use [product]?' with four options (very disappointed / somewhat disappointed / not disappointed / I no longer use). If 40%+ say 'very disappointed', you have product-market fit. Below 40%, you need to keep iterating on the product before scaling. The rule works because 'very disappointed' captures the emotional dependency that drives retention, referrals, and willingness to pay."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you know if you have product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The clearest signals are behavioral, not sentimental: (1) Users complain when you try to change or remove core features. (2) Sales calls become inbound — strangers reach out asking for the product. (3) Customer success becomes the bottleneck because users keep recruiting more users. (4) Churn drops below 5% monthly for SMB or 1% for mid-market. (5) Your week-4 retention curve flattens instead of decaying to zero. If you have to ask whether you have PMF, you probably don't yet — when it happens, it's unmistakable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to find product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Median time to PMF for B2B SaaS is 12-24 months. Some find it in 3 months (rare — usually founders who lived the problem). Some take 4 years (and many give up before reaching it). The strongest predictor of speed isn't market size or team experience — it's iteration velocity. Teams that talk to users weekly and ship to a small cohort find PMF roughly 2x faster than teams running quarterly research. PMF rewards short feedback loops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between product-market fit and problem-solution fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Problem-solution fit comes first: you've confirmed the problem exists and that your solution direction is right. Validated by interviews — 8 of 10 people with the problem say 'I would use this if it existed.' Product-market fit comes after: you've built the product, real users are using it, and 8 of 10 active users say 'I would be very disappointed if this went away.' Don't skip problem-solution fit — most failed startups built a great product for a problem that wasn't actually painful enough to pay for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you have product-market fit in one segment but not another?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — and recognizing this is one of the most underrated PMF skills. Slack had clear PMF with engineering teams 18 months before having PMF with sales or marketing teams. Notion had PMF with individuals and small teams long before having PMF with enterprise. The trap is averaging your PMF metrics across the whole user base; the breakthrough is segmenting by use case, team size, or industry until you find the cohort where 40%+ say 'very disappointed' — then doubling down on that cohort."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should you scale before product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — scaling before PMF accelerates burning money on a leaky bucket. The math is simple: if churn is 8% monthly because you don't have PMF, every dollar of acquisition spend funds users who leave before paying back CAC. The companies that scaled before PMF and survived (e.g., some Series-A AI startups in 2024-2025) did so because they had enough runway to find PMF during the scale. Most don't have that luxury. The right sequence: find PMF in a small segment first, then scale the channel that works."
+      }
+    }
+  ]
+}
+</script>
+
 For more frameworks, tools, and templates to accelerate your SaaS growth journey, explore the complete [growth tools directory](https://gingiris.github.io/growth-tools/).
