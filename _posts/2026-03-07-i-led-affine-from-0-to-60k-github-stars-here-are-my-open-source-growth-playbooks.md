@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "I Led AFFiNE from 0 to 60k GitHub Stars — Here Are My Open Source Growth Playbooks"
+title: "AFFiNE GitHub Stars: 60,000+ and How We Got There (Founder's Playbook)"
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 date: 2026-03-07
-description: "The real story behind AFFiNE's 0 to 60K GitHub stars — 43 days to 10K, 28 Trending appearances, 30x Product Hunt #1. Playbooks now open source."
+description: "AFFiNE crossed 60,000 GitHub stars in 2026. Here's the actual playbook: 43 days to 10K, 28 Trending appearances, 30x Product Hunt #1 — by their COO."
 tags: [["opensource", "startup", "growth", "marketing"]]
 faq:
   - q: "How did AFFiNE get 60k GitHub stars?"
