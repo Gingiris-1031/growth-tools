@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How to Launch on Hacker News: The Show HN Guide (Real Data)"
+title: "Show HN Guide: How to Launch on Hacker News in 2026 (Frontpage Tactics + Best Time to Post)"
 date: 2026-04-07
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
-description: "How to write a Show HN post that reaches the front page — timing, title format, first comment, and what to do after the spike. Real data from AFFiNE's HN launches."
+description: "The exact Show HN playbook used to hit Hacker News frontpage. Tuesday 9 AM ET timing, title formula, comment strategy, and 5 reasons launches fail."
 faq:
   - q: "What is Show HN and how does it work?"
     a: "Show HN is Hacker News's dedicated format for sharing projects with the community. Posts beginning with 'Show HN:' get special treatment: they appear on a dedicated /shownew page, receive a grace period where they can't be downvoted immediately, and are exempt from the 'no self-promotion' rule that applies to regular posts. The HN community actively looks at Show HN for genuinely interesting technical projects — it's one of the few places online where sophisticated early adopters seek out new tools."
