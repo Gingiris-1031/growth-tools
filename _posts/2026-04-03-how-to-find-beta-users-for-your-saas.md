@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to Find Beta Users for Your SaaS: The Complete 2026 Playbook"
-description: "Learn exactly how to find beta users for your SaaS product — from Reddit and Slack communities to cold outreach, waitlists, and beta platforms. Real tactics, real numbers."
+title: "How to Find Beta Users for Your SaaS in 2026: 12 Channels Ranked by Cost & Conversion"
+description: "The 12 channels indie founders use to find their first 100 beta users in 2026. Real conversion rates by channel, cost-per-beta, and 5 channels to skip."
 date: 2026-04-03
 tags: [beta-testing, saas-growth, user-acquisition, product-launch, startup]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas/
