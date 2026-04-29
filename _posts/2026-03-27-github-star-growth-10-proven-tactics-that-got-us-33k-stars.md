@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "GitHub Star Growth: 10 Tactics That Got Us 33K Stars (Real Data, 2026)"
+title: "AFFiNE GitHub Stars: How We Grew to 33,000+ (10 Tactics with Real Data, 2026)"
 date: 2026-03-27
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
-description: "The 10 GitHub star growth tactics that took AFFiNE from 0 to 33,000 stars. Real numbers: Day 5 on Trending, a Reddit launch that drove 2,000 stars in 48 hours, the channel sequence, and what stopped working after 6K."
+description: "AFFiNE went from 0 to 33,000+ GitHub stars in under 2 years. Here are the 10 tactics that worked, with real day-by-day numbers from 2024-2026."
 faq:
   - q: "How do you get GitHub stars fast?"
     a: "The fastest legitimate path: concentrate all your distribution channels — Reddit, Hacker News, Product Hunt, Twitter — into a 48-hour window. The velocity spike is what triggers GitHub Trending, and Trending compounds everything. AFFiNE hit 6,000 stars in week one by concentrating all channels simultaneously. Without that concentration, the same posts would have driven a fraction of the results."
