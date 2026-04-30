@@ -203,7 +203,7 @@ Product Hunt success isn't about gaming the system. It's about building somethin
 
 ---
 
-**Questions?** Drop a comment below or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei) or [Telegram @Iris_carrot](https://t.me/Iris_carrot).
+**Questions?** Drop a comment below or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei) or [Telegram @WeiYipei](https://t.me/Iris_carrot).
 
 *This guide is part of the [Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch) — battle-tested strategies from 30x Product Hunt #1 wins.*
 
