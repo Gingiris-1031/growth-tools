@@ -288,7 +288,7 @@ clawhub install gingiris-user-interview
 I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping founders validate products faster through user research.
 
 - Playbooks: [github.com/Gingiris](https://github.com/Gingiris)
-- Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
+- Consulting: [@WeiYipei on Telegram](https://t.me/Iris_carrot)
 
 ---
 
