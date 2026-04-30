@@ -26,7 +26,7 @@
 > 💡 **Need a 1-on-1 consultation on SEO, open source growth, or global launch strategy?**
 >
 > Book a session at **[gingiris.com/en](https://gingiris.com/en)** — 1:1 sessions, startup coaching, and retainer options.
-> Or reach out directly: [Telegram @Iris_carrot](https://t.me/Iris_carrot)
+> Or reach out directly: [Telegram @WeiYipei](https://t.me/Iris_carrot)
 
 ---
 
@@ -62,7 +62,7 @@
 > |:-----|:------|:---------|
 > | Monthly | $1,500 USD/mo | Up to 5 hours consultation + milestone reviews |
 >
-> 📩 [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot) — Crypto/USDT and Wire Transfer accepted
+> 📩 [Contact @WeiYipei on Telegram](https://t.me/Iris_carrot) — Crypto/USDT and Wire Transfer accepted
 
 ---
 
@@ -384,7 +384,7 @@ Want all four playbooks? Get the **Open-Source Project Integrated Marketing Acti
 |:---------|:-----|
 | 🐦 Twitter | [@WeiYipei](https://x.com/WeiYipei) |
 | 💼 LinkedIn | [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/) |
-| 💬 Telegram | [@Iris_carrot](https://t.me/Iris_carrot) |
+| 💬 Telegram | [@WeiYipei](https://t.me/Iris_carrot) |
 | 🌐 Website | [gingiris.com/en](https://gingiris.com/en) |
 | 📱 即刻 | 生姜iris |
 | 📧 公众号 | 云宝的桃花坞 |
@@ -403,7 +403,7 @@ Want all four playbooks? Get the **Open-Source Project Integrated Marketing Acti
 
 ## License
 
-MIT © [Gingiris](https://gingiris.com) — Built by [Iris](https://twitter.com/Iris_carrot), ex-AFFiNE COO, 30x PH #1 winner.
+MIT © [Gingiris](https://gingiris.com) — Built by [Iris](https://twitter.com/WeiYipei), ex-AFFiNE COO, 30x PH #1 winner.
 
 ---
 
