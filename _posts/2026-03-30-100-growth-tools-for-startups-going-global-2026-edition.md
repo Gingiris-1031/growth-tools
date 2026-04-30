@@ -158,7 +158,7 @@ Plus companion playbooks:
 
 *This list updates weekly. Last updated: Apr 27, 2026.*
 
-*Built by [Iris](https://twitter.com/Iris_carrot) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
+*Built by [Iris](https://twitter.com/WeiYipei) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
 ---
 
