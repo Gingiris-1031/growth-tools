@@ -219,7 +219,7 @@ Curated by **Iris** (生姜iris), ex-COO of [AFFiNE](https://github.com/toeveryt
 | [📈 B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth) | PMF → $10M ARR | ⭐ |
 | [📱 ASO Guide](https://github.com/Gingiris/gingiris-aso-growth) | App Store optimization | ⭐ |
 
-**Contact:** [@iris_carrot](https://twitter.com/iris_carrot)
+**Contact:** [@WeiYipei](https://twitter.com/WeiYipei)
 
 ---
 
