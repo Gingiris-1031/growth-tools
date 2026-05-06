@@ -4,6 +4,7 @@ title: "Adding a Remote MCP Server to Our SaaS in 200 Lines — and the 3 Bugs T
 date: 2026-04-29 14:00:00 +0800
 categories: [saas, mcp, dev]
 description: "How we exposed Analook's competitor-analysis pipeline to Claude Desktop and Cursor as a Remote MCP server — including the 3 silent failures we caught only because we ran an independent code review on every change."
+canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/29/mcp-server-saas-200-lines-3-bugs/
 ---
 
 It was 11:47 PM on a Sunday in April 2026. I was in my Kunshan apartment, my second matcha gone cold next to the laptop, watching a `curl` command return `HTTP 405 Method Not Allowed` from `https://www.analook.com/mcp` — the endpoint I'd just shipped 90 seconds ago.
