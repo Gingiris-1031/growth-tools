@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-04-27 21:41:00 +0800
+date: 2026-05-06 09:41:00 +0800
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
@@ -135,6 +135,18 @@ Pulled from a quiet Sunday tab-cleanup — five tools that surfaced on PH/HN thi
 | [GoModel](https://github.com/ENTERPILOT/GoModel) | AI Infra | Open-source AI gateway in Go — LiteLLM alternative claiming 47% higher throughput and 7× less memory; useful when your gateway layer becomes the bottleneck |
 
 
+## 🆕 Spotted This Week (May 6, 2026)
+
+A late-April PH/HN sweep before my morning coffee — five tools that actually loaded, plus one (Zed) that felt like it was going to swallow my dock all week:
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Zed 1.0](https://zed.dev/blog/zed-1-0) | Developer Tools | Rust-built editor finally hit 1.0 — 10× faster startup than VS Code, 16× less memory, multi-agent AI workflows baked in. macOS/Win/Linux |
+| [Manus Cloud Computer](https://manus.im/blog/manus-cloud-computer) | AI Agents | Persistent always-on Ubuntu box for your AI agent — files and tools survive between sessions, useful for 24/7 Slack/Discord bots and scheduled scrapers |
+| [Appwrite Sites](https://appwrite.io/products/sites) | Backend / Hosting | Open-source Vercel alternative — SSR, custom domains, integrated auth/db/storage. Took #1 Developer Tool of the Month on PH |
+| [Kibo UI](https://www.kibo-ui.com/) | UI / Frontend | shadcn/ui extension registry with 41 production components (Gantt, Kanban, AI chat primitives, file dropzones) — MIT licensed, install via shadcn CLI |
+| [Edgee](https://www.edgee.ai/) | LLM Infra | AI gateway handling routing, retries, compression, and per-team spend visibility — slots between your app and OpenAI/Anthropic/Gemini without rewriting calls |
+
 ## 📚 Full List + Resources
 
 Full tool database on GitHub (updated weekly):
@@ -156,7 +168,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: Apr 27, 2026.*
+*This list updates weekly. Last updated: May 6, 2026.*
 
 *Built by [Iris](https://twitter.com/WeiYipei) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
