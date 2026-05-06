@@ -24,6 +24,8 @@ last_modified_at: 2026-04-26
 
 > ✍️ **Deep dive**: [Product Hunt Maker Comment Template (6 Variants from 30x #1 Winner)](https://gingiris.github.io/growth-tools/blog/2026/05/02/product-hunt-maker-comment-template/) — the launch-day first comment posted within 5 minutes of 12:01 AM PST. Founder-story openers hit ~68% read-through vs ~22% for feature-list openers.
 
+> ⏱️ **Deep dive**: [Product Hunt Launch Day Timeline (Hour-by-Hour, PST)](https://gingiris.github.io/growth-tools/blog/2026/05/06/product-hunt-launch-day-timeline/) — minute-by-minute action map for the 24 hours from 12:01 AM PST to 23:59 PST, including the 14:00 PST peak (~30% of upvotes) and the closing-push window most makers miss.
+
 The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
 
 We were #1 at midnight. By 6 AM we'd dropped to #3. By noon we were back at #1 and stayed there.
@@ -363,5 +365,7 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 **LinkedIn DM open rate up to ~60% in 2026 Q1** (vs 47% in late 2025) — see new companion post for the exact template.
 
-*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+**Hour-by-hour PST timeline added (2026-05-06)** — covers the full 24-hour launch day with the 14:00 PST peak and the 21:00-23:59 PST closing-push window. See the [launch day timeline](https://gingiris.github.io/growth-tools/blog/2026/05/06/product-hunt-launch-day-timeline/).
+
+*Last updated: 2026-05-06 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 

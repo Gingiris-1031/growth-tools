@@ -173,6 +173,7 @@ Self-hunting is no longer the stigma it was in 2022. If your community is strong
 - **[Master playbook]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — full Product Hunt launch system
 - **[LinkedIn DM template]({{ "/blog/2026/04/26/product-hunt-linkedin-dm-template/" | relative_url }})** — companion piece on outreach DMs (60% open rate)
 - **[Maker comment template]({{ "/blog/2026/05/02/product-hunt-maker-comment-template/" | relative_url }})** — 6 launch-day first-comment variants, ~68% read-through with founder-story opener
+- **[Launch day timeline (hour-by-hour PST)]({{ "/blog/2026/05/06/product-hunt-launch-day-timeline/" | relative_url }})** — when your hunter executes the 00:01 PST publish + 02:00 PST hunt comment slots
 - **[After launch: keeping momentum]({{ "/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/" | relative_url }})** — post-launch playbook
 
 ---
