@@ -199,9 +199,12 @@ LinkedIn DM outreach is **the single biggest velocity driver** in 2026. Hunters 
 
 > 🎯 **Companion piece**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://gingiris.github.io/growth-tools/blog/2026/04/28/product-hunt-hunter-list-2026/) — the vetting framework, 4 hunter tiers, and what to actually say in the outreach DM.
 
+> 🎯 **Launch-day companion**: [Product Hunt Maker Comment Template (6 Variants)](https://gingiris.github.io/growth-tools/blog/2026/05/02/product-hunt-maker-comment-template/) — the first comment that goes live within 5 minutes of 12:01 AM PST. Same 30-launch dataset, founder-story openers hit ~68% read-through.
+
 ## Related Reading
 
 - **[Master playbook]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — the full Product Hunt launch system across all channels
+- **[Maker comment template]({{ "/blog/2026/05/02/product-hunt-maker-comment-template/" | relative_url }})** — 6 variants of the launch-day first comment, with when-to-use rules
 - **[After launch: keeping momentum]({{ "/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/" | relative_url }})** — what to do in the 7 days after launch day
 - **[Developer community directory]({{ "/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/" | relative_url }})** — where to find the right people to send DMs to in the first place
 
