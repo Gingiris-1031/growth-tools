@@ -247,6 +247,22 @@ The right tools can accelerate every pillar of your go-to-market strategy:
         "@type": "Answer",
         "text": "Key GTM metrics to track: Acquisition — CAC (customer acquisition cost) per channel, MQLs/SQLs, website conversion rate. Activation — time-to-first-value (how fast users reach the 'aha moment'), onboarding completion rate. Retention — Day 7/30 retention, NPS, churn rate. Revenue — MRR growth rate, ACV, LTV:CAC ratio (target 3:1 minimum). The North Star metric for PLG is typically 'activated users per month'; for SLG it's 'qualified pipeline value'. Track leading indicators (activation, engagement) not just lagging ones (revenue) — by the time revenue drops, the problem is already 90 days old."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a go-to-market strategy template look like?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A working GTM template has 7 sections: (1) Market context — TAM/SAM/SOM sizing and 2–3 sentences on why now, (2) ICP definition — firmographic criteria (size, industry, geo), buying-committee roles, and 3–5 disqualifiers, (3) Positioning statement — 'For [ICP] who [pain], we are the [category] that [unique value], unlike [alternative]', (4) Messaging hierarchy — primary headline, three supporting benefits, and one objection-handler per benefit, (5) Channel mix — primary motion (PLG/SLG/hybrid) plus 2 secondary channels with 90-day budgets, (6) Pricing & packaging — tiers, anchor price, free/trial mechanics, (7) 30/60/90-day milestones with one numerical target each. Keep the whole document under 4 pages — anything longer is a strategy nobody reads."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you write a go-to-market plan from scratch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To write a GTM plan from scratch in one week: Day 1 — interview 5 existing or prospective customers for 30 minutes each, capture verbatim pain language. Day 2 — synthesize ICP and write the positioning statement (use April Dunford's framework). Day 3 — pick the single beachhead segment and primary GTM motion (PLG vs SLG) based on ACV and self-serve fit. Day 4 — design the channel mix (one primary, two experimental) with weekly budgets and KPIs. Day 5 — set the 30/60/90-day milestone tree with leading indicators (activations, qualified meetings) not lagging ones (revenue). Day 6 — pressure-test with three skeptical advisors, kill anything they can't repeat back. Day 7 — write the 4-page summary doc and lock the metrics dashboard. The plan that takes a month is usually the one that's avoiding customer conversations."
+      }
     }
   ]
 }
