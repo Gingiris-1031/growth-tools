@@ -35,6 +35,11 @@ Here are the 10 tactics, in the order we figured them out.
 
 ---
 
+
+> 📌 **AFFiNE deep dives**:
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://gingiris.github.io/growth-tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.github.io/growth-tools/blog/2026/05/01/affine-github-trending-playbook/)
+
 ## The Real Story: 6,000 Stars in 7 Days
 
 When we launched AFFiNE in August 2022, we had one week of preparation time. These are the 10 tactics that drove 6,000 stars in the first week and 10,000 in 43 days.
