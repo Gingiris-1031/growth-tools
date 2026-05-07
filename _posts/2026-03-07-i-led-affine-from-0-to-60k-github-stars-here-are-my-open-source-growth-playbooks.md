@@ -48,6 +48,11 @@ In 2024, I left AFFiNE. Since then, I've been open sourcing everything I learned
 
 ---
 
+
+> 📌 **AFFiNE deep dives**:
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://gingiris.github.io/growth-tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.github.io/growth-tools/blog/2026/05/01/affine-github-trending-playbook/)
+
 ## The Story Behind the Numbers
 
 We launched AFFiNE in August 2022 with one week of preparation time. That's not a humblebrag — it was genuinely chaotic. We had a product, a GitHub repo, and a rough plan.
