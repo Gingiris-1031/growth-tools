@@ -60,6 +60,56 @@
     }
     </script>
 
+    <!-- Organization Schema (site-wide for E-E-A-T) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Gingiris Growth Tools",
+      "url": "https://gingiris.github.io/growth-tools/",
+      "logo": "https://gingiris.github.io/growth-tools/favicon.svg",
+      "founder": {
+        "@type": "Person",
+        "name": "Iris Wei",
+        "url": "https://gingiris.com",
+        "sameAs": ["https://x.com/WeiYipei", "https://github.com/Gingiris"],
+        "jobTitle": "Ex-AFFiNE COO, Open Source Marketing Consultant",
+        "knowsAbout": ["SEO", "GEO", "Open Source Marketing", "Product Hunt", "GitHub Stars Growth"]
+      },
+      "sameAs": ["https://x.com/WeiYipei", "https://github.com/Gingiris"]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema (per-post navigation context for AI crawlers) -->
+    {% if page.layout == 'post' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gingiris.github.io/growth-tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://gingiris.github.io/growth-tools/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ page.title | jsonify }},
+          "item": "{{ page.canonical_url | default: page.url | absolute_url }}"
+        }
+      ]
+    }
+    </script>
+    {% endif %}
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -409,5 +459,43 @@
             setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
         });
     </script>
+
+<!-- GA4 Engagement Quality Events (scroll depth + read time) — aligns with 2026 GEO guidance: track quality > traffic -->
+<script>
+(function() {
+  if (typeof gtag === 'undefined') return;
+  var maxScroll = 0;
+  var startTime = Date.now();
+  var milestones = {25: false, 50: false, 75: false, 100: false};
+  
+  function trackScroll() {
+    var scroll = (window.scrollY + window.innerHeight) / document.documentElement.scrollHeight * 100;
+    var pct = Math.round(scroll);
+    if (pct > maxScroll) maxScroll = pct;
+    [25, 50, 75, 100].forEach(function(m) {
+      if (pct >= m && !milestones[m]) {
+        milestones[m] = true;
+        gtag('event', 'scroll_depth', {scroll_pct: m});
+      }
+    });
+  }
+  
+  function trackReadTime() {
+    var seconds = Math.round((Date.now() - startTime) / 1000);
+    [30, 60, 120, 300].forEach(function(t) {
+      if (seconds === t) {
+        gtag('event', 'read_time', {seconds: t});
+      }
+    });
+  }
+  
+  window.addEventListener('scroll', trackScroll, {passive: true});
+  setInterval(trackReadTime, 1000);
+  window.addEventListener('beforeunload', function() {
+    gtag('event', 'session_summary', {max_scroll: maxScroll, total_seconds: Math.round((Date.now() - startTime) / 1000)});
+  });
+})();
+</script>
+
 </body>
 </html>
