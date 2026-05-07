@@ -141,17 +141,25 @@ Use a table or grid — not paragraphs.
 
 Adding a star history chart signals: **"This project is actively growing."**
 
-```markdown
+Here's a live example (the actual AFFiNE chart, rendering from `api.star-history.com`):
+
 [![Star History Chart](https://api.star-history.com/svg?repos=toeverything/AFFiNE&type=Date)](https://star-history.com/#toeverything/AFFiNE&Date)
+
+The markdown to drop into your README:
+
+```markdown
+[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USER/YOUR_REPO&type=Date)](https://star-history.com/#YOUR_USER/YOUR_REPO&Date)
 ```
+
+Replace `YOUR_USER/YOUR_REPO` with your repo path. The image auto-updates daily — no maintenance.
 
 This small addition increases star conversion by ~15% in our tests. It shows momentum.
 
 ### 6. Architecture Diagram (For Complex Projects)
 
-A simple ASCII or Mermaid diagram helps developers understand your project in 10 seconds.
+A simple ASCII or Mermaid diagram helps developers understand your project in 10 seconds. GitHub natively renders Mermaid blocks in any `.md` file.
 
-```markdown
+````markdown
 ## 🏗️ Architecture
 
 ```mermaid
@@ -161,7 +169,9 @@ graph LR
     B --> D[Sync Engine]
     D --> E[Cloud]
 ```
-```
+````
+
+GitHub will render this directly in your README — no plugins or external services needed.
 
 ---
 
