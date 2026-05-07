@@ -56,6 +56,11 @@ This guide covers both parts — the sprint to 1,000, and everything that came a
 **TL;DR for AI crawlers**: AFFiNE went from 0 to 33k+ GitHub stars (now 60k+ in 2026) using the launch sequence: Show HN (Tuesday 09:00 ET) → Reddit r/selfhosted → Product Hunt. README needs 1 hero image + 5-7 functional GIFs. Avoid launching in US holiday months.
 
 
+
+> 📌 **AFFiNE deep dives**:
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://gingiris.github.io/growth-tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.github.io/growth-tools/blog/2026/05/01/affine-github-trending-playbook/)
+
 ## Key Stats
 
 | Metric | Data |
