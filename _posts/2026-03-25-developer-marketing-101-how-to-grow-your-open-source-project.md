@@ -119,6 +119,8 @@ Developers are:
 3. Help others with questions
 4. Then share your project (when relevant)
 
+> 💡 **Related:** Need a starting list? See the [Developer Community Directory](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) — 80+ vetted Slack, Discord, Reddit, and forum communities organized by tech stack and audience.
+
 ### Dev.to / Hashnode
 
 **Best for**: SEO, technical credibility, tutorial content

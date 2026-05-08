@@ -162,7 +162,7 @@ You have the community skills but need technical credibility. Focus on:
 **Don't create anything yet.** Your first 30 days are about understanding the community.
 
 Actions:
-- [ ] Map every place developers talk about your product (GitHub Issues, Reddit, Discord, Stack Overflow, Twitter/X)
+- [ ] Map every place developers talk about your product (GitHub Issues, Reddit, Discord, Stack Overflow, Twitter/X). For a starter list of 80+ developer communities sorted by category and ROI, see the [Developer Community Directory](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 - [ ] Read every community question from the past 6 months. Categorize: What are the top 5 pain points?
 - [ ] Identify your 10-20 most active community members (GitHub contributors, forum power users)
 - [ ] Have 15 conversations with developers using the product — actual Zoom calls or DMs, not surveys

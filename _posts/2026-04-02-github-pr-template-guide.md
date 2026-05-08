@@ -303,6 +303,22 @@ For more open source growth strategies, see [github.com/Gingiris/gingiris-openso
         "@type": "Answer",
         "text": "Yes. PR templates significantly improve open source contribution quality by setting clear expectations for contributors. They reduce reviewer back-and-forth, ensure testing instructions are included, and help maintainers process PRs faster. Projects with PR templates report 40-60% fewer revision cycles on average. AFFiNE uses a PR template to maintain quality across 300+ contributors."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How long should a GitHub PR template be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aim for 10-20 lines of actual template content (excluding comments and section headers). Anything longer than ~25 lines and contributors start abandoning sections half-filled. The sweet spot for most teams: a one-line summary, 3-5 bullet points for what changed and why, a 4-6 item testing checklist, and an optional screenshots section for UI work. If you find yourself adding more, split into multiple templates (bug-fix.md, feature.md, hotfix.md) under .github/PULL_REQUEST_TEMPLATE/ instead of bloating one file."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I have multiple PR templates in one GitHub repository?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Create a .github/PULL_REQUEST_TEMPLATE/ directory (note the plural) with multiple .md files — for example bug-fix.md, feature.md, hotfix.md, breaking-change.md. Contributors then select a template by appending ?template=feature.md to the new-PR URL, or by clicking the dropdown in GitHub's UI. The single-file pattern (.github/pull_request_template.md) and the directory pattern can coexist — GitHub uses the single file as the default and the directory as alternates. Most large open source projects (Vercel, Supabase, AFFiNE) use the directory pattern to enforce different review checklists per change type."
+      }
     }
   ]
 }

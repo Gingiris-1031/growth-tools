@@ -86,6 +86,8 @@ High-value communities to find in 2026:
 
 The etiquette is the same: add value first, then ask. Most communities have a #show-and-tell or #feedback-request channel specifically for this.
 
+> 💡 **Related:** For a hand-curated list of 80+ developer-focused communities (Slack, Discord, Reddit, forum) sorted by founder ROI, see the [Developer Community Directory: Where to Find Your First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/).
+
 ---
 
 ## Channel 2: Indie Hackers
