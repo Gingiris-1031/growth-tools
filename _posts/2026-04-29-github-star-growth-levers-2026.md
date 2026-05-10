@@ -60,6 +60,8 @@ A README should not try to answer every question at once. It should move the rig
 
 For maintainers building repeatable repo assets, the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)** has practical guidance on README framing, community proof, and distribution.
 
+> 💡 **Related:** [GitHub README Best Practices: How to Write a README That Gets Stars](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block breakdown of high-converting README structure with the 30-second readability test.
+
 ## 3. Launch in Waves, Not in One Burst
 
 A single launch post creates a spike. A sequence creates GitHub star growth.

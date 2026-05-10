@@ -46,6 +46,8 @@ Most visitors decide whether to keep reading before they scroll.
 
 A sharp subtitle plus a screenshot or GIF usually converts better than a badge wall. If people cannot classify the repo quickly, stars drop before the product even gets a chance.
 
+> 💡 **Related:** [GitHub README Best Practices: How to Write a README That Gets Stars](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — the block-by-block structure for the first screen, with the 30-second readability test.
+
 ## 2. Use One Category Phrase Everywhere
 
 Repos grow faster when the same mental label appears across surfaces.

@@ -16,6 +16,10 @@ faq:
     a: "Partially. You can schedule posts. But automated commenting and engagement is against Reddit's ToS and gets detected. Real community participation cannot be automated — and it's the participation that makes the promotion work. A genuine account with history converts; a fresh account with a product link gets banned."
   - q: "How do you find the right subreddit for your product?"
     a: "Search Reddit for the problem your product solves, not the product itself. The communities where people discuss the problem are your communities. Also search for competitors — subreddits where competitors have been well-received are likely good fits for you too."
+  - q: "How long does Reddit marketing take to work?"
+    a: "Plan a 4-6 week ramp before any promotional post pays off. Week 1-2: build account karma to 80+ via low-risk subreddits like r/aww. Week 3-4: lurk in 3-5 target subreddits and leave 10+ helpful comments per subreddit. Week 5: post your first soft mention framed as a problem-solution story. Most accounts see meaningful traffic only after 6-8 weeks of consistent participation. Skipping the ramp is the #1 reason new accounts get shadowbanned within 24 hours."
+  - q: "How much does Reddit marketing cost compared to paid ads?"
+    a: "Organic Reddit marketing is free in dollars but expensive in time — expect 8-12 hours of community participation per launch-ready post. Reddit Ads start at $5/day with a $100 minimum monthly spend, CPMs run $0.75-$3.50 depending on subreddit. For B2B SaaS, organic posts in fit subreddits like r/selfhosted typically outperform paid ads 5-10x on cost per signup. Use Reddit Ads only to amplify already-successful organic posts, not as a cold-start channel."
 last_modified_at: 2026-04-26
 ---
 
@@ -275,6 +279,22 @@ Use Reddit Search, SubredditStats, or the Reddit List tool. Search for keywords 
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Search Reddit for the problem your product solves, not the product itself. The communities where people discuss the problem are your communities. Also search for competitors — subreddits where competitors have been well-received are likely good fits for you too."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does Reddit marketing take to work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plan a 4-6 week ramp before any promotional post pays off. Week 1-2: build account karma to 80+ via low-risk subreddits like r/aww or r/mildlyinteresting. Week 3-4: lurk in 3-5 target subreddits, leave 10+ helpful comments per subreddit, learn each community's accepted post format. Week 5: post your first soft mention, framed as a problem-solution story rather than a launch. Most accounts see meaningful traffic only after 6-8 weeks of consistent participation. Skipping the ramp is the #1 reason new accounts get shadowbanned within 24 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Reddit marketing cost compared to paid ads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Organic Reddit marketing is free in dollars but expensive in time — expect 8-12 hours of community participation per launch-ready post. Reddit Ads (paid) start at $5/day with a $100 minimum monthly spend, and CPMs run $0.75-$3.50 depending on subreddit. For B2B SaaS, organic posts in fit subreddits like r/selfhosted typically outperform paid ads 5-10x on cost per signup, because organic posts build credibility paid ads cannot buy. Use Reddit Ads only to amplify already-successful organic posts (the 'boost what works' pattern), not as a cold-start channel."
       }
     }
   ]

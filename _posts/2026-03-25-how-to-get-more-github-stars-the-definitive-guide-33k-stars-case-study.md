@@ -270,7 +270,7 @@ Your README is your landing page. It needs:
 - A quick-start guide in fewer than five steps
 - A visible star CTA ("⭐ If this helps you, a star would mean a lot")
 
-> 📖 **Related:** [GitHub PR Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/)
+> 📖 **Related:** [GitHub README Best Practices](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block walkthrough for the 30-second readability test · [GitHub PR Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/)
 
 ### 5. Ignoring issues
 
