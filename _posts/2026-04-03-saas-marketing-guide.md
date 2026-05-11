@@ -271,6 +271,22 @@ By stage — pre-revenue: near $0, founder does all marketing. $1k-$10k MRR: $50
 
 Product-led growth (PLG) is a go-to-market strategy where the product is the primary acquisition, activation, and expansion mechanism. Users try, experience value, and upgrade without a salesperson. Classic examples: Slack (team invites = natural virality), Notion (shareable pages = organic acquisition), Figma (collaborative design = natural expansion). PLG works when the product delivers value quickly and has sharing or collaboration built into its core loop. It reduces CAC dramatically but requires excellent onboarding and a product that "sells itself."
 
+### How long does it take to see results from SaaS marketing?
+
+Realistic timelines by channel: paid search shows results within 2-4 weeks (immediate but expensive); SEO content takes 4-9 months for organic traffic to compound (cheapest long-term); Product Hunt is a single-day spike with a 30-day tail; community participation builds reputation in 3-6 months but needs sustained presence. The mistake most founders make is killing channels at the 60-day mark when SEO and community are just warming up. Plan for a 6-month commitment minimum on any organic channel before judging ROI.
+
+### What's the difference between B2B and B2C SaaS marketing?
+
+B2B SaaS marketing targets buying committees (3-7 people on average for enterprise deals), longer sales cycles (30-180 days), and higher ACV ($500-$50k+). Channels: LinkedIn ads, conference sponsorships, account-based marketing, sales-assisted demos. B2C SaaS targets individual decision-makers, shorter cycles (same-day to 7 days), lower ACV ($5-$50/mo). Channels: app store optimization, influencer partnerships, paid social (TikTok, Instagram), referral loops. The biggest mistake: applying B2C tactics (viral growth) to B2B without account-based follow-up — leads come in, but no one closes them.
+
+### Should SaaS startups hire a marketing agency or do it in-house?
+
+Pre-PMF (0 to $10k MRR): always in-house, ideally founder-led. No agency understands your product better than you. Post-PMF ($10k-$100k MRR): hire your first marketer (generalist) before hiring an agency — they'll own brand voice and channel selection. Agencies make sense at $100k+ MRR for specialized execution: SEO link-building, paid acquisition, video production. The trap: hiring a $5k/mo agency at $5k MRR — they'll churn through deliverables but can't drive the strategic decisions you actually need.
+
+### How do you measure SaaS marketing ROI?
+
+The four metrics that matter: (1) **CAC** (Customer Acquisition Cost) by channel — if Google Ads CAC is $400 and content marketing CAC is $80, shift budget. (2) **LTV:CAC ratio** — sustainable SaaS holds 3:1 or better; below 1:1 means you're losing money on every customer. (3) **Payback period** — months to recoup CAC; healthy SaaS pays back in 12-18 months. (4) **Marketing-influenced pipeline** — what % of closed deals touched a marketing asset (blog, webinar, ad). Vanity metrics to ignore: impressions, page views, social followers. They don't pay the bills.
+
 ---
 
 ## Related Reading
@@ -288,5 +304,80 @@ Product-led growth (PLG) is a go-to-market strategy where the product is the pri
 
 **SaaS PLG vs SLG benchmarks updated for 2026**: median tier price for B2B social listening now $79/mo.
 
-*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+**2026-05 FAQ expansion**: added long-tail FAQ coverage on timeline, B2B-vs-B2C, agency-vs-in-house, and ROI measurement (Google FAQPage schema enabled below).
+
+*Last updated: 2026-05-11 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is SaaS marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SaaS marketing is acquiring, activating, and retaining customers for software-as-a-service products. Unlike traditional product marketing, SaaS marketing must account for subscription economics (churn, expansion, NRR), product-led acquisition channels (virality, collaboration invites), and the ongoing relationship between the product and marketing function."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best SaaS marketing channels?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Highest-ROI channels by stage: (1) Pre-PMF: direct outreach and community participation. (2) Early growth: SEO content, Product Hunt, developer community. (3) Scale: paid search on high-intent keywords, partnerships, sales-assisted expansion. The universal principle: establish organic channels before paid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should a SaaS startup spend on marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By stage: pre-revenue near $0 (founder-led); $1k-$10k MRR $500-$2k/month on tools and content; $10k-$100k MRR 20-30% of MRR; $100k+ MRR 40-60% of new MRR. Real benchmark is CAC:LTV ratio — sustainable SaaS marketing maintains LTV at 3x+ CAC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is product-led growth in SaaS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Product-led growth (PLG) is a go-to-market strategy where the product itself is the primary acquisition, activation, and expansion mechanism. Users try, experience value, and upgrade without a salesperson. Slack, Notion, and Figma are canonical examples — their core loops generate organic acquisition through usage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to see results from SaaS marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By channel: paid search shows results within 2-4 weeks; SEO content takes 4-9 months to compound; Product Hunt is a single-day spike with a 30-day tail; community participation builds reputation in 3-6 months. Most founders kill channels at 60 days when SEO and community are just warming up. Plan for 6-month minimum on organic channels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between B2B and B2C SaaS marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "B2B SaaS targets buying committees (3-7 people for enterprise), longer sales cycles (30-180 days), higher ACV ($500-$50k+) — channels are LinkedIn ads, ABM, sales-assisted demos. B2C targets individuals, same-day to 7-day cycles, lower ACV ($5-$50/mo) — channels are ASO, influencers, paid social, referral loops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should SaaS startups hire a marketing agency or do it in-house?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pre-PMF (0 to $10k MRR): always in-house, founder-led. Post-PMF ($10k-$100k MRR): hire your first marketer (generalist) before any agency. Agencies make sense at $100k+ MRR for specialized execution: SEO link-building, paid acquisition, video. Hiring a $5k/mo agency at $5k MRR is a classic trap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you measure SaaS marketing ROI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Four metrics that matter: (1) CAC by channel; (2) LTV:CAC ratio (3:1 or better is healthy); (3) Payback period (12-18 months for healthy SaaS); (4) Marketing-influenced pipeline percentage. Vanity metrics to ignore: impressions, page views, social followers — they don't pay the bills."
+      }
+    }
+  ]
+}
+</script>
 

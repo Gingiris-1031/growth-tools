@@ -213,6 +213,7 @@ GitHub star growth is usually a systems problem. Clear positioning, wave-based l
 
 ## Related Reading
 
+- [How I Led AFFiNE from 0 to 60k GitHub Stars — Open Source Growth Playbooks](/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) — the master case study these levers came from
 - [How to Track GitHub Stars History and Analyze Growth](/blog/2026/04/14/github-stars-growth-guide/)
 - [Product Hunt Launch: 10 Moves That Still Win in 2026](/blog/2026/04/24/product-hunt-launch-2026/)
 - [B2B SaaS Growth Strategy: PLG vs SLG in 2026](/blog/2026/04/11/b2b-saas-growth-strategy-plg-vs-slg-2026/)

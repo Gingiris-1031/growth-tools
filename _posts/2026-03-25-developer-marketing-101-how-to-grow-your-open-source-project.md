@@ -310,8 +310,13 @@ More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
 |----------|---------|
 | 📖 | [Developer Marketing Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
 | 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [I Led AFFiNE from 0 to 60k GitHub Stars — Open Source Growth Playbooks](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+
+---
+
+> 💡 **Related:** The case study these tactics came from — [How I Led AFFiNE from 0 to 60k GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) walks through the full open-source growth playbook end to end.
 
 ---
 

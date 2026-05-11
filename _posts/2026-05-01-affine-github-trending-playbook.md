@@ -152,6 +152,7 @@ If your repo has > 1,000 stars and 1-2 prior Trending appearances:
 
 ## Related Reading
 
+- **[I Led AFFiNE from 0 to 60k GitHub Stars — Open Source Growth Playbooks]({{ "/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/" | relative_url }})** — The master playbook this Trending strategy lives inside
 - **[AFFiNE GitHub Stars Timeline: Day-by-Day Growth from 0 to 60,000+]({{ "/blog/2026/04/29/affine-github-stars-timeline-day-by-day/" | relative_url }})** — The full milestone-by-milestone timeline
 - **[AFFiNE GitHub Stars: How We Grew to 33,000+]({{ "/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/" | relative_url }})** — The 10 tactics summary
 - **[Show HN Guide: How to Launch on Hacker News in 2026]({{ "/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/" | relative_url }})** — Trigger 1 deep dive
