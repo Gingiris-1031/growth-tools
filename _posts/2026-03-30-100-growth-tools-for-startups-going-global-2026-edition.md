@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-05-06 09:41:00 +0800
+date: 2026-05-11 13:19:00 +0800
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
@@ -147,6 +147,28 @@ A late-April PH/HN sweep before my morning coffee — five tools that actually l
 | [Kibo UI](https://www.kibo-ui.com/) | UI / Frontend | shadcn/ui extension registry with 41 production components (Gantt, Kanban, AI chat primitives, file dropzones) — MIT licensed, install via shadcn CLI |
 | [Edgee](https://www.edgee.ai/) | LLM Infra | AI gateway handling routing, retries, compression, and per-team spend visibility — slots between your app and OpenAI/Anthropic/Gemini without rewriting calls |
 
+## 🆕 This Week's Picks (May 11, 2026)
+
+Monday morning sweep over coffee in Kunshan — five tools that hit PH and HN in the past week and still load this morning (which, as anyone who's done these roundups knows, isn't a given). A clear theme: voice + agentic dev workflows + AI search visibility. Founders shipping global, take notes.
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Wispr Flow](https://wisprflow.ai/) | Productivity / Voice | Mac/Win/iOS/Android dictation app that took #1 Product of the Day on May 5 — speaks naturally, writes in your style, auto-edits, 100+ languages. Clay, Vercel and Amazon already use it internally |
+| [Kanwas](https://kanwas.ai/) | Team Knowledge | Open-source "shared brain" for product teams — strategy docs, market signals, and agent workflows in one workspace so AI executes with real context. Self-hostable, agent-native, semantic retrieval baked in |
+| [Kilo Code v7](https://kilo.ai/) | Developer Tools | Apache-2.0 AI coding agent for VS Code, JetBrains, and CLI — Agent Manager runs parallel sessions with git worktree isolation, 500+ models supported, ~13k stars. v7.2.49 dropped May 9 |
+| [Codex Auto-review](https://openai.com/codex/) | Developer Tools | OpenAI's new auto-approval subagent for Codex (May 3 release) — handles low-risk actions in the background so you stop babysitting routine PR reviews and refactors |
+| [HubSpot AEO](https://www.hubspot.com/products/aeo) | SEO / GEO | $50/mo AEO tool that tracks how your brand shows up in ChatGPT, Gemini, Perplexity — CRM-connected, so a citation gap becomes a content task without leaving the platform. Useful baseline if you're not yet on RankAI or ZipTie |
+
+**Key Stats:**
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Wispr Flow funding | $81M raised | Wispr Flow corp page |
+| Kilo Code stars | ~13,000 | github.com/Kilo-Org/kilocode |
+| HubSpot AI referral lift | +20% YoY for AEO beta users | HubSpot Spring Spotlight |
+| HubSpot customer organic decline | −27% YoY | HubSpot internal data |
+
+
 ## 📚 Full List + Resources
 
 Full tool database on GitHub (updated weekly):
@@ -168,7 +190,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: May 6, 2026.*
+*This list updates weekly. Last updated: May 11, 2026.*
 
 *Built by [Iris](https://twitter.com/WeiYipei) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
