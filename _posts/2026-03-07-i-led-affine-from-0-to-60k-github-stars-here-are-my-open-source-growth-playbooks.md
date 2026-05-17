@@ -31,6 +31,38 @@ I'm not writing this to brag. (Okay, maybe slightly.) I'm writing it because I c
 
 ---
 
+
+## The 5-Step Compressed Playbook (Read This First)
+
+Each line below is one move. Each move took us 4 to 12 weeks to compound.
+
+1. **Build a README that converts.** Hero image. Three demo GIFs. Quick-start in 200 words. Nothing else.
+2. **Pick one external trigger and master it.** We chose r/selfhosted first. Then Hacker News. Then Product Hunt. In that order.
+3. **Hit GitHub Trending on purpose.** Submit Monday 09:00 UTC. Engage every comment within six hours.
+4. **Translate, but only after Japan validates.** Skip Spanish, Portuguese, French until traffic data justifies it.
+5. **Stay alive past month 12.** Quarterly major releases. Cross-channel launches. Newsletter cadence.
+
+That's the entire playbook in 100 words. The next sections explain each move with our actual numbers.
+
+**Key milestones we measured along the way**:
+
+- Day 5: First Trending appearance. Plus 1,100 stars in 24 hours.
+- Day 12: Show HN front page. Plus 850 stars in 36 hours.
+- Day 21: First Product Hunt #1. Plus 600 stars in 24 hours.
+- Day 43: Crossed 10,000 stars.
+- Year 2: Crossed 33,000 stars.
+- Year 4: Crossed 60,000 stars and counting.
+
+**Things we tried that did not work** (so you skip them):
+
+- Reddit r/programming. Inconsistent: sometimes 200 stars, sometimes zero.
+- Twitter ads at $500 in 2024. Delivered roughly 50 stars. 0.4x ROI.
+- Generic "awesome" lists. Cumulative 10 stars across six months.
+- Simultaneous five-language launch at month six. Only Japanese and Korean converted.
+
+The rest of this article unpacks each step with our raw data tables.
+
+
 ## Key Stats
 
 | Metric | Data |
