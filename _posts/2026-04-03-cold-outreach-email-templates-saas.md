@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cold Email Templates for SaaS: 10 Copy-Paste Scripts That Get Replies (+ Software Guide)"
+title: "Cold Email Templates for SaaS: 10 Copy-Paste Scripts (2026)"
 description: "The best cold email templates for SaaS — beta invites, partnerships, investor outreach, and KOL cold DMs. Plus a review of cold email software tools with open rate benchmarks."
 date: 2026-04-03
 tags: [cold-outreach, email-templates, saas-growth, sales, user-acquisition]
