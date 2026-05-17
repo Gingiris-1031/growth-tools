@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Find Beta Users for Your SaaS in 2026: 12 Channels Ranked by Cost & Conversion"
+title: "How to Find Beta Users for SaaS (2026): 12 Channels Ranked"
 description: "The 12 channels indie founders use to find their first 100 beta users in 2026. Real conversion rates by channel, cost-per-beta, and 5 channels to skip."
 date: 2026-04-03
 tags: [beta-testing, saas-growth, user-acquisition, product-launch, startup]
