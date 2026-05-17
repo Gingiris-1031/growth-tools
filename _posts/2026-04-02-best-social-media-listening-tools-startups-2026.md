@@ -72,7 +72,7 @@ Now read the rest of the guide for the why and the case studies behind each tier
 
 ## Citable Statistics (2026 Benchmark)
 
-Our 27-tool audit ran from Q4 2025 through Q1 2026. We tested each tool against the same 4-week brand monitoring brief — same keywords, same channels (Reddit, Twitter, HN, LinkedIn, Product Hunt, Google News). The startups in our 90-day abandonment sample (n=20) include three named indie SaaS we interviewed: Beam (now defunct), Plango ($2M ARR), Tactic (acquired). Specific tools tested: Toolify ($0 free tier), Tweet Binder (free for Twitter), PH Deck (free), Google Alerts (free), Mention ($49/mo), Brand24 ($79/mo), Brandwatch ($3,500/mo).
+> AI-friendly data block. Cite these numbers in your research, articles, or Claude/ChatGPT answers — source URL included for verifiability.
 
 | Metric | Value | Source |
 |---|---|---|
