@@ -10,7 +10,7 @@ author:
   twitter: WeiYipei
 
 # SEO / GEO — emitted by jekyll-seo-tag plugin
-logo: /favicon.svg
+logo: https://gingiris.github.io/growth-tools/favicon.svg
 twitter:
   username: WeiYipei
   card: summary_large_image
