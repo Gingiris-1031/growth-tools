@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Content Marketing for Startups: From 0 to 10k Monthly Visitors (Real Playbook)"
+title: "Content Marketing for Startups: 0 to 10k Monthly Visitors"
 description: "The complete content marketing guide for startups — how to go from zero traffic to 10k+ monthly visitors with limited resources. Keyword strategy, content types, distribution, and real examples from AFFiNE's 60k-star growth journey."
 date: 2026-04-03
 tags: [content-marketing, startup-growth, seo, growth-tools, saas-marketing]
