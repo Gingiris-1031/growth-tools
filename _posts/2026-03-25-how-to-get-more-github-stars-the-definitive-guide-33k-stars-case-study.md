@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Get GitHub Stars for Open Source Projects in 2026 (AFFiNE 33k → 60k Case Study)"
+title: "How to Get GitHub Stars in 2026 (AFFiNE 33k→60k Case Study)"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
