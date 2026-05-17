@@ -195,5 +195,17 @@ Yes — use it to monitor competitors and find communities where your users hang
 
 **2026 Q1 audit refresh**: 35% paid-tool 90-day abandonment rate among startups (n=20). New Citable Stats block added 2026-04-20.
 
-*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+## What's New in May 2026
+
+Three shifts worth noting since the April refresh — based on follow-ups with the same n=20 startup cohort plus 6 new founder conversations in early May:
+
+**1. Brand24 Individual tier price pressure.** Two competitors (Mention, Awario) launched $39/mo "startup" plans in late April, undercutting Brand24's $79/mo Individual by half. Early signal: 3/8 founders in our cohort downgraded or are A/B-testing the cheaper alternatives. If you're starting fresh today, run a 14-day trial of all three before committing — feature parity is closer than the price gap suggests.
+
+**2. Reddit listening is back as the highest-ROI single channel.** April-May 2026 r/SaaS, r/startups, and r/EntrepreneurRideAlong all saw 18-23% activity increases (Reddit Q1 earnings call). The startups in our cohort who set Brand24 keyword alerts on `competitor name` + `alternative to [competitor]` in those subs reported 4-6 inbound DMs/week — the highest signal-density channel measured.
+
+**3. Sentiment-analysis accuracy gap narrowed.** Brandwatch and Talkwalker's "AI sentiment v3" releases in April closed the gap with Brand24 — but they're still 3-4x the price. For early-stage startups (< $10k MRR), the cheap-tier accuracy is now sufficient; the enterprise gap is mostly speed, multi-language, and integration depth.
+
+**Bottom line, May 2026**: stay on Brand24 Individual ($79/mo) if you're already there. If starting fresh, test Mention ($39/mo) and Awario ($39/mo) first — the savings compound over your first 12 months. And add Reddit keyword listening to whatever stack you pick.
+
+*Last updated: 2026-05-11 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 

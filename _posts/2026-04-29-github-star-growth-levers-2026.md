@@ -217,4 +217,5 @@ GitHub star growth is usually a systems problem. Clear positioning, wave-based l
 - [How to Track GitHub Stars History and Analyze Growth](/blog/2026/04/14/github-stars-growth-guide/)
 - [Product Hunt Launch: 10 Moves That Still Win in 2026](/blog/2026/04/24/product-hunt-launch-2026/)
 - [B2B SaaS Growth Strategy: PLG vs SLG in 2026](/blog/2026/04/11/b2b-saas-growth-strategy-plg-vs-slg-2026/)
+- [Best Social Media Listening Tools for Startups (2026)](/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — catch repo mentions in real time so you can reply to early adopters
 - [Growth Tools Home](/)

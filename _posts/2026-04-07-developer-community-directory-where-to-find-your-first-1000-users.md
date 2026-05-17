@@ -209,6 +209,7 @@ Available datasets (updated periodically):
 | 📖 | [Product Hunt Launch Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [How to Get More GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [100+ Growth Tools for Startups Going Global](https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/) |
+| 📖 | [Best Social Media Listening Tools for Startups (2026)](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — find community conversations to join |
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
