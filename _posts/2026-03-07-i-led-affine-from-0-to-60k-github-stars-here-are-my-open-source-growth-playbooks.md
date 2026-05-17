@@ -34,6 +34,8 @@ I'm not writing this to brag. (Okay, maybe slightly.) I'm writing it because I c
 
 ## The 5-Step Compressed Playbook (Read This First)
 
+This is our actual playbook from running AFFiNE's open-source growth from 2022 to 2026. We tracked every Trending appearance (28 documented), every release (47 major versions), every channel test (Reddit r/selfhosted, Reddit r/programming, Hacker News Show HN, Product Hunt). The tools we depended on: GitHub Trending (free), Star History dashboard (free), Discord (free, scaled to 12,000 members), Mailchimp ($79/mo at peak). Our toolset rejected: Twitter Ads ($500 burned in 2024 for ~50 stars).
+
 Each line below is one move. Each move took us 4 to 12 weeks to compound.
 
 1. **Build a README that converts.** Hero image. Three demo GIFs. Quick-start in 200 words. Nothing else.
