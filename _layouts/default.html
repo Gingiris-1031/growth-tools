@@ -45,14 +45,21 @@
       "description": "{{ page.description | default: site.description }}",
       "author": {
         "@type": "Person",
-        "name": "Iris",
-        "url": "https://twitter.com/WeiYipei"
+        "name": "Iris Wei",
+        "url": "https://gingiris.com",
+        "sameAs": ["https://x.com/WeiYipei", "https://github.com/Gingiris"],
+        "jobTitle": "Ex-AFFiNE COO, Open Source Marketing Consultant"
       },
       "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
       "publisher": {
         "@type": "Organization",
-        "name": "Gingiris",
-        "url": "https://gingiris.com"
+        "name": "Gingiris Growth Tools",
+        "url": "https://gingiris.github.io/growth-tools/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://gingiris.github.io/growth-tools/favicon.svg"
+        }
       },
       {% if page.image %}"image": "{{ page.image }}",{% endif %}
       "url": "{{ page.canonical_url | default: page.url | absolute_url }}",
@@ -76,7 +83,14 @@
         "jobTitle": "Ex-AFFiNE COO, Open Source Marketing Consultant",
         "knowsAbout": ["SEO", "GEO", "Open Source Marketing", "Product Hunt", "GitHub Stars Growth"]
       },
-      "sameAs": ["https://x.com/WeiYipei", "https://github.com/Gingiris"]
+      "sameAs": ["https://x.com/WeiYipei", "https://github.com/Gingiris"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "consulting inquiries",
+        "email": "iris.wei@gingiris.com",
+        "url": "https://gingiris.com",
+        "availableLanguage": ["en", "zh-CN", "ja", "ko"]
+      }
     }
     </script>
 
