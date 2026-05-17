@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Show HN Guide: How to Launch on Hacker News in 2026 (Frontpage Tactics + Best Time to Post)"
+title: "Show HN Guide 2026: Frontpage Tactics + Best Time to Post"
 date: 2026-04-07
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
