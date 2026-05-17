@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitHub README Template (2026): The Complete Best-Practices Guide with 12 Real Examples"
+title: "GitHub README Template (2026): Best Practices + 12 Examples"
 date: 2026-04-02
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
@@ -250,7 +250,7 @@ Many 10k+ star repos follow this structure:
 Copy and customize this:
 
 ```markdown
-# GitHub README Template (2026): The Complete Best-Practices Guide with 12 Real Examples
+# GitHub README Template (2026): Best Practices + 12 Examples
 
 > One-line description with primary SEO keywords — what it is, who it's for, why it's different.
 
