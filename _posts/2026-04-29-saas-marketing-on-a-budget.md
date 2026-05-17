@@ -193,3 +193,79 @@ Bookmark that. Re-read it when you feel the temptation to run Google Ads on a pr
 If you're building a SaaS right now and want a competitor teardown to inform your positioning, [Analook](https://www.analook.com/) does that in 60 seconds — Wayback Machine history, traffic estimates, social footprint, pricing pages. Free for the first 3 reports. Built (transparently) by me to scratch the exact itch this post addresses: how to do high-leverage marketing research without paying $200/month for SimilarWeb.
 
 *Written by [Iris Wei](https://gingiris.com) — ex-AFFiNE COO (60K GitHub stars), 30x Product Hunt #1, currently bootstrapping [Analook](https://www.analook.com/). Written from a Helsinki café, April 2026.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "SaaS Marketing on a Budget: 7 Tactics That Actually Worked Across AFFiNE, Analook, and 30+ Launches",
+  "description": "I've built two SaaS products with $0 ad spend — one to 60K GitHub stars, one to 39 users in 4 weeks. Here are the 7 marketing tactics that actually moved the needle.",
+  "image": "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launch.jpg",
+  "datePublished": "2026-04-29",
+  "dateModified": "2026-04-29",
+  "author": {
+    "@type": "Person",
+    "name": "Iris Wei",
+    "url": "https://gingiris.com",
+    "description": "Ex-AFFiNE COO (60,000+ GitHub stars), 30x Product Hunt #1 winner, building Analook"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gingiris",
+    "url": "https://gingiris.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://gingiris.github.io/growth-tools/blog/2026/04/29/saas-marketing-on-a-budget/"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can you really do SaaS marketing on a $0 budget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — for at least the first 100 paying customers. AFFiNE reached 60,000 GitHub stars and Analook reached 39 users in 4 weeks, both with effectively $0 ad spend. The 7 tactics that work at $0 are: founder-led content, community presence, founder-written SEO content, Product Hunt launches, surgical cold outreach, open source as marketing, and public failure storytelling. The constraint forces you to learn what actually moves the needle — which is information you'll need when you eventually have a marketing budget anyway."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the highest-ROI SaaS marketing tactic for a bootstrapper?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Founder-led content on the platform where your customers spend time — Twitter/X for indie SaaS, LinkedIn for B2B enterprise, dev.to for developer tools. The minimum effective dose is 1 long-form post per week plus 3 build-in-public updates and ~20 community replies. In our case (Analook), 27 of the first 39 users came from Twitter content written months before the product launched."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should a pre-PMF SaaS spend on marketing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effectively $0. Until you have 10 paying customers, your marketing budget is your time, not your money. Pre-PMF paid ads convert poorly because you don't yet know your message-market fit. Spend the runway preserving optionality (talking to users, writing content, building community) rather than buying impressions you can't yet convert."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Product Hunt still work for SaaS marketing in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but only with 6 weeks of pre-launch community building. The launch day itself doesn't create traction — it harvests the relational capital you've built in the weeks prior. Across 30+ Product Hunt #1 launches I've helped, the universal pattern is a 100+ member private Slack/Discord built 4-6 weeks before launch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I open-source my SaaS as a marketing tactic?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only if your buyers are developers, ML researchers, or other founders. Open source as marketing works because the GitHub repo itself becomes a marketing surface — every issue, every release, every README is a touchpoint. AFFiNE went 0 → 60,000 stars in 18 months with this model. But for a workflow automation tool for non-technical buyers, open source provides no marketing leverage."
+      }
+    }
+  ]
+}
+</script>
