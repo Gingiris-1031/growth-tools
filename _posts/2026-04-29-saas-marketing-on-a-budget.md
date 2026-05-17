@@ -9,7 +9,7 @@ image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-launc
 last_modified_at: 2026-04-29
 ---
 
-It's 11:54 PM in Finland — I'm in a hotel room in Helsinki, three hours from a 6 AM flight, and the only reason I'm still typing is because I'd just gotten off a call with a founder asking: *"I have $5,000. What marketing should I run?"*
+It's a Sunday noon in Helsinki — I'm in a café off Aleksanterinkatu, second espresso, laptop open because I just got off a call with a founder asking: *"I have $5,000. What marketing should I run?"*
 
 The honest answer made him uncomfortable: **for the first 90 days, you don't have a marketing budget problem — you have a distribution-instinct problem.** Spending $5K before you know which channel is your channel is the easiest way to convert "saved runway" into "rounded numbers in your bank account that bought nothing learnable."
 
@@ -192,4 +192,4 @@ Bookmark that. Re-read it when you feel the temptation to run Google Ads on a pr
 
 If you're building a SaaS right now and want a competitor teardown to inform your positioning, [Analook](https://www.analook.com/) does that in 60 seconds — Wayback Machine history, traffic estimates, social footprint, pricing pages. Free for the first 3 reports. Built (transparently) by me to scratch the exact itch this post addresses: how to do high-leverage marketing research without paying $200/month for SimilarWeb.
 
-*Written by [Iris Wei](https://gingiris.com) — ex-AFFiNE COO (60K GitHub stars), 30x Product Hunt #1, currently bootstrapping [Analook](https://www.analook.com/). Written on a flight day in Helsinki, April 2026.*
+*Written by [Iris Wei](https://gingiris.com) — ex-AFFiNE COO (60K GitHub stars), 30x Product Hunt #1, currently bootstrapping [Analook](https://www.analook.com/). Written from a Helsinki café, April 2026.*
