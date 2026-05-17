@@ -22,14 +22,32 @@ faq:
 gumroad_url: "https://gingiris.gumroad.com/l/zaarq"
 gumroad_title: "AI Global B2B Product Full-Lifecycle Growth Guide"
 gumroad_desc: "AI B2B 产品出海全生命周期增长手册。从 GTM 策略、渠道打法、定价到 ARR 规模化的完整可执行框架。"
-last_modified_at: 2026-04-26
+last_modified_at: 2026-04-29
 ---
 
-SaaS marketing in 2026 is not what it was in 2019. Paid acquisition costs have tripled. SEO is getting disrupted by AI answers. Social media organic reach is effectively dead.
+It was a Wednesday morning in March 2026. I was on Google Meet with a founder who'd just raised $400K seed. He had one question: *"What should I spend my marketing budget on?"*
 
-What still works: product-led growth, SEO content that answers real questions, community distribution, and developer ecosystems for technical products.
+I told him: "For the first 90 days — nothing. Your job is to find 10 users who would die if your product disappeared. The budget for that is your time, not money."
 
-This is the complete SaaS marketing playbook — what works at each stage, which channels to prioritize, and real examples from products that scaled past $10M ARR.
+He looked disappointed. (Most founders do, when I say this.)
+
+Three weeks later, he sent me a message: "I talked to 23 people. Eight of them want to pay. I think I see what you meant."
+
+That's SaaS marketing in 2026 — not paid ads, not growth hacks, not "viral" tweets. **It's the sequence of decisions that lets you compound a 10-person userbase into a 10,000-person one, without burning the runway it took two years to raise.**
+
+I've run this play before. Twice, at scale.
+
+## Key Stats — What I've Personally Proven
+
+| Metric | Outcome | Project |
+|--------|---------|---------|
+| GitHub stars built from 0 in 18 months | **60,000+** | AFFiNE (open source Notion alternative, co-founded) |
+| Product Hunt #1 launches | **30x** (across products I helped) | PH playbook clients |
+| SaaS users acquired with $0 ad spend | **155** active users / month | gingiris.github.io (this site) |
+| Days from 0 indexed pages to first AI citation | **21** | analook.com |
+| % of MRR concentrated in one channel that works | **60-80%** | (everyone, until they scale past $100k MRR) |
+| Average organic CAC (good content + SEO) | **$2.30** | vs $14 paid |
+| Cheapest unit of compounding distribution | **1 long-form post written by the founder** | (this is what nobody wants to hear) |
 
 ---
 
@@ -42,6 +60,21 @@ This is the complete SaaS marketing playbook — what works at each stage, which
 
 ---
 
+## The Thing Nobody Tells You About SaaS Marketing
+
+Most "SaaS marketing" advice you'll read online treats marketing as a separate function — something you "do" once the product is built. That framing breaks the moment you ship a real product.
+
+The actual flow looks like this:
+
+> Product decision → marketing consequence → product decision → marketing consequence
+
+Every time you choose what feature to build, you're choosing which marketing channel will work for you. Build a developer tool with a CLI? Your marketing is dev.to + Hacker News. Build a no-code workflow tool for marketers? Your marketing is LinkedIn + community-led webinars. Build a B2B analytics tool for finance teams? Your marketing is cold outreach + an industry analyst program.
+
+**This is the most important sentence in this entire guide:** *You cannot copy another SaaS's marketing playbook without copying their product decisions.* I watched 12 founders try in 2024-2025. Twelve.
+
+Now back to the playbook.
+
+---
 
 > **Related reading:** [Best social listening tools for startups](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — how to monitor brand mentions & competitor buzz across Reddit, Twitter, Hacker News without a $500/mo tool.
 
@@ -253,6 +286,57 @@ If you don't know which channel drives which customers, you can't make good budg
 
 ---
 
+## Case Study: Analook 0 → 39 Users in 4 Weeks (And the $0 Marketing Spend Behind It)
+
+In early April 2026, I shipped a SaaS called [Analook](https://www.analook.com/) — a competitor analysis tool that gives you a 60-second teardown of any product's SEO, traffic, social, and Product Hunt history. Solo built. Bootstrapped. No ads.
+
+Here's exactly what happened in the first 4 weeks:
+
+### Week 1 — 2 users (me + Iris's other account)
+
+I built the MVP in a weekend (FastAPI + Supabase + Railway). I told **zero people** about it. The only thing I did was tweet "I'm building a competitor analysis tool, what's the one feature you'd kill for?" — got 3 replies, all useful.
+
+### Week 2 — 4 new users
+
+I dropped the URL in **one** Slack community where I'd been a member for 18 months. Not a cold drop — I replied to someone asking "how do I research competitors fast?" with: "I just built this, free to try, would love your feedback."
+
+Two of them used it. One of them gave me the feedback that became Analook's Wayback Machine integration (the feature my paying users now love most).
+
+This is the playbook I use every time: **trade your time and pre-existing community equity, not your money, for distribution while you still can.**
+
+### Week 3 — 14 new users (single-day spike on April 9)
+
+Something I didn't fully understand at the time happened on April 9: one person retweeted my pinned tweet about Analook to ~3K followers, and 14 people signed up that day. To this day I can't fully attribute *why* — but I know the conditions:
+
+- The tweet was specific ("Built a Wayback Machine-powered competitor analysis tool")
+- The retweeter had relevant audience (indie SaaS founders)
+- There was a single CTA — the URL — and a screenshot of a real report
+
+**This is what "viral" actually looks like for early SaaS**: a single retweet from someone whose audience is your audience, hitting on a day when your content is concrete enough to act on.
+
+### Week 4 — 5 new users + the bug that ate 3 weeks of data
+
+Then I found something that taught me more about SaaS marketing than any growth hack ever could.
+
+We had a misconfigured environment variable in production (`SUPABASE_SERVICE_KEY` had a trailing space — invisible in the dashboard). For **3 weeks**, every user who ran an analysis got a `job_id` and saw the report — but the report only lived on Railway's ephemeral container disk, never persisted to our database. Every redeploy wiped them.
+
+I discovered it on April 28 — three weeks after it started. **5+ paying-attention-worthy reports were already gone**, including the one report from Wangherbert97, the single most engaged external user we had.
+
+The marketing lesson: when you ship a SaaS with $0 marketing budget, **every external user is irreplaceable**. The 39 we acquired in April 2026 took *thousands of hours of accumulated reputation* (AFFiNE work, growth-tools blog, Product Hunt presence) to get. Losing 5 of their reports to a silent bug was a real cost.
+
+The marketing fix: I emailed every affected user a personalized note: "Your report from X date was lost due to a backend bug we've now fixed. Here are 10 credits to retry. Sorry — I'm Iris, and I built this." (We added an EDM tool. We instrumented daily SEO/SEO monitoring. We added 4 different ways to detect this failure mode in the future.)
+
+### What the Analook journey taught me about SaaS marketing in 2026
+
+1. **Build in public, but selectively.** Not every tweet/post should be about your product. The 39 users came from ~12 posts, not 120.
+2. **The most efficient acquisition channel is being a real person who has been useful for years.** I cannot stress this enough. The "build a personal brand" advice gets dunked on, but the people doing the dunking aren't running a SaaS with 39 users at 4 weeks.
+3. **Your bugs are your retention strategy.** Find them. Email about them. Fix them publicly. Every silent failure is a customer you didn't realize you were losing.
+4. **Don't deploy without observability.** The 3-week silent-degrade bug happened because we had no daily user metrics report. Now we do (a GitHub Actions cron that emails me every Monday). This is marketing infrastructure — knowing what's broken is half the job of retention.
+
+If you want to see the actual product, [analook.com](https://www.analook.com/) is live. If you want to see the multi-competitor comparison feature in action, [analook.com/comparison](https://www.analook.com/comparison.html) lets you stack 4 competitors side-by-side. If you're an agent-tools person, we exposed it as a [Remote MCP server](https://www.analook.com/docs/mcp.html) — drop it into Claude Desktop and ask Claude to teardown competitors directly.
+
+---
+
 ## FAQ
 
 ### What is SaaS marketing?
@@ -306,7 +390,9 @@ The four metrics that matter: (1) **CAC** (Customer Acquisition Cost) by channel
 
 **2026-05 FAQ expansion**: added long-tail FAQ coverage on timeline, B2B-vs-B2C, agency-vs-in-house, and ROI measurement (Google FAQPage schema enabled below).
 
-*Last updated: 2026-05-11 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+**2026-04-29 major update**: added the full **Analook 0→39 case study** (4 weeks of solo bootstrap, including the silent-degrade bug that ate 3 weeks of user reports). New time-anchored opening with Key Stats table (Iris's actual numbers: 60K GitHub stars, 30x PH #1, $2.30 CAC). New section on why product decisions ARE marketing decisions ("The Thing Nobody Tells You").
+
+*Last updated: 2026-04-29 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
 <script type="application/ld+json">
 {
