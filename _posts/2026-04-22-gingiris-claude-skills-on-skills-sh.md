@@ -1,19 +1,19 @@
 ---
-title: "I Shipped 4 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup"
+title: "I Shipped 6 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup"
 date: 2026-04-22
-description: "Four production-grade Claude Skills for Product Hunt launch, open source marketing, B2B SaaS growth, and ASO are now live on skills.sh. Install via npx with a single command."
-tags: [claude-skills, claude-code, product-hunt, open-source-marketing, b2b-saas, aso, developer-marketing]
+description: "Six production-grade Claude Skills for Product Hunt launch, open source marketing, B2B SaaS growth, ASO, SEO/GEO, and a meta-router. Install via npx with a single command."
+tags: [claude-skills, claude-code, product-hunt, open-source-marketing, b2b-saas, aso, seo, geo, developer-marketing]
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/
-seo_title: "4 Gingiris Claude Skills on skills.sh — One-Line npx Install (2026)"
-seo_description: "Four battle-tested growth playbooks — Product Hunt launch, open source marketing, B2B SaaS PLG, and ASO — now installable as Claude Skills. Copy the npx command and go."
-keywords: [claude skills, skills.sh, npx skills add, product hunt launch skill, open source marketing skill, b2b saas growth skill, aso skill, claude code skills, agent skills]
+seo_title: "6 Gingiris Claude Skills on skills.sh — One-Line npx Install (2026)"
+seo_description: "Six battle-tested growth playbooks — Product Hunt launch, open source marketing, B2B SaaS PLG, ASO, SEO/GEO dual-engine, and a meta-router — now installable as Claude Skills. Copy the npx command and go."
+keywords: [claude skills, skills.sh, npx skills add, product hunt launch skill, open source marketing skill, b2b saas growth skill, aso skill, seo geo skill, claude code skills, agent skills, growth finder, meta skill]
 ---
 
-# I Shipped 4 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup
+# I Shipped 6 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup
 
 Tuesday morning in Kunshan — I opened skills.sh, searched "seo-audit," and stared at the leaderboard for three minutes. Thirty-plus skills, most of them thin wrappers around "write me a blog post." Nothing about **actually launching a product to the world**. No Product Hunt SOP. No GitHub-star growth playbook. No ASO checklist that understood how Chinese indie apps break through in non-Chinese markets.
 
-So I spent the afternoon shipping four.
+So I spent the afternoon shipping four — then the meta-router, then the SEO/GEO dual-engine playbook. Six total.
 
 They live on [skills.sh](https://skills.sh) now — Vercel's public directory for Claude Skills, the same surface that top skills pull 500K+ installs from. Each of mine is a single `npx` command away. No account, no setup, no config.
 
@@ -33,8 +33,10 @@ The same content, but executable.
 | **gingiris-opensource** | GitHub star growth, HackerNews launch, OSS go-to-market | AFFiNE 60k stars in 24 months | `npx skills add Gingiris/gingiris-opensource` |
 | **gingiris-b2b-growth** | PLG/SLG, PMF validation, freemium conversion, enterprise motion | HeyGen, Deel, Vercel, Supabase, AWS | `npx skills add Gingiris/gingiris-b2b-growth` |
 | **gingiris-aso-growth** | ASO keyword ranking, app cold start, TikTok/Reels/Shorts UGC matrix | Chinese indie app breakthroughs | `npx skills add Gingiris/gingiris-aso-growth` |
+| **gingiris-seo-geo** | Dual-engine SEO + Generative Engine Optimization, E-E-A-T, JSON-LD, schema | AFFiNE organic growth, 150+ AI startup consults | `npx skills add Gingiris/gingiris-seo-geo` |
+| **gingiris-growth-finder** | Meta-router that diagnoses your situation and invokes the right specialist | — (auto-routes to the five above) | `npx skills add Gingiris/gingiris-growth-finder` |
 
-All four support Claude Code, Cursor, Codex, Amp, Cline — the standard Agent Skills runtime set. Each `SKILL.md` is quadrilingual (EN/ZH/JA/KO) so they trigger correctly regardless of which language you're prompting in.
+All six support Claude Code, Cursor, Codex, Amp, Cline — the standard Agent Skills runtime set. Each `SKILL.md` is quadrilingual (EN/ZH/JA/KO) so they trigger correctly regardless of which language you're prompting in.
 
 ---
 
@@ -98,21 +100,51 @@ The underdog of the four — ASO skills barely exist on skills.sh, and the ones 
 
 ---
 
-## How to install all four at once
+## 5. gingiris-seo-geo — The Dual-Engine SEO/GEO Skill
 
 ```bash
+npx skills add Gingiris/gingiris-seo-geo
+```
+
+The strategic differentiator. Every other SEO skill on skills.sh teaches 2023-era keyword density and backlink tactics. Mine treats SEO and GEO (Generative Engine Optimization — getting cited by ChatGPT, Perplexity, Claude, Gemini) as **one problem with two surfaces**. Because structured data (JSON-LD), E-E-A-T signal, and comparison-page architecture serve both at once.
+
+What's inside: copy-paste JSON-LD templates for SoftwareApplication/Article/FAQ/HowTo schemas, the E-E-A-T writing voice system (time-anchored openings, parenthetical asides, em-dash transitions — yes, the voice you're reading right now), keyword funnel strategy for programmatic SEO without thin-content penalties, IndexNow setup for instant Bing/Yandex push, and the comparison-page SOP that gets cited in AI overviews.
+
+**Try it with**: "My SaaS landing page ranks #14 on Google for 'AI competitor analysis.' How do I also get cited by Perplexity when users ask the same question?"
+
+[View skill →](https://skills.sh/Gingiris/gingiris-seo-geo) · [Source →](https://github.com/Gingiris/gingiris-seo-geo)
+
+---
+
+## 6. gingiris-growth-finder — The Meta-Router
+
+```bash
+npx skills add Gingiris/gingiris-growth-finder
+```
+
+The meta-skill that picks the right playbook for your situation. Modeled after Vercel's `find-skills` (500K+ installs, the highest on the directory) — agents auto-invoke it because routing is always step zero.
+
+Growth questions sound similar but require wildly different playbooks. "How do I launch?" for a dev tool is nothing like "How do I launch?" for a mobile app. "How do I grow?" at $1M ARR is nothing like "How do I grow?" at 100 DAU. This skill diagnoses your situation across three dimensions — product type, growth stage, and primary channel gap — then invokes the matching specialist from the five above.
+
+**Try it with** anything vague: "I want to grow my startup," "How do I launch X," "What's wrong with my acquisition funnel" — it asks the right diagnostic questions first.
+
+[View skill →](https://skills.sh/Gingiris/gingiris-growth-finder) · [Source →](https://github.com/Gingiris/gingiris-growth-finder)
+
+---
+
+## How to install all six at once
+
+```bash
+npx skills add Gingiris/gingiris-growth-finder -g    # install the router first
 npx skills add Gingiris/gingiris-launch -g
 npx skills add Gingiris/gingiris-opensource -g
 npx skills add Gingiris/gingiris-b2b-growth -g
 npx skills add Gingiris/gingiris-aso-growth -g
+npx skills add Gingiris/gingiris-seo-geo -g
 ```
 
 The `-g` flag installs globally so every Claude Code session picks them up. First install takes ~5 seconds per skill; after that they live in `~/.agents/skills/` and trigger automatically when you prompt about the matching domain.
 
-## What's next
-
-I'm working on a fifth skill — `gingiris-growth-finder` — a meta-skill that routes growth questions to the right playbook automatically (modeled after Vercel's `find-skills`, which has 500K+ installs because agents auto-invoke it). Expect it within the week.
-
 If you install any of these and hit a rough edge, open an issue on the corresponding GitHub repo — I read every one. The playbooks are opinionated; I'd rather hear "you're wrong about HN timing" than silence.
 
-**Your move** — pick the one that matches your current launch and copy the `npx` line.
+**Your move** — pick the one that matches your current launch and copy the `npx` line. Or just install `gingiris-growth-finder` and let it route.
