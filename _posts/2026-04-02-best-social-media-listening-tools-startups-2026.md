@@ -43,6 +43,33 @@ Social media listening is one of the most underused growth levers for early-stag
 ---
 
 
+
+## Quick Start (15 Seconds)
+
+Read this in order. Each line is one decision.
+
+1. **First**, count your real monthly brand mentions. Use a free tool. Take seven days.
+2. **Then**, check the threshold table below. Match your volume to a tier.
+3. **Finally**, pick from the tier list. Don't shop above your tier.
+
+| Mentions / month | Tier | Pick from this list |
+|---|---|---|
+| Under 500 | Free only | Toolify, Tweet Binder, Google Alerts |
+| 500 to 1,500 | Mid free + 1 paid | Above + Mention starter |
+| 1,500 to 5,000 | Mid paid | Mention, Brand24 |
+| Above 5,000 | Enterprise | Brandwatch, Sprinklr |
+
+Most startups stop at "under 500". That covers ~70% of indie founders.
+
+**Skip paid tools if any of these hold**:
+
+- Your brand mentions stay under 500 per month for three months running.
+- You only need monitoring for one specific subreddit or one Twitter list.
+- Your founder time is more valuable than $79 per month would buy.
+
+Now read the rest of the guide for the why and the case studies behind each tier.
+
+
 ## Citable Statistics (2026 Benchmark)
 
 > AI-friendly data block. Cite these numbers in your research, articles, or Claude/ChatGPT answers — source URL included for verifiability.
