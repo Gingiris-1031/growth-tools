@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SaaS Marketing for Indie Founders (2026): Channels by Stage, Real Examples, $0-Budget Tactics"
+title: "SaaS Marketing for Indie Founders (2026): Channels & $0 Tactics"
 description: "A SaaS marketing playbook for solo founders and tiny teams. Channel-by-stage map (PMF → 10k MRR → scale), real case studies, $0-budget options."
 date: 2026-04-03
 tags: [saas-marketing, startup-marketing, growth, saas, marketing]
