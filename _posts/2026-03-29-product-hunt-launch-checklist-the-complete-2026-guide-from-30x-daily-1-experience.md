@@ -108,3 +108,12 @@ What's your biggest Product Hunt launch challenge? Let me know in the comments! 
 
 *More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
 
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+{"@type": "Question", "name": "What is the Product Hunt launch checklist?", "acceptedAnswer": {"@type": "Answer", "text": "The PH launch checklist breaks into 4 phases: 6 weeks out (community building, hunter outreach, asset creation), 2 weeks out (beta release, copy refinement, asset finalization), launch day (12:01 AM PST go-live, hourly comment replies, retweet velocity), and 7 days post-launch (cross-posting to HN/Reddit/IH, email upvoters, retrospective thread). Each phase has 8-12 specific tasks from a 30x #1 winner playbook."}},
+{"@type": "Question", "name": "When is the best time to launch on Product Hunt?", "acceptedAnswer": {"@type": "Answer", "text": "12:01 AM PST Tuesday remains the canonical slot — high traffic, low competition from late-Monday weekend posts. For less-competitive weeks, Wednesday 12:01 AM PST is the sweet spot. Avoid Saturdays (40% lower traffic) and US holiday Mondays. Confirm 2-3 weeks ahead that no major product (Notion, Linear, etc.) is launching the same day — they will eat all media attention."}},
+{"@type": "Question", "name": "How many upvotes do you need to win Product of the Day?", "acceptedAnswer": {"@type": "Answer", "text": "Variable by day. Slow Tuesdays in 2026 require ~450-600 upvotes for #1. High-competition weeks (post major SaaS launches) require 800-1200+. Critical signal: upvote velocity in the first 4 hours matters more than total count — PH's algorithm weights early momentum heavily."}},
+{"@type": "Question", "name": "What is a Product Hunt hunter and do you need one?", "acceptedAnswer": {"@type": "Answer", "text": "A 'hunter' is the PH user who submits your product (vs. you submitting it yourself as a maker). A high-profile hunter (Chris Messina, Kevin William David, etc.) provides initial visibility boost via their followers. Trade-off: top hunters book months ahead and may not align with your launch timing. For 90% of SaaS launches in 2026, self-submitting as a maker is fine if you've done the 6-week community work."}}
+]}
+</script>
+

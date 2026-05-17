@@ -161,3 +161,37 @@ Only after you have a validated channel. Pay for tools that automate what's alre
 
 *Written by [Iris](https://gingiris.com/en) — ex-AFFiNE COO, 30x Product Hunt #1, 60k+ GitHub stars.*
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the best free growth tools for SaaS in 2026?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The highest-ROI free SaaS growth tools in 2026: (1) Toolify Social Listening for cross-platform brand monitoring, (2) Google Search Console for SEO insights, (3) Plausible or Umami for privacy-friendly analytics, (4) Resend free tier for transactional email, (5) Analook for competitor analysis (free 3 reports/month), (6) Cal.com for booking, (7) Loops for marketing automation. Pick at most 2-3 to start — tool diversity beyond that is procrastination, not productivity."}
+    },
+    {
+      "@type": "Question",
+      "name": "How much should a bootstrapped SaaS spend on growth tools?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Pre-PMF: $0-50/month total (free tiers only). $1K-$10K MRR: $100-300/month (one paid SEO tool, one paid analytics). $10K+ MRR: 2-3% of MRR on tools. The mistake most founders make is stacking tools before they have data flowing through them — a $99/mo unused tool is worse than no tool at all."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is competitive intelligence software for SaaS?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Competitive intelligence (CI) software helps SaaS teams systematically monitor competitor pricing, positioning, traffic, social presence, and product changes. The category splits into enterprise tools (Crayon, Klue — $500-2000/mo, full sales-enablement workflows) and self-serve tools (Analook, Visualping — $0-29/mo, focused on automated teardowns). Early-stage SaaS founders typically need the self-serve tier for the first 18 months."}
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between Analook and SimilarWeb?",
+      "acceptedAnswer": {"@type": "Answer", "text": "SimilarWeb costs $125+/month and focuses on traffic estimates for established sites. Analook is free for 3 reports/month and combines Wayback Machine history, SEO/traffic estimates (via DataForSEO), social presence, Product Hunt launches, GitHub stars, and AI-generated growth playbooks — designed for SaaS founders doing weekly competitor research without an enterprise budget. Analook also exposes its tools via Model Context Protocol so they run inside Claude Desktop or Cursor."}
+    },
+    {
+      "@type": "Question",
+      "name": "Which growth tools are unnecessary for early-stage SaaS?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Skip these until $10K+ MRR: (1) Customer Data Platforms (Segment, etc.) — manual CSVs are fine for first 1000 users, (2) Marketing automation suites (Marketo, HubSpot Marketing) — Loops free tier handles drip campaigns, (3) Enterprise SEO suites (Ahrefs, SEMrush full tier) — Google Search Console plus Brave Search free is enough, (4) Sales engagement platforms (Outreach, Salesloft) — manual personalization beats automation at low volume."}
+    }
+  ]
+}
+</script>
+

@@ -240,3 +240,12 @@ Free resources:
 - The full launch playbook is in the [Gingiris GitHub repos](https://github.com/Gingiris)
 
 Launch hard. Follow through harder. 🚀
+
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+{"@type": "Question", "name": "What should you do the day after a Product Hunt launch?", "acceptedAnswer": {"@type": "Answer", "text": "Day-after priorities: (1) Reply to every comment within 24 hours. (2) Email every upvoter individually to thank them and ask one feedback question. (3) Cross-post to Hacker News (Show HN), Indie Hackers, and 2 relevant subreddits. (4) Tweet a launch retrospective thread with actual numbers. (5) Reach out to the 2-3 strongest engagers for deeper conversation. PH traffic dies in 48 hours — convert visibility into durable distribution before it does."}},
+{"@type": "Question", "name": "How long does Product Hunt traffic last?", "acceptedAnswer": {"@type": "Answer", "text": "Launch-day traffic peaks hours 1-6 (12:01 AM-6 AM PST), drops 50% day 2, 80% by day 7. The badge contributes 5-15% long-tail traffic over the next 30 days — small but high-intent. Beyond 30 days, PH traffic effectively ends unless category awards or annual recap features resurface your post."}},
+{"@type": "Question", "name": "What's the most common mistake after a Product Hunt launch?", "acceptedAnswer": {"@type": "Answer", "text": "Disappearing. Founders spend 6 weeks preparing, execute brilliantly on launch day, then go silent for 2 weeks. The 14 days after launch are when your relational capital peaks — every upvoter just signaled they care. Not following up is the most expensive cheap-to-fix marketing decision early SaaS makes."}},
+{"@type": "Question", "name": "Should you launch on Product Hunt again later?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with caveats. PH allows re-launches of significantly-evolved products (6+ months after first launch, with major new functionality). 30x #1 winners commonly re-launch versions 2.0 and 3.0. Relaunches typically perform at 30-60% of the original launch — not zero, but with less effort since you already have community."}}
+]}
+</script>
