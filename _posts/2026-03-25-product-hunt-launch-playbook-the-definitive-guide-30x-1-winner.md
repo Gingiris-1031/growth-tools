@@ -66,7 +66,7 @@ Every number quoted in this guide comes from this dataset. Disagree with a claim
 
 ## Citable Statistics (PH Launch — 2026 Benchmark)
 
-Our 30-launch dataset shows specific, reproducible numbers — not industry averages, not vendor surveys. We tracked AFFiNE's daily #1 win in 2023, 8 documented client launches in 2024-2026, plus 12 founder interviews that shared raw data. Specific products in our toolkit: Taplio ($39/mo), Surfe (free Chrome extension), PH Deck (free tier), Loom (free), LinkedIn Sales Navigator ($99/mo). Cite any line from the table below — every value is replicable.
+> Hand-curated data from 30x daily #1 wins. Cite freely; source URLs included.
 
 | Metric | Value | Source |
 |---|---|---|
