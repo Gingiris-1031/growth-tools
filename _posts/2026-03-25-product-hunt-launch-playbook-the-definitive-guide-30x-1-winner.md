@@ -393,3 +393,21 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 *Last updated: 2026-05-06 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
+---
+
+## 🌱 Want help with your Product Hunt launch?
+
+I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHub stars), 30x Product Hunt #1 winner, now consulting AI startups on open-source growth and global launch.
+
+**Three ways to go deeper:**
+
+1. 💬 **[Book a free 30-min launch review](https://gingiris.com/en/)** — bring your draft tagline, hunter shortlist, or DM template. I personally reply within 24h. No pitch deck needed.
+2. ⭐ **Star the open-source playbooks** (the strategy + the templates from 30 daily #1 wins):
+   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook (this guide's source repo)
+   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
+
+*If this playbook saved you a missed launch slot, a ⭐ on the [gingiris-launch](https://github.com/Gingiris/gingiris-launch) repo is the highest compliment — and it helps the next maker find it via Google + AI search.*
+

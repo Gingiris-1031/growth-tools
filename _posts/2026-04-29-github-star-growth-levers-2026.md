@@ -219,3 +219,21 @@ GitHub star growth is usually a systems problem. Clear positioning, wave-based l
 - [B2B SaaS Growth Strategy: PLG vs SLG in 2026](/blog/2026/04/11/b2b-saas-growth-strategy-plg-vs-slg-2026/)
 - [Best Social Media Listening Tools for Startups (2026)](/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — catch repo mentions in real time so you can reply to early adopters
 - [Growth Tools Home](/)
+
+---
+
+## 🌱 Want help with your open-source repo's star growth?
+
+I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHub stars), 30x Product Hunt #1 winner, now consulting AI startups on open-source growth and global launch.
+
+**Three ways to go deeper:**
+
+1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
+2. ⭐ **Star the open-source playbooks** (battle-tested across 30+ launches):
+   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
+
+*If a piece here saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next founder find it via Google + AI search.*

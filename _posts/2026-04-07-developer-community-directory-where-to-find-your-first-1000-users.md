@@ -271,3 +271,21 @@ Available datasets (updated periodically):
 
 *Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
+---
+
+## 🌱 Want help finding your first 1,000 users?
+
+I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHub stars), 30x Product Hunt #1 winner, now consulting AI startups on open-source growth and global launch.
+
+**Three ways to go deeper:**
+
+1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
+2. ⭐ **Star the open-source playbooks** (covers all 100+ communities listed above and more):
+   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
+
+*If this directory saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next founder find it via Google + AI search.*
+

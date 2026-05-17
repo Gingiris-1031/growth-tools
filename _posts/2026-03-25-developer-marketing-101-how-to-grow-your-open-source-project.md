@@ -321,3 +321,21 @@ More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
 ---
 
 **📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+
+---
+
+## 🌱 Want help with your developer marketing strategy?
+
+I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHub stars), 30x Product Hunt #1 winner, now consulting AI startups on open-source growth and global launch.
+
+**Three ways to go deeper:**
+
+1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
+2. ⭐ **Star the open-source playbooks** (battle-tested across 30+ launches):
+   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
+
+*If this guide saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next maintainer find it via Google + AI search.*

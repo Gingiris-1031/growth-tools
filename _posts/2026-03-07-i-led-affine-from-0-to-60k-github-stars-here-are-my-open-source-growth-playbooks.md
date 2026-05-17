@@ -171,3 +171,21 @@ Drop a comment below with your biggest challenge — I read everything.
 - [GitHub Star Growth: 10 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
 - [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
 - [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide/)
+
+---
+
+## 🌱 Want help scaling your open-source project?
+
+I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHub stars), 30x Product Hunt #1 winner, now consulting AI startups on open-source growth and global launch.
+
+**Three ways to go deeper:**
+
+1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
+2. ⭐ **Star the open-source playbooks** (built from the AFFiNE journey + 30 PH launches):
+   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
+
+*If the AFFiNE journey helped your repo strategy, a ⭐ on the playbook is the highest compliment — and it helps the next maintainer find it via Google + AI search.*
