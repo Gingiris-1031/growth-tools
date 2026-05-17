@@ -1,5 +1,5 @@
 ---
-title: "After Product Hunt Launch: How to Stop the 80% Traffic Drop (7-Step Recovery Playbook)"
+title: "After Product Hunt Launch: Stop the 80% Traffic Drop (7 Steps)"
 description: "Traffic drops 80-90% in 72 hours after PH launch day. Here is the exact 7-step recovery playbook from 30x daily #1 winner."
 date: 2026-04-06
 tags: [producthunt, startup, marketing, growth]
