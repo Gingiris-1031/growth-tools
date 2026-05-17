@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Product Hunt Launch Playbook for B2B SaaS in 2026: 30x #1 Winner's 6-Week Sprint"
+title: "Product Hunt Launch Playbook B2B SaaS 2026 (30x #1 Winner)"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
