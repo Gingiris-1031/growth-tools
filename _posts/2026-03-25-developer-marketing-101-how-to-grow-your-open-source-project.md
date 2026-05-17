@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Developer Marketing 101: How to Grow Your Open Source Project"
+title: "Developer Marketing for OSS: 7 Channels Behind 60k+ Stars (2026)"
 date: 2026-03-25
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-developer-marketing.jpg"
-description: "Developer marketing 101 for growing open source projects. Community building, content strategy, and distribution channels that actually work in 2026."
+description: "The 7 developer-marketing channels we used at AFFiNE (0 → 60k+ GitHub stars). Real signal-vs-noise data on dev.to, Reddit, HN, Discord, X — and which to skip."
 faq:
   - q: "What is developer marketing?"
     a: "Developer marketing is the practice of reaching, engaging, and building trust with software developers as your target audience. It differs from traditional B2B marketing because developers are skeptical of promotional content, prefer technical depth over buzzwords, and make adoption decisions based on hands-on evaluation rather than sales pitches. Effective developer marketing prioritizes education, authenticity, and community participation."

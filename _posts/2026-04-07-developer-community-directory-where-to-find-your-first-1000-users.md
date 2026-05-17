@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Developer Community Directory: Where to Find Your First 1,000 Users (2026)"
+title: "100+ Developer Communities: Find Your First 1,000 Users (2026)"
 date: 2026-04-07
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
-description: "Curated directory of developer communities with direct join links — Discord servers, Reddit communities, Slack groups, and Meetups. 100+ verified communities with member counts."
+description: "100+ developer communities with direct join links — Discord, Reddit, Slack, HN. Member counts, B2B signal-to-noise scores, and which to skip in 2026."
 faq:
   - q: "Where can I find developer communities to promote my open source project?"
     a: "Best developer communities to find early users for open source projects: r/programming (4M members), r/webdev (1.6M), Hacker News Show HN, Discord servers like AI HUB (538K), Data Science/ML/AI (30K), and Slack communities like ODSC. For AI tools specifically: Discord is the dominant platform with most communities having direct invite links."

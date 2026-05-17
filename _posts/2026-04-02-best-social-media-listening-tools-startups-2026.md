@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Social Listening Tools Under $100/mo for B2B SaaS (2026)"
-description: "27-tool audit with pricing, free-tier limits, and multilingual support. Why startups under 1,500 mentions/mo should stay free, and when paid pays off."
+title: "Best Social Listening Tools for Startups (Under $100/mo, 2026)"
+description: "27-tool audit for startups: pricing, free-tier limits, multilingual support. Why startups under 1,500 mentions/mo should stay free — and when $79/mo pays off."
 date: 2026-04-02
 author: Iris
 tags: [social-listening, tools, startup, marketing, analytics]

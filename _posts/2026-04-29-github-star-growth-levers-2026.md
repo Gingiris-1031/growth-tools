@@ -1,7 +1,7 @@
 ---
 title: "GitHub Star Growth: 9 Levers That Compound in 2026"
 date: 2026-04-29
-description: "GitHub star growth guide with 9 practical levers for README conversion, launch sequencing, fast maintainer replies, and evergreen search traffic."
+description: "9 GitHub star growth levers behind AFFiNE's 0 → 60k+ stars. README conversion, launch sequencing, fast-reply rule, and the evergreen search compounding play."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
 canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/29/github-star-growth-levers-2026/"
 seo_title: "GitHub Star Growth: 9 Levers That Compound in 2026"

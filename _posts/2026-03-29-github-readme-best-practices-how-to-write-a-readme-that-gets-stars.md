@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "GitHub README Best Practices: How to Write a README That Gets Stars"
+title: "GitHub README Best Practices: 8 Rules That Got 60k+ Stars (2026)"
 date: 2026-03-29
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
-description: "GitHub README best practices that get stars. Write a README that converts visitors — structure, visuals, quick start, and the 30-second readability test."
+description: "The 8 README rules behind AFFiNE's 60k+ GitHub stars. Visuals, hook copy, install commands, and the 30-second readability test — with real before/after examples."
 faq:
   - q: "What should a GitHub README include?"
     a: "A high-converting GitHub README should include: (1) A one-line description that clearly explains what the project does and for whom. (2) A visual demo (GIF, screenshot, or video) showing the product working. (3) Quick install/setup instructions (under 5 commands). (4) A features list with the most compelling capabilities. (5) Links to documentation, live demo, and contributing guide. (6) Badges (stars, license, build status) for social proof. The goal: a developer should understand the project's value and know how to try it within 30 seconds."

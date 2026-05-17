@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AFFiNE GitHub Stars: 60,000+ and How We Got There (Founder's Playbook)"
+title: "AFFiNE 60k GitHub Stars: The Exact 2026 Playbook (by COO)"
 canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
 image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
 date: 2026-03-07
