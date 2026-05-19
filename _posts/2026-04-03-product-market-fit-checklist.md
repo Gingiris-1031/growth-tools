@@ -362,6 +362,22 @@ That's how you find PMF. Not by building more features. By finding the people fo
         "@type": "Answer",
         "text": "No — scaling before PMF accelerates burning money on a leaky bucket. The math is simple: if churn is 8% monthly because you don't have PMF, every dollar of acquisition spend funds users who leave before paying back CAC. The companies that scaled before PMF and survived (e.g., some Series-A AI startups in 2024-2025) did so because they had enough runway to find PMF during the scale. Most don't have that luxury. The right sequence: find PMF in a small segment first, then scale the channel that works."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What are real examples of product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Five concrete examples across stages and segments: (1) Slack — engineering teams stopped using email for internal chat within weeks; week-4 retention curve flattened above 70% in 2014. (2) Figma — designers shared files with collaborators who became users themselves; net dollar retention exceeded 150% by 2019. (3) Notion — early power users built templates and shared them publicly without being asked; organic signups crossed 60% of total acquisition. (4) Linear — engineering leads switched from Jira and posted unprompted comparison threads; sales motion became inbound-only by 2022. (5) AFFiNE (the open-source case I led) — developers starred the repo, forked it, and ran self-hosted instances; GitHub stars grew from 0 to 60,000 in 24 months without paid acquisition. In every case the behavioral signal — users recruiting other users — preceded the metric that PR teams later cited."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the 5 stages of product-market fit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five stages most B2B SaaS companies move through: (1) Problem-solution fit — interviews confirm the problem exists and your direction is right; no product yet, just validated demand. (2) Prototype-feedback fit — a working MVP gets used by 10-50 hand-picked users; retention is noisy but core flows work. (3) Initial PMF — 40%+ of active users say 'very disappointed' in the Sean Ellis survey for one specific segment; week-4 retention flattens in that segment. (4) Channel-PMF — you've identified one acquisition channel where CAC payback is under 12 months and the channel scales without degrading conversion. (5) Scaled PMF — multiple segments have PMF, organic growth exceeds 30% of new users, and net dollar retention is above 110%. Most companies stall between stage 3 and 4 because they try to scale before locking a repeatable channel."
+      }
     }
   ]
 }
