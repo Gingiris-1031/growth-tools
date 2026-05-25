@@ -5,8 +5,8 @@ description: "GEO three-piece set (llms.txt + FAQ Schema + Citable Statistics) t
 date: 2026-04-17
 author: Iris
 tags: [geo, generative-engine-optimization, ai-seo, seo, content-marketing, chatgpt-seo, perplexity-seo]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/17/generative-engine-optimization-complete-guide/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-seo-analytics.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/
+image: "https://blog.gingiris.com/assets/images/blog-seo-analytics.jpg"
 faq:
   - q: "What is generative engine optimization (GEO)?"
     a: "Generative engine optimization (GEO) is the practice of structuring and optimizing web content so that AI-powered search engines — including ChatGPT, Perplexity, Google AI Overviews, and Claude — cite or reference it in generated answers. Unlike traditional SEO, which targets ranking positions in blue-link results, GEO targets citation rate: how often your content appears inside AI-generated responses. Research from Princeton NLP (2024) found that content with specific statistics, FAQ schema, and direct-answer formats has 30–40% higher AI citation rates."
@@ -346,7 +346,7 @@ Content that ranks #1–5 in Google is significantly more likely to be cited by 
 
 ## Real Campaign Results
 
-After implementing this GEO stack for the [Gingiris growth-tools blog](https://gingiris.github.io/growth-tools/):
+After implementing this GEO stack for the [Gingiris growth-tools blog](https://blog.gingiris.com/):
 
 | Tactic implemented | Result |
 |-------------------|--------|
@@ -386,12 +386,12 @@ That's your GEO foundation. From there, gradually restructure articles in QAE fo
 
 ## Related Reading
 
-- [How to Get Cited by AI Search Engines: ChatGPT, Perplexity & Claude](https://gingiris.github.io/growth-tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/) — platform-specific GEO tactics
-- [Content Marketing for Startups: From 0 to 10k Monthly Visitors](https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups/) — the broader content strategy
-- [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — launch content for maximum GEO surface area
-- [Best Social Media Listening Tools for Startups 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — monitor AI citation mentions of your brand
-- [Open Source Marketing: The Complete Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide/) — GEO for developer-focused products
-- [100+ Growth Tools for Startups Going Global](https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/) — full tool directory
+- [How to Get Cited by AI Search Engines: ChatGPT, Perplexity & Claude](https://blog.gingiris.com/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/) — platform-specific GEO tactics
+- [Content Marketing for Startups: From 0 to 10k Monthly Visitors](https://blog.gingiris.com/blog/2026/04/03/content-marketing-for-startups/) — the broader content strategy
+- [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — launch content for maximum GEO surface area
+- [Best Social Media Listening Tools for Startups 2026](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — monitor AI citation mentions of your brand
+- [Open Source Marketing: The Complete Guide](https://blog.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/) — GEO for developer-focused products
+- [100+ Growth Tools for Startups Going Global](https://blog.gingiris.com/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/) — full tool directory
 
 ---
 

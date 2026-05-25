@@ -2,8 +2,8 @@
 layout: post
 title: "AFFiNE GitHub Stars: How We Grew to 33,000+ (10 Tactics with Real Data, 2026)"
 date: 2026-03-27
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "AFFiNE went from 0 to 33,000+ GitHub stars in under 2 years. Here are the 10 tactics that worked, with real day-by-day numbers from 2024-2026."
 faq:
   - q: "How do you get GitHub stars fast?"
@@ -37,8 +37,8 @@ Here are the 10 tactics, in the order we figured them out.
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://gingiris.github.io/growth-tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.github.io/growth-tools/blog/2026/05/01/affine-github-trending-playbook/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://blog.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://blog.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/)
 
 ## The Real Story: 6,000 Stars in 7 Days
 
@@ -214,8 +214,8 @@ The compound effect: well-maintained repos attract contributors, and contributor
 
 ## Related Resources
 
-- [AFFiNE GitHub Stars: The Full 0-to-60K Story](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Open Source Launch Marketing Playbook](https://github.com/Gingiris/gingiris-opensource)
+- [AFFiNE GitHub Stars: The Full 0-to-60K Story](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [Open Source Launch Marketing Playbook](https://clawhub.ai/user/gingiris)
 
 ---
 
@@ -223,9 +223,9 @@ The compound effect: well-maintained repos attract contributors, and contributor
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Get More GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Developer Marketing 101](https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/) |
-| 📖 | [GitHub Stars History](https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+| 📖 | [How to Get More GitHub Stars](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Marketing 101](https://blog.gingiris.com/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/) |
+| 📖 | [GitHub Stars History](https://blog.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

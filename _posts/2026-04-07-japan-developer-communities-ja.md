@@ -3,11 +3,11 @@ layout: post
 title: "日本のエンジニアコミュニティ完全ガイド：海外スタートアップが知るべき15のプラットフォーム（2026年）"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja/
+canonical_url: https://blog.gingiris.com/blog/2026/04/07/japan-developer-communities-ja/
 description: "海外スタートアップが日本のエンジニアコミュニティに参入する方法。Zenn、Qiita、connpassなど15プラットフォームの特徴と活用法を実体験から解説。"
 categories: [community, japanese, marketing]
 tags: [日本, コミュニティ, エンジニア, マーケティング]
-hreflang_en: https://gingiris.github.io/growth-tools/en/
+hreflang_en: https://blog.gingiris.com/en/
 ---
 
 AFFiNEを日本市場に展開しようとしたとき、私は根本的な思い違いをしていた。
@@ -121,7 +121,7 @@ DevRel.jpのコミュニティに参加し、「海外OSSの日本展開」と�
 
 Zennに記事を投稿して初めて「日本の開発者と繋がれた」と感じたあの日——あの経験が、私の日本市場への見方を根本から変えた。
 
-プラットフォームのリストはこのページで随時更新していく。追加すべきコミュニティがあれば [GitHubのIssue](https://github.com/Gingiris/growth-tools/issues) から教えてほしい。
+プラットフォームのリストはこのページで随時更新していく。追加すべきコミュニティがあれば [GitHubのIssue](https://clawhub.ai/user/gingiris/issues) から教えてほしい。
 
 ---
 

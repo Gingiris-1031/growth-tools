@@ -2,8 +2,8 @@
 layout: post
 title: "Product Hunt Launch Checklist: 30-Time #1 Winner's Playbook"
 date: 2026-03-31
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/
+image: "https://blog.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "Product Hunt launch checklist from a 30-time #1 winner. Every task from 6 weeks pre-launch to post-launch follow-up, with exact timing and tips."
 faq:
   - q: "What is the Product Hunt launch checklist for winning #1?"
@@ -155,11 +155,11 @@ Look for hunters who: (1) have posted in your product category before, (2) have 
 
 A Product Hunt launch is a high-leverage growth moment — but only if you treat it as a **systematic process**, not a lucky roll of the dice. The makers who consistently win #1 follow the same playbook: community first, velocity second, engagement third.
 
-For a complete step-by-step playbook including exact scripts, templates, and the ranking algorithm breakdown, check out the **[Product Hunt Launch Playbook →](https://github.com/Gingiris/gingiris-launch)** with real case studies from 30-time #1 winners.
+For a complete step-by-step playbook including exact scripts, templates, and the ranking algorithm breakdown, check out the **[Product Hunt Launch Playbook →](https://clawhub.ai/user/gingiris)** with real case studies from 30-time #1 winners.
 
 ---
 
-*This article is part of the [Gingiris Growth Tools](https://gingiris.github.io/growth-tools/) series — practical growth resources for startups and open source projects.*
+*This article is part of the [Gingiris Growth Tools](https://blog.gingiris.com/) series — practical growth resources for startups and open source projects.*
 
 ---
 
@@ -167,8 +167,8 @@ For a complete step-by-step playbook including exact scripts, templates, and the
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Launch on Product Hunt](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Guide](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [How to Launch on Product Hunt](https://blog.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Guide](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

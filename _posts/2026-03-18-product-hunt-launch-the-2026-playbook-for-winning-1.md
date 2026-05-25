@@ -2,8 +2,8 @@
 layout: post
 title: "Product Hunt Launch: The 2026 Playbook for Winning #1"
 date: 2026-03-18
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
+image: "https://blog.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "How to run Product Hunt as a campaign — not a one-day event. The 30-day before, during, and after playbook from 30x daily #1 experience."
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
 gumroad_title: "Product Hunt Launch Action Guide"
@@ -19,8 +19,8 @@ faq:
     a: "Yes — and you should. Each major feature release, version update, or product angle is a legitimate launch. We launched AFFiNE 30+ times over 18 months. Each launch reaches PH's daily audience, most of whom haven't seen you before. Multi-launch is a campaign strategy, not a loophole."
   - q: "What is the Product Hunt badge worth?"
     a: "The badge is the primary asset. It provides: (1) Social proof on your landing page that converts cold visitors. (2) A high-DA backlink from producthunt.com that helps SEO. (3) Ongoing exposure — PH's homepage shows yesterday's winners, last week's weekly winners, last month's monthly winners. Weekly badge exposure = 7× daily; monthly = 30×."
-hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
-hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko/
+hreflang_ja: https://blog.gingiris.com/blog/2026/04/07/product-hunt-strategy-2026-ja/
+hreflang_ko: https://blog.gingiris.com/blog/2026/04/07/product-hunt-guide-ko/
 ---
 
 **What is a Product Hunt launch playbook?** A Product Hunt launch playbook is a step-by-step strategy for launching on Product Hunt and winning #1 — covering pre-launch community building (2 weeks before), hunter selection, launch day execution (first hour is critical), and post-launch momentum. AFFiNE used this exact playbook to win Product Hunt #1 **30 times**.
@@ -231,13 +231,13 @@ The weekly and monthly badge multipliers (7× and 30× more exposure respectivel
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt: Definitive Guide (30x #1 Winner)](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [After Product Hunt: 7 Ways to Keep Momentum](https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
-| 📖 | [Product Hunt Launch Checklist](https://gingiris.github.io/growth-tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [AFFiNE GitHub Stars: 0 to 60K](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Product Hunt: Definitive Guide (30x #1 Winner)](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [After Product Hunt: 7 Ways to Keep Momentum](https://blog.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
+| 📖 | [Product Hunt Launch Checklist](https://blog.gingiris.com/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [AFFiNE GitHub Stars: 0 to 60K](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 
 ## Key Takeaways
 

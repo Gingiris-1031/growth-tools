@@ -5,7 +5,7 @@ date: 2026-05-10 09:00:00 +0800
 last_modified_at: 2026-05-10
 categories: [product-hunt, growth, algorithm]
 tags: [product-hunt, account-age, algorithm, ph, voter-quality, launch-strategy]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/05/10/product-hunt-account-age-algorithm-2026/
+canonical_url: https://blog.gingiris.com/blog/2026/05/10/product-hunt-account-age-algorithm-2026/
 description: "What changed in Product Hunt's 2026-Q1 algorithm update: account-age weighting for accounts <3 months old dropped from ~40% to ~20%. The data, the case comparisons across 30+ launches, and the new coping strategy for makers who used to rely on fresh-account upvotes."
 faq:
   - q: "Does Product Hunt count new account upvotes in 2026?"

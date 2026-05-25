@@ -3,8 +3,8 @@ layout: post
 title: "GitHub 스타 늘리는 방법: AFFiNE이 6만 스타를 달성한 전략 (2026년)"
 date: 2026-04-07
 lang: ko
-hreflang_en: https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-guide-ko/
+hreflang_en: https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+canonical_url: https://blog.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
 description: "AFFiNE COO가 공개하는 GitHub 스타 늘리는 방법. README 최적화부터 커뮤니티 구축까지, 실제로 효과 있었던 7가지 전략."
 categories: [github, opensource, korean]
 tags: [GitHub, 스타, 오픈소스, 마케팅]

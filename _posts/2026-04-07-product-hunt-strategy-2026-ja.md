@@ -3,9 +3,9 @@ layout: post
 title: "Product Hunt攻略2026：30回1位を取ったCOOが教える完全ガイド"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
+canonical_url: https://blog.gingiris.com/blog/2026/04/07/product-hunt-strategy-2026-ja/
 description: "AFFiNEでProduct Hunt #1を30回以上獲得した元COOによるPH攻略完全ガイド2026年版。日本人ファウンダー向け実践マニュアル。"
-hreflang_en: https://gingiris.github.io/growth-tools/en/
+hreflang_en: https://blog.gingiris.com/en/
 last_modified_at: 2026-04-26
 ---
 

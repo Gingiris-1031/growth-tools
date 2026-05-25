@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 8 Compounding Plays for 2026"
 date: 2026-05-08
 description: "GitHub star growth guide with 8 compounding plays for sharper README conversion, launch sequencing, fast maintainer replies, and evergreen discovery."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/05/08/github-star-growth-compounding-plays-2026/"
+canonical_url: "https://blog.gingiris.com/blog/2026/05/08/github-star-growth-compounding-plays-2026/"
 seo_title: "GitHub Star Growth: 8 Compounding Plays for 2026"
 seo_description: "A practical GitHub star growth guide covering README clarity, launch waves, maintainer replies, and SEO loops that keep compounding."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]
@@ -13,7 +13,7 @@ keywords: [github star growth, github stars, open source marketing, developer ma
 
 **GitHub star growth** is easier to talk about than to engineer. In 2026, the repos that keep compounding stars usually do not win because they shout louder. They win because the project is understandable in seconds, the launch sequence is deliberate, and every spike gets turned into search, community, and contributor trust. If your repo quality is improving but star velocity is flat, the problem is usually packaging and distribution, not code output.
 
-If you want the deeper systems behind this, start with the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)**. It pairs well with **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** for launch timing and **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** if your repo also supports product demand generation.
+If you want the deeper systems behind this, start with the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch timing and **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** if your repo also supports product demand generation.
 
 ## TL;DR
 
@@ -80,7 +80,7 @@ Push into one high-fit channel like Hacker News, Reddit, Product Hunt, or GitHub
 
 Turn the best questions into a postmortem, tutorial, comparison page, or setup guide.
 
-That is where **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** becomes useful. It helps turn one launch event into a repeatable sequence instead of random noise.
+That is where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** becomes useful. It helps turn one launch event into a repeatable sequence instead of random noise.
 
 ## 4. Pick a Primary Channel for Each Push
 
@@ -136,7 +136,7 @@ That can include:
 4. community discussions with real maintainer presence
 5. docs that remove setup anxiety
 
-If the repo also supports a commercial product, star growth should connect to broader demand generation. The **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)** is helpful for designing that handoff.
+If the repo also supports a commercial product, star growth should connect to broader demand generation. The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is helpful for designing that handoff.
 
 ## 8. Keep the Project Visibly Alive
 

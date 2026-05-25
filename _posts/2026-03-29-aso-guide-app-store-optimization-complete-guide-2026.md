@@ -2,8 +2,8 @@
 layout: post
 title: "App Store Optimization Tools: Best ASO Stack for 2026 (+ Complete Strategy Guide)"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-aso-optimization.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/
+image: "https://blog.gingiris.com/assets/images/blog-aso-optimization.jpg"
 description: "The best app store optimization tools for 2026, plus a complete ASO strategy guide. Rank higher in App Store and Google Play with keyword research, screenshot optimization, and ratings tactics."
 faq:
   - q: "What are the best ASO tools in 2026?"
@@ -165,14 +165,14 @@ ASO success requires:
 
 ## Free Resources
 
-- 📚 [ASO & App Growth Playbook](https://github.com/Gingiris/gingiris-aso-growth) — Complete mobile app growth guide
-- 📚 [Product Hunt Launch Guide](https://github.com/Gingiris/gingiris-launch) — If you're also launching on PH
+- 📚 [ASO & App Growth Playbook](https://clawhub.ai/user/gingiris) — Complete mobile app growth guide
+- 📚 [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — If you're also launching on PH
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris ASO Growth Playbook](https://github.com/Gingiris/gingiris-aso-growth) — battle-tested strategies for mobile app growth.*
+*This guide is part of the [Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies for mobile app growth.*
 
 ---
 
@@ -180,8 +180,8 @@ ASO success requires:
 
 | Category | Article |
 |----------|---------|
-| 📖 | [ASO Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/) |
-| 📖 | [SaaS Growth Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [ASO Playbook](https://blog.gingiris.com/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/) |
+| 📖 | [SaaS Growth Strategy](https://blog.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

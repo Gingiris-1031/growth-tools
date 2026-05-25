@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 Trust Loops That Compound in 2026"
 date: 2026-05-19
 description: "A practical GitHub star growth guide covering README clarity, trust loops, fast maintainer replies, launch waves, and search-driven compounding."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/05/19/github-star-growth-trust-loops-2026/"
+canonical_url: "https://blog.gingiris.com/blog/2026/05/19/github-star-growth-trust-loops-2026/"
 seo_title: "GitHub Star Growth: 7 Trust Loops That Compound in 2026"
 seo_description: "Learn 7 practical GitHub star growth trust loops for 2026, from README clarity and maintainer replies to launch waves and search compounding."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]
@@ -13,7 +13,7 @@ keywords: [github star growth, github stars, open source marketing, developer ma
 
 **GitHub star growth** is rarely driven by one viral post. The repos that keep compounding usually build trust loops across the README, launch timing, maintainer replies, search content, and community proof. If your product is strong but your stars have stalled, the bottleneck is often how clearly the repo earns attention, not how many features shipped last week.
 
-If you want the deeper systems behind this, start with the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)**. It pairs well with **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** for launch sequencing, **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** for open-source-to-pipeline handoff, and **[Gingiris ASO Growth](https://github.com/Gingiris/gingiris-aso-growth)** if your repo supports an app-led distribution motion.
+If you want the deeper systems behind this, start with the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch sequencing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for open-source-to-pipeline handoff, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your repo supports an app-led distribution motion.
 
 ## TL;DR
 
@@ -78,7 +78,7 @@ Push into one high-fit channel such as Hacker News, Reddit, Product Hunt, or Git
 
 Turn questions, objections, and demos into assets that keep ranking after launch week.
 
-This is where **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** becomes especially useful. It helps turn launch attention into a repeatable growth system.
+This is where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** becomes especially useful. It helps turn launch attention into a repeatable growth system.
 
 ## 4. Reply While Attention Is Warm
 
@@ -104,7 +104,7 @@ Proof works best when it removes uncertainty.
 - what changed after switching
 - what the repo can already do today
 
-If the product also supports a commercial motion, **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** helps map where repo trust should hand off to demo requests, signups, or pipeline.
+If the product also supports a commercial motion, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** helps map where repo trust should hand off to demo requests, signups, or pipeline.
 
 ## 6. Turn Social Spikes Into Search Assets
 

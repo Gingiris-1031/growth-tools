@@ -2,8 +2,8 @@
 layout: post
 title: "100+ Developer Communities: Find Your First 1,000 Users (2026)"
 date: 2026-04-07
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "100+ developer communities with direct join links — Discord, Reddit, Slack, HN. Member counts, B2B signal-to-noise scores, and which to skip in 2026."
 faq:
   - q: "Where can I find developer communities to promote my open source project?"
@@ -14,8 +14,8 @@ faq:
     a: "HN itself is a community, not a Discord/Slack. To engage: comment on posts in your domain, upvote genuinely good content, and build karma before launching your Show HN. For Show HN success, read our guide: post 9-10 AM ET weekdays, write a technical first comment, respond to every comment in the first 2 hours."
   - q: "What Slack communities are good for SaaS founders?"
     a: "Best Slack communities for SaaS founders: Open Data Science Conference (5K devs), Online Geniuses (marketing), Product Hunt Makers (product), Rands Leadership (engineering leaders). Most are invite-based. Search 'Slack community for [your niche]' to find current invite links as many rotate."
-hreflang_ja: https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja/
-hreflang_ko: https://gingiris.github.io/growth-tools/blog/2026/04/07/korea-developer-communities-ko/
+hreflang_ja: https://blog.gingiris.com/blog/2026/04/07/japan-developer-communities-ja/
+hreflang_ko: https://blog.gingiris.com/blog/2026/04/07/korea-developer-communities-ko/
 last_modified_at: 2026-04-26
 ---
 
@@ -234,14 +234,14 @@ Available datasets (updated periodically):
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Launch on Hacker News](https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [Product Hunt Launch Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [How to Get More GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [100+ Growth Tools for Startups Going Global](https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/) |
-| 📖 | [Best Social Media Listening Tools for Startups (2026)](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — find community conversations to join |
+| 📖 | [How to Launch on Hacker News](https://blog.gingiris.com/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [Product Hunt Launch Playbook](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [How to Get More GitHub Stars](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [100+ Growth Tools for Startups Going Global](https://blog.gingiris.com/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/) |
+| 📖 | [Best Social Media Listening Tools for Startups (2026)](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — find community conversations to join |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 
 <!-- FAQ Schema for AI crawlers (GEO) -->
 <script type="application/ld+json">
@@ -311,10 +311,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (covers all 100+ communities listed above and more):
-   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If this directory saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next founder find it via Google + AI search.*

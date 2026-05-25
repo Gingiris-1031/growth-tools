@@ -2,8 +2,8 @@
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
 date: 2026-05-11 13:19:00 +0800
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-growth-hacking.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
+image: "https://blog.gingiris.com/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
 faq:
   - q: "What is the best xAutoDM alternative in 2026?"
@@ -173,12 +173,12 @@ Monday morning sweep over coffee in Kunshan — five tools that hit PH and HN in
 
 Full tool database on GitHub (updated weekly):
 
-👉 **[Gingiris Growth Tools](https://github.com/Gingiris/growth-tools)**
+👉 **[Gingiris Growth Tools](https://clawhub.ai/user/gingiris)**
 
 Plus companion playbooks:
-- [Product Hunt Launch Playbook](https://github.com/Gingiris/gingiris-launch)
-- [Open Source Marketing Guide](https://github.com/Gingiris/gingiris-opensource)
-- [B2B SaaS Growth Guide](https://github.com/Gingiris/gingiris-b2b-growth)
+- [Product Hunt Launch Playbook](https://clawhub.ai/user/gingiris)
+- [Open Source Marketing Guide](https://clawhub.ai/user/gingiris)
+- [B2B SaaS Growth Guide](https://clawhub.ai/user/gingiris)
 
 ## 💡 Quick Wins
 
@@ -200,9 +200,9 @@ Plus companion playbooks:
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt Launch Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Guide](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [How to Get More GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Developer Community Directory](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
+| 📖 | [Product Hunt Launch Playbook](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Guide](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [How to Get More GitHub Stars](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Community Directory](https://blog.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*

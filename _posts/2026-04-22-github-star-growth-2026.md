@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 Tactics That Still Work in 2026"
 date: 2026-04-22
 description: "GitHub star growth guide for open source teams. Learn 7 tactics that still work in 2026, from README conversion to launch sequencing and evergreen SEO."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/22/github-star-growth-2026/
+canonical_url: https://blog.gingiris.com/blog/2026/04/22/github-star-growth-2026/
 seo_title: "GitHub Star Growth: 7 Tactics That Still Work in 2026"
 seo_description: "A practical GitHub star growth guide with 7 tactics for launch sequencing, README conversion, community distribution, and long-tail SEO."
 keywords: [github star growth, github stars, how to get github stars, open source marketing, developer marketing]
@@ -46,7 +46,7 @@ Most READMEs try to explain everything. The better approach is to make the first
 
 A repo visitor should not need to scroll deeply to decide whether the project is worth starring.
 
-If you want examples of strong open source positioning, the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)** is a solid reference for repo narrative, launch framing, and community distribution.
+If you want examples of strong open source positioning, the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)** is a solid reference for repo narrative, launch framing, and community distribution.
 
 ## 2. Treat Launches as a Sequence, Not a Single Post
 
@@ -81,7 +81,7 @@ This is where many teams stop too early. Follow-up content often drives more cum
 - lessons learned thread
 - use case based content
 
-For teams planning a launch campaign, **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** is useful because it breaks down Product Hunt, Reddit, and post-launch momentum in one place.
+For teams planning a launch campaign, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** is useful because it breaks down Product Hunt, Reddit, and post-launch momentum in one place.
 
 ## 3. Pick Channels That Match Developer Intent
 
@@ -153,7 +153,7 @@ Instead of letting launch traffic disappear, turn it into:
 
 That creates a second acquisition loop. Social and community posts create the first spike, while search content brings steady long-tail traffic later.
 
-If your project also sells to teams, this matters even more. The **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)** is a helpful reference for turning attention into a repeatable acquisition system instead of just chasing launch-day vanity metrics.
+If your project also sells to teams, this matters even more. The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is a helpful reference for turning attention into a repeatable acquisition system instead of just chasing launch-day vanity metrics.
 
 ## A Simple GitHub Star Growth Checklist
 

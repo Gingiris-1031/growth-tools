@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "AFFiNE 60k GitHub Stars: The Exact 2026 Playbook (by COO)"
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 date: 2026-03-07
 description: "AFFiNE crossed 60,000 GitHub stars in 2026. Here's the actual playbook: 43 days to 10K, 28 Trending appearances, 30x Product Hunt #1 — by their COO."
 tags: [["opensource", "startup", "growth", "marketing"]]
@@ -82,8 +82,8 @@ In 2024, I left AFFiNE. Since then, I've been open sourcing everything I learned
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://gingiris.github.io/growth-tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.github.io/growth-tools/blog/2026/05/01/affine-github-trending-playbook/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://blog.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://blog.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/)
 
 ## The Story Behind the Numbers
 
@@ -138,7 +138,7 @@ Weekly exposure multipliers: PH Weekly badge = 7x the exposure of a Daily badge.
 
 After leaving AFFiNE, I documented everything and open-sourced it. Four playbooks, all free:
 
-### 1. [AI Product Launch Playbook](https://github.com/Gingiris/gingiris-launch)
+### 1. [AI Product Launch Playbook](https://clawhub.ai/user/gingiris)
 
 The exact process behind 30+ Product Hunt launches and our GitHub growth campaigns:
 
@@ -147,7 +147,7 @@ The exact process behind 30+ Product Hunt launches and our GitHub growth campaig
 - **Reddit & HackerNews Strategies** — Community seeding that doesn't get you banned
 - **Launch Window Optimization** — When to launch, how to concentrate multi-channel pushes
 
-### 2. [B2B SaaS Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)
+### 2. [B2B SaaS Growth Playbook](https://clawhub.ai/user/gingiris)
 
 For open source projects with a commercial layer:
 
@@ -156,7 +156,7 @@ For open source projects with a commercial layer:
 - **Outbound Templates** — Cold outreach that converts without being spammy
 - **Channel Attribution** — How to know which distribution actually drives revenue
 
-### 3. [Open Source Launch Marketing](https://github.com/Gingiris/gingiris-opensource)
+### 3. [Open Source Launch Marketing](https://clawhub.ai/user/gingiris)
 
 GitHub-specific growth from 0 to 10K stars:
 
@@ -165,7 +165,7 @@ GitHub-specific growth from 0 to 10K stars:
 - **Awesome List Strategy** — How to get listed (and why Chinese awesome-lists have higher acceptance rates)
 - **Content Distribution** — The weekly cadence that keeps baseline growth elevated
 
-### 4. [ASO & App Cold Start](https://github.com/Gingiris/gingiris-aso-growth)
+### 4. [ASO & App Cold Start](https://clawhub.ai/user/gingiris)
 
 Mobile app growth for founders adding a mobile layer:
 
@@ -198,11 +198,11 @@ Drop a comment below with your biggest challenge — I read everything.
 
 ## Further Reading
 
-- [How We Grew AFFiNE from 0 to 60K Stars: The Full Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
-- [GitHub Star Growth: 10 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
-- [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide/)
+- [How We Grew AFFiNE from 0 to 60K Stars: The Full Playbook](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [GitHub Star Growth: 10 Proven Tactics](https://blog.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
+- [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Open Source Marketing: The Complete 2026 Guide](https://blog.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/)
 
 ---
 
@@ -214,10 +214,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (built from the AFFiNE journey + 30 PH launches):
-   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If the AFFiNE journey helped your repo strategy, a ⭐ on the playbook is the highest compliment — and it helps the next maintainer find it via Google + AI search.*

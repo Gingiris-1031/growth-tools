@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
 date: 2026-04-02
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/04/02/github-pr-template-guide/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "GitHub pull request template best practices. Write PR templates that speed up code review — with a complete copy-paste template that actually gets merged."
 faq:
   - q: "What is a GitHub PR template?"
@@ -250,14 +250,14 @@ Read the CONTRIBUTING.md before submitting. Follow their conventions.
 - **Breaking changes**: Flag clearly
 - **Small PRs**: 100 lines > 1000 lines
 
-For more open source growth strategies, see [github.com/Gingiris/gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://clawhub.ai/user/gingiris) — the complete playbook from 0 to 60k stars.
 
-*Part of the [Gingiris Open Source Growth Playbook](https://github.com/Gingiris/gingiris-opensource) — helping developers contribute to open source with confidence.*
+*Part of the [Gingiris Open Source Growth Playbook](https://clawhub.ai/user/gingiris) — helping developers contribute to open source with confidence.*
 
 ## Related Articles
 
-- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/)
-- [GitHub README Best Practices: How to Write a README That Gets Stars](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
+- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://blog.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
+- [GitHub README Best Practices: How to Write a README That Gets Stars](https://blog.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
 
 ## Key Takeaways
 

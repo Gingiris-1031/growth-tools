@@ -2,8 +2,8 @@
 layout: post
 title: "Developer Marketing for OSS: 7 Channels Behind 60k+ Stars (2026)"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-developer-marketing.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/
+image: "https://blog.gingiris.com/assets/images/blog-developer-marketing.jpg"
 description: "The 7 developer-marketing channels we used at AFFiNE (0 → 60k+ GitHub stars). Real signal-vs-noise data on dev.to, Reddit, HN, Discord, X — and which to skip."
 faq:
   - q: "What is developer marketing?"
@@ -119,7 +119,7 @@ Developers are:
 3. Help others with questions
 4. Then share your project (when relevant)
 
-> 💡 **Related:** Need a starting list? See the [Developer Community Directory](https://gingiris.github.io/growth-tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) — 80+ vetted Slack, Discord, Reddit, and forum communities organized by tech stack and audience.
+> 💡 **Related:** Need a starting list? See the [Developer Community Directory](https://blog.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) — 80+ vetted Slack, Discord, Reddit, and forum communities organized by tech stack and audience.
 
 ### Dev.to / Hashnode
 
@@ -274,7 +274,7 @@ Developers trust people, not companies. Build your personal brand:
 
 ---
 
-> 📖 **Related:** [KOL Marketing Strategy for Developer Tools](https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy/)
+> 📖 **Related:** [KOL Marketing Strategy for Developer Tools](https://blog.gingiris.com/blog/2026/04/02/kol-marketing-strategy/)
 
 ## Get the Complete Playbook
 
@@ -292,7 +292,7 @@ This is the fundamentals. For the full implementation guide, get the **[Open-Sou
 
 I'm **Iris**, former cofounder & COO of AFFiNE (33K+ stars). Led developer marketing from 0 to millions of users globally.
 
-More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
+More playbooks at [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
 
 ---
 
@@ -300,7 +300,7 @@ More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [Open Source Marketing Playbook](https://github.com/Gingiris/gingiris-opensource) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [Open Source Marketing Playbook](https://clawhub.ai/user/gingiris) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 
@@ -308,19 +308,19 @@ More playbooks at [github.com/Gingiris](https://github.com/Gingiris)
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Developer Marketing Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
-| 📖 | [GitHub README Best Practices](https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
-| 📖 | [I Led AFFiNE from 0 to 60k GitHub Stars — Open Source Growth Playbooks](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [Developer Marketing Playbook](https://blog.gingiris.com/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+| 📖 | [GitHub README Best Practices](https://blog.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [I Led AFFiNE from 0 to 60k GitHub Stars — Open Source Growth Playbooks](https://blog.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
-
----
-
-> 💡 **Related:** The case study these tactics came from — [How I Led AFFiNE from 0 to 60k GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) walks through the full open-source growth playbook end to end.
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 
 ---
 
-**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+> 💡 **Related:** The case study these tactics came from — [How I Led AFFiNE from 0 to 60k GitHub Stars](https://blog.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) walks through the full open-source growth playbook end to end.
+
+---
+
+**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://blog.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
 
 ---
 
@@ -332,10 +332,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (battle-tested across 30+ launches):
-   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If this guide saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next maintainer find it via Google + AI search.*

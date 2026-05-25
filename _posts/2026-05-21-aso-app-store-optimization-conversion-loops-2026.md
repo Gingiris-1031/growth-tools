@@ -13,7 +13,7 @@ keywords: [aso app store optimization, app store optimization, mobile app growth
 
 **ASO app store optimization** matters more in 2026 because install growth is getting squeezed from both sides: paid acquisition is more expensive, and store pages are more crowded with lookalike AI-generated copy. The teams still winning organic installs are not gaming keywords. They are building tighter loops between search intent, screenshot clarity, activation, reviews, and localization. If rankings look unstable or installs are not converting into retained users, the missing piece is usually a system, not one more metadata tweak.
 
-If you want the full operating model behind this, start with the **[Gingiris ASO Growth Playbook](https://github.com/Gingiris/gingiris-aso-growth)**. It pairs well with **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** for launch sequencing, **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** if your app also feeds a SaaS motion, and **[Gingiris Open Source](https://github.com/Gingiris/gingiris-opensource)** when developer trust or GitHub distribution matters.
+If you want the full operating model behind this, start with the **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch sequencing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** if your app also feeds a SaaS motion, and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** when developer trust or GitHub distribution matters.
 
 ## TL;DR
 
@@ -147,7 +147,7 @@ ASO app store optimization drifts when listings stay static while the category e
 
 The goal is not constant chaos. It is steady learning. Small screenshot or copy gains can meaningfully raise install conversion without changing product scope.
 
-If you are pairing store page updates with broader launch distribution, **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** is useful because it connects listing positioning with Product Hunt, creator pushes, and community timing.
+If you are pairing store page updates with broader launch distribution, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** is useful because it connects listing positioning with Product Hunt, creator pushes, and community timing.
 
 ## 7. Localize Search Intent Before You Localize Words
 
@@ -161,7 +161,7 @@ A lot of teams translate listings too literally. That usually misses how users a
 - social proof style
 - pricing expectations and premium framing
 
-This matters even more for apps with a team or prosumer motion. If the app later expands into subscriptions, workspace adoption, or sales-supported onboarding, **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** helps bridge the gap between app-led acquisition and deeper revenue expansion.
+This matters even more for apps with a team or prosumer motion. If the app later expands into subscriptions, workspace adoption, or sales-supported onboarding, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** helps bridge the gap between app-led acquisition and deeper revenue expansion.
 
 ## Common ASO Mistakes That Still Hurt Growth
 

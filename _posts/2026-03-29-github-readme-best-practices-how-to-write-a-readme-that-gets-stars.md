@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub README Best Practices: 8 Rules That Got 60k+ Stars (2026)"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "The 8 README rules behind AFFiNE's 60k+ GitHub stars. Visuals, hook copy, install commands, and the 30-second readability test — with real before/after examples."
 faq:
   - q: "What should a GitHub README include?"
@@ -266,14 +266,14 @@ A great README doesn't just document — it sells.
 
 ## Free Resources
 
-- 📚 [Open Source Marketing Playbook](https://github.com/Gingiris/gingiris-opensource) — How to grow GitHub stars
-- 📚 [Product Hunt Launch Guide](https://github.com/Gingiris/gingiris-launch) — Launch strategy from 30x #1 winner
+- 📚 [Open Source Marketing Playbook](https://clawhub.ai/user/gingiris) — How to grow GitHub stars
+- 📚 [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — Launch strategy from 30x #1 winner
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource) — battle-tested strategies from 60k+ GitHub stars.*
+*This guide is part of the [Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies from 60k+ GitHub stars.*
 
 ---
 
@@ -281,8 +281,8 @@ A great README doesn't just document — it sells.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Get GitHub Stars](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Developer Marketing Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+| 📖 | [How to Get GitHub Stars](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Marketing Playbook](https://blog.gingiris.com/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

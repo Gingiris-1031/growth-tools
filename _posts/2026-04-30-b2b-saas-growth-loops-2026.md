@@ -3,7 +3,7 @@ title: "B2B SaaS Growth: 8 Loops That Compound in 2026"
 date: 2026-04-30
 description: "B2B SaaS growth guide with 8 compounding loops for ICP focus, activation, PLG to sales handoff, SEO, expansion, and retention."
 tags: [b2b, saas, growth, seo]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/04/30/b2b-saas-growth-loops-2026/"
+canonical_url: "https://blog.gingiris.com/blog/2026/04/30/b2b-saas-growth-loops-2026/"
 seo_title: "B2B SaaS Growth: 8 Loops That Compound in 2026"
 seo_description: "A practical B2B SaaS growth guide covering activation, PLG and sales handoff, commercial-intent SEO, expansion, and retention loops."
 keywords: [b2b saas growth, saas growth strategy, plg, sales led growth, b2b marketing]
@@ -13,7 +13,7 @@ keywords: [b2b saas growth, saas growth strategy, plg, sales led growth, b2b mar
 
 **B2B SaaS growth** is slower than consumer hype and less forgiving than open source vanity metrics. The teams that keep compounding in 2026 usually do not rely on one channel. They build loops between product adoption, sales feedback, search traffic, and customer expansion. If your pipeline feels noisy but revenue growth feels flat, the problem is often not effort. It is that your growth system does not connect acquisition to retention.
 
-If you want deeper playbooks behind these ideas, start with the **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)**. It pairs well with **[Gingiris Launch](https://github.com/Gingiris/gingiris-launch)** when you need go-to-market sequencing, and **[Gingiris Open Source](https://github.com/Gingiris/gingiris-opensource)** if your SaaS also grows through developer distribution.
+If you want deeper playbooks behind these ideas, start with the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** when you need go-to-market sequencing, and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** if your SaaS also grows through developer distribution.
 
 ## TL;DR
 
@@ -79,7 +79,7 @@ The strongest B2B SaaS companies rarely choose pure PLG or pure SLG forever. The
 | Sales assist | mid-market qualification | reduce risk and unblock adoption |
 | Customer success | expansion and retention | increase account depth |
 
-This is why **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)** is useful beyond acquisition. It is really about designing the full commercial system.
+This is why **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is useful beyond acquisition. It is really about designing the full commercial system.
 
 ## 4. Turn Sales Calls Into Content Assets
 
@@ -116,7 +116,7 @@ A lot of B2B SaaS growth content gets traffic that never becomes pipeline. That 
 - use-case pages by role
 - migration guides
 
-Search works best when the page is close to a real decision. If your SaaS supports launches or distribution work, the **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)** is a good example of content that stays practical instead of drifting generic.
+Search works best when the page is close to a real decision. If your SaaS supports launches or distribution work, the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)** is a good example of content that stays practical instead of drifting generic.
 
 ## 6. Design Expansion Before the First Renewal
 
@@ -144,7 +144,7 @@ Many case studies are too polished to be believable. Good ones reduce buying ris
 4. what changed in workflow or revenue
 5. what happened next
 
-That structure works for landing pages, outbound follow-up, and SEO. It also pairs well with open distribution if you publish product learnings publicly. For developer-facing teams, **[Gingiris Open Source](https://github.com/Gingiris/gingiris-opensource)** can help connect public trust signals to commercial demand.
+That structure works for landing pages, outbound follow-up, and SEO. It also pairs well with open distribution if you publish product learnings publicly. For developer-facing teams, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** can help connect public trust signals to commercial demand.
 
 ## 8. Make Retention a Growth Channel
 

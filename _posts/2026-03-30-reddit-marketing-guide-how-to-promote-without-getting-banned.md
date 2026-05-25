@@ -2,8 +2,8 @@
 layout: post
 title: "Reddit Marketing for B2B SaaS in 2026 (Subreddit Playbook)"
 date: 2026-03-30
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-reddit-marketing.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/
+image: "https://blog.gingiris.com/assets/images/blog-reddit-marketing.jpg"
 description: "0.3-1.5% post-to-customer conversion in fit subreddits. Includes r/selfhosted, r/programming, r/SaaS playbooks plus 5 mistakes that get you shadowbanned."
 faq:
   - q: "Is Reddit marketing effective for SaaS?"
@@ -162,7 +162,7 @@ For global tech subreddits (r/programming, r/startups):
 | [Later for Reddit](https://laterforreddit.com/) | Schedule posts for optimal times | Free |
 | [Reddit Marketing Strategist](https://leapility.com/?agent=i-8poxa0f1xq9q) | AI agent to find subreddits + understand rules | Freemium |
 
-More Reddit tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)
+More Reddit tools → [Growth Tools Directory](https://blog.gingiris.com/)
 
 ---
 
@@ -197,9 +197,9 @@ The goal isn't to "market" on Reddit. It's to become a valuable community member
 
 ## Related Resources
 
-- [Full Growth Tools Directory](https://gingiris.github.io/growth-tools/) — 100+ tools for startup growth
-- [Product Hunt Launch Guide](https://github.com/Gingiris/gingiris-launch) — 30x #1 winner's playbook
-- [Open Source Marketing](https://github.com/Gingiris/gingiris-opensource) — 0 to 33k stars strategy
+- [Full Growth Tools Directory](https://blog.gingiris.com/) — 100+ tools for startup growth
+- [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — 30x #1 winner's playbook
+- [Open Source Marketing](https://clawhub.ai/user/gingiris) — 0 to 33k stars strategy
 
 ---
 
@@ -226,15 +226,15 @@ Use Reddit Search, SubredditStats, or the Reddit List tool. Search for keywords 
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt Launch: 30x #1 Winner's Guide](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [SaaS Go-to-Market Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Product Hunt Launch: 30x #1 Winner's Guide](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [SaaS Go-to-Market Strategy](https://blog.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 
 ## Related Articles
 
-- [Best Social Media Listening Tools for Startups in 2026](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
-- [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Best Social Media Listening Tools for Startups in 2026](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+- [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
 
 <script type="application/ld+json">
 {

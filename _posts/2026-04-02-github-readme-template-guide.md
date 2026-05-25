@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub README Template (2026): Best Practices + 12 Examples"
 date: 2026-04-02
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/04/02/github-readme-template-guide/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "12 production-grade GitHub README templates with copy-paste sections, badges, GIF placeholders, and the exact structure that took AFFiNE to 60K stars."
 faq:
   - q: "What is a GitHub README template?"
@@ -309,7 +309,7 @@ MIT © [Your Name](https://your-website.com)
 3. **Optimize your first paragraph** with search keywords
 4. **Track your star growth** at [star-history.com](https://star-history.com)
 
-For more open source growth strategies, see [github.com/Gingiris/gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://clawhub.ai/user/gingiris) — the complete playbook from 0 to 60k stars.
 
 ---
 
@@ -322,4 +322,4 @@ For more open source growth strategies, see [github.com/Gingiris/gingiris-openso
 - **Scannable features**: Table > paragraphs
 - **Contributing**: Be specific, not generic
 
-*Part of the [Gingiris Open Source Growth Playbook](https://github.com/Gingiris/gingiris-opensource) — helping developers get their first 10,000 stars.*
+*Part of the [Gingiris Open Source Growth Playbook](https://clawhub.ai/user/gingiris) — helping developers get their first 10,000 stars.*

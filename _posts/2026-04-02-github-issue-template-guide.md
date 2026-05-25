@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub Issue Template: How to Get More Contributions and Build Community"
 date: 2026-04-02
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/04/02/github-issue-template-guide/
+image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "How to write GitHub issue templates that get better bug reports. Ready-to-use templates for bug reports, feature requests, and questions — copy and paste."
 faq:
   - q: "What is a GitHub issue template?"
@@ -92,7 +92,7 @@ Any alternative solutions you've considered.
 Mockups, examples, references.
 ```
 
-> 📖 **Related:** [GitHub PR Template Guide: Write Descriptions That Get Merged Faster](https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/)
+> 📖 **Related:** [GitHub PR Template Guide: Write Descriptions That Get Merged Faster](https://blog.gingiris.com/blog/2026/04/02/github-pr-template-guide/)
 
 ### 3. Pull Request Template
 
@@ -175,9 +175,9 @@ Before opening an issue:
 - **Labels**: Make them actionable
 - **Speed**: Respond within 48 hours
 
-For more open source growth strategies, see [github.com/Gingiris/gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://clawhub.ai/user/gingiris) — the complete playbook from 0 to 60k stars.
 
-*Part of the [Gingiris Open Source Growth Playbook](https://github.com/Gingiris/gingiris-opensource) — helping developers build open source communities.*
+*Part of the [Gingiris Open Source Growth Playbook](https://clawhub.ai/user/gingiris) — helping developers build open source communities.*
 
 ## Key Takeaways
 

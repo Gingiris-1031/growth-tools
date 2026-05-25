@@ -3,7 +3,7 @@ title: "App Store Optimization Guide: How to Rank Higher on iOS and Google Play 
 description: "Complete ASO guide covering keyword research, screenshot design, review management, and ranking algorithm differences between iOS App Store and Google Play. Learn the tactics that drove 10k+ daily downloads for top apps."
 date: 2026-04-12
 tags: [app-store-optimization, aso, ios, google-play, mobile-growth]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/12/app-store-optimization-guide/
+canonical_url: https://blog.gingiris.com/blog/2026/04/12/app-store-optimization-guide/
 ---
 
 ## TL;DR

@@ -2,8 +2,8 @@
 layout: post
 title: "Startup Marketing Strategy: From Zero to First 1,000 Users"
 date: 2026-04-01
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-startup-marketing.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/
+image: "https://blog.gingiris.com/assets/images/blog-startup-marketing.jpg"
 description: "Startup marketing strategy for getting from zero to first 1,000 users. Community-first approach, content strategy, and distribution channels that work."
 faq:
   - q: "How do you get your first 1,000 users for a startup?"
@@ -136,7 +136,7 @@ Your marketing strategy should be in place before you launch. You just should no
 - [Product Hunt Launch Guide: 30-Time #1 Winner's Playbook](/blog/product-hunt-launch-the-2026-playbook-for-winning-1) — Practical PH launch tactics
 - [Complete Startup Growth Framework: From $0 to $10M ARR](/blog/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr) — B2B growth strategies
 - [100+ Growth Tools for Startups Going Global](/blog/100-growth-tools-for-startups-going-global-2026-edition/
-- [GitHub Star Growth: 10 Proven Tactics](https://github.com/Gingiris/gingiris-opensource) — Open source growth strategies
+- [GitHub Star Growth: 10 Proven Tactics](https://clawhub.ai/user/gingiris) — Open source growth strategies
 
 ---
 
@@ -146,8 +146,8 @@ Your marketing strategy should be in place before you launch. You just should no
 
 ## Further Reading
 
-- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.github.io/growth-tools/blog/2026/04/growth-hacking-for-startups/)
-- [Word of Mouth Marketing: The Complete Guide](https://gingiris.github.io/growth-tools/blog/2026/04/word-of-mouth-marketing/)
-- [Content Marketing for Startups: 0 to 10k Visitors](https://gingiris.github.io/growth-tools/blog/2026/04/content-marketing-for-startups/)
-- [Go-to-Market Strategy: The Complete 2026 Playbook](https://gingiris.github.io/growth-tools/blog/2026/04/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
-- [Developer Advocate: Career & Strategy Guide](https://gingiris.github.io/growth-tools/blog/2026/04/developer-advocate-guide/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://blog.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
+- [Word of Mouth Marketing: The Complete Guide](https://blog.gingiris.com/blog/2026/04/word-of-mouth-marketing/)
+- [Content Marketing for Startups: 0 to 10k Visitors](https://blog.gingiris.com/blog/2026/04/content-marketing-for-startups/)
+- [Go-to-Market Strategy: The Complete 2026 Playbook](https://blog.gingiris.com/blog/2026/04/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Developer Advocate: Career & Strategy Guide](https://blog.gingiris.com/blog/2026/04/developer-advocate-guide/)

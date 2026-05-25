@@ -2,8 +2,8 @@
 layout: post
 title: "Product Hunt Launch Playbook B2B SaaS 2026 (30x #1 Winner)"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
+image: "https://blog.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "The exact T-6 to T-0 launch sprint that drove 30 daily #1 wins on Product Hunt. B2B SaaS focus, 2026 algorithm updates, hour-by-hour timeline."
 faq:
   - q: "How do you get #1 on Product Hunt?"
@@ -18,13 +18,13 @@ gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准�
 last_modified_at: 2026-04-26
 ---
 
-> 🎯 **Deep dive**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://gingiris.github.io/growth-tools/blog/2026/04/28/product-hunt-hunter-list-2026/) — the data behind why a 1k-follower active hunter beats a 50k-follower dormant one (r=0.61 vs r=0.12).
+> 🎯 **Deep dive**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://blog.gingiris.com/blog/2026/04/28/product-hunt-hunter-list-2026/) — the data behind why a 1k-follower active hunter beats a 50k-follower dormant one (r=0.61 vs r=0.12).
 
-> 📌 **Deep dive**: [Product Hunt LinkedIn DM Template (60% Open Rate Across 30 Launches)](https://gingiris.github.io/growth-tools/blog/2026/04/26/product-hunt-linkedin-dm-template/) — the exact 4-week T-6 to T-2 sprint, copy-paste templates, and why "comment >> upvote" beats the old playbook.
+> 📌 **Deep dive**: [Product Hunt LinkedIn DM Template (60% Open Rate Across 30 Launches)](https://blog.gingiris.com/blog/2026/04/26/product-hunt-linkedin-dm-template/) — the exact 4-week T-6 to T-2 sprint, copy-paste templates, and why "comment >> upvote" beats the old playbook.
 
-> ✍️ **Deep dive**: [Product Hunt Maker Comment Template (6 Variants from 30x #1 Winner)](https://gingiris.github.io/growth-tools/blog/2026/05/02/product-hunt-maker-comment-template/) — the launch-day first comment posted within 5 minutes of 12:01 AM PST. Founder-story openers hit ~68% read-through vs ~22% for feature-list openers.
+> ✍️ **Deep dive**: [Product Hunt Maker Comment Template (6 Variants from 30x #1 Winner)](https://blog.gingiris.com/blog/2026/05/02/product-hunt-maker-comment-template/) — the launch-day first comment posted within 5 minutes of 12:01 AM PST. Founder-story openers hit ~68% read-through vs ~22% for feature-list openers.
 
-> ⏱️ **Deep dive**: [Product Hunt Launch Day Timeline (Hour-by-Hour, PST)](https://gingiris.github.io/growth-tools/blog/2026/05/06/product-hunt-launch-day-timeline/) — minute-by-minute action map for the 24 hours from 12:01 AM PST to 23:59 PST, including the 14:00 PST peak (~30% of upvotes) and the closing-push window most makers miss.
+> ⏱️ **Deep dive**: [Product Hunt Launch Day Timeline (Hour-by-Hour, PST)](https://blog.gingiris.com/blog/2026/05/06/product-hunt-launch-day-timeline/) — minute-by-minute action map for the 24 hours from 12:01 AM PST to 23:59 PST, including the 14:00 PST peak (~30% of upvotes) and the closing-push window most makers miss.
 
 The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
 
@@ -34,7 +34,7 @@ I didn't sleep. I answered every comment. I watched the vote counter like a hawk
 
 30 launches later — I stopped panicking. The algorithm stopped feeling arbitrary. I had a map.
 
-This is that map. If you want a condensed version of the launch-day tasks, see our [Product Hunt launch checklist](https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/).
+This is that map. If you want a condensed version of the launch-day tasks, see our [Product Hunt launch checklist](https://blog.gingiris.com/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/).
 
 ---
 
@@ -97,7 +97,7 @@ Every number quoted in this guide comes from this dataset. Disagree with a claim
 ---
 
 
-> **Related reading:** [Best social listening tools for startups](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — how to monitor brand mentions & competitor buzz across Reddit, Twitter, Hacker News without a $500/mo tool.
+> **Related reading:** [Best social listening tools for startups](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — how to monitor brand mentions & competitor buzz across Reddit, Twitter, Hacker News without a $500/mo tool.
 
 > **Related tool:** [Analook](https://www.analook.com/) — pull a 60-second teardown of the 3-5 closest competitors *before* you finalize your PH tagline, so your positioning lands in the gap they missed.
 
@@ -168,7 +168,7 @@ Spend time watching [hunted.space](https://hunted.space) for 2–4 weeks before 
 
 **Friday, Saturday, Sunday** — fewer featured products, lower competition threshold.
 
-Before committing to a date, run through our [startup launch checklist](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) to make sure nothing gets missed.
+Before committing to a date, run through our [startup launch checklist](https://blog.gingiris.com/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) to make sure nothing gets missed.
 
 ---
 
@@ -252,7 +252,7 @@ Spread your outreach across time zones:
 
 ### The 72-hour cliff
 
-Traffic drops 80–90% within 72 hours of launch. This is normal. It is not a reason to panic. It is a reason to have your follow-up plan ready before launch day. For a deeper dive into sustaining momentum after the initial spike, read our guide on [what to do after your Product Hunt launch](https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/).
+Traffic drops 80–90% within 72 hours of launch. This is normal. It is not a reason to panic. It is a reason to have your follow-up plan ready before launch day. For a deeper dive into sustaining momentum after the initial spike, read our guide on [what to do after your Product Hunt launch](https://blog.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/).
 
 **The day-of capture:**
 - Embed your PH vote button on your homepage so traffic from KOLs and social media flows back to PH
@@ -311,11 +311,11 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 ## Free Resources
 
-📘 **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)** — Full templates and SOPs
+📘 **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)** — Full templates and SOPs
 
-📗 **[Gingiris Open Source Marketing](https://github.com/Gingiris/gingiris-opensource)** — OSS-specific tactics
+📗 **[Gingiris Open Source Marketing](https://clawhub.ai/user/gingiris)** — OSS-specific tactics
 
-📙 **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** — PLG and SLG strategies
+📙 **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** — PLG and SLG strategies
 
 ---
 
@@ -323,17 +323,17 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 | Category | Article |
 |----------|---------|
-| 📖 | [After Product Hunt: 7 Ways to Keep the Momentum](https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
-| 📖 | [Product Hunt Launch Checklist: The Complete 2026 Guide](https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) |
-| 📖 | [Startup Launch Checklist: 47 Tasks Before, During & After](https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) |
-| 📖 | [How to Launch on Product Hunt: Step-by-Step](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
-| 🇯🇵 | [Product Hunt 攻略ガイド（日本語版）](https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja/) |
-| 🇰🇷 | [프로덕트헌트 가이드（한국어판）](https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [AFFiNE GitHub Stars: 0 to 60K Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Generative Engine Optimization (GEO): Get Cited by ChatGPT & Perplexity](https://gingiris.github.io/growth-tools/blog/2026/04/17/generative-engine-optimization-complete-guide/) |
+| 📖 | [After Product Hunt: 7 Ways to Keep the Momentum](https://blog.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
+| 📖 | [Product Hunt Launch Checklist: The Complete 2026 Guide](https://blog.gingiris.com/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) |
+| 📖 | [Startup Launch Checklist: 47 Tasks Before, During & After](https://blog.gingiris.com/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) |
+| 📖 | [How to Launch on Product Hunt: Step-by-Step](https://blog.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 🇯🇵 | [Product Hunt 攻略ガイド（日本語版）](https://blog.gingiris.com/blog/2026/04/07/product-hunt-strategy-2026-ja/) |
+| 🇰🇷 | [프로덕트헌트 가이드（한국어판）](https://blog.gingiris.com/blog/2026/04/07/product-hunt-guide-ko/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [AFFiNE GitHub Stars: 0 to 60K Playbook](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Generative Engine Optimization (GEO): Get Cited by ChatGPT & Perplexity](https://blog.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 
 <!-- FAQ Schema for AI crawlers (GEO) -->
 <script type="application/ld+json">
@@ -402,7 +402,7 @@ PH is worth fighting for because of the badge and the downstream conversion. But
       "name": "Where can I find a free Product Hunt launch checklist?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A complete Product Hunt launch checklist (47 tasks across pre-launch, launch day, and post-launch) is free at https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/ . The companion playbook (this guide) covers the strategy behind each task — both are open source under the Gingiris growth-tools repo on GitHub."
+        "text": "A complete Product Hunt launch checklist (47 tasks across pre-launch, launch day, and post-launch) is free at https://blog.gingiris.com/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/ . The companion playbook (this guide) covers the strategy behind each task — both are open source under the Gingiris growth-tools repo on GitHub."
       }
     }
   ]
@@ -415,7 +415,7 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 **LinkedIn DM open rate up to ~60% in 2026 Q1** (vs 47% in late 2025) — see new companion post for the exact template.
 
-**Hour-by-hour PST timeline added (2026-05-06)** — covers the full 24-hour launch day with the 14:00 PST peak and the 21:00-23:59 PST closing-push window. See the [launch day timeline](https://gingiris.github.io/growth-tools/blog/2026/05/06/product-hunt-launch-day-timeline/).
+**Hour-by-hour PST timeline added (2026-05-06)** — covers the full 24-hour launch day with the 14:00 PST peak and the 21:00-23:59 PST closing-push window. See the [launch day timeline](https://blog.gingiris.com/blog/2026/05/06/product-hunt-launch-day-timeline/).
 
 *Last updated: 2026-05-06 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
@@ -429,11 +429,11 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min launch review](https://gingiris.com/en/)** — bring your draft tagline, hunter shortlist, or DM template. I personally reply within 24h. No pitch deck needed.
 2. ⭐ **Star the open-source playbooks** (the strategy + the templates from 30 daily #1 wins):
-   - [`Gingiris/gingiris-launch`](https://github.com/Gingiris/gingiris-launch) — Product Hunt strategy playbook (this guide's source repo)
-   - [`Gingiris/gingiris-opensource`](https://github.com/Gingiris/gingiris-opensource) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://github.com/Gingiris/growth-tools) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook (this guide's source repo)
+   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
-*If this playbook saved you a missed launch slot, a ⭐ on the [gingiris-launch](https://github.com/Gingiris/gingiris-launch) repo is the highest compliment — and it helps the next maker find it via Google + AI search.*
+*If this playbook saved you a missed launch slot, a ⭐ on the [gingiris-launch](https://clawhub.ai/user/gingiris) repo is the highest compliment — and it helps the next maker find it via Google + AI search.*
 

@@ -2,8 +2,8 @@
 layout: post
 title: "SaaS Growth Strategy: Complete Framework from $0 to $10M ARR"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-saas-gtm.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/
+image: "https://blog.gingiris.com/assets/images/blog-saas-gtm.jpg"
 description: "Complete SaaS growth strategy framework from $0 to $10M ARR. Product-led, sales-led, and community-led growth with real metrics and case studies."
 faq:
   - q: "What is the SaaS growth framework from 0 to $10M ARR?"
@@ -189,15 +189,15 @@ Funding is fuel, not validation.
 
 ## Free Resources
 
-- 📚 [B2B SaaS Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth) — Complete growth guide
-- 📚 [Product Hunt Launch Guide](https://github.com/Gingiris/gingiris-launch) — Launch strategy from 30x #1
-- 🛠️ [PH Comment Generator](https://gingiris.github.io/ph-comment-generator/) — Free tool for launch prep
+- 📚 [B2B SaaS Growth Playbook](https://clawhub.ai/user/gingiris) — Complete growth guide
+- 📚 [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — Launch strategy from 30x #1
+- 🛠️ [PH Comment Generator](https://clawhub.ai/user/gingiris) — Free tool for launch prep
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth) — battle-tested strategies from $10M+ raised.*
+*This guide is part of the [Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies from $10M+ raised.*
 
 ---
 
@@ -205,8 +205,8 @@ Funding is fuel, not validation.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [SaaS Go-to-Market](https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
-| 📖 | [Product Hunt Launch Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [SaaS Go-to-Market](https://blog.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Product Hunt Launch Playbook](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

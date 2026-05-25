@@ -2,8 +2,8 @@
 layout: post
 title: "Product Hunt Launch Checklist 2026 (From 30x #1 Wins)"
 date: 2026-03-29
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/
+image: "https://blog.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "The complete 2026 Product Hunt launch checklist from 30x daily #1 experience. Pre-launch, launch day, and post-launch tasks with exact timing."
 faq:
   - q: "What is the complete Product Hunt launch checklist?"
@@ -62,7 +62,7 @@ Use code HUNT20 for 20% off.
 What feature would you try first? 👇
 ```
 
-> 🛠️ **Pro tip**: Use our free [Product Hunt Comment Generator](https://gingiris.github.io/ph-comment-generator/) to create professional maker comments in seconds.
+> 🛠️ **Pro tip**: Use our free [Product Hunt Comment Generator](https://clawhub.ai/user/gingiris) to create professional maker comments in seconds.
 
 ## Launch Day Timeline
 
@@ -86,14 +86,14 @@ What feature would you try first? 👇
 ## Free Tools & Resources
 
 🛠️ **Free Tools**:
-- [Product Hunt Comment Generator](https://gingiris.github.io/ph-comment-generator/) - Create winning maker comments
+- [Product Hunt Comment Generator](https://clawhub.ai/user/gingiris) - Create winning maker comments
 
 📚 **Complete Playbook**:
-- ⭐ [Product Hunt Launch Playbook on GitHub](https://github.com/Gingiris/gingiris-launch) - Full strategy with templates
+- ⭐ [Product Hunt Launch Playbook on GitHub](https://clawhub.ai/user/gingiris) - Full strategy with templates
 
 ---
 
-*This guide is based on 30x daily #1 experience. Star the [GitHub repo](https://github.com/Gingiris/gingiris-launch) for more tactics!*
+*This guide is based on 30x daily #1 experience. Star the [GitHub repo](https://clawhub.ai/user/gingiris) for more tactics!*
 
 What's your biggest Product Hunt launch challenge? Let me know in the comments! 👇
 
@@ -103,10 +103,10 @@ What's your biggest Product Hunt launch challenge? Let me know in the comments! 
 
 | Category | Article |
 |----------|---------|
-| 📖 | [PH Playbook](https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [How to Launch](https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [PH Playbook](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [How to Launch](https://blog.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [

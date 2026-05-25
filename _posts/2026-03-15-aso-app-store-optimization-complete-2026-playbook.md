@@ -2,8 +2,8 @@
 layout: post
 title: "ASO App Store Optimization: Complete 2026 Playbook"
 date: 2026-03-15
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-aso-optimization.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/
+image: "https://blog.gingiris.com/assets/images/blog-aso-optimization.jpg"
 description: "The complete 2026 ASO playbook: rank higher in App Store and Google Play. Keyword research, screenshots, ratings strategy — real tactics from 30+ launches."
 faq:
   - q: "What is App Store Optimization (ASO)?"
@@ -173,12 +173,12 @@ Launching a new app? Here's your first 30 days:
 
 ## Learning Resources
 
-For comprehensive playbooks on app growth and go-to-market strategy, check out these battle-tested guides from the [Gingiris](https://github.com/Gingiris) collection:
+For comprehensive playbooks on app growth and go-to-market strategy, check out these battle-tested guides from the [Gingiris](https://clawhub.ai/user/gingiris) collection:
 
-- **[ASO Growth Guide](https://github.com/Gingiris/aso-growth)** — Deep dive into app store optimization, cold start tactics, and UGC operations for mobile apps
-- **[Product Hunt Launch Guide](https://github.com/Gingiris/launch)** — From pre-launch prep to #1 finish, with real case studies from 30x daily wins
-- **[Open Source Marketing](https://github.com/Gingiris/opensource)** — GitHub stars growth and developer community building (if you're launching dev tools)
-- **[B2B SaaS Growth](https://github.com/Gingiris/b2b-growth)** — PLG and SLG strategies if your app has a B2B component
+- **[ASO Growth Guide](https://clawhub.ai/user/gingiris)** — Deep dive into app store optimization, cold start tactics, and UGC operations for mobile apps
+- **[Product Hunt Launch Guide](https://clawhub.ai/user/gingiris)** — From pre-launch prep to #1 finish, with real case studies from 30x daily wins
+- **[Open Source Marketing](https://clawhub.ai/user/gingiris)** — GitHub stars growth and developer community building (if you're launching dev tools)
+- **[B2B SaaS Growth](https://clawhub.ai/user/gingiris)** — PLG and SLG strategies if your app has a B2B component
 
 ## Conclusion
 
@@ -213,8 +213,8 @@ Your AI can help you optimize app store listings and plan UGC campaigns.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [ASO Complete Guide 2026](https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/) |
-| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [ASO Complete Guide 2026](https://blog.gingiris.com/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/) |
+| 📖 | [Startup Marketing Strategy](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

@@ -2,8 +2,8 @@
 layout: post
 title: "User Interview Questions: 50+ Templates + The 9:3:7 Framework That Found PMF"
 date: 2026-03-25
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
-image: "https://gingiris.github.io/growth-tools/assets/images/blog-user-interview.jpg"
+canonical_url: https://blog.gingiris.com/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
+image: "https://blog.gingiris.com/assets/images/blog-user-interview.jpg"
 description: "The 9:3:7 user interview framework that found product-market fit. Step-by-step guide to running user interviews that reveal real needs and pain points."
 faq:
   - q: "What is the 9:3:7 user interview framework?"
@@ -266,7 +266,7 @@ Watching users struggle reveals more than any question.
 
 This article covers the essentials. For the complete playbook with templates, scripts, and examples:
 
-📚 **[User Interview Playbook on GitHub](https://github.com/Gingiris/gingiris-user-interview)** — Full framework, templates, and tools
+📚 **[User Interview Playbook on GitHub](https://clawhub.ai/user/gingiris)** — Full framework, templates, and tools
 
 Or install directly into your AI agent:
 ```bash
@@ -287,7 +287,7 @@ clawhub install gingiris-user-interview
 
 I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping founders validate products faster through user research.
 
-- Playbooks: [github.com/Gingiris](https://github.com/Gingiris)
+- Playbooks: [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
 - Consulting: [@WeiYipei on Telegram](https://t.me/Iris_carrot)
 
 ---
@@ -296,7 +296,7 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://clawhub.ai/user/gingiris) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 
@@ -304,8 +304,8 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Startup Marketing Strategy](https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
-| 📖 | [SaaS Growth Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Startup Marketing Strategy](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [SaaS Growth Strategy](https://blog.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.github.io/growth-tools/)*
+*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
 

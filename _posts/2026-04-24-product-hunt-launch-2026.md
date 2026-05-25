@@ -3,7 +3,7 @@ title: "Product Hunt Launch: 10 Moves That Still Win in 2026"
 date: 2026-04-24
 description: "Product Hunt launch guide with 10 practical moves to improve positioning, warm traffic, maker replies, launch-day conversion, and post-launch momentum."
 tags: [product-hunt, launch-strategy, startup-growth, seo, go-to-market]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/24/product-hunt-launch-2026/
+canonical_url: https://blog.gingiris.com/blog/2026/04/24/product-hunt-launch-2026/
 seo_title: "Product Hunt Launch: 10 Moves That Still Win in 2026"
 seo_description: "A practical Product Hunt launch guide covering warm traffic, maker comments, launch-day replies, conversion setup, and post-launch SEO momentum."
 keywords: [product hunt launch, product hunt strategy, product hunt launch checklist, startup launch, product hunt marketing]
@@ -13,7 +13,7 @@ keywords: [product hunt launch, product hunt strategy, product hunt launch check
 
 A strong **Product Hunt launch** is still one of the fastest ways for startups to earn attention, backlinks, social proof, and early user feedback. But the playbook changed. In 2026, teams that win on Product Hunt do not just show up on launch day. They prepare the page, seed warm traffic, reply fast, and turn the spike into longer-tail SEO and conversion assets.
 
-If you want the deeper operating system behind this, start with the **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)**.
+If you want the deeper operating system behind this, start with the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)**.
 
 ## TL;DR
 
@@ -120,7 +120,7 @@ Instead of letting launch traffic bounce, send people toward assets you control:
 - GitHub repo or docs
 - related blog content
 
-If you are growing an open source or devtool product, the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)** is a strong reference for turning launch attention into repo visits, stars, and repeat discovery.
+If you are growing an open source or devtool product, the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)** is a strong reference for turning launch attention into repo visits, stars, and repeat discovery.
 
 ## 7. Build a Post-Launch Content Loop
 
@@ -142,7 +142,7 @@ Product Hunt can drive curiosity, but curiosity alone does not pay.
 
 If you sell to teams, your launch page should connect clearly to your B2B motion. That means your site, CTA, and onboarding should signal the next step.
 
-The **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)** is useful here because it covers the handoff from attention to activation, expansion, and revenue.
+The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is useful here because it covers the handoff from attention to activation, expansion, and revenue.
 
 ## 9. Localize the Story, Not Just the Interface
 
@@ -155,7 +155,7 @@ A lot of teams think about localization too late. If you already have interest f
 - share launch recaps in regional communities
 - collect comments and feedback from different markets
 
-This matters even more for mobile and consumer products. The **[Gingiris ASO Growth Playbook](https://github.com/Gingiris/gingiris-aso-growth)** is helpful when launch distribution needs to connect directly to app store visibility and installs.
+This matters even more for mobile and consumer products. The **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)** is helpful when launch distribution needs to connect directly to app store visibility and installs.
 
 ## 10. Measure the Right Things After Launch Day
 

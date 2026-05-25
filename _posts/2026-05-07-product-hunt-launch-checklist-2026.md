@@ -3,7 +3,7 @@ title: "Product Hunt Launch Checklist: 9 Plays for 2026"
 date: 2026-05-07
 description: "Product Hunt launch checklist with 9 practical plays for sharper positioning, warmer traffic, faster maker replies, and stronger post-launch compounding."
 tags: [product-hunt, launch-strategy, startup-growth, seo, go-to-market]
-canonical_url: "https://gingiris.github.io/growth-tools/blog/2026/05/07/product-hunt-launch-checklist-2026/"
+canonical_url: "https://blog.gingiris.com/blog/2026/05/07/product-hunt-launch-checklist-2026/"
 seo_title: "Product Hunt Launch Checklist: 9 Plays for 2026"
 seo_description: "A practical Product Hunt launch checklist covering positioning, warm traffic, maker replies, follow-up content, and post-launch conversion loops."
 keywords: [product hunt launch, product hunt launch checklist, product hunt strategy, startup launch, product hunt marketing]
@@ -13,7 +13,7 @@ keywords: [product hunt launch, product hunt launch checklist, product hunt stra
 
 A good **Product Hunt launch** still creates leverage in 2026, but only when the launch page, warm traffic, maker replies, and post-launch content all work together. Too many teams treat Product Hunt like a one-day lottery ticket. The better approach is to use it as a compact distribution event that feeds SEO, signups, customer interviews, and even GitHub discovery. If your launch strategy stops at upvotes, you are leaving most of the value on the table.
 
-If you want the deeper operating system behind this, start with the **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)**.
+If you want the deeper operating system behind this, start with the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)**.
 
 ## TL;DR
 
@@ -117,7 +117,7 @@ If your Product Hunt launch sends everyone to a weak homepage with no next step,
 - docs or use-case pages
 - GitHub repo for developer-facing products
 
-If your product has an open-source angle, the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)** is worth studying because it shows how launch attention can convert into repo visits, stars, and longer-term developer trust.
+If your product has an open-source angle, the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)** is worth studying because it shows how launch attention can convert into repo visits, stars, and longer-term developer trust.
 
 ## 7. Match the Launch to Your Revenue Motion
 
@@ -125,7 +125,7 @@ Not every Product Hunt audience converts the same way.
 
 If you are selling into teams, the launch page and landing page should hint at the real expansion path. Self-serve signups, demos, templates, or free tools can all work, but they need to match the business model.
 
-The **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)** is especially useful if your Product Hunt launch is meant to feed a wider B2B SaaS growth loop, not just generate temporary awareness.
+The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is especially useful if your Product Hunt launch is meant to feed a wider B2B SaaS growth loop, not just generate temporary awareness.
 
 ## 8. Turn Launch Feedback Into Search Content
 
@@ -152,7 +152,7 @@ A lot of global teams launch in English and stop there. That is fine for the pag
 - localize screenshot text for mobile products
 - ask power users in different markets to translate the value proposition into natural language
 
-If the product has a mobile motion, the **[Gingiris ASO Growth Playbook](https://github.com/Gingiris/gingiris-aso-growth)** helps connect launch attention with app store visibility and conversion.
+If the product has a mobile motion, the **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)** helps connect launch attention with app store visibility and conversion.
 
 ## A Simple Product Hunt Launch Checklist
 

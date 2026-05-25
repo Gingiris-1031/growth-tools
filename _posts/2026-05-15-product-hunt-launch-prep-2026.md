@@ -13,7 +13,7 @@ keywords: [product hunt launch, product hunt launch strategy, product hunt prep,
 
 A strong **Product Hunt launch** is usually decided before launch day. Founders often focus on hunters, upvotes, or a perfect posting time, but the real leverage comes from positioning, warm traffic, onboarding readiness, and fast feedback loops. If your Product Hunt launch attracts curiosity but your page, comments, and landing flow do not convert that curiosity into signups, demos, or stars, the spike disappears fast.
 
-If you want the deeper operating system behind this, start with the **[Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)**. It is especially useful alongside **[Gingiris Open Source](https://github.com/Gingiris/gingiris-opensource)** for developer launches, **[Gingiris B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth)** for SaaS follow-through, and **[Gingiris ASO Growth](https://github.com/Gingiris/gingiris-aso-growth)** if your launch needs to feed app store demand.
+If you want the deeper operating system behind this, start with the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)**. It is especially useful alongside **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for developer launches, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for SaaS follow-through, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your launch needs to feed app store demand.
 
 ## TL;DR
 
@@ -116,7 +116,7 @@ A Product Hunt launch underperforms when the click lands on a generic homepage.
 - a GitHub repo for developer products
 - a waitlist with a clear reason to join now
 
-If the product has a developer motion, the **[Gingiris Open Source Playbook](https://github.com/Gingiris/gingiris-opensource)** can help convert launch attention into repo visits and long-term trust.
+If the product has a developer motion, the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)** can help convert launch attention into repo visits and long-term trust.
 
 ## 7. Connect the Launch to Your Revenue Motion
 
@@ -124,7 +124,7 @@ A Product Hunt launch should reflect how the business actually grows.
 
 If you are building a SaaS product, the launch page should not stop at awareness. It should support a broader pipeline that might include self-serve activation, demo requests, team expansion, or content retargeting.
 
-The **[Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth)** is a strong companion here because it helps turn launch traffic into a repeatable B2B SaaS growth loop instead of a vanity spike.
+The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is a strong companion here because it helps turn launch traffic into a repeatable B2B SaaS growth loop instead of a vanity spike.
 
 ## 8. Plan the Post-Launch Content While You Still Have Attention
 

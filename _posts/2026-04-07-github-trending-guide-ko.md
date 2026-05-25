@@ -3,8 +3,8 @@ layout: post
 title: "GitHub Trending 등록 방법: 5개월 만에 28번 오른 비결 (2026년)"
 date: 2026-04-07
 lang: ko
-hreflang_en: https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending/
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/07/github-trending-guide-ko/
+hreflang_en: https://blog.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/
+canonical_url: https://blog.gingiris.com/blog/2026/04/07/github-trending-guide-ko/
 description: "AFFiNE이 5개월간 GitHub Trending에 28번 등록된 실제 전략. 점화 타이밍, README 최적화, 커뮤니티 활용법까지."
 categories: [github, trending, korean]
 tags: [GitHub, Trending, 오픈소스, 스타]

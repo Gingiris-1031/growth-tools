@@ -3,7 +3,7 @@ title: "B2B SaaS Growth: From 0 to $10M ARR — The Playbook That Works"
 date: 2026-04-05
 description: "B2B SaaS growth strategies that scale from 0 to $10M ARR. PLG vs SLG frameworks, 7 proven growth tactics, real case studies, and the metrics that matter."
 tags: [saas, b2b, growth, startup, marketing, product-led-growth]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/
+canonical_url: https://blog.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/
 seo_title: "B2B SaaS Growth Playbook: Proven Strategies from 0 to $10M ARR"
 seo_description: "B2B SaaS growth strategies that scale from 0 to $10M ARR. PLG vs SLG frameworks, 7 proven growth tactics, real case studies, and the metrics that matter."
 keywords: [b2b saas growth, saas growth strategy, product led growth, b2b marketing, startup growth]
@@ -219,15 +219,15 @@ The key insight is that B2B SaaS growth isn't about doing everything — it's ab
 - [Go-to-Market Strategy: The Complete 2026 Playbook for Startups](/blog/go-to-market-strategy-the-complete-2026-playbook-for-startups)
 - [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/startup-marketing-strategy-from-zero-to-first-1000-users)
 - [Reddit Marketing Guide: How to Promote Without Getting Banned](/blog/reddit-marketing-guide-how-to-promote-without-getting-banned)
-- [GitHub](https://github.com/Gingiris/gingiris-b2b-growth)
+- [GitHub](https://clawhub.ai/user/gingiris)
 
 ---
 
-*This article is part of the [Gingiris B2B Growth Playbook](https://github.com/Gingiris/gingiris-b2b-growth). For a complete framework covering PLG, SLG, customer success, and pricing strategies, check out the full playbook on GitHub.*
+*This article is part of the [Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris). For a complete framework covering PLG, SLG, customer success, and pricing strategies, check out the full playbook on GitHub.*
 
 ---
 
-**📖 Related Reading:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+**📖 Related Reading:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://blog.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
 
 <script type="application/ld+json">
 {
