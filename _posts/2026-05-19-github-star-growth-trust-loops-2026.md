@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 Trust Loops That Compound in 2026"
 date: 2026-05-19
 description: "A practical GitHub star growth guide covering README clarity, trust loops, fast maintainer replies, launch waves, and search-driven compounding."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://growth.gingiris.com/blog/2026/05/19/github-star-growth-trust-loops-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/05/19/github-star-growth-trust-loops-2026/"
 seo_title: "GitHub Star Growth: 7 Trust Loops That Compound in 2026"
 seo_description: "Learn 7 practical GitHub star growth trust loops for 2026, from README clarity and maintainer replies to launch waves and search compounding."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]

@@ -3,7 +3,7 @@ title: "ASO App Store Optimization: 7 Fixes That Still Work in 2026"
 date: 2026-05-06
 description: "ASO app store optimization guide with 7 practical fixes for keyword focus, screenshots, reviews, localization, and retention-driven organic growth."
 tags: [aso, app-store-optimization, mobile-growth, ios, google-play]
-canonical_url: "https://growth.gingiris.com/blog/2026/05/06/aso-app-store-optimization-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/05/06/aso-app-store-optimization-2026/"
 seo_title: "ASO App Store Optimization: 7 Fixes That Still Work in 2026"
 seo_description: "A practical ASO app store optimization guide covering keyword focus, screenshot strategy, reviews, localization, and retention-backed organic growth."
 keywords: [aso app store optimization, app store optimization, aso, mobile app growth, app store seo]

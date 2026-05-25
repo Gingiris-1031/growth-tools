@@ -3,7 +3,7 @@ title: "B2B SaaS Growth: 7 Expansion Loops for 2026"
 date: 2026-05-25
 description: "A practical B2B SaaS growth guide on expansion loops, trigger moments, onboarding handoffs, and account-based compounding in 2026."
 tags: [b2b-saas, saas-growth, startup-growth, seo, go-to-market]
-canonical_url: "https://growth.gingiris.com/blog/2026/05/25/b2b-saas-growth-expansion-loops-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/05/25/b2b-saas-growth-expansion-loops-2026/"
 seo_title: "B2B SaaS Growth: 7 Expansion Loops for 2026"
 seo_description: "Learn 7 practical B2B SaaS growth expansion loops for 2026, from onboarding and trigger moments to retention and account expansion."
 keywords: [b2b saas growth, saas growth, expansion loops, b2b growth, retention and expansion]

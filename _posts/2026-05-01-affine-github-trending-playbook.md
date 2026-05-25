@@ -5,7 +5,7 @@ date: 2026-05-01 09:00:00 +0800
 last_modified_at: 2026-05-01
 categories: [open-source, github-trending, growth]
 tags: [affine, github-trending, github-stars, open-source, playbook]
-canonical_url: https://growth.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/
+canonical_url: https://gingiris.tools/blog/2026/05/01/affine-github-trending-playbook/
 description: "AFFiNE appeared on GitHub Trending 28 separate times across 2022-2026. Here's the repeatable system: which signals trigger Trending, optimal launch windows, and 5 mistakes that kill velocity."
 faq:
   - q: "How many times did AFFiNE appear on GitHub Trending?"

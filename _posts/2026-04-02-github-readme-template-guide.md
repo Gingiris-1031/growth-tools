@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub README Template (2026): Best Practices + 12 Examples"
 date: 2026-04-02
-canonical_url: https://growth.gingiris.com/blog/2026/04/02/github-readme-template-guide/
-image: "https://growth.gingiris.com/assets/images/blog-github-stars.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/02/github-readme-template-guide/
+image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
 description: "12 production-grade GitHub README templates with copy-paste sections, badges, GIF placeholders, and the exact structure that took AFFiNE to 60K stars."
 faq:
   - q: "What is a GitHub README template?"

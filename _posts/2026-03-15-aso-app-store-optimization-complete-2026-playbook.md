@@ -2,8 +2,8 @@
 layout: post
 title: "ASO App Store Optimization: Complete 2026 Playbook"
 date: 2026-03-15
-canonical_url: https://growth.gingiris.com/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/
-image: "https://growth.gingiris.com/assets/images/blog-aso-optimization.jpg"
+canonical_url: https://gingiris.tools/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/
+image: "https://gingiris.tools/assets/images/blog-aso-optimization.jpg"
 description: "The complete 2026 ASO playbook: rank higher in App Store and Google Play. Keyword research, screenshots, ratings strategy — real tactics from 30+ launches."
 faq:
   - q: "What is App Store Optimization (ASO)?"
@@ -213,8 +213,8 @@ Your AI can help you optimize app store listings and plan UGC campaigns.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [ASO Complete Guide 2026](https://growth.gingiris.com/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/) |
-| 📖 | [Startup Marketing Strategy](https://growth.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [ASO Complete Guide 2026](https://gingiris.tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026/) |
+| 📖 | [Startup Marketing Strategy](https://gingiris.tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://gingiris.tools/)*
 

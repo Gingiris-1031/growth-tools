@@ -5,7 +5,7 @@ date: 2026-04-26 14:00:00 +0800
 last_modified_at: 2026-04-26
 categories: [product-hunt, growth, outreach]
 tags: [product-hunt, linkedin, outreach, launch, ph, dm-template]
-canonical_url: https://growth.gingiris.com/blog/2026/04/26/product-hunt-linkedin-dm-template/
+canonical_url: https://gingiris.tools/blog/2026/04/26/product-hunt-linkedin-dm-template/
 description: "The exact LinkedIn DM template that drove a ~60% open rate and ~25% reply rate across 30 Product Hunt #1 launches in 2024-2026. Includes T-6 to T-2 outreach sprint, do-not-send mistakes, and 4 follow-up variants."
 faq:
   - q: "What's the average open rate for LinkedIn DM outreach in 2026?"
@@ -197,9 +197,9 @@ LinkedIn DM outreach is **the single biggest velocity driver** in 2026. Hunters 
 
 
 
-> 🎯 **Companion piece**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://growth.gingiris.com/blog/2026/04/28/product-hunt-hunter-list-2026/) — the vetting framework, 4 hunter tiers, and what to actually say in the outreach DM.
+> 🎯 **Companion piece**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://gingiris.tools/blog/2026/04/28/product-hunt-hunter-list-2026/) — the vetting framework, 4 hunter tiers, and what to actually say in the outreach DM.
 
-> 🎯 **Launch-day companion**: [Product Hunt Maker Comment Template (6 Variants)](https://growth.gingiris.com/blog/2026/05/02/product-hunt-maker-comment-template/) — the first comment that goes live within 5 minutes of 12:01 AM PST. Same 30-launch dataset, founder-story openers hit ~68% read-through.
+> 🎯 **Launch-day companion**: [Product Hunt Maker Comment Template (6 Variants)](https://gingiris.tools/blog/2026/05/02/product-hunt-maker-comment-template/) — the first comment that goes live within 5 minutes of 12:01 AM PST. Same 30-launch dataset, founder-story openers hit ~68% read-through.
 
 ## Related Reading
 

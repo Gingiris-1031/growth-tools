@@ -3,8 +3,8 @@ title: "Open Source Marketing: The Complete 2026 Guide"
 description: "How to market open source projects successfully. Complete SOP from 0 to 60k GitHub stars based on real AFFiNE experience. GitHub growth, KOL strategy, community building."
 date: 2026-04-03
 tags: [open-source-marketing, github-growth, community-building, growth-tools]
-canonical_url: https://growth.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/
-image: "https://growth.gingiris.com/assets/images/blog-open-source-marketing.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/03/open-source-marketing-the-complete-guide/
+image: "https://gingiris.tools/assets/images/blog-open-source-marketing.jpg"
 faq:
   - q: "What is open source marketing?"
     a: "Open source marketing is the set of strategies used to grow awareness, adoption, and community around open source software projects. It combines traditional software marketing with community-specific tactics: GitHub star growth, developer community building, contributor recruitment, and open source-specific distribution channels (Hacker News, developer subreddits, GitHub trending). The unique aspect of open source marketing is that the product itself (the code) is the primary marketing asset — anyone can evaluate, fork, and contribute."
@@ -81,7 +81,7 @@ Successful open source projects run on a flywheel:
                    └──► Back to Quality
 ```
 
-Each cycle makes the project better and reaches more developers. A key accelerant in this flywheel is [getting your repo onto GitHub Trending](https://growth.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/) — even a single day on the trending page can deliver thousands of new stars.
+Each cycle makes the project better and reaches more developers. A key accelerant in this flywheel is [getting your repo onto GitHub Trending](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/) — even a single day on the trending page can deliver thousands of new stars.
 
 ---
 
@@ -121,7 +121,7 @@ $ [command] [args]
 [2-3 sentences on what problem it solves and why it is better]
 ```
 
-Your README is your highest-traffic landing page — it needs to convert browsers into users in under 60 seconds. For a detailed breakdown of README structure, badges, and visuals that drive star conversion, see our [GitHub README best practices](https://growth.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) guide.
+Your README is your highest-traffic landing page — it needs to convert browsers into users in under 60 seconds. For a detailed breakdown of README structure, badges, and visuals that drive star conversion, see our [GitHub README best practices](https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) guide.
 
 **Repository settings:**
 - Add topics: your tech stack + use case (e.g., "cli-tool", "productivity", "developer-tools")
@@ -179,7 +179,7 @@ Publish technical content on launch day:
 - Do not pitch — discuss
 - Be prepared for honest criticism
 
-Hacker News is one of the most powerful launch channels for open source projects, but the community has specific norms that trip up first-time posters. Read our [complete Hacker News Show HN guide](https://growth.gingiris.com/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) before submitting.
+Hacker News is one of the most powerful launch channels for open source projects, but the community has specific norms that trip up first-time posters. Read our [complete Hacker News Show HN guide](https://gingiris.tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) before submitting.
 
 **Twitter/X:**
 - Developer ecosystem is active here
@@ -190,7 +190,7 @@ Hacker News is one of the most powerful launch channels for open source projects
 **Product Hunt:**
 - Highest-signal launch platform for open source developer tools
 - A successful Product Hunt launch can deliver 500–2,000 GitHub stars in 48 hours
-- See the [Product Hunt Launch Playbook (30x #1 Winner)](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) for a complete strategy
+- See the [Product Hunt Launch Playbook (30x #1 Winner)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) for a complete strategy
 
 ---
 
@@ -222,7 +222,7 @@ The biggest barrier to contributions is not motivation — it is friction.
 | Twitter | Updates, community connection | Day 1 |
 | Newsletter | Deep updates, changelog | When you have 1000+ users |
 
-To find the right communities to seed your project in, use our [developer community directory](https://growth.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) — it maps 50+ communities by language, framework, and audience size.
+To find the right communities to seed your project in, use our [developer community directory](https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) — it maps 50+ communities by language, framework, and audience size.
 
 ### 8. Recognize Contributors
 
@@ -242,7 +242,7 @@ People contribute for intrinsic motivation, but recognition supercharges it:
 
 Stars are the currency of open source credibility. While they are a vanity metric on their own, they influence GitHub's discovery algorithms — trending page, search ranking, and recommendation feeds all factor in star velocity.
 
-For a data-driven breakdown of the specific tactics that grew AFFiNE from 0 to 33K stars, see our [GitHub star growth playbook](https://growth.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/).
+For a data-driven breakdown of the specific tactics that grew AFFiNE from 0 to 33K stars, see our [GitHub star growth playbook](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/).
 
 ### 10. KOL Strategy
 
@@ -254,7 +254,7 @@ Key Opinion Leaders in open source are the maintainers and influential developer
 3. Offer something genuinely useful for their audience
 4. Let them discover and share organically if they find it valuable
 
-> 💡 **Track who's already talking about you.** Before reaching out cold, use social listening tools to find developers who've already mentioned your project. These warm contacts convert far better than cold outreach. See [Best Social Media Listening Tools for Startups 2026](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) for a curated list.
+> 💡 **Track who's already talking about you.** Before reaching out cold, use social listening tools to find developers who've already mentioned your project. These warm contacts convert far better than cold outreach. See [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) for a curated list.
 
 **Example outreach:**
 ```
@@ -365,18 +365,18 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 
 | Category | Article |
 |----------|---------|
-| 🚀 | [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 👂 | [Best Social Media Listening Tools for Startups 2026](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |
-| 📖 | [Developer Marketing Guide](https://growth.gingiris.com/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences/) |
-| 📖 | [GitHub Star Growth: 10 Proven Tactics That Got Us 33K Stars](https://growth.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
-| 📖 | [How to Get on GitHub Trending](https://growth.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/) |
-| 📖 | [GitHub README Best Practices](https://growth.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
-| 📖 | [Developer Community Directory: Where to Find Your First 1,000 Users](https://growth.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
-| 📖 | [How to Launch on Hacker News (Show HN Guide)](https://growth.gingiris.com/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) |
-| 📖 | [How to Get More GitHub Stars](https://growth.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 🚀 | [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 👂 | [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |
+| 📖 | [Developer Marketing Guide](https://gingiris.tools/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences/) |
+| 📖 | [GitHub Star Growth: 10 Proven Tactics That Got Us 33K Stars](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [How to Get on GitHub Trending](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/) |
+| 📖 | [GitHub README Best Practices](https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [Developer Community Directory: Where to Find Your First 1,000 Users](https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
+| 📖 | [How to Launch on Hacker News (Show HN Guide)](https://gingiris.tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/) |
+| 📖 | [How to Get More GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
-*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
 ---
 
-*This guide is part of the [Gingiris Growth Tools](https://growth.gingiris.com/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
+*This guide is part of the [Gingiris Growth Tools](https://gingiris.tools/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*

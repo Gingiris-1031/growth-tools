@@ -4,8 +4,8 @@ title: "Product-Market Fit: 25 Signs You Have It + The Complete Measurement Chec
 description: "How to measure product-market fit: the Sean Ellis 40% rule, NPS benchmarks, retention curves, and a 25-point PMF checklist for SaaS founders. Real examples from AFFiNE's 60k-star journey."
 date: 2026-04-03
 tags: [product-market-fit, saas-growth, startup, metrics, product-strategy]
-canonical_url: https://growth.gingiris.com/blog/2026/04/03/product-market-fit-checklist/
-image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/03/product-market-fit-checklist/
+image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is the 40% rule for product-market fit?"
     a: "Sean Ellis's rule: ask users 'How would you feel if you could no longer use this product?' If 40%+ say 'very disappointed', you have PMF. Below 40% means you need to improve before scaling."
@@ -224,7 +224,7 @@ AFFiNE is an open-source knowledge management tool (docs, whiteboard, databases 
 
 **The lesson**: PMF rarely comes from improving your average. It comes from finding the segment where the signal is already strong and serving them so well that they become your evangelists.
 
-For growth tools and frameworks used by teams like AFFiNE, visit the [growth tools directory](https://growth.gingiris.com/).
+For growth tools and frameworks used by teams like AFFiNE, visit the [growth tools directory](https://gingiris.tools/).
 
 ---
 
@@ -383,4 +383,4 @@ That's how you find PMF. Not by building more features. By finding the people fo
 }
 </script>
 
-For more frameworks, tools, and templates to accelerate your SaaS growth journey, explore the complete [growth tools directory](https://growth.gingiris.com/).
+For more frameworks, tools, and templates to accelerate your SaaS growth journey, explore the complete [growth tools directory](https://gingiris.tools/).

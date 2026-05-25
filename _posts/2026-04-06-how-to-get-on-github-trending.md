@@ -2,8 +2,8 @@
 layout: post
 title: "How to Get on GitHub Trending: The Algorithm, the Tactics, and the Real Data"
 date: 2026-04-06
-canonical_url: https://growth.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/
-image: "https://growth.gingiris.com/assets/images/blog-github-stars.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/
+image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
 description: "How GitHub Trending actually works — and how AFFiNE appeared on it 28 times in 5 months. The velocity thresholds, timing strategy, and channel coordination that trigger it."
 faq:
   - q: "How does GitHub Trending work?"
@@ -16,8 +16,8 @@ faq:
     a: "Yes. The daily Trending list resets at midnight UTC. Weekly Trending resets on Mondays. Monthly resets on the first of each month. This means you can appear on daily Trending multiple times if you maintain elevated star velocity on different days."
   - q: "Is it worth trying to get on GitHub Trending?"
     a: "Yes — if you can trigger it. GitHub Trending is viewed by tens of thousands of developers daily who are actively looking for new projects. Unlike social media, Trending visitors are already in 'discovery mode,' which means conversion rates to stars and actual users are significantly higher than most other channels. The compound effect matters: each Trending appearance raises your baseline star rate, making the next appearance easier to trigger."
-hreflang_ja: https://growth.gingiris.com/blog/2026/04/07/github-trending-guide-ja/
-hreflang_ko: https://growth.gingiris.com/blog/2026/04/07/github-trending-guide-ko/
+hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ja/
+hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ko/
 ---
 
 It was a Tuesday morning in August 2022. I had been awake since 5 AM, watching our GitHub star counter. Not because I was anxious — I had actually set an alarm. We had been building toward this push for weeks: timed content, coordinated posts, a spreadsheet with 40 developers ready to share. By noon, the counter had moved from 340 to 680. By 8 PM: 1,100.
@@ -257,11 +257,11 @@ Total week 1: ~6,000 stars. Total day 43: 10,000 stars.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [AFFiNE GitHub Stars: 0 to 60K — The Full Story](https://growth.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [10 Proven Star Growth Tactics](https://growth.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
-| 📖 | [GitHub Stars History: How to Track & Analyze Growth](https://growth.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://growth.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://growth.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [AFFiNE GitHub Stars: 0 to 60K — The Full Story](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [10 Proven Star Growth Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [GitHub Stars History: How to Track & Analyze Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
-*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://gingiris.tools/)*
 

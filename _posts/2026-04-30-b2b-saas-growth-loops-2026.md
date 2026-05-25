@@ -3,7 +3,7 @@ title: "B2B SaaS Growth: 8 Loops That Compound in 2026"
 date: 2026-04-30
 description: "B2B SaaS growth guide with 8 compounding loops for ICP focus, activation, PLG to sales handoff, SEO, expansion, and retention."
 tags: [b2b, saas, growth, seo]
-canonical_url: "https://growth.gingiris.com/blog/2026/04/30/b2b-saas-growth-loops-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/04/30/b2b-saas-growth-loops-2026/"
 seo_title: "B2B SaaS Growth: 8 Loops That Compound in 2026"
 seo_description: "A practical B2B SaaS growth guide covering activation, PLG and sales handoff, commercial-intent SEO, expansion, and retention loops."
 keywords: [b2b saas growth, saas growth strategy, plg, sales led growth, b2b marketing]

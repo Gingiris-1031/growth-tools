@@ -3,7 +3,7 @@ title: "How to Get GitHub Stars Fast: A Developer's Growth Playbook"
 description: "The exact playbook for GitHub star growth that took open source projects from 0 to 10k+ stars. Includes Reddit, HackerNews, Product Hunt strategies with real case studies."
 date: "2026-04-14"
 tags: [github, opensource, growth, marketing]
-canonical_url: https://growth.gingiris.com/blog/2026/04/14/github-stars-growth-guide/
+canonical_url: https://gingiris.tools/blog/2026/04/14/github-stars-growth-guide/
 seo_title: "GitHub Star Growth Guide: 0 to 10k Stars in 18 Months"
 seo_description: "Learn the battle-tested playbook for GitHub star growth. Reddit, HackerNews, Product Hunt strategies from AFFiNE's 33k star success story."
 keywords: [github stars, github star growth, get github stars, increase github stars, open source marketing, developer marketing]

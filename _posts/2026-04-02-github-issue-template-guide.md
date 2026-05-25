@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub Issue Template: How to Get More Contributions and Build Community"
 date: 2026-04-02
-canonical_url: https://growth.gingiris.com/blog/2026/04/02/github-issue-template-guide/
-image: "https://growth.gingiris.com/assets/images/blog-github-stars.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/02/github-issue-template-guide/
+image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
 description: "How to write GitHub issue templates that get better bug reports. Ready-to-use templates for bug reports, feature requests, and questions — copy and paste."
 faq:
   - q: "What is a GitHub issue template?"
@@ -92,7 +92,7 @@ Any alternative solutions you've considered.
 Mockups, examples, references.
 ```
 
-> 📖 **Related:** [GitHub PR Template Guide: Write Descriptions That Get Merged Faster](https://growth.gingiris.com/blog/2026/04/02/github-pr-template-guide/)
+> 📖 **Related:** [GitHub PR Template Guide: Write Descriptions That Get Merged Faster](https://gingiris.tools/blog/2026/04/02/github-pr-template-guide/)
 
 ### 3. Pull Request Template
 

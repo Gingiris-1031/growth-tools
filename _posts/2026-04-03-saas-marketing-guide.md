@@ -4,8 +4,8 @@ title: "SaaS Marketing for Indie Founders (2026): Channels & $0 Tactics"
 description: "A SaaS marketing playbook for solo founders and tiny teams. Channel-by-stage map (PMF → 10k MRR → scale), real case studies, $0-budget options."
 date: 2026-04-03
 tags: [saas-marketing, startup-marketing, growth, saas, marketing]
-canonical_url: https://growth.gingiris.com/blog/2026/04/03/saas-marketing-guide/
-image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/03/saas-marketing-guide/
+image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is SaaS marketing?"
     a: "SaaS marketing is the process of acquiring, activating, and retaining customers for software-as-a-service products. It differs from traditional marketing in three key ways: (1) the product is the primary acquisition channel in PLG models, (2) retention and expansion revenue matter as much as new customer acquisition, and (3) the sales cycle is often self-serve, making content and product-led motion the primary growth levers."
@@ -43,7 +43,7 @@ I've run this play before. Twice, at scale.
 |--------|---------|---------|
 | GitHub stars built from 0 in 18 months | **60,000+** | AFFiNE (open source Notion alternative, co-founded) |
 | Product Hunt #1 launches | **30x** (across products I helped) | PH playbook clients |
-| SaaS users acquired with $0 ad spend | **155** active users / month | growth.gingiris.com (this site) |
+| SaaS users acquired with $0 ad spend | **155** active users / month | gingiris.tools (this site) |
 | Days from 0 indexed pages to first AI citation | **21** | analook.com |
 | % of MRR concentrated in one channel that works | **60-80%** | (everyone, until they scale past $100k MRR) |
 | Average organic CAC (good content + SEO) | **$2.30** | vs $14 paid |
@@ -76,7 +76,7 @@ Now back to the playbook.
 
 ---
 
-> **Related reading:** [Best social listening tools for startups](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — how to monitor brand mentions & competitor buzz across Reddit, Twitter, Hacker News without a $500/mo tool.
+> **Related reading:** [Best social listening tools for startups](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — how to monitor brand mentions & competitor buzz across Reddit, Twitter, Hacker News without a $500/mo tool.
 
 ## SaaS Marketing vs. Traditional Marketing
 
@@ -375,12 +375,12 @@ The four metrics that matter: (1) **CAC** (Customer Acquisition Cost) by channel
 
 ## Related Reading
 
-- [Go-to-Market Strategy: The Complete 2026 Playbook](https://growth.gingiris.com/blog/2026/04/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
-- [Content Marketing for Startups: From 0 to 10k Monthly Visitors](https://growth.gingiris.com/blog/2026/04/content-marketing-for-startups/)
-- [Growth Hacking for Startups: 20 Proven Tactics](https://growth.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
-- [Startup Marketing Strategy: Zero to 1,000 Users](https://growth.gingiris.com/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Best Growth Tools for SaaS Startups](https://growth.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/)
-- [Product Hunt Launch Playbook: 30x #1 Winner](https://growth.gingiris.com/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [Go-to-Market Strategy: The Complete 2026 Playbook](https://gingiris.tools/blog/2026/04/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Content Marketing for Startups: From 0 to 10k Monthly Visitors](https://gingiris.tools/blog/2026/04/content-marketing-for-startups/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.tools/blog/2026/04/growth-hacking-for-startups/)
+- [Startup Marketing Strategy: Zero to 1,000 Users](https://gingiris.tools/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Best Growth Tools for SaaS Startups](https://gingiris.tools/blog/2026/04/best-growth-tools-for-saas-2026/)
+- [Product Hunt Launch Playbook: 30x #1 Winner](https://gingiris.tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 
 ---
 

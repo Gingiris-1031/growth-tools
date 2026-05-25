@@ -203,7 +203,7 @@ ASO app store optimization gets stronger when you stop treating it like metadata
 
 ## Related Reading
 
-- [ASO App Store Optimization: What Actually Moves Rankings](https://growth.gingiris.com/blog/2026/04/23/aso-app-store-optimization-guide-2026/)
-- [ASO App Store Optimization: 7 Levers That Compound in 2026](https://growth.gingiris.com/blog/2026/05/06/aso-app-store-optimization-levers-2026/)
-- [B2B SaaS Growth: 7 Compounding Plays for 2026](https://growth.gingiris.com/blog/2026/05/13/b2b-saas-growth-compounding-plays-2026/)
+- [ASO App Store Optimization: What Actually Moves Rankings](https://gingiris.tools/blog/2026/04/23/aso-app-store-optimization-guide-2026/)
+- [ASO App Store Optimization: 7 Levers That Compound in 2026](https://gingiris.tools/blog/2026/05/06/aso-app-store-optimization-levers-2026/)
+- [B2B SaaS Growth: 7 Compounding Plays for 2026](https://gingiris.tools/blog/2026/05/13/b2b-saas-growth-compounding-plays-2026/)
 - [Growth Tools Home](/)

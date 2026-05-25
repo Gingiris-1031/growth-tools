@@ -3,7 +3,7 @@ title: "B2B SaaS Growth: 6 Retention and Expansion Loops"
 date: 2026-05-20
 description: "A practical B2B SaaS growth guide covering retention, expansion triggers, team adoption, customer proof, and commercial-intent content."
 tags: [b2b, saas, growth, seo]
-canonical_url: "https://growth.gingiris.com/blog/2026/05/20/b2b-saas-growth-retention-expansion-loops-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/05/20/b2b-saas-growth-retention-expansion-loops-2026/"
 seo_title: "B2B SaaS Growth: 6 Retention and Expansion Loops"
 seo_description: "Learn 6 practical B2B SaaS growth loops for 2026, from team adoption and expansion triggers to proof systems and commercial-intent content."
 keywords: [b2b saas growth, saas growth strategy, retention, expansion, plg, sales led growth]

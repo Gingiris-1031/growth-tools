@@ -2,8 +2,8 @@
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
 date: 2026-05-11 13:19:00 +0800
-canonical_url: https://growth.gingiris.com/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
-image: "https://growth.gingiris.com/assets/images/blog-growth-hacking.jpg"
+canonical_url: https://gingiris.tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
+image: "https://gingiris.tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
 faq:
   - q: "What is the best xAutoDM alternative in 2026?"
@@ -200,9 +200,9 @@ Plus companion playbooks:
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt Launch Playbook](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Guide](https://growth.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [How to Get More GitHub Stars](https://growth.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Developer Community Directory](https://growth.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
+| 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Guide](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [How to Get More GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Community Directory](https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://gingiris.tools/)*

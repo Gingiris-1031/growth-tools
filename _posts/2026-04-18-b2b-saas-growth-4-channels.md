@@ -3,7 +3,7 @@ title: "B2B SaaS 增长引擎：4 大渠道如何驱动 10 倍 MRR 增长"
 description: "B2B SaaS 如何选择 PLG/SLG/渠道合作/社区4大增长渠道，实现 MRR 10倍增长？附真实案例和决策框架。"
 date: 2026-04-18
 tags: [B2B SaaS, SaaS Growth, PLG, SLG, MRR, Growth Strategy]
-canonical_url: https://growth.gingiris.com/blog/2026/04/18/b2b-saas-growth-4-channels/
+canonical_url: https://gingiris.tools/blog/2026/04/18/b2b-saas-growth-4-channels/
 layout: post
 ---
 

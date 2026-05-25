@@ -2,8 +2,8 @@
 layout: post
 title: "Product Hunt Launch Checklist 2026 (From 30x #1 Wins)"
 date: 2026-03-29
-canonical_url: https://growth.gingiris.com/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/
-image: "https://growth.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://gingiris.tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/
+image: "https://gingiris.tools/assets/images/blog-product-hunt-launch.jpg"
 description: "The complete 2026 Product Hunt launch checklist from 30x daily #1 experience. Pre-launch, launch day, and post-launch tasks with exact timing."
 faq:
   - q: "What is the complete Product Hunt launch checklist?"
@@ -103,10 +103,10 @@ What's your biggest Product Hunt launch challenge? Let me know in the comments! 
 
 | Category | Article |
 |----------|---------|
-| 📖 | [PH Playbook](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [How to Launch](https://growth.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [PH Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [How to Launch](https://gingiris.tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
 
-*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [

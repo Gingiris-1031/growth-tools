@@ -4,8 +4,8 @@ title: "Developer Advocate: The Complete Career & Strategy Guide for 2026"
 description: "Everything about developer advocacy — what a developer advocate does, how to become one, and how to build a DevRel program that drives real product growth. Includes salary data, skills, and a 90-day playbook."
 date: 2026-04-03
 tags: [developer-advocate, devrel, developer-relations, developer-marketing, open-source]
-canonical_url: https://growth.gingiris.com/blog/2026/04/03/developer-advocate-guide/
-image: "https://growth.gingiris.com/assets/images/blog-developer-marketing.jpg"
+canonical_url: https://gingiris.tools/blog/2026/04/03/developer-advocate-guide/
+image: "https://gingiris.tools/assets/images/blog-developer-marketing.jpg"
 faq:
   - q: "What does a developer advocate do?"
     a: "A developer advocate (DA) bridges the gap between a company and its developer community. Key responsibilities: creating technical content (tutorials, demos, blog posts), representing developers internally (feeding insights to product), speaking at conferences and events, building and nurturing developer communities, and measuring community health metrics like GitHub stars, forum activity, and NPS."
@@ -162,7 +162,7 @@ You have the community skills but need technical credibility. Focus on:
 **Don't create anything yet.** Your first 30 days are about understanding the community.
 
 Actions:
-- [ ] Map every place developers talk about your product (GitHub Issues, Reddit, Discord, Stack Overflow, Twitter/X). For a starter list of 80+ developer communities sorted by category and ROI, see the [Developer Community Directory](https://growth.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
+- [ ] Map every place developers talk about your product (GitHub Issues, Reddit, Discord, Stack Overflow, Twitter/X). For a starter list of 80+ developer communities sorted by category and ROI, see the [Developer Community Directory](https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 - [ ] Read every community question from the past 6 months. Categorize: What are the top 5 pain points?
 - [ ] Identify your 10-20 most active community members (GitHub contributors, forum power users)
 - [ ] Have 15 conversations with developers using the product — actual Zoom calls or DMs, not surveys
@@ -324,8 +324,8 @@ Developer marketing focuses on campaigns, messaging, and channels to reach devel
 
 ## Related Reading
 
-- [Developer Marketing: How to Reach Technical Audiences](https://growth.gingiris.com/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
-- [GitHub README Template: The Complete Guide](https://growth.gingiris.com/blog/2026/04/github-readme-template-guide/)
-- [Open Source Marketing: The Complete 2026 Guide](https://growth.gingiris.com/blog/2026/04/open-source-marketing-the-complete-guide/)
-- [How to Get More GitHub Stars: 33K Case Study](https://growth.gingiris.com/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Content Marketing for Startups](https://growth.gingiris.com/blog/2026/04/content-marketing-for-startups/)
+- [Developer Marketing: How to Reach Technical Audiences](https://gingiris.tools/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
+- [GitHub README Template: The Complete Guide](https://gingiris.tools/blog/2026/04/github-readme-template-guide/)
+- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.tools/blog/2026/04/open-source-marketing-the-complete-guide/)
+- [How to Get More GitHub Stars: 33K Case Study](https://gingiris.tools/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [Content Marketing for Startups](https://gingiris.tools/blog/2026/04/content-marketing-for-startups/)

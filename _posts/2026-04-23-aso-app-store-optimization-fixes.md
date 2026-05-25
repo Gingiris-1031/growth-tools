@@ -3,7 +3,7 @@ title: "ASO App Store Optimization: 9 Fixes for More Organic Installs"
 date: 2026-04-23
 description: "ASO app store optimization guide with 9 practical fixes to improve keyword ranking, listing conversion, reviews, and organic installs on iOS and Google Play."
 tags: [aso, app-store-optimization, mobile-growth, ios, google-play]
-canonical_url: https://growth.gingiris.com/blog/2026/04/23/aso-app-store-optimization-fixes/
+canonical_url: https://gingiris.tools/blog/2026/04/23/aso-app-store-optimization-fixes/
 seo_title: "ASO App Store Optimization: 9 Fixes for More Organic Installs"
 seo_description: "A practical ASO app store optimization guide covering keywords, screenshots, ratings, localization, and post-launch testing for iOS and Google Play."
 keywords: [aso app store optimization, app store optimization, aso, mobile app growth, app store seo]
@@ -107,7 +107,7 @@ High-volume keywords are tempting, but intent matters more than vanity volume.
 
 For example, someone searching for "to do list" may have broad intent, while someone searching for "adhd planner" or "sales crm for freelancers" often has clearer purchase intent and less competition.
 
-That is the same logic used in good content SEO. The **[Growth Tools blog](https://growth.gingiris.com/)** already benefits from targeting clearer long-tail intent instead of only chasing the biggest head terms.
+That is the same logic used in good content SEO. The **[Growth Tools blog](https://gingiris.tools/)** already benefits from targeting clearer long-tail intent instead of only chasing the biggest head terms.
 
 ## 6. Localize the Store Page Earlier Than Feels Comfortable
 
