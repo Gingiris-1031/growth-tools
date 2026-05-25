@@ -4,8 +4,8 @@ title: "How to Pick a Product Hunt Hunter (or Skip Them Entirely) — 7 Criteria
 description: "After helping 30 products win Product Hunt #1, here is the actual decision framework I use to pick a hunter — and the cases where self-submitting outperforms a top hunter."
 date: 2026-04-29
 tags: [producthunt, startup, marketing, launch, growth]
-canonical_url: https://blog.gingiris.com/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/
-image: "https://blog.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/
+image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
 last_modified_at: 2026-04-29
 ---
 
@@ -161,9 +161,9 @@ I've seen great launches both ways — with a hunter and without. The mistake is
 ---
 
 **Related reading:**
-- [Product Hunt Launch Playbook: The Definitive Guide](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — the full 6-week pre-launch sequence
-- [Product Hunt Launch Checklist 2026](https://blog.gingiris.com/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) — what to do in the 14 days leading up to launch day
-- [After Product Hunt Launch — 7 Ways to Keep Momentum](https://blog.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) — what to do in the 14 days after launch day
+- [Product Hunt Launch Playbook: The Definitive Guide](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — the full 6-week pre-launch sequence
+- [Product Hunt Launch Checklist 2026](https://growth.gingiris.com/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) — what to do in the 14 days leading up to launch day
+- [After Product Hunt Launch — 7 Ways to Keep Momentum](https://growth.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) — what to do in the 14 days after launch day
 
 If you're researching competitors before your launch (to position your tagline against alternatives), [Analook](https://www.analook.com/) gives a 60-second teardown of any URL — Wayback Machine history + traffic + social. Free for 3 reports/month.
 

@@ -5,8 +5,8 @@ description: "27-tool audit for startups: pricing, free-tier limits, multilingua
 date: 2026-04-02
 author: Iris
 tags: [social-listening, tools, startup, marketing, analytics]
-image: "https://blog.gingiris.com/assets/images/blog-social-media-listening.jpg"
-canonical_url: https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
+image: "https://growth.gingiris.com/assets/images/blog-social-media-listening.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
 faq:
   - q: "What is social media listening?"
     a: "Social media listening (also called social listening) is the practice of monitoring social platforms and the web for mentions of your brand, competitors, industry keywords, and relevant topics. Unlike social media monitoring (which tracks direct mentions), listening captures broader conversations — people discussing problems your product solves without mentioning you by name. For startups, this is a free market research channel that reveals real user pain points in real-time."
@@ -76,7 +76,7 @@ Now read the rest of the guide for the why and the case studies behind each tier
 
 | Metric | Value | Source |
 |---|---|---|
-| Enterprise social listening tools tested | 27 | blog.gingiris.com (2026-04) |
+| Enterprise social listening tools tested | 27 | growth.gingiris.com (2026-04) |
 | Tools with free tier ≥ 500 mentions/mo | 4 / 27 (15%) | This post |
 | Tools supporting multilingual (JA/KO/ZH) monitoring | 6 / 27 (22%) | This post |
 | Median monthly price for startup-tier plans | $79/mo | 2026-04 market survey |
@@ -157,23 +157,23 @@ Yes — use it to monitor competitors and find communities where your users hang
 
 *Written by [Iris](https://gingiris.com/en) — ex-AFFiNE COO, 30x Product Hunt #1.*
 
-*Browse all tools: [blog.gingiris.com/en/](https://blog.gingiris.com/en/)*
+*Browse all tools: [growth.gingiris.com/en/](https://growth.gingiris.com/en/)*
 
 ---
 
 ## Related Reading
 
-- [Growth Hacking for Startups: 20 Proven Tactics](https://blog.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
-- [Word of Mouth Marketing: The Complete Guide](https://blog.gingiris.com/blog/2026/04/word-of-mouth-marketing/)
-- [KOL Marketing Strategy: The Complete Guide](https://blog.gingiris.com/blog/2026/04/kol-marketing-strategy/)
-- [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Best Growth Tools for SaaS Startups](https://blog.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/)
-- [Generative Engine Optimization (GEO): Get Your Content Cited by AI Search](https://blog.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://growth.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
+- [Word of Mouth Marketing: The Complete Guide](https://growth.gingiris.com/blog/2026/04/word-of-mouth-marketing/)
+- [KOL Marketing Strategy: The Complete Guide](https://growth.gingiris.com/blog/2026/04/kol-marketing-strategy/)
+- [Reddit Marketing Without Getting Banned](https://growth.gingiris.com/blog/2026/03/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Best Growth Tools for SaaS Startups](https://growth.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/)
+- [Generative Engine Optimization (GEO): Get Your Content Cited by AI Search](https://growth.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/)
 
 ## Related Articles
 
-- [Reddit Marketing Guide: How to Promote Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Content Marketing for Startups: The Complete Guide](https://blog.gingiris.com/blog/2026/04/03/content-marketing-for-startups/)
+- [Reddit Marketing Guide: How to Promote Without Getting Banned](https://growth.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Content Marketing for Startups: The Complete Guide](https://growth.gingiris.com/blog/2026/04/03/content-marketing-for-startups/)
 
 ## Key Takeaways
 

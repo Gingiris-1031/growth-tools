@@ -2,8 +2,8 @@
 layout: post
 title: "SaaS Growth Strategy: Complete Framework from $0 to $10M ARR"
 date: 2026-03-29
-canonical_url: https://blog.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/
-image: "https://blog.gingiris.com/assets/images/blog-saas-gtm.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/
+image: "https://growth.gingiris.com/assets/images/blog-saas-gtm.jpg"
 description: "Complete SaaS growth strategy framework from $0 to $10M ARR. Product-led, sales-led, and community-led growth with real metrics and case studies."
 faq:
   - q: "What is the SaaS growth framework from 0 to $10M ARR?"
@@ -205,8 +205,8 @@ Funding is fuel, not validation.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [SaaS Go-to-Market](https://blog.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
-| 📖 | [Product Hunt Launch Playbook](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [SaaS Go-to-Market](https://growth.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Product Hunt Launch Playbook](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
 

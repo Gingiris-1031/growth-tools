@@ -2,8 +2,8 @@
 layout: post
 title: "How to Launch on Product Hunt: Step-by-Step Guide (30x #1 Winner)"
 date: 2026-03-29
-canonical_url: https://blog.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
-image: "https://blog.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/
+image: "https://growth.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "Step-by-step Product Hunt launch guide from a 30x daily #1 winner. Preparation, launch day tactics, and post-launch conversion — with real examples."
 faq:
   - q: "What is the step-by-step process for launching on Product Hunt?"
@@ -213,8 +213,8 @@ Product Hunt success isn't about gaming the system. It's about building somethin
 
 | Category | Article |
 |----------|---------|
-| 📖 | [PH Launch Checklist](https://blog.gingiris.com/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
-| 📖 | [Startup Marketing Strategy](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [PH Launch Checklist](https://growth.gingiris.com/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
+| 📖 | [Startup Marketing Strategy](https://growth.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
 

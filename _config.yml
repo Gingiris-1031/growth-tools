@@ -1,7 +1,7 @@
 # Site settings
 title: Growth Tools Blog
 description: 出海增长实战经验、工具测评、SEO/GEO 策略分享 by Gingiris
-url: "https://blog.gingiris.com"
+url: "https://growth.gingiris.com"
 baseurl: ""
 author:
   name: Iris Wei
@@ -10,7 +10,7 @@ author:
   twitter: WeiYipei
 
 # SEO / GEO — emitted by jekyll-seo-tag plugin
-logo: https://gingiris.github.io/growth-tools/favicon.svg
+logo: https://growth.gingiris.com/favicon.svg
 twitter:
   username: WeiYipei
   card: summary_large_image

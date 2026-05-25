@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
 date: 2026-04-02
-canonical_url: https://blog.gingiris.com/blog/2026/04/02/github-pr-template-guide/
-image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/02/github-pr-template-guide/
+image: "https://growth.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "GitHub pull request template best practices. Write PR templates that speed up code review — with a complete copy-paste template that actually gets merged."
 faq:
   - q: "What is a GitHub PR template?"
@@ -256,8 +256,8 @@ For more open source growth strategies, see [Open source growth playbook](https:
 
 ## Related Articles
 
-- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://blog.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
-- [GitHub README Best Practices: How to Write a README That Gets Stars](https://blog.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
+- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://growth.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
+- [GitHub README Best Practices: How to Write a README That Gets Stars](https://growth.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
 
 ## Key Takeaways
 

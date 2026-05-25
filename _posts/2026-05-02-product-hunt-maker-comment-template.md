@@ -5,7 +5,7 @@ date: 2026-05-02 09:00:00 +0800
 last_modified_at: 2026-05-02
 categories: [product-hunt, growth, copywriting]
 tags: [product-hunt, maker-comment, first-comment, launch, ph, comment-template]
-canonical_url: https://blog.gingiris.com/blog/2026/05/02/product-hunt-maker-comment-template/
+canonical_url: https://growth.gingiris.com/blog/2026/05/02/product-hunt-maker-comment-template/
 description: "The 6 maker-comment variants used across 30 Product Hunt #1 launches. Includes when to use each, 5 anti-patterns, and the exact opener structure that hits ~68% read-through and 2.4x reply rate vs generic comments."
 faq:
   - q: "What should I write in my Product Hunt maker comment?"

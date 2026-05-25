@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 Systems That Compound in 2026"
 date: 2026-05-17
 description: "A practical GitHub star growth guide covering repo clarity, README conversion, launch waves, maintainer replies, and evergreen search follow-through."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://blog.gingiris.com/blog/2026/05/17/github-star-growth-systems-2026/"
+canonical_url: "https://growth.gingiris.com/blog/2026/05/17/github-star-growth-systems-2026/"
 seo_title: "GitHub Star Growth: 7 Systems That Compound in 2026"
 seo_description: "Learn 7 practical GitHub star growth systems for 2026, from first-screen README clarity to launch waves, fast replies, and search-proof content."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]

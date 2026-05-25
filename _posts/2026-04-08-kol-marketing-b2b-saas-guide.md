@@ -3,7 +3,7 @@ title: "KOL Marketing for B2B SaaS: A Complete Guide (2026)"
 date: 2026-04-08
 description: "Learn how to build effective KOL marketing strategies for B2B SaaS. From finding the right influencers to measuring ROI — a practical guide based on real case studies."
 tags: [KOL, "B2B SaaS", "influencer marketing", "growth", "marketing"]
-canonical_url: https://blog.gingiris.com/blog/2026/04/08/kol-marketing-b2b-saas-guide/
+canonical_url: https://growth.gingiris.com/blog/2026/04/08/kol-marketing-b2b-saas-guide/
 seo_title: "KOL Marketing for B2B SaaS: A Complete Guide (2026)"
 seo_description: "Build effective KOL marketing strategies for B2B SaaS. Practical guide with real case studies, evaluation criteria, and ROI measurement."
 keywords: ["KOL marketing", "B2B influencer marketing", "SaaS marketing", "B2B growth"]
@@ -141,7 +141,7 @@ B2B KOL marketing is harder to track than performance ads. Here is a framework:
 
 - **Referral traffic**: UTM-tagged links from KOL content to your site
 - **Direct sign-ups**: Meaningful spike in sign-ups from a specific channel
-- **Brand mention volume**: Track with Google Alerts, Mention.com, or a dedicated [social media listening tool](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — the linked guide compares free vs paid options for startups
+- **Brand mention volume**: Track with Google Alerts, Mention.com, or a dedicated [social media listening tool](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — the linked guide compares free vs paid options for startups
 
 ### Mid-Term Metrics (3–6 months)
 

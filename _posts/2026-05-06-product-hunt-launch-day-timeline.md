@@ -5,7 +5,7 @@ date: 2026-05-06 09:00:00 +0800
 last_modified_at: 2026-05-06
 categories: [product-hunt, growth, launch-day]
 tags: [product-hunt, launch-day, timeline, ph, pst, hour-by-hour]
-canonical_url: https://blog.gingiris.com/blog/2026/05/06/product-hunt-launch-day-timeline/
+canonical_url: https://growth.gingiris.com/blog/2026/05/06/product-hunt-launch-day-timeline/
 description: "The exact hour-by-hour Product Hunt launch day timeline (PST) used across 30+ daily #1 winners. Includes the 12:01 AM kickoff, 14:00 PST peak hour, do/don't per slot, and the closing-push window most makers miss."
 faq:
   - q: "What time should I launch on Product Hunt in 2026?"

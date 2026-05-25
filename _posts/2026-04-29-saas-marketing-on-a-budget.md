@@ -4,8 +4,8 @@ title: "SaaS Marketing on a Budget: 7 Tactics That Actually Worked Across AFFiNE
 description: "I've built two SaaS products with $0 ad spend — one to 60K GitHub stars, one to 39 users in 4 weeks. Here are the 7 marketing tactics that actually moved the needle, with the real numbers behind each."
 date: 2026-04-29
 tags: [saas-marketing, bootstrap, indiehackers, growth, startup-marketing]
-canonical_url: https://blog.gingiris.com/blog/2026/04/29/saas-marketing-on-a-budget/
-image: "https://blog.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/29/saas-marketing-on-a-budget/
+image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
 last_modified_at: 2026-04-29
 ---
 
@@ -23,7 +23,7 @@ Here's exactly what worked. (And what didn't — I'll save you 6 months by telli
 |--------|--------------|------------|
 | Founder-led content (Twitter, LinkedIn, blog) | 8 hr/week | ~70% of all qualified inbound, both projects |
 | Community presence (Slack, Discord, subreddits) | 2 hr/week | 14 of Analook's first 39 users from **1 retweet** |
-| SEO content (long-form, founder-written) | 2-4 hr/post | blog.gingiris.com: **155 monthly visits** after 90 days of writing |
+| SEO content (long-form, founder-written) | 2-4 hr/post | growth.gingiris.com: **155 monthly visits** after 90 days of writing |
 | Product Hunt launch | 4-6 weeks pre-launch prep | 30x #1 across products I've helped — but only with the pre-launch work |
 | Cold outreach (1:1, deeply personalized) | 30 mins/message | ~25% reply rate for senior B2B prospects |
 | Open source as marketing | code itself | AFFiNE: 60K stars, 28x GitHub Trending appearances |
@@ -66,7 +66,7 @@ Here's exactly what worked. (And what didn't — I'll save you 6 months by telli
 
 **What it is:** Long-form, deeply specific blog posts targeting keywords with KD ≤ 20 and SV ≥ 300. Written by you — not outsourced. Not AI-generated. The investment is in being *the* primary source on a topic.
 
-**Real number:** blog.gingiris.com currently has **51-66 indexed pages**, gets **~155 monthly active users**, and ranks in the top 10 for 3+ keywords. Zero paid traffic. Zero outsourced writing. Pure compound interest on writing about real experiences.
+**Real number:** growth.gingiris.com currently has **51-66 indexed pages**, gets **~155 monthly active users**, and ranks in the top 10 for 3+ keywords. Zero paid traffic. Zero outsourced writing. Pure compound interest on writing about real experiences.
 
 **The framework I use:**
 1. Identify 5-7 "pillar" topics where you have *uniquely earned* perspective (for me: PH launches, OSS growth, SaaS marketing, AI agent integrations)
@@ -89,7 +89,7 @@ Here's exactly what worked. (And what didn't — I'll save you 6 months by telli
 - 1 week out: Share the launch date with the group, ask them to upvote at 12:01 AM PT
 - Launch day: Execute mechanically; the work is already done
 
-**Read the full playbook:** [Product Hunt Launch Playbook: The Definitive Guide from 30x #1 Winners](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/).
+**Read the full playbook:** [Product Hunt Launch Playbook: The Definitive Guide from 30x #1 Winners](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/).
 
 **Where founders mess this up:** Treating launch day as the strategy. Launch day is the closing of a 6-week sequence. If you start 1 week before, you'll get 50 upvotes and disappear.
 
@@ -186,9 +186,9 @@ Bookmark that. Re-read it when you feel the temptation to run Google Ads on a pr
 ---
 
 **Related reading:**
-- [The complete SaaS marketing playbook for 2026](https://blog.gingiris.com/blog/2026/04/03/saas-marketing-guide/) — channels by stage, what works at each MRR level
-- [Product Hunt launch playbook (30x #1 winner)](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — pre-launch sequencing in detail
-- [Best growth tools for SaaS 2026](https://blog.gingiris.com/blog/2026/04/02/best-growth-tools-for-saas-2026/) — the full free + paid stack
+- [The complete SaaS marketing playbook for 2026](https://growth.gingiris.com/blog/2026/04/03/saas-marketing-guide/) — channels by stage, what works at each MRR level
+- [Product Hunt launch playbook (30x #1 winner)](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — pre-launch sequencing in detail
+- [Best growth tools for SaaS 2026](https://growth.gingiris.com/blog/2026/04/02/best-growth-tools-for-saas-2026/) — the full free + paid stack
 
 If you're building a SaaS right now and want a competitor teardown to inform your positioning, [Analook](https://www.analook.com/) does that in 60 seconds — Wayback Machine history, traffic estimates, social footprint, pricing pages. Free for the first 3 reports. Built (transparently) by me to scratch the exact itch this post addresses: how to do high-leverage marketing research without paying $200/month for SimilarWeb.
 
@@ -200,7 +200,7 @@ If you're building a SaaS right now and want a competitor teardown to inform you
   "@type": "Article",
   "headline": "SaaS Marketing on a Budget: 7 Tactics That Actually Worked Across AFFiNE, Analook, and 30+ Launches",
   "description": "I've built two SaaS products with $0 ad spend — one to 60K GitHub stars, one to 39 users in 4 weeks. Here are the 7 marketing tactics that actually moved the needle.",
-  "image": "https://blog.gingiris.com/assets/images/blog-startup-launch.jpg",
+  "image": "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg",
   "datePublished": "2026-04-29",
   "dateModified": "2026-04-29",
   "author": {
@@ -216,7 +216,7 @@ If you're building a SaaS right now and want a competitor teardown to inform you
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://blog.gingiris.com/blog/2026/04/29/saas-marketing-on-a-budget/"
+    "@id": "https://growth.gingiris.com/blog/2026/04/29/saas-marketing-on-a-budget/"
   }
 }
 </script>

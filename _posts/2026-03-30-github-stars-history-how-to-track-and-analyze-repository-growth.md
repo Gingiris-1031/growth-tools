@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub Stars History: 5 Free Tools to Track & Analyze Any Repo (2026 Guide)"
 date: 2026-03-30
-canonical_url: https://blog.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/
-image: "https://blog.gingiris.com/assets/images/blog-github-history.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/
+image: "https://growth.gingiris.com/assets/images/blog-github-history.jpg"
 description: "Track GitHub stars history for any repo with 5 free tools and the GitHub API. Includes AFFiNE's real 0 → 60K star curve as a worked example."
 faq:
   - q: "How do you track GitHub star history?"
@@ -34,7 +34,7 @@ Here's how to read your own star history — and what to do with it.
 |---|---|---|
 | GitHub star history tools tested (2026) | 5 free + 4 paid | This post |
 | AFFiNE star count milestone (2024) | 33,000+ | This post |
-| AFFiNE star count milestone (2026) | 60,000+ | blog.gingiris.com |
+| AFFiNE star count milestone (2026) | 60,000+ | growth.gingiris.com |
 | AFFiNE Day 5 on GitHub Trending: stars gained | 1,100+ in 24h | Real launch data |
 | Median time-to-first-100-stars (active OSS) | 5 days | n=20 sample |
 | Median time-to-first-1000-stars (active OSS) | 31 days | n=20 sample |
@@ -190,10 +190,10 @@ Before adopting an open source project:
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Get More GitHub Stars: 0 to 60K](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [10 Proven Star Growth Tactics](https://blog.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
-| 📖 | [GitHub README Best Practices](https://blog.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
-| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://blog.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [How to Get More GitHub Stars: 0 to 60K](https://growth.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [10 Proven Star Growth Tactics](https://growth.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [GitHub README Best Practices](https://growth.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://growth.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
 

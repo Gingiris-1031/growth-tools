@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "AFFiNE 60k GitHub Stars: The Exact 2026 Playbook (by COO)"
-canonical_url: https://blog.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
-image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/
+image: "https://growth.gingiris.com/assets/images/blog-github-stars.jpg"
 date: 2026-03-07
 description: "AFFiNE crossed 60,000 GitHub stars in 2026. Here's the actual playbook: 43 days to 10K, 28 Trending appearances, 30x Product Hunt #1 — by their COO."
 tags: [["opensource", "startup", "growth", "marketing"]]
@@ -82,8 +82,8 @@ In 2024, I left AFFiNE. Since then, I've been open sourcing everything I learned
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://blog.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://blog.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://growth.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://growth.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/)
 
 ## The Story Behind the Numbers
 
@@ -198,11 +198,11 @@ Drop a comment below with your biggest challenge — I read everything.
 
 ## Further Reading
 
-- [How We Grew AFFiNE from 0 to 60K Stars: The Full Playbook](https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
-- [GitHub Star Growth: 10 Proven Tactics](https://blog.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
-- [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Open Source Marketing: The Complete 2026 Guide](https://blog.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/)
+- [How We Grew AFFiNE from 0 to 60K Stars: The Full Playbook](https://growth.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [GitHub Star Growth: 10 Proven Tactics](https://growth.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
+- [Reddit Marketing Without Getting Banned](https://growth.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Open Source Marketing: The Complete 2026 Guide](https://growth.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/)
 
 ---
 

@@ -4,8 +4,8 @@ title: "How to Find Beta Users for SaaS (2026): 12 Channels Ranked"
 description: "The 12 channels indie founders use to find their first 100 beta users in 2026. Real conversion rates by channel, cost-per-beta, and 5 channels to skip."
 date: 2026-04-03
 tags: [beta-testing, saas-growth, user-acquisition, product-launch, startup]
-canonical_url: https://blog.gingiris.com/blog/2026/04/03/how-to-find-beta-users-for-your-saas/
-image: "https://blog.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/03/how-to-find-beta-users-for-your-saas/
+image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "How many beta users do you need for a SaaS product?"
     a: "For most SaaS products, 10-50 active beta users is enough to find critical bugs and validate core workflows. Focus on quality over quantity — 20 highly engaged users beat 200 passive ones."
@@ -86,7 +86,7 @@ High-value communities to find in 2026:
 
 The etiquette is the same: add value first, then ask. Most communities have a #show-and-tell or #feedback-request channel specifically for this.
 
-> 💡 **Related:** For a hand-curated list of 80+ developer-focused communities (Slack, Discord, Reddit, forum) sorted by founder ROI, see the [Developer Community Directory: Where to Find Your First 1,000 Users](https://blog.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/).
+> 💡 **Related:** For a hand-curated list of 80+ developer-focused communities (Slack, Discord, Reddit, forum) sorted by founder ROI, see the [Developer Community Directory: Where to Find Your First 1,000 Users](https://growth.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/).
 
 ---
 
@@ -230,7 +230,7 @@ If you're building a developer tool or open-source adjacent product, GitHub is a
 - Submit to GitHub Trending — if you gain momentum, you can see thousands of stars in days
 - Engage in dev-focused Discord communities (many programming language communities have 10k+ members)
 
-For a deep dive on GitHub-specific growth, the [growth tools directory](https://blog.gingiris.com/) has dedicated resources on open-source distribution strategies.
+For a deep dive on GitHub-specific growth, the [growth tools directory](https://growth.gingiris.com/) has dedicated resources on open-source distribution strategies.
 
 ---
 
@@ -295,4 +295,4 @@ Finding beta users is not a mystery. It's a repeatable process: go where your us
 
 Start with one channel. Post in the most relevant subreddit or Indie Hackers thread today. Get your first 5 beta users this week. Then layer in cold outreach and the platforms as you develop a clearer picture of who your best users are.
 
-For more growth tools and templates to help you at every stage of your SaaS journey, explore the full [growth tools directory](https://blog.gingiris.com/).
+For more growth tools and templates to help you at every stage of your SaaS journey, explore the full [growth tools directory](https://growth.gingiris.com/).

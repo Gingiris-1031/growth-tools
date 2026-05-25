@@ -2,8 +2,8 @@
 layout: post
 title: "User Interview Questions: 50+ Templates + The 9:3:7 Framework That Found PMF"
 date: 2026-03-25
-canonical_url: https://blog.gingiris.com/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
-image: "https://blog.gingiris.com/assets/images/blog-user-interview.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
+image: "https://growth.gingiris.com/assets/images/blog-user-interview.jpg"
 description: "The 9:3:7 user interview framework that found product-market fit. Step-by-step guide to running user interviews that reveal real needs and pain points."
 faq:
   - q: "What is the 9:3:7 user interview framework?"
@@ -304,8 +304,8 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Startup Marketing Strategy](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
-| 📖 | [SaaS Growth Strategy](https://blog.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [Startup Marketing Strategy](https://growth.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [SaaS Growth Strategy](https://growth.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
 

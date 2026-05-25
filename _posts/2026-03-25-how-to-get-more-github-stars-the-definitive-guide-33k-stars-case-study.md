@@ -2,8 +2,8 @@
 layout: post
 title: "How to Get GitHub Stars in 2026 (AFFiNE 33k→60k Case Study)"
 date: 2026-03-25
-canonical_url: https://blog.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-image: "https://blog.gingiris.com/assets/images/blog-github-stars.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+image: "https://growth.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "The exact playbook AFFiNE used to grow from 0 to 33k+ GitHub stars (now 60k+ in 2026). Show HN timing, README structure, and Reddit r/selfhosted strategy."
 faq:
   - q: "How long does it take to get 1000 GitHub stars?"
@@ -16,8 +16,8 @@ faq:
     a: "100+ shows traction, 1k+ signals a legitimate project, 5k+ means established community, 10k+ puts you in top 0.1% of repos. For fundraising, 1k+ stars is often a meaningful credibility signal — but only if the growth pattern looks organic."
   - q: "How do I get my repo on GitHub Trending?"
     a: "Coordinate your push: publish content, notify your community, post on Reddit and HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier to hit than All Languages. AFFiNE hit Trending on day five of our open source launch by concentrating all distribution into one window."
-hreflang_ja: https://blog.gingiris.com/blog/2026/04/07/github-stars-increase-guide-ja/
-hreflang_ko: https://blog.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
+hreflang_ja: https://growth.gingiris.com/blog/2026/04/07/github-stars-increase-guide-ja/
+hreflang_ko: https://growth.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
 last_modified_at: 2026-04-26
 ---
 
@@ -58,8 +58,8 @@ This guide covers both parts — the sprint to 1,000, and everything that came a
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://blog.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://blog.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://growth.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://growth.gingiris.com/blog/2026/05/01/affine-github-trending-playbook/)
 
 ## Key Stats
 
@@ -270,7 +270,7 @@ Your README is your landing page. It needs:
 - A quick-start guide in fewer than five steps
 - A visible star CTA ("⭐ If this helps you, a star would mean a lot")
 
-> 📖 **Related:** [GitHub README Best Practices](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block walkthrough for the 30-second readability test · [GitHub PR Template Guide](https://blog.gingiris.com/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://blog.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
+> 📖 **Related:** [GitHub README Best Practices](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block walkthrough for the 30-second readability test · [GitHub PR Template Guide](https://growth.gingiris.com/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://growth.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
 
 ### 5. Ignoring issues
 
@@ -329,12 +329,12 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Star Growth Tactics: 10 Proven Ways](https://blog.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
-| 📖 | [GitHub Stars History: How to Track Growth](https://blog.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
-| 📖 | [Product Hunt Launch Playbook](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [Star Growth Tactics: 10 Proven Ways](https://growth.gingiris.com/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [GitHub Stars History: How to Track Growth](https://growth.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+| 📖 | [Product Hunt Launch Playbook](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://growth.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
 
 ## Key Takeaways
 

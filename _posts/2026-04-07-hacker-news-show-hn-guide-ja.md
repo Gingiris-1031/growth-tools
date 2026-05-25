@@ -3,9 +3,9 @@ layout: post
 title: "Hacker News「Show HN」完全ガイド：エンジニアが最も信頼するローンチ方法"
 date: 2026-04-07
 lang: ja
-canonical_url: https://blog.gingiris.com/blog/2026/04/07/hacker-news-show-hn-guide-ja/
+canonical_url: https://growth.gingiris.com/blog/2026/04/07/hacker-news-show-hn-guide-ja/
 description: "Hacker News Show HNでフロントページに載るための投稿方法と攻略法を日本語で解説。AFFiNEの実体験を基にしたエンジニア向け完全ガイド。"
-hreflang_en: https://blog.gingiris.com/en/
+hreflang_en: https://growth.gingiris.com/en/
 ---
 
 2023年の秋、深夜。私はHacker Newsを眺めながら、「AFFiNEをどう投稿すべきか」を1時間悩んでいた。

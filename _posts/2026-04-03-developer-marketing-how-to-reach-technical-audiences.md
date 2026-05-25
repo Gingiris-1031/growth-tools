@@ -3,8 +3,8 @@ title: "Developer Marketing: How to Reach Technical Audiences in 2026"
 description: "A practical guide to developer marketing covering GitHub optimization, open source strategy, community building, and technical content that actually converts developers."
 date: 2026-04-03
 tags: [developer-marketing, open-source, github-growth, growth-tools]
-canonical_url: https://blog.gingiris.com/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences/
-image: "https://blog.gingiris.com/assets/images/blog-devrel-dashboard.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences/
+image: "https://growth.gingiris.com/assets/images/blog-devrel-dashboard.jpg"
 faq:
   - q: "How do you market to developers effectively?"
     a: "Developer marketing that works: (1) Show, don't tell — developers trust working code examples over marketing copy. Every piece of content should include something developers can run. (2) Be technically accurate — one factual error destroys credibility with technical audiences. (3) Participate in communities authentically before promoting — answer questions, file issues, contribute content. (4) Respect developers' time — get to the point quickly, make documentation comprehensive, minimize friction to try the product. (5) Measure developer trust signals: GitHub stars, npm downloads, StackOverflow mentions — not vanity metrics like impressions."
@@ -140,7 +140,7 @@ Write for developers, not marketers. The content that works:
 
 For developer tools and open source projects, Product Hunt is the top launch platform. A well-executed launch drives GitHub stars, signups, and credibility in hours.
 
-> 📖 **See the complete strategy:** [Product Hunt Launch Playbook — 30x #1 Winner's Guide](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+> 📖 **See the complete strategy:** [Product Hunt Launch Playbook — 30x #1 Winner's Guide](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 
 #### 5. Technical Newsletters
 
@@ -216,7 +216,7 @@ Developer marketing is harder to measure than traditional marketing, but these m
 | **Documentation views** | Analytics |
 | **Community mentions** | HN, Reddit, Twitter |
 
-For automated mention tracking across Reddit, HN, Dev.to and Twitter/X, see [Best Social Media Listening Tools for Startups 2026](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — these tools surface organic developer conversations you'd otherwise miss.
+For automated mention tracking across Reddit, HN, Dev.to and Twitter/X, see [Best Social Media Listening Tools for Startups 2026](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — these tools surface organic developer conversations you'd otherwise miss.
 
 ---
 
@@ -252,13 +252,13 @@ The best developer marketing happens when you:
 
 ## Related Reading
 
-- [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://blog.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
-- [Best Social Media Listening Tools for Startups 2026](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
-- [Open Source Marketing: The Complete 2026 Guide](https://blog.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/)
+- [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://growth.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+- [Best Social Media Listening Tools for Startups 2026](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+- [Open Source Marketing: The Complete 2026 Guide](https://growth.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/)
 - [Developer Marketing 101: How to Grow Your Open Source Project](/blog/developer-marketing-101-how-to-grow-your-open-source-project/)
 - [GitHub Star Growth: 10 Proven Tactics](/blog/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
-- [Growth Tools Library](https://blog.gingiris.com/) — 100+ tools for startup growth
+- [Growth Tools Library](https://growth.gingiris.com/) — 100+ tools for startup growth
 
 ---
 
-*This guide is part of the [Gingiris Growth Tools](https://blog.gingiris.com/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
+*This guide is part of the [Gingiris Growth Tools](https://growth.gingiris.com/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*

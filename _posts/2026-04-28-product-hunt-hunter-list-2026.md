@@ -5,7 +5,7 @@ date: 2026-04-28 09:00:00 +0800
 last_modified_at: 2026-04-28
 categories: [product-hunt, growth, hunter]
 tags: [product-hunt, hunter, launch, ph, hunter-list]
-canonical_url: https://blog.gingiris.com/blog/2026/04/28/product-hunt-hunter-list-2026/
+canonical_url: https://growth.gingiris.com/blog/2026/04/28/product-hunt-hunter-list-2026/
 description: "Why hunter activity beats follower count for Product Hunt launches in 2026. Includes a vetting framework, the 4 hunter tiers, common mistakes, and how to actually contact a hunter without being ignored."
 faq:
   - q: "Does the hunter still matter for Product Hunt launches in 2026?"

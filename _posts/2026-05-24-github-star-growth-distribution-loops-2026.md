@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 Distribution Loops for 2026"
 date: 2026-05-24
 description: "A practical GitHub star growth guide covering README conversion, search follow-through, community loops, and cross-channel distribution in 2026."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://blog.gingiris.com/blog/2026/05/24/github-star-growth-distribution-loops-2026/"
+canonical_url: "https://growth.gingiris.com/blog/2026/05/24/github-star-growth-distribution-loops-2026/"
 seo_title: "GitHub Star Growth: 7 Distribution Loops for 2026"
 seo_description: "Learn 7 practical GitHub star growth distribution loops for 2026, from README clarity and fast replies to search assets and community proof."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]

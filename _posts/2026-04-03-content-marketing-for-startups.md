@@ -4,8 +4,8 @@ title: "Content Marketing for Startups: 0 to 10k Monthly Visitors"
 description: "The complete content marketing guide for startups — how to go from zero traffic to 10k+ monthly visitors with limited resources. Keyword strategy, content types, distribution, and real examples from AFFiNE's 60k-star growth journey."
 date: 2026-04-03
 tags: [content-marketing, startup-growth, seo, growth-tools, saas-marketing]
-canonical_url: https://blog.gingiris.com/blog/2026/04/03/content-marketing-for-startups/
-image: "https://blog.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/03/content-marketing-for-startups/
+image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "How do you start content marketing for a startup?"
     a: "Start with keyword research to find 10-20 high-intent, low-competition keywords your target users search for. Write one comprehensive piece on your most important keyword before diversifying. Publish on your own blog first, then distribute to communities and platforms like Dev.to or Medium. Measure organic traffic from week 1 — you need data to improve."
@@ -174,7 +174,7 @@ This works because:
 
 ---
 
-> 📖 **Related:** [Best Social Media Listening Tools for Startups 2026](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+> 📖 **Related:** [Best Social Media Listening Tools for Startups 2026](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
 
 ## Step 4: Content Calendar Framework
 
@@ -256,7 +256,7 @@ If you're not seeing this at 6 months, the issue is usually: targeting too-compe
 - **Google Search Console** — Keyword rankings and impressions
 - **Hotjar** — Scroll depth and engagement heatmaps
 
-For a full tool breakdown, see [Best Growth Tools for SaaS Startups](https://blog.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/).
+For a full tool breakdown, see [Best Growth Tools for SaaS Startups](https://growth.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/).
 
 ---
 
@@ -301,12 +301,12 @@ Content marketing costs as little as $0 (founder-written) to $5k-15k/month (agen
 
 ## Related Reading
 
-- [Growth Hacking for Startups: 20 Proven Tactics](https://blog.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
-- [Generative Engine Optimization (GEO): The Complete 2026 Guide](https://blog.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/)
-- [Developer Marketing: How to Reach Technical Audiences](https://blog.gingiris.com/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
-- [Startup Marketing Strategy: Zero to 1,000 Users](https://blog.gingiris.com/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Open Source Marketing: The Complete 2026 Guide](https://blog.gingiris.com/blog/2026/04/open-source-marketing-the-complete-guide/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://growth.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
+- [Generative Engine Optimization (GEO): The Complete 2026 Guide](https://growth.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/)
+- [Developer Marketing: How to Reach Technical Audiences](https://growth.gingiris.com/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
+- [Startup Marketing Strategy: Zero to 1,000 Users](https://growth.gingiris.com/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Open Source Marketing: The Complete 2026 Guide](https://growth.gingiris.com/blog/2026/04/open-source-marketing-the-complete-guide/)
 
 ---
 
-**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://blog.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://growth.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)

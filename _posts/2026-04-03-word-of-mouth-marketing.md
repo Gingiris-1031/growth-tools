@@ -4,8 +4,8 @@ title: "Word of Mouth Marketing: The Complete Guide for SaaS Startups in 2026"
 description: "How to engineer word of mouth marketing for SaaS. Real tactics for referral loops, viral coefficients, and building products people can't stop talking about — with examples from 0 to 60k GitHub stars."
 date: 2026-04-03
 tags: [word-of-mouth-marketing, growth, saas-growth, referral-marketing, viral-marketing]
-canonical_url: https://blog.gingiris.com/blog/2026/04/03/word-of-mouth-marketing/
-image: "https://blog.gingiris.com/assets/images/blog-startup-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/04/03/word-of-mouth-marketing/
+image: "https://growth.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is word of mouth marketing?"
     a: "Word of mouth marketing (WOMM) is when customers talk about your product to others without being paid. It's the most trusted form of marketing — 92% of consumers trust peer recommendations over advertising. For SaaS, WOMM shows up as referrals, organic social sharing, and community buzz."
@@ -309,7 +309,7 @@ Thirty Product Hunt #1 wins over 18 months. Each generated newsletter coverage, 
 - **Talkwalker** — Enterprise social listening
 - **F5bot** — Free Reddit mention alerts (simple but effective for bootstrappers)
 
-> 📖 **Full comparison:** [Best Social Media Listening Tools for Startups 2026](https://blog.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — free vs paid, multilingual options, and which tools find WOM signals on Reddit and Twitter/X.
+> 📖 **Full comparison:** [Best Social Media Listening Tools for Startups 2026](https://growth.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — free vs paid, multilingual options, and which tools find WOM signals on Reddit and Twitter/X.
 
 ### NPS + User Feedback
 - **Delighted** — Simplest NPS tool, great for early-stage
@@ -321,7 +321,7 @@ Thirty Product Hunt #1 wins over 18 months. Each generated newsletter coverage, 
 - **Mixpanel** — Event tracking for WOM metrics (shares, invites)
 - **PostHog** — Open source product analytics, self-hostable
 
-Explore more tools in the [Growth Tools Directory](https://blog.gingiris.com/).
+Explore more tools in the [Growth Tools Directory](https://growth.gingiris.com/).
 
 ---
 
@@ -376,18 +376,18 @@ The companies that get this right — Dropbox, Notion, Linear, AFFiNE — treat 
 
 Start with measurement (K-factor, NPS, referral source). Then identify your one highest-leverage WOM lever — usually either an in-product share loop or community seeding. Execute that well before layering in anything else.
 
-For more growth tools and frameworks, explore the [Gingiris Growth Tools Directory](https://blog.gingiris.com/).
+For more growth tools and frameworks, explore the [Gingiris Growth Tools Directory](https://growth.gingiris.com/).
 
 ---
 
 ## Related Reading
 
-- [Growth Hacking for Startups: 20 Proven Tactics](https://blog.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
-- [SaaS Growth Strategy: $0 to $10M ARR Framework](https://blog.gingiris.com/blog/2026/03/saas-growth-strategy-complete-framework-from-0-to-10m-arr/)
-- [Product-Market Fit: 25 Signs You Have It](https://blog.gingiris.com/blog/2026/04/product-market-fit-checklist/)
-- [Community-Led Growth: How to Build a Developer Community](https://blog.gingiris.com/blog/2026/04/open-source-marketing-the-complete-guide/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://growth.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
+- [SaaS Growth Strategy: $0 to $10M ARR Framework](https://growth.gingiris.com/blog/2026/03/saas-growth-strategy-complete-framework-from-0-to-10m-arr/)
+- [Product-Market Fit: 25 Signs You Have It](https://growth.gingiris.com/blog/2026/04/product-market-fit-checklist/)
+- [Community-Led Growth: How to Build a Developer Community](https://growth.gingiris.com/blog/2026/04/open-source-marketing-the-complete-guide/)
 
 ## Related Articles
 
-- [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Growth Hacking for Startups: 20 Proven Tactics](https://blog.gingiris.com/blog/2026/04/03/growth-hacking-for-startups/)
+- [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://growth.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://growth.gingiris.com/blog/2026/04/03/growth-hacking-for-startups/)

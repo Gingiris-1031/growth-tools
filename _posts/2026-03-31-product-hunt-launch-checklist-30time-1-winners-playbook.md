@@ -2,8 +2,8 @@
 layout: post
 title: "Product Hunt Launch Checklist: 30-Time #1 Winner's Playbook"
 date: 2026-03-31
-canonical_url: https://blog.gingiris.com/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/
-image: "https://blog.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/
+image: "https://growth.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "Product Hunt launch checklist from a 30-time #1 winner. Every task from 6 weeks pre-launch to post-launch follow-up, with exact timing and tips."
 faq:
   - q: "What is the Product Hunt launch checklist for winning #1?"
@@ -159,7 +159,7 @@ For a complete step-by-step playbook including exact scripts, templates, and the
 
 ---
 
-*This article is part of the [Gingiris Growth Tools](https://blog.gingiris.com/) series — practical growth resources for startups and open source projects.*
+*This article is part of the [Gingiris Growth Tools](https://growth.gingiris.com/) series — practical growth resources for startups and open source projects.*
 
 ---
 
@@ -167,8 +167,8 @@ For a complete step-by-step playbook including exact scripts, templates, and the
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Launch on Product Hunt](https://blog.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Guide](https://blog.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [How to Launch on Product Hunt](https://growth.gingiris.com/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Guide](https://growth.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
 

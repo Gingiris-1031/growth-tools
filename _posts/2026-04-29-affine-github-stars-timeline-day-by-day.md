@@ -5,7 +5,7 @@ date: 2026-04-29 16:00:00 +0800
 last_modified_at: 2026-04-29
 categories: [open-source, github-stars, case-study]
 tags: [affine, github-stars, open-source, growth, timeline, case-study]
-canonical_url: https://blog.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/
+canonical_url: https://growth.gingiris.com/blog/2026/04/29/affine-github-stars-timeline-day-by-day/
 description: "The day-by-day GitHub star growth timeline of AFFiNE — from 0 to 60,000+ stars (2022-2026). Includes the 6 inflection points, what triggered each, and what didn't work."
 faq:
   - q: "How long did AFFiNE take to reach 10,000 GitHub stars?"

@@ -3,8 +3,8 @@ layout: post
 title: "한국 개발자 커뮤니티 완전 가이드: 해외 스타트업이 알아야 할 15곳 (2026년)"
 date: 2026-04-07
 lang: ko
-hreflang_en: https://blog.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
-canonical_url: https://blog.gingiris.com/blog/2026/04/07/korea-developer-communities-ko/
+hreflang_en: https://growth.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
+canonical_url: https://growth.gingiris.com/blog/2026/04/07/korea-developer-communities-ko/
 description: "해외 스타트업이 한국 개발자 커뮤니티에 진입하는 방법. OKKY, 카카오테크, 네이버 개발자 블로그 등 15개 플랫폼 완전 분석."
 categories: [community, korean, marketing]
 tags: [한국, 커뮤니티, 개발자, 마케팅]

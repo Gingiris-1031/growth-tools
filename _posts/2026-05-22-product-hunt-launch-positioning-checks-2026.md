@@ -3,7 +3,7 @@ title: "Product Hunt Launch: 7 Positioning Checks for 2026"
 date: 2026-05-22
 description: "A practical Product Hunt launch guide covering message clarity, audience fit, proof, differentiation, onboarding, and post-click conversion before launch day." 
 tags: [product-hunt, launch-strategy, startup-growth, seo, go-to-market]
-canonical_url: "https://blog.gingiris.com/blog/2026/05/22/product-hunt-launch-positioning-checks-2026/"
+canonical_url: "https://growth.gingiris.com/blog/2026/05/22/product-hunt-launch-positioning-checks-2026/"
 seo_title: "Product Hunt Launch: 7 Positioning Checks for 2026"
 seo_description: "Learn 7 practical Product Hunt launch positioning checks for 2026 so your page converts cold traffic into signups, demos, and follow-up demand."
 keywords: [product hunt launch, product hunt positioning, startup launch, product hunt strategy, launch marketing]

@@ -2,8 +2,8 @@
 layout: post
 title: "SaaS Go-to-Market Strategy: The Complete Framework from $0 to $10M ARR"
 date: 2026-03-27
-canonical_url: https://blog.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/
-image: "https://blog.gingiris.com/assets/images/blog-saas-gtm.jpg"
+canonical_url: https://growth.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/
+image: "https://growth.gingiris.com/assets/images/blog-saas-gtm.jpg"
 description: "The complete SaaS go-to-market framework from $0 to $10M ARR. ICP definition, pricing, distribution channels, and growth loops from real experience."
 faq:
   - q: "What is a SaaS go-to-market strategy?"
@@ -32,7 +32,7 @@ Most SaaS founders obsess over product features while neglecting go-to-market st
 
 After helping AFFiNE grow to 60K+ GitHub stars and advising dozens of SaaS startups, I've identified the patterns that separate successful launches from failed ones.
 
-This guide gives you the complete SaaS go-to-market strategy framework. For a deeper dive into B2B-specific growth levers, see our [B2B SaaS growth playbook](https://blog.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/).
+This guide gives you the complete SaaS go-to-market strategy framework. For a deeper dive into B2B-specific growth levers, see our [B2B SaaS growth playbook](https://growth.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/).
 
 ## The Two Paths: PLG vs SLG
 
@@ -65,7 +65,7 @@ Before any GTM activity, answer these:
 unlike [alternatives] which [limitation].
 ```
 
-Not sure if your positioning is right? Use our [product-market fit checklist](https://blog.gingiris.com/blog/2026/04/03/product-market-fit-checklist/) to pressure-test your assumptions before committing to a GTM plan.
+Not sure if your positioning is right? Use our [product-market fit checklist](https://growth.gingiris.com/blog/2026/04/03/product-market-fit-checklist/) to pressure-test your assumptions before committing to a GTM plan.
 
 ### 2. Build Your Launch List
 
@@ -79,7 +79,7 @@ Start collecting emails 8+ weeks before launch:
 | Beta user invites | 50-200 | High |
 | Community participation | 100-300 | High |
 
-**Target: 500+ emails minimum before launch day.** For proven tactics on building this early user base, see [how to find beta users for your SaaS](https://blog.gingiris.com/blog/2026/04/03/how-to-find-beta-users-for-your-saas/).
+**Target: 500+ emails minimum before launch day.** For proven tactics on building this early user base, see [how to find beta users for your SaaS](https://growth.gingiris.com/blog/2026/04/03/how-to-find-beta-users-for-your-saas/).
 
 ### 3. Set Up Analytics
 
@@ -135,7 +135,7 @@ Create content → Rank in Google → Get traffic → Convert users →
 Users generate data → Create more content
 ```
 
-For a practical breakdown of building your content engine from scratch, read our [content marketing for startups](https://blog.gingiris.com/blog/2026/04/03/content-marketing-for-startups/) guide.
+For a practical breakdown of building your content engine from scratch, read our [content marketing for startups](https://growth.gingiris.com/blog/2026/04/03/content-marketing-for-startups/) guide.
 
 **2. Viral Loop (Referral)**
 ```plaintext
@@ -168,7 +168,7 @@ Happy users recruit new members
 - Hire first growth/marketing person
 - Build integration partnerships
 
-For a more granular marketing roadmap covering your first 1,000 users, see our [startup marketing strategy](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) framework.
+For a more granular marketing roadmap covering your first 1,000 users, see our [startup marketing strategy](https://growth.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) framework.
 
 ## Pricing Strategy for GTM
 
@@ -278,11 +278,11 @@ After you have a repeatable sales playbook — typically at $500k-$1M ARR. Hirin
 
 | Category | Article |
 |----------|---------|
-| 📖 | [B2B SaaS Growth Playbook: Proven Strategies](https://blog.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/) |
-| 📖 | [How to Find Beta Users for Your SaaS](https://blog.gingiris.com/blog/2026/04/03/how-to-find-beta-users-for-your-saas/) |
-| 📖 | [Product-Market Fit Checklist](https://blog.gingiris.com/blog/2026/04/03/product-market-fit-checklist/) |
-| 📖 | [Startup Marketing Strategy: From Zero to First 1,000 Users](https://blog.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
-| 📖 | [Content Marketing for Startups](https://blog.gingiris.com/blog/2026/04/03/content-marketing-for-startups/) |
-| 📖 | [SaaS Growth Strategy](https://blog.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [B2B SaaS Growth Playbook: Proven Strategies](https://growth.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/) |
+| 📖 | [How to Find Beta Users for Your SaaS](https://growth.gingiris.com/blog/2026/04/03/how-to-find-beta-users-for-your-saas/) |
+| 📖 | [Product-Market Fit Checklist](https://growth.gingiris.com/blog/2026/04/03/product-market-fit-checklist/) |
+| 📖 | [Startup Marketing Strategy: From Zero to First 1,000 Users](https://growth.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [Content Marketing for Startups](https://growth.gingiris.com/blog/2026/04/03/content-marketing-for-startups/) |
+| 📖 | [SaaS Growth Strategy](https://growth.gingiris.com/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
 
-*More tools → [Growth Tools Directory](https://blog.gingiris.com/)*
+*More tools → [Growth Tools Directory](https://growth.gingiris.com/)*
