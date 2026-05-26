@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
-    <meta name="author" content="{{ page.author | default: site.author }}">
+    <meta name="author" content="{{ page.author | default: site.author.name | default: "Iris Wei" }}">
     <meta name="google-site-verification" content="k4XyIH1GtMfoPNDhBRKaVE98gYFE9bk_HtH430A3QJE">
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
     {% if page.hreflang_ja %}<link rel="alternate" hreflang="ja" href="{{ page.hreflang_ja }}">
