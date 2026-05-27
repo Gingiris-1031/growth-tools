@@ -148,3 +148,18 @@ GitHub 스타는 목표가 아니라 지표다. 진짜 목표는 사람들이 �
 하지만 그 제품을 알리기 위한 전략은 분명히 존재한다. 위의 7가지 전략은 AFFiNE이 3,200에서 60,000+으로 가는 동안 실제로 효과 있었던 것들이다.
 
 지금 당신의 GitHub 프로젝트 README를 열어보라 — 그리고 첫 문장이 기술 설명으로 시작하고 있다면, 오늘이 바꿀 날이다.
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
+
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
+- [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

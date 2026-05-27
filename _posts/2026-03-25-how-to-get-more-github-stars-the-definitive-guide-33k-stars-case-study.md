@@ -345,6 +345,10 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 - **Language-specific Trending** (TypeScript, Python, etc.) has far less competition than All Languages
 - AFFiNE's 60,000 stars in 3 years = roughly **55 stars per day on average**, achieved through systematic repeatable launches
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

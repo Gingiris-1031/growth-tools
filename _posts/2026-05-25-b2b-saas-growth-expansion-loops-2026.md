@@ -197,3 +197,17 @@ B2B SaaS growth gets stronger when teams stop optimizing channels in isolation a
 - [GitHub Star Growth: 7 Distribution Loops for 2026](/blog/2026/05/24/github-star-growth-distribution-loops-2026/)
 - [Growth Tools Home](/)
 
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog/2026/04/03/saas-marketing-guide/)** series. Other guides in the cluster:
+
+- [SaaS Marketing on a $0 Budget: 7 Tactics That Worked](/blog/2026/04/29/saas-marketing-on-a-budget/)
+- [Go-to-Market Strategy 2026](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

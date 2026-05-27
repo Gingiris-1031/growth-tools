@@ -181,3 +181,18 @@ GitHub star growth works best when distribution loops keep reinforcing the same 
 - [GitHub Star Growth: 7 Systems That Compound in 2026](/blog/2026/05/17/github-star-growth-systems-2026/)
 - [Product Hunt Launch: 7 Funnel Fixes for 2026](/blog/2026/05/23/product-hunt-launch-funnel-fixes-2026/)
 - [Growth Tools Home](/)
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
+
+- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
+- [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

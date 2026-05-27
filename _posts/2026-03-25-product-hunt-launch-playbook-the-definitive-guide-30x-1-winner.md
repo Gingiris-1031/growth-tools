@@ -336,6 +336,10 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
 <!-- FAQ Schema for AI crawlers (GEO) -->
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

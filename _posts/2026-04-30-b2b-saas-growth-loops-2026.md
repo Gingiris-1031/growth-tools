@@ -206,3 +206,18 @@ B2B SaaS growth compounds when each team hands signal to the next one cleanly. M
 - [GitHub Star Growth: 9 Levers That Compound in 2026](/blog/2026/04/29/github-star-growth-levers-2026/)
 - [Product Hunt Launch: 10 Moves That Still Win in 2026](/blog/2026/04/24/product-hunt-launch-2026/)
 - [Growth Tools Home](/)
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog/2026/04/03/saas-marketing-guide/)** series. Other guides in the cluster:
+
+- [SaaS Marketing on a $0 Budget: 7 Tactics That Worked](/blog/2026/04/29/saas-marketing-on-a-budget/)
+- [Go-to-Market Strategy 2026](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

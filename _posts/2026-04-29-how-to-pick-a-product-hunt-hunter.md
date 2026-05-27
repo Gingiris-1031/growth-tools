@@ -169,6 +169,23 @@ If you're researching competitors before your launch (to position your tagline a
 
 *Written by [Iris Wei](https://gingiris.com) — co-founder of [AFFiNE](https://github.com/toeverything/AFFiNE) (60,000+ GitHub stars), helped 30+ products win Product Hunt #1, currently bootstrapping [Analook](https://www.analook.com/). April 2026.*
 
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
+
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
+- [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+
+
+
+
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
 {"@type": "Question", "name": "How do you pick a Product Hunt hunter?", "acceptedAnswer": {"@type": "Answer", "text": "Apply 7 criteria in priority order: (1) topic-fit beats follower count — a 10K-follower hunter active in your category outperforms a 200K-follower generalist; (2) active in last 90 days with 200-800 upvotes per recent hunt; (3) genuinely uses your product before launch day; (4) timezone aligned to PT (or ET as backup) for launch-day comment velocity; (5) has hunted small founders before, not only YC alumni; (6) has presence on other platforms where your audience lives; (7) commits to replying to comments for 72 hours post-launch."}},

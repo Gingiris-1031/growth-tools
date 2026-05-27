@@ -231,3 +231,18 @@ Looking for tools to execute your ASO strategy? Check out our curated [Growth To
 ---
 
 *This guide is part of the [Gingiris Growth Tools](/) collection — practical playbooks for startups going global.*
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog/2026/04/03/saas-marketing-guide/)** series. Other guides in the cluster:
+
+- [SaaS Marketing on a $0 Budget: 7 Tactics That Worked](/blog/2026/04/29/saas-marketing-on-a-budget/)
+- [Go-to-Market Strategy 2026](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

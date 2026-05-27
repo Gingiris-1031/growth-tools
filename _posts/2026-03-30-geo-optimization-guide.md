@@ -162,6 +162,23 @@ SEO 和 GEO 都重要，创建**既能排名又能被引用**的内容：
 - **llms.txt** signals to AI crawlers what your site is about and which pages matter most
 - GEO and SEO reinforce each other — content that ranks in Google is also more likely to be cited by AI
 
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
+
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
+- [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

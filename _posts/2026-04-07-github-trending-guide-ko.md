@@ -138,3 +138,18 @@ Trending 트래픽은 새 이슈 폭발을 동반한다. 24시간 내 모든 이
 Trending을 유입 채널로 활용하되, 진짜 목표는 리텐션이다.
 
 GitHub 스타와 Trending은 프로덕트가 좋을 때 따라오는 결과다. 그 순서를 잊지 마라.
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
+
+- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
+- [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

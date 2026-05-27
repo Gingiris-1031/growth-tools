@@ -197,3 +197,18 @@ Two signals: (1) raw upvote count rises but ranking position stalls; (2) the mak
 ---
 
 *Written from 12 daily-#1 launches tracked Feb–Apr 2026, plus 8 reference cases from 2025-Q4. All numbers are weighted medians from maker dashboard exports, not PH-endorsed.* 想看完整 Product Hunt cluster？从 [the master playbook]({{ '/blog/2026/04/24/product-hunt-launch-2026/' | relative_url }}) 开始。
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
+
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
+- [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

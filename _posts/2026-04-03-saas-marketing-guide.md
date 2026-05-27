@@ -394,6 +394,10 @@ The four metrics that matter: (1) **CAC** (Customer Acquisition Cost) by channel
 
 *Last updated: 2026-04-29 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
+
+
+
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

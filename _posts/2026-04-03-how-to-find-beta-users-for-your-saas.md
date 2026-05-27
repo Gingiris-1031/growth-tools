@@ -296,3 +296,18 @@ Finding beta users is not a mystery. It's a repeatable process: go where your us
 Start with one channel. Post in the most relevant subreddit or Indie Hackers thread today. Get your first 5 beta users this week. Then layer in cold outreach and the platforms as you develop a clearer picture of who your best users are.
 
 For more growth tools and templates to help you at every stage of your SaaS journey, explore the full [growth tools directory](https://gingiris.tools/).
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
+
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
+- [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+

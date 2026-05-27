@@ -391,3 +391,18 @@ For more growth tools and frameworks, explore the [Gingiris Growth Tools Directo
 
 - [Startup Marketing Strategy: From Zero to Your First 1,000 Users](https://gingiris.tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
 - [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.tools/blog/2026/04/03/growth-hacking-for-startups/)
+
+---
+
+<!-- gingiris-cluster-v1 -->
+
+### 📚 Read the full series
+
+This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
+
+- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
+- [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
+
+*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+
