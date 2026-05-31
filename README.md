@@ -6,14 +6,14 @@
 
 ### Best growth tools for startups & SaaS — 100+ curated tools, 46 SEO articles, free startup marketing resources
 
-[![GitHub stars](https://img.shields.io/github/stars/Gingiris/growth-tools?style=social)](https://github.com/Gingiris/growth-tools/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gingiris/growth-tools?style=social)](https://github.com/Gingiris/growth-tools/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris/growth-tools?style=social)](https://github.com/Gingiris/growth-tools/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/growth-tools?style=social)](https://github.com/Gingiris-1031/growth-tools/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/growth-tools?style=social)](https://github.com/Gingiris-1031/growth-tools/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/growth-tools?style=social)](https://github.com/Gingiris-1031/growth-tools/watchers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Blog-gingiris.github.io-blue)](https://gingiris.tools/blog/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/growth-tools/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/Gingiris/growth-tools?color=blue)](https://github.com/Gingiris/growth-tools/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/Gingiris/growth-tools?color=orange)](https://github.com/Gingiris/growth-tools/graphs/contributors)
+[![Website](https://img.shields.io/badge/Blog-gingiris.tools-blue)](https://gingiris.tools/blog/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/growth-tools/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/growth-tools?color=blue)](https://github.com/Gingiris-1031/growth-tools/commits/main)
+[![Contributors](https://img.shields.io/github/contributors/Gingiris-1031/growth-tools?color=orange)](https://github.com/Gingiris-1031/growth-tools/graphs/contributors)
 
 **[English](#english) | [中文](#中文版)**
 
@@ -359,12 +359,12 @@ clawhub install gingiris-aso-growth
 
 ## 📚 Related Playbooks
 
-| Playbook | Focus | Stars |
-|:---------|:------|:------|
-| [gingiris-launch](https://github.com/Gingiris/gingiris-launch) | GTM Strategy · Product Hunt · KOL Outreach | ![Stars](https://img.shields.io/github/stars/Gingiris/gingiris-launch?style=social) |
-| [gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) | Open Source Launch Marketing · GitHub Star Growth | ![Stars](https://img.shields.io/github/stars/Gingiris/gingiris-opensource?style=social) |
-| [gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth) | B2B SaaS Growth · PMF · PLG/SLG | ![Stars](https://img.shields.io/github/stars/Gingiris/gingiris-b2b-growth?style=social) |
-| [gingiris-aso-growth](https://github.com/Gingiris/gingiris-aso-growth) | App Store Optimization · Mobile Cold Start | ![Stars](https://img.shields.io/github/stars/Gingiris/gingiris-aso-growth?style=social) |
+| Playbook | Focus |
+|:---------|:------|
+| [GTM & Launch](https://clawhub.ai/user/gingiris) | GTM Strategy · Product Hunt · KOL Outreach |
+| [Open Source Marketing](https://clawhub.ai/user/gingiris) | Open Source Launch Marketing · GitHub Star Growth |
+| [B2B SaaS Growth](https://clawhub.ai/user/gingiris) | B2B SaaS Growth · PMF · PLG/SLG |
+| [ASO Guide](https://clawhub.ai/user/gingiris) | App Store Optimization · Mobile Cold Start |
 
 ---
 

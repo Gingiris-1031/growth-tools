@@ -12,7 +12,7 @@ payload = {
     "body_markdown": body,
     "published": True,
     "tag_list": "github, open-source, community, developer-tools, contributions",
-    "canonical_url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide/",
+    "canonical_url": "https://gingiris.tools/blog/2026/04/02/github-issue-template-guide/",
     "description": "Learn how to write GitHub issue templates that get better bug reports, feature requests, and community contributions."
 }
 

@@ -1,14 +1,14 @@
 # 🚀 Growth Tools for Global Launch | 100+ Verified Tools for AI & SaaS
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub Stars](https://img.shields.io/github/stars/Gingiris/growth-tools?style=for-the-badge)](https://github.com/Gingiris/growth-tools)
+[![GitHub Stars](https://img.shields.io/github/stars/Gingiris-1031/growth-tools?style=for-the-badge)](https://github.com/Gingiris-1031/growth-tools)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
 
 **100+ growth tools for AI & SaaS** — From KOL outreach to SEO analytics, social media to product analytics. One-stop shop for global growth.
 
 > 🎯 Based on real experience from **AFFiNE (33k+ GitHub stars)** and **30x Product Hunt #1** launches.
 
-[📚 Launch Playbook](https://github.com/Gingiris/gingiris-launch) · [🌟 OSS Marketing](https://github.com/Gingiris/gingiris-opensource) · [📈 B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth) · [📱 ASO Guide](https://github.com/Gingiris/gingiris-aso-growth)
+[📚 Launch Playbook](https://clawhub.ai/user/gingiris) · [🌟 OSS Marketing](https://clawhub.ai/user/gingiris) · [📈 B2B Growth](https://clawhub.ai/user/gingiris) · [📱 ASO Guide](https://clawhub.ai/user/gingiris)
 
 ---
 
@@ -200,9 +200,9 @@
 
 | Tool | Description | Link |
 |:-----|:------------|:-----|
-| **PH Comment Generator** | Generate authentic PH launch comments | [Try Free](https://gingiris.github.io/ph-comment-generator/) |
-| **GitHub Issue Generator** | Create structured GitHub issues | [Try Free](https://gingiris.github.io/github-issue-generator/) |
-| **GitHub README Generator** | Write README that gets stars | [Try Free](https://gingiris.github.io/github-readme-generator/) |
+| **PH Comment Generator** | Generate authentic PH launch comments | [Try Free](https://gingiris.tools/tools/ph-comment-generator/) |
+| **GitHub Issue Generator** | Create structured GitHub issues | [Try Free](https://gingiris.tools/tools/github-issue-generator/) |
+| **GitHub README Generator** | Write README that gets stars | [Try Free](https://gingiris.tools/tools/github-readme-generator/) |
 
 ---
 
@@ -214,10 +214,10 @@ Curated by **Iris** (生姜iris), ex-COO of [AFFiNE](https://github.com/toeveryt
 
 | Playbook | Description | Stars |
 |:---------|:------------|:------|
-| [🚀 Launch Playbook](https://github.com/Gingiris/gingiris-launch) | 30x PH #1 winner tactics | ⭐ |
-| [🌟 OSS Marketing](https://github.com/Gingiris/gingiris-opensource) | 0→33k GitHub stars | ⭐ |
-| [📈 B2B Growth](https://github.com/Gingiris/gingiris-b2b-growth) | PMF → $10M ARR | ⭐ |
-| [📱 ASO Guide](https://github.com/Gingiris/gingiris-aso-growth) | App Store optimization | ⭐ |
+| [🚀 Launch Playbook](https://clawhub.ai/user/gingiris) | 30x PH #1 winner tactics | ⭐ |
+| [🌟 OSS Marketing](https://clawhub.ai/user/gingiris) | 0→33k GitHub stars | ⭐ |
+| [📈 B2B Growth](https://clawhub.ai/user/gingiris) | PMF → $10M ARR | ⭐ |
+| [📱 ASO Guide](https://clawhub.ai/user/gingiris) | App Store optimization | ⭐ |
 
 **Contact:** [@WeiYipei](https://twitter.com/WeiYipei)
 

@@ -12,7 +12,7 @@ payload = {
     "body_markdown": body,
     "published": True,
     "tag_list": "github, open-source, developer-tools, growth",
-    "canonical_url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide/",
+    "canonical_url": "https://gingiris.tools/blog/2026/04/02/github-readme-template-guide/",
     "description": "Learn how to write a GitHub README that gets stars. Based on 60k GitHub stars experience."
 }
 

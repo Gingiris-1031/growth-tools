@@ -28,11 +28,11 @@ import os, re, sys, json, time, hashlib, argparse
 import urllib.request, urllib.error
 
 # ── Config ────────────────────────────────────────────────────────────────────
-SITE_URL      = "https://gingiris.github.io/growth-tools"
+SITE_URL      = "https://gingiris.tools"
 POSTS_DIR     = os.path.join(os.path.dirname(__file__), "..", "_posts")
 CREDS_FILE    = os.path.join(os.path.dirname(__file__), "google_credentials.json")
 INDEXNOW_FILE = os.path.join(os.path.dirname(__file__), ".indexnow_key")
-INDEXNOW_HOST = "gingiris.github.io"
+INDEXNOW_HOST = "gingiris.tools"
 # Delay between Google API calls (avoid rate limits)
 GOOGLE_DELAY_S = 1.0
 

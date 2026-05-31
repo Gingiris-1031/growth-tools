@@ -12,7 +12,7 @@ payload = {
     "body_markdown": body,
     "published": True,
     "tag_list": "github, open-source, developer-tools, pull-requests",
-    "canonical_url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide/",
+    "canonical_url": "https://gingiris.tools/blog/2026/04/02/github-pr-template-guide/",
     "description": "The complete guide to GitHub PR templates that help maintainers review faster and get your PR merged sooner. Includes free templates."
 }
 
