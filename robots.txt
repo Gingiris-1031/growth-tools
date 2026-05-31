@@ -55,12 +55,6 @@ Allow: /
 User-agent: ImagesiftBot
 Allow: /
 
-User-agent: CCBot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
 # ── Discovery ─────────────────────────────────────────────────────────────────
 # llms.txt at /llms.txt — AI agents use this to understand site structure
 Sitemap: https://gingiris.tools/sitemap.xml
