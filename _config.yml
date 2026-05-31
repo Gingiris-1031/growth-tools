@@ -25,6 +25,9 @@ social:
 markdown: kramdown
 highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
+# Allow posts dated in the future to publish — Monday weekly posts often write +0800
+# morning before the build server (UTC) thinks the day has rolled over.
+future: true
 
 # Collections
 collections:
