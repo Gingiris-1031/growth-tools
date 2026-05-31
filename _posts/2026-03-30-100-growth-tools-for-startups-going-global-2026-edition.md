@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-05-11 13:19:00 +0800
+date: 2026-06-01 09:30:00 +0800
 canonical_url: https://gingiris.tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 image: "https://gingiris.tools/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
@@ -169,6 +169,19 @@ Monday morning sweep over coffee in Kunshan — five tools that hit PH and HN in
 | HubSpot customer organic decline | −27% YoY | HubSpot internal data |
 
 
+## 🆕 This Week's Picks (June 1, 2026)
+
+Monday catch-up over coffee — five tools from the past three weeks of PH/HN that actually still load (a higher bar than it should be). Three themes ran through the backlog: agentic dev environments multiplied, answer-engine optimization (AEO) escaped the marketing vertical and landed in HR, and the privacy-focused dev-utility movement put up another flag.
+
+| Tool | Category | Why it's interesting |
+|------|----------|---------------------|
+| [Emdash](https://emdash.dev) | Dev / Agentic | Open-source desktop app that runs multiple coding agents in parallel — each isolated in its own git worktree, local or SSH-remote. Provider-agnostic (Claude/Codex/whatever) so no vendor lock-in. Trending Show HN this month |
+| [Druids](https://www.druids.ai) | Dev / Multi-Agent | Open-source library for structuring multi-agent coding workflows — pitched as "build your own software factory." Sits a layer above single-agent CLIs when you actually need orchestration, not just one agent in a loop |
+| [Prismtools](https://prismtools.com) | Dev / Privacy | 40+ dev utilities (JSON formatter, regex tester, base64, Git command helper, etc.) running entirely in-browser — zero tracking, zero analytics, zero data collection. The anti-pattern to all the "free tool, surveillance economy" sites that polluted this niche |
+| [HireClix](https://hireclix.com) | AEO / Talent | Answer-engine optimization for job postings — gets your roles surfaced in ChatGPT and Perplexity when candidates ask "what AI startups are hiring." First commercial AEO play I've seen leave the marketing vertical and land in HR/talent. Useful signal that AEO is real, not a content marketing meme |
+| [Pushwoosh ManyMoney AI](https://pushwoosh.com) | Marketing / Email | Autonomous email marketing copilot — not "AI helps you write subject lines" but "describe the goal in chat, it builds the campaign, runs A/B, iterates." Closest to the autonomous-marketing pattern the SaaS world keeps promising and never quite shipping |
+
+
 ## 📚 Full List + Resources
 
 Full tool database on GitHub (updated weekly):
@@ -190,7 +203,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: May 11, 2026.*
+*This list updates weekly. Last updated: June 1, 2026.*
 
 *Built by [Iris](https://twitter.com/WeiYipei) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
