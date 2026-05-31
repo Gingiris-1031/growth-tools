@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: 2026-06-01 09:30:00 +0800
+date: "2026-06-01 09:30:00 +0800"
 # Explicit permalink so weekly date bumps don't break inbound links / GSC index
 permalink: /blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 canonical_url: https://gingiris.tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
