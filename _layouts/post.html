@@ -102,6 +102,8 @@ layout: default
     </nav>
 
     <header class="post-header">
+        <div class="post-eyebrow"><span class="post-eyebrow-dot"></span>{% if page.tags.size > 0 %}{{ page.tags[0] | replace: '-', ' ' | upcase }}{% else %}GROWTH TOOLS{% endif %}</div>
+        <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
             <span class="reading-time">· {{ reading_time }} min read</span>
@@ -109,10 +111,10 @@ layout: default
             · {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% unless forloop.last %} {% endunless %}{% endfor %}
             {% endif %}
         </p>
-        <h1 class="post-title">{{ page.title }}</h1>
         {% if page.description %}
         <p class="post-desc">{{ page.description }}</p>
         {% endif %}
+        <div class="post-rule"></div>
     </header>
 
     <!-- TOC: collapsible on mobile/tablet (hidden until JS confirms ≥3 headings) -->
@@ -278,11 +280,29 @@ layout: default
 .breadcrumb ol { list-style: none; display: flex; gap: 6px; flex-wrap: wrap; margin: 0; padding: 0; }
 .breadcrumb li + li::before { content: "›"; margin-right: 6px; }
 .breadcrumb a { color: var(--text-secondary); }
-.breadcrumb a:hover { color: var(--text); text-decoration: none; }
+.breadcrumb a:hover { color: #16a34a; text-decoration: none; }
 .breadcrumb [aria-current="page"] { color: var(--text); }
 
 /* ── Post header ────────────────────────────────────────────────── */
 .post-header { margin-bottom: 40px; }
+.post-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: #16a34a;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.post-eyebrow-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 3px;
+  background: #16a34a;
+  box-shadow: 0 0 10px rgba(22,163,74,0.55);
+}
 .post-meta {
   color: var(--text-secondary);
   font-size: 14px;
@@ -293,9 +313,23 @@ layout: default
   gap: 4px;
 }
 .reading-time { color: var(--text-secondary); }
-.post-title { font-size: 32px; line-height: 1.3; margin-bottom: 16px; }
+.post-title { font-size: 32px; line-height: 1.3; margin-bottom: 14px; letter-spacing: -0.01em; }
 .post-desc { font-size: 18px; color: var(--text-secondary); line-height: 1.6; }
-.tag { background: var(--surface); padding: 2px 8px; border-radius: 4px; font-size: 12px; }
+.post-rule {
+  height: 3px;
+  width: 60px;
+  border-radius: 3px;
+  margin-top: 24px;
+  background: linear-gradient(90deg, #16a34a 0%, #4ade80 100%);
+}
+.tag {
+  background: #f0fdf4;
+  color: #15803d;
+  padding: 2px 9px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
 
 /* ── TOC inline — mobile/tablet (<1440px) ───────────────────────── */
 .toc-inline {
@@ -359,8 +393,8 @@ layout: default
 }
 .toc-link:hover,
 .toc-link.toc-active {
-  color: var(--text);
-  border-left-color: var(--accent);
+  color: #16a34a;
+  border-left-color: #16a34a;
   text-decoration: none;
 }
 
