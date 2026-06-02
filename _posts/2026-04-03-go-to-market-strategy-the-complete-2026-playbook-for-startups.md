@@ -39,6 +39,15 @@ Most startup founders think they need a better product. The real problem is usua
 
 A go-to-market strategy forces you to answer the hard questions before you waste months building the wrong thing.
 
+**The 4 main GTM motions — which one fits you:**
+
+| GTM motion | Best for | Typical ACV | Primary channel |
+|-----------|----------|-------------|-----------------|
+| Product-led (PLG) | Self-serve, low-touch | $0–5k | Product + content |
+| Sales-led (SLG) | Complex, high-ACV deals | $25k+ | Outbound + demos |
+| Community-led | Developer / open source | Varies | Communities + GitHub |
+| Marketing-led | Broad awareness plays | $5–25k | Content + paid |
+
 ---
 
 ## The 4 Pillars of a Strong GTM Strategy

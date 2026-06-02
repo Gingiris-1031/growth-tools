@@ -23,6 +23,23 @@ faq:
     a: "Realistic timeline for SaaS: First 30 days — almost nothing visible, you're seeding the conditions (shareable product, referral mechanic, community presence). Months 2-3 — first organic mentions appear; track via brand search volume and direct referral traffic. Months 4-6 — compounding becomes visible; if K-factor > 0.3 you'll see user acquisition cost drop. Months 6-12 — if your shareable outcome and community fit are strong, WOM becomes your largest acquisition channel. Founders who kill WOM investment at the 60-day mark almost always quit right before the inflection."
 ---
 
+**What is word-of-mouth marketing (WOMM)?** Word-of-mouth marketing is unpaid advocacy — customers recommending your product to others with nothing to gain. It's the most trusted channel (92% of buyers trust peer recommendations over ads) and the only one that gets cheaper as it scales.
+
+**5 ways to engineer word of mouth for SaaS:**
+
+1. **Build a shareable "aha" moment** into the core product
+2. **Add a referral loop** with genuine two-sided value
+3. **Be the best answer** to a question your buyers already Google
+4. **Go deep in niche communities** where your ICP already gathers
+5. **Invest in customer success** so happy users advocate naturally
+
+| Channel | Cost over time | Trust level | Best for |
+|---------|----------------|-------------|----------|
+| Word of mouth | Falls as it scales | Highest (peer) | Activation + retention |
+| Paid ads | Rises with volume | Low | Fast top-of-funnel |
+| SEO | Flat, slow to build | Medium | Compounding inbound |
+| Influencer | Per-campaign | Medium | Awareness seeding |
+
 Word of mouth marketing is the only growth channel that gets cheaper as it scales. Every other channel — paid ads, SEO, outbound — requires more spend to acquire the next user. Word of mouth compounds.
 
 The problem: most founders treat WOMM as a happy accident. It's not. The best-growing SaaS companies engineer it deliberately.

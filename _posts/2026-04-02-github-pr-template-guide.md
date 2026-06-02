@@ -23,6 +23,16 @@ faq:
 - Include a "TL;DR" section at the top — maintainers appreciate it
 - **Free PR template included** at the end
 
+**What a strong PR template includes:**
+
+| PR template element | Why it matters |
+|---------------------|----------------|
+| Description (What + Why) | Gives reviewers context upfront |
+| Linked issue (`Closes #123`) | Connects the change to tracked work |
+| Type of change | Flags breaking changes and scope |
+| Testing checklist | Confirms verification before merge |
+| Screenshots (UI changes) | Speeds up visual review |
+
 ---
 
 ## Why PR Templates Matter

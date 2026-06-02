@@ -226,6 +226,8 @@ The compound effect: well-maintained repos attract contributors, and contributor
 | 📖 | [How to Get More GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [Developer Marketing 101](https://gingiris.tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project/) |
 | 📖 | [GitHub Stars History](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
+| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 

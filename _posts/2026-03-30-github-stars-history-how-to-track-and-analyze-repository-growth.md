@@ -194,6 +194,8 @@ Before adopting an open source project:
 | 📖 | [10 Proven Star Growth Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
 | 📖 | [GitHub README Best Practices](https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
 | 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [AFFiNE GitHub Stars: Day-by-Day Timeline](https://gingiris.tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 

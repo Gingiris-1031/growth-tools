@@ -21,6 +21,14 @@ faq:
 - 与传统 SEO 不同，GEO 追求的是**被引用**，而非**被点击**
 - 核心方法：清晰可引用的段落块 + 结构化数据 + QAE 模式
 
+**The 5 core GEO tactics (2026):**
+
+1. **Lead with a direct answer** — put a 1–2 sentence definition in the first 100 words
+2. **Add FAQ schema** — AI engines pull heavily from Q&A-structured content
+3. **Cite specific statistics with sources** — quantified claims get cited 30–40% more
+4. **Get indexed by Bing** (ChatGPT's web source) via IndexNow
+5. **Be the original source** — publish first-party data AI has reason to quote
+
 ---
 
 ## 什么是 GEO？

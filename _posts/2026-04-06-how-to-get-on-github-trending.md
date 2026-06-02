@@ -262,6 +262,8 @@ Total week 1: ~6,000 stars. Total day 43: 10,000 stars.
 | 📖 | [GitHub Stars History: How to Track & Analyze Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 | 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [AFFiNE GitHub Stars: Day-by-Day Timeline](https://gingiris.tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 

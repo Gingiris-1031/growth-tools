@@ -19,6 +19,24 @@ faq:
     a: "You can, but you shouldn't. Scaling before PMF accelerates burning money on leaky acquisition. The tell: if users churn before they get value, more users won't fix it — better product will."
 ---
 
+**What is product-market fit (PMF)?** Product-market fit is the point where your product satisfies a strong market demand so well that users recruit others, resist churning, and get upset when you remove features. The most-cited test is Sean Ellis's 40% rule: if 40%+ of users would be "very disappointed" without your product, you have PMF.
+
+**The 5 fastest signals you have product-market fit:**
+
+1. **40%+ "very disappointed"** on the Sean Ellis survey
+2. **Flat retention curve** after week 4 — usage stops decaying
+3. **Organic word-of-mouth** — users refer others unprompted
+4. **Demand pulls** faster than you can serve it
+5. **Churn resistance** — users complain when you change core features
+
+| Signal | You have PMF | You don't have PMF |
+|--------|--------------|--------------------|
+| Sean Ellis 40% test | ≥ 40% "very disappointed" | < 40% |
+| Week-4 retention | Curve flattens | Declines toward zero |
+| Growth source | Organic / referral | Paid only |
+| Feature removal | Users resist | Users indifferent |
+| Sales motion | Customers pull | You push |
+
 Product-market fit is the most discussed and most misunderstood concept in startup land. Everyone claims they're "working toward PMF." Fewer people can articulate what it actually looks like, how to measure it, and — most importantly — what to do when you don't have it yet.
 
 This guide cuts through the noise. It gives you the Sean Ellis framework, the key metrics, and a concrete 25-point checklist you can run against your product today.

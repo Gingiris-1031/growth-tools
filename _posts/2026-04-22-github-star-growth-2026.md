@@ -188,6 +188,9 @@ The projects that keep growing are usually not louder. They are clearer.
 ## Related Reading
 
 - [How to Track GitHub Stars History and Analyze Growth](/blog/2026/04/14/github-stars-growth-guide/)
+- [10 Proven GitHub Star Growth Tactics](/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
+- [9 GitHub Star Growth Levers (2026)](/blog/2026/04/29/github-star-growth-levers-2026/)
+- [AFFiNE GitHub Stars: Day-by-Day Timeline](/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [App Store Optimization Guide](/blog/2026/04/12/app-store-optimization-guide/)
 - [Growth Tools Home](/)

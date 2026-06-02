@@ -283,6 +283,8 @@ A great README doesn't just document — it sells.
 |----------|---------|
 | 📖 | [How to Get GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [Developer Marketing Playbook](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+| 📖 | [10 Proven GitHub Star Growth Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
