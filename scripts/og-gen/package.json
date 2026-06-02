@@ -1,0 +1,14 @@
+{
+  "name": "gingiris-og-gen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only OG image generator for gingiris.tools blog posts (Satori + resvg).",
+  "scripts": {
+    "gen": "node generate-og.mjs"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "satori": "^0.26.0"
+  }
+}

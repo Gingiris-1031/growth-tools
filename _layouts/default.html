@@ -20,19 +20,30 @@
     <link rel="alternate" hreflang="ja" href="{{ page.canonical_url | default: page.url | absolute_url }}">
     <link rel="alternate" hreflang="x-default" href="{{ page.hreflang_en }}">{% endif %}
 
+    {%- comment -%} Resolve a share image for every page: custom image > generated post OG card > site banner {%- endcomment -%}
+    {%- if page.image -%}
+      {%- assign og_image = page.image | absolute_url -%}
+    {%- elsif page.collection == 'posts' -%}
+      {%- capture og_image -%}{{ '/assets/images/og/' | append: page.slug | append: '.png' | absolute_url }}{%- endcapture -%}
+    {%- else -%}
+      {%- assign og_image = '/assets/images/og-banner.jpg' | absolute_url -%}
+    {%- endif -%}
+
     <!-- Open Graph -->
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.description | default: site.description }}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.canonical_url | default: page.url | absolute_url }}">
-    {% if page.image %}<meta property="og:image" content="{{ page.image }}">{% endif %}
+    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
     <meta name="twitter:creator" content="@WeiYipei">
-    {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+    <meta name="twitter:image" content="{{ og_image }}">
     <meta property="og:site_name" content="Gingiris Growth Tools">
     <meta property="og:locale" content="{% if page.lang == 'ja' %}ja_JP{% elsif page.lang == 'ko' %}ko_KR{% elsif page.lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
 
@@ -61,7 +72,7 @@
           "url": "https://gingiris.tools/favicon.svg"
         }
       },
-      {% if page.image %}"image": "{{ page.image }}",{% endif %}
+      "image": "{{ og_image }}",
       "url": "{{ page.canonical_url | default: page.url | absolute_url }}",
       "mainEntityOfPage": "{{ page.canonical_url | default: page.url | absolute_url }}"
     }
