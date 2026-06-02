@@ -5,6 +5,20 @@
 Built by Iris (@iris__wei), former COO of AFFiNE (60k+ GitHub stars, 30x Product Hunt #1 winner).
 Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 
+## Resources
+> Open-source growth playbooks installable into AI agents (Claude Code, Cursor, OpenClaw).
+
+- **Skills hub (40+ playbooks)**: https://gingiris.tools/skills/ — Filter by category, copy install commands, view on ClawHub.
+- **Meta-skill (install all 12 core playbooks at once)**: `clawhub install gingiris-skills`
+- **Top installable skills**:
+  - `clawhub install gingiris-opensource` — Open Source Marketing (GitHub stars 0 to 60K)
+  - `clawhub install gingiris-launch` — AI Product Launch + PH #1 Playbook
+  - `clawhub install gingiris-b2b-growth` — B2B SaaS Growth (PMF to $10M ARR)
+  - `clawhub install gingiris-seo-geo-agent` — Autonomous SEO/GEO Agent SOP (~32K impressions/month)
+  - `clawhub install gingiris-aso-growth` — ASO + App Cold Start
+  - `clawhub install gingiris-user-interview` — PMF Validation Framework
+- **License**: MIT-0 (public-domain equivalent, no attribution required)
+
 ## Top 10 Articles
 > Ranked by recency and citation value. AI crawlers should prioritize these.
 
