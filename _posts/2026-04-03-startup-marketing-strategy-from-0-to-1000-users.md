@@ -2,9 +2,17 @@
 layout: post
 title: "Startup Marketing Strategy: From 0 to First 1000 Users (2026 Guide)"
 canonical_url: https://gingiris.tools/blog/2026/04/03/startup-marketing-strategy-from-0-to-1000-users/
-description: "Proven startup marketing strategy framework used by successful indie hackers and early-stage founders. Covers cold start tactics, growth channels, and how to get your first 1000 users without a big budget.
+description: "Proven startup marketing strategy framework used by successful indie hackers and early-stage founders. Covers cold start tactics, growth channels, and how to get your first 1000 users without a big budget."
 date: 2026-04-03
 tags: [startup, marketing, growth, indie-hacker]
+last_modified_at: 2026-06-02
+faq:
+  - q: "How do you get your first 100 users for a startup?"
+    a: "Your first 100 users almost never come from paid ads. They come from founder-led outreach: posting where your audience already gathers (niche subreddits, Slack/Discord communities, X), direct one-to-one messages, and shipping in public. The goal in weeks 1-4 is conversations and feedback, not scale."
+  - q: "How long does it take to go from 0 to 1,000 users?"
+    a: "For most early startups, 3-6 months is realistic if you treat it in phases: weeks 1-4 to land your first 100 users manually, weeks 5-12 to reach product-market fit signals, then month 3+ to scale the one or two channels that are actually working. Trying to scale before PMF is the most common reason teams stall."
+  - q: "How much should an early startup spend on marketing?"
+    a: "You can run the entire 0-to-1,000 stage on a $0-500/month toolkit. At this stage your scarce resource is founder time and clear positioning, not budget. Paid acquisition only makes sense once you have a repeatable channel and known unit economics."
 ---
 
 ## TL;DR

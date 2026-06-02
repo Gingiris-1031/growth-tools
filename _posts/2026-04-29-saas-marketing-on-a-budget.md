@@ -7,6 +7,13 @@ tags: [saas-marketing, bootstrap, indiehackers, growth, startup-marketing]
 canonical_url: https://gingiris.tools/blog/2026/04/29/saas-marketing-on-a-budget/
 image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
 last_modified_at: 2026-04-29
+faq:
+  - q: "How do you market a SaaS with no budget?"
+    a: "Lean on $0, high-ROI tactics: founder-led content, showing up consistently in the right communities, SEO content you write yourself, a well-prepared Product Hunt launch, surgical cold outreach, open source as marketing where it fits, and honest public failure storytelling. Time and consistency replace ad spend."
+  - q: "What is the single highest-ROI $0 marketing tactic?"
+    a: "Founder-led content. Publishing your real insights, decisions, and numbers builds trust and distribution that compounds, costs nothing but time, and feeds every other channel — it's the tactic the guide ranks first for good reason."
+  - q: "What should you avoid with a $0 marketing budget?"
+    a: "Avoid spreading yourself across every channel, buying followers or engagement, and producing generic AI-spun content with no point of view. With limited time, depth on one or two channels beats shallow presence everywhere, and low-effort content actively erodes the trust that free marketing depends on."
 ---
 
 It's a Sunday noon in Helsinki — I'm in a café off Aleksanterinkatu, second espresso, laptop open because I just got off a call with a founder asking: *"I have $5,000. What marketing should I run?"*

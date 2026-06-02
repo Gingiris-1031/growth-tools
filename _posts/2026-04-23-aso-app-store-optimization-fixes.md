@@ -7,6 +7,14 @@ canonical_url: https://gingiris.tools/blog/2026/04/23/aso-app-store-optimization
 seo_title: "ASO App Store Optimization: 9 Fixes for More Organic Installs"
 seo_description: "A practical ASO app store optimization guide covering keywords, screenshots, ratings, localization, and post-launch testing for iOS and Google Play."
 keywords: [aso app store optimization, app store optimization, aso, mobile app growth, app store seo]
+last_modified_at: 2026-06-02
+faq:
+  - q: "What are the most common ASO mistakes?"
+    a: "The biggest ones are stuffing too many keywords per listing instead of one clear angle, treating screenshots as a gallery rather than a conversion sequence, copy-pasting the same strategy across iOS and Google Play, and chasing average rating while ignoring review freshness."
+  - q: "Should iOS and Google Play ASO be the same?"
+    a: "No. iOS relies on a dedicated keyword field, while Google Play crawls the full description, so keyword strategy differs fundamentally. Running identical metadata on both leaves rankings on the table — each store needs its own keyword placement and listing approach."
+  - q: "Does review velocity affect ASO rankings?"
+    a: "Yes. Both stores weigh recent, steady reviews more than a high lifetime average, because freshness signals an actively maintained, trusted app. Building a consistent flow of recent reviews often moves rankings more than nudging the average rating up a tenth of a point."
 ---
 
 # ASO App Store Optimization: 9 Fixes for More Organic Installs

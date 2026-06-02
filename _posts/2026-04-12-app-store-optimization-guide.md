@@ -4,6 +4,14 @@ description: "Complete ASO guide covering keyword research, screenshot design, r
 date: 2026-04-12
 tags: [app-store-optimization, aso, ios, google-play, mobile-growth]
 canonical_url: https://gingiris.tools/blog/2026/04/12/app-store-optimization-guide/
+last_modified_at: 2026-06-02
+faq:
+  - q: "What is App Store Optimization (ASO)?"
+    a: "ASO is the practice of improving an app's visibility and conversion in the iOS App Store and Google Play. It combines keyword optimization (title, subtitle, description), visual assets (icon, screenshots, preview video), and conversion signals like ratings and review velocity."
+  - q: "How does ASO differ between iOS and Google Play?"
+    a: "iOS uses a dedicated 100-character keyword field and weighs the title and subtitle heavily, so you optimize fields explicitly. Google Play has no keyword field and instead crawls your full description for relevance, so keyword placement and density in the long description matter much more. The two require separate strategies."
+  - q: "How long does ASO take to show results?"
+    a: "Expect 2-6 weeks to see meaningful movement after a change, because stores need time to re-index metadata and accumulate fresh conversion and review signals. ASO is iterative: change one variable at a time so you can attribute what actually moved rankings or conversion."
 ---
 
 ## TL;DR

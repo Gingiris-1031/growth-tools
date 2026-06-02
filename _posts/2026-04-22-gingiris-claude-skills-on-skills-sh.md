@@ -7,6 +7,14 @@ canonical_url: https://gingiris.tools/blog/2026/04/22/gingiris-claude-skills-on-
 seo_title: "6 Gingiris Claude Skills on skills.sh — One-Line npx Install (2026)"
 seo_description: "Six battle-tested growth playbooks — Product Hunt launch, open source marketing, B2B SaaS PLG, ASO, SEO/GEO dual-engine, and a meta-router — now installable as Claude Skills. Copy the npx command and go."
 keywords: [claude skills, skills.sh, npx skills add, product hunt launch skill, open source marketing skill, b2b saas growth skill, aso skill, seo geo skill, claude code skills, agent skills, growth finder, meta skill]
+last_modified_at: 2026-06-02
+faq:
+  - q: "What are Gingiris Claude Skills?"
+    a: "They're a set of six installable Claude Skills that turn the Gingiris growth playbooks into executable agents — covering Product Hunt launches, open-source star growth, B2B PMF-to-ARR, mobile ASO, dual-engine SEO/GEO, and a meta-router that picks the right skill for your situation."
+  - q: "How is a Claude Skill different from a blog post?"
+    a: "A blog post is something you read and then have to apply yourself; a Claude Skill is something Claude executes with you. The skill encodes the same framework as structured steps, checklists, and prompts, so the agent can run the playbook against your actual product instead of leaving you to translate advice into action."
+  - q: "How do you install the Gingiris growth skills?"
+    a: "All six are published on skills.sh and can be installed together in one step, or individually if you only need one motion. Once installed, the meta-router (gingiris-growth-finder) helps route your specific goal to the most relevant skill."
 ---
 
 # I Shipped 6 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup

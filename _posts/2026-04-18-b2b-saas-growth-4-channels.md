@@ -5,6 +5,14 @@ date: 2026-04-18
 tags: [B2B SaaS, SaaS Growth, PLG, SLG, MRR, Growth Strategy]
 canonical_url: https://gingiris.tools/blog/2026/04/18/b2b-saas-growth-4-channels/
 layout: post
+last_modified_at: 2026-06-02
+faq:
+  - q: "B2B SaaS 有哪四大增长渠道？"
+    a: "四大核心渠道是：PLG（产品驱动增长）、SLG（销售驱动增长）、渠道合作伙伴，以及社区与内容营销。前两者决定你的主获客动作，后两者负责放大与沉淀品牌护城河。多数公司会组合使用，但应选定一个主渠道。"
+  - q: "PLG 和 SLG 应该怎么选？"
+    a: "当产品在销售介入前就能让用户体验到价值、且定价支持自助购买时，选 PLG；当客单价高、涉及多个决策者或需要定制和合规审查时，选 SLG。选错的典型表现是 CAC 失控（低客单价硬做 SLG）或企业单卡死（高客单价却没有销售动作）。"
+  - q: "早期 SaaS 应该先做哪个渠道？"
+    a: "早期资源有限，应集中验证一个与产品形态最匹配的主渠道，跑出可复用的获客闭环后再叠加第二个。常见做法是先用内容和社区低成本建立信任，再根据客单价决定主攻 PLG 还是 SLG。"
 ---
 
 ## TL;DR

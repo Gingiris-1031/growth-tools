@@ -7,6 +7,14 @@ canonical_url: "https://gingiris.tools/blog/2026/04/29/github-star-growth-levers
 seo_title: "GitHub Star Growth: 9 Levers That Compound in 2026"
 seo_description: "A practical GitHub star growth guide covering README conversion, launch waves, maintainer replies, and SEO loops that compound discovery."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]
+last_modified_at: 2026-06-02
+faq:
+  - q: "What are the main levers for GitHub star growth in 2026?"
+    a: "Four levers do most of the work: clarifying the repo category above the fold, optimizing the README for star conversion, launching in waves instead of one burst, and picking one primary channel per push that matches developer intent. They compound when used together."
+  - q: "How do you optimize a README for star conversion?"
+    a: "Lead with high-conversion blocks: a one-line category statement, a demo or screenshot, a fast quickstart, and social proof. The README's job is to get a scanning developer to star within the first screen, so put the most persuasive elements before any long-form documentation."
+  - q: "Should you launch a repo on all channels at once?"
+    a: "No — concentrate one primary channel per push so your effort and the resulting signal aren't diluted. Match the channel to intent (Hacker News for technical depth, Reddit for niche communities, X for warm audience) and sequence pushes as waves rather than firing everywhere simultaneously."
 ---
 
 # GitHub Star Growth: 9 Levers That Compound in 2026

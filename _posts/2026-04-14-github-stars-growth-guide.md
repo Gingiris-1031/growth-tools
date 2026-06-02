@@ -7,6 +7,14 @@ canonical_url: https://gingiris.tools/blog/2026/04/14/github-stars-growth-guide/
 seo_title: "GitHub Star Growth Guide: 0 to 10k Stars in 18 Months"
 seo_description: "Learn the battle-tested playbook for GitHub star growth. Reddit, HackerNews, Product Hunt strategies from AFFiNE's 33k star success story."
 keywords: [github stars, github star growth, get github stars, increase github stars, open source marketing, developer marketing]
+last_modified_at: 2026-06-02
+faq:
+  - q: "How do you grow GitHub stars?"
+    a: "Grow stars in phases: build a conversion-focused README and docs first, then seed developer communities (Reddit, Hacker News, relevant Discords), then run influencer/KOL outreach, and finally invest in integrations and ecosystem presence. Stars follow genuine utility plus distribution, not one viral post."
+  - q: "How many GitHub stars is considered a lot?"
+    a: "Context matters, but as rough benchmarks: 1k stars signals real traction, 10k marks an established project, and 30k+ puts you among well-known open-source tools. Growth rate often matters more than the absolute number — a fast-climbing repo signals momentum to developers and investors."
+  - q: "How did AFFiNE reach 33k stars?"
+    a: "AFFiNE compounded several levers over roughly 18 months: a strong README and clear category positioning, repeated coordinated launches, developer-community seeding, and consistent ecosystem presence. The case study breaks down the framework phase by phase rather than attributing it to a single hit."
 ---
 
 # How to Get GitHub Stars Fast: A Developer's Growth Playbook

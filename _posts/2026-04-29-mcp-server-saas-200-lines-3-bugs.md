@@ -5,6 +5,14 @@ date: 2026-04-29 14:00:00 +0800
 categories: [saas, mcp, dev]
 description: "How we exposed Analook's competitor-analysis pipeline to Claude Desktop and Cursor as a Remote MCP server — including the 3 silent failures we caught only because we ran an independent code review on every change."
 canonical_url: https://gingiris.tools/blog/2026/04/29/mcp-server-saas-200-lines-3-bugs/
+last_modified_at: 2026-06-02
+faq:
+  - q: "What are common bugs when building an MCP server?"
+    a: "Three recurring ones from building a real MCP server SaaS: a schema crash from mishandling the progress field, an unsafe 8-character UUID with too few bits of entropy, and an SSRF-adjacent input-validation gap. Most MCP bugs cluster around schema correctness, identifier safety, and request validation."
+  - q: "How long does it take to build an MCP server SaaS?"
+    a: "A minimal but production-shaped MCP server can be roughly 200 lines of code, but the real time goes into the edge cases — schema validation, secure identifiers, and request safety — plus the bug that only production traffic surfaces. The line count is small; the correctness work is not."
+  - q: "Is an 8-character UUID safe to use?"
+    a: "No. An 8-character identifier has far too little entropy to be unguessable, making resources enumerable. Use full-length UUIDs (or equivalently strong random tokens) for anything that gates access, which is exactly why the 8-character UUID was one of the three bugs that had to be fixed."
 ---
 
 It was 11:47 PM on a Sunday in April 2026. I was in my Kunshan apartment, my second matcha gone cold next to the laptop, watching a `curl` command return `HTTP 405 Method Not Allowed` from `https://www.analook.com/mcp` — the endpoint I'd just shipped 90 seconds ago.
