@@ -33,8 +33,8 @@
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
     <meta name="twitter:creator" content="@WeiYipei">
     {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
-
-    {% seo %}
+    <meta property="og:site_name" content="Gingiris Growth Tools">
+    <meta property="og:locale" content="{% if page.lang == 'ja' %}ja_JP{% elsif page.lang == 'ko' %}ko_KR{% elsif page.lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
 
     <!-- Article Schema (GEO/SEO) -->
     <script type="application/ld+json">
