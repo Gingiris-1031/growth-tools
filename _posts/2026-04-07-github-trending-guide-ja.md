@@ -7,9 +7,17 @@ canonical_url: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ja/
 description: "AFFiNEのCOOが公開。5ヶ月でGitHub Trendingに28回登場した実際の戦略。スター獲得からREADME最適化まで完全解説。"
 categories: [github, opensource, japanese]
 tags: [GitHub, Trending, オープンソース, スター]
-hreflang_en: https://gingiris.tools/en/
+hreflang_en: https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/
+hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ko/
+last_modified_at: 2026-06-03
+faq:
+  - q: "GitHub Trendingに載るには1日に何個のスターが必要ですか？"
+    a: "閾値はカテゴリと競争状況で変動しますが、全言語Daily Trendingでは通常80〜150スター/日、TypeScriptやRustなどの言語別Trendingでは30〜60スター/日が目安です。Weekly Trendingは7日間で300〜500スター。AFFiNEはオープンソースローンチ5日目に約200スター/日で全言語Daily Trendingに到達しました。重要なのは総量ではなく速度——24時間以内に集中させることが鍵です。"
+  - q: "GitHub Trendingに一度載るとどのくらい滞在しますか？"
+    a: "Daily Trendingは通常1〜7日、Weekly Trendingは1〜4週間です。滞在期間は初動のスパイク後にスター速度を維持できるかで決まります。AFFiNEが5ヶ月で28回もTrendingに登場できたのは、一度の持続的なスパイクではなく、毎回のTrending登場でベースラインが上がり、次のスパイクで再びTrendingに押し戻されるサイクルを意図的に作ったからです。"
+  - q: "GitHub Trendingは毎日リセットされますか？"
+    a: "はい。Daily Trendingは毎日UTCの真夜中（日本時間午前9時）にリセットされます。Weekly Trendingは月曜日リセット、Monthly Trendingは毎月1日リセット。これはチャンスでもあり、つまり異なる日に高いスター速度を維持できれば、同じプロジェクトが何度もDaily Trendingに登場できます——AFFiNEはこの「サイクル設計」を月1〜2回のリリース告知に組み込みました。"
 ---
-
 2022年の火曜日の朝、午前5時。上海のオフィスで私はひとりMacBookを開いていた。
 
 AFFiNEのリポジトリを開き、GitHub Trendingのページを更新した瞬間——「AFFiNE」という文字が画面に現れた。初めてTrendingに載った朝だ。（正直、寝不足のせいで幻覚かと思った）

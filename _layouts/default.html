@@ -12,13 +12,17 @@
     <meta name="author" content="{{ page.author | default: site.author.name | default: "Iris Wei" }}">
     <meta name="google-site-verification" content="k4XyIH1GtMfoPNDhBRKaVE98gYFE9bk_HtH430A3QJE">
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
-    {% if page.hreflang_ja %}<link rel="alternate" hreflang="ja" href="{{ page.hreflang_ja }}">
-    <link rel="alternate" hreflang="en" href="{{ page.canonical_url | default: page.url | absolute_url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ page.canonical_url | default: page.url | absolute_url }}">{% endif %}
+    {%- comment -%}hreflang — emit self-tag based on page.lang, then alternates pointing elsewhere{%- endcomment -%}
+    {% if page.hreflang_en or page.hreflang_ja or page.hreflang_ko %}
+    {%- assign self_url = page.canonical_url | default: page.url | absolute_url -%}
+    {% if page.lang == 'ja' %}<link rel="alternate" hreflang="ja" href="{{ self_url }}">{% endif %}
+    {% if page.lang == 'ko' %}<link rel="alternate" hreflang="ko" href="{{ self_url }}">{% endif %}
+    {% unless page.lang == 'ja' or page.lang == 'ko' %}<link rel="alternate" hreflang="en" href="{{ self_url }}">{% endunless %}
+    {% if page.hreflang_en %}<link rel="alternate" hreflang="en" href="{{ page.hreflang_en }}">{% endif %}
+    {% if page.hreflang_ja %}<link rel="alternate" hreflang="ja" href="{{ page.hreflang_ja }}">{% endif %}
     {% if page.hreflang_ko %}<link rel="alternate" hreflang="ko" href="{{ page.hreflang_ko }}">{% endif %}
-    {% if page.hreflang_en %}<link rel="alternate" hreflang="en" href="{{ page.hreflang_en }}">
-    <link rel="alternate" hreflang="ja" href="{{ page.canonical_url | default: page.url | absolute_url }}">
-    <link rel="alternate" hreflang="x-default" href="{{ page.hreflang_en }}">{% endif %}
+    <link rel="alternate" hreflang="x-default" href="{{ page.hreflang_en | default: self_url }}">
+    {% endif %}
 
     {%- comment -%} Resolve a share image for every page: custom image > generated post OG card > site banner {%- endcomment -%}
     {%- if page.image -%}

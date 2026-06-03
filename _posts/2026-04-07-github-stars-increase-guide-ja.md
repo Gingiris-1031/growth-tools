@@ -5,9 +5,19 @@ date: 2026-04-07
 lang: ja
 canonical_url: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
 description: "AFFiNEのCOOがGitHub Stars 60,000件達成の実体験を公開。Trending 28回、実証済みの増やし方を日本語で解説。開発者必読。"
-hreflang_en: https://gingiris.tools/en/
+categories: [github, opensource, japanese]
+tags: [GitHub, スター, オープンソース, AFFiNE]
+hreflang_en: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
+last_modified_at: 2026-06-03
+faq:
+  - q: "GitHubで1,000スターを獲得するにはどのくらい時間がかかりますか？"
+    a: "積極的にプロモーションすれば1〜3ヶ月が現実的です。AFFiNEはローンチ後72時間で1,000スターに到達しました。プロモーションなしの「待ち」戦略では6〜12ヶ月かかることが多いです。最速の道筋は、Product Hunt・Hacker News Show HN・Redditの3チャネルを同じ48時間以内に集中させること——分散させると初速が落ち、Trendingアルゴリズムに乗りません。"
+  - q: "GitHubスターを購入するのは効果がありますか？"
+    a: "やめてください。GitHubはフェイクスター検出システムを持っており、検出されればリポジトリBANのリスクがあります。さらに投資家やシリアスな開発者は、スター獲得の速度カーブと地域分布を確認するスクリプトを実行しています。1地域からの異常に高い比率や、コントリビューターゼロで急増したスターは即座に見抜かれ、信頼を完全に失います。実体験として、購入スターを使ったプロジェクトでファンドレイズが破談になった事例を複数知っています。"
+  - q: "READMEを書き直すだけでスター獲得ペースは変わりますか？"
+    a: "はい、明確に変わります。AFFiNEではREADMEを書き直しただけで、1日あたりのスター獲得ペースが3〜5件から20〜30件に跳ね上がりました。最も効いたのは「最初の3行でプロダクトの本質を説明する」「ヒーローGIFまたは動画を最上部に置く」「Star Historyチャートを埋め込む」の3点です。技術スペックから入るREADMEは、Trendingからの流入を逃します——訪問者は5秒以内に判断します。"
 ---
-
 2022年8月、木曜日の深夜2時。私は上海のオフィスの床に座っていた——ラップトップを膝に乗せ、Slackをミュートにして、GitHubのスター数をリロードし続けていた。
 
 AFFiNEのスター数は当時、約2,000件。「このまま埋もれていくのか」と本気で思っていた。（正直に言えば、あの頃は何をすれば良いか全く分かっていなかった。ただリロードしていた。）

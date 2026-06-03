@@ -4,13 +4,20 @@ title: "Product Hunt 공략법: #1을 30번 달성한 팀의 출시 전략 (2026
 date: 2026-04-07
 lang: ko
 hreflang_en: https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
+hreflang_ja: https://gingiris.tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
 canonical_url: https://gingiris.tools/blog/2026/04/07/product-hunt-guide-ko/
 description: "Product Hunt에서 #1을 30번 달성한 팀의 실제 전략. 헌터 선정부터 댓글 관리, 출시 후 모멘텀 유지까지 단계별 가이드."
 categories: [producthunt, launch, korean]
 tags: [Product Hunt, 출시, 스타트업, 마케팅]
-last_modified_at: 2026-04-26
+last_modified_at: 2026-06-03
+faq:
+  - q: "Product Hunt에서 #1이 되려면 업보트가 몇 개 필요한가요?"
+    a: "날에 따라 다르지만, 경쟁이 치열한 화·수요일에는 300~600표, 비교적 한산한 날에는 150~300표가 기준선입니다. 다만 표 수보다 '표의 질'이 더 중요합니다 — PH는 2시간마다 가중치 낮은 표(신규 계정, 같은 IP에서 짧은 시간에 몰린 표, 지역 편중)를 걸러내는 알고리즘이 있어 오래된 계정에서의 200표가 신규 계정에서의 500표를 이깁니다. 지리적으로 분산된 소스에서 시간당 100표 이하의 속도를 유지하는 것이 핵심입니다. AFFiNE은 최고 단일 출시에서 1,200표 이상을 받았지만, 그것도 6시간에 걸쳐 분산된 자연스러운 속도였습니다."
+  - q: "한국 시간 기준으로 언제 Product Hunt에 출시해야 하나요?"
+    a: "Product Hunt은 미국 태평양 표준시(PST) 자정 12:00에 새 날이 시작됩니다. 한국 시간으로는 오후 5시(서머타임 기간에는 오후 4시). 이 시간에 맞춰 출시하면 가장 긴 24시간을 확보합니다. 한국 시간 기준 권장 타임라인은: 오후 4~5시 출시 확인 및 링크 공유 시작 → 오후 5~7시 Discord·Slack·팀원 네트워크에 첫 파동 → 오후 7~10시 이메일 뉴스레터 발송 → 자정~새벽 2시 Reddit·Hacker News 등 테크 커뮤니티 포스팅. 화·수·목요일에 출시하고 월요일과 금요일·주말은 피하세요."
+  - q: "헌터(Hunter) 없이 셀프로 Product Hunt에 올려도 #1을 할 수 있나요?"
+    a: "가능하지만 헌터가 있으면 훨씬 유리합니다. 헌터의 팔로워에게 자동으로 알림이 가기 때문에 출시 첫 시간의 초기 모멘텀을 만들기 쉽습니다. 좋은 헌터를 찾는 방법: producthunt.com/leaderboard에서 상위 헌터 목록 확인 → 본인의 카테고리(DevTools, Productivity 등)에서 활발한 헌터 찾기 → LinkedIn 또는 Twitter(X)로 진심을 담아 개인적으로 연락. AFFiNE의 첫 #1 출시는 5만 팔로워를 가진 헌터를 섭외했고, 한 달 전부터 그의 포스트에 진정성 있는 댓글을 달며 관계를 쌓은 후였습니다. 단순 DM 스팸이 아니라 사전 관계 구축이 핵심입니다."
 ---
-
 2023년 3월, 수요일 새벽이었다. 상하이 오피스에 세 명이 남아 있었다 — 화면 앞에서 Product Hunt 투표 수를 새로고침하면서.
 
 자정이 지나 #1을 확인하는 순간, 아무도 말을 못 했다.

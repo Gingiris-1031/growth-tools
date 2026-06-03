@@ -4,12 +4,20 @@ title: "GitHub 스타 늘리는 방법: AFFiNE이 6만 스타를 달성한 전�
 date: 2026-04-07
 lang: ko
 hreflang_en: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
 canonical_url: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
 description: "AFFiNE COO가 공개하는 GitHub 스타 늘리는 방법. README 최적화부터 커뮤니티 구축까지, 실제로 효과 있었던 7가지 전략."
 categories: [github, opensource, korean]
 tags: [GitHub, 스타, 오픈소스, 마케팅]
+last_modified_at: 2026-06-03
+faq:
+  - q: "GitHub 스타 1,000개를 얻는 데 얼마나 걸리나요?"
+    a: "적극적으로 프로모션하면 1~3개월이 현실적인 목표입니다. AFFiNE은 출시 후 72시간 만에 1,000개 스타를, 첫 주에 6,000개를 달성했습니다. 반면 프로모션 없이는 1,000개 도달에 6~12개월이 걸리는 경우가 흔합니다. 가장 빠른 길은 Reddit, Hacker News Show HN, Product Hunt 세 채널을 같은 48시간 안에 집중시키는 것입니다 — 시간을 분산시키면 속도가 떨어져 Trending 알고리즘에 진입할 수 없습니다."
+  - q: "한국어 README를 추가하면 정말 스타가 늘어나나요?"
+    a: "네, 명확하게 늘어납니다. AFFiNE은 영어 README만 있던 시기에 한국어 README를 추가한 후 한국 IP에서의 스타 유입이 3주 만에 400% 증가했습니다. GitHub 사용자의 약 60%가 비영어권인데, 대부분의 오픈소스 프로젝트는 영어 README만 제공합니다. 한국어 README를 추가하고 OKKY나 카카오 기술 블로그 같은 한국 커뮤니티에 소개 글을 함께 올리면 시너지가 극대화됩니다 — 단순 자동번역이 아닌 한국 개발자가 자연스럽게 읽을 수 있는 품질이 핵심입니다."
+  - q: "GitHub 스타를 구매해도 되나요?"
+    a: "절대 추천하지 않습니다. GitHub은 가짜 스타 탐지 시스템을 운영하며, 적발되면 리포지토리 차단(BAN) 위험이 있습니다. 더 큰 문제는 시리어스한 투자자와 개발자들이 스타 증가 속도 곡선과 지역 분포를 검증하는 스크립트를 돌린다는 점입니다 — 한 지역에서 비정상적으로 높은 비율이 나오거나, 기여자 0명인데 스타만 폭증한 패턴은 즉시 적발됩니다. 신뢰를 잃으면 회복할 수 없습니다 — 진짜 스타만이 의미 있는 신호입니다."
 ---
-
 2022년 8월, 화요일 새벽 2시였다. 상하이 오피스 바닥에 앉아 노트북 화면을 응시하고 있었다. GitHub 스타 카운터가 3,200에서 멈춰 있었다 — 3주째.
 
 팀원 중 누군가가 말했다. "이 속도라면 1만 달성하는 데 2년은 걸린다."

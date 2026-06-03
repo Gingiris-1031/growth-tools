@@ -4,12 +4,20 @@ title: "GitHub Trending 등록 방법: 5개월 만에 28번 오른 비결 (2026�
 date: 2026-04-07
 lang: ko
 hreflang_en: https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/
+hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ja/
 canonical_url: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ko/
 description: "AFFiNE이 5개월간 GitHub Trending에 28번 등록된 실제 전략. 점화 타이밍, README 최적화, 커뮤니티 활용법까지."
 categories: [github, trending, korean]
 tags: [GitHub, Trending, 오픈소스, 스타]
+last_modified_at: 2026-06-03
+faq:
+  - q: "GitHub Trending에 오르려면 하루에 스타가 몇 개 필요한가요?"
+    a: "기준은 카테고리와 경쟁 상황에 따라 다르지만, 전체 언어 Daily Trending은 보통 하루 80~150개 스타, TypeScript·Rust 같은 언어별 Trending은 30~60개 스타가 목표선입니다. Weekly Trending은 7일간 300~500개. AFFiNE은 오픈소스 출시 5일째에 하루 약 200개 스타로 전체 언어 Daily Trending에 진입했습니다. 핵심은 총량이 아니라 속도 — 24시간 안에 집중시키는 것이 알고리즘 진입의 열쇠입니다."
+  - q: "GitHub Trending에 한번 오르면 얼마나 유지되나요?"
+    a: "Daily Trending은 보통 1~7일, Weekly Trending은 1~4주 유지됩니다. 유지 기간은 초기 스파이크 이후에도 스타 속도를 얼마나 지속하느냐로 결정됩니다. AFFiNE이 5개월 동안 28번이나 Trending에 오를 수 있었던 이유는 하나의 거대한 스파이크가 아니라, Trending에 오를 때마다 기준선(baseline)이 높아지고 다음 스파이크를 만들어 다시 Trending에 진입시키는 사이클을 의도적으로 설계했기 때문입니다 — 월 1~2회 정도의 릴리즈 알림 패턴이 가장 안정적이었습니다."
+  - q: "TypeScript Trending과 전체 언어 Trending 중 어느 것을 노려야 하나요?"
+    a: "초기 프로젝트라면 무조건 언어별 Trending이 더 현실적입니다. 전체 언어 Trending은 진입 장벽이 훨씬 높고 경쟁이 치열한 반면, TypeScript·Rust·Python 같은 언어별 Trending은 상대적으로 낮은 스타 수로도 오를 수 있고, 같은 언어를 쓰는 개발자 커뮤니티에 직접 도달합니다. AFFiNE은 TypeScript로 개발되어 있어 TypeScript Trending에 오를 때마다 프론트엔드 개발자 커뮤니티에서 신규 스타가 들어왔습니다. 언어별 Trending에 먼저 오르고 baseline을 쌓은 후 전체 언어 Trending을 노리는 단계적 접근을 추천합니다."
 ---
-
 2023년 1월 어느 월요일 아침, 팀원이 슬랙 메시지를 보냈다.
 
 "지금 GitHub Trending에 우리가 있어."

@@ -5,9 +5,19 @@ date: 2026-04-07
 lang: ja
 canonical_url: https://gingiris.tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
 description: "Hacker News Show HNでフロントページに載るための投稿方法と攻略法を日本語で解説。AFFiNEの実体験を基にしたエンジニア向け完全ガイド。"
-hreflang_en: https://gingiris.tools/en/
+categories: [hackernews, launch, japanese]
+tags: [HackerNews, ShowHN, ローンチ, 開発者]
+hreflang_en: https://gingiris.tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
+hreflang_ko: https://gingiris.tools/blog/2026/04/07/hacker-news-guide-ko/
+last_modified_at: 2026-06-03
+faq:
+  - q: "Show HNとは何ですか？通常のHN投稿と何が違いますか？"
+    a: "Show HNは「自分が作ったものを見てくれ」というHN専用フォーマットで、タイトルを『Show HN:』で始めます。通常のリンク投稿と違い、Show HNには専用の/shownewページが存在し、即座のダウン投票を受けにくい猶予期間があり、通常投稿に適用される『セルフプロモ禁止ルール』が免除されます。HNコミュニティは技術的に興味深いプロジェクトをここで積極的に探しているため、本格的な早期採用者にリーチできる数少ない場所のひとつです。"
+  - q: "Hacker Newsに投稿するベストタイミングは？"
+    a: "米国東部時間（ET）の平日午前9〜10時（月〜木）がフロントページに上がる確率が最も高い時間帯です。日本時間では夏時間中の午後10時〜翌午前0時、冬時間中の午後11時〜翌午前1時。これはHN全体のトラフィックがピークに達し、早期投票してくれるパワーユーザーが最も活発な時間です。日曜午前10時ETも穴場——競合が少なく、週末の探索的なオーディエンスに刺さります。金曜午後と土曜は避けてください。"
+  - q: "Show HNが反応薄かった場合、再投稿してもいいですか？"
+    a: "はい、HNのガイドラインはプロジェクトに大きな変更があった場合や、前回の投稿がプロジェクトを十分に表現できていなかった場合の再投稿を許可しています。ただし最低1ヶ月は空けること、タイトルと最初のコメントを大幅に書き換えること、まったく同じ投稿を二度繰り返さないことが鉄則です。AFFiNEを含む多くのプロジェクトが、初回投稿で埋もれた後、ポジショニングを改善した2回目の投稿で突破した実例があります。"
 ---
-
 2023年の秋、深夜。私はHacker Newsを眺めながら、「AFFiNEをどう投稿すべきか」を1時間悩んでいた。
 
 Redditは勢いがある。Product Huntは可視性がある。でも、Hacker Newsは違う——ここで認められることは、**エンジニアコミュニティからの本物の承認**を意味する。（HNで叩かれることへの恐怖も、正直あった。）
