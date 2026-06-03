@@ -996,8 +996,26 @@
         /* Mobile */
         @media (max-width: 768px) {
             .sidebar { display: none; }
-            .header-links { display: none; }
+            /* Header nav: scroll horizontally instead of hiding 5 items (incl. Skills hub) */
+            .header-links {
+                gap: 0; font-size: 12px;
+                overflow-x: auto; -webkit-overflow-scrolling: touch;
+                white-space: nowrap; flex-shrink: 1; min-width: 0;
+                scrollbar-width: none;
+            }
+            .header-links::-webkit-scrollbar { display: none; }
+            .header-links a { padding: 5px 7px; flex-shrink: 0; }
+            .header-links .submit-btn { padding: 6px 10px; font-size: 11px; }
+            .header-inner { gap: 8px; padding: 0 12px; }
+            .logo-sub { display: none; }
+            .logo-divider { display: none; }
+            .logo-img { height: 22px; }
+            .lang-switch { font-size: 12px; padding: 4px 8px; }
             .tools-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 380px) {
+            .header-links a { padding: 5px 5px; font-size: 11px; }
+            .header-links .submit-btn { padding: 5px 8px; font-size: 10px; }
         }
 
         /* No results */
