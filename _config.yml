@@ -49,3 +49,5 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  - articles
+  - scripts
