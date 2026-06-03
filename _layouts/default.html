@@ -370,8 +370,31 @@
         .post article strong { color: var(--text); font-weight: 650; }
 
         @media (max-width: 640px) {
-            .nav a:not(:last-child) { display: none; }
-            .content { padding: 32px 16px 60px; }
+            /* Header: compact but keep nav usable */
+            .header { padding: 0 14px; height: 52px; }
+            .header-inner { gap: 8px; }
+            .logo-img { height: 22px; }
+            .logo-sub { display: none; }
+            .logo-divider { display: none; }
+            /* Nav: scroll horizontally instead of hiding items */
+            .nav {
+                gap: 0; font-size: 12px;
+                overflow-x: auto; -webkit-overflow-scrolling: touch;
+                white-space: nowrap; flex-shrink: 1; min-width: 0;
+                scrollbar-width: none;
+            }
+            .nav::-webkit-scrollbar { display: none; }
+            .nav a { padding: 5px 7px; flex-shrink: 0; }
+            .nav a:not(:last-child) { display: inline-block; }
+            .theme-toggle { padding: 6px 8px; font-size: 14px; flex-shrink: 0; }
+            .content { padding: 28px 14px 60px; }
+            /* Tables in posts: horizontal scroll */
+            .post article table { display: block; overflow-x: auto; white-space: nowrap; max-width: 100%; -webkit-overflow-scrolling: touch; }
+        }
+        @media (max-width: 380px) {
+            .header { padding: 0 12px; }
+            .nav a { padding: 5px 5px; font-size: 11px; }
+            .theme-toggle { padding: 5px 6px; }
         }
     </style>
     <!-- Google Analytics -->

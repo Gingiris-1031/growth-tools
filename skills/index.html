@@ -715,15 +715,71 @@
     }
     .site-footer a { color: var(--text-secondary); text-decoration: none; margin: 0 8px; }
     .site-footer a:hover { color: var(--accent); }
-    /* Mobile */
+    /* Mobile (≤640) — fix install cmd truncation + better touch targets + scrollable nav */
     @media (max-width: 640px) {
-        .container { padding: 0 16px; }
-        .hero { padding: 40px 0 24px; }
-        .hero .meta-install { font-size: 13px; padding: 12px 16px; }
-        .filter-bar { top: 53px; padding: 12px; }
-        .filter-tab { font-size: 12px; padding: 5px 10px; }
-        .skill-grid { grid-template-columns: 1fr; }
+        .container { padding: 0 14px; }
+        /* Nav: horizontal scroll instead of hiding items */
+        .site-nav { padding: 12px 0; }
+        .site-nav .container { gap: 12px; }
+        .site-nav a.logo { font-size: 15px; flex-shrink: 0; }
+        .site-nav .nav-links {
+            gap: 14px; font-size: 12px;
+            overflow-x: auto; -webkit-overflow-scrolling: touch;
+            white-space: nowrap; flex-shrink: 1; min-width: 0;
+            scrollbar-width: none;
+        }
+        .site-nav .nav-links::-webkit-scrollbar { display: none; }
+        .site-nav .nav-links a { flex-shrink: 0; }
+        /* Hero */
+        .hero { padding: 32px 0 24px; }
+        .hero h1 { font-size: 26px; line-height: 1.2; }
+        .hero .tag-line { font-size: 15px; margin-bottom: 24px; }
+        .hero .meta-install {
+            font-size: 12px; padding: 11px 16px;
+            word-break: break-all; display: block;
+            margin: 0 4px;
+        }
+        .hero .credentials { font-size: 12px; }
+        /* Sticky filter bar */
+        .filter-bar {
+            top: 50px; padding: 10px; gap: 6px;
+            margin-bottom: 28px; border-radius: 10px;
+        }
+        .filter-tab { font-size: 11px; padding: 5px 9px; }
+        /* Category headings */
+        .cat-heading { font-size: 17px; margin: 24px 0 12px; }
+        /* Skill grid → single column */
+        .skill-grid { grid-template-columns: 1fr; gap: 12px; margin-bottom: 20px; }
+        .skill-card { padding: 16px; gap: 10px; }
         .skill-name { font-size: 15px; }
+        .skill-summary { font-size: 13px; }
+        /* CORE FIX: stack install row so cmd gets full width + wraps cleanly */
+        .skill-install {
+            flex-direction: column; align-items: stretch;
+            gap: 8px; padding: 10px 12px;
+        }
+        .skill-cmd {
+            font-size: 12px; white-space: normal;
+            word-break: break-all; overflow: visible; text-overflow: clip;
+        }
+        .copy-btn {
+            align-self: flex-end; font-size: 13px;
+            padding: 6px 14px; min-height: 32px; min-width: 56px;
+        }
+        /* FAQ */
+        .faq-section { padding: 32px 0; }
+        .faq-section h2 { font-size: 22px; margin-bottom: 16px; }
+        .faq-q { font-size: 15px; }
+        .faq-a { font-size: 14px; }
+        /* Footer */
+        .site-footer { padding: 32px 0; font-size: 13px; }
+    }
+    /* Extra-narrow phones (≤380) — iPhone SE etc. */
+    @media (max-width: 380px) {
+        .hero h1 { font-size: 23px; }
+        .hero .meta-install { font-size: 11px; padding: 10px 12px; }
+        .skill-card { padding: 14px; }
+        .filter-tab { font-size: 10px; padding: 4px 8px; }
     }
     /* Hidden category sections (filter behavior) */
     .skill-grid.hidden, .cat-heading.hidden { display: none; }
