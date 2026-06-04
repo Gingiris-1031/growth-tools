@@ -13,7 +13,7 @@ keywords: [aso, appmarketing, seo, growth]
 
 **ASO app store optimization** gets expensive when teams optimize only for clicks and installs. Strong **ASO app store optimization** in 2026 connects keyword intent, listing conversion, activation quality, and early retention, because store algorithms and real growth both reward the users who actually stay. If your screenshots attract the wrong audience, your ranking may rise for a moment, but the business will still stall.
 
-If you want the deeper operating playbook, start with the **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** repo. Pair it with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch sequencing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for monetization logic, and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for public trust assets that make distribution easier.
+If you want the deeper operating playbook, start with the **[Gingiris ASO Growth](https://huggingface.co/Gingiris)** repo. Pair it with **[Gingiris Launch](https://huggingface.co/Gingiris)** for launch sequencing, **[Gingiris B2B Growth](https://huggingface.co/Gingiris)** for monetization logic, and **[Gingiris Open Source](https://huggingface.co/Gingiris)** for public trust assets that make distribution easier.
 
 ## TL;DR
 
@@ -59,7 +59,7 @@ The promise attracts curiosity more than fit.
 
 Users expected one workflow and got another.
 
-This is why **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** is valuable. It helps connect keyword intent with creative direction, not just metadata edits.
+This is why **[Gingiris ASO Growth](https://huggingface.co/Gingiris)** is valuable. It helps connect keyword intent with creative direction, not just metadata edits.
 
 ## 3. Use Onboarding Completion as a Creative Feedback Loop
 
@@ -93,7 +93,7 @@ This shows where the listing promise is blurry or too broad.
 
 Regional phrasing helps both localization and paid creative.
 
-If you are timing a bigger launch alongside the listing update, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** helps align the message across store, landing page, and campaign channels.
+If you are timing a bigger launch alongside the listing update, **[Gingiris Launch](https://huggingface.co/Gingiris)** helps align the message across store, landing page, and campaign channels.
 
 ## 5. Check Paywall and Trial Quality, Not Just Install Count
 
@@ -107,7 +107,7 @@ Install growth is cheap when the wrong users arrive.
 - refund or churn risk from low-fit cohorts
 - review sentiment after trial users mature
 
-This is where **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** still helps, even for consumer or app-led products, because monetization quality matters more than vanity top-of-funnel numbers.
+This is where **[Gingiris B2B Growth](https://huggingface.co/Gingiris)** still helps, even for consumer or app-led products, because monetization quality matters more than vanity top-of-funnel numbers.
 
 ## 6. Localize for Retention, Not Only Reach
 
@@ -138,7 +138,7 @@ Reuse proof blocks that already earned installs.
 
 #### public trust surfaces
 
-If the team also builds in public, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** can turn product proof into another discovery and trust loop.
+If the team also builds in public, **[Gingiris Open Source](https://huggingface.co/Gingiris)** can turn product proof into another discovery and trust loop.
 
 ## Common ASO App Store Optimization Mistakes
 
