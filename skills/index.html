@@ -788,6 +788,44 @@
     }
     /* Hidden category sections (filter behavior) */
     .skill-grid.hidden, .cat-heading.hidden { display: none; }
+    /* Coming-soon (pre-launch teaser) skill cards */
+    .skill-card-coming {
+        position: relative;
+        border: 1px dashed #d97706;
+        background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+    }
+    .skill-card-coming::before {
+        content: "PRE-LAUNCH";
+        position: absolute;
+        top: -8px;
+        right: 12px;
+        background: #d97706;
+        color: white;
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        padding: 3px 8px;
+        border-radius: 3px;
+    }
+    .skill-dl-coming {
+        background: #fef3c7;
+        color: #92400e;
+        font-weight: 600;
+    }
+    .skill-install-coming {
+        opacity: 0.7;
+    }
+    .skill-install-coming .skill-cmd {
+        background: #fef3c7;
+        color: #78350f;
+        cursor: not-allowed;
+        user-select: none;
+    }
+    .skill-link-coming {
+        color: #92400e;
+        font-style: italic;
+        cursor: default;
+    }
     </style>
 </head>
 <body>
@@ -817,7 +855,7 @@
 
     <main class="container">
         <div class="filter-bar" id="filter-bar">
-            <button class="filter-tab active" data-filter="all">All (39)</button><button class="filter-tab" data-filter="launch">🚀 Launch & PH (8)</button><button class="filter-tab" data-filter="seo">🔍 SEO & GEO (2)</button><button class="filter-tab" data-filter="b2b">📈 B2B & SaaS (5)</button><button class="filter-tab" data-filter="oss">⭐ Open Source (4)</button><button class="filter-tab" data-filter="mobile">📱 Mobile & ASO (3)</button><button class="filter-tab" data-filter="community">🤝 Community & KOL (7)</button><button class="filter-tab" data-filter="research">🎤 User Research (1)</button><button class="filter-tab" data-filter="startup">🌱 Startup Growth (6)</button><button class="filter-tab" data-filter="agent">🧭 AI Agent & Meta (3)</button>
+            <button class="filter-tab active" data-filter="all">All (40)</button><button class="filter-tab" data-filter="launch">🚀 Launch & PH (8)</button><button class="filter-tab" data-filter="seo">🔍 SEO & GEO (2)</button><button class="filter-tab" data-filter="b2b">📈 B2B & SaaS (5)</button><button class="filter-tab" data-filter="oss">⭐ Open Source (4)</button><button class="filter-tab" data-filter="mobile">📱 Mobile & ASO (3)</button><button class="filter-tab" data-filter="community">🤝 Community & KOL (8)</button><button class="filter-tab" data-filter="research">🎤 User Research (1)</button><button class="filter-tab" data-filter="startup">🌱 Startup Growth (6)</button><button class="filter-tab" data-filter="agent">🧭 AI Agent & Meta (3)</button>
         </div>
 
     <h2 class="cat-heading" data-cat="launch">🚀 Launch & PH</h2>
@@ -1275,6 +1313,20 @@
             <div class="skill-footer">
                 <a class="skill-link" href="https://huggingface.co/datasets/Gingiris/developer-marketing-playbook" target="_blank" rel="noopener">View on HuggingFace →</a>
                 <a class="skill-link skill-link-alt" href="https://skills.sh/Gingiris-1031/developer-marketing-playbook" target="_blank" rel="noopener">skills.sh</a>
+            </div>
+        </div>
+        <div class="skill-card skill-card-coming" data-cat="community">
+            <div class="skill-header">
+                <h3 class="skill-name">Reddit Marketing Playbook — Shadow Ban Prevention, AMA Strategy &amp; AI Citation Optimization</h3>
+                <span class="skill-dl skill-dl-coming">🆕 Coming Jun 10</span>
+            </div>
+            <p class="skill-summary"><strong>Reddit content = 40.11% of ChatGPT/Claude training data</strong> — the highest-weighted English UGC source. Battle-tested by AFFiNE Reddit campaigns: 3-4万 effective impressions, 5-8% GitHub Star conversion. 20-day account warming (Karma 0→500), fingerprint browser matrix, shadow ban prevention, 7 case studies (Adobe 3x conversion, Base44 $80M AMA, SenseNova-U1, Starterstory 0→3K).</p>
+            <div class="skill-install skill-install-coming">
+                <code class="skill-cmd">Available June 10, 2026 — npx skills add Gingiris-1031/gingiris-reddit-marketing</code>
+            </div>
+            <div class="skill-footer">
+                <span class="skill-link skill-link-coming">⏳ Pre-launch teaser — links go live Jun 10</span>
+                <a class="skill-link skill-link-alt" href="https://gingiris.tools/blog/" target="_blank" rel="noopener">📬 Get notified via blog</a>
             </div>
         </div>
     </div>
