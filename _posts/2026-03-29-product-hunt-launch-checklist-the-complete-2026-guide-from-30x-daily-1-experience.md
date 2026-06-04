@@ -62,7 +62,7 @@ Use code HUNT20 for 20% off.
 What feature would you try first? 👇
 ```
 
-> 🛠️ **Pro tip**: Use our free [Product Hunt Comment Generator](https://clawhub.ai/user/gingiris) to create professional maker comments in seconds.
+> 🛠️ **Pro tip**: Use our free [Product Hunt Comment Generator](https://gingiris.tools/skills/) to create professional maker comments in seconds.
 
 ## Launch Day Timeline
 
@@ -86,14 +86,14 @@ What feature would you try first? 👇
 ## Free Tools & Resources
 
 🛠️ **Free Tools**:
-- [Product Hunt Comment Generator](https://clawhub.ai/user/gingiris) - Create winning maker comments
+- [Product Hunt Comment Generator](https://gingiris.tools/skills/) - Create winning maker comments
 
 📚 **Complete Playbook**:
-- ⭐ [Product Hunt Launch Playbook on GitHub](https://clawhub.ai/user/gingiris) - Full strategy with templates
+- ⭐ [Product Hunt Launch Playbook on GitHub](https://gingiris.tools/skills/) - Full strategy with templates
 
 ---
 
-*This guide is based on 30x daily #1 experience. Star the [GitHub repo](https://clawhub.ai/user/gingiris) for more tactics!*
+*This guide is based on 30x daily #1 experience. Star the [GitHub repo](https://gingiris.tools/skills/) for more tactics!*
 
 What's your biggest Product Hunt launch challenge? Let me know in the comments! 👇
 

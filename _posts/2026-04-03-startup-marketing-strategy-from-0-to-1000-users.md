@@ -237,7 +237,7 @@ Good luck with your launch! 🚀
 
 ---
 
-*This guide is part of the [Gingiris Startup Marketing Playbook](https://clawhub.ai/user/gingiris), based on实战经验 from successful indie hackers and early-stage founders.*
+*This guide is part of the [Gingiris Startup Marketing Playbook](https://gingiris.tools/skills/), based on实战经验 from successful indie hackers and early-stage founders.*
 
 ---
 

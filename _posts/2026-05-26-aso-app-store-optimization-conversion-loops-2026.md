@@ -13,7 +13,7 @@ keywords: [aso, appstore, seo, growth]
 
 **ASO app store optimization** gets stuck when teams treat ranking, conversion, and retention like separate jobs. If your **ASO app store optimization** is not compounding, the issue is often not traffic alone. It is weak keyword-to-creative match, low review velocity, and poor feedback loops between store listing, onboarding, and product proof. In 2026, the best teams grow by connecting search intent, screenshots, review mining, localization, and retention signals into one system.
 
-If you want the deeper operating playbook, start with the **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** repo. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch timing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for monetization and expansion, and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for trust-building through public assets.
+If you want the deeper operating playbook, start with the **[Gingiris ASO Growth](https://gingiris.tools/skills/)** repo. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** for launch timing, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** for monetization and expansion, and **[Gingiris Open Source](https://gingiris.tools/skills/)** for trust-building through public assets.
 
 ## TL;DR
 
@@ -59,7 +59,7 @@ These capture users searching for the result they want.
 
 These help you stay legible inside the market you actually want to win.
 
-This is where **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** becomes especially useful, because it pushes teams to connect keyword strategy with user language and creative packaging instead of stuffing fields blindly.
+This is where **[Gingiris ASO Growth](https://gingiris.tools/skills/)** becomes especially useful, because it pushes teams to connect keyword strategy with user language and creative packaging instead of stuffing fields blindly.
 
 ## 3. Turn Reviews Into Listing and Product Inputs
 
@@ -93,7 +93,7 @@ Some regions respond better to authority cues, others to practical workflows.
 
 Willingness to try and willingness to pay do not move together in every market.
 
-If the app launch also depends on broader market sequencing, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** helps connect listing work with channel timing and positioning.
+If the app launch also depends on broader market sequencing, **[Gingiris Launch](https://gingiris.tools/skills/)** helps connect listing work with channel timing and positioning.
 
 ## 5. Build a Review Velocity Loop
 
@@ -121,7 +121,7 @@ A screenshot can lift installs while hurting long-term quality if it attracts th
 - trial start or activation quality
 - review sentiment after install cohorts mature
 
-This is where **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** can still help, even for app-led products, because conversion quality matters more than raw top-of-funnel volume.
+This is where **[Gingiris B2B Growth](https://gingiris.tools/skills/)** can still help, even for app-led products, because conversion quality matters more than raw top-of-funnel volume.
 
 ## 7. Recycle Store Learnings Into Other Discovery Surfaces
 
@@ -141,7 +141,7 @@ Reuse screenshots and proof in launch posts, demos, and short videos.
 
 Turn repeated review praise into social proof across docs, repos, and product pages.
 
-If your company also builds in public, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** can help you turn public proof into another discovery loop.
+If your company also builds in public, **[Gingiris Open Source](https://gingiris.tools/skills/)** can help you turn public proof into another discovery loop.
 
 ## Common ASO App Store Optimization Mistakes
 
@@ -191,4 +191,4 @@ ASO app store optimization works best when store discovery, listing conversion, 
 
 This article is part of [Gingiris Growth Tools](https://gingiris.tools) — Iris's collection of 90+ practical playbooks for SaaS marketing, open-source growth, Product Hunt launches, and AI agent workflows. Written from 4 years co-founding [AFFiNE](https://github.com/toeverything/AFFiNE) (60K+ GitHub stars), 30x Product Hunt #1 launches, and currently bootstrapping [Analook](https://www.analook.com) — a free AI competitor analysis tool.
 
-**Connect**: [gingiris.com](https://gingiris.com) · [Skills on ClawHub](https://clawhub.ai/user/gingiris) · [Try Analook free](https://www.analook.com)
+**Connect**: [gingiris.com](https://gingiris.com) · [Growth Skills](https://gingiris.tools/skills/) · [Try Analook free](https://www.analook.com)

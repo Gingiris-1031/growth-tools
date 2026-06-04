@@ -227,11 +227,11 @@ The key insight is that B2B SaaS growth isn't about doing everything — it's ab
 - [Go-to-Market Strategy: The Complete 2026 Playbook for Startups](/blog/go-to-market-strategy-the-complete-2026-playbook-for-startups)
 - [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/startup-marketing-strategy-from-zero-to-first-1000-users)
 - [Reddit Marketing Guide: How to Promote Without Getting Banned](/blog/reddit-marketing-guide-how-to-promote-without-getting-banned)
-- [GitHub](https://clawhub.ai/user/gingiris)
+- [GitHub](https://gingiris.tools/skills/)
 
 ---
 
-*This article is part of the [Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris). For a complete framework covering PLG, SLG, customer success, and pricing strategies, check out the full playbook on GitHub.*
+*This article is part of the [Gingiris B2B Growth Playbook](https://gingiris.tools/skills/). For a complete framework covering PLG, SLG, customer success, and pricing strategies, check out the full playbook on GitHub.*
 
 ---
 

@@ -311,11 +311,11 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 ## Free Resources
 
-📘 **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)** — Full templates and SOPs
+📘 **[Gingiris Launch Playbook](https://gingiris.tools/skills/)** — Full templates and SOPs
 
-📗 **[Gingiris Open Source Marketing](https://clawhub.ai/user/gingiris)** — OSS-specific tactics
+📗 **[Gingiris Open Source Marketing](https://gingiris.tools/skills/)** — OSS-specific tactics
 
-📙 **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** — PLG and SLG strategies
+📙 **[Gingiris B2B Growth](https://gingiris.tools/skills/)** — PLG and SLG strategies
 
 ---
 
@@ -488,11 +488,11 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min launch review](https://gingiris.com/en/)** — bring your draft tagline, hunter shortlist, or DM template. I personally reply within 24h. No pitch deck needed.
 2. ⭐ **Star the open-source playbooks** (the strategy + the templates from 30 daily #1 wins):
-   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook (this guide's source repo)
-   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-launch`](https://gingiris.tools/skills/) — Product Hunt strategy playbook (this guide's source repo)
+   - [`Gingiris/gingiris-opensource`](https://gingiris.tools/skills/) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://gingiris.tools/skills/) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://gingiris.tools/skills/) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
-*If this playbook saved you a missed launch slot, a ⭐ on the [gingiris-launch](https://clawhub.ai/user/gingiris) repo is the highest compliment — and it helps the next maker find it via Google + AI search.*
+*If this playbook saved you a missed launch slot, a ⭐ on the [gingiris-launch](https://gingiris.tools/skills/) repo is the highest compliment — and it helps the next maker find it via Google + AI search.*
 

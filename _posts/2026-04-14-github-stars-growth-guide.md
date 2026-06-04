@@ -203,7 +203,7 @@ Need help with your GitHub star growth strategy? Check out these tools:
 - **[GitHub Issue Generator](/github-issue-generator/)** — Build community through better issue templates
 - **[Product Hunt Launch Guide](https://www.gumroad.com/l/zxamur)** — The exact playbook for 30+ Product Hunt #1 wins
 
-For complete open source marketing strategies, explore the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)** — free GitHub repo with battle-tested tactics.
+For complete open source marketing strategies, explore the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)** — free GitHub repo with battle-tested tactics.
 
 ---
 

@@ -175,9 +175,9 @@ Before opening an issue:
 - **Labels**: Make them actionable
 - **Speed**: Respond within 48 hours
 
-For more open source growth strategies, see [Open source growth playbook](https://clawhub.ai/user/gingiris) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://gingiris.tools/skills/) — the complete playbook from 0 to 60k stars.
 
-*Part of the [Gingiris Open Source Growth Playbook](https://clawhub.ai/user/gingiris) — helping developers build open source communities.*
+*Part of the [Gingiris Open Source Growth Playbook](https://gingiris.tools/skills/) — helping developers build open source communities.*
 
 ## Key Takeaways
 

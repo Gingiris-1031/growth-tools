@@ -134,9 +134,9 @@ Best email marketing tool built specifically for SaaS.
 
 ## Free Tools Built by Gingiris
 
-- **[PH Comment Generator](https://clawhub.ai/user/gingiris)**
-- **[GitHub Issue Generator](https://clawhub.ai/user/gingiris)**
-- **[GitHub README Generator](https://clawhub.ai/user/gingiris)**
+- **[PH Comment Generator](https://gingiris.tools/skills/)**
+- **[GitHub Issue Generator](https://gingiris.tools/skills/)**
+- **[GitHub README Generator](https://gingiris.tools/skills/)**
 
 ---
 

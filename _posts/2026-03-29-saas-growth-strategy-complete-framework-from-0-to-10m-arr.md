@@ -189,15 +189,15 @@ Funding is fuel, not validation.
 
 ## Free Resources
 
-- 📚 [B2B SaaS Growth Playbook](https://clawhub.ai/user/gingiris) — Complete growth guide
-- 📚 [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — Launch strategy from 30x #1
-- 🛠️ [PH Comment Generator](https://clawhub.ai/user/gingiris) — Free tool for launch prep
+- 📚 [B2B SaaS Growth Playbook](https://gingiris.tools/skills/) — Complete growth guide
+- 📚 [Product Hunt Launch Guide](https://gingiris.tools/skills/) — Launch strategy from 30x #1
+- 🛠️ [PH Comment Generator](https://gingiris.tools/skills/) — Free tool for launch prep
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies from $10M+ raised.*
+*This guide is part of the [Gingiris B2B Growth Playbook](https://gingiris.tools/skills/) — battle-tested strategies from $10M+ raised.*
 
 ---
 

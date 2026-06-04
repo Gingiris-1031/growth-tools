@@ -201,7 +201,7 @@ Be that friend.
 
 ---
 
-*This playbook is part of the [Gingiris Growth Series](https://clawhub.ai/user/gingiris) - battle-tested strategies for technical products.*
+*This playbook is part of the [Gingiris Growth Series](https://gingiris.tools/skills/) - battle-tested strategies for technical products.*
 
 ---
 

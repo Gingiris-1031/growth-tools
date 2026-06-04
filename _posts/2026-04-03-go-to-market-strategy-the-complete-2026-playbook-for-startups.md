@@ -186,9 +186,9 @@ The right tools can accelerate every pillar of your go-to-market strategy:
 ## Related Reading
 
 - **[Go-to-Market Strategy: The 2026 Playbook](/blog/2026/04/go-to-market-strategy-the-2026-playbook-for-startups/)** — This article
-- **[GitHub Stars Growth Playbook](https://clawhub.ai/user/gingiris)** — How to use GitHub as your GTM channel
-- **[B2B SaaS Growth Guide](https://clawhub.ai/user/gingiris)** — B2B-specific GTM from PMF to $10M ARR
-- **[ASO Growth Guide](https://clawhub.ai/user/gingiris)** — GTM for mobile apps
+- **[GitHub Stars Growth Playbook](https://gingiris.tools/skills/)** — How to use GitHub as your GTM channel
+- **[B2B SaaS Growth Guide](https://gingiris.tools/skills/)** — B2B-specific GTM from PMF to $10M ARR
+- **[ASO Growth Guide](https://gingiris.tools/skills/)** — GTM for mobile apps
 
 ---
 

@@ -138,7 +138,7 @@ Weekly exposure multipliers: PH Weekly badge = 7x the exposure of a Daily badge.
 
 After leaving AFFiNE, I documented everything and open-sourced it. Four playbooks, all free:
 
-### 1. [AI Product Launch Playbook](https://clawhub.ai/user/gingiris)
+### 1. [AI Product Launch Playbook](https://gingiris.tools/skills/)
 
 The exact process behind 30+ Product Hunt launches and our GitHub growth campaigns:
 
@@ -147,7 +147,7 @@ The exact process behind 30+ Product Hunt launches and our GitHub growth campaig
 - **Reddit & HackerNews Strategies** — Community seeding that doesn't get you banned
 - **Launch Window Optimization** — When to launch, how to concentrate multi-channel pushes
 
-### 2. [B2B SaaS Growth Playbook](https://clawhub.ai/user/gingiris)
+### 2. [B2B SaaS Growth Playbook](https://gingiris.tools/skills/)
 
 For open source projects with a commercial layer:
 
@@ -156,7 +156,7 @@ For open source projects with a commercial layer:
 - **Outbound Templates** — Cold outreach that converts without being spammy
 - **Channel Attribution** — How to know which distribution actually drives revenue
 
-### 3. [Open Source Launch Marketing](https://clawhub.ai/user/gingiris)
+### 3. [Open Source Launch Marketing](https://gingiris.tools/skills/)
 
 GitHub-specific growth from 0 to 10K stars:
 
@@ -165,7 +165,7 @@ GitHub-specific growth from 0 to 10K stars:
 - **Awesome List Strategy** — How to get listed (and why Chinese awesome-lists have higher acceptance rates)
 - **Content Distribution** — The weekly cadence that keeps baseline growth elevated
 
-### 4. [ASO & App Cold Start](https://clawhub.ai/user/gingiris)
+### 4. [ASO & App Cold Start](https://gingiris.tools/skills/)
 
 Mobile app growth for founders adding a mobile layer:
 
@@ -214,10 +214,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (built from the AFFiNE journey + 30 PH launches):
-   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://gingiris.tools/skills/) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://gingiris.tools/skills/) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://gingiris.tools/skills/) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://gingiris.tools/skills/) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If the AFFiNE journey helped your repo strategy, a ⭐ on the playbook is the highest compliment — and it helps the next maintainer find it via Google + AI search.*

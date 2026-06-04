@@ -188,12 +188,12 @@ Monday catch-up over coffee — five tools from the past three weeks of PH/HN th
 
 Full tool database on GitHub (updated weekly):
 
-👉 **[Gingiris Growth Tools](https://clawhub.ai/user/gingiris)**
+👉 **[Gingiris Growth Tools](https://gingiris.tools/skills/)**
 
 Plus companion playbooks:
-- [Product Hunt Launch Playbook](https://clawhub.ai/user/gingiris)
-- [Open Source Marketing Guide](https://clawhub.ai/user/gingiris)
-- [B2B SaaS Growth Guide](https://clawhub.ai/user/gingiris)
+- [Product Hunt Launch Playbook](https://gingiris.tools/skills/)
+- [Open Source Marketing Guide](https://gingiris.tools/skills/)
+- [B2B SaaS Growth Guide](https://gingiris.tools/skills/)
 
 ## 💡 Quick Wins
 

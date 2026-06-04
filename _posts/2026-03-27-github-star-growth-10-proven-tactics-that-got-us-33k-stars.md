@@ -215,7 +215,7 @@ The compound effect: well-maintained repos attract contributors, and contributor
 ## Related Resources
 
 - [AFFiNE GitHub Stars: The Full 0-to-60K Story](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [Open Source Launch Marketing Playbook](https://clawhub.ai/user/gingiris)
+- [Open Source Launch Marketing Playbook](https://gingiris.tools/skills/)
 
 ---
 

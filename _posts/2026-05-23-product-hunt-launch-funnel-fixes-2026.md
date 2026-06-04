@@ -13,7 +13,7 @@ keywords: [product hunt launch, product hunt funnel, product hunt strategy, star
 
 A strong **Product Hunt launch** is rarely blocked by traffic alone. More often, the launch leaks value between the Product Hunt page, the landing page, signup flow, and follow-up content. If your **Product Hunt launch** gets attention but not demos, signups, or qualified conversations, the problem is usually in the funnel. In 2026, the teams that win are not the ones chasing vanity upvotes. They are the ones tightening each handoff so launch-day curiosity becomes compounding demand.
 
-If you want the full operating system behind that, start with the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)**. It also pairs naturally with **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for developer products, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for pipeline and expansion, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your launch has a mobile growth motion.
+If you want the full operating system behind that, start with the **[Gingiris Launch Playbook](https://gingiris.tools/skills/)**. It also pairs naturally with **[Gingiris Open Source](https://gingiris.tools/skills/)** for developer products, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** for pipeline and expansion, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your launch has a mobile growth motion.
 
 ## TL;DR
 
@@ -61,7 +61,7 @@ If users need to choose from too many paths, the page is probably doing too much
 
 Early forms, setup burden, or hard gating can kill warm traffic.
 
-This matters even more for developer-facing products. In those cases, sending visitors to docs, GitHub, or a quickstart can work better than forcing a sales-style flow. That is exactly where **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** becomes useful.
+This matters even more for developer-facing products. In those cases, sending visitors to docs, GitHub, or a quickstart can work better than forcing a sales-style flow. That is exactly where **[Gingiris Open Source](https://gingiris.tools/skills/)** becomes useful.
 
 ## 3. Show Proof Earlier Than Feels Necessary
 
@@ -89,7 +89,7 @@ Use a direct signup path tied to one clear activation event.
 
 #### B2B SaaS
 
-Point higher-intent visitors toward demo requests, use-case pages, or ROI framing. The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is especially relevant here because it helps connect launch interest with actual pipeline motion.
+Point higher-intent visitors toward demo requests, use-case pages, or ROI framing. The **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is especially relevant here because it helps connect launch interest with actual pipeline motion.
 
 #### Developer tools or open-source products
 
@@ -137,7 +137,7 @@ If people kept asking the same thing, that is a search opportunity.
 
 The sentence that got the best response on launch day often belongs on the homepage too.
 
-If your broader goal is distribution beyond Product Hunt, the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)** is the best place to go deeper because it ties Product Hunt into Reddit, Hacker News, creators, and SEO follow-through.
+If your broader goal is distribution beyond Product Hunt, the **[Gingiris Launch Playbook](https://gingiris.tools/skills/)** is the best place to go deeper because it ties Product Hunt into Reddit, Hacker News, creators, and SEO follow-through.
 
 ## 7. Design the Launch to Support a Second Growth Surface
 
@@ -152,7 +152,7 @@ The best Product Hunt launches do not end on Product Hunt.
 - GitHub repo visits and stars
 - app store traffic for mobile products
 
-That last point matters more than people expect. If your product also lives in the app stores, the launch can support discovery and conversion there too. The **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)** is helpful for making that bridge explicit.
+That last point matters more than people expect. If your product also lives in the app stores, the launch can support discovery and conversion there too. The **[Gingiris ASO Growth Playbook](https://gingiris.tools/skills/)** is helpful for making that bridge explicit.
 
 ## A Simple Product Hunt Launch Funnel Checklist
 

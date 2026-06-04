@@ -337,23 +337,20 @@ If this resource saves you time or helps you grow — a GitHub Star ⭐ helps ot
 
 ---
 
-## 🦞 Use with AI Agents
+## 🤖 Use with AI Agents
 
-The Gingiris Growth Playbooks are available as **ClawHub Skills** — install them directly into Claude Code, OpenClaw, or any compatible AI agent:
+The Gingiris Growth Playbooks are available as **AI agent skills** — install them directly into Claude Code, OpenClaw, or any compatible AI agent:
 
-[![Install on ClawHub](https://img.shields.io/badge/Install_on-ClawHub-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://clawhub.ai/u/gingiris)
+[![Browse on Hugging Face](https://img.shields.io/badge/Browse_on-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/Gingiris)
 
 ```bash
-# Install the full growth playbook suite
-clawhub install gingiris-launch
-clawhub install gingiris-opensource
-clawhub install gingiris-b2b-growth
-clawhub install gingiris-aso-growth
+# Browse the full growth playbook suite on Hugging Face
+# https://huggingface.co/Gingiris
 ```
 
 > Your AI agent can then help you research growth strategies, build launch plans, and execute marketing campaigns.
 >
-> 📦 **Browse all skills**: [All Gingiris Growth Playbooks on ClawHub](https://clawhub.ai/u/gingiris)
+> 📦 **Browse all skills**: [All Gingiris Growth Playbooks on Hugging Face](https://huggingface.co/Gingiris)
 
 ---
 
@@ -361,10 +358,10 @@ clawhub install gingiris-aso-growth
 
 | Playbook | Focus |
 |:---------|:------|
-| [GTM & Launch](https://clawhub.ai/user/gingiris) | GTM Strategy · Product Hunt · KOL Outreach |
-| [Open Source Marketing](https://clawhub.ai/user/gingiris) | Open Source Launch Marketing · GitHub Star Growth |
-| [B2B SaaS Growth](https://clawhub.ai/user/gingiris) | B2B SaaS Growth · PMF · PLG/SLG |
-| [ASO Guide](https://clawhub.ai/user/gingiris) | App Store Optimization · Mobile Cold Start |
+| [GTM & Launch](https://huggingface.co/Gingiris) | GTM Strategy · Product Hunt · KOL Outreach |
+| [Open Source Marketing](https://huggingface.co/Gingiris) | Open Source Launch Marketing · GitHub Star Growth |
+| [B2B SaaS Growth](https://huggingface.co/Gingiris) | B2B SaaS Growth · PMF · PLG/SLG |
+| [ASO Guide](https://huggingface.co/Gingiris) | App Store Optimization · Mobile Cold Start |
 
 ---
 

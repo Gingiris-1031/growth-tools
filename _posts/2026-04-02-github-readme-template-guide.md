@@ -309,7 +309,7 @@ MIT © [Your Name](https://your-website.com)
 3. **Optimize your first paragraph** with search keywords
 4. **Track your star growth** at [star-history.com](https://star-history.com)
 
-For more open source growth strategies, see [Open source growth playbook](https://clawhub.ai/user/gingiris) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://gingiris.tools/skills/) — the complete playbook from 0 to 60k stars.
 
 ---
 
@@ -322,7 +322,7 @@ For more open source growth strategies, see [Open source growth playbook](https:
 - **Scannable features**: Table > paragraphs
 - **Contributing**: Be specific, not generic
 
-*Part of the [Gingiris Open Source Growth Playbook](https://clawhub.ai/user/gingiris) — helping developers get their first 10,000 stars.*
+*Part of the [Gingiris Open Source Growth Playbook](https://gingiris.tools/skills/) — helping developers get their first 10,000 stars.*
 
 ---
 

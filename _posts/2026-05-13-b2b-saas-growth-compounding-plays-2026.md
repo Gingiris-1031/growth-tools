@@ -13,7 +13,7 @@ keywords: [b2b saas growth, saas growth strategy, plg, sales led growth, b2b mar
 
 **B2B SaaS growth** in 2026 is less about finding one magical channel and more about building systems that keep compounding after each launch, demo, and customer win. If your pipeline looks busy but revenue still feels fragile, the missing piece is usually not effort. It is the lack of connection between positioning, activation, sales handoff, retention, and expansion. The best operators make those pieces reinforce each other.
 
-If you want deeper frameworks behind these ideas, start with the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. It works well alongside **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for go-to-market sequencing and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** if part of your acquisition comes from developer trust and public distribution.
+If you want deeper frameworks behind these ideas, start with the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. It works well alongside **[Gingiris Launch](https://gingiris.tools/skills/)** for go-to-market sequencing and **[Gingiris Open Source](https://gingiris.tools/skills/)** if part of your acquisition comes from developer trust and public distribution.
 
 ## TL;DR
 
@@ -51,7 +51,7 @@ A useful ICP usually answers:
 
 For example, "Series A and B SaaS teams preparing weekly launches with lean marketing headcount" is much easier to build around than "B2B software companies."
 
-This is one reason I keep pointing founders to the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. It helps turn vague demand into usable customer segments.
+This is one reason I keep pointing founders to the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. It helps turn vague demand into usable customer segments.
 
 ## 2. Make Activation Feel Like Progress, Not Setup
 
@@ -87,7 +87,7 @@ Too many teams frame product-led growth and sales-led growth as opposing religio
 
 Self-serve is excellent for creating signal. Sales is excellent for helping accounts move through internal complexity. Customer success is what turns usage into durable revenue.
 
-If your product can attract attention publicly, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** is useful for sequencing demand before the sales motion kicks in.
+If your product can attract attention publicly, **[Gingiris Launch](https://gingiris.tools/skills/)** is useful for sequencing demand before the sales motion kicks in.
 
 ## 4. Turn Customer Conversations Into Your Content Engine
 
@@ -135,7 +135,7 @@ These convert well because they create immediate utility.
 
 These make the product easier to champion internally.
 
-This is also where **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** can help, especially if your product benefits from public proof, community distribution, or GitHub-based trust signals.
+This is also where **[Gingiris Open Source](https://gingiris.tools/skills/)** can help, especially if your product benefits from public proof, community distribution, or GitHub-based trust signals.
 
 ## 6. Design Expansion Before the First Renewal
 
@@ -171,7 +171,7 @@ This structure works across:
 - sales decks
 - onboarding content
 
-If your company also grows through community trust, open source visibility, or public learning, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** gives a practical model for turning public credibility into commercial demand.
+If your company also grows through community trust, open source visibility, or public learning, **[Gingiris Open Source](https://gingiris.tools/skills/)** gives a practical model for turning public credibility into commercial demand.
 
 ## Common B2B SaaS Growth Mistakes
 

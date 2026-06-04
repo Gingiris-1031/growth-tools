@@ -266,11 +266,11 @@ Watching users struggle reveals more than any question.
 
 This article covers the essentials. For the complete playbook with templates, scripts, and examples:
 
-📚 **[User Interview Playbook on GitHub](https://clawhub.ai/user/gingiris)** — Full framework, templates, and tools
+📚 **[User Interview Playbook on GitHub](https://gingiris.tools/skills/)** — Full framework, templates, and tools
 
 Or install directly into your AI agent:
 ```bash
-clawhub install gingiris-user-interview
+npx skills add Gingiris-1031/gingiris-skills
 ```
 
 ---
@@ -287,7 +287,7 @@ clawhub install gingiris-user-interview
 
 I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping founders validate products faster through user research.
 
-- Playbooks: [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
+- Playbooks: [gingiris.tools/skills/](https://gingiris.tools/skills/)
 - Consulting: [@WeiYipei on Telegram](https://t.me/Iris_carrot)
 
 ---
@@ -296,7 +296,7 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://clawhub.ai/user/gingiris) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://gingiris.tools/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 

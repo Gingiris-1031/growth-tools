@@ -186,8 +186,8 @@ Key factors:
 
 ## Free Resources
 
-- 📚 [Complete Product Hunt Launch Playbook](https://clawhub.ai/user/gingiris) — Full open-source guide with templates
-- 📚 [Open Source Marketing Guide](https://clawhub.ai/user/gingiris) — If you're launching an OSS project
+- 📚 [Complete Product Hunt Launch Playbook](https://gingiris.tools/skills/) — Full open-source guide with templates
+- 📚 [Open Source Marketing Guide](https://gingiris.tools/skills/) — If you're launching an OSS project
 
 ---
 
@@ -205,7 +205,7 @@ Product Hunt success isn't about gaming the system. It's about building somethin
 
 **Questions?** Drop a comment below or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei) or [Telegram @WeiYipei](https://t.me/Iris_carrot).
 
-*This guide is part of the [Gingiris Launch Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies from 30x Product Hunt #1 wins.*
+*This guide is part of the [Gingiris Launch Playbook](https://gingiris.tools/skills/) — battle-tested strategies from 30x Product Hunt #1 wins.*
 
 ---
 

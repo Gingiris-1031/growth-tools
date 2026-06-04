@@ -13,7 +13,7 @@ keywords: [github star growth, github stars, open source marketing, developer ma
 
 **GitHub star growth** looks noisy from the outside, but the strongest repos usually grow through a few repeatable systems. Better category framing, sharper README conversion, launch follow-through, and fast maintainer replies all compound. If your product is solid but stars are flat, the bottleneck is often positioning and distribution, not engineering speed.
 
-If you want the deeper playbooks behind this, start with the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for distribution timing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for SaaS conversion loops, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your repo supports an app-led growth motion.
+If you want the deeper playbooks behind this, start with the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** for distribution timing, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** for SaaS conversion loops, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your repo supports an app-led growth motion.
 
 ## TL;DR
 
@@ -78,7 +78,7 @@ Push into one primary channel such as Hacker News, Reddit, Product Hunt, or GitH
 
 Turn questions, objections, and demos into search assets that keep working after launch week.
 
-That is where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** becomes especially useful. It helps convert a one-day event into a repeatable system.
+That is where **[Gingiris Launch](https://gingiris.tools/skills/)** becomes especially useful. It helps convert a one-day event into a repeatable system.
 
 ## 4. Turn README Traffic Into Star Intent
 
@@ -119,7 +119,7 @@ That loop can include:
 4. community discussions with maintainer presence
 5. product pages that carry the same message as the repo
 
-If your repo also supports a commercial product, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** helps map where open source awareness should hand off to pipeline and revenue.
+If your repo also supports a commercial product, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** helps map where open source awareness should hand off to pipeline and revenue.
 
 ## 7. Convert Social Proof Into Search Proof
 

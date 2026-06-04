@@ -178,13 +178,13 @@ The companies winning right now are the ones that stopped debating PLG vs SLG an
 ## Related Reading
 
 - **[B2B SaaS Growth Playbook](/)** — Full PLG/SLG case studies from HeyGen, Deel, and Vercel
-- **[Go-to-Market Strategy Guide](https://clawhub.ai/user/gingiris)** — From zero to first revenue
-- **[Product Hunt Launch Playbook](https://clawhub.ai/user/gingiris)** — How to win #1 and drive early B2B signups
+- **[Go-to-Market Strategy Guide](https://gingiris.tools/skills/)** — From zero to first revenue
+- **[Product Hunt Launch Playbook](https://gingiris.tools/skills/)** — How to win #1 and drive early B2B signups
 - **[Growth Tools Library](/)** — Free tools for B2B SaaS growth
 
 ---
 
-*This article is part of the [Gingiris Growth Series](https://clawhub.ai/user/gingiris) — practical playbooks for B2B SaaS growth, open source marketing, and global product launches.*
+*This article is part of the [Gingiris Growth Series](https://gingiris.tools/skills/) — practical playbooks for B2B SaaS growth, open source marketing, and global product launches.*
 
 ---
 

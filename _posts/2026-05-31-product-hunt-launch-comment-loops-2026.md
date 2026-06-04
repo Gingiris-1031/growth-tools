@@ -13,7 +13,7 @@ keywords: [producthunt, launch, seo, startup]
 
 **Product Hunt launch** advice usually over-focuses on upvotes, but the bigger leak is what happens after people land on the page. A strong **Product Hunt launch** in 2026 turns comment activity into trust, clarification, social proof, and conversion. If the comment section feels slow, generic, or defensive, even a good product can lose momentum.
 
-If you want the deeper operating system, start with the **[Gingiris Launch](https://clawhub.ai/user/gingiris)** playbook. Pair it with **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** when your launch also depends on GitHub trust, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** when launch traffic needs to turn into pipeline, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your product also lives in app stores.
+If you want the deeper operating system, start with the **[Gingiris Launch](https://gingiris.tools/skills/)** playbook. Pair it with **[Gingiris Open Source](https://gingiris.tools/skills/)** when your launch also depends on GitHub trust, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** when launch traffic needs to turn into pipeline, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your product also lives in app stores.
 
 ## TL;DR
 
@@ -60,7 +60,7 @@ People want proof that the workflow is durable and useful.
 
 If the audience is fuzzy, conversion gets fuzzy too.
 
-This is where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** helps a lot. The prep work is really about rehearsing clarity before traffic arrives.
+This is where **[Gingiris Launch](https://gingiris.tools/skills/)** helps a lot. The prep work is really about rehearsing clarity before traffic arrives.
 
 ## 3. Turn Praise Into Specific Proof Blocks
 
@@ -89,7 +89,7 @@ Speed matters, but robotic speed can still feel weak.
 - mention the user question directly
 - link one relevant proof asset when helpful
 
-If your launch also relies on public repo trust, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** is a strong companion because it helps you build proof assets that comments can point to.
+If your launch also relies on public repo trust, **[Gingiris Open Source](https://gingiris.tools/skills/)** is a strong companion because it helps you build proof assets that comments can point to.
 
 ## 5. Use Questions to Discover the Real ICP
 
@@ -109,7 +109,7 @@ This usually signals buying intent, not curiosity.
 
 This shows where adoption friction really lives.
 
-If post-launch activation matters more than vanity traffic, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** helps turn those signals into better pipeline and onboarding decisions.
+If post-launch activation matters more than vanity traffic, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** helps turn those signals into better pipeline and onboarding decisions.
 
 ## 6. Build a Comment Relay Across Channels
 
@@ -123,7 +123,7 @@ The best launch comments should not stay trapped on Product Hunt.
 - app store screenshots or subtitles
 - follow-up posts on X or LinkedIn
 
-That is one reason **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** can still matter here. Messaging that resolves launch objections often improves mobile conversion too.
+That is one reason **[Gingiris ASO Growth](https://gingiris.tools/skills/)** can still matter here. Messaging that resolves launch objections often improves mobile conversion too.
 
 ## 7. Review the Comment Thread Like a Conversion Audit
 

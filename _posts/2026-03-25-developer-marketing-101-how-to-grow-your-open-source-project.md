@@ -292,7 +292,7 @@ This is the fundamentals. For the full implementation guide, get the **[Open-Sou
 
 I'm **Iris**, former cofounder & COO of AFFiNE (33K+ stars). Led developer marketing from 0 to millions of users globally.
 
-More playbooks at [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
+More playbooks at [gingiris.tools/skills/](https://gingiris.tools/skills/)
 
 ---
 
@@ -300,7 +300,7 @@ More playbooks at [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [Open Source Marketing Playbook](https://clawhub.ai/user/gingiris) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [Open Source Marketing Playbook](https://gingiris.tools/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 
@@ -332,10 +332,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (battle-tested across 30+ launches):
-   - [`Gingiris/gingiris-opensource`](https://clawhub.ai/user/gingiris) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://clawhub.ai/user/gingiris) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://clawhub.ai/user/gingiris) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://clawhub.ai/user/gingiris) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://gingiris.tools/skills/) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://gingiris.tools/skills/) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://gingiris.tools/skills/) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://gingiris.tools/skills/) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If this guide saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next maintainer find it via Google + AI search.*

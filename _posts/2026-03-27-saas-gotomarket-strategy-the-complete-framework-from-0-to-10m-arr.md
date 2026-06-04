@@ -245,9 +245,9 @@ For a more granular marketing roadmap covering your first 1,000 users, see our [
 
 If you're building a SaaS product, check out these comprehensive playbooks:
 
-- **[B2B Growth Playbook](https://clawhub.ai/user/gingiris)** — Deep dive on PLG vs SLG, pricing, and scaling
+- **[B2B Growth Playbook](https://gingiris.tools/skills/)** — Deep dive on PLG vs SLG, pricing, and scaling
 - **[Product Hunt Launch Playbook](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** — 30x #1 winner's definitive guide to launch-day execution
-- **[Open Source Marketing](https://clawhub.ai/user/gingiris)** — If you're building developer tools
+- **[Open Source Marketing](https://gingiris.tools/skills/)** — If you're building developer tools
 
 ---
 

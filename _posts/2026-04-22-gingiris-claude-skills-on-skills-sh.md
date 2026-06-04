@@ -60,7 +60,7 @@ What makes this specific rather than generic: it refuses to recommend generic "p
 
 **Try it with**: "Help me plan a Product Hunt launch for my AI coding tool targeting dev teams in NA."
 
-[View skill →](https://skills.sh/Gingiris/gingiris-launch) · [Source →](https://clawhub.ai/user/gingiris)
+[View skill →](https://skills.sh/Gingiris/gingiris-launch) · [Source →](https://gingiris.tools/skills/)
 
 ---
 
@@ -74,7 +74,7 @@ The skill I wish existed when AFFiNE had 300 stars. It encodes what actually wor
 
 **Try it with**: "My open source project has 800 stars. How do I get to 5k in 90 days?"
 
-[View skill →](https://skills.sh/Gingiris/gingiris-opensource) · [Source →](https://clawhub.ai/user/gingiris)
+[View skill →](https://skills.sh/Gingiris/gingiris-opensource) · [Source →](https://gingiris.tools/skills/)
 
 ---
 
@@ -90,7 +90,7 @@ Case studies are specific, dated, and sourced: HeyGen's affiliate program mechan
 
 **Try it with**: "I have a $800k ARR devtool. Should I hire an AE or double down on PLG?"
 
-[View skill →](https://skills.sh/Gingiris/gingiris-b2b-growth) · [Source →](https://clawhub.ai/user/gingiris)
+[View skill →](https://skills.sh/Gingiris/gingiris-b2b-growth) · [Source →](https://gingiris.tools/skills/)
 
 ---
 
@@ -104,7 +104,7 @@ The underdog of the four — ASO skills barely exist on skills.sh, and the ones 
 
 **Try it with**: "My iOS app has 50 DAU. Help me plan a 90-day cold start with $2k budget."
 
-[View skill →](https://skills.sh/Gingiris/gingiris-aso-growth) · [Source →](https://clawhub.ai/user/gingiris)
+[View skill →](https://skills.sh/Gingiris/gingiris-aso-growth) · [Source →](https://gingiris.tools/skills/)
 
 ---
 
@@ -120,7 +120,7 @@ What's inside: copy-paste JSON-LD templates for SoftwareApplication/Article/FAQ/
 
 **Try it with**: "My SaaS landing page ranks #14 on Google for 'AI competitor analysis.' How do I also get cited by Perplexity when users ask the same question?"
 
-[View skill →](https://skills.sh/Gingiris/gingiris-seo-geo) · [Source →](https://clawhub.ai/user/gingiris)
+[View skill →](https://skills.sh/Gingiris/gingiris-seo-geo) · [Source →](https://gingiris.tools/skills/)
 
 ---
 
@@ -136,7 +136,7 @@ Growth questions sound similar but require wildly different playbooks. "How do I
 
 **Try it with** anything vague: "I want to grow my startup," "How do I launch X," "What's wrong with my acquisition funnel" — it asks the right diagnostic questions first.
 
-[View skill →](https://skills.sh/Gingiris/gingiris-growth-finder) · [Source →](https://clawhub.ai/user/gingiris)
+[View skill →](https://skills.sh/Gingiris/gingiris-growth-finder) · [Source →](https://gingiris.tools/skills/)
 
 ---
 

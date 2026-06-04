@@ -8,7 +8,7 @@
 
 > 🎯 Based on real experience from **AFFiNE (33k+ GitHub stars)** and **30x Product Hunt #1** launches.
 
-[📚 Launch Playbook](https://clawhub.ai/user/gingiris) · [🌟 OSS Marketing](https://clawhub.ai/user/gingiris) · [📈 B2B Growth](https://clawhub.ai/user/gingiris) · [📱 ASO Guide](https://clawhub.ai/user/gingiris)
+[📚 Launch Playbook](https://huggingface.co/Gingiris) · [🌟 OSS Marketing](https://huggingface.co/Gingiris) · [📈 B2B Growth](https://huggingface.co/Gingiris) · [📱 ASO Guide](https://huggingface.co/Gingiris)
 
 ---
 
@@ -214,10 +214,10 @@ Curated by **Iris** (生姜iris), ex-COO of [AFFiNE](https://github.com/toeveryt
 
 | Playbook | Description | Stars |
 |:---------|:------------|:------|
-| [🚀 Launch Playbook](https://clawhub.ai/user/gingiris) | 30x PH #1 winner tactics | ⭐ |
-| [🌟 OSS Marketing](https://clawhub.ai/user/gingiris) | 0→33k GitHub stars | ⭐ |
-| [📈 B2B Growth](https://clawhub.ai/user/gingiris) | PMF → $10M ARR | ⭐ |
-| [📱 ASO Guide](https://clawhub.ai/user/gingiris) | App Store optimization | ⭐ |
+| [🚀 Launch Playbook](https://huggingface.co/Gingiris) | 30x PH #1 winner tactics | ⭐ |
+| [🌟 OSS Marketing](https://huggingface.co/Gingiris) | 0→33k GitHub stars | ⭐ |
+| [📈 B2B Growth](https://huggingface.co/Gingiris) | PMF → $10M ARR | ⭐ |
+| [📱 ASO Guide](https://huggingface.co/Gingiris) | App Store optimization | ⭐ |
 
 **Contact:** [@WeiYipei](https://twitter.com/WeiYipei)
 

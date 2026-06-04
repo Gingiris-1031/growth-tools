@@ -155,7 +155,7 @@ Look for hunters who: (1) have posted in your product category before, (2) have 
 
 A Product Hunt launch is a high-leverage growth moment — but only if you treat it as a **systematic process**, not a lucky roll of the dice. The makers who consistently win #1 follow the same playbook: community first, velocity second, engagement third.
 
-For a complete step-by-step playbook including exact scripts, templates, and the ranking algorithm breakdown, check out the **[Product Hunt Launch Playbook →](https://clawhub.ai/user/gingiris)** with real case studies from 30-time #1 winners.
+For a complete step-by-step playbook including exact scripts, templates, and the ranking algorithm breakdown, check out the **[Product Hunt Launch Playbook →](https://gingiris.tools/skills/)** with real case studies from 30-time #1 winners.
 
 ---
 

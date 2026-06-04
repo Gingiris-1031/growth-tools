@@ -165,14 +165,14 @@ ASO success requires:
 
 ## Free Resources
 
-- 📚 [ASO & App Growth Playbook](https://clawhub.ai/user/gingiris) — Complete mobile app growth guide
-- 📚 [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — If you're also launching on PH
+- 📚 [ASO & App Growth Playbook](https://gingiris.tools/skills/) — Complete mobile app growth guide
+- 📚 [Product Hunt Launch Guide](https://gingiris.tools/skills/) — If you're also launching on PH
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies for mobile app growth.*
+*This guide is part of the [Gingiris ASO Growth Playbook](https://gingiris.tools/skills/) — battle-tested strategies for mobile app growth.*
 
 ---
 

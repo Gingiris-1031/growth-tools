@@ -13,7 +13,7 @@ keywords: [github star growth, github stars, open source marketing, developer ma
 
 **GitHub star growth** usually stalls for one simple reason: distribution is treated like a launch-day task instead of an operating system. If your repo is useful but your **GitHub star growth** has flattened, the problem is often not product depth. It is weak packaging, inconsistent trust signals, and too few loops that bring new people back to the repo over time. In 2026, the strongest open source teams compound stars by connecting README clarity, creator distribution, search content, community replies, and proof.
 
-If you want the deeper playbook behind this, start with the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch sequencing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for repo-to-pipeline handoff, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your product also has an app-led motion.
+If you want the deeper playbook behind this, start with the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** for launch sequencing, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** for repo-to-pipeline handoff, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your product also has an app-led motion.
 
 ## TL;DR
 
@@ -73,7 +73,7 @@ These help qualified users understand where the repo fits.
 
 These capture high-intent searches from users already evaluating alternatives.
 
-This is where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** helps a lot. It shows how to sequence Product Hunt, Reddit, Hacker News, and creator distribution so the repo gets more than one attention window.
+This is where **[Gingiris Launch](https://gingiris.tools/skills/)** helps a lot. It shows how to sequence Product Hunt, Reddit, Hacker News, and creator distribution so the repo gets more than one attention window.
 
 ## 4. Reply Fast While Trust Is Warm
 
@@ -99,7 +99,7 @@ Open source repos often talk about features when they should show workflows.
 - before and after workflows
 - templates or demos that reduce setup time
 
-If the repo also supports a business motion, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** is useful for designing the handoff from trust to demos, signups, or expansion.
+If the repo also supports a business motion, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** is useful for designing the handoff from trust to demos, signups, or expansion.
 
 ## 6. Design a Community Loop, Not Just a Content Loop
 
@@ -133,7 +133,7 @@ The best repos do not rely on GitHub alone.
 - docs pages that rank for pain-point queries
 - app store pages if the product has a mobile layer
 
-That last one matters more than people think. If your product also grows through mobile discovery, **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** can help bridge repo attention into app store conversion.
+That last one matters more than people think. If your product also grows through mobile discovery, **[Gingiris ASO Growth](https://gingiris.tools/skills/)** can help bridge repo attention into app store conversion.
 
 ## Common GitHub Star Growth Mistakes
 

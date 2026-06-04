@@ -21,7 +21,7 @@ faq:
 
 **ASO app store optimization** is still one of the highest-leverage growth channels for mobile teams because it compounds. A better title, cleaner screenshots, stronger review flow, and smarter keyword targeting can keep driving installs long after paid campaigns stop. If your iOS App Store or Google Play page is underperforming, these 9 fixes are the fastest places to look first.
 
-For founders treating mobile growth as part of a larger GTM system, the **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)** is a solid deeper resource.
+For founders treating mobile growth as part of a larger GTM system, the **[Gingiris ASO Growth Playbook](https://gingiris.tools/skills/)** is a solid deeper resource.
 
 ## TL;DR
 
@@ -130,7 +130,7 @@ If you already see installs, waitlist signups, or community traction from non-En
 - screenshot text overlays
 - first 150 to 200 words of the Play description
 
-For apps with global ambition, this becomes even more important. The **[Gingiris Launch playbook](https://clawhub.ai/user/gingiris)** is useful here because launch distribution and localization usually reinforce each other.
+For apps with global ambition, this becomes even more important. The **[Gingiris Launch playbook](https://gingiris.tools/skills/)** is useful here because launch distribution and localization usually reinforce each other.
 
 ## 7. Fix the Listing After Retention Problems, Not Before
 
@@ -157,7 +157,7 @@ Download velocity still matters. That means coordinated launch moments can help 
 - email newsletter features
 - short-term referral pushes
 
-If the app also has a B2B motion, launch traffic should not end at installs. The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is helpful for connecting acquisition with onboarding, expansion, and retention loops.
+If the app also has a B2B motion, launch traffic should not end at installs. The **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is helpful for connecting acquisition with onboarding, expansion, and retention loops.
 
 ## 9. Run a Simple Weekly ASO Scorecard
 

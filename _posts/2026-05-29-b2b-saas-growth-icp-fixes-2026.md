@@ -13,7 +13,7 @@ keywords: [b2b, saas, growth, seo]
 
 **B2B SaaS growth** usually stalls before the funnel gets expensive. A lot of teams think they have a traffic problem, but the real issue is ICP blur. If your messaging attracts curious clicks but weak demos, your **B2B SaaS growth** engine wastes budget, sales time, and product focus. In 2026, the strongest teams tighten category, pain, buyer language, and proof before they try to scale distribution.
 
-If you want the deeper operating system behind that work, start with the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. Pair it with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for positioning and channel sequencing, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for public trust assets, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your demand system also depends on app store discovery.
+If you want the deeper operating system behind that work, start with the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. Pair it with **[Gingiris Launch](https://gingiris.tools/skills/)** for positioning and channel sequencing, **[Gingiris Open Source](https://gingiris.tools/skills/)** for public trust assets, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your demand system also depends on app store discovery.
 
 ## TL;DR
 
@@ -66,7 +66,7 @@ Support language often reveals what users expected to happen versus what actuall
 
 This is where hidden deal friction becomes obvious.
 
-The **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is useful here because it pushes teams to translate insight into repeatable growth assets instead of leaving it inside calls.
+The **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is useful here because it pushes teams to translate insight into repeatable growth assets instead of leaving it inside calls.
 
 ## 3. Build One Homepage for the Best-Fit Buyer, Not the Average Buyer
 
@@ -114,7 +114,7 @@ Make the operational improvement visible.
 
 Simple numbers travel well in internal buying conversations.
 
-This is also where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** helps. Positioning gets stronger when distribution and proof say the same thing.
+This is also where **[Gingiris Launch](https://gingiris.tools/skills/)** helps. Positioning gets stronger when distribution and proof say the same thing.
 
 ## 6. Align Onboarding With the Promise That Won the Deal
 
@@ -141,7 +141,7 @@ The best-fit buyer is not only the one who buys. It is the one who retains and e
 - admin activity tied to process standardization
 - feature usage that appears before renewals go smoothly
 
-If your company also has a mobile motion, **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** can help connect app store acquisition with the same positioning logic instead of treating mobile as a separate brand story.
+If your company also has a mobile motion, **[Gingiris ASO Growth](https://gingiris.tools/skills/)** can help connect app store acquisition with the same positioning logic instead of treating mobile as a separate brand story.
 
 ## Common ICP Mistakes That Hurt B2B SaaS Growth
 

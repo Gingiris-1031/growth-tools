@@ -245,7 +245,7 @@ Free resources:
 - Reddit seeding + newsletter pitches + Twitter threads = sustainable traffic
 - Email capture turns fleeting traffic into a lasting asset
 - Data-driven iteration is what separates products that fade from products that grow
-- The full launch playbook is in the [Gingiris GitHub repos](https://clawhub.ai/user/gingiris)
+- The full launch playbook is in the [Gingiris GitHub repos](https://gingiris.tools/skills/)
 
 Launch hard. Follow through harder. 🚀
 

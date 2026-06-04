@@ -206,7 +206,7 @@ Need deeper playbooks? Check out these battle-tested guides:
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [Product Hunt Launch Playbook](https://clawhub.ai/user/gingiris) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [Product Hunt Launch Playbook](https://gingiris.tools/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 

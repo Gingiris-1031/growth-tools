@@ -13,7 +13,7 @@ keywords: [github, opensource, seo, growth]
 
 **GitHub star growth** often looks like a distribution problem, but the leak usually starts in the README. If someone lands on your repo from X, Reddit, Product Hunt, or search and still cannot understand the repo in 10 seconds, your **GitHub star growth** will flatten no matter how often you promote it. In 2026, the strongest teams treat the README like a conversion page: clear category, clear proof, clear audience, and a clear next step.
 
-If you want the deeper operating system behind this, start with the **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)**. Pair it with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** when you need distribution sequencing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** when repo attention needs to turn into pipeline, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your product also depends on mobile discovery.
+If you want the deeper operating system behind this, start with the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)**. Pair it with **[Gingiris Launch](https://gingiris.tools/skills/)** when you need distribution sequencing, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** when repo attention needs to turn into pipeline, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your product also depends on mobile discovery.
 
 ## TL;DR
 
@@ -75,7 +75,7 @@ Built for teams that need repeatable workflows, automation, or observability.
 
 Built for teams that need launch systems, GTM templates, or community growth.
 
-This is one reason **[Gingiris Launch](https://clawhub.ai/user/gingiris)** and **[Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris)** work well together. One sharpens who the project is for, the other sharpens how it gets discovered.
+This is one reason **[Gingiris Launch](https://gingiris.tools/skills/)** and **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)** work well together. One sharpens who the project is for, the other sharpens how it gets discovered.
 
 ## 4. Show Proof Before the Long Feature List
 
@@ -102,7 +102,7 @@ Visitors star more often when they can imagine success.
 3. one expected result
 4. one next step if it works
 
-This is especially important if your repo supports a commercial motion. **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** is useful here because it helps connect repo trust with deeper evaluation, demos, or signups.
+This is especially important if your repo supports a commercial motion. **[Gingiris B2B Growth](https://gingiris.tools/skills/)** is useful here because it helps connect repo trust with deeper evaluation, demos, or signups.
 
 ## 6. Turn Repeated Questions Into Permanent README Sections
 
@@ -136,7 +136,7 @@ The README should not dead-end after setup.
 - community links
 - roadmap or changelog
 
-If your product also has an app-led layer, **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** can help you build a cleaner handoff from GitHub interest to app store conversion instead of treating those channels separately.
+If your product also has an app-led layer, **[Gingiris ASO Growth](https://gingiris.tools/skills/)** can help you build a cleaner handoff from GitHub interest to app store conversion instead of treating those channels separately.
 
 ## Common README Mistakes That Hurt GitHub Star Growth
 

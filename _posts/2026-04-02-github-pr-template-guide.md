@@ -260,9 +260,9 @@ Read the CONTRIBUTING.md before submitting. Follow their conventions.
 - **Breaking changes**: Flag clearly
 - **Small PRs**: 100 lines > 1000 lines
 
-For more open source growth strategies, see [Open source growth playbook](https://clawhub.ai/user/gingiris) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://gingiris.tools/skills/) — the complete playbook from 0 to 60k stars.
 
-*Part of the [Gingiris Open Source Growth Playbook](https://clawhub.ai/user/gingiris) — helping developers contribute to open source with confidence.*
+*Part of the [Gingiris Open Source Growth Playbook](https://gingiris.tools/skills/) — helping developers contribute to open source with confidence.*
 
 ## Related Articles
 

@@ -13,7 +13,7 @@ keywords: [b2b saas growth, saas growth, expansion loops, b2b growth, retention 
 
 **B2B SaaS growth** gets harder when teams treat acquisition, activation, retention, and expansion as separate departments instead of one looped system. If your **B2B SaaS growth** has stalled, the issue is often not top-of-funnel demand alone. It is weak handoffs between onboarding, proof, account success, and upsell timing. In 2026, the best B2B teams grow by connecting product usage, customer language, expansion triggers, and distribution into one operating rhythm.
 
-If you want the deeper operating system behind that, start with the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for go-to-market sequencing, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for trust-building through public assets, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your company also runs a mobile growth layer.
+If you want the deeper operating system behind that, start with the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** for go-to-market sequencing, **[Gingiris Open Source](https://gingiris.tools/skills/)** for trust-building through public assets, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your company also runs a mobile growth layer.
 
 ## TL;DR
 
@@ -59,7 +59,7 @@ Reduce uncertainty for ops, IT, or managers who worry about rollout friction.
 
 Help different stakeholders see where they fit without reading generic docs.
 
-This is where **[Gingiris Launch](https://clawhub.ai/user/gingiris)** is more useful than people expect, because message match should carry from the first campaign touch all the way into onboarding.
+This is where **[Gingiris Launch](https://gingiris.tools/skills/)** is more useful than people expect, because message match should carry from the first campaign touch all the way into onboarding.
 
 ## 3. Instrument the Behaviors That Actually Predict Expansion
 
@@ -107,7 +107,7 @@ A lot of B2B SaaS websites still sound like category slides, not working softwar
 - sales decks
 - SEO articles that capture high-intent search behavior
 
-If your team also ships open source, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** can help turn public trust and community proof into warmer pipeline.
+If your team also ships open source, **[Gingiris Open Source](https://gingiris.tools/skills/)** can help turn public trust and community proof into warmer pipeline.
 
 ## 6. Design Expansion as a Product Experience, Not a Sales Surprise
 
@@ -141,7 +141,7 @@ Show customers what mature usage looks like through examples from similar accoun
 
 Use role-based stories to show how other teams inside the same company can benefit.
 
-If the product also depends on mobile discovery or companion apps, **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** helps connect app store motion with broader B2B demand capture.
+If the product also depends on mobile discovery or companion apps, **[Gingiris ASO Growth](https://gingiris.tools/skills/)** helps connect app store motion with broader B2B demand capture.
 
 ## Common B2B SaaS Growth Mistakes
 

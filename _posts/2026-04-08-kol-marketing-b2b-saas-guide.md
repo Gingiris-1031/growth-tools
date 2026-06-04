@@ -192,8 +192,8 @@ The best KOL relationships are ongoing. One tweet does not move the needle. A su
 
 - [B2B SaaS Growth Playbook: Proven Strategies 2026](/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026) — Full B2B growth framework
 - [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/2026/04/03/startup-marketing-strategy-from-0-to-1000-users/) — Complementary to KOL for early traction
-- [GitHub Stars Growth Playbook](https://clawhub.ai/user/gingiris) — Developer community building
-- [Go-to-Market Strategy Guide](https://clawhub.ai/user/gingiris) — Channel strategy for B2B launches
+- [GitHub Stars Growth Playbook](https://gingiris.tools/skills/) — Developer community building
+- [Go-to-Market Strategy Guide](https://gingiris.tools/skills/) — Channel strategy for B2B launches
 
 ## Conclusion
 
@@ -201,7 +201,7 @@ KOL marketing for B2B SaaS is fundamentally different from B2C influencer market
 
 Start with **micro-KOLs** in your niche. Build genuine relationships. Measure trust signals, not just clicks. The compound effect of multiple credible endorsements is what moves B2B growth.
 
-For a complete go-to-market framework, explore the [Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris) — which covers KOL strategy alongside PLG, SLG, and pricing optimization.
+For a complete go-to-market framework, explore the [Gingiris B2B Growth Playbook](https://gingiris.tools/skills/) — which covers KOL strategy alongside PLG, SLG, and pricing optimization.
 
 ---
 

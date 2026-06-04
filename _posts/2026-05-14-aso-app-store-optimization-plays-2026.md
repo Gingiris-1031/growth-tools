@@ -13,7 +13,7 @@ keywords: [aso app store optimization, app store optimization, mobile app growth
 
 **ASO app store optimization** still matters in 2026 because ranking, conversion, and review velocity reinforce each other. Many teams treat ASO as keyword stuffing plus prettier screenshots, then wonder why installs stall. The stronger approach is to align metadata, creative, retention signals, and review loops so each update improves both discovery and conversion.
 
-If you want the full playbook behind this, start with the **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** for launch sequencing, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** if your app has a SaaS motion, and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** if community trust helps distribution.
+If you want the full playbook behind this, start with the **[Gingiris ASO Growth Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** for launch sequencing, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** if your app has a SaaS motion, and **[Gingiris Open Source](https://gingiris.tools/skills/)** if community trust helps distribution.
 
 ## TL;DR
 
@@ -49,7 +49,7 @@ Many app listings try to rank for every adjacent use case. That usually weakens 
 
 For example, a listing built for "habit tracker for ADHD" needs different copy and creative from a broader "productivity app" page.
 
-The **[Gingiris ASO Growth Playbook](https://clawhub.ai/user/gingiris)** is useful here because it pushes teams to narrow intent before touching screenshots.
+The **[Gingiris ASO Growth Playbook](https://gingiris.tools/skills/)** is useful here because it pushes teams to narrow intent before touching screenshots.
 
 ## 2. Put the Core Keyword in the Highest-Leverage Places
 
@@ -78,7 +78,7 @@ A screenshot set is not a gallery. It is a short landing page.
 
 Teams often bury the hook in frame four or five. That is too late. Your first two frames should explain who the app is for and why it is better.
 
-If you are planning a launch spike, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** helps connect that story to Product Hunt, creator traffic, and distribution timing.
+If you are planning a launch spike, **[Gingiris Launch](https://gingiris.tools/skills/)** helps connect that story to Product Hunt, creator traffic, and distribution timing.
 
 ## 4. Write Descriptions for Humans First
 
@@ -159,7 +159,7 @@ Translation alone is not localization. Different markets search and evaluate app
 - social proof style
 - pricing expectations
 
-If your app also sells into teams or professionals, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** can help bridge consumer demand into a larger commercial motion.
+If your app also sells into teams or professionals, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** can help bridge consumer demand into a larger commercial motion.
 
 ## Common ASO Mistakes
 

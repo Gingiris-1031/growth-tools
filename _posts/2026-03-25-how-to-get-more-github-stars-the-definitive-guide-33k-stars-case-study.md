@@ -317,11 +317,11 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 ## Free Resources
 
-📘 **[Open Source Launch Marketing Playbook](https://clawhub.ai/user/gingiris)** — 0 to 10k stars, complete SOP
+📘 **[Open Source Launch Marketing Playbook](https://gingiris.tools/skills/)** — 0 to 10k stars, complete SOP
 
-📗 **[Product Hunt Launch Guide](https://clawhub.ai/user/gingiris)** — 30x #1 winner's playbook
+📗 **[Product Hunt Launch Guide](https://gingiris.tools/skills/)** — 30x #1 winner's playbook
 
-📙 **[B2B Growth Playbook](https://clawhub.ai/user/gingiris)** — for OSS with a commercial layer
+📙 **[B2B Growth Playbook](https://gingiris.tools/skills/)** — for OSS with a commercial layer
 
 ---
 

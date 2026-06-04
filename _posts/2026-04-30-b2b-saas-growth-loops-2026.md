@@ -21,7 +21,7 @@ faq:
 
 **B2B SaaS growth** is slower than consumer hype and less forgiving than open source vanity metrics. The teams that keep compounding in 2026 usually do not rely on one channel. They build loops between product adoption, sales feedback, search traffic, and customer expansion. If your pipeline feels noisy but revenue growth feels flat, the problem is often not effort. It is that your growth system does not connect acquisition to retention.
 
-If you want deeper playbooks behind these ideas, start with the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** when you need go-to-market sequencing, and **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** if your SaaS also grows through developer distribution.
+If you want deeper playbooks behind these ideas, start with the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** when you need go-to-market sequencing, and **[Gingiris Open Source](https://gingiris.tools/skills/)** if your SaaS also grows through developer distribution.
 
 ## TL;DR
 
@@ -87,7 +87,7 @@ The strongest B2B SaaS companies rarely choose pure PLG or pure SLG forever. The
 | Sales assist | mid-market qualification | reduce risk and unblock adoption |
 | Customer success | expansion and retention | increase account depth |
 
-This is why **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is useful beyond acquisition. It is really about designing the full commercial system.
+This is why **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is useful beyond acquisition. It is really about designing the full commercial system.
 
 ## 4. Turn Sales Calls Into Content Assets
 
@@ -124,7 +124,7 @@ A lot of B2B SaaS growth content gets traffic that never becomes pipeline. That 
 - use-case pages by role
 - migration guides
 
-Search works best when the page is close to a real decision. If your SaaS supports launches or distribution work, the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)** is a good example of content that stays practical instead of drifting generic.
+Search works best when the page is close to a real decision. If your SaaS supports launches or distribution work, the **[Gingiris Launch Playbook](https://gingiris.tools/skills/)** is a good example of content that stays practical instead of drifting generic.
 
 ## 6. Design Expansion Before the First Renewal
 
@@ -152,7 +152,7 @@ Many case studies are too polished to be believable. Good ones reduce buying ris
 4. what changed in workflow or revenue
 5. what happened next
 
-That structure works for landing pages, outbound follow-up, and SEO. It also pairs well with open distribution if you publish product learnings publicly. For developer-facing teams, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** can help connect public trust signals to commercial demand.
+That structure works for landing pages, outbound follow-up, and SEO. It also pairs well with open distribution if you publish product learnings publicly. For developer-facing teams, **[Gingiris Open Source](https://gingiris.tools/skills/)** can help connect public trust signals to commercial demand.
 
 ## 8. Make Retention a Growth Channel
 

@@ -13,7 +13,7 @@ keywords: [b2b saas growth, saas growth strategy, retention, expansion, plg, sal
 
 **B2B SaaS growth** gets fragile when teams obsess over new pipeline but ignore what happens after activation. In 2026, the strongest B2B SaaS companies are not winning because they found a secret ad channel. They are winning because retention, expansion, customer proof, and commercial-intent content all reinforce each other. If demos are happening but revenue still feels lumpy, the missing layer is often the system that turns initial usage into deeper account value.
 
-If you want the broader operating system behind this, start with the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Launch](https://clawhub.ai/user/gingiris)** when you need better go-to-market sequencing, **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** when developer trust matters, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if part of your motion includes app-led acquisition.
+If you want the broader operating system behind this, start with the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** when you need better go-to-market sequencing, **[Gingiris Open Source](https://gingiris.tools/skills/)** when developer trust matters, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if part of your motion includes app-led acquisition.
 
 ## TL;DR
 
@@ -48,7 +48,7 @@ A solo user can love the product and still fail to create durable revenue. In ma
 
 If onboarding only teaches features, usage stays shallow. If onboarding creates a team habit, expansion gets easier.
 
-This is one reason the **[Gingiris B2B Growth Playbook](https://clawhub.ai/user/gingiris)** is useful. It forces the team to think beyond top-of-funnel demand and into adoption depth.
+This is one reason the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is useful. It forces the team to think beyond top-of-funnel demand and into adoption depth.
 
 ## 2. Build Expansion Triggers Into the Core Product
 
@@ -116,7 +116,7 @@ These help champions sell the purchase inside the company.
 
 These make the product easier to understand for finance, ops, leadership, or technical stakeholders.
 
-If your motion includes launches, positioning work, or category creation, **[Gingiris Launch](https://clawhub.ai/user/gingiris)** is a helpful companion because it keeps the content close to real go-to-market decisions instead of generic traffic plays.
+If your motion includes launches, positioning work, or category creation, **[Gingiris Launch](https://gingiris.tools/skills/)** is a helpful companion because it keeps the content close to real go-to-market decisions instead of generic traffic plays.
 
 ## 5. Use Public Proof to Lower Expansion Friction
 
@@ -131,7 +131,7 @@ Most teams think of case studies as acquisition assets. They also matter for exp
 | Team adoption example | supports seat expansion | renewal decks, use-case pages |
 | ROI language from customers | helps champions sell internally | comparison pages, follow-up emails |
 
-Developer-facing or open distribution products can strengthen this effect with public trust signals. That is where **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** becomes relevant, especially if your buyers check GitHub before they buy.
+Developer-facing or open distribution products can strengthen this effect with public trust signals. That is where **[Gingiris Open Source](https://gingiris.tools/skills/)** becomes relevant, especially if your buyers check GitHub before they buy.
 
 ## 6. Run One Shared Expansion Score Across Teams
 

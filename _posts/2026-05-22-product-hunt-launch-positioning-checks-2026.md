@@ -13,7 +13,7 @@ keywords: [product hunt launch, product hunt positioning, startup launch, produc
 
 A strong **Product Hunt launch** usually looks like a traffic problem from the outside, but inside the team it is often a positioning problem. If strangers land on your page and cannot tell who the product is for, why it matters now, or what makes it different, even a well-timed Product Hunt launch turns into polite curiosity instead of signups. In 2026, the teams that convert best are not just collecting upvotes. They are making the page legible in seconds.
 
-If you want the broader system behind this, start with the **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)**. It pairs well with **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** for developer-facing launches, **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** for turning launch interest into pipeline, and **[Gingiris ASO Growth](https://clawhub.ai/user/gingiris)** if your launch also needs to support mobile acquisition.
+If you want the broader system behind this, start with the **[Gingiris Launch Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Open Source](https://gingiris.tools/skills/)** for developer-facing launches, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** for turning launch interest into pipeline, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your launch also needs to support mobile acquisition.
 
 ## TL;DR
 
@@ -79,7 +79,7 @@ If users get to value in 3 minutes instead of 30, that matters.
 
 #### Trust or proof
 
-Open source credibility, public templates, or customer evidence can lower skepticism fast. That is where **[Gingiris Open Source](https://clawhub.ai/user/gingiris)** becomes useful for launches with a developer or community angle.
+Open source credibility, public templates, or customer evidence can lower skepticism fast. That is where **[Gingiris Open Source](https://gingiris.tools/skills/)** becomes useful for launches with a developer or community angle.
 
 ## 4. Does the Gallery Tell One Story Instead of Seven Half-Stories?
 
@@ -119,7 +119,7 @@ Send traffic to a focused signup path with one obvious activation step.
 
 #### B2B SaaS
 
-Send high-intent traffic to a demo, use-case page, or ROI explanation. **[Gingiris B2B Growth](https://clawhub.ai/user/gingiris)** is especially helpful here because it bridges launch attention with real sales or PLG follow-through.
+Send high-intent traffic to a demo, use-case page, or ROI explanation. **[Gingiris B2B Growth](https://gingiris.tools/skills/)** is especially helpful here because it bridges launch attention with real sales or PLG follow-through.
 
 #### Developer product
 
@@ -139,7 +139,7 @@ One of the best checks is whether your Product Hunt launch positioning can also 
 
 If the message only works on Product Hunt, it is probably too campaign-specific. Strong positioning travels well across channels.
 
-That is why I like pairing launch work with content systems. The same message that converts on launch day can become long-tail search traffic later. The **[Gingiris Launch Playbook](https://clawhub.ai/user/gingiris)** is useful for this because it connects Product Hunt with Reddit, Hacker News, creator outreach, and post-launch SEO.
+That is why I like pairing launch work with content systems. The same message that converts on launch day can become long-tail search traffic later. The **[Gingiris Launch Playbook](https://gingiris.tools/skills/)** is useful for this because it connects Product Hunt with Reddit, Hacker News, creator outreach, and post-launch SEO.
 
 ## A Simple Product Hunt Launch Positioning Checklist
 

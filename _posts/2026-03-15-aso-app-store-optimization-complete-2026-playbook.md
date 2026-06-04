@@ -173,12 +173,12 @@ Launching a new app? Here's your first 30 days:
 
 ## Learning Resources
 
-For comprehensive playbooks on app growth and go-to-market strategy, check out these battle-tested guides from the [Gingiris](https://clawhub.ai/user/gingiris) collection:
+For comprehensive playbooks on app growth and go-to-market strategy, check out these battle-tested guides from the [Gingiris](https://gingiris.tools/skills/) collection:
 
-- **[ASO Growth Guide](https://clawhub.ai/user/gingiris)** — Deep dive into app store optimization, cold start tactics, and UGC operations for mobile apps
-- **[Product Hunt Launch Guide](https://clawhub.ai/user/gingiris)** — From pre-launch prep to #1 finish, with real case studies from 30x daily wins
-- **[Open Source Marketing](https://clawhub.ai/user/gingiris)** — GitHub stars growth and developer community building (if you're launching dev tools)
-- **[B2B SaaS Growth](https://clawhub.ai/user/gingiris)** — PLG and SLG strategies if your app has a B2B component
+- **[ASO Growth Guide](https://gingiris.tools/skills/)** — Deep dive into app store optimization, cold start tactics, and UGC operations for mobile apps
+- **[Product Hunt Launch Guide](https://gingiris.tools/skills/)** — From pre-launch prep to #1 finish, with real case studies from 30x daily wins
+- **[Open Source Marketing](https://gingiris.tools/skills/)** — GitHub stars growth and developer community building (if you're launching dev tools)
+- **[B2B SaaS Growth](https://gingiris.tools/skills/)** — PLG and SLG strategies if your app has a B2B component
 
 ## Conclusion
 
@@ -202,7 +202,7 @@ Start with your keywords. Nail your screenshots. Then build from there.
 Install as a skill for Claude Code, OpenClaw, or any compatible AI agent:
 
 ```bash
-clawhub install gingiris-aso-growth
+npx skills add Gingiris-1031/gingiris-skills
 ```
 
 Your AI can help you optimize app store listings and plan UGC campaigns.

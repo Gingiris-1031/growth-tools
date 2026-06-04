@@ -266,14 +266,14 @@ A great README doesn't just document — it sells.
 
 ## Free Resources
 
-- 📚 [Open Source Marketing Playbook](https://clawhub.ai/user/gingiris) — How to grow GitHub stars
-- 📚 [Product Hunt Launch Guide](https://clawhub.ai/user/gingiris) — Launch strategy from 30x #1 winner
+- 📚 [Open Source Marketing Playbook](https://gingiris.tools/skills/) — How to grow GitHub stars
+- 📚 [Product Hunt Launch Guide](https://gingiris.tools/skills/) — Launch strategy from 30x #1 winner
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris Open Source Playbook](https://clawhub.ai/user/gingiris) — battle-tested strategies from 60k+ GitHub stars.*
+*This guide is part of the [Gingiris Open Source Playbook](https://gingiris.tools/skills/) — battle-tested strategies from 60k+ GitHub stars.*
 
 ---
 
