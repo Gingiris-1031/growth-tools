@@ -173,7 +173,7 @@ Self-hunting is no longer the stigma it was in 2022. If your community is strong
 - **[Master playbook]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — full Product Hunt launch system
 - **[LinkedIn DM template]({{ "/blog/2026/04/26/product-hunt-linkedin-dm-template/" | relative_url }})** — companion piece on outreach DMs (60% open rate)
 - **[Maker comment template]({{ "/blog/2026/05/02/product-hunt-maker-comment-template/" | relative_url }})** — 6 launch-day first-comment variants, ~68% read-through with founder-story opener
-- **[Launch day timeline (hour-by-hour PST)]({{ "/blog/2026/05/06/product-hunt-launch-day-timeline/" | relative_url }})** — when your hunter executes the 00:01 PST publish + 02:00 PST hunt comment slots
+- **[Launch day timeline (hour-by-hour PST)]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — when your hunter executes the 00:01 PST publish + 02:00 PST hunt comment slots
 - **[After launch: keeping momentum]({{ "/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/" | relative_url }})** — post-launch playbook
 
 ---
@@ -188,7 +188,7 @@ Self-hunting is no longer the stigma it was in 2022. If your community is strong
 
 This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
 
-- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 

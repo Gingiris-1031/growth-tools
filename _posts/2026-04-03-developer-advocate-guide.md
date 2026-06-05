@@ -324,7 +324,7 @@ Developer marketing focuses on campaigns, messaging, and channels to reach devel
 
 ## Related Reading
 
-- [Developer Marketing: How to Reach Technical Audiences](https://gingiris.tools/blog/2026/04/developer-marketing-how-to-reach-technical-audiences/)
+- [Developer Marketing: How to Reach Technical Audiences](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/)
 - [GitHub README Template: The Complete Guide](https://gingiris.tools/blog/2026/04/github-readme-template-guide/)
 - [Open Source Marketing: The Complete 2026 Guide](https://gingiris.tools/blog/2026/04/open-source-marketing-the-complete-guide/)
 - [How to Get More GitHub Stars: 33K Case Study](https://gingiris.tools/blog/2026/03/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
@@ -338,7 +338,7 @@ Developer marketing focuses on campaigns, messaging, and channels to reach devel
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 

@@ -292,7 +292,7 @@ One useful pattern: **Show HN on launch → technical blog post 2–3 weeks late
 | 📖 | [How to Get on GitHub Trending](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/) |
 | 📖 | [Product Hunt Launch: The 2026 Playbook](https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [GitHub Star Growth: 10 Proven Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [GitHub Star Growth: 10 Proven Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
@@ -313,7 +313,7 @@ One useful pattern: **Show HN on launch → technical blog post 2–3 weeks late
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 

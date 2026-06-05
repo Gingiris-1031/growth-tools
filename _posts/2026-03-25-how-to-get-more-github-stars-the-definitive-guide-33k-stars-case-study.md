@@ -58,8 +58,8 @@ This guide covers both parts — the sprint to 1,000, and everything that came a
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://gingiris.tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.tools/blog/2026/05/01/affine-github-trending-playbook/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/)
 
 ## Key Stats
 
@@ -329,11 +329,11 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Star Growth Tactics: 10 Proven Ways](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [Star Growth Tactics: 10 Proven Ways](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [GitHub Stars History: How to Track Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
 | 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*

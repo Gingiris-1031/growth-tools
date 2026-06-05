@@ -250,7 +250,7 @@ Cal.com grew through developer KOL advocacy:
 
 ---
 
-> 📖 **See also:** [Best KOL Marketing Tools 2026](https://gingiris.tools/blog/2026/04/02/best-kol-marketing-tools-2026/)
+> 📖 **See also:** [Best KOL Marketing Tools 2026](https://gingiris.tools/blog/2026/04/02/kol-marketing-strategy/)
 
 ## Conclusion
 
@@ -266,7 +266,7 @@ The best KOL partnerships feel like collaborations between friends, not transact
 
 - [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/startup-marketing-strategy-from-zero-to-first-1000-users/)
 - [Reddit Marketing Guide: How to Promote Without Getting Banned](/blog/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Product Hunt Launch Checklist: 30x #1 Winner's Playbook](/blog/product-hunt-launch-checklist-30time-1-winners-playbook/)
+- [Product Hunt Launch Checklist: 30x #1 Winner's Playbook](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [Growth Tools Library](https://gingiris.tools/) — Free tools for startup growth
 
 ---
@@ -289,7 +289,7 @@ The best KOL partnerships feel like collaborations between friends, not transact
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 

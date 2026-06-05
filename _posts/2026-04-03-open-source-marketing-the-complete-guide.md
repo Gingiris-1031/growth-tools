@@ -242,7 +242,7 @@ People contribute for intrinsic motivation, but recognition supercharges it:
 
 Stars are the currency of open source credibility. While they are a vanity metric on their own, they influence GitHub's discovery algorithms — trending page, search ranking, and recommendation feeds all factor in star velocity.
 
-For a data-driven breakdown of the specific tactics that grew AFFiNE from 0 to 33K stars, see our [GitHub star growth playbook](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/).
+For a data-driven breakdown of the specific tactics that grew AFFiNE from 0 to 33K stars, see our [GitHub star growth playbook](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/).
 
 ### 10. KOL Strategy
 
@@ -367,8 +367,8 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 |----------|---------|
 | 🚀 | [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 👂 | [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |
-| 📖 | [Developer Marketing Guide](https://gingiris.tools/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences/) |
-| 📖 | [GitHub Star Growth: 10 Proven Tactics That Got Us 33K Stars](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [Developer Marketing Guide](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+| 📖 | [GitHub Star Growth: 10 Proven Tactics That Got Us 33K Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [How to Get on GitHub Trending](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/) |
 | 📖 | [GitHub README Best Practices](https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
 | 📖 | [Developer Community Directory: Where to Find Your First 1,000 Users](https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
@@ -389,7 +389,7 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 

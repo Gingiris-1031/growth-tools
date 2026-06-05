@@ -294,7 +294,7 @@ If only one of the three is in place, the launch's first hour reads as a single 
 - **[Master playbook]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — the full Product Hunt launch system across all channels
 - **[LinkedIn DM template]({{ "/blog/2026/04/26/product-hunt-linkedin-dm-template/" | relative_url }})** — 60% open rate template for pre-launch outreach
 - **[Hunter list 2026]({{ "/blog/2026/04/28/product-hunt-hunter-list-2026/" | relative_url }})** — why activity beats followers, plus the 4 hunter tiers
-- **[Launch day timeline (hour-by-hour PST)]({{ "/blog/2026/05/06/product-hunt-launch-day-timeline/" | relative_url }})** — the full 24-hour PST action map; this maker comment goes live at the 00:05 PST slot
+- **[Launch day timeline (hour-by-hour PST)]({{ "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/" | relative_url }})** — the full 24-hour PST action map; this maker comment goes live at the 00:05 PST slot
 - **[After launch: keeping momentum]({{ "/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/" | relative_url }})** — what to do in the 7 days after launch day
 
 ---
@@ -309,7 +309,7 @@ If only one of the three is in place, the launch's first hour reads as a single 
 
 This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
 
-- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 

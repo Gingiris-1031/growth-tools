@@ -169,7 +169,7 @@ I've seen great launches both ways — with a hunter and without. The mistake is
 
 **Related reading:**
 - [Product Hunt Launch Playbook: The Definitive Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — the full 6-week pre-launch sequence
-- [Product Hunt Launch Checklist 2026](https://gingiris.tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) — what to do in the 14 days leading up to launch day
+- [Product Hunt Launch Checklist 2026](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — what to do in the 14 days leading up to launch day
 - [After Product Hunt Launch — 7 Ways to Keep Momentum](https://gingiris.tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) — what to do in the 14 days after launch day
 
 If you're researching competitors before your launch (to position your tagline against alternatives), [Analook](https://www.analook.com/) gives a 60-second teardown of any URL — Wayback Machine history + traffic + social. Free for 3 reports/month.
@@ -184,7 +184,7 @@ If you're researching competitors before your launch (to position your tagline a
 
 This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
 
-- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 

@@ -24,7 +24,7 @@ last_modified_at: 2026-05-27
 
 > ✍️ **Deep dive**: [Product Hunt Maker Comment Template (6 Variants from 30x #1 Winner)](https://gingiris.tools/blog/2026/05/02/product-hunt-maker-comment-template/) — the launch-day first comment posted within 5 minutes of 12:01 AM PST. Founder-story openers hit ~68% read-through vs ~22% for feature-list openers.
 
-> ⏱️ **Deep dive**: [Product Hunt Launch Day Timeline (Hour-by-Hour, PST)](https://gingiris.tools/blog/2026/05/06/product-hunt-launch-day-timeline/) — minute-by-minute action map for the 24 hours from 12:01 AM PST to 23:59 PST, including the 14:00 PST peak (~30% of upvotes) and the closing-push window most makers miss.
+> ⏱️ **Deep dive**: [Product Hunt Launch Day Timeline (Hour-by-Hour, PST)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — minute-by-minute action map for the 24 hours from 12:01 AM PST to 23:59 PST, including the 14:00 PST peak (~30% of upvotes) and the closing-push window most makers miss.
 
 The first time AFFiNE hit #1 on Product Hunt, I was in a taxi in Singapore at 4 AM, refreshing the leaderboard every 90 seconds.
 
@@ -34,7 +34,7 @@ I didn't sleep. I answered every comment. I watched the vote counter like a hawk
 
 30 launches later — I stopped panicking. The algorithm stopped feeling arbitrary. I had a map.
 
-This is that map. If you want a condensed version of the launch-day tasks, see our [Product Hunt launch checklist](https://gingiris.tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/).
+This is that map. If you want a condensed version of the launch-day tasks, see our [Product Hunt launch checklist](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/).
 
 ---
 
@@ -324,9 +324,9 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 | Category | Article |
 |----------|---------|
 | 📖 | [After Product Hunt: 7 Ways to Keep the Momentum](https://gingiris.tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
-| 📖 | [Product Hunt Launch Checklist: The Complete 2026 Guide](https://gingiris.tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/) |
+| 📖 | [Product Hunt Launch Checklist: The Complete 2026 Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [Startup Launch Checklist: 47 Tasks Before, During & After](https://gingiris.tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) |
-| 📖 | [How to Launch on Product Hunt: Step-by-Step](https://gingiris.tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner/) |
+| 📖 | [How to Launch on Product Hunt: Step-by-Step](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 🇯🇵 | [Product Hunt 攻略ガイド（日本語版）](https://gingiris.tools/blog/2026/04/07/product-hunt-strategy-2026-ja/) |
 | 🇰🇷 | [프로덕트헌트 가이드（한국어판）](https://gingiris.tools/blog/2026/04/07/product-hunt-guide-ko/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
@@ -465,7 +465,7 @@ A subtle algorithm tweak in Q1 2026 began factoring comment threads into the ran
 
 ### Companion reading
 
-- [Launch day timeline (hour-by-hour PST)](https://gingiris.tools/blog/2026/05/06/product-hunt-launch-day-timeline/) — full 24h schedule with 14:00 PST peak + 21:00-23:59 PST closing push
+- [Launch day timeline (hour-by-hour PST)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — full 24h schedule with 14:00 PST peak + 21:00-23:59 PST closing push
 - [How to pick a Product Hunt hunter (7 criteria)](https://gingiris.tools/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/) — when to self-submit instead
 
 ---

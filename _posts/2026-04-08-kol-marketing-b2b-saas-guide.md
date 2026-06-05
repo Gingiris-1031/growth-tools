@@ -191,7 +191,7 @@ The best KOL relationships are ongoing. One tweet does not move the needle. A su
 ## Related Reading
 
 - [B2B SaaS Growth Playbook: Proven Strategies 2026](/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026) — Full B2B growth framework
-- [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/2026/04/03/startup-marketing-strategy-from-0-to-1000-users/) — Complementary to KOL for early traction
+- [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) — Complementary to KOL for early traction
 - [GitHub Stars Growth Playbook](https://gingiris.tools/skills/) — Developer community building
 - [Go-to-Market Strategy Guide](https://gingiris.tools/skills/) — Channel strategy for B2B launches
 

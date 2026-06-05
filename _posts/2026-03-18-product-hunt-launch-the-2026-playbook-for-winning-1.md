@@ -233,7 +233,7 @@ The weekly and monthly badge multipliers (7× and 30× more exposure respectivel
 |----------|---------|
 | 📖 | [Product Hunt: Definitive Guide (30x #1 Winner)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [After Product Hunt: 7 Ways to Keep Momentum](https://gingiris.tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
-| 📖 | [Product Hunt Launch Checklist](https://gingiris.tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook/) |
+| 📖 | [Product Hunt Launch Checklist](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 | 📖 | [AFFiNE GitHub Stars: 0 to 60K](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
@@ -256,7 +256,7 @@ The weekly and monthly badge multipliers (7× and 30× more exposure respectivel
 
 This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
 
-- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 

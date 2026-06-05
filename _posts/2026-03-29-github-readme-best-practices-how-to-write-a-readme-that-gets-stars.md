@@ -283,8 +283,8 @@ A great README doesn't just document — it sells.
 |----------|---------|
 | 📖 | [How to Get GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [Developer Marketing Playbook](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
-| 📖 | [10 Proven GitHub Star Growth Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
-| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
+| 📖 | [10 Proven GitHub Star Growth Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
@@ -296,7 +296,7 @@ A great README doesn't just document — it sells.
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 

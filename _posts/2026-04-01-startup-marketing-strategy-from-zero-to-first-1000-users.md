@@ -134,7 +134,7 @@ Your marketing strategy should be in place before you launch. You just should no
 ## Related Reading
 
 - [Product Hunt Launch Guide: 30-Time #1 Winner's Playbook](/blog/product-hunt-launch-the-2026-playbook-for-winning-1) — Practical PH launch tactics
-- [Complete Startup Growth Framework: From $0 to $10M ARR](/blog/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr) — B2B growth strategies
+- [Complete Startup Growth Framework: From $0 to $10M ARR](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups) — B2B growth strategies
 - [100+ Growth Tools for Startups Going Global](/blog/100-growth-tools-for-startups-going-global-2026-edition/
 - [GitHub Star Growth: 10 Proven Tactics](https://gingiris.tools/skills/) — Open source growth strategies
 
@@ -160,7 +160,7 @@ Your marketing strategy should be in place before you launch. You just should no
 
 This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)** series. Other guides in the cluster:
 
-- [Product Hunt Launch Checklist 2026](/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience/)
+- [Product Hunt Launch Checklist 2026](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 

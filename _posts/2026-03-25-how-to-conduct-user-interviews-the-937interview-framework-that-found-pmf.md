@@ -305,7 +305,7 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 | Category | Article |
 |----------|---------|
 | 📖 | [Startup Marketing Strategy](https://gingiris.tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
-| 📖 | [SaaS Growth Strategy](https://gingiris.tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr/) |
+| 📖 | [SaaS Growth Strategy](https://gingiris.tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 

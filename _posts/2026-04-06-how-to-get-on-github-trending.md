@@ -258,12 +258,12 @@ Total week 1: ~6,000 stars. Total day 43: 10,000 stars.
 | Category | Article |
 |----------|---------|
 | 📖 | [AFFiNE GitHub Stars: 0 to 60K — The Full Story](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [10 Proven Star Growth Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/) |
+| 📖 | [10 Proven Star Growth Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [GitHub Stars History: How to Track & Analyze Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 | 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
-| 📖 | [AFFiNE GitHub Stars: Day-by-Day Timeline](https://gingiris.tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/) |
-| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/) |
+| 📖 | [AFFiNE GitHub Stars: Day-by-Day Timeline](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
 *More tools → [Growth Tools Directory](https://gingiris.tools/)*
 
@@ -275,7 +275,7 @@ Total week 1: ~6,000 stars. Total day 43: 10,000 stars.
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 

@@ -82,8 +82,8 @@ In 2024, I left AFFiNE. Since then, I've been open sourcing everything I learned
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://gingiris.tools/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.tools/blog/2026/05/01/affine-github-trending-playbook/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day Growth](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/)
 
 ## The Story Behind the Numbers
 
@@ -200,7 +200,7 @@ Drop a comment below with your biggest challenge — I read everything.
 
 - [How We Grew AFFiNE from 0 to 60K Stars: The Full Playbook](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [Product Hunt Launch Playbook: Definitive Guide (30x #1)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
-- [GitHub Star Growth: 10 Proven Tactics](https://gingiris.tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
+- [GitHub Star Growth: 10 Proven Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
 - [Open Source Marketing: The Complete 2026 Guide](https://gingiris.tools/blog/2026/04/03/open-source-marketing-the-complete-guide/)
 
@@ -230,8 +230,8 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
-- [GitHub Star Growth Tactics](/blog/2026/04/14/github-stars-growth-guide/)
-- [9 GitHub Star Growth Levers (2026)](/blog/2026/04/29/github-star-growth-levers-2026/)
+- [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [9 GitHub Star Growth Levers (2026)](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
