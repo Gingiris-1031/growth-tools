@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Growth Strategy Diagnostic: Free Startup Growth Audit in 2 Minutes</title>
+    <meta name="title" content="Growth Strategy Diagnostic: Free Startup Growth Audit in 2 Minutes">
+    <meta name="description" content="Free 2-minute growth diagnostic for startups. Identify your biggest growth bottleneck and get personalized playbook recommendations. Based on 30x PH #1 winner &amp; 60K GitHub stars experience.">
+    <meta name="keywords" content="growth diagnostic, startup growth audit, growth strategy tool, product growth, startup marketing, growth bottleneck, free growth tool, SaaS growth, open source marketing">
+    <meta name="author" content="Gingiris">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://gingiris.tools/tools/growth-diagnostic">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gingiris.tools/tools/growth-diagnostic">
+    <meta property="og:title" content="Growth Strategy Diagnostic: What's Blocking Your Growth?">
+    <meta property="og:description" content="Free 2-minute diagnostic. Identify your #1 growth bottleneck and get a personalized action plan with playbook recommendations.">
+    <meta property="og:site_name" content="Gingiris Growth Tools">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Growth Strategy Diagnostic: Free Startup Growth Audit">
+    <meta name="twitter:description" content="Identify your biggest growth bottleneck in 2 minutes. Free, no signup.">
+    <meta name="twitter:creator" content="@WeiYipei">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Growth Strategy Diagnostic",
+        "description": "Free 2-minute startup growth diagnostic. Identifies your biggest growth bottleneck and provides personalized playbook recommendations based on product type, stage, and channel fit.",
+        "url": "https://gingiris.tools/tools/growth-diagnostic",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "42" },
+        "author": { "@type": "Organization", "name": "Gingiris", "url": "https://gingiris.tools/" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "What is the Gingiris Growth Diagnostic?", "acceptedAnswer": {"@type": "Answer", "text": "A free 2-minute interactive assessment that identifies your startup's primary growth bottleneck — whether it's awareness, acquisition, activation, retention, monetization, or referral — and provides personalized playbook recommendations based on your product type, growth stage, and budget."}},
+            {"@type": "Question", "name": "How does the growth diagnostic work?", "acceptedAnswer": {"@type": "Answer", "text": "Answer 6 questions about your product (type, stage, key metric, funnel bottleneck, channels tried, budget). The diagnostic engine scores your growth readiness, identifies your primary bottleneck, and recommends specific Gingiris AI playbooks you can install into Claude Code or Cursor for step-by-step execution."}},
+            {"@type": "Question", "name": "Is the growth diagnostic free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, 100% free. No signup, no email required. Get your full growth diagnosis and playbook recommendations instantly."}},
+            {"@type": "Question", "name": "What growth strategies does it recommend?", "acceptedAnswer": {"@type": "Answer", "text": "Based on your answers, it recommends from 40+ battle-tested playbooks covering Product Hunt launches, open source marketing, B2B SaaS growth, ASO, KOL outreach, SEO/GEO, community building, and more. Each playbook is installable as an AI agent skill."}},
+            {"@type": "Question", "name": "Who created this growth diagnostic?", "acceptedAnswer": {"@type": "Answer", "text": "Built by Iris Wei (生姜iris), former COO of AFFiNE (60K+ GitHub stars), Forbes Asia 30 Under 30, who has coached 30+ Product Hunt #1 launches including Manus, Devin, and AFFiNE. The diagnostic logic is based on her Growth Finder framework."}}
+        ]
+    }
+    </script>
+    
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+        --bg: #f8f7f4; --surface: #ffffff; --surface-hover: #f3f2ef;
+        --border: #e8e6e1; --border-hover: #c8c5be;
+        --text: #1a1a1a; --text-secondary: #6b6860; --text-muted: #9b9890;
+        --accent: #E8590C; --accent-hover: #C2410C;
+        --accent-light: #FFF7ED; --accent-mid: #FB923C;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.06); --shadow-md: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    [data-theme="dark"] {
+        --bg: #0f172a; --surface: #1e293b; --surface-hover: #334155;
+        --border: #334155; --border-hover: #475569;
+        --text: #f8fafc; --text-secondary: #94a3b8; --text-muted: #64748b;
+        --accent-light: rgba(232,89,12,0.1);
+        --shadow-sm: 0 1px 3px rgba(0,0,0,0.3); --shadow-md: 0 4px 12px rgba(0,0,0,0.35);
+    }
+    body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); }
+
+    .header { background: rgba(248,247,244,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 24px; height: 56px; position: sticky; top: 0; z-index: 100; }
+    [data-theme="dark"] .header { background: rgba(15,23,42,0.92); }
+    .header-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; gap: 16px; height: 100%; }
+    .logo { display: flex; align-items: center; gap: 8px; text-decoration: none; flex-shrink: 0; }
+    .logo-img { height: 24px; width: auto; }
+    .logo-divider { width: 1px; height: 14px; background: var(--border-hover); }
+    .logo-sub { font-size: 13px; font-weight: 600; color: var(--text-secondary); }
+    .breadcrumb { font-size: 13px; color: var(--text-secondary); flex: 1; }
+    .breadcrumb a { color: var(--text-secondary); }
+    .breadcrumb a:hover { color: var(--text); }
+    .breadcrumb span { margin: 0 5px; color: var(--text-muted); }
+    .theme-toggle { width: 32px; height: 32px; border-radius: 7px; border: 1px solid var(--border); background: transparent; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 15px; }
+    .theme-toggle:hover { background: var(--surface-hover); }
+
+    .container { max-width: 800px; margin: 0 auto; padding: 48px 24px; }
+    .hero { text-align: center; margin-bottom: 48px; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-light); border: 1px solid rgba(232,89,12,0.25); color: var(--accent); padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 500; margin-bottom: 20px; }
+    .hero h1 { font-size: 36px; font-weight: 800; margin-bottom: 16px; letter-spacing: -0.5px; line-height: 1.2; }
+    .hero p { font-size: 18px; color: var(--text-secondary); max-width: 560px; margin: 0 auto; }
+
+    .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 48px; }
+    .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-align: center; }
+    .stat-num { font-size: 28px; font-weight: 800; color: var(--accent); }
+    .stat-label { font-size: 13px; color: var(--text-secondary); margin-top: 4px; }
+
+    /* Diagnostic UI */
+    .diag-wrap { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 32px; box-shadow: var(--shadow-md); }
+    .progress-bar { height: 6px; background: var(--border); border-radius: 3px; margin-bottom: 32px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--accent); border-radius: 3px; transition: width 0.4s ease; }
+    .step-info { display: flex; justify-content: space-between; font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+    .q-title { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .q-desc { color: var(--text-secondary); margin-bottom: 24px; font-size: 15px; }
+    .options { display: grid; gap: 10px; }
+    .options.cols-2 { grid-template-columns: repeat(2, 1fr); }
+    @media (max-width: 600px) { .options.cols-2 { grid-template-columns: 1fr; } }
+    .opt-btn { display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg); cursor: pointer; transition: all 0.15s; text-align: left; }
+    .opt-btn:hover { border-color: var(--accent); background: var(--accent-light); transform: translateY(-1px); }
+    .opt-btn.selected { border-color: var(--accent); background: var(--accent-light); box-shadow: 0 0 0 2px rgba(232,89,12,0.15); }
+    .opt-icon { font-size: 24px; flex-shrink: 0; }
+    .opt-label { font-weight: 600; font-size: 14px; }
+    .opt-desc { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+    .nav-row { display: flex; justify-content: space-between; margin-top: 24px; }
+    .btn { padding: 10px 22px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
+    .btn-back { background: transparent; color: var(--text-secondary); }
+    .btn-back:hover { color: var(--text); }
+    .btn-continue { background: var(--accent); color: #fff; }
+    .btn-continue:hover { background: var(--accent-hover); }
+    .btn-start { background: var(--accent); color: #fff; padding: 14px 32px; font-size: 16px; border-radius: 10px; border: none; cursor: pointer; font-weight: 700; transition: all 0.15s; }
+    .btn-start:hover { background: var(--accent-hover); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(232,89,12,0.25); }
+
+    /* Results */
+    .result-header { text-align: center; margin-bottom: 32px; }
+    .score-wrap { display: flex; justify-content: center; margin: 24px 0; }
+    .score-ring-svg { width: 140px; height: 140px; }
+    .score-ring-bg { fill: none; stroke: var(--border); stroke-width: 12; }
+    .score-ring-fill { fill: none; stroke-width: 12; stroke-linecap: round; transition: stroke-dashoffset 1.5s ease; }
+    .score-value { font-size: 32px; font-weight: 800; fill: var(--text); }
+    .score-label { font-size: 12px; fill: var(--text-muted); }
+    .severity-badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; margin-top: 8px; }
+    .severity-critical { background: rgba(239,68,68,0.1); color: #ef4444; border: 1px solid rgba(239,68,68,0.3); }
+    .severity-risk { background: rgba(234,179,8,0.1); color: #eab308; border: 1px solid rgba(234,179,8,0.3); }
+    .severity-healthy { background: rgba(34,197,94,0.1); color: #22c55e; border: 1px solid rgba(34,197,94,0.3); }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 16px 0; }
+    .tag { padding: 4px 12px; border-radius: 20px; font-size: 12px; background: var(--surface-hover); border: 1px solid var(--border); color: var(--text-secondary); }
+    .tag-red { background: rgba(239,68,68,0.08); border-color: rgba(239,68,68,0.25); color: #ef4444; }
+
+    .diagnosis-box { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin: 24px 0; }
+    .diagnosis-box h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
+    .diagnosis-box p { color: var(--text-secondary); font-size: 14px; line-height: 1.7; }
+    .channel-rec { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); font-size: 13px; }
+    .channel-rec span { color: var(--accent); font-weight: 600; }
+
+    .action-section { margin-top: 32px; }
+    .action-section h2 { font-size: 20px; font-weight: 700; margin-bottom: 16px; }
+    .action-card { background: var(--bg); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 12px; }
+    .action-num { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent-light); color: var(--accent); font-weight: 700; font-size: 13px; margin-right: 12px; border: 1px solid rgba(232,89,12,0.2); }
+    .action-title { font-weight: 600; font-size: 15px; display: inline; }
+    .action-desc { color: var(--text-secondary); font-size: 14px; margin: 8px 0; }
+    .action-remedy { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+
+    .skills-section { margin-top: 32px; }
+    .skills-section h2 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+    .skills-section .desc { color: var(--text-secondary); font-size: 14px; margin-bottom: 16px; }
+    .code-block { background: #1e293b; border-radius: 10px; padding: 16px 20px; overflow-x: auto; }
+    [data-theme="dark"] .code-block { background: #0f172a; border: 1px solid var(--border); }
+    .code-block pre { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 13px; color: #a5f3fc; white-space: pre; line-height: 1.8; }
+    .code-note { font-size: 12px; color: var(--text-muted); margin-top: 10px; }
+
+    .cta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 32px; }
+    @media (max-width: 600px) { .cta-grid { grid-template-columns: 1fr; } }
+    .cta-card { border-radius: 14px; padding: 28px; text-align: center; }
+    .cta-primary { background: var(--accent-light); border: 1px solid rgba(232,89,12,0.25); }
+    .cta-secondary { background: var(--surface-hover); border: 1px solid var(--border); }
+    .cta-card h3 { font-size: 17px; font-weight: 700; margin: 12px 0 8px; }
+    .cta-card p { font-size: 13px; color: var(--text-secondary); margin-bottom: 16px; }
+    .cta-btn { display: inline-block; padding: 10px 22px; border-radius: 8px; font-size: 14px; font-weight: 600; text-decoration: none; transition: all 0.15s; }
+    .cta-btn-primary { background: var(--accent); color: #fff; }
+    .cta-btn-primary:hover { background: var(--accent-hover); color: #fff; }
+    .cta-btn-secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+    .cta-btn-secondary:hover { border-color: var(--accent); }
+
+    .restart-link { text-align: center; margin-top: 24px; }
+    .restart-link button { background: none; border: none; color: var(--text-muted); font-size: 13px; cursor: pointer; }
+    .restart-link button:hover { color: var(--text); }
+
+    .footer { text-align: center; font-size: 13px; color: var(--text-muted); border-top: 1px solid var(--border); padding: 24px; margin-top: 48px; }
+    .footer a { color: var(--text-secondary); }
+    .footer a:hover { color: var(--accent); }
+
+    /* Features grid */
+    .features { margin-top: 48px; }
+    .features h2 { font-size: 22px; font-weight: 700; text-align: center; margin-bottom: 24px; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+    .feat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .feat-card:hover { border-color: var(--accent); }
+    .feat-icon { font-size: 24px; margin-bottom: 10px; }
+    .feat-card h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+    .feat-card p { font-size: 13px; color: var(--text-secondary); }
+
+    .hidden { display: none !important; }
+    .card-enter { animation: cardIn 0.35s ease; }
+    @keyframes cardIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="https://gingiris.tools/" class="logo">
+      <img src="https://gingiris.com/brand/logo-primary.webp" alt="Gingiris" class="logo-img">
+      <div class="logo-divider"></div>
+      <span class="logo-sub">Growth Diagnostic</span>
+    </a>
+    <div class="breadcrumb">
+      <a href="https://gingiris.tools/">Tools</a><span>/</span>Growth Diagnostic
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<div class="container">
+
+<!-- Landing -->
+<div id="landing">
+  <div class="hero">
+    <div class="hero-badge">⚡ Free · 2 minutes · No signup</div>
+    <h1>What's Blocking Your Growth?</h1>
+    <p>Answer 6 questions. Get a personalized growth strategy diagnosis with actionable playbook recommendations.</p>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-num">30x</div><div class="stat-label">PH #1 Wins</div></div>
+    <div class="stat-card"><div class="stat-num">60K+</div><div class="stat-label">GitHub Stars</div></div>
+    <div class="stat-card"><div class="stat-num">40+</div><div class="stat-label">AI Playbooks</div></div>
+  </div>
+
+  <div style="text-align:center;margin-bottom:48px">
+    <button class="btn-start" onclick="startDiag()">Start Free Diagnostic →</button>
+  </div>
+
+  <div class="features">
+    <h2>How It Works</h2>
+    <div class="features-grid">
+      <div class="feat-card"><div class="feat-icon">🎯</div><h3>Diagnose Bottlenecks</h3><p>Identify exactly where your growth funnel leaks — awareness, activation, retention, or monetization.</p></div>
+      <div class="feat-card"><div class="feat-icon">📋</div><h3>Get Action Plan</h3><p>Receive a 3-step action plan tailored to your product type, stage, and budget.</p></div>
+      <div class="feat-card"><div class="feat-icon">🤖</div><h3>Install Playbooks</h3><p>One-command install battle-tested AI playbooks into Claude Code or Cursor.</p></div>
+      <div class="feat-card"><div class="feat-icon">🚀</div><h3>Execute & Grow</h3><p>Follow the playbook step by step. Each one is based on real wins, not theory.</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- Diagnostic -->
+<div id="diagnostic" class="hidden">
+  <div class="diag-wrap">
+    <div class="step-info"><span id="step-label">Step 1 of 6</span><span id="step-pct">17%</span></div>
+    <div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width:17%"></div></div>
+    <div id="q-card" class="card-enter">
+      <div class="q-title" id="q-title"></div>
+      <div class="q-desc" id="q-desc"></div>
+      <div class="options" id="q-options"></div>
+    </div>
+    <div class="nav-row">
+      <button id="btn-back" class="btn btn-back hidden" onclick="prevStep()">← Back</button>
+      <div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Results -->
+<div id="results" class="hidden"></div>
+
+</div>
+
+<script>
+const questions=[{id:'product_type',title:'What type of product are you building?',desc:'This determines which growth channels work best.',options:[{value:'saas',label:'B2B SaaS',icon:'💼',desc:'Web app sold to businesses'},{value:'oss',label:'Open Source',icon:'⭐',desc:'OSS with commercial layer'},{value:'ai',label:'AI Product',icon:'🤖',desc:'AI-powered tool or platform'},{value:'mobile',label:'Mobile App',icon:'📱',desc:'iOS/Android app'},{value:'devtool',label:'Developer Tool',icon:'⚡',desc:'CLI, SDK, API, IDE extension'},{value:'consumer',label:'Consumer Web',icon:'🌐',desc:'B2C web or marketplace'}]},{id:'stage',title:'What stage is your product at?',desc:'Growth tactics differ dramatically by stage.',options:[{value:'pre_launch',label:'Pre-launch',icon:'🥚',desc:'Building, no public users'},{value:'launch',label:'Launch Phase',icon:'🚀',desc:'About to launch or <30 days'},{value:'cold_start',label:'Cold Start',icon:'🧊',desc:'Launched but <100 WAU'},{value:'growth',label:'Growing',icon:'📈',desc:'Steady growth, optimizing'},{value:'scale',label:'Scaling',icon:'🏔️',desc:'$1M+ ARR or 10K+ DAU'}]},{id:'metric',title:"What's your primary growth metric?",desc:'The one number you check every morning.',options:[{value:'signups',label:'New Signups',icon:'📊',desc:'Daily/total registrations'},{value:'revenue',label:'Revenue / MRR',icon:'💰',desc:'Monthly recurring revenue'},{value:'stars',label:'GitHub Stars',icon:'⭐',desc:'Community & visibility'},{value:'dau',label:'DAU / MAU',icon:'👥',desc:'Active users'},{value:'downloads',label:'App Downloads',icon:'📲',desc:'Store installs'},{value:'none',label:'Not sure yet',icon:'🤷',desc:"Haven't defined it"}]},{id:'bottleneck',title:'Where does your funnel break?',desc:'Where users drop off or where you feel the most pain.',options:[{value:'awareness',label:'Awareness',icon:'👀',desc:"People don't know we exist"},{value:'acquisition',label:'Acquisition',icon:'🎣',desc:'Traffic but low signups'},{value:'activation',label:'Activation',icon:'⚡',desc:"Signups don't reach aha moment"},{value:'retention',label:'Retention',icon:'🔄',desc:"Users don't come back"},{value:'monetization',label:'Monetization',icon:'💸',desc:"Users love it but won't pay"},{value:'referral',label:'Referral',icon:'📣',desc:'No word-of-mouth'}]},{id:'channels',title:'Which channels have you tried?',desc:'Select all that apply.',multi:true,options:[{value:'seo',label:'SEO / Content',icon:'🔍'},{value:'social',label:'Social Media',icon:'🐦'},{value:'ph',label:'Product Hunt',icon:'🏆'},{value:'community',label:'Community / Reddit',icon:'💬'},{value:'paid',label:'Paid Ads',icon:'📢'},{value:'kol',label:'KOL / Influencers',icon:'🤝'},{value:'email',label:'Email',icon:'📧'},{value:'none',label:'None yet',icon:'❌'}]},{id:'budget',title:"What's your growth budget?",desc:'Helps prioritize organic vs paid channels.',options:[{value:'zero',label:'$0 — Bootstrap',icon:'🌱',desc:'Pure organic, sweat equity'},{value:'low',label:'<$1K/month',icon:'💵',desc:'Minimal budget'},{value:'mid',label:'$1K–$10K/month',icon:'💰',desc:'Can invest in select channels'},{value:'high',label:'$10K+/month',icon:'🏦',desc:'Serious budget'}]}];
+
+let step=0,answers={},multi={};
+
+function startDiag(){document.getElementById('landing').classList.add('hidden');document.getElementById('diagnostic').classList.remove('hidden');render();}
+
+function render(){
+  const q=questions[step],pct=Math.round((step+1)/questions.length*100);
+  document.getElementById('step-label').textContent=`Step ${step+1} of ${questions.length}`;
+  document.getElementById('step-pct').textContent=pct+'%';
+  document.getElementById('progress-fill').style.width=pct+'%';
+  document.getElementById('q-title').textContent=q.title;
+  document.getElementById('q-desc').textContent=q.desc;
+  const card=document.getElementById('q-card');card.classList.remove('card-enter');void card.offsetWidth;card.classList.add('card-enter');
+  const od=document.getElementById('q-options');
+  od.className='options'+(q.options.length>4?' cols-2':'');
+  if(q.multi){
+    if(!multi[q.id])multi[q.id]=[];
+    od.innerHTML=q.options.map(o=>{const s=multi[q.id].includes(o.value);return`<button class="opt-btn${s?' selected':''}" onclick="toggleM('${q.id}','${o.value}')"><span class="opt-icon">${o.icon}</span><div><div class="opt-label">${o.label}</div>${o.desc?`<div class="opt-desc">${o.desc}</div>`:''}</div>${s?'<span style="margin-left:auto;color:var(--accent)">✓</span>':''}</button>`}).join('')+'<button class="btn btn-continue" style="margin-top:16px;width:100%" onclick="nextM(\''+q.id+'\')">Continue →</button>';
+  } else {
+    od.innerHTML=q.options.map(o=>`<button class="opt-btn" onclick="pick('${q.id}','${o.value}')"><span class="opt-icon">${o.icon}</span><div><div class="opt-label">${o.label}</div>${o.desc?`<div class="opt-desc">${o.desc}</div>`:''}</div></button>`).join('');
+  }
+  document.getElementById('btn-back').classList.toggle('hidden',step===0);
+}
+
+function pick(id,val){answers[id]=val;if(step<questions.length-1){step++;render();}else showResults();}
+function toggleM(id,val){if(!multi[id])multi[id]=[];if(val==='none'){multi[id]=['none'];}else{multi[id]=multi[id].filter(v=>v!=='none');const i=multi[id].indexOf(val);if(i>-1)multi[id].splice(i,1);else multi[id].push(val);}render();}
+function nextM(id){answers[id]=multi[id].length?multi[id]:['none'];if(step<questions.length-1){step++;render();}else showResults();}
+function prevStep(){if(step>0){step--;render();}}
+
+function diagnose(a){
+  let scores={launch:0,seo:0,community:0,paid:0,product:0,retention:0};
+  let skills=[],actions=[],overallScore=0,diagnosis='',severity='';
+  const typeMap={saas:{skills:['gingiris-b2b-growth','saas-growth-playbook'],boost:'seo'},oss:{skills:['gingiris-opensource','gingiris-github-star-growth'],boost:'community'},ai:{skills:['ai-launch-playbook','gingiris-launch'],boost:'launch'},mobile:{skills:['gingiris-aso-growth','aso-playbook'],boost:'paid'},devtool:{skills:['gingiris-opensource','developer-marketing-playbook'],boost:'community'},consumer:{skills:['viral-marketing-playbook','growth-hacking'],boost:'paid'}};
+  const ti=typeMap[a.product_type]||typeMap.saas;skills.push(...ti.skills);scores[ti.boost]+=20;
+  const stageMap={pre_launch:{add:['gingiris-launch','go-to-market-playbook'],diagnosis:'You\'re in build mode. The #1 mistake is building without validating distribution channels first.',boost:'launch',score:35},launch:{add:['gingiris-launch','product-hunt-playbook'],diagnosis:'Launch is a multiplier, not a strategy. You need a coordinated multi-channel push within a 48-hour window.',boost:'launch',score:50},cold_start:{add:['startup-growth-playbook','community-building-playbook'],diagnosis:'You launched but didn\'t stick. Most startups die here from premature scaling or channel-hopping.',boost:'community',score:40},growth:{add:['growth-hacking','plg-playbook'],diagnosis:'You have signal. Systematize what works and kill what doesn\'t. Focus beats breadth at this stage.',boost:'seo',score:65},scale:{add:['b2b-marketing-playbook','saas-marketing-playbook'],diagnosis:'At scale, marginal gains compound. Your job is building infrastructure, not running experiments.',boost:'paid',score:75}};
+  const si=stageMap[a.stage]||stageMap.cold_start;skills.push(...si.add);scores[si.boost]+=15;diagnosis=si.diagnosis;overallScore=si.score;
+  const bnMap={awareness:{action:'Nobody knows you exist. Fix distribution before product.',skills:['gingiris-seo-geo-agent','gingiris-reddit-marketing'],remedy:'Build a content engine: 1 pillar page + 4 cluster posts. Distribute on Reddit, HN, dev.to. First organic traffic in 3-4 weeks.',score:-10},acquisition:{action:'You have eyeballs but no conversions. Landing page or promise is broken.',skills:['gingiris-user-interview','startup-growth-playbook'],remedy:'Run 5 user interviews. Watch session recordings. Your copy probably promises something different from what users experience.',score:-5},activation:{action:'Users sign up and ghost. Time-to-value is too long or aha moment is buried.',skills:['gingiris-user-interview','plg-playbook'],remedy:'Map signup → first value. If >3 minutes, redesign. Add progress indicators and celebrate micro-wins.',score:-15},retention:{action:'Users try it but don\'t return. Either not solving a recurring need or no re-engagement.',skills:['plg-playbook','growth-hacking'],remedy:'Add weekly email digest. Implement streaks. But first verify you\'re solving a recurring problem, not a one-time task.',score:-20},monetization:{action:'Users love it but won\'t pay. Price anchoring is off or free tier too generous.',skills:['gingiris-b2b-growth','saas-growth-playbook'],remedy:'Try value-based pricing. Gate the feature they can\'t live without. Consider usage limits instead of feature limits.',score:-5},referral:{action:'No organic word-of-mouth. Product lacks a natural sharing moment.',skills:['viral-marketing-playbook','gingiris-ugc-matrix'],remedy:'Identify the show-off moment. Make sharing 1-click. Add social proof. Consider referral incentives.',score:0}};
+  const bi=bnMap[a.bottleneck]||bnMap.awareness;skills.push(...bi.skills);overallScore+=bi.score;
+  actions.push({title:'Fix Your Bottleneck',desc:bi.action,remedy:bi.remedy});
+  const tried=Array.isArray(a.channels)?a.channels:[a.channels];const allCh=['seo','social','ph','community','paid','kol','email'];const missed=allCh.filter(c=>!tried.includes(c));
+  if(tried.includes('none')||tried.length===0){actions.push({title:'Pick One Channel & Go Deep',desc:'You haven\'t tried any channels. Pick ONE and commit for 30 days.',remedy:a.product_type==='oss'?'For OSS: Start with Show HN + Reddit. Write a compelling post, engage 24h, cross-post to relevant subreddits.':a.product_type==='mobile'?'For mobile: Start with ASO. Optimize keywords, screenshots, subtitle. Compounding starts here.':'For SaaS/AI: Start with Product Hunt. Forces positioning clarity and gives a traffic spike to test conversion.'});overallScore-=10;}else if(tried.length<=2){const rec=missed.slice(0,2);actions.push({title:'Diversify Channels',desc:`Only ${tried.length} channel(s) tried. High single-channel dependency is risky.`,remedy:`Add: ${rec.map(c=>({seo:'SEO/Content',social:'Social',ph:'Product Hunt',community:'Community',paid:'Paid Ads',kol:'KOL',email:'Email'}[c])).join(' and ')}. Start with the one closest to your audience.`});}
+  if(a.budget==='zero'){actions.push({title:'Maximize Organic Leverage',desc:'$0 budget means your time IS the budget. High-leverage organic only.',remedy:'Priority: (1) Community content on Reddit/HN, (2) SEO pillar content, (3) Product Hunt launch. All free, all compounding.'});skills.push('startup-marketing-playbook');}else if(a.budget==='high'){actions.push({title:'Paid + Organic Flywheel',desc:'Use paid to validate messaging fast, then scale organic with winning angles.',remedy:'Run $500 tests on 3 channels. Within 2 weeks you\'ll know CAC per channel. Double down on winner, kill rest.'});}
+  overallScore=Math.max(15,Math.min(85,overallScore+(tried.length*3)));
+  if(overallScore>=65)severity='Healthy — Optimize';else if(overallScore>=45)severity='At Risk — Act Now';else severity='Critical — Urgent Fix Needed';
+  skills=[...new Set(skills)].slice(0,6);
+  const topCh=Object.entries(scores).sort((a,b)=>b[1]-a[1])[0][0];
+  const chNames={launch:'Launch Strategy',seo:'SEO & Content',community:'Community & OSS',paid:'Paid Acquisition',product:'Product-Led Growth',retention:'Retention'};
+  return{overallScore,severity,diagnosis,primaryChannel:chNames[topCh],actions,skills,productType:a.product_type,stage:a.stage,bottleneck:a.bottleneck};
+}
+
+function showResults(){
+  document.getElementById('diagnostic').classList.add('hidden');
+  const r=document.getElementById('results');r.classList.remove('hidden');
+  const d=diagnose(answers);
+  const dashOff=283-(283*d.overallScore/100);
+  const col=d.overallScore>=65?'#22c55e':d.overallScore>=45?'#eab308':'#ef4444';
+  const sevClass=d.overallScore>=65?'severity-healthy':d.overallScore>=45?'severity-risk':'severity-critical';
+  const typeL={saas:'B2B SaaS',oss:'Open Source',ai:'AI Product',mobile:'Mobile App',devtool:'Dev Tool',consumer:'Consumer Web'};
+  const stageL={pre_launch:'Pre-launch',launch:'Launch',cold_start:'Cold Start',growth:'Growth',scale:'Scale'};
+  const bnL={awareness:'Awareness',acquisition:'Acquisition',activation:'Activation',retention:'Retention',monetization:'Monetization',referral:'Referral'};
+  const installs=d.skills.map(s=>`npx skills add Gingiris-1031/${s}`).join('\n');
+  r.innerHTML=`<div class="card-enter">
+    <div class="result-header"><h1 style="font-size:28px;font-weight:800;margin-bottom:8px">Your Growth Diagnosis</h1><p style="color:var(--text-secondary)">Here's what's blocking your growth — and how to fix it.</p></div>
+    <div class="score-wrap"><svg class="score-ring-svg" viewBox="0 0 120 120"><circle cx="60" cy="60" r="45" class="score-ring-bg"/><circle cx="60" cy="60" r="45" class="score-ring-fill" stroke="${col}" stroke-dasharray="283" stroke-dashoffset="${dashOff}" transform="rotate(-90 60 60)"/><text x="60" y="56" text-anchor="middle" class="score-value">${d.overallScore}</text><text x="60" y="74" text-anchor="middle" class="score-label">/ 100</text></svg></div>
+    <div style="text-align:center"><span class="severity-badge ${sevClass}">${d.severity}</span></div>
+    <div class="tags"><span class="tag">${typeL[d.productType]}</span><span class="tag">${stageL[d.stage]}</span><span class="tag tag-red">Bottleneck: ${bnL[d.bottleneck]}</span></div>
+    <div class="diagnosis-box"><h3>Diagnosis</h3><p>${d.diagnosis}</p><div class="channel-rec">Recommended focus: <span>${d.primaryChannel}</span></div></div>
+    <div class="action-section"><h2>🎯 Your Action Plan</h2>${d.actions.map((a,i)=>`<div class="action-card"><span class="action-num">${i+1}</span><span class="action-title">${a.title}</span><p class="action-desc">${a.desc}</p><div class="action-remedy">💡 <strong>How:</strong> ${a.remedy}</div></div>`).join('')}</div>
+    <div class="skills-section"><h2>🤖 Recommended AI Playbooks</h2><p class="desc">Install into Claude Code, Cursor, or any AI agent:</p><div class="code-block"><pre>${installs}</pre></div><p class="code-note">MIT-0 licensed · Free · No signup · <a href="https://gingiris.tools/skills/">Browse all 40+ skills →</a></p></div>
+    <div class="cta-grid"><div class="cta-card cta-primary"><div style="font-size:32px">🫚</div><h3>Want Expert Help?</h3><p>1:1 growth strategy with Iris — former AFFiNE COO, 30x PH #1, Forbes 30U30.</p><a href="https://gingiris.com" target="_blank" class="cta-btn cta-btn-primary">Book Advisory →</a></div><div class="cta-card cta-secondary"><div style="font-size:32px">🔧</div><h3>Browse Growth Tools</h3><p>100+ curated tools for social listening, KOL, Reddit, SEO & more.</p><a href="https://gingiris.tools" target="_blank" class="cta-btn cta-btn-secondary">Explore Tools →</a></div></div>
+    <div class="restart-link"><button onclick="restart()">↻ Retake with different answers</button></div>
+    <div class="footer">Built by <a href="https://gingiris.com">Iris (生姜iris)</a> · <a href="https://gingiris.tools">gingiris.tools</a> · <a href="https://gingiris.tools/skills/">Skills</a></div>
+  </div>`;
+}
+
+function restart(){step=0;answers={};multi={};document.getElementById('results').classList.add('hidden');document.getElementById('results').innerHTML='';document.getElementById('landing').classList.remove('hidden');}
+function toggleTheme(){const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;document.querySelector('.theme-toggle').textContent=t==='dark'?'☀️':'🌙';localStorage.setItem('theme',t);}
+(function(){const t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.dataset.theme=t;document.querySelector('.theme-toggle').textContent=t==='dark'?'☀️':'🌙';})();
+</script>
+</body>
+</html>
