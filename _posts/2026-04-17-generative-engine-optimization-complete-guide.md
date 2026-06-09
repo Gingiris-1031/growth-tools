@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Generative Engine Optimization for Indie Founders: How to Get Cited by ChatGPT, Claude & Perplexity in 2026"
-description: "GEO three-piece set (llms.txt + FAQ Schema + Citable Statistics) to get cited by AI search engines. 21-45 day median lag, indie-founder budget."
+title: "GEO Guide: Get Cited by ChatGPT, Claude & Perplexity [2026]"
+description: "3-piece GEO stack (llms.txt + FAQ schema + citable stats). 21-45 day median lag to AI citation. Real results, indie-founder budget, step-by-step implementation."
 date: 2026-04-17
 author: Iris
 tags: [geo, generative-engine-optimization, ai-seo, seo, content-marketing, chatgpt-seo, perplexity-seo]
@@ -83,6 +83,8 @@ AI search has crossed a critical threshold. ChatGPT Search, Perplexity, and Goog
 The implication: if you're not optimized for AI citation, you're invisible to a growing segment of your audience — especially in decision-making queries like "best [tool] for [use case]" and "how to [achieve outcome]."
 
 The good news: GEO is learnable. AI systems have consistent citation preferences. Structure your content correctly, and you can reliably increase your citation rate.
+
+> Before restructuring your content for AI citation, get a baseline on how your [top competitors are positioned](https://www.analook.com/?utm_source=cross&utm_medium=organic&utm_campaign=ecosystem). A 60-second teardown shows traffic patterns, keyword strategy, and content gaps to exploit in your GEO stack.
 
 ---
 

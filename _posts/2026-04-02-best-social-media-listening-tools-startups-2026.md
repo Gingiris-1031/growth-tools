@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Best Social Listening Tools for Startups (Under $100/mo, 2026)"
-description: "27-tool audit for startups: pricing, free-tier limits, multilingual support. Why startups under 1,500 mentions/mo should stay free — and when $79/mo pays off."
+title: "27 Social Listening Tools Compared (Free → $100/mo) [2026]"
+description: "Brand24, Mention, Toolify tested: pricing, free tiers, multilingual support. Find your tier—startups under 1,500 mentions/mo stay free, when $79/mo pays off."
 date: 2026-04-02
 author: Iris
 tags: [social-listening, tools, startup, marketing, analytics]
@@ -106,7 +106,7 @@ Social media listening tracks mentions of your brand, competitors, and industry 
 3. **Set up daily alerts** — configure email digests or Slack notifications so you see relevant mentions within 24 hours.
 4. **Respond and engage** — reply to mentions where your product is genuinely relevant. This is direct lead generation, not brand management.
 5. **Track competitor sentiment weekly** — look for patterns in negative competitor mentions. These are the use cases your positioning should highlight.
-6. **Pair listening with structured competitor teardowns** — social listening surfaces the *signal*, but you still need a snapshot of competitors' pricing, positioning, and SEO to act on it. [Analook](https://www.analook.com/) builds a free side-by-side teardown (Wayback history + traffic + keyword overlap) in under 60 seconds.
+6. **Pair listening with structured competitor teardowns** — social listening surfaces the *signal*, but you still need a snapshot of competitors' pricing, positioning, and SEO to act on it. [Analook](https://www.analook.com/?utm_source=cross&utm_medium=organic&utm_campaign=ecosystem) builds a free side-by-side teardown (Wayback history + traffic + keyword overlap) in under 60 seconds.
 
 ---
 

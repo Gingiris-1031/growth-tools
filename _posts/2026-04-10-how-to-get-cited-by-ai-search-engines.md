@@ -1,6 +1,6 @@
 ---
-title: "How to Get Cited by ChatGPT, Claude & Perplexity in 2026 (GEO for AI Search)"
-description: "The 3-piece GEO stack (llms.txt + FAQ Schema + Citable Stats) to get cited by AI search engines. 21-45 day median lag, with real before-after examples."
+title: "Get Cited by AI Search: ChatGPT, Claude, Perplexity [2026]"
+description: "FAQ schema, QAE structure, E-E-A-T signals, named authors. 3-piece GEO stack proven with before/after examples. Implementation checklist included."
 date: 2026-04-10
 tags: [ai-seo, perplexity-seo, chatgpt-seo, geo, content-marketing]
 canonical_url: https://gingiris.tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
@@ -239,6 +239,8 @@ Allow: /
 ## Related Tools
 
 Need help implementing this? These free tools from Gingiris can help:
+
+- **[Analook Competitor Analysis](https://www.analook.com/?utm_source=cross&utm_medium=organic&utm_campaign=ecosystem)** → Free 60-second competitor teardown — see how rivals structure content for AI citation before you optimize yours
 
 - **[Perplexity SEO Guide](/)** → How to get cited by Perplexity specifically
 - **[ChatGPT SEO Guide](/)** → E-E-A-T optimization for ChatGPT Search  
