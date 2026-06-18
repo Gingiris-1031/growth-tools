@@ -496,3 +496,13 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 *If this playbook saved you a missed launch slot, a ⭐ on the [gingiris-launch](https://gingiris.tools/skills/) repo is the highest compliment — and it helps the next maker find it via Google + AI search.*
 
+
+
+---
+
+### Related growth guides
+
+- [Best Competitor Analysis Tools 2026](/blog/2026/05/27/best-competitor-analysis-tools-2026/)
+- [Product-Market Fit Checklist](/blog/2026/04/03/product-market-fit-checklist/)
+- [How to Find Beta Users for Your SaaS](/blog/2026/04/03/how-to-find-beta-users-for-your-saas/)
+- [B2B SaaS Growth: PLG vs SLG in 2026](/blog/2026/04/11/b2b-saas-growth-strategy-plg-vs-slg-2026/)
