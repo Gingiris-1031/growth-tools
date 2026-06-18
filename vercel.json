@@ -2,6 +2,131 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/skills/ai-launch-playbook/",
+      "destination": "/skills/product-hunt-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/ai-product-launch/",
+      "destination": "/skills/product-hunt-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/ai-product-global-launch-playbook/",
+      "destination": "/skills/go-global/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/aso-playbook/",
+      "destination": "/skills/aso-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/b2b-marketing-playbook/",
+      "destination": "/skills/b2b-saas-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/community-building-playbook/",
+      "destination": "/skills/community-ambassador/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/developer-marketing-playbook/",
+      "destination": "/skills/open-source-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/devrel-playbook/",
+      "destination": "/skills/community-ambassador/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/github-stars-playbook/",
+      "destination": "/skills/github-star-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/go-to-market-playbook/",
+      "destination": "/skills/go-global/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/growth-hacking-playbook/",
+      "destination": "/skills/growth-finder/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/open-source-marketing-playbook/",
+      "destination": "/skills/open-source-marketing/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/plg-playbook/",
+      "destination": "/skills/b2b-saas-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/product-dev-ops-playbook/",
+      "destination": "/skills/growth-finder/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/product-hunt-launch-guide/",
+      "destination": "/skills/product-hunt-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/product-hunt-playbook/",
+      "destination": "/skills/product-hunt-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/saas-growth-playbook/",
+      "destination": "/skills/b2b-saas-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/saas-marketing-playbook/",
+      "destination": "/skills/b2b-saas-growth/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/startup-consultant/",
+      "destination": "/skills/growth-finder/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/startup-growth-playbook/",
+      "destination": "/skills/growth-finder/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/startup-launch/",
+      "destination": "/skills/product-hunt-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/startup-launch-playbook/",
+      "destination": "/skills/product-hunt-launch/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/startup-marketing-playbook/",
+      "destination": "/skills/growth-finder/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/viral-marketing-playbook/",
+      "destination": "/skills/ugc-matrix/",
+      "permanent": true
+    },
+    {
+      "source": "/skills/agent-workflow-playbook/",
+      "destination": "/skills/growth-finder/",
+      "permanent": true
+    },
+    {
       "source": "/blog/2026/03/15/aso-app-store-optimization-complete-2026-playbook/",
       "destination": "/blog/2026/04/12/app-store-optimization-guide/",
       "permanent": true

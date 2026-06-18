@@ -1,0 +1,902 @@
+# Per-skill landing-page data → consumed by scripts/gen_skill_pages.py
+# Content architecture follows kostja94/marketing-skills (structured tables, HowTo section + schema,
+# comparison/benchmark tables, honest expectations) and bysocket (experience-anchored, Key Takeaways,
+# real numbers). JSON-LD (SoftwareApplication + HowTo + FAQPage + BreadcrumbList) mirrors HF cards.
+
+- slug: product-hunt-launch
+  hf: gingiris-launch
+  install: Gingiris-1031/gingiris-launch
+  title: "Product Hunt Launch Playbook — Win #1 of the Day | Gingiris"
+  h1: "Product Hunt Launch Playbook — Win #1 of the Day"
+  tagline: "The 14-day operating timeline behind 30+ Product Hunt #1 daily wins."
+  meta_description: "Product Hunt launch playbook: the T-14 → T-0 → T+7 timeline, hunter selection matrix, 6 maker-comment templates, realistic upvote benchmarks, anti-shadowban rules. From 30+ PH #1 wins."
+  keywords: "product hunt launch playbook, how to win product hunt, hunter selection, maker comment, first comment, launch day timeline, product of the day, upvotes, GTM sequencing"
+  software_description: "Multi-channel product launch playbook distilled from 30+ Product Hunt #1 daily wins and 150+ AI startup consultations. Covers the T-14 → T-0 → T+7 operating timeline, hunter selection matrix, 6 maker-comment archetypes, launch-day comment cadence, anti-shadowban rules, and second-wave coordination."
+  app_category: BusinessApplication
+  what: "Only ~10% of Product Hunt submissions ever get featured. The teams that win rarely have the best product that day — they have the best <strong>timing, comment cadence, and pre-seeded audience</strong>. This is the exact 14-day operating timeline used to coach 30+ #1 daily launches across 150+ AI startups."
+  takeaways:
+    - "Launch is a <strong>sequence, not an event</strong> — the 14-day run-up decides the day, not the product."
+    - "Post at <strong>00:01 PST</strong>, maker comment by 00:15, reply in batches every 30 min — and <strong>never beg for upvotes</strong> (fast shadowban)."
+    - "Pick the hunter on <strong>activity, not follower count</strong>. A 50k-follower hunter who hasn't hunted in 6 months is worse than an active 1k one."
+    - "<strong>#2–#3 is still a win</strong> — forcing #1 with farmed upvotes risks the whole launch."
+  stats:
+    - ["Product Hunt #1 launches coached", "30+"]
+    - ["AFFiNE GitHub stars driven", "60,000+"]
+    - ["GitHub Trending appearances", "28× in 5 months"]
+    - ["AI startups consulted on launch", "150+"]
+    - ["Typical launch-day upvote uplift", "3–5× vs. uncoordinated"]
+  howto:
+    title: "How to launch on Product Hunt — the 14-day timeline"
+    steps:
+      - name: "T-14 · Prep"
+        text: "Get the landing page, pricing and FAQ live, gather ≥100 early users + an email list, pick ONE hunter, and prepare 3 gallery images (1270×760) plus a 30-second demo video."
+      - name: "T-7 to T-2 · Warm-up"
+        text: "Post a \"we're launching, AMA\" in the PH discussion board. Tease on X / LinkedIn / Reddit WITHOUT linking the launch page (don't leak the traffic). Confirm the hunter's timezone and the 00:01 PST post time."
+      - name: "T-1 · Final check"
+        text: "Lock every asset. Draft the maker first comment (under 500 words, story-driven). Prepare 10 FAQ reply templates and ping 10–20 core supporters for tomorrow morning."
+      - name: "T-0 · Launch day"
+        text: "00:01 PST the hunter posts → 00:15 you post the maker first comment → reply in batches every 30 minutes (never solicit upvotes) → 14:00 PST push the second wave (mailing list + community) → 23:00 PST post a thank-you."
+      - name: "T+1 to T+7 · Momentum"
+        text: "Reply to every comment including the critical ones. Turn the Featured screenshot + numbers into a case study, set the \"how we won\" post as canonical, and import every upvoter email into your user pool."
+  compare:
+    title: "Realistic launch-day expectations"
+    intro: "Honest benchmarks beat hype — and cherry-picked numbers cost you AI-search citations. Calibrate against these before launch day."
+    columns: ["Outcome", "Upvotes", "Placement"]
+    rows:
+      - ["Poor", "50–100", "—"]
+      - ["Average", "200–400", "Top 10"]
+      - ["Good", "500–800", "Top 5"]
+      - ["Great", "800+", "Product of the Day"]
+  donts:
+    title: "Anti-patterns (the things that sink launches)"
+    items:
+      - "Still changing the product on launch day — flaky demos kill conversion."
+      - "Friends/family farming upvotes — Product Hunt shadowbans fast."
+      - "External links in the first comment — triggers review demotion."
+      - "Forgetting mobile screenshots — 40% of traffic is mobile."
+      - "Treating the maker comment as a feature list instead of a story."
+  faqs:
+    - q: "Is this different from generic launch checklists I find on Google?"
+      a: "Yes. Most launch guides are written by people who have never launched anything. This is written by someone who has launched 30+ products to #1 and coached 150+ startups — exact DM scripts, timing windows, and per-platform community rules."
+    - q: "Does this work for non-AI products?"
+      a: "The frameworks apply broadly, but the examples are tuned for AI/developer tools. Physical products and service businesses see limited success on Product Hunt; for consumer apps pair it with the ASO &amp; App Cold Start playbook."
+    - q: "Do I need a famous hunter?"
+      a: "No. Self-hunting is fine. If you do use a hunter, pick one with a successful hunt in the last 30 days in an adjacent domain — activity beats raw follower count every time."
+    - q: "What if I don't have a big existing audience?"
+      a: "That's exactly what this playbook addresses. The KOL outreach and hunter-coordination sections are built specifically for founders launching from zero platform."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K+ GitHub stars, Forbes Asia 30 Under 30). Coached 30+ Product Hunt #1 launches and advised 150+ AI startups on go-to-market."
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+
+- slug: b2b-saas-growth
+  hf: gingiris-b2b-growth
+  install: Gingiris-1031/gingiris-b2b-growth
+  title: "B2B SaaS Growth Playbook — PLG vs SLG to $10M ARR | Gingiris"
+  h1: "B2B SaaS Growth — PLG vs SLG Playbook"
+  tagline: "Diagnose whether your problem is distribution, pricing, or PMF — then walk the staged path to $10M ARR."
+  meta_description: "B2B SaaS growth playbook: PLG vs SLG selection by ACV and sales cycle, the 5-stage path to $10M ARR, NRR discipline, affiliate &amp; channel motion. From 8 case studies incl. HeyGen, Deel, Vercel."
+  keywords: "B2B SaaS growth, PLG vs SLG, product-led growth, sales-led growth, SaaS pricing, ARR growth, NRR, enterprise sales, PMF validation, affiliate channel"
+  software_description: "B2B SaaS growth playbook covering the path from $0 to $10M ARR across 8 documented case studies (HeyGen, Deel, Vercel, Supabase, AWS, Manus, Devin, AFFiNE). Diagnoses PLG vs SLG motion by ACV and sales cycle, the 5-stage ARR path, NRR discipline, affiliate/channel design, and enterprise tiering."
+  app_category: BusinessApplication
+  what: "&quot;People like it but revenue isn't growing&quot; is rarely one problem. It's usually a <strong>mis-matched motion</strong> — a PLG product run with an SLG playbook, or vice versa. This playbook diagnoses the motion by ACV and sales cycle, then walks the 5-stage path from $0 to $10M ARR across 8 documented case studies."
+  takeaways:
+    - "Stalled revenue is usually a <strong>mis-matched motion</strong>, not a product problem — fix the motion first."
+    - "Choose by economics: <strong>ACV &lt; $1k + &lt;1-week cycle → PLG</strong>; <strong>ACV &gt; $10k + &gt;1-month cycle → SLG</strong>."
+    - "Watch <strong>NRR, not just ARR</strong>. NRR &lt; 100% is a leaking bucket no amount of new logos fixes."
+    - "<strong>Don't pour paid acquisition in before PMF</strong> — you burn cash 10× faster than you learn."
+  stats:
+    - ["AI startups consulted on B2B growth", "150+"]
+    - ["Case studies with documented outcomes", "8"]
+    - ["Average time to PMF (coached companies)", "4–9 months"]
+    - ["PLG-to-SLG transition success rate", "70%+ when timed right"]
+  howto:
+    title: "The 5-stage path from $0 to $10M ARR"
+    steps:
+      - name: "Pre-PMF · $0–$100k"
+        text: "Run 10–30 user interviews and confirm the must-have before anything else. Do not buy traffic yet — you'll burn cash faster than you learn."
+      - name: "Early PMF · $100k–$1M"
+        text: "Invest in 1–2 channels deeply rather than spraying. Find the one repeatable acquisition motion and double down before adding a second."
+      - name: "Growth · $1M–$5M"
+        text: "Add affiliate and integration partners; if PLG, layer in sales-assist for the larger accounts that self-serve can't close alone."
+      - name: "Scale · $5M–$10M"
+        text: "Stand up an enterprise team, earn compliance (SOC 2), and accelerate channel partnerships. Split contracts into startup / mid-market / enterprise tiers."
+      - name: "Ecosystem · $10M+"
+        text: "Open a platform and distribute through investors and agencies. Growth now compounds through partners, not just direct sales."
+  compare:
+    title: "PLG vs SLG — pick your motion"
+    intro: "Don't copy a logo's playbook — match the motion to your deal economics. Decide by ACV and sales-cycle length:"
+    columns: ["Signal", "Motion", "Reference"]
+    rows:
+      - ["ACV &lt; $1k/yr AND decision &lt; 1 week", "PLG", "Vercel, Supabase"]
+      - ["ACV &gt; $10k/yr AND decision &gt; 1 month", "SLG", "Snowflake, Databricks"]
+      - ["In between", "PLG-to-SLG hybrid", "HeyGen, Deel"]
+  donts:
+    title: "Anti-patterns (where B2B SaaS leaks revenue)"
+    items:
+      - "Paid acquisition before PMF — cash burns 10× faster than learning."
+      - "Forcing PLG → SLG at $1M just because — Vercel held PLG to $100M."
+      - "Watching ARR while ignoring NRR — under 100% is a leaking bucket."
+      - "One contract template for everyone — split startup / mid-market / enterprise."
+      - "B2C hype words (&quot;amazing&quot;, &quot;magical&quot;) instead of CFO-friendly ROI proof."
+  faqs:
+    - q: "What's the best growth motion for an AI SaaS in 2026 — PLG or SLG?"
+      a: "It depends on ACV and sales cycle. Under $5k ACV with a &lt;30-day cycle → start PLG. Above $20k ACV or a &gt;60-day cycle → you need SLG earlier than you think. The playbook has a decision tree with specific thresholds."
+    - q: "When should I hire my first SDR?"
+      a: "Not before you've closed 20 deals yourself as a founder. If you haven't personally sold it, an SDR can't sell it either. The playbook covers the exact signals to look for first."
+    - q: "How do I build an affiliate channel without it becoming a spam network?"
+      a: "Partner quality &gt; partner quantity. The playbook covers how HeyGen and Deel vetted affiliate partners, set commission structures, and designed co-marketing that drives real revenue."
+    - q: "What's the single most-missed B2B metric?"
+      a: "NRR (net revenue retention). Teams obsess over new ARR while NRR quietly sits below 100% — a leaking bucket. The playbook treats NRR as the primary health metric above raw ARR."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K+ GitHub stars, Forbes Asia 30 Under 30). Advised 150+ AI startups on B2B growth, with 8 documented case studies."
+  related:
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+
+- slug: open-source-marketing
+  hf: gingiris-opensource
+  install: Gingiris-1031/gingiris-opensource
+  title: "Open-Source Marketing — 0 to 60K GitHub Stars | Gingiris"
+  h1: "Open-Source Marketing — GitHub Stars Growth System"
+  tagline: "The staged decision framework used to take AFFiNE from 0 to 60K GitHub stars."
+  meta_description: "Open-source marketing playbook: pre-launch readiness, Show HN / Reddit / Product Hunt sequencing, 6-month growth loop, anti-star-farming. The system that took AFFiNE 0 → 60K stars (10K in 43 days)."
+  keywords: "open source marketing, GitHub stars growth, Show HN, Hacker News launch, Reddit OSS launch, developer marketing, README optimization, GitHub Trending, dev.to, anti star farming"
+  software_description: "Open-source go-to-market system covering pre-launch readiness, the Show HN / Reddit / Product Hunt launch sequence, and a 6-month growth loop. Battle-tested taking AFFiNE 0 → 60K GitHub stars (10K in 43 days, 28 GitHub Trending appearances) plus 150+ dev-tool consultations."
+  app_category: DeveloperApplication
+  what: "Stars don't come from a great repo — they come from <strong>a great repo placed in front of the right developers, in the right order</strong>. This is the exact staged decision framework used to take AFFiNE from 0 to 60K stars, with 10K reached in 43 days."
+  takeaways:
+    - "Stars follow <strong>placement and order</strong>, not repo quality alone — sequence the channels."
+    - "<strong>English &gt; multilingual &gt; Chinese-only</strong>: launching an English project to Chinese communities first wastes your best shot."
+    - "<strong>Show HN is not a one-shot</strong> — Tuesday 9am ET or Saturday, then engage every comment for the full day."
+    - "<strong>Never farm stars</strong> — GitHub detects it fast and the penalty is disappearing from search."
+  stats:
+    - ["AFFiNE GitHub stars (24 months)", "60,000+"]
+    - ["Time to first 10K stars", "43 days"]
+    - ["GitHub Trending appearances", "28×"]
+    - ["Dev-tool startups advised", "150+"]
+  howto:
+    title: "The 3-stage open-source growth framework"
+    steps:
+      - name: "Stage 1 · Pre-launch (T-30 → T-0)"
+        text: "Get the README English-first and readable in under 3 seconds, ship a captioned 60-second demo, choose your license deliberately (MIT / Apache-2 / AGPL each carry traps), line up 3–5 early contributors, and open an English-first Discord or Telegram."
+      - name: "Stage 2 · Launch (T-0 → T+14)"
+        text: "Run the Product Hunt sequence, post Show HN (Tuesday 9am ET or Saturday), seed 3 relevant subreddits, publish deep technical posts on dev.to / Zenn / CSDN, and line up 3–5 KOLs (activity beats follower count)."
+      - name: "Stage 3 · Growth (T+14 → T+180)"
+        text: "Ship one technical blog per week, turn GitHub Issues into FAQ content, send a monthly update to the mailing list + Discord, and localize for Japan/Korea first when going global."
+      - name: "Sustain · the monthly loop"
+        text: "Keep a 300-stars/month cadence: weekly content, Reddit 2–3×/week, a monthly AMA, and 10+ Good First Issues so contributors compound the growth."
+  compare:
+    title: "Launch channels — what each is good for"
+    intro: "Sequence channels to their strengths; don't spray the same post everywhere on day one."
+    columns: ["Channel", "Best for", "Note"]
+    rows:
+      - ["Show HN", "Credibility spike + dev traffic", "Tue 9am ET / Sat; engage all day"]
+      - ["Reddit (3 subs)", "Targeted developer reach", "Post once per sub, never drive-by"]
+      - ["Product Hunt", "Broad visibility + social proof", "Run the dedicated launch sequence"]
+      - ["dev.to / Zenn / CSDN", "Long-tail SEO + discovery", "Deep technical posts, weekly"]
+  donts:
+    title: "Anti-patterns (the things that get you un-discovered)"
+    items:
+      - "Farming stars — GitHub detects it fast; the penalty is disappearing from search."
+      - "Posting to Reddit once and leaving — communities resent it; high ban risk."
+      - "Too many emojis / badges in the README — lowers credibility."
+      - "Launching an English project to Chinese communities first — wrong order, wasted shot."
+  faqs:
+    - q: "How long does it realistically take to reach 10K stars?"
+      a: "AFFiNE hit 10K in 43 days from public launch with this sequence (README readiness → 3-niche seeding → Show HN → 48-hour star push → sustained content). Generic launches without structure typically take 6–18 months for the same milestone."
+    - q: "How do I get on GitHub Trending?"
+      a: "Coordinate a 48-hour star push from warm contacts + community alongside a Show HN or Reddit post. The algorithm rewards star velocity, not absolute count — 150–300 stars in 48 hours usually lands a niche-language list."
+    - q: "Which license should I pick?"
+      a: "Choose deliberately — MIT maximizes adoption, Apache-2 adds patent protection, AGPL protects against closed-source forks but scares some enterprises. Decide based on whether you plan to monetize a hosted version."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K+ GitHub stars), who led its organic 0 → 60K growth and advised 150+ dev-tool startups."
+  related:
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+
+- slug: seo-geo
+  hf: gingiris-seo-geo
+  install: Gingiris-1031/gingiris-seo-geo
+  title: "SEO & GEO Dual-Engine Playbook — Rank on Google AND Get Cited by AI | Gingiris"
+  h1: "SEO &amp; GEO Dual-Engine Playbook"
+  tagline: "Rank on Google AND get cited by ChatGPT, Perplexity, Claude and Gemini — with one content system."
+  meta_description: "SEO &amp; GEO playbook: BOFU-first keyword funnel, E-E-A-T founder voice, JSON-LD schema, IndexNow, comparison pages. Win Google rankings AND AI-search citations. From AFFiNE (60K stars) + 150 startups."
+  keywords: "SEO, GEO, generative engine optimization, AI search optimization, ChatGPT SEO, Perplexity citation, JSON-LD schema, IndexNow, E-E-A-T, comparison pages, keyword funnel"
+  software_description: "Dual-engine playbook to rank on Google AND get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). Covers the BOFU-first keyword funnel, an E-E-A-T founder-voice writing system, JSON-LD schema templates, IndexNow setup, and the comparison-page SOP. Battle-tested at AFFiNE (60K stars in 24 months) and across 150+ startup consultations."
+  app_category: DeveloperApplication
+  what: "Google ranking and AI-search citation are <strong>two different games with one content system</strong>. SEO rewards backlinks + keywords; GEO rewards structured data + E-E-A-T authenticity. This playbook runs both engines from the same content — so a single page earns Google rankings and shows up inside ChatGPT/Perplexity/Claude answers."
+  takeaways:
+    - "<strong>Start from BOFU</strong> — do high-intent terms (pricing, comparisons) first; they convert highest, then work up to educational content."
+    - "<strong>Authentic voice IS the best E-E-A-T</strong> — don't let AI write like AI; founder voice + real numbers + first-hand stories."
+    - "<strong>Structured = citable</strong> — Key-Stats tables, FAQ schema and comparison matrices are what AI engines extract and quote."
+    - "<strong>IndexNow is GEO infrastructure</strong> — push updates to Bing/AI search in seconds instead of waiting for crawlers."
+  stats:
+    - ["Months to 60K stars (AFFiNE, SEO-driven)", "24"]
+    - ["Startup consultations behind the system", "150+"]
+    - ["Core principles", "5"]
+    - ["Engines optimized from one content set", "Google + 4 AI"]
+  howto:
+    title: "The 5 core principles of SEO + GEO"
+    steps:
+      - name: "1 · Start from BOFU, work upward"
+        text: "Build the highest-intent, highest-converting keywords first (pricing, comparisons, alternatives), then expand up the funnel to educational content. Revenue-adjacent pages compound fastest."
+      - name: "2 · Authentic voice is the best E-E-A-T"
+        text: "Don't let AI write like AI. Use the founder's voice, real numbers, and first-hand stories — authenticity signals are what both Google E-E-A-T and AI engines reward."
+      - name: "3 · Structured = citable"
+        text: "Add Key-Stats tables, FAQ schema, and comparison matrices to every page. Structured, answer-first content is exactly what AI engines extract and cite."
+      - name: "4 · IndexNow is GEO infrastructure"
+        text: "Wire up IndexNow so every content update pings Bing and AI search in seconds. Don't wait weeks for organic crawl when you've shipped something citable."
+      - name: "5 · Comparison pages are SEO gold mines"
+        text: "Build one dedicated page per competitor (\"X vs Y\", \"X alternatives\") to capture decision-stage users — these are the highest-ROI pages for both SEO and GEO."
+  compare:
+    title: "SEO vs GEO — two engines, one content system"
+    intro: "Optimize for both at once: the same page should rank on Google and be quotable by AI search."
+    columns: ["Dimension", "SEO (traditional)", "GEO (AI search)"]
+    rows:
+      - ["Goal", "Google / Bing rankings", "Cited inside AI answers"]
+      - ["Core signal", "Backlinks + keyword match", "Structured data + E-E-A-T"]
+      - ["Content format", "H2/H3 + long-tail coverage", "Direct answers + tables + FAQ schema"]
+      - ["Technical", "XML sitemap + Core Web Vitals", "IndexNow + AI-crawler-open robots.txt"]
+  donts:
+    title: "Anti-patterns (what kills SEO + GEO)"
+    items:
+      - "AI-sounding generic copy — no E-E-A-T signal, no citation."
+      - "Cherry-picked comparison rows — erodes trust and costs you AI citations."
+      - "Starting from TOFU educational content — slow, low-converting; do BOFU first."
+      - "Shipping content with no schema — invisible to AI extraction."
+  faqs:
+    - q: "What is GEO and how is it different from SEO?"
+      a: "GEO (Generative Engine Optimization) is optimizing to be cited inside AI-search answers (ChatGPT, Perplexity, Claude, Gemini), where the signals are structured data + E-E-A-T authenticity. SEO targets Google/Bing rankings via backlinks + keywords. This playbook wins both from one content set."
+    - q: "What's the single highest-ROI thing I can do?"
+      a: "Build comparison pages — one dedicated \"X vs Y\" or \"X alternatives\" page per competitor. They capture decision-stage users and are equally strong for Google ranking and AI citation."
+    - q: "Do I really need IndexNow?"
+      a: "For GEO, yes — it's the infrastructure that pushes updates to Bing and AI search in seconds instead of waiting on crawl cycles. It's a one-time setup that compounds on every publish."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K GitHub stars in 24 months, largely SEO-driven) and advisor to 150+ startups on search and AI-search growth."
+  related:
+    - ["SEO/GEO Agent Operations SOP", "/skills/seo-geo-agent/"]
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+
+- slug: aso-growth
+  hf: gingiris-aso-growth
+  install: Gingiris-1031/gingiris-aso-growth
+  title: "ASO & App Cold-Start Playbook — Store Optimization + UGC Matrix | Gingiris"
+  h1: "ASO &amp; App Cold-Start Playbook"
+  tagline: "From App Store keyword ranking to a UGC creator matrix — the organic-first cold-start system."
+  meta_description: "ASO playbook: App Store &amp; Google Play keyword optimization, the Organic-First cold-start method, UGC creator matrix, TikTok/Reels/Shorts strategy, and platform algorithm differences."
+  keywords: "ASO, app store optimization, Google Play optimization, app cold start, UGC creator matrix, TikTok marketing, Instagram Reels, YouTube Shorts, mobile user acquisition, organic first"
+  software_description: "App Store Optimization and cold-start playbook: store-listing and keyword optimization for App Store and Google Play, the Organic-First cold-start method, UGC creator-matrix operations, multi-platform short-video strategy (TikTok / Reels / Shorts), and App Store vs Google Play algorithm differences."
+  app_category: BusinessApplication
+  what: "App growth starts <strong>organic-first</strong>: run your own accounts, find a Winning Format, then hand it to a UGC creator matrix and only then pour paid behind what already works. This playbook covers store-listing ASO, the cold-start method, and the platform-specific content strategy that feeds it."
+  takeaways:
+    - "<strong>Organic First</strong>: find a Winning Format yourself BEFORE handing it to creators or buying ads."
+    - "<strong>App Store ≠ Google Play</strong>: App Store rewards precise metadata; Google Play reads long descriptions AND Android Vitals."
+    - "Match the platform to the audience — <strong>TikTok 13–18, Instagram 18–25, YouTube Shorts 25–35</strong> (highest paid conversion)."
+    - "<strong>The first 3 seconds</strong> decide a short video — hook hard or lose the view."
+  stats:
+    - ["Cold-start principle", "Organic First"]
+    - ["Short-video platforms covered", "TikTok / Reels / Shorts"]
+    - ["UGC base price per piece", "~$20 + view bonuses"]
+    - ["App Store keyword field limit", "100 chars"]
+  howto:
+    title: "The Organic-First cold-start method"
+    steps:
+      - name: "1 · Run your own accounts"
+        text: "Operate the social accounts yourself first and test every content format hands-on — you can't outsource taste you haven't developed."
+      - name: "2 · Find the Winning Format"
+        text: "Iterate until you find the repeatable format that consistently produces hits. This Winning Format is the asset, not any single video."
+      - name: "3 · Hand it to a UGC creator matrix"
+        text: "Give the Winning Format to vetted creators and build the management layer — contracts, payment, and a data dashboard. Base pay ~$20/piece plus view-based bonuses ($20 at 10K, $50 at 100K, $200 at 1M)."
+      - name: "4 · Pour paid behind what works"
+        text: "Promote the best-performing organic pieces as ad creative — Meta (Facebook + Instagram) first. Never pay to amplify something organic hasn't already validated."
+  compare:
+    title: "App Store vs Google Play — algorithm differences"
+    intro: "The two stores reward different things; the same listing won't optimize for both."
+    columns: ["Dimension", "App Store", "Google Play"]
+    rows:
+      - ["Algorithm core", "Precise metadata match", "Text understanding + tech performance"]
+      - ["Keyword strategy", "Concise, weight-first", "Comprehensive, density-first"]
+      - ["Long description", "No effect on ranking", "Critical ranking factor"]
+      - ["Technical signal", "Indirect", "Android Vitals directly affects rank"]
+  donts:
+    title: "Anti-patterns (where app cold-starts fail)"
+    items:
+      - "Buying ads before finding a Winning Format — you scale something that doesn't convert."
+      - "Copy-pasting one listing across both stores — App Store and Google Play want opposite things."
+      - "Ignoring the first 3 seconds of a short video — that's where retention is won or lost."
+      - "Treating UGC as one-off gigs instead of a managed matrix with dashboards."
+  faqs:
+    - q: "What does \"Organic First\" actually mean?"
+      a: "Run accounts and test formats yourself until you find a repeatable Winning Format, hand that format to a UGC creator matrix, and only then put paid spend behind the pieces that already performed organically. It de-risks acquisition spend."
+    - q: "How should I price UGC creators?"
+      a: "A base around $20 per piece plus view-based bonuses — roughly +$20 at 10K views, +$50 at 100K, +$200 at 1M. It aligns creator incentives with actual reach."
+    - q: "Should I optimize App Store and Google Play the same way?"
+      a: "No. App Store rewards precise, weight-first metadata and ignores the long description for ranking; Google Play reads the full long description and factors in Android Vitals performance. Optimize each separately."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), advisor to 150+ AI/mobile startups, compiled from real ASO and UGC-matrix operations."
+  related:
+    - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
+
+- slug: kol-outreach
+  hf: gingiris-kol-outreach
+  install: Gingiris-1031/gingiris-kol-outreach
+  title: "KOL Outreach & Influencer Marketing Playbook — Discovery to ROI | Gingiris"
+  h1: "KOL Outreach &amp; Influencer Marketing Playbook"
+  tagline: "The 6-step SOP from discovery to ROI — battle-tested across 200+ KOL campaigns at AFFiNE."
+  meta_description: "KOL outreach playbook: 3-tier KOL system, platform pricing benchmarks, content-package templates, draft review, UTM ROI tracking. The 6-step SOP from 200+ campaigns at AFFiNE (60K stars)."
+  keywords: "KOL outreach, influencer marketing, KOL pricing, creator partnership, micro-influencer, content package, UTM tracking, KOL ROI, Twitter thread pricing, YouTube sponsorship"
+  software_description: "KOL outreach and influencer-marketing SOP from discovery to ROI tracking: a 3-tier KOL system, platform pricing benchmarks, content-package templates, draft-review process, payment timing, and UTM-based ROI measurement. Battle-tested across 200+ KOL campaigns at AFFiNE (60K stars)."
+  app_category: BusinessApplication
+  what: "Most influencer spend dies because there's no system — no tiering, no pricing benchmark, no UTM tracking. This is the <strong>6-step SOP from discovery to ROI</strong> used across 200+ KOL campaigns, including a 3-tier KOL model and per-platform pricing so you stop overpaying and start measuring."
+  takeaways:
+    - "<strong>1k–10k followers is the sweet spot</strong> — micro-KOLs convert far better than 100k+ accounts."
+    - "<strong>Engagement &gt; follower count</strong>: require avg views / followers &gt; 10% and audience that matches your ICP."
+    - "<strong>Every KOL gets a unique UTM</strong> — if you can't track it to at least a pageview, you can't compute ROI."
+    - "<strong>Compute Channel CPM on a 10-post median</strong>, not the best post, to avoid paying on cherry-picked peaks."
+  stats:
+    - ["KOL campaigns behind the SOP", "200+"]
+    - ["Best-value follower range", "1k–10k"]
+    - ["Min engagement rate", "&gt;10%"]
+    - ["Twitter thread benchmark", "$50–200"]
+  howto:
+    title: "The 6-step KOL outreach SOP"
+    steps:
+      - name: "1 · Shortlist & tier (L-4 weeks)"
+        text: "Build a 3-tier list: Tier 1 ignition nodes (newsletter founders, top engineers, VCs — reach free via network), Tier 2 mid-tier KOLs 1k–200k (paid), Tier 3 micro-creators (templated / value swap). Vet on engagement and ICP fit, not follower count."
+      - name: "2 · Price & connect (L-4 weeks)"
+        text: "Benchmark before you negotiate: Twitter thread $50–200, TikTok $200–500, YouTube feature $600–1,500, LinkedIn post $2,000–8,000. Open with a personalized DM, not a templated blast."
+      - name: "3 · Send the content package (L-3 weeks)"
+        text: "Give creators a ready-to-use brief: hooks, key messages, do/don't, assets, and platform-specific guidance (e.g., TikTok 3-second hook, 15–60s, loop design)."
+      - name: "4 · Review the draft (L-2 weeks)"
+        text: "Check the draft against the brief and platform algorithm fit before anything publishes — fix weak hooks and missing CTAs now, not after it's live."
+      - name: "5 · Pay (L-1 to L-Day)"
+        text: "Release payment on the agreed schedule tied to publish, with clear deliverable terms — milestone payment protects both sides."
+      - name: "6 · Monitor & review ROI (L-Day to L+1 week)"
+        text: "Confirm on-time publish, activate engagement immediately, collect 24h/48h/72h screenshots, and compute ROI = (KOL-driven revenue − cost) / cost via the unique UTM."
+  compare:
+    title: "Platform pricing benchmarks"
+    intro: "Rough per-post ranges so you can sanity-check quotes before negotiating."
+    columns: ["Platform", "Format", "Benchmark"]
+    rows:
+      - ["Twitter / X", "1 thread", "$50–200"]
+      - ["TikTok", "1 collaboration", "$200–500"]
+      - ["YouTube", "Dedicated video", "$600–1,500"]
+      - ["LinkedIn", "1 post", "$2,000–8,000"]
+  donts:
+    title: "Anti-patterns (where KOL budget leaks)"
+    items:
+      - "Chasing follower count over engagement and ICP fit."
+      - "Templated cold blasts instead of personalized first contact."
+      - "No unique UTM per KOL — you can't compute ROI you didn't track."
+      - "Pricing on a single best post instead of a 10-post median."
+  faqs:
+    - q: "What size KOL gives the best ROI?"
+      a: "Micro-KOLs in the 1k–10k follower range, with engagement (avg views / followers) above 10% and an audience matching your ICP. They convert far better per dollar than 100k+ accounts."
+    - q: "How do I benchmark KOL pricing?"
+      a: "Use rough per-post ranges — Twitter thread $50–200, TikTok $200–500, YouTube feature $600–1,500, LinkedIn $2,000–8,000 — and compute Channel CPM on a 10-post median, not the best-performing post."
+    - q: "How do I actually measure KOL ROI?"
+      a: "Give every KOL a unique UTM link, track at minimum to pageview, and compute ROI = (KOL-driven revenue − cost) / cost. Collect 24h/48h/72h performance screenshots for the post-mortem."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from 200+ KOL campaigns across launch and growth."
+  related:
+    - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+
+- slug: github-star-growth
+  hf: gingiris-github-star-growth
+  install: Gingiris-1031/gingiris-github-star-growth
+  title: "GitHub Star Sustained Growth — 300+ Stars/Month SOP | Gingiris"
+  h1: "GitHub Star Sustained Growth Playbook"
+  tagline: "The monthly operating cadence that adds 300+ GitHub stars — content, community, events, contributors."
+  meta_description: "GitHub star growth SOP: the 300-stars/month cadence across content rhythm, Reddit/HN community ops, event-driven growth, and a contributor + ambassador ladder. Validated AFFiNE 0→60K, Client A 0→10K."
+  keywords: "GitHub star growth, sustained star growth, 300 stars per month, contributor system, ambassador program, open source community, Reddit OSS, Hacker News stars, developer community growth"
+  software_description: "Sustained GitHub-star growth SOP for adding 300+ stars per month: a content rhythm (8–12 pieces/month), Reddit/Hacker News/Discord community operations, event-driven growth (AMAs, meetups, hackathons), and a contributor + ambassador ladder. Validated taking AFFiNE 0→60K and Client Project A 0→10K stars."
+  app_category: DeveloperApplication
+  what: "Going viral once is luck; <strong>adding 300+ stars every month is a system</strong>. This is the monthly operating cadence — content rhythm, community operations, event-driven spikes, and a contributor ladder — validated taking AFFiNE 0→60K and a client project 0→10K."
+  takeaways:
+    - "Target a repeatable <strong>300 stars/month</strong> cadence, not one-off viral spikes."
+    - "<strong>Reddit is the steady workhorse</strong> (2–3 posts/week → direct star conversion); <strong>Hacker News is the spike</strong> (200–500 stars/post)."
+    - "<strong>Ship 8–12 content pieces/month</strong> across blog, video, and social — long-tail SEO compounds."
+    - "Build a <strong>contributor ladder</strong> (Good First Issue → Core → Maintainer) so the community produces growth, not just you."
+  stats:
+    - ["Monthly star target", "300+"]
+    - ["Content output", "8–12 pieces/month"]
+    - ["Hacker News spike per post", "200–500 stars"]
+    - ["Validated client outcome", "0 → 10K stars"]
+  howto:
+    title: "The monthly 300-stars cadence"
+    steps:
+      - name: "1 · Content rhythm"
+        text: "Ship 8–12 pieces/month: 2–3 weekly technical posts (dev.to / Medium / blog) for long-tail SEO, 1 weekly YouTube demo, 1–2 daily Twitter/X technical snippets, and a weekly LinkedIn long-form."
+      - name: "2 · Community operations"
+        text: "Post on Reddit 2–3×/week (r/selfhosted, r/programming, r/MachineLearning) as the steady workhorse, submit to Hacker News 1–2×/month for spikes (200–500 stars/post), and stay active daily in Discord/Telegram."
+      - name: "3 · Event-driven growth"
+        text: "Run a monthly online AMA/webinar (~30 attendees), a quarterly meetup (~70, deep in one market like Japan), and a quarterly PR challenge (Hacktoberfest / Good First Issue sprint)."
+      - name: "4 · Contributor ladder"
+        text: "Label 3–5 Good First Issues weekly, respond to PRs within 24h, and promote contributors up the ladder: Good First Issue → Regular (3+ PRs) → Core (module owner) → Maintainer."
+      - name: "5 · Ambassador program"
+        text: "Recruit advocates who already share the project and have 1k+ followers; reward with a badge, README credit, early-feature access, and a 10–15% affiliate referral."
+  compare:
+    title: "Channel priority — where stars actually come from"
+    intro: "Not all channels convert equally; weight effort toward direct-conversion ones."
+    columns: ["Channel", "Cadence", "What it delivers"]
+    rows:
+      - ["Reddit", "2–3 / week", "Steady direct star conversion"]
+      - ["Hacker News", "1–2 / month", "Burst spikes (200–500 stars)"]
+      - ["Weekly blog / video", "8–12 / month", "Long-tail SEO discovery"]
+      - ["Hackathon sponsorship", "As needed", "200–500 stars per event"]
+  donts:
+    title: "Anti-patterns (what stalls star growth)"
+    items:
+      - "Chasing one viral moment instead of a repeatable monthly cadence."
+      - "Buying/farming stars — fast detection, removed from search."
+      - "Ignoring PRs — a 24h+ first response kills contributor momentum."
+      - "Spreading thin across every channel instead of weighting to Reddit + content."
+  faqs:
+    - q: "Is 300 stars a month realistic for my project?"
+      a: "It's the validated cadence from coaching Client Project A 0→10K and AFFiNE 0→60K. It requires the full system — 8–12 content pieces, Reddit 2–3×/week, monthly events, and an active contributor ladder — not any single tactic."
+    - q: "Reddit or Hacker News — which matters more?"
+      a: "Both, differently. Reddit is the steady workhorse (2–3 posts/week → direct, repeatable star conversion). Hacker News is the spike (1–2 submissions/month, 200–500 stars per successful post). You need the steady base plus the spikes."
+    - q: "How do I turn users into contributors?"
+      a: "Run a ladder: label 3–5 Good First Issues weekly with clear scope and mentor responses, reply to PRs within 24h, and promote contributors (Regular → Core → Maintainer) with public Contributor Spotlights."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (0→60K+ GitHub stars), with the cadence validated on an 8-month client engagement that reached 10K stars."
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["Community &amp; Ambassador Program Playbook", "/skills/community-ambassador/"]
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+
+- slug: go-global
+  hf: gingiris-go-global
+  install: Gingiris-1031/gingiris-go-global
+  title: "AI Product Go-Global SOP — Phase 0 to Monetization | Gingiris"
+  h1: "AI Product / SaaS Go-Global SOP"
+  tagline: "From competitor research to launch to monetization — the full-cycle overseas playbook (Phase 0–5)."
+  meta_description: "Go-global SOP for AI products & SaaS: market validation, one-line positioning, first 100 users, user interviews, 48-hour launch peak, and beta-to-growth. Phase 0–5, end to end."
+  keywords: "go global, overseas expansion, AI product launch overseas, GTM, cold start, first 100 users, one-line positioning, international expansion, 出海 SOP"
+  software_description: "Full-cycle go-global SOP for AI products and SaaS covering Phase 0–5: pre-launch market judgment, competitor research, one-line positioning + website, the first 100 users, user interviews, and converting a launch peak into long-term growth assets via content, community, SEO and ecosystem."
+  app_category: BusinessApplication
+  what: "Going global isn't one launch — it's a <strong>sequence: find the narrowest paying user, nail a one-line position, build the conversion loop, fire a 48-hour credible traffic peak, then immediately pivot to interviews and monetization</strong>. This is the Phase 0–5 SOP that turns a single launch into a durable overseas asset."
+  takeaways:
+    - "Find the <strong>narrowest, most willing-to-pay user</strong> first — broad targeting kills cold-starts."
+    - "Nail a one-line position: <strong>[differentiator] + [vs known product] + for [user/use-case]</strong>."
+    - "A launch peak is <strong>48 hours</strong> — concentrate all channels, then immediately pivot to interviews + conversion."
+    - "Reddit: <strong>lurk 1–2 weeks, 80% value / 20% product</strong>, never cross-post the same thing."
+  stats:
+    - ["Phases, end to end", "0–5"]
+    - ["Launch-peak window", "48 hours"]
+    - ["Pre-launch interviews", "20–40"]
+    - ["First-user channels", "4 (competitor / LinkedIn / Reddit / Fiverr)"]
+  howto:
+    title: "The Phase 0–5 go-global sequence"
+    steps:
+      - name: "Phase 0–1 · Judge & research"
+        text: "Decide if you're ready to go global, then tear down competitors — their positioning evolution, channels, and where their users complain."
+      - name: "Phase 2 · Position & site"
+        text: "Write the one-line position ([differentiator] + [vs known product] + for [user]) and build the loop: website, README, demo, docs, community, conversion path."
+      - name: "Phase 3 · First 100 users"
+        text: "Mine competitors' unhappy active users, do precise LinkedIn outreach by role/industry/geo, keyword-listen on Reddit/Twitter (\"alternative to\", \"looking for\"), and validate paid demand on Fiverr."
+      - name: "Phase 4 · User interviews"
+        text: "Run 20–40 interviews to confirm the must-have and the willingness to pay before scaling any channel."
+      - name: "Phase 5 · Beta → growth asset"
+        text: "Fire the 48-hour launch peak across all channels (two KOL waves), then immediately pivot the energy into conversion, content, community and SEO/GEO to compound it."
+  compare:
+    title: "Channel SOP at a glance"
+    intro: "Each overseas channel plays a different role — don't run them all the same way."
+    columns: ["Channel", "Role", "Key rule"]
+    rows:
+      - ["Open-source launch", "Credibility ignition", "48h burst; all entries → GitHub README"]
+      - ["Product Hunt", "Badge + social proof", "It's a badge war, not a traffic war"]
+      - ["Reddit", "Targeted community", "Lurk 1–2wk, 80/20, no cross-posting"]
+      - ["SEO / GEO", "Long-term capture", "Alternative / use-case / comparison pages first"]
+  donts:
+    title: "Anti-patterns (where go-global fails)"
+    items:
+      - "Targeting broad instead of the narrowest paying user."
+      - "Launching before a one-line position is crisp."
+      - "Treating the launch peak as the finish line instead of the start of interviews + conversion."
+      - "Cross-posting identical content across Reddit communities — fast ban."
+  faqs:
+    - q: "What's the right order to go global?"
+      a: "Phase 0–5: judge readiness → competitor research → positioning + website → first 100 users → user interviews → beta-to-growth. The discipline is firing a 48-hour launch peak, then immediately pivoting to interviews and monetization rather than chasing more traffic."
+    - q: "How do I get my first 100 overseas users?"
+      a: "Four channels: mine competitors' unhappy active users, precise LinkedIn outreach by role/industry/geo, keyword-listen on Reddit/Twitter for \"alternative to\" intent, and validate paid demand on Fiverr-style marketplaces."
+    - q: "What makes a strong one-line position?"
+      a: "[differentiator] + [vs a known product] + for [specific user/use-case]. It borrows the known product's mental model while staking out your wedge — and it's the foundation every channel's copy reuses."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups on going global."
+  related:
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["User Interview & Beta Testing Playbook", "/skills/user-interview/"]
+
+- slug: ugc-matrix
+  hf: gingiris-ugc-matrix
+  install: Gingiris-1031/gingiris-ugc-matrix
+  title: "UGC Matrix Growth Playbook — AI + Creators to $10M ARR | Gingiris"
+  h1: "UGC Matrix Growth Playbook"
+  tagline: "Scale user-generated content with AI + real creators — the flywheel behind $10M ARR in 60 days."
+  meta_description: "UGC matrix playbook: IP + matrix-account flywheel, creator recruitment & tiering, incentive design, multi-platform strategy. Proven at CPM $0.5, $10M ARR in 60 days, 70M impressions (Kuse case)."
+  keywords: "UGC matrix, user generated content, creator program, AI UGC, matrix accounts, content flywheel, TikTok UGC, creator recruitment, CPM 0.5"
+  software_description: "UGC matrix growth playbook to scale user-generated content with AI plus real creators: the IP + matrix-account flywheel, creator recruitment and tiering (strategists vs executors), incentive design, AI matrix-account operations, and multi-platform strategy. Proven at CPM $0.5 — $10M ARR in 60 days with 70M impressions (Kuse case)."
+  app_category: BusinessApplication
+  what: "A 2-person team hit ~$10M ARR in 60 days with <strong>zero funding, zero ad budget, zero sales team</strong> — via a UGC flywheel: an IP account builds trust, attracts creators, who feed a matrix of accounts that amplifies reach. This playbook is that flywheel, recruitment, incentives and platform strategy."
+  takeaways:
+    - "The flywheel: <strong>IP account → attracts creators → matrix accounts → amplifies → more creators</strong>."
+    - "Tier creators: <strong>~10 strategists (new concepts) + ~70 executors (replicate winners)</strong>."
+    - "Two-step content: <strong>AI value posts to grow followers, then Before/After use-cases to convert</strong>."
+    - "Proven economics: <strong>CPM $0.5, 6:4 human-to-AI UGC ratio</strong>, 70M impressions."
+  stats:
+    - ["Core team size", "2 people"]
+    - ["Time to ~$10M ARR", "60 days"]
+    - ["Global social impressions", "70M"]
+    - ["CPM", "$0.5"]
+  howto:
+    title: "How to build a UGC matrix"
+    steps:
+      - name: "1 · Recruit & tier creators"
+        text: "Build two tiers: ~10 strategists who create new concepts and test directions, and ~70 executors who precisely replicate the winning scripts."
+      - name: "2 · Design incentives"
+        text: "Set incentives that reward both originating a winning format and faithfully scaling it — so strategists keep inventing and executors keep producing."
+      - name: "3 · Run AI matrix accounts"
+        text: "Operate a matrix of AI-assisted accounts to multiply output, maintaining account health and platform-policy compliance."
+      - name: "4 · Two-step content strategy"
+        text: "Step 1 grow followers with AI value content (tool lists, tips). Step 2 convert with Before/After use-case posts and real phone-shot demos."
+      - name: "5 · Sequence market entry"
+        text: "Enter platforms and markets in order of fit, matching content style and conversion expectation to each platform's audience."
+  compare:
+    title: "Platform strategy by audience"
+    intro: "Match content style and conversion expectation to each platform's audience."
+    columns: ["Platform", "Audience", "Conversion / key"]
+    rows:
+      - ["TikTok", "13–18", "Lowest · ultra-abstract, strong hook"]
+      - ["Instagram", "18–25", "Medium · shareable, visual quality"]
+      - ["YouTube", "25–35", "Highest · first-3-second retention"]
+      - ["Threads", "All ages", "High · algorithm dividend window"]
+  donts:
+    title: "Anti-patterns (where UGC matrices break)"
+    items:
+      - "Only running AI accounts — the IP account that builds trust is what attracts real creators."
+      - "All executors, no strategists — you run out of winning formats to replicate."
+      - "Posting value content with no use-case conversion step — followers but no revenue."
+      - "Same content across platforms — TikTok and YouTube want opposite things."
+  faqs:
+    - q: "Can a tiny team really run a UGC matrix?"
+      a: "Yes — the validated Kuse case was a 2-person core team reaching ~$10M ARR in 60 days with 70M impressions at CPM $0.5, by leveraging a tiered creator network (10 strategists + 70 executors) plus AI matrix accounts rather than hiring."
+    - q: "What's the human-to-AI content ratio?"
+      a: "Around 6:4 human-to-AI UGC. AI multiplies output and tests variations, but real-creator content carries the trust and conversion. The mix keeps volume high without going fully synthetic."
+    - q: "How does UGC actually convert, not just get views?"
+      a: "Two-step: AI value content (tool lists, tips) grows followers; then Before/After use-case posts and real phone-shot demos convert that audience. Skipping the conversion step gets you reach with no revenue."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), compiled with the Kuse UGC-matrix case study."
+  related:
+    - ["ASO &amp; App Cold-Start Playbook", "/skills/aso-growth/"]
+    - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+
+- slug: user-interview
+  hf: gingiris-user-interview
+  install: Gingiris-1031/gingiris-user-interview
+  title: "User Interview & Beta Testing Playbook — Find PMF | Gingiris"
+  h1: "User Interview &amp; Beta Testing Playbook"
+  tagline: "The 5-step interview framework + beta-test design that surfaces the real must-have and willingness to pay."
+  meta_description: "User interview playbook: who to interview (P0–P2), the 30-45 min 5-part script, beta-test 3-layer design, and the 5-question close. Find PMF and willingness to pay, not vanity feedback."
+  keywords: "user interview, customer interview, PMF validation, beta testing, willingness to pay, user research, product feedback, customer discovery, find product market fit"
+  software_description: "User interview and beta-testing playbook to find PMF: how to pick and prioritize interviewees (paid / power / competitor / churned), a 30–45 minute 5-part interview script, a 3-layer beta-test design, and a structured 5-question close — surfacing the real must-have and willingness to pay."
+  app_category: BusinessApplication
+  what: "Most \"user feedback\" is vanity — happy users being polite. This playbook gets the <strong>real must-have and the real willingness to pay</strong>: who to interview, a structured 30–45 minute script, a 3-layer beta test, and a 5-question close that forces honest signal."
+  takeaways:
+    - "Prioritize <strong>paid + power users (P0)</strong> and <strong>churned users</strong> — churned users expose the real problems."
+    - "Run a structured <strong>5-part, 30–45 min script</strong>: background → workflow → competitors → pain → willingness to pay."
+    - "Beta tests need <strong>3 layers</strong>: value validation, experience perception, gap identification."
+    - "Close with the <strong>5-question method</strong> — including \"would you pay if we launched tomorrow, and why?\""
+  stats:
+    - ["Interview script length", "30–45 min"]
+    - ["Interview script parts", "5"]
+    - ["Synthesis cadence", "every 5–10 sessions"]
+    - ["Beta-test layers", "3"]
+  howto:
+    title: "The 5-step user interview framework"
+    steps:
+      - name: "1 · Target & screen"
+        text: "Prioritize by value: P0 paid users and power users (highest-signal), P1 competitor users and churned users (competitive view + real problems), P2 registered-but-unpaid (conversion blockers)."
+      - name: "2 · Invite & schedule"
+        text: "Reach out and book sessions with the right mix, weighting toward P0 and churned users."
+      - name: "3 · Run the interview (30–45 min)"
+        text: "Five parts: background (role, channels, tenure, competitors) → workflow (what problem, how before, what changed) → competitor comparison → pain mining (bugs, friction, the \"magic wand\" question) → willingness to pay (what they've paid, how much, upgrade triggers)."
+      - name: "4 · Close & follow up"
+        text: "Wrap cleanly, confirm next steps, and keep the relationship open for beta access and follow-up."
+      - name: "5 · Synthesize (every 5–10 sessions)"
+        text: "Aggregate findings every 5–10 interviews to spot patterns rather than over-indexing on any single voice."
+  compare:
+    title: "Who to interview — priority by value"
+    intro: "Not all feedback is equal; weight toward the users whose signal predicts revenue."
+    columns: ["Priority", "User type", "Why"]
+    rows:
+      - ["P0", "Paid users", "Validated willingness to pay — highest value"]
+      - ["P0", "Power users", "Deep product knowledge — most actionable"]
+      - ["P1", "Churned users", "Expose the product's real problems"]
+      - ["P2", "Registered, unpaid", "Reveal conversion blockers"]
+  donts:
+    title: "Anti-patterns (where interviews mislead)"
+    items:
+      - "Only interviewing happy users — politeness ≠ product-market fit."
+      - "Leading questions that fish for the answer you want."
+      - "Skipping the willingness-to-pay question — the only real validation."
+      - "Acting on a single interview instead of synthesizing every 5–10."
+  faqs:
+    - q: "Who should I interview first?"
+      a: "P0 — paid users (validated willingness to pay) and power users (deepest product knowledge). Then P1 churned users, who expose the real problems happy users won't mention. Registered-but-unpaid (P2) reveal conversion blockers."
+    - q: "How do I get honest willingness-to-pay signal?"
+      a: "Ask what they've actually paid for before, how much, and what triggered an upgrade — then the 5-question close including \"would you pay if we launched tomorrow, and why?\". Past behavior and a concrete commitment beat hypothetical enthusiasm."
+    - q: "How many interviews before I trust the data?"
+      a: "Synthesize every 5–10 sessions to spot patterns. One vivid interview is an anecdote; recurring themes across a batch are signal."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), advisor to 150+ AI startups on PMF and user research."
+  related:
+    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+    - ["AI Product / SaaS Go-Global SOP", "/skills/go-global/"]
+    - ["Competitor Research &amp; Growth Flywheel", "/skills/competitor-research/"]
+
+- slug: community-ambassador
+  hf: community-ambassador-playbook
+  install: Gingiris-1031/community-ambassador-playbook
+  title: "Community & Ambassador Program Playbook — Full SOP | Gingiris"
+  h1: "Community &amp; Ambassador Program Playbook"
+  tagline: "From pre-launch checklist to a 4-tier ambassador system — built from Notion, AFFiNE, Asana & ClickUp."
+  meta_description: "Community & ambassador SOP: 6-condition readiness checklist, 6-step community setup, A+B recruitment, Bronze→Platinum tiers, 5-pillar incentives, churn early-warning, governance. From Notion & AFFiNE."
+  keywords: "ambassador program, community building, community-led growth, DevRel, Bronze to Platinum, incentive framework, community operations, user retention, KOL cultivation"
+  software_description: "Complete community and ambassador operations SOP: a 6-condition pre-launch readiness checklist, 6-step community setup, ambassador recruitment with A+B qualification, a 4-tier progression (Bronze→Platinum), a 5-pillar incentive framework, churn early-warning, event operations and governance. Built from Notion (20M users), AFFiNE (60K stars), Asana and ClickUp programs."
+  app_category: BusinessApplication
+  what: "Most ambassador programs start too early and stall. The truth from Notion's data: ambassadors are <strong>free outsourcing wrapped in real value</strong> — and the prerequisite is that the product is genuinely good and used internally. This is the full SOP: readiness, setup, tiers, incentives, retention, governance."
+  takeaways:
+    - "<strong>Don't start until the product is usable</strong> and your whole team uses it internally — 6 conditions must be true first."
+    - "Recruit on <strong>A+B: event-organizing ability AND content output</strong> — quality over quantity (only ~25% stay active)."
+    - "The strongest incentives are <strong>founder access + helping ambassadors become KOLs</strong>, not swag."
+    - "Four tiers by annual points: <strong>Bronze → Silver → Gold → Platinum</strong>."
+  stats:
+    - ["Readiness conditions before starting", "6"]
+    - ["Progression tiers", "4 (Bronze→Platinum)"]
+    - ["Incentive pillars", "5"]
+    - ["Typical active rate", "~25%"]
+  howto:
+    title: "How to run an ambassador program"
+    steps:
+      - name: "1 · Check readiness (6 conditions)"
+        text: "Confirm the product is usable, the whole team uses it internally, it's embedded in a workflow, you can produce content, the roadmap is shareable, and someone owns the program. Starting before these is wasted effort."
+      - name: "2 · Set up the community (6 steps)"
+        text: "Pick the platform and positioning, set rules, define admin standards, monitor brand mentions (Notion built a crawler — every mention gets a reshare/follow), build a wiki, and set baseline metrics."
+      - name: "3 · Recruit on A+B"
+        text: "Require both event-organizing ability (A) and content output (B: video / writing / templates). Quality over quantity — Notion's roster is hundreds but only ~25% stay active."
+      - name: "4 · Tier with points"
+        text: "Bronze (apply) → Silver (≥100 pts/yr) → Gold (≥300) → Platinum (≥600), earned via tutorials, videos, talks, translations and referrals."
+      - name: "5 · Incentivize & retain"
+        text: "Lead with the 5 pillars — a genuinely good product, beta access, founder conversations, KOL-making reshares, and resharing every creator — and run churn early-warning (private check-in after 2 months of no contribution)."
+  compare:
+    title: "The 4-tier ambassador system"
+    intro: "Progression by annual points; higher tiers unlock access, not just badges."
+    columns: ["Tier", "Threshold", "Core benefit"]
+    rows:
+      - ["Bronze", "Apply", "Recognition + badge"]
+      - ["Silver", "≥100 pts/yr", "Priority beta + official reshares"]
+      - ["Gold", "≥300 pts/yr", "1:1 contact + annual event"]
+      - ["Platinum", "≥600 pts/yr", "Custom support + sponsorship"]
+  donts:
+    title: "Anti-patterns (where ambassador programs fail)"
+    items:
+      - "Launching before the product is usable and used internally."
+      - "Recruiting on follower count instead of A+B (organizing + content)."
+      - "Relying on swag instead of founder access and KOL-making support."
+      - "Ignoring a 2-month silence — that's the churn early-warning signal."
+  faqs:
+    - q: "When is it too early to start an ambassador program?"
+      a: "Before the product is genuinely usable and your whole team uses it internally. The readiness checklist has six conditions; at the cold-start (pre-PMF) stage you should be finding 100 deep users, not recruiting ambassadors."
+    - q: "What actually motivates ambassadors?"
+      a: "Per Notion's data: a genuinely good product (the prerequisite), beta access, direct founder conversations, active help becoming a KOL (official reshares), and resharing every creator's mentions. Material swag ranks far below access."
+    - q: "How do I structure tiers?"
+      a: "Four point-based tiers — Bronze (apply), Silver (≥100/yr), Gold (≥300), Platinum (≥600) — with points from tutorials, videos, talks, translations and referrals, unlocking progressively deeper access."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), drawing on real ambassador interviews from Notion (20M users), Asana and ClickUp."
+  related:
+    - ["GitHub Star Sustained Growth Playbook", "/skills/github-star-growth/"]
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
+
+- slug: competitor-research
+  hf: competitor-research-playbook
+  install: Gingiris-1031/competitor-research-playbook
+  title: "Competitor Research & Growth Flywheel Playbook | Gingiris"
+  h1: "Competitor Research &amp; Growth Flywheel Playbook"
+  tagline: "Reverse-engineer how a competitor grew — Wayback teardown, propagation mapping, 6-stage flywheel scoring."
+  meta_description: "Competitor research SOP: 4-step framework, 3-version Wayback website-evolution analysis, X/Twitter propagation-chain mapping, growth-flywheel 6-stage scoring, KOL identification. Incl. Lovable case."
+  keywords: "competitor research, competitive analysis, growth flywheel, Wayback Machine, website teardown, Twitter propagation, KOL identification, market research, ICP analysis"
+  software_description: "Systematic competitor-research SOP: a 4-step framework (website teardown → social media → traffic sources → ad spend), 3-version Wayback website-evolution analysis, X/Twitter propagation-chain mapping, growth-flywheel 6-stage scoring, and KOL identification. Battle-tested across 150+ AI startups including the Lovable launch case study."
+  app_category: BusinessApplication
+  what: "When a competitor blows up, the instinct is to copy their latest move — usually the wrong one. This playbook <strong>reverse-engineers the whole flywheel</strong>: how their website evolved, how the launch propagated, and which growth stages are actually strong — so you copy the system, not the symptom."
+  takeaways:
+    - "Work the <strong>4 steps in order</strong>: website → social media → traffic sources → ad spend."
+    - "Read <strong>3 website versions via Wayback</strong> (V1 / Beta / Launch) to see how positioning evolved."
+    - "Score the <strong>6-stage flywheel</strong> (Activation → Referral → Acquisition → Retention → Revenue → Product) to find the real strength."
+    - "Content that travels: <strong>visual demo &gt; user story &gt; competitor comparison</strong> (validated ranking)."
+  stats:
+    - ["AI startups analyzed", "150+"]
+    - ["Website versions compared", "3 (V1/Beta/Launch)"]
+    - ["Flywheel stages scored", "6"]
+    - ["Lovable launch-day impressions", "229K"]
+  howto:
+    title: "The 4-step competitor research framework"
+    steps:
+      - name: "1 · Website teardown (3 versions)"
+        text: "Pull V1, Beta and Launch snapshots from the Wayback Machine and record, per version: one-line positioning, page length/structure, use cases, CTA/pricing, SEO changes, and which community channels launched when."
+      - name: "2 · Social media teardown"
+        text: "Use SimilarWeb to find their main traffic source, then deep-dive the right channel: official vs founder vs DevRel vs KOL accounts, posting cadence, and content-type mix."
+      - name: "3 · Map the propagation chain"
+        text: "Reconstruct the launch as 4 phases — internal ignition (hours) → ecosystem catalysis (1–2 days) → KOL detonation (2–3 days) → broad penetration (weeks) — and identify the traffic kings, topic starters, and mindset-shifters."
+      - name: "4 · Score the growth flywheel"
+        text: "Rate all six stages (Activation, Referral, Acquisition, Retention, Revenue, Product) strong-vs-weak using signals like Discord DAU, systematic user-story propagation, and clear free-to-paid triggers."
+  compare:
+    title: "Content effectiveness (validated ranking)"
+    intro: "When mapping a competitor's launch, weight the content types that actually drove spread."
+    columns: ["Rank", "Content type", "Why it travels"]
+    rows:
+      - ["🥇", "Visual demo (video/GIF)", "Strongest immediate impact"]
+      - ["🥈", "Real user success story", "Most credible"]
+      - ["🥉", "Competitor comparison", "Sparks discussion"]
+      - ["4–5", "Stats / feature announcements", "Social currency / narrow reach"]
+  donts:
+    title: "Anti-patterns (where competitor research misleads)"
+    items:
+      - "Copying their latest tactic instead of the underlying flywheel."
+      - "Only looking at the current site — you miss how positioning evolved."
+      - "Analyzing every channel equally instead of their main traffic source."
+      - "Ignoring which content actually propagated vs. what merely existed."
+  faqs:
+    - q: "How do I reverse-engineer a competitor's growth?"
+      a: "Run the 4 steps in order — website teardown (3 Wayback versions), social-media channel analysis, traffic-source mapping, ad-spend — then score their 6-stage growth flywheel to find where the strength actually is."
+    - q: "Which content types drive the most spread?"
+      a: "Validated ranking: visual demos (video/GIF) > real user success stories > competitor comparisons > stats/feature announcements. Weight your teardown — and your own launch — toward the top of that list."
+    - q: "What tools do I need?"
+      a: "Wayback Machine for historical website snapshots, SimilarWeb for traffic-source distribution, and Semrush for SEO and ad-spend analysis."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from 150+ AI-startup competitive analyses including a full Lovable launch teardown."
+  related:
+    - ["AI Product / SaaS Go-Global SOP", "/skills/go-global/"]
+    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+
+- slug: twitter-agent-ops
+  hf: gingiris-twitter-agent-ops
+  install: Gingiris-1031/gingiris-twitter-agent-ops
+  title: "Twitter/X Agent Operations — AI Ghostwriter SOP (+60% in 45 Days) | Gingiris"
+  h1: "Twitter/X Agent Operations — AI Ghostwriter SOP"
+  tagline: "Turn any AI agent into a ghostwriter that sounds like you — and grew a real account +60% in 45 days."
+  meta_description: "Twitter/X agent SOP: persona calibration, fact-source database (zero fabricated stats), weekly scheduling, 6 safety rules, pre-publish QC. Grew a real account +60% in 45 days, fully agent-operated."
+  keywords: "twitter automation, X account growth, AI ghostwriter, social media agent, persona calibration, tweet scheduling, AI agent twitter, content methodology"
+  software_description: "Complete SOP for AI-agent-driven Twitter/X operations that sound like you: persona calibration (voice guide, dead-opener blacklist), a fact-source database for zero fabricated stats, weekly scheduling with dedup and golden time windows, six hard safety rules, pre-publish QC, and an analytics loop. Real case: +60% followers in 45 days, fully agent-operated."
+  app_category: DeveloperApplication
+  what: "You know you should post daily, but writing eats your evenings — and when AI writes for you, it sounds nothing like you. This SOP turns any agent into a ghostwriter that <strong>actually sounds like you</strong>, with a fact-source database so it never fabricates numbers, and safety rails so it never embarrasses you. Real result: +60% in 45 days."
+  takeaways:
+    - "<strong>Persona calibration</strong> (voice guide + dead-opener blacklist) is what makes AI sound like you, not a bot."
+    - "A <strong>fact-source database (SOURCE-INDEX)</strong> means every stat is traceable — zero fabricated numbers."
+    - "<strong>Six hard safety rules + pre-publish QC</strong> (triple-translation test) before anything posts."
+    - "Validated: <strong>1,150 → 1,837 followers (+60%) in 45 days</strong>, one tweet/day, fully agent-operated."
+  stats:
+    - ["Follower growth in 45 days", "+60%"]
+    - ["Posting cadence", "1 tweet/day"]
+    - ["Tweet dataset analyzed", "3,861 tweets"]
+    - ["Hard safety rules", "6"]
+  howto:
+    title: "How to run an AI Twitter ghostwriter"
+    steps:
+      - name: "1 · Calibrate the persona"
+        text: "Build a voice guide and expression rules, plus a dead-opener blacklist, so the agent writes in your voice instead of generic AI cadence."
+      - name: "2 · Build the fact-source database"
+        text: "Create a SOURCE-INDEX of traceable facts and numbers. The agent may only cite stats that exist in the index — this is how it never fabricates."
+      - name: "3 · Schedule the week"
+        text: "Plan posts on a weekly schedule with dedup checks against past tweets and golden time windows (derived from a 3,861-tweet analysis)."
+      - name: "4 · Pre-publish QC"
+        text: "Run every draft through the six hard safety rules and a pre-publish checklist, including a triple-translation test, before it goes live."
+      - name: "5 · Analytics loop"
+        text: "Keep a tweet-log and weekly report so the agent learns which archetypes and lengths perform, and feeds that back into scheduling."
+  compare:
+    title: "Hand-written vs AI-agent-operated"
+    intro: "The goal isn't to remove you — it's to keep your voice while reclaiming your evenings."
+    columns: ["Dimension", "Manual", "Agent-operated (this SOP)"]
+    rows:
+      - ["Time cost", "Hours/week", "Minutes of review"]
+      - ["Voice", "Yours", "Yours (persona-calibrated)"]
+      - ["Fabricated stats", "Human error", "Blocked by SOURCE-INDEX"]
+      - ["Consistency", "Drops when busy", "Daily, scheduled"]
+  donts:
+    title: "Anti-patterns (where AI Twitter goes wrong)"
+    items:
+      - "Letting the agent write without persona calibration — instant bot smell."
+      - "No fact-source database — fabricated numbers destroy trust."
+      - "Skipping pre-publish QC — one bad auto-post undoes months."
+      - "Optimizing for volume over the archetypes that actually perform."
+  faqs:
+    - q: "Can an AI agent really post in my voice?"
+      a: "Yes, with persona calibration — a voice guide, expression rules, and a dead-opener blacklist — validated by a triple-translation test before publishing. The case study grew a real account +60% in 45 days, fully agent-operated, without sounding like a bot."
+    - q: "How does it avoid making up statistics?"
+      a: "A fact-source database (SOURCE-INDEX) holds every traceable fact. The agent is constrained to cite only numbers that exist in the index, so it can't fabricate."
+    - q: "Is it safe to let an agent post automatically?"
+      a: "Only with rails: six hard safety rules plus a pre-publish QC checklist (including a triple-translation test) gate every post. The point is consistency with your voice, not unattended risk."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from analysis of a 3,861-tweet dataset and a real +60%-in-45-days account."
+  related:
+    - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
+    - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
+    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+
+- slug: growth-finder
+  hf: gingiris-growth-finder
+  install: Gingiris-1031/gingiris-growth-finder
+  title: "Growth Finder — Which Growth Playbook Do You Need? | Gingiris"
+  h1: "Growth Finder — Diagnose, Then Pick the Right Playbook"
+  tagline: "Tell it your product type, stage and channel — it routes you to the growth playbook that fits."
+  meta_description: "Growth Finder: a meta-router that diagnoses your growth problem and points you to the right Gingiris playbook — launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community — by product type and stage."
+  keywords: "how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing, product launch, growth routing"
+  software_description: "Meta-router that diagnoses a growth problem and points to the matching Gingiris playbook (launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community) based on product type, stage and channel fit. Use it when you don't yet know which specialist playbook you need."
+  app_category: BusinessApplication
+  what: "When you don't yet know <strong>which</strong> growth move you need, start here. Growth Finder diagnoses your situation — product type, stage, channel — and routes you to the specialist playbook that fits, so you don't run an SLG play on a PLG product or chase stars when you need PMF."
+  takeaways:
+    - "<strong>Diagnose before you execute</strong> — the most common growth mistake is running the wrong playbook well."
+    - "Routing is by <strong>product type + stage + channel fit</strong>, not by what's trendy."
+    - "Pre-PMF? <strong>Don't market yet</strong> — go validate the must-have first."
+    - "Each specialist playbook is a one-command install; this just picks the right one."
+  stats:
+    - ["Specialist playbooks routed to", "10+"]
+    - ["Inputs used to route", "type · stage · channel"]
+    - ["Cost", "Free (MIT-0)"]
+    - ["Source", "AFFiNE 60K + 150 startups"]
+  howto:
+    title: "How to find your growth playbook"
+    steps:
+      - name: "1 · Name the product type"
+        text: "Open-source project, B2B SaaS, mobile app, or content/creator product — the type rules out half the playbooks immediately."
+      - name: "2 · Locate your stage"
+        text: "Pre-PMF, early traction, or scaling. Pre-PMF means validate first (user interviews), not market."
+      - name: "3 · Identify the bottleneck"
+        text: "Distribution, conversion, retention, or positioning — the bottleneck, not the symptom, points to the playbook."
+      - name: "4 · Route to the specialist"
+        text: "Match to the fitting playbook (see the table below) and install it with one command."
+  compare:
+    title: "Which playbook fits your problem"
+    intro: "Map your situation to the specialist playbook — then install that one."
+    columns: ["If you need to…", "Use", "Page"]
+    rows:
+      - ["Launch on Product Hunt / win the day", "Product Hunt Launch", "/skills/product-hunt-launch/"]
+      - ["Grow GitHub stars / OSS adoption", "Open-Source Marketing", "/skills/open-source-marketing/"]
+      - ["Grow B2B SaaS revenue (PLG/SLG)", "B2B SaaS Growth", "/skills/b2b-saas-growth/"]
+      - ["Rank on Google AND AI search", "SEO &amp; GEO", "/skills/seo-geo/"]
+      - ["Launch / grow a mobile app", "ASO &amp; Cold-Start", "/skills/aso-growth/"]
+      - ["Validate PMF / talk to users", "User Interview", "/skills/user-interview/"]
+  donts:
+    title: "Anti-patterns (growth mistakes this prevents)"
+    items:
+      - "Running an SLG playbook on a PLG product (or vice versa)."
+      - "Marketing hard before you have PMF."
+      - "Chasing stars/launches when the real bottleneck is conversion."
+      - "Picking a channel because it's trendy, not because it fits your stage."
+  faqs:
+    - q: "How do I know which growth playbook I need?"
+      a: "Diagnose three things — product type (OSS / B2B SaaS / app / content), stage (pre-PMF / traction / scaling), and your actual bottleneck (distribution / conversion / retention / positioning). The routing table maps that to a specific playbook to install."
+    - q: "I'm pre-PMF — should I start marketing?"
+      a: "No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first."
+    - q: "Are these playbooks free?"
+      a: "Yes — every Gingiris playbook is MIT-0 (public-domain equivalent, no attribution required) and installs into any AI agent with one command."
+    - q: "Who built this?"
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups."
+  related:
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]

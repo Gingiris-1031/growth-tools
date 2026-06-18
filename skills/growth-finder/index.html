@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growth Finder — Which Growth Playbook Do You Need? | Gingiris</title>
+<meta name="description" content="Growth Finder: a meta-router that diagnoses your growth problem and points you to the right Gingiris playbook — launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community — by product type and stage.">
+<meta name="keywords" content="how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing, product launch, growth routing">
+<meta name="author" content="Iris Wei">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gingiris.tools/skills/growth-finder/">
+<link rel="alternate" hreflang="en" href="https://gingiris.tools/skills/growth-finder/">
+<link rel="alternate" hreflang="x-default" href="https://gingiris.tools/skills/growth-finder/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gingiris.tools/skills/growth-finder/">
+<meta property="og:title" content="Growth Finder — Diagnose, Then Pick the Right Playbook">
+<meta property="og:description" content="Tell it your product type, stage and channel — it routes you to the growth playbook that fits.">
+<meta property="og:image" content="https://gingiris.tools/assets/images/og-banner.jpg">
+<meta property="og:site_name" content="Gingiris Growth Tools">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Growth Finder — Diagnose, Then Pick the Right Playbook">
+<meta name="twitter:description" content="Tell it your product type, stage and channel — it routes you to the growth playbook that fits.">
+<meta name="twitter:image" content="https://gingiris.tools/assets/images/og-banner.jpg">
+<meta name="twitter:creator" content="@WeiYipei">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Growth Finder — Diagnose, Then Pick the Right Playbook",
+      "applicationCategory": "BusinessApplication",
+      "applicationSubCategory": "Claude Skill",
+      "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
+      "description": "Meta-router that diagnoses a growth problem and points to the matching Gingiris playbook (launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community) based on product type, stage and channel fit. Use it when you don't yet know which specialist playbook you need.",
+      "url": "https://gingiris.tools/skills/growth-finder/",
+      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gingiris-growth-finder",
+      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-growth-finder",
+      "license": "https://opensource.org/licenses/MIT",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Iris Wei",
+        "alternateName": "生姜",
+        "url": "https://gingiris.tools",
+        "sameAs": [
+          "https://x.com/WeiYipei",
+          "https://www.linkedin.com/in/yipei-wei-550825105/",
+          "https://huggingface.co/Gingiris"
+        ]
+      },
+      "keywords": "how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing, product launch, growth routing"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to find your growth playbook",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "1 · Name the product type",
+          "text": "Open-source project, B2B SaaS, mobile app, or content/creator product — the type rules out half the playbooks immediately."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "2 · Locate your stage",
+          "text": "Pre-PMF, early traction, or scaling. Pre-PMF means validate first (user interviews), not market."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "3 · Identify the bottleneck",
+          "text": "Distribution, conversion, retention, or positioning — the bottleneck, not the symptom, points to the playbook."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "4 · Route to the specialist",
+          "text": "Match to the fitting playbook (see the table below) and install it with one command."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know which growth playbook I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diagnose three things — product type (OSS / B2B SaaS / app / content), stage (pre-PMF / traction / scaling), and your actual bottleneck (distribution / conversion / retention / positioning). The routing table maps that to a specific playbook to install."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I'm pre-PMF — should I start marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are these playbooks free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — every Gingiris playbook is MIT-0 (public-domain equivalent, no attribution required) and installs into any AI agent with one command."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who built this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Skills",
+          "item": "https://gingiris.tools/skills/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Growth Finder — Diagnose, Then Pick the Right Playbook",
+          "item": "https://gingiris.tools/skills/growth-finder/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root {
+    --bg:#f8f7f4; --surface:#ffffff; --surface-hover:#f3f2ef;
+    --border:#e8e6e1; --border-hover:#c8c5be;
+    --text:#1a1a1a; --text-secondary:#6b6860; --text-muted:#9b9890;
+    --accent:#16a34a; --accent-hover:#15803d;
+    --code-bg:#1f2937; --code-text:#e5e7eb;
+  }
+  body { font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .container { max-width:1200px; margin:0 auto; padding:0 24px; }
+  .narrow { max-width:760px; margin:0 auto; }
+  a { color:inherit; }
+  /* Header */
+  .site-nav { background:var(--surface); border-bottom:1px solid var(--border); padding:14px 0; position:sticky; top:0; z-index:10; }
+  .site-nav .container { display:flex; justify-content:space-between; align-items:center; }
+  .site-nav a.logo { font-weight:800; font-size:18px; color:var(--text); text-decoration:none; }
+  .site-nav .nav-links { display:flex; gap:24px; font-size:14px; }
+  .site-nav .nav-links a { color:var(--text-secondary); text-decoration:none; }
+  .site-nav .nav-links a:hover { color:var(--accent); }
+  /* Breadcrumb */
+  .crumbs { font-size:13px; color:var(--text-muted); padding:20px 0 0; }
+  .crumbs a { color:var(--text-secondary); text-decoration:none; }
+  .crumbs a:hover { color:var(--accent); }
+  /* Hero */
+  .hero { padding:40px 0 8px; text-align:center; }
+  .hero h1 { font-size:clamp(28px,5vw,44px); font-weight:800; line-height:1.15; letter-spacing:-0.02em; margin-bottom:16px; }
+  .hero .tag-line { font-size:18px; color:var(--text-secondary); margin:0 auto 28px; max-width:660px; }
+  .meta-install { display:inline-flex; align-items:center; gap:10px; background:var(--code-bg); color:var(--code-text); font-family:'JetBrains Mono',monospace; font-size:15px; padding:12px 14px 12px 20px; border-radius:8px; }
+  .meta-install b { color:#4ade80; font-weight:500; }
+  .copy-btn { background:transparent; border:1px solid #374151; color:var(--code-text); font:inherit; font-size:13px; padding:5px 11px; border-radius:6px; cursor:pointer; transition:background .15s; }
+  .copy-btn:hover { background:#374151; }
+  .copy-btn.copied { background:var(--accent); border-color:var(--accent); }
+  .credentials { font-size:14px; color:var(--text-muted); margin-top:14px; }
+  .credentials strong { color:var(--accent); }
+  /* Sections */
+  section { padding:40px 0 0; }
+  section h2 { font-size:24px; font-weight:800; letter-spacing:-0.01em; margin-bottom:16px; }
+  section p.body { font-size:16px; color:var(--text-secondary); }
+  /* Key results card */
+  .stats { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:8px 22px; }
+  .stats table { width:100%; border-collapse:collapse; font-size:15px; }
+  .stats td { padding:13px 0; border-bottom:1px solid var(--border); }
+  .stats tr:last-child td { border-bottom:none; }
+  .stats td.v { text-align:right; font-weight:700; }
+  /* Key takeaways */
+  .takeaways { background:#f0fdf4; border:1px solid #bbf7d0; border-left:4px solid var(--accent); border-radius:10px; padding:20px 24px; margin-top:8px; }
+  .takeaways h2 { font-size:15px; text-transform:uppercase; letter-spacing:0.04em; color:var(--accent-hover); margin-bottom:10px; }
+  .takeaways ul { margin:0; padding-left:20px; }
+  .takeaways li { font-size:15.5px; color:var(--text); padding:5px 0; line-height:1.55; }
+  /* HowTo steps */
+  ol.steps { list-style:none; counter-reset:none; padding:0; margin:0; }
+  ol.steps .step { display:flex; gap:16px; padding:18px 0; border-bottom:1px solid var(--border); }
+  ol.steps .step:last-child { border-bottom:none; }
+  .step-n { flex:0 0 30px; height:30px; width:30px; border-radius:50%; background:var(--accent); color:#fff; font-weight:700; font-size:14px; display:flex; align-items:center; justify-content:center; }
+  .step-t { font-weight:700; font-size:16px; margin-bottom:4px; }
+  .step-d { font-size:15px; color:var(--text-secondary); line-height:1.6; }
+  /* Comparison table */
+  .cmp-intro { font-size:15px; color:var(--text-secondary); margin-bottom:14px; }
+  .cmp { width:100%; border-collapse:collapse; font-size:15px; background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; }
+  .cmp th { text-align:left; background:var(--surface-hover); font-weight:700; padding:12px 18px; border-bottom:1px solid var(--border); }
+  .cmp td { padding:12px 18px; border-bottom:1px solid var(--border); }
+  .cmp tr:last-child td { border-bottom:none; }
+  .cmp td:nth-child(2) { font-weight:700; color:var(--accent-hover); white-space:nowrap; }
+  /* Don'ts */
+  ul.donts { list-style:none; padding:0; margin:0; }
+  ul.donts li { position:relative; padding:10px 0 10px 30px; border-bottom:1px solid var(--border); font-size:15px; color:var(--text-secondary); }
+  ul.donts li:last-child { border-bottom:none; }
+  ul.donts li::before { content:'✕'; position:absolute; left:4px; color:#dc2626; font-weight:700; }
+  /* FAQ */
+  .faq-item { padding:20px 0; border-bottom:1px solid var(--border); }
+  .faq-item:last-child { border-bottom:none; }
+  .faq-q { font-size:17px; font-weight:600; margin-bottom:8px; }
+  .faq-q::before { content:'Q '; color:var(--accent); font-weight:700; }
+  .faq-a { font-size:15px; color:var(--text-secondary); line-height:1.65; }
+  /* Related cards */
+  .rel-grid { display:grid; gap:12px; }
+  .rel-card { display:flex; justify-content:space-between; align-items:center; gap:12px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:16px 18px; text-decoration:none; color:var(--text); font-weight:600; font-size:15px; transition:border-color .15s, transform .15s; }
+  .rel-card:hover { border-color:var(--accent); transform:translateY(-1px); }
+  .rel-card .arr { color:var(--accent); }
+  /* Footer */
+  .site-footer { padding:40px 0; border-top:1px solid var(--border); margin-top:56px; text-align:center; font-size:14px; color:var(--text-muted); }
+  .site-footer a { color:var(--text-secondary); text-decoration:none; margin:0 8px; }
+  .site-footer a:hover { color:var(--accent); }
+  @media (max-width:640px) {
+    .container { padding:0 14px; }
+    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:nowrap; }
+    .hero { padding:24px 0 4px; }
+    .meta-install { font-size:13px; max-width:100%; overflow-x:auto; }
+  }
+</style>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a href="/" class="logo">Gingiris Growth Tools</a>
+      <div class="nav-links">
+        <a href="/blog/">Blog</a>
+        <a href="/tools/">Free Tools</a>
+        <a href="/skills/" style="color:var(--accent)">Skills</a>
+        <a href="https://huggingface.co/datasets/Gingiris" target="_blank" rel="noopener">HuggingFace &rarr;</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Growth Finder — Diagnose, Then Pick the Right Playbook</nav>
+  </div>
+
+  <header class="hero">
+    <div class="container narrow">
+      <h1>Growth Finder — Diagnose, Then Pick the Right Playbook</h1>
+      <p class="tag-line">Tell it your product type, stage and channel — it routes you to the growth playbook that fits.</p>
+      <div class="meta-install" id="install">
+        <span>npx skills add <b>Gingiris-1031/gingiris-growth-finder</b></span>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-growth-finder');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+      </div>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+    </div>
+  </header>
+
+  <div class="container narrow">
+    <section>
+      <div class="takeaways">
+        <h2>Key takeaways</h2>
+        <ul>
+          <li><strong>Diagnose before you execute</strong> — the most common growth mistake is running the wrong playbook well.</li>
+          <li>Routing is by <strong>product type + stage + channel fit</strong>, not by what's trendy.</li>
+          <li>Pre-PMF? <strong>Don't market yet</strong> — go validate the must-have first.</li>
+          <li>Each specialist playbook is a one-command install; this just picks the right one.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>What this is</h2>
+      <p class="body">When you don't yet know <strong>which</strong> growth move you need, start here. Growth Finder diagnoses your situation — product type, stage, channel — and routes you to the specialist playbook that fits, so you don't run an SLG play on a PLG product or chase stars when you need PMF.</p>
+    </section>
+
+    <section>
+      <h2>Key results</h2>
+      <div class="stats"><table><tbody>
+        <tr><td>Specialist playbooks routed to</td><td class="v">10+</td></tr>
+        <tr><td>Inputs used to route</td><td class="v">type · stage · channel</td></tr>
+        <tr><td>Cost</td><td class="v">Free (MIT-0)</td></tr>
+        <tr><td>Source</td><td class="v">AFFiNE 60K + 150 startups</td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section>
+      <h2>How to find your growth playbook</h2>
+      <ol class="steps">
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">1 · Name the product type</p><p class="step-d">Open-source project, B2B SaaS, mobile app, or content/creator product — the type rules out half the playbooks immediately.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">2 · Locate your stage</p><p class="step-d">Pre-PMF, early traction, or scaling. Pre-PMF means validate first (user interviews), not market.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">3 · Identify the bottleneck</p><p class="step-d">Distribution, conversion, retention, or positioning — the bottleneck, not the symptom, points to the playbook.</p></div></li>
+        <li class="step"><span class="step-n">4</span><div><p class="step-t">4 · Route to the specialist</p><p class="step-d">Match to the fitting playbook (see the table below) and install it with one command.</p></div></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Which playbook fits your problem</h2>
+      <p class="cmp-intro">Map your situation to the specialist playbook — then install that one.</p>
+      <table class="cmp">
+        <thead><tr><th>If you need to…</th><th>Use</th><th>Page</th></tr></thead>
+        <tbody>
+        <tr><td>Launch on Product Hunt / win the day</td><td>Product Hunt Launch</td><td>/skills/product-hunt-launch/</td></tr>
+        <tr><td>Grow GitHub stars / OSS adoption</td><td>Open-Source Marketing</td><td>/skills/open-source-marketing/</td></tr>
+        <tr><td>Grow B2B SaaS revenue (PLG/SLG)</td><td>B2B SaaS Growth</td><td>/skills/b2b-saas-growth/</td></tr>
+        <tr><td>Rank on Google AND AI search</td><td>SEO &amp; GEO</td><td>/skills/seo-geo/</td></tr>
+        <tr><td>Launch / grow a mobile app</td><td>ASO &amp; Cold-Start</td><td>/skills/aso-growth/</td></tr>
+        <tr><td>Validate PMF / talk to users</td><td>User Interview</td><td>/skills/user-interview/</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Anti-patterns (growth mistakes this prevents)</h2>
+      <ul class="donts">
+          <li>Running an SLG playbook on a PLG product (or vice versa).</li>
+          <li>Marketing hard before you have PMF.</li>
+          <li>Chasing stars/launches when the real bottleneck is conversion.</li>
+          <li>Picking a channel because it's trendy, not because it fits your stage.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+        <div class="faq-item"><p class="faq-q">How do I know which growth playbook I need?</p><p class="faq-a">Diagnose three things — product type (OSS / B2B SaaS / app / content), stage (pre-PMF / traction / scaling), and your actual bottleneck (distribution / conversion / retention / positioning). The routing table maps that to a specific playbook to install.</p></div>
+        <div class="faq-item"><p class="faq-q">I'm pre-PMF — should I start marketing?</p><p class="faq-a">No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first.</p></div>
+        <div class="faq-item"><p class="faq-q">Are these playbooks free?</p><p class="faq-a">Yes — every Gingiris playbook is MIT-0 (public-domain equivalent, no attribution required) and installs into any AI agent with one command.</p></div>
+        <div class="faq-item"><p class="faq-q">Who built this?</p><p class="faq-a">Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups.</p></div>
+    </section>
+
+    <section>
+      <h2>Related playbooks</h2>
+      <div class="rel-grid">
+          <a class="rel-card" href="/skills/product-hunt-launch/"><span>Product Hunt Launch Playbook — Win #1 of the Day</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/b2b-saas-growth/"><span>B2B SaaS Growth — PLG vs SLG to $10M ARR</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/seo-geo/"><span>SEO &amp; GEO Dual-Engine Playbook</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/"><span>Browse all 40+ playbooks</span><span class="arr">&rarr;</span></a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <a href="https://huggingface.co/datasets/Gingiris/gingiris-growth-finder" target="_blank" rel="noopener">Hugging Face</a> ·
+        <a href="https://dev.to/iris1031" target="_blank" rel="noopener">Dev.to</a> ·
+        <a href="https://x.com/WeiYipei" target="_blank" rel="noopener">X / Twitter</a> ·
+        <a href="/blog/">Blog</a>
+      </p>
+      <p style="margin-top:12px">© Iris (生姜iris) · MIT-0 licensed · No attribution required</p>
+    </div>
+  </footer>
+</body>
+</html>
