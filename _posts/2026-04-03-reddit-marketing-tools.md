@@ -281,3 +281,16 @@ Remember: Reddit communities reward authenticity and punish manipulation. Build 
 ---
 
 *This guide is part of the [Gingiris Growth Tools](https://gingiris.tools/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
+
+---
+
+## 🛠️ Want the AI-powered skills behind this?
+
+These strategies are packaged as installable AI agent skills — ready to run inside Claude Code, Cursor, or any agent that supports the [skills](https://skills.sh) protocol.
+
+```bash
+npx skills add Gingiris-1031/gingiris-skills
+```
+
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+```

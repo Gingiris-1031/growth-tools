@@ -258,3 +258,16 @@ Need help implementing this? These free tools from Gingiris can help:
 5. **IndexNow push** — Get into Bing in minutes, AI citation in hours
 
 Stop writing for Google. Start writing for the AI engines that are increasingly where your users start their search.
+
+---
+
+## 🛠️ Want the AI-powered skills behind this?
+
+These strategies are packaged as installable AI agent skills — ready to run inside Claude Code, Cursor, or any agent that supports the [skills](https://skills.sh) protocol.
+
+```bash
+npx skills add Gingiris-1031/gingiris-skills
+```
+
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+```

@@ -202,3 +202,16 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 {"@type": "Question", "name": "How early should I reach out to a Product Hunt hunter?", "acceptedAnswer": {"@type": "Answer", "text": "4-6 weeks before launch date. Earlier than that, hunters cannot commit to a specific date because PH allows products to be submitted up to ~3 weeks ahead. Later than that, top hunters are likely already booked. The ideal sequence: 6 weeks out — send outreach to 5-10 mid-tier hunters; 4 weeks out — confirm one and give them Pro access; 2 weeks out — share the final launch copy with the hunter for review."}}
 ]}
 </script>
+
+---
+
+## 🛠️ Want the AI-powered skills behind this?
+
+These strategies are packaged as installable AI agent skills — ready to run inside Claude Code, Cursor, or any agent that supports the [skills](https://skills.sh) protocol.
+
+```bash
+npx skills add Gingiris-1031/gingiris-skills
+```
+
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+```

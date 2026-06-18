@@ -249,3 +249,16 @@ If you want that conversation, I do consulting for AI/SaaS founders at [gingiris
 - [Analook MCP for AI Agents](https://www.analook.com/docs/mcp.html) — run competitor analysis from inside Claude Desktop or Cursor
 
 *Written by [Iris Wei](https://gingiris.com) — co-founder of [AFFiNE](https://github.com/toeverything/AFFiNE) (60,000+ GitHub stars), 30x Product Hunt #1 winner, currently bootstrapping [Analook](https://www.analook.com). May 2026.*
+
+---
+
+## 🛠️ Want the AI-powered skills behind this?
+
+These strategies are packaged as installable AI agent skills — ready to run inside Claude Code, Cursor, or any agent that supports the [skills](https://skills.sh) protocol.
+
+```bash
+npx skills add Gingiris-1031/gingiris-skills
+```
+
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+```

@@ -465,3 +465,16 @@ Cold outreach works when it feels human and specific, and fails when it feels au
 Start with 10 personalized emails this week. Measure your reply rate. Iterate on the opening line first (it has the highest impact), then the subject line, then the ask. Within 3-4 weeks of consistent testing, you'll have a formula that works for your specific ICP.
 
 For more SaaS growth tools and templates, visit the [growth tools directory](https://gingiris.tools/).
+
+---
+
+## 🛠️ Want the AI-powered skills behind this?
+
+These strategies are packaged as installable AI agent skills — ready to run inside Claude Code, Cursor, or any agent that supports the [skills](https://skills.sh) protocol.
+
+```bash
+npx skills add Gingiris-1031/gingiris-skills
+```
+
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+```
