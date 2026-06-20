@@ -132,11 +132,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/",
-      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
-      "permanent": true
-    },
-    {
       "source": "/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/",
       "destination": "/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/",
       "permanent": true
@@ -197,11 +192,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/2026/04/22/github-star-growth-2026/",
-      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
-      "permanent": true
-    },
-    {
       "source": "/blog/2026/04/23/aso-app-store-optimization-fixes/",
       "destination": "/blog/2026/04/12/app-store-optimization-guide/",
       "permanent": true
@@ -209,16 +199,6 @@
     {
       "source": "/blog/2026/04/24/product-hunt-launch-2026/",
       "destination": "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/04/29/affine-github-stars-timeline-day-by-day/",
-      "destination": "/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/04/29/github-star-growth-levers-2026/",
-      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
       "permanent": true
     },
     {
@@ -232,11 +212,6 @@
       "permanent": true
     },
     {
-      "source": "/blog/2026/05/06/aso-app-store-optimization-2026/",
-      "destination": "/blog/2026/04/12/app-store-optimization-guide/",
-      "permanent": true
-    },
-    {
       "source": "/blog/2026/05/06/product-hunt-launch-day-timeline/",
       "destination": "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/",
       "permanent": true
@@ -244,11 +219,6 @@
     {
       "source": "/blog/2026/05/07/product-hunt-launch-checklist-2026/",
       "destination": "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/08/github-star-growth-compounding-plays-2026/",
-      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
       "permanent": true
     },
     {
@@ -314,36 +284,6 @@
     {
       "source": "/blog/2026/05/25/b2b-saas-growth-expansion-loops-2026/",
       "destination": "/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/26/aso-app-store-optimization-conversion-loops-2026/",
-      "destination": "/blog/2026/04/12/app-store-optimization-guide/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/27/product-hunt-launch-retention-loops-2026/",
-      "destination": "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/28/github-star-growth-readme-fixes-2026/",
-      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/29/b2b-saas-growth-icp-fixes-2026/",
-      "destination": "/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/",
-      "destination": "/blog/2026/04/12/app-store-optimization-guide/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/2026/05/31/product-hunt-launch-comment-loops-2026/",
-      "destination": "/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/",
       "permanent": true
     }
   ]
