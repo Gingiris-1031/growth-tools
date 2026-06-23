@@ -84,4 +84,4 @@ Product Huntは「1日のイベント」ではなく「3週間のプロジェク
 
 準備→当日→フォローアップの全体を設計することで、1回のローンチが長期的な成長エンジンになる。
 
-詳細なチェックリストは [Gingiris Growth Tools](https://gingiris.github.io/growth-tools/) で公開中。
+詳細なチェックリストは [Gingiris Growth Tools](https://gingiris.tools/) で公開中。

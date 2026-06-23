@@ -93,4 +93,4 @@ GitHub Trendingには言語フィルターがある。
 
 本当の目的は「開発者に価値を届けること」。スターはその結果として自然についてくる。
 
-私たちの全戦略とツールは [Gingiris Growth Tools](https://gingiris.github.io/growth-tools/) で公開している。
+私たちの全戦略とツールは [Gingiris Growth Tools](https://gingiris.tools/) で公開している。
