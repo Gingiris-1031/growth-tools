@@ -252,3 +252,10 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
 
+
+
+---
+
+### Related guides
+
+- [Building an MCP Server SaaS (200 lines, 3 bugs)](/blog/2026/04/29/mcp-server-saas-200-lines-3-bugs/)

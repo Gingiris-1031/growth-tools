@@ -199,3 +199,11 @@ Only after you have a validated channel. Pay for tools that automate what's alre
 }
 </script>
 
+
+
+---
+
+### Related guides
+
+- [ASO: Conversion & Discovery (2026)](/blog/2026/05/06/aso-app-store-optimization-2026/)
+- [ASO Retention Signals (2026)](/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/)

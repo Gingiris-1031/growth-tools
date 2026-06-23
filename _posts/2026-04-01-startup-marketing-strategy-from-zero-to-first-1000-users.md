@@ -166,3 +166,14 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
 
+
+
+---
+
+### Related guides
+
+- [Cold Outreach Email Templates for SaaS](/blog/2026/04/03/cold-outreach-email-templates-saas/)
+- [Best Reddit Marketing Tools](/blog/2026/04/03/reddit-marketing-tools/)
+- [Word-of-Mouth Marketing Playbook](/blog/2026/04/03/word-of-mouth-marketing/)
+- [Gingiris Claude Skills on skills.sh](/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/)
+- [Meet TEN: realtime multimodal agent framework](/blog/2024/09/23/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents/)

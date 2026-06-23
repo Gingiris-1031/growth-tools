@@ -237,3 +237,11 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
 
+
+
+---
+
+### Related guides
+
+- [GitHub Star Growth Tactics (2026)](/blog/2026/04/22/github-star-growth-2026/)
+- [GitHub Star Compounding Plays (2026)](/blog/2026/05/08/github-star-growth-compounding-plays-2026/)
