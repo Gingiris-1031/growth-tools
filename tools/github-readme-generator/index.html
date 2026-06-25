@@ -183,6 +183,16 @@
         .copy-btn { background: transparent; border: 1px solid var(--border); border-radius: 6px; padding: 5px 13px; font-size: 12px; cursor: pointer; color: var(--text-secondary); font-family: inherit; transition: all 0.15s; }
         .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
         .output pre { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 18px; overflow-x: auto; font-family: 'SF Mono', ui-monospace, Menlo, Consolas, monospace; font-size: 13px; line-height: 1.6; color: var(--text); white-space: pre-wrap; word-break: break-word; max-height: 520px; overflow-y: auto; }
+        .field-hint { font-size: 12px; color: var(--text-muted); margin-top: 5px; line-height: 1.5; }
+        .field-hint code { background: var(--surface-hover); padding: 1px 5px; border-radius: 4px; font-size: 11px; }
+        .field-hint em { font-style: normal; color: var(--text-secondary); font-weight: 600; }
+        .tips { margin-top: 22px; }
+        .tips:empty { display: none; }
+        .tips-box { background: var(--green-light); border: 1px solid rgba(90,144,96,0.25); border-radius: 10px; padding: 16px 18px; }
+        .tips-box h4 { font-size: 13px; font-weight: 700; color: var(--accent); margin-bottom: 10px; }
+        .tips-box ul { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+        .tips-box li { font-size: 13px; color: var(--text-secondary); display: flex; gap: 8px; align-items: flex-start; }
+        .tips-box li .ic { flex-shrink: 0; }
         @media (max-width: 600px) { .hero h1 { font-size: 28px; } .stats-grid { grid-template-columns: 1fr; } .field-row { grid-template-columns: 1fr; } }
     </style>
 </head>
@@ -218,7 +228,7 @@
     <section class="tool" id="tool">
         <div class="tool-card">
             <h2>Generate Your README.md</h2>
-            <p class="tool-sub">Fill in your project details and get a complete, copy-paste-ready README. 100% in your browser — no signup, no API key.</p>
+            <p class="tool-sub">Built on the <strong>gr-readme</strong> system that took AFFiNE 0→60K★ — pain-first tagline, 3-second first screen, Quick Start up top, AI-agent section, and a star CTA where people actually see it. 100% in your browser — no signup, no API key.</p>
             <div class="tool-form">
                 <div class="field-row">
                     <div class="field">
@@ -231,8 +241,13 @@
                     </div>
                 </div>
                 <div class="field">
-                    <label for="rTagline">One-line description (the hook)</label>
-                    <input id="rTagline" type="text" placeholder="e.g. 100+ curated growth tools for AI startups" maxlength="140">
+                    <label for="rTagline">Tagline — the single most important line</label>
+                    <input id="rTagline" type="text" placeholder="e.g. Open source Notion alternative — offline-first, privacy-focused" maxlength="120">
+                    <div class="field-hint">≤12 words · pain-first · names <em>what + who + the pain it kills</em>. Don't start with "A powerful…". Try: <code>[Category] without [pain]</code> or <code>[Notion] alternative — [differentiator]</code></div>
+                </div>
+                <div class="field">
+                    <label for="rWhat">What is this? (2–3 sentences for the first screen)</label>
+                    <textarea id="rWhat" placeholder="A one-paragraph expansion of the tagline: the problem, your solution, and the one thing that makes it different."></textarea>
                 </div>
                 <div class="field-row">
                     <div class="field">
@@ -243,7 +258,7 @@
                             <option value="pip">pip (Python)</option>
                             <option value="go">go install</option>
                             <option value="cargo">cargo (Rust)</option>
-                            <option value="docker">Docker</option>
+                            <option value="docker">Docker Compose</option>
                             <option value="clone">git clone</option>
                         </select>
                     </div>
@@ -260,21 +275,36 @@
                     </div>
                 </div>
                 <div class="field">
-                    <label for="rFeatures">Key features (one per line, 2–6)</label>
-                    <textarea id="rFeatures" placeholder="Fast and lightweight&#10;Zero config&#10;Works everywhere"></textarea>
+                    <label for="rFeatures">Key features — pain first, ≤7 (one per line)</label>
+                    <textarea id="rFeatures" placeholder="Works offline — no internet required, all data stored locally&#10;Export everything — Markdown, PDF, raw JSON, always your data&#10;Self-hostable — deploy to your own server in 5 minutes"></textarea>
+                    <div class="field-hint">Lead with the benefit, not the mechanism. The first <strong>bold</strong> phrase becomes the highlighted keyword.</div>
+                </div>
+                <div class="field-row">
+                    <div class="field">
+                        <label for="rSkill">AI-agent install command (optional)</label>
+                        <input id="rSkill" type="text" placeholder="e.g. npx skills add owner/project" maxlength="120">
+                    </div>
+                    <div class="field">
+                        <label for="rDiscord">Community link (optional)</label>
+                        <input id="rDiscord" type="text" placeholder="e.g. https://discord.gg/yourserver" maxlength="120">
+                    </div>
                 </div>
                 <div class="field">
                     <label>Include sections</label>
                     <div class="checks">
                         <label><input type="checkbox" id="cBadges" checked> Badges</label>
                         <label><input type="checkbox" id="cToc" checked> Table of Contents</label>
-                        <label><input type="checkbox" id="cScreens" checked> Screenshots</label>
+                        <label><input type="checkbox" id="cHero" checked> Hero image</label>
+                        <label><input type="checkbox" id="cArch"> Architecture (mermaid)</label>
+                        <label><input type="checkbox" id="cAI" checked> AI-agent integration</label>
+                        <label><input type="checkbox" id="cStarCta" checked> Star CTA (first screen)</label>
                         <label><input type="checkbox" id="cContrib" checked> Contributing</label>
-                        <label><input type="checkbox" id="cStar"> Star History</label>
+                        <label><input type="checkbox" id="cStar" checked> Star history</label>
                     </div>
                 </div>
                 <button class="gen-btn" id="rGenBtn">✨ Generate README</button>
             </div>
+            <div id="rTips" class="tips"></div>
             <div class="output" id="rOutput"></div>
         </div>
     </section>
@@ -382,91 +412,149 @@
         setTheme(saved || (prefersDark ? 'dark' : 'light'));
         toggle.addEventListener('click', function() { setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
 
-        // ===== GitHub README Generator =====
+        // ===== GitHub README Generator (gr-readme system: AFFiNE 0→60K★) =====
         function slugify(s){ return String(s).toLowerCase().replace(/[^\w\s-]/g,'').trim().replace(/\s+/g,'-'); }
-        function rmInstall(method, repo){
-            var name = repo.split('/')[1] || repo || 'my-project';
+        function rmInstall(method, repo, name){
+            var lc = repo.toLowerCase();
             switch(method){
                 case 'npm': return '```bash\nnpm install ' + name + '\n```';
                 case 'yarn': return '```bash\nyarn add ' + name + '\n# or\npnpm add ' + name + '\n```';
                 case 'pip': return '```bash\npip install ' + name + '\n```';
-                case 'go': return '```bash\ngo install github.com/' + (repo || 'owner/' + name) + '@latest\n```';
+                case 'go': return '```bash\ngo install github.com/' + repo + '@latest\n```';
                 case 'cargo': return '```bash\ncargo add ' + name + '\n```';
-                case 'docker': return '```bash\ndocker pull ' + (repo || 'owner/' + name).toLowerCase() + '\ndocker run --rm ' + (repo || 'owner/' + name).toLowerCase() + '\n```';
-                case 'clone': return '```bash\ngit clone https://github.com/' + (repo || 'owner/' + name) + '.git\ncd ' + name + '\n```';
+                case 'docker': return '```bash\ngit clone https://github.com/' + repo + '.git\ncd ' + name + '\ndocker compose up -d\n# → open http://localhost:3000\n```';
+                case 'clone': return '```bash\ngit clone https://github.com/' + repo + '.git\ncd ' + name + '\n```';
                 default: return '```bash\nnpm install ' + name + '\n```';
             }
         }
+        // Pain-first feature: bold the benefit phrase before the separator (don't match intra-word hyphens).
+        function painFeature(f){
+            var seps = [' — ', ' – ', ' - ', ': '];
+            for (var i = 0; i < seps.length; i++) {
+                var idx = f.indexOf(seps[i]);
+                if (idx > 0) return '- **' + f.slice(0, idx).trim() + '** — ' + f.slice(idx + seps[i].length).trim();
+            }
+            var w = f.split(/\s+/);
+            if (w.length > 3) return '- **' + w.slice(0, 2).join(' ') + '** ' + w.slice(2).join(' ');
+            return '- **' + f + '**';
+        }
         function rmGenerate(){
-            var repo = (document.getElementById('rRepo').value || '').trim();
+            var repo = (document.getElementById('rRepo').value || '').trim().replace(/^https?:\/\/github\.com\//,'').replace(/\.git$/,'').replace(/\/$/,'');
             var title = (document.getElementById('rTitle').value || (repo.split('/')[1] || 'My Project')).trim();
-            var tagline = (document.getElementById('rTagline').value || 'A short, compelling one-line description of what this project does.').trim();
+            var name = repo.split('/')[1] || slugify(title) || 'my-project';
+            var repoPath = repo && repo.indexOf('/') > -1 ? repo : ('owner/' + name);
+            var tagline = (document.getElementById('rTagline').value || '').trim();
+            var what = (document.getElementById('rWhat').value || '').trim();
             var method = document.getElementById('rInstall').value;
             var license = document.getElementById('rLicense').value;
+            var skillCmd = (document.getElementById('rSkill').value || '').trim();
+            var discord = (document.getElementById('rDiscord').value || '').trim();
             var feats = (document.getElementById('rFeatures').value || '').split('\n').map(function(s){ return s.trim(); }).filter(Boolean);
-            if (!feats.length) feats = ['Fast and lightweight', 'Simple, zero-config setup', 'Works everywhere'];
+            if (!feats.length) feats = ['Works offline — no internet required, all data stored locally', 'Export everything — Markdown, PDF, raw JSON, always your data', 'Self-hostable — deploy to your own server in 5 minutes'];
+            feats = feats.slice(0, 7);
             var opt = {
                 badges: document.getElementById('cBadges').checked,
                 toc: document.getElementById('cToc').checked,
-                screens: document.getElementById('cScreens').checked,
+                hero: document.getElementById('cHero').checked,
+                arch: document.getElementById('cArch').checked,
+                ai: document.getElementById('cAI').checked,
+                starCta: document.getElementById('cStarCta').checked,
                 contrib: document.getElementById('cContrib').checked,
                 star: document.getElementById('cStar').checked
             };
-            var repoPath = repo || 'owner/' + slugify(title);
+            if (!tagline) tagline = 'Open source ' + title + ' — name the category, the audience, and the pain it kills.';
             var nl = '\n';
-            var md = '# ' + title + nl + nl + '> ' + tagline + nl + nl;
+            var md = '<div align="center">' + nl + nl;
+            md += '# ' + title + nl + nl;
+            md += '### ' + tagline + nl + nl;
 
             if (opt.badges) {
-                md += '[![Stars](https://img.shields.io/github/stars/' + repoPath + '?style=flat&logo=github)](https://github.com/' + repoPath + '/stargazers) ';
-                md += '[![License](https://img.shields.io/github/license/' + repoPath + ')](./LICENSE) ';
-                md += '[![Issues](https://img.shields.io/github/issues/' + repoPath + ')](https://github.com/' + repoPath + '/issues) ';
-                md += '[![Last commit](https://img.shields.io/github/last-commit/' + repoPath + ')](https://github.com/' + repoPath + '/commits)' + nl + nl;
+                // Grouped by meaning: identity → health → community
+                md += '[![Stars](https://img.shields.io/github/stars/' + repoPath + '?style=flat&logo=github)](https://github.com/' + repoPath + '/stargazers)';
+                md += ' [![License](https://img.shields.io/github/license/' + repoPath + ')](./LICENSE)';
+                md += ' [![Last commit](https://img.shields.io/github/last-commit/' + repoPath + ')](https://github.com/' + repoPath + '/commits)';
+                md += ' [![Issues](https://img.shields.io/github/issues/' + repoPath + ')](https://github.com/' + repoPath + '/issues)';
+                if (discord) md += ' [![Discord](https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white)](' + discord + ')';
+                md += nl + nl;
+            }
+            md += '</div>' + nl + nl;
+
+            if (opt.hero) {
+                md += '<!-- 👇 Show before you tell: drag a demo GIF or screenshot into GitHub\'s editor (use its CDN, not an external link). UI products: a ≤60s demo cuts cognitive load ~80%. -->' + nl;
+                md += '<p align="center"><img src="./assets/demo.gif" alt="' + title + ' demo" width="720"></p>' + nl + nl;
+            }
+
+            // What is this — first-screen core
+            md += '## About' + nl + nl;
+            md += (what || ('**' + title + '** ' + tagline.charAt(0).toLowerCase() + tagline.slice(1) + '. Describe the problem, your solution, and the one thing that makes it different — in 2–3 sentences.')) + nl + nl;
+
+            if (opt.starCta) {
+                md += '> ⭐ **If this looks useful, star it** — it helps other people find the project.' + nl + nl;
             }
 
             if (opt.toc) {
                 md += '## Table of Contents' + nl + nl;
-                md += '- [Features](#features)' + nl;
                 md += '- [Quick Start](#quick-start)' + nl;
-                md += '- [Usage](#usage)' + nl;
-                if (opt.screens) md += '- [Screenshots](#screenshots)' + nl;
+                md += '- [Features](#features)' + nl;
+                if (opt.arch) md += '- [How It Works](#how-it-works)' + nl;
+                if (opt.ai) md += '- [AI Agent Integration](#ai-agent-integration)' + nl;
                 if (opt.contrib) md += '- [Contributing](#contributing)' + nl;
+                md += '- [Community & Support](#community--support)' + nl;
                 md += '- [License](#license)' + nl + nl;
             }
 
-            md += '## Features' + nl + nl;
-            md += feats.map(function(f){ return '- ✨ ' + f; }).join(nl) + nl + nl;
-
+            // Quick Start — high up (section 2/3)
             md += '## Quick Start' + nl + nl;
-            md += rmInstall(method, repoPath) + nl + nl;
+            md += '> Prerequisites: list any required runtime/version here.' + nl + nl;
+            md += rmInstall(method, repoPath, name) + nl + nl;
+            if (method !== 'docker') md += 'Don\'t want to self-host? Try the [hosted version](https://your-project.com).' + nl + nl;
 
-            md += '## Usage' + nl + nl;
-            md += '```bash' + nl + '# Basic example' + nl + (slugify(title) || 'my-project') + ' --help' + nl + '```' + nl + nl;
+            // Features — pain first
+            md += '## Features' + nl + nl;
+            md += feats.map(painFeature).join(nl) + nl + nl;
 
-            if (opt.screens) {
-                md += '## Screenshots' + nl + nl;
-                md += '<!-- Replace with your actual screenshots -->' + nl;
-                md += '![' + title + ' screenshot](https://via.placeholder.com/800x450?text=' + encodeURIComponent(title) + ')' + nl + nl;
+            if (opt.arch) {
+                md += '## How It Works' + nl + nl;
+                md += '```mermaid' + nl;
+                md += 'graph TD' + nl;
+                md += '    A[User / AI Agent] --> B[' + title + ' Core]' + nl;
+                md += '    B --> C[Service A]' + nl;
+                md += '    B --> D[Service B]' + nl;
+                md += '    B --> E[Storage]' + nl;
+                md += '```' + nl + nl;
+            }
+
+            if (opt.ai) {
+                md += '## AI Agent Integration' + nl + nl;
+                md += 'Install as a skill for Claude Code, Cursor, or any AI agent:' + nl + nl;
+                md += '```bash' + nl + (skillCmd || ('npx skills add ' + repoPath)) + nl + '```' + nl + nl;
+                md += 'Or reference it directly in your `CLAUDE.md`:' + nl + nl;
+                md += '```markdown' + nl + '@' + name + '/README' + nl + '```' + nl + nl;
+                md += '<details><summary>MCP server config</summary>' + nl + nl;
+                md += '```json' + nl + '{' + nl + '  "mcpServers": {' + nl + '    "' + name + '": {' + nl + '      "command": "npx",' + nl + '      "args": ["-y", "@' + (repoPath.split('/')[0]) + '/' + name + '-mcp"]' + nl + '    }' + nl + '  }' + nl + '}' + nl + '```' + nl + nl + '</details>' + nl + nl;
             }
 
             if (opt.contrib) {
                 md += '## Contributing' + nl + nl;
-                md += 'Contributions are welcome! Please follow these steps:' + nl + nl;
-                md += '1. Fork the repository' + nl;
-                md += '2. Create your feature branch (`git checkout -b feature/amazing-feature`)' + nl;
-                md += '3. Commit your changes (`git commit -m \'Add amazing feature\'`)' + nl;
-                md += '4. Push to the branch (`git push origin feature/amazing-feature`)' + nl;
-                md += '5. Open a Pull Request' + nl + nl;
-                md += 'Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for our code of conduct and development workflow.' + nl + nl;
+                md += 'PRs welcome. See [CONTRIBUTING.md](./CONTRIBUTING.md) for setup and our development workflow.' + nl + nl;
+                md += 'Questions? ' + (discord ? 'Join [Discord](' + discord + ')' : 'Open a [Discussion](https://github.com/' + repoPath + '/discussions)') + ' or open an [issue](https://github.com/' + repoPath + '/issues).' + nl + nl;
             }
 
-            if (opt.star) {
-                md += '## Star History' + nl + nl;
-                md += '[![Star History Chart](https://api.star-history.com/svg?repos=' + repoPath + '&type=Date)](https://star-history.com/#' + repoPath + '&Date)' + nl + nl;
-            }
+            md += '## Community & Support' + nl + nl;
+            if (discord) md += '- **Discord** — questions, help, show what you built: ' + discord + nl;
+            md += '- **GitHub Discussions** — feature requests, long-form questions' + nl;
+            md += '- **GitHub Issues** — bugs only' + nl;
+            md += '- **Security** — please report vulnerabilities privately, not in public issues' + nl + nl;
 
             md += '## License' + nl + nl;
-            md += 'This project is licensed under the ' + license + ' License — see the [LICENSE](./LICENSE) file for details.' + nl;
+            md += 'Licensed under the ' + license + ' License — see [LICENSE](./LICENSE).' + nl;
 
+            if (opt.star) {
+                md += nl + '## ⭐ Star History' + nl + nl;
+                md += '[![Star History Chart](https://api.star-history.com/svg?repos=' + repoPath + '&type=Date)](https://star-history.com/#' + repoPath + '&Date)' + nl;
+            }
+
+            // Render output
             var out = document.getElementById('rOutput');
             out.innerHTML = '<div class="output-bar"><span class="o-label">README.md</span>' +
                 '<div class="output-actions"><button class="copy-btn" id="rCopy">Copy</button>' +
@@ -474,17 +562,35 @@
                 '<pre id="rPre"></pre>';
             document.getElementById('rPre').textContent = md;
             out._md = md;
-            out._name = (slugify(title) || 'README') ;
             document.getElementById('rCopy').onclick = function(){
-                navigator.clipboard.writeText(out._md).then(function(){ var o=this.textContent; this.textContent='✓ Copied'; var b=this; setTimeout(function(){ b.textContent=o; },1400); }.bind(this));
+                var b=this; navigator.clipboard.writeText(out._md).then(function(){ var o=b.textContent; b.textContent='✓ Copied'; setTimeout(function(){ b.textContent=o; },1400); });
             };
             document.getElementById('rDownload').onclick = function(){
                 var blob = new Blob([out._md], { type: 'text/markdown' });
-                var a = document.createElement('a');
-                a.href = URL.createObjectURL(blob); a.download = 'README.md';
-                document.body.appendChild(a); a.click(); document.body.removeChild(a);
-                URL.revokeObjectURL(a.href);
+                var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'README.md';
+                document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(a.href);
             };
+
+            // Live coaching tips from the gr-readme checklist
+            renderTips(tagline, what, feats, opt);
+        }
+        function renderTips(tagline, what, feats, opt){
+            var tips = [];
+            var words = tagline.trim().split(/\s+/).filter(Boolean);
+            var lc = tagline.toLowerCase();
+            if (/^(a |an )/.test(lc) || /\b(powerful|amazing|flexible|robust|extensible|modern)\b/.test(lc)) {
+                tips.push({ ok:false, t:'Tagline uses generic filler ("a/an/powerful/flexible…"). Name the specific category, audience, and pain instead.' });
+            } else { tips.push({ ok:true, t:'Tagline avoids generic filler — good.' }); }
+            if (words.length > 12) { tips.push({ ok:false, t:'Tagline is ' + words.length + ' words — trim to ≤12 so it reads in <3 seconds.' }); }
+            else { tips.push({ ok:true, t:'Tagline is ' + words.length + ' words (≤12) — scannable.' }); }
+            if (!what) { tips.push({ ok:false, t:'Add a 2–3 sentence "What is this?" so the first screen answers what + why + who.' }); }
+            if (feats.length > 7) { tips.push({ ok:false, t:'You have ' + feats.length + ' features — cut to the 7 that make someone install.' }); }
+            tips.push({ ok:true, t:'Quick Start sits in the top sections and the star CTA is on the first screen — where 80% of visitors actually look.' });
+            if (!opt.ai) { tips.push({ ok:false, t:'Consider the AI-agent section — a fast-growing install path in 2025+.' }); }
+            var box = document.getElementById('rTips');
+            box.innerHTML = '<div class="tips-box"><h4>📋 README coach (gr-readme · AFFiNE 0→60K★)</h4><ul>' +
+                tips.map(function(x){ return '<li><span class="ic">' + (x.ok ? '✅' : '⚠️') + '</span><span>' + x.t + '</span></li>'; }).join('') +
+                '</ul></div>';
         }
         document.getElementById('rGenBtn').addEventListener('click', rmGenerate);
     </script>
