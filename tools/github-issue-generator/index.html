@@ -220,7 +220,29 @@
         .template-desc { font-size: 13px; color: var(--text-secondary); }
         .template-tag { font-size: 11px; padding: 3px 10px; border-radius: 12px; background: var(--green-light); color: var(--accent); font-weight: 600; white-space: nowrap; }
 
-        @media (max-width: 600px) { .hero h1 { font-size: 28px; } .stats-grid { grid-template-columns: 1fr; } }
+        /* Interactive tool */
+        .tool { max-width: 900px; margin: 0 auto; padding: 0 24px 8px; scroll-margin-top: 70px; }
+        .tool-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow-md); padding: 28px; }
+        .tool-card h2 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+        .tool-card .tool-sub { color: var(--text-secondary); font-size: 14px; margin-bottom: 22px; }
+        .tool-form { display: grid; gap: 16px; }
+        .field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
+        .field input, .field select, .field textarea { width: 100%; padding: 11px 13px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font-family: inherit; font-size: 14px; transition: border-color 0.15s; }
+        .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--accent); }
+        .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        .gen-btn { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 15px; font-weight: 700; cursor: pointer; font-family: inherit; transition: background 0.15s; }
+        .gen-btn:hover { background: var(--accent-hover); }
+        .output { margin-top: 26px; }
+        .output:empty { display: none; }
+        .output-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 10px; }
+        .output-bar .o-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); }
+        .output-actions { display: flex; gap: 8px; }
+        .copy-btn { background: transparent; border: 1px solid var(--border); border-radius: 6px; padding: 5px 13px; font-size: 12px; cursor: pointer; color: var(--text-secondary); font-family: inherit; transition: all 0.15s; }
+        .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .output pre { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 18px; overflow-x: auto; font-family: 'SF Mono', ui-monospace, Menlo, Consolas, monospace; font-size: 13px; line-height: 1.6; color: var(--text); white-space: pre-wrap; word-break: break-word; max-height: 520px; overflow-y: auto; }
+        .output-hint { font-size: 13px; color: var(--text-secondary); margin-top: 12px; }
+        .output-hint code { background: var(--surface-hover); padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+        @media (max-width: 600px) { .hero h1 { font-size: 28px; } .stats-grid { grid-template-columns: 1fr; } .field-row { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
@@ -249,7 +271,7 @@
         <h1>GitHub Issue Generator</h1>
         <p>Generate professional bug report templates, feature request forms, and question templates for your open source project. Based on 60k GitHub stars experience.</p>
         <div class="hero-cta">
-            <a href="https://gingiris.tools/tools/github-issue-generator" class="btn btn-primary" target="_blank">
+            <a href="#tool" class="btn btn-primary">
                 🚀 Use the Tool Free
             </a>
             <a href="https://gingiris.tools/skills/" class="btn btn-secondary" target="_blank">
@@ -258,23 +280,37 @@
         </div>
     </section>
     
-    <!-- Tool Preview -->
-    <div class="tool-preview">
-        <div class="preview-card">
-            <div class="preview-header">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
+    <!-- Interactive Tool -->
+    <section class="tool" id="tool">
+        <div class="tool-card">
+            <h2>Generate Your Issue Template</h2>
+            <p class="tool-sub">Pick a template type, add your project details, and get a ready-to-commit GitHub issue form (YAML). 100% in your browser — no signup, no API key.</p>
+            <div class="tool-form">
+                <div class="field-row">
+                    <div class="field">
+                        <label for="iType">Template type</label>
+                        <select id="iType">
+                            <option value="bug">🐛 Bug Report</option>
+                            <option value="feature">✨ Feature Request</option>
+                            <option value="question">❓ Question / Support</option>
+                            <option value="docs">📖 Documentation</option>
+                            <option value="security">🔒 Security Vulnerability</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="iProject">Project name</label>
+                        <input id="iProject" type="text" placeholder="e.g. Growth Tools" maxlength="60">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="iContact">Contact / support link (optional)</label>
+                    <input id="iContact" type="text" placeholder="e.g. https://discord.gg/yourserver" maxlength="120">
+                </div>
+                <button class="gen-btn" id="iGenBtn">✨ Generate Template</button>
             </div>
-            <div class="preview-body">
-                <!-- Embedded tool or screenshot -->
-                <img src="https://gingiris.tools/assets/images/github-issue-generator-hero.jpg" 
-                     alt="GitHub Issue Generator tool interface showing template options for bug reports, feature requests, and questions" 
-                     style="width:100%;border-radius:8px;border:1px solid var(--border);"
-                     loading="lazy">
-            </div>
+            <div class="output" id="iOutput"></div>
         </div>
-    </div>
+    </section>
     
     <!-- Stats -->
     <section class="stats">
@@ -454,6 +490,112 @@
         var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         setTheme(saved || (prefersDark ? 'dark' : 'light'));
         toggle.addEventListener('click', function() { setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
+
+        // ===== GitHub Issue Template Generator =====
+        function issueTemplate(type, project, contact){
+            var p = project || 'the project';
+            var T = {
+                bug: { name: 'Bug Report', about: 'Report a problem to help us improve ' + p, title: '[Bug]: ', labels: ['bug'], file: 'bug_report.yml',
+                    body: [
+                        { md: '## Thanks for taking the time to report a bug in ' + p + '!\nPlease fill out the sections below so we can reproduce and fix it quickly.' },
+                        { in: 'What happened?', desc: 'A clear and concise description of the bug.', ph: 'When I click X, Y happens instead of Z...', req: true, area: true },
+                        { in: 'Steps to reproduce', desc: 'Tell us how to reproduce this behavior.', ph: '1. Go to ...\n2. Click on ...\n3. See error', req: true, area: true },
+                        { in: 'Expected behavior', desc: 'What did you expect to happen?', ph: 'I expected ...', req: true, area: true },
+                        { dd: 'Version', desc: 'What version are you running?', opts: ['Latest', 'Other (specify above)'], req: true },
+                        { in: 'Environment', desc: 'OS, browser, runtime version, etc.', ph: 'macOS 14, Chrome 120, Node 20', req: false, area: true },
+                        { in: 'Relevant logs / screenshots', desc: 'Paste any error output. Code blocks are auto-formatted.', ph: '', req: false, area: true }
+                    ] },
+                feature: { name: 'Feature Request', about: 'Suggest an idea for ' + p, title: '[Feature]: ', labels: ['enhancement'], file: 'feature_request.yml',
+                    body: [
+                        { md: '## Thanks for suggesting a feature for ' + p + '!\nGreat features start with a clear problem. Help us understand yours.' },
+                        { in: 'Is your feature request related to a problem?', desc: 'A clear description of what the problem is.', ph: 'I\'m always frustrated when ...', req: true, area: true },
+                        { in: 'Describe the solution you\'d like', desc: 'What you want to happen.', ph: 'It would be great if ...', req: true, area: true },
+                        { in: 'Describe alternatives you\'ve considered', desc: 'Any alternative solutions or features.', ph: '', req: false, area: true },
+                        { dd: 'Priority', desc: 'How important is this to you?', opts: ['Nice to have', 'Important', 'Critical / blocking'], req: false },
+                        { in: 'Additional context', desc: 'Add any other context or screenshots.', ph: '', req: false, area: true }
+                    ] },
+                question: { name: 'Question / Support', about: 'Ask a question about using ' + p, title: '[Question]: ', labels: ['question'], file: 'question.yml',
+                    body: [
+                        { md: '## Have a question about ' + p + '?\nPlease check the documentation and existing issues first — your answer might already be there.' },
+                        { in: 'Your question', desc: 'What would you like to know?', ph: 'How do I ...', req: true, area: true },
+                        { in: 'What have you tried?', desc: 'Show us what you\'ve already attempted.', ph: '', req: false, area: true },
+                        { in: 'Environment', desc: 'Version, OS, and any relevant setup.', ph: '', req: false, area: true }
+                    ] },
+                docs: { name: 'Documentation', about: 'Report a problem or suggest an improvement to the ' + p + ' docs', title: '[Docs]: ', labels: ['documentation'], file: 'documentation.yml',
+                    body: [
+                        { md: '## Help us improve the ' + p + ' documentation' },
+                        { in: 'Which page or section?', desc: 'Link or path to the docs page.', ph: 'https://... or docs/getting-started.md', req: true, area: false },
+                        { dd: 'Type of issue', desc: 'What kind of docs problem is this?', opts: ['Incorrect information', 'Missing information', 'Unclear / confusing', 'Typo / formatting', 'Broken link'], req: true },
+                        { in: 'Describe the problem', desc: 'What\'s wrong, and how should it read instead?', ph: '', req: true, area: true }
+                    ] },
+                security: { name: 'Security Vulnerability', about: 'PLEASE do not report security issues publicly — see below', title: '[Security]: ', labels: ['security'], file: 'security.yml',
+                    body: [
+                        { md: '## ⚠️ Please report security vulnerabilities privately\nDo **not** disclose security issues in public issues. Instead, email the maintainers' + (contact ? ' or use ' + contact : '') + '.\n\nIf you understand and still want to open a tracking issue with non-sensitive details, continue below.' },
+                        { in: 'Summary (non-sensitive)', desc: 'A high-level description without exploit details.', ph: '', req: true, area: true },
+                        { dd: 'Severity', desc: 'Your assessment of impact.', opts: ['Low', 'Medium', 'High', 'Critical'], req: true },
+                        { in: 'Affected versions', desc: 'Which versions are impacted?', ph: '', req: false, area: false }
+                    ] }
+            };
+            var t = T[type] || T.bug;
+            var lines = [];
+            lines.push('name: ' + t.name);
+            lines.push('description: ' + t.about);
+            lines.push('title: "' + t.title + '"');
+            lines.push('labels: [' + t.labels.map(function(l){ return '"' + l + '"'; }).join(', ') + ']');
+            lines.push('body:');
+            t.body.forEach(function(b){
+                if (b.md) {
+                    lines.push('  - type: markdown');
+                    lines.push('    attributes:');
+                    lines.push('      value: |');
+                    b.md.split('\n').forEach(function(ml){ lines.push('        ' + ml); });
+                } else if (b.dd) {
+                    lines.push('  - type: dropdown');
+                    lines.push('    id: ' + b.dd.toLowerCase().replace(/[^\w]+/g,'_'));
+                    lines.push('    attributes:');
+                    lines.push('      label: ' + b.dd);
+                    if (b.desc) lines.push('      description: ' + b.desc);
+                    lines.push('      options:');
+                    b.opts.forEach(function(o){ lines.push('        - ' + o); });
+                    if (b.req) { lines.push('    validations:'); lines.push('      required: true'); }
+                } else {
+                    lines.push('  - type: ' + (b.area ? 'textarea' : 'input'));
+                    lines.push('    id: ' + b.in.toLowerCase().replace(/[^\w]+/g,'_').slice(0,40).replace(/_$/,''));
+                    lines.push('    attributes:');
+                    lines.push('      label: ' + b.in);
+                    if (b.desc) lines.push('      description: ' + b.desc);
+                    if (b.ph) {
+                        if (b.ph.indexOf('\n') > -1) { lines.push('      placeholder: |'); b.ph.split('\n').forEach(function(pl){ lines.push('        ' + pl); }); }
+                        else lines.push('      placeholder: "' + b.ph.replace(/"/g,'\\"') + '"');
+                    }
+                    if (b.req) { lines.push('    validations:'); lines.push('      required: true'); }
+                }
+            });
+            return { yaml: lines.join('\n'), file: t.file };
+        }
+        function iGenerate(){
+            var type = document.getElementById('iType').value;
+            var project = (document.getElementById('iProject').value || '').trim();
+            var contact = (document.getElementById('iContact').value || '').trim();
+            var res = issueTemplate(type, project, contact);
+            var out = document.getElementById('iOutput');
+            out.innerHTML = '<div class="output-bar"><span class="o-label">.github/ISSUE_TEMPLATE/' + res.file + '</span>' +
+                '<div class="output-actions"><button class="copy-btn" id="iCopy">Copy</button>' +
+                '<button class="copy-btn" id="iDownload">Download .yml</button></div></div>' +
+                '<pre id="iPre"></pre>' +
+                '<p class="output-hint">Place this file in <code>.github/ISSUE_TEMPLATE/' + res.file + '</code> in your repo, commit, and push to your default branch.</p>';
+            document.getElementById('iPre').textContent = res.yaml;
+            out._yaml = res.yaml; out._file = res.file;
+            document.getElementById('iCopy').onclick = function(){
+                var b=this; navigator.clipboard.writeText(out._yaml).then(function(){ var o=b.textContent; b.textContent='✓ Copied'; setTimeout(function(){ b.textContent=o; },1400); });
+            };
+            document.getElementById('iDownload').onclick = function(){
+                var blob = new Blob([out._yaml], { type: 'text/yaml' });
+                var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = out._file;
+                document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(a.href);
+            };
+        }
+        document.getElementById('iGenBtn').addEventListener('click', iGenerate);
     </script>
 </body>
 </html>

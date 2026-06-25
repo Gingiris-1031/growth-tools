@@ -157,7 +157,27 @@
     .footer a { color: var(--text-secondary); font-weight: 500; text-decoration: none; }
     .footer a:hover { color: var(--accent); }
 
-    @media (max-width: 600px) { .hero h1 { font-size: 28px; } .stats-grid { grid-template-columns: 1fr; } }
+    /* Interactive tool */
+    .tool { max-width: 900px; margin: 0 auto; padding: 0 24px 8px; scroll-margin-top: 70px; }
+    .tool-card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow-md); padding: 28px; }
+    .tool-card h2 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+    .tool-card .tool-sub { color: var(--text-secondary); font-size: 14px; margin-bottom: 22px; }
+    .tool-form { display: grid; gap: 16px; }
+    .field label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; color: var(--text); }
+    .field input, .field select, .field textarea { width: 100%; padding: 11px 13px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font-family: inherit; font-size: 14px; transition: border-color 0.15s; }
+    .field input:focus, .field select:focus, .field textarea:focus { outline: none; border-color: var(--accent); }
+    .field textarea { resize: vertical; min-height: 64px; }
+    .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .gen-btn { background: var(--accent); color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 15px; font-weight: 700; cursor: pointer; font-family: inherit; transition: background 0.15s; }
+    .gen-btn:hover { background: var(--accent-hover); }
+    .results { margin-top: 26px; display: flex; flex-direction: column; gap: 12px; }
+    .results:empty { display: none; }
+    .result-item { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; }
+    .result-type { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--accent); margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+    .copy-btn { background: transparent; border: 1px solid var(--border); border-radius: 6px; padding: 4px 11px; font-size: 12px; cursor: pointer; color: var(--text-secondary); font-family: inherit; transition: all 0.15s; flex-shrink: 0; }
+    .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .result-text { font-size: 14px; line-height: 1.65; color: var(--text); white-space: pre-wrap; }
+    @media (max-width: 600px) { .hero h1 { font-size: 28px; } .stats-grid { grid-template-columns: 1fr; } .field-row { grid-template-columns: 1fr; } }
 </style>
 </head>
 <body>
@@ -184,25 +204,46 @@
         <h1>Product Hunt Comment Generator</h1>
         <p>Generate authentic, engaging PH launch comments that build community and drive your launch ranking. Based on 30x daily #1 winner experience.</p>
         <div class="hero-cta">
-            <a href="https://gingiris.tools/tools/ph-comment-generator" class="btn btn-primary" target="_blank">🚀 Use the Tool Free</a>
+            <a href="#tool" class="btn btn-primary">🚀 Use the Tool Free</a>
             <a href="https://gingiris.tools/skills/" class="btn btn-secondary" target="_blank">⭐ View Playbook</a>
         </div>
     </section>
     
-    <div class="tool-preview">
-        <div class="preview-card">
-            <div class="preview-header">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
+    <section class="tool" id="tool">
+        <div class="tool-card">
+            <h2>Generate Your Launch Comments</h2>
+            <p class="tool-sub">Fill in your product details and get 8 ready-to-post comments. 100% in your browser — no signup, no API key.</p>
+            <div class="tool-form">
+                <div class="field">
+                    <label for="pName">Product name</label>
+                    <input id="pName" type="text" placeholder="e.g. Analook" maxlength="60">
+                </div>
+                <div class="field">
+                    <label for="pDesc">One-line description (what it does)</label>
+                    <input id="pDesc" type="text" placeholder="e.g. competitor analysis in one click" maxlength="120">
+                </div>
+                <div class="field-row">
+                    <div class="field">
+                        <label for="pCat">Category</label>
+                        <select id="pCat">
+                            <option value="saas">B2B SaaS</option>
+                            <option value="ai">AI Product</option>
+                            <option value="devtool">Developer Tool</option>
+                            <option value="mobile">Mobile App</option>
+                            <option value="design">Design Tool</option>
+                            <option value="consumer">Consumer / Other</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label for="pProblem">Problem you solve (optional)</label>
+                        <input id="pProblem" type="text" placeholder="e.g. manual competitor research" maxlength="120">
+                    </div>
+                </div>
+                <button class="gen-btn" id="phGenBtn">✨ Generate 8 Comments</button>
             </div>
-            <div class="preview-body">
-                <img src="https://gingiris.tools/assets/images/ph-comment-generator-hero.jpg" 
-                     alt="Product Hunt Comment Generator interface showing comment examples, upvote counters, and maker discussion on PH launch day" 
-                     loading="lazy">
-            </div>
+            <div class="results" id="phResults"></div>
         </div>
-    </div>
+    </section>
     
     <section class="stats">
         <div class="stats-grid">
@@ -314,6 +355,52 @@
         var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         setTheme(saved || (prefersDark ? 'dark' : 'light'));
         toggle.addEventListener('click', function() { setTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); });
+
+        // ===== PH Comment Generator =====
+        function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+        function phGenerate() {
+            var name = (document.getElementById('pName').value || 'this product').trim();
+            var desc = (document.getElementById('pDesc').value || 'something I actually needed').trim();
+            var problem = (document.getElementById('pProblem').value || '').trim();
+            var cat = document.getElementById('pCat').value;
+            var catWord = { saas:'SaaS', ai:'AI', devtool:'developer', mobile:'mobile', design:'design', consumer:'consumer' }[cat] || 'product';
+            var painLine = problem ? (' I used to waste so much time on ' + problem + '.') : '';
+            var comments = [
+                { type: '🏭 Maker Intro (post first)', text:
+'Hi Product Hunt! 👋 Maker of ' + name + ' here.\n\nWe built ' + name + ' because ' + desc + ' should be simple, not painful.' + painLine + ' Spent the last few months obsessing over the details — would genuinely love your honest feedback today. AMA about the build, the tech, or anything else!' },
+                { type: '💬 Maker Reply (to positive comments)', text:
+'Thank you so much, this means a lot 🙏 A bit of context on why we built ' + name + ': we kept hitting the same wall ourselves and no existing ' + catWord + ' tool nailed it. Happy to dig into any specific use case — what would make it a 10/10 for you?' },
+                { type: '🧑‍💼 Hunter / Supporter Endorsement', text:
+'Been following ' + name + ' for a while and finally get to try it on launch day. What stands out vs other ' + catWord + ' tools: ' + desc + ', done in a fraction of the time. Clean execution from a small team — congrats on shipping! 🚀' },
+                { type: '🔥 User Excitement', text:
+'Okay this is exactly what I needed. ' + name + ' nails ' + desc + ' — already signed up. The fact that it just works without a 20-step setup is the selling point for me. Upvoted! ⬆️' },
+                { type: '❓ Question Prompt (sparks discussion)', text:
+'Love the concept! Quick question for the maker — what\'s next on the roadmap for ' + name + '? Curious whether you\'re planning deeper integrations. This already solves ' + desc + ' well, but I can see it going further.' },
+                { type: '⚖️ Comparison Comment', text:
+'I\'ve tried a few tools in this space and most are either bloated or half-baked. ' + name + ' feels like the first one built by people who actually do ' + desc + ' day to day. The difference shows.' },
+                { type: '🎉 Milestone / Momentum (post mid-day)', text:
+'We just crossed into the top of the day 🎉 Honestly didn\'t expect this — every upvote and comment on ' + name + ' is from a real person taking time out of their day. Thank you. Replying to every single comment below 👇' },
+                { type: '🙏 Closing Thank-You (end of day)', text:
+'What a day. 🙏 Whether you upvoted, commented, signed up, or just lurked — thank you for giving ' + name + ' a shot. This is day one, not the finish line. DMs and feedback always open. See you in the changelog!' }
+            ];
+            var html = comments.map(function(c, i){
+                return '<div class="result-item">' +
+                    '<div class="result-type"><span>' + c.type + '</span>' +
+                    '<button class="copy-btn" data-i="' + i + '">Copy</button></div>' +
+                    '<div class="result-text">' + esc(c.text) + '</div></div>';
+            }).join('');
+            var box = document.getElementById('phResults');
+            box.innerHTML = html;
+            box._data = comments;
+        }
+        document.getElementById('phGenBtn').addEventListener('click', phGenerate);
+        document.getElementById('phResults').addEventListener('click', function(e){
+            var btn = e.target.closest('.copy-btn'); if (!btn) return;
+            var txt = this._data[+btn.dataset.i].text;
+            navigator.clipboard.writeText(txt).then(function(){
+                var o = btn.textContent; btn.textContent = '✓ Copied'; setTimeout(function(){ btn.textContent = o; }, 1400);
+            });
+        });
     </script>
 </body>
 </html>
