@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
-date: "2026-06-22 20:47:00 +0800"
+date: "2026-06-29 22:23:00 +0800"
 # Explicit permalink so weekly date bumps don't break inbound links / GSC index
 permalink: /blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
 canonical_url: https://gingiris.tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
@@ -184,16 +184,16 @@ Monday catch-up over coffee — five tools from the past three weeks of PH/HN th
 | [Pushwoosh ManyMoney AI](https://pushwoosh.com) | Marketing / Email | Autonomous email marketing copilot — not "AI helps you write subject lines" but "describe the goal in chat, it builds the campaign, runs A/B, iterates." Closest to the autonomous-marketing pattern the SaaS world keeps promising and never quite shipping |
 
 
-## 🆕 Recently Spotted (Week of June 22, 2026)
+## 🆕 Picked Up This Week (Week of June 29, 2026)
 
-Monday pass through three weeks of saved PH/HN tabs from the Kunshan desk — four that still loaded and earned the click (the infra layer is where the interesting launches keep landing this month). The plumbing is getting cheaper and more open: gateways, analytics, voice, and agent-tool access all picked up credible open-source or low-friction options.
+Last Monday of June, clearing the browser tabs at the Kunshan desk before the month closes — four that survived the cull (still loaded, still did the one thing they promised). The theme this week is the boring-but-load-bearing layer: agents that can actually touch a browser, workers you can self-host, and the open-source versions of the SaaS every founder ends up paying for.
 
 | Tool | Category | Why it's interesting |
 |------|----------|---------------------|
-| [ACI.dev](https://www.aci.dev/) | Agent Infra / OSS | Open-source unified MCP server that exposes 600+ tool integrations to your agents through one endpoint — a self-hosted Composio alternative. Saves wiring each Gmail/Slack/GitHub OAuth flow by hand when your agent needs real-world access |
-| [OpenPanel](https://openpanel.dev) | Analytics / OSS | Cookieless web + product analytics in one tool (AGPL-3.0) — event tracking, funnels, retention, self-hostable. A Plausible-meets-Mixpanel option when you want product analytics without the per-event SaaS bill |
-| [Cartesia Sonic](https://cartesia.ai/) | Voice / API | Low-latency text-to-speech API built on state-space models — sub-100ms first audio, voice cloning from short samples. The piece you reach for when you're adding voice to an agent and latency is the thing users actually feel |
-| [ZeroGPU](https://huggingface.co/zero-gpu-explorers) | AI Infra / Free | Hugging Face's shared-GPU layer for Spaces — put a live model demo on H200-class hardware without provisioning your own GPU. Useful for getting a working demo in front of users before you pay for steady inference |
+| [BrowserAct](https://www.browseract.com/) | Agent / Browser | Browser automation built for AI agents — stealth fingerprints, automatic CAPTCHA solving, and clean structured extraction, reachable via CLI, API, or MCP. The piece you reach for when your agent has to log in and click things, not just read a page. Freemium |
+| [OpenWorkers](https://openworkers.com/) | Dev Infra / OSS | Open-source, TypeScript-native serverless workers with built-in scheduling, monitoring, and domain binding (public beta). A self-hostable take on the Cloudflare Workers model when you want edge functions without locking the runtime behind one vendor |
+| [Cap](https://cap.so/) | Creator / OSS | Open-source Loom alternative (19.8k stars) — instant cloud share, an offline studio editor, and a screenshot mode in one app, on macOS, Windows, and Chrome. Free tier for personal use, and self-hostable when you'd rather not park demo videos on someone else's domain |
+| [Documenso](https://www.documenso.com/) | Ops / OSS | Open-source DocuSign alternative — e-signatures with templates, an API, and real compliance (ESIGN/UETA), cloud-hosted or self-hosted. Handy once you're signing contracts with overseas partners and don't want per-seat signing fees eating the deal |
 
 
 ## 📚 Full List + Resources
@@ -217,7 +217,7 @@ Plus companion playbooks:
 
 ---
 
-*This list updates weekly. Last updated: June 22, 2026.*
+*This list updates weekly. Last updated: June 29, 2026.*
 
 *Built by [Iris](https://twitter.com/WeiYipei) - Ex-AFFiNE COO, 30x Product Hunt #1 winner*
 
