@@ -9,7 +9,7 @@ canonical_url: https://gingiris.tools/blog/2026/04/17/generative-engine-optimiza
 image: "https://gingiris.tools/assets/images/blog-seo-analytics.jpg"
 faq:
   - q: "What is generative engine optimization (GEO)?"
-    a: "Generative engine optimization (GEO) is the practice of structuring and optimizing web content so that AI-powered search engines — including ChatGPT, Perplexity, Google AI Overviews, and Claude — cite or reference it in generated answers. Unlike traditional SEO, which targets ranking positions in blue-link results, GEO targets citation rate: how often your content appears inside AI-generated responses. Research from Princeton NLP (2024) found that content with specific statistics, FAQ schema, and direct-answer formats has 30–40% higher AI citation rates."
+    a: "Generative engine optimization (GEO) is the practice of structuring and optimizing web content so that AI-powered search engines — including ChatGPT, Perplexity, Google AI Overviews, and Claude — cite or reference it in generated answers. Unlike traditional SEO, which targets ranking positions in blue-link results, GEO targets citation rate: how often your content appears inside AI-generated responses. A peer-reviewed study (Aggarwal et al., GEO: Generative Engine Optimization, KDD 2024) found that GEO methods — especially adding citations, quotations, and statistics — can boost a source's visibility in AI-generated answers by up to 40%."
   - q: "How is GEO different from SEO?"
     a: "SEO (Search Engine Optimization) optimizes for ranking in Google's blue-link results — the ten clickable links below the search bar. GEO (Generative Engine Optimization) optimizes for citation inside AI-generated answers, where the AI summarizes information rather than listing links. Key differences: SEO measures rank position and organic clicks; GEO measures citation frequency and answer inclusion. SEO prioritizes backlinks and domain authority; GEO prioritizes content clarity, specific data, FAQ schema, and named-author credibility. The strategies complement each other — highly-ranked content is also more likely to be cited by AI."
   - q: "Which AI search engines should I optimize for with GEO?"
@@ -20,7 +20,7 @@ faq:
     a: "GEO results vary by platform: Perplexity can start citing fresh content within days of it being crawled. ChatGPT Search typically takes 2–4 weeks after a page is indexed in Bing. Google AI Overviews move slower — 1–3 months, because Google weights domain authority heavily. The fastest path to GEO results: (1) push your URL to Bing via IndexNow immediately after publishing, (2) add FAQPage schema before going live, (3) use the QAE content format described in this guide."
   - q: "What content format does GEO require?"
     a: "The most AI-citation-friendly content format is QAE: Question (H2 heading) → Answer (1-2 direct sentences) → Evidence (specific data, examples, case study). AI engines extract the Q+A pair as a self-contained citation unit. Supporting formats: markdown tables (structured data AI can extract), bullet lists of statistics with source attribution, TL;DR summaries of 50-100 words at the top of each article, and Key Stats tables near the headline."
-last_modified_at: 2026-04-26
+last_modified_at: 2026-06-29
 ---
 
 **What is generative engine optimization?** Generative engine optimization (GEO) is the practice of structuring content so AI search engines — ChatGPT, Perplexity, Google AI Overviews — cite it in generated answers. Where traditional SEO targets a rank position, GEO targets citation rate: your content appearing *inside* the AI's response, not just below it.
@@ -83,6 +83,8 @@ AI search has crossed a critical threshold. ChatGPT Search, Perplexity, and Goog
 The implication: if you're not optimized for AI citation, you're invisible to a growing segment of your audience — especially in decision-making queries like "best [tool] for [use case]" and "how to [achieve outcome]."
 
 The good news: GEO is learnable. AI systems have consistent citation preferences. Structure your content correctly, and you can reliably increase your citation rate.
+
+**What the research shows:** The foundational GEO study — [*GEO: Generative Engine Optimization*](https://arxiv.org/abs/2311.09735) (Aggarwal et al., **KDD 2024**) — tested nine optimization methods across thousands of queries and found GEO can boost a source's visibility in AI answers by **up to 40%**. The highest-performing methods were **adding citations, quotations, and statistics** — exactly the evidence-dense structure the rest of this guide builds toward. (For the mechanism behind why AI answers pull from external sources at all, see the [Retrieval-Augmented Generation paper](https://arxiv.org/abs/2005.11401), Lewis et al.)
 
 > Before restructuring your content for AI citation, get a baseline on how your [top competitors are positioned](https://www.analook.com/?utm_source=cross&utm_medium=organic&utm_campaign=ecosystem). A 60-second teardown shows traffic patterns, keyword strategy, and content gaps to exploit in your GEO stack.
 
@@ -196,7 +198,7 @@ Vague claims don't get cited. Specific, attributed data does.
 | ❌ Don't write | ✅ Write instead |
 |----------------|-----------------|
 | "Many companies use social listening" | "67% of high-growth SaaS companies use social listening tools (Drift, 2023 State of Marketing)" |
-| "GEO improves AI citation rates" | "FAQ schema increases AI citation rate by 30–40% vs. unstructured content (Princeton NLP, 2024)" |
+| "GEO improves AI citation rates" | "Adding citations, quotations & statistics boosts AI-answer visibility up to 40% (Aggarwal et al., *GEO*, KDD 2024)" |
 | "Product Hunt is good for launches" | "Products launched Tuesday–Thursday get 40% more upvotes than weekend launches (PH data, Q1 2025)" |
 | "Most startups fail at content marketing" | "90% of startups that publish content for 3+ months see meaningful organic traffic; only 20% of those who stop before 3 months do (HubSpot, 2024)" |
 
@@ -426,7 +428,7 @@ That's your GEO foundation. From there, gradually restructure articles in QAE fo
       "name": "What is generative engine optimization (GEO)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Generative engine optimization (GEO) is the practice of structuring and optimizing web content so that AI-powered search engines — including ChatGPT, Perplexity, Google AI Overviews, and Claude — cite or reference it in generated answers. Unlike traditional SEO, which targets ranking positions in blue-link results, GEO targets citation rate: how often your content appears inside AI-generated responses. Research from Princeton NLP (2024) found that content with specific statistics, FAQ schema, and direct-answer formats has 30–40% higher AI citation rates."
+        "text": "Generative engine optimization (GEO) is the practice of structuring and optimizing web content so that AI-powered search engines — including ChatGPT, Perplexity, Google AI Overviews, and Claude — cite or reference it in generated answers. Unlike traditional SEO, which targets ranking positions in blue-link results, GEO targets citation rate: how often your content appears inside AI-generated responses. A peer-reviewed study (Aggarwal et al., GEO: Generative Engine Optimization, KDD 2024) found that GEO methods — especially adding citations, quotations, and statistics — can boost a source's visibility in AI-generated answers by up to 40%."
       }
     },
     {
@@ -589,7 +591,9 @@ The single biggest tactical shift: **Stop optimizing pages. Start optimizing cla
 
 **GEO three-piece update**: confirmed 21-45 day median lag from full deployment to first AI citation (n=15 sites).
 
-*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+**2026-06 evidence update**: anchored the core claims to the peer-reviewed source — [*GEO: Generative Engine Optimization*](https://arxiv.org/abs/2311.09735) (Aggarwal et al., KDD 2024), which empirically validates that citations, quotations, and statistics are the top-performing GEO methods (up to 40% visibility lift).
+
+*Last updated: 2026-06-29 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
 
 ---
