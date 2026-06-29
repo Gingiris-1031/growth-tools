@@ -19,7 +19,7 @@ payload = {
 cmd = [
     'curl', '-s', '-X', 'POST',
     'https://dev.to/api/articles',
-    '-H', 'api-key: 5BAaq8t62ZbMmQY7h5vRH9cj',
+    '-H', 'api-key: ' + __import__('_devto_key').devto_key(),
     '-H', 'Content-Type: application/json',
     '-d', json.dumps({"article": payload})
 ]

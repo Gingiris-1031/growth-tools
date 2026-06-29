@@ -1,1 +1,5 @@
 tools/google_credentials.json
+*.env
+secrets.env
+.env
+secrets/
