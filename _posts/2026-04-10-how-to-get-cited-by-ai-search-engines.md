@@ -4,7 +4,7 @@ description: "FAQ schema, QAE structure, E-E-A-T signals, named authors. 3-piece
 date: 2026-04-10
 tags: [ai-seo, perplexity-seo, chatgpt-seo, geo, content-marketing]
 canonical_url: https://gingiris.tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
-last_modified_at: 2026-06-02
+last_modified_at: 2026-06-29
 faq:
   - q: "How do you get cited by AI search engines like ChatGPT and Perplexity?"
     a: "Structure content so answers are extractable: lead with a direct one-paragraph answer (the QAE pattern), add FAQPage schema, demonstrate E-E-A-T signals, and push fresh URLs via IndexNow so Bing indexes you fast. AI engines cite sources that are well-structured, trustworthy, and easy to quote verbatim."
@@ -37,6 +37,8 @@ Google and AI search engines optimize for different things:
 | Backlinks | **Critical** | Moderate |
 
 The key insight: **You can rank on Google without citations. You can't get cited by AI without them.**
+
+This isn't just intuition — it's the empirical finding of the foundational GEO study, [*GEO: Generative Engine Optimization*](https://arxiv.org/abs/2311.09735) (Aggarwal et al., **KDD 2024**): across thousands of queries, adding **citations, quotations, and statistics** was among the most effective ways to get a source pulled into AI answers, lifting visibility **up to 40%**.
 
 ---
 
