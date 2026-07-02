@@ -4,10 +4,14 @@ title: "100+ Developer Communities: Find Your First 1,000 Users (2026)"
 date: 2026-04-07
 canonical_url: https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
 image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
-description: "100+ developer communities with direct join links — Discord, Reddit, Slack, HN. Member counts, B2B signal-to-noise scores, and which to skip in 2026."
+description: "100+ developer communities with direct join links — Discord, Reddit, Slack, HN, V2EX, linux.do, Lobsters, Tildes. Member counts, B2B signal-to-noise scores, Chinese dev forums, and which to skip in 2026."
 faq:
   - q: "Where can I find developer communities to promote my open source project?"
-    a: "Best developer communities to find early users for open source projects: r/programming (4M members), r/webdev (1.6M), Hacker News Show HN, Discord servers like AI HUB (538K), Data Science/ML/AI (30K), and Slack communities like ODSC. For AI tools specifically: Discord is the dominant platform with most communities having direct invite links."
+    a: "Best developer communities to find early users for open source projects: r/programming (4M members), r/webdev (1.6M), Hacker News Show HN, Discord servers like AI HUB (538K), Data Science/ML/AI (30K), and Slack communities like ODSC. For Chinese-speaking developers: V2EX (v2ex.com) and linux.do are the highest-leverage forums — equivalent to HN + Reddit for China's tech scene. For AI tools specifically: Discord is the dominant platform with most communities having direct invite links."
+  - q: "What are the best developer forums in China like V2EX?"
+    a: "The top Chinese developer forums are V2EX (v2ex.com) — a broad HN-style forum covering tech, products, and career — and linux.do, a newer invite-based community with strong technical depth. Both have zero tolerance for marketing fluff; post in Chinese, explain your technical decisions, and expect expert-level pushback. Global equivalents: V2EX ≈ Hacker News + Reddit hybrid; linux.do ≈ Lobste.rs."
+  - q: "What is linux.do and how is it different from V2EX?"
+    a: "linux.do is a fast-growing Chinese developer forum with invite-based registration to control quality. It focuses on AI tools, open source, and deep technical discussion. Compared to V2EX (broader topics, larger audience), linux.do has a tighter technical focus and a more active community for cutting-edge AI and infrastructure topics. Both are essential channels for reaching Chinese-speaking developers in 2026."
   - q: "Which Discord servers are best for AI developer tools?"
     a: "Top Discord servers for AI developer tools in 2026: AI HUB by Weights & Biases (538K members, discord.gg/aihub), Mistral AI (32K, discord.gg/mistralai), The AI Protocol (59K), Data Science/ML/AI (30K). Most have free-to-post channels for showing off projects, but read the rules first — most require genuine contribution before promotion."
   - q: "How do I get into Hacker News developer communities?"
@@ -16,7 +20,7 @@ faq:
     a: "Best Slack communities for SaaS founders: Open Data Science Conference (5K devs), Online Geniuses (marketing), Product Hunt Makers (product), Rands Leadership (engineering leaders). Most are invite-based. Search 'Slack community for [your niche]' to find current invite links as many rotate."
 hreflang_ja: https://gingiris.tools/blog/2026/04/07/japan-developer-communities-ja/
 hreflang_ko: https://gingiris.tools/blog/2026/04/07/korea-developer-communities-ko/
-last_modified_at: 2026-04-26
+last_modified_at: 2026-07-02
 ---
 
 
@@ -177,8 +181,35 @@ These are the communities where open source projects get discovered:
 | Reddit | r/selfhosted | [reddit.com/r/selfhosted](https://reddit.com/r/selfhosted) |
 | GitHub | Explore (Trending) | [github.com/trending](https://github.com/trending) |
 | Dev.to | DEV Community | [dev.to](https://dev.to) |
-| Lobste.rs | Open source focused | [lobste.rs](https://lobste.rs) |
-| Indie Hackers | Builder community | [indiehackers.com](https://www.indiehackers.com/) |
+| Lobste.rs | Invite-only, high signal-to-noise | [lobste.rs](https://lobste.rs) |
+| Tildes | Non-profit, algorithm-free, self-governed | [tildes.net](https://tildes.net) |
+| Indie Hackers | Indie dev & solo founder community | [indiehackers.com](https://www.indiehackers.com/) |
+
+---
+
+## Chinese Developer Communities (V2EX-style Forums)
+
+If your product targets Chinese-speaking developers or you want to reach Asia-Pacific developer audiences, these forums are the highest-leverage entry points. They are the functional equivalents of Hacker News + Reddit for China's tech scene.
+
+| Community | Description | URL | Best for |
+|-----------|-------------|-----|----------|
+| **V2EX** | China's most influential developer forum. Covers tech, career, products, and indie hacking. High-quality discussions; users are skeptical of marketing. "Way to Explore." | [v2ex.com](https://www.v2ex.com/) | Open source launches, product feedback, developer tools |
+| **linux.do** | Newer, fast-growing Chinese developer community. Strong culture of technical depth and open discussion. Invite-based registration controls quality. | [linux.do](https://linux.do/) | AI tools, Linux, open source, deep technical discussion |
+
+**How to post on V2EX and linux.do without getting roasted:**
+
+1. **Be genuinely technical.** Both communities have zero tolerance for marketing fluff. Explain the architecture, share the code, discuss the tradeoffs.
+2. **Post in the right node.** V2EX has dozens of topic nodes — `Programming`, `OpenSource`, `Create`, `Share` are the right ones for product/tool posts. Wrong node = instant downvotes.
+3. **Engage in Chinese.** Even if your product is in English, your post should be in Chinese. Machine-translated posts get spotted immediately.
+4. **Expect hard questions.** Both communities will ask "why not just use X?" and "what's the actual technical differentiation?" Treat this as free expert feedback, not trolling.
+5. **Don't cross-post identical content.** V2EX and linux.do share a significant user overlap. Post different angles or wait at least 2 weeks between posts on the same topic.
+
+**Signal-to-noise comparison (global equivalents):**
+
+| Chinese Forum | Global Equivalent | Key Difference |
+|---------------|-------------------|----------------|
+| V2EX | Hacker News + Reddit hybrid | Broader topic range, stronger product/career mix |
+| linux.do | Lobste.rs | More invite-driven, tighter technical focus, faster-growing |
 
 ---
 
