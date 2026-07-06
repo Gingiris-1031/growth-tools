@@ -232,7 +232,10 @@ Looking for tools to execute your ASO strategy? Check out our curated [Growth To
 
 ## Related Reading
 
-- [Product Hunt Launch Guide](/gingiris-launch) — How to combine ASO with a Product Hunt launch for maximum first-week visibility
+
+- [ASO in 2026: The Updated Playbook](/blog/2026/05/06/aso-app-store-optimization-2026/)
+- [7 Conversion Loops for App Store Optimization](/blog/2026/05/26/aso-app-store-optimization-conversion-loops-2026/)
+- [7 Retention Signals That Boost ASO Rankings](/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/)- [Product Hunt Launch Guide](/gingiris-launch) — How to combine ASO with a Product Hunt launch for maximum first-week visibility
 - [B2B SaaS Growth Playbook](/gingiris-b2b-growth) — For apps with B2B monetization, the go-to-market playbook covers ASO as one channel in a multi-channel strategy
 - [Go-to-Market Strategy Template](/gingiris-launch) — Downloadable GTM template that includes app store launch checklist
 

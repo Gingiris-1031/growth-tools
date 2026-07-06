@@ -324,6 +324,8 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 | Category | Article |
 |----------|---------|
 | 📖 | [After Product Hunt: 7 Ways to Keep the Momentum](https://gingiris.tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
+| 📖 | [7 Comment Loops That Lift Launch Conversion](https://gingiris.tools/blog/2026/05/31/product-hunt-launch-comment-loops-2026/) |
+| 📖 | [7 Retention Loops to Keep Post-Launch Momentum](https://gingiris.tools/blog/2026/05/27/product-hunt-launch-retention-loops-2026/) |
 | 📖 | [Product Hunt Launch Checklist: The Complete 2026 Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [Startup Launch Checklist: 47 Tasks Before, During & After](https://gingiris.tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) |
 | 📖 | [How to Launch on Product Hunt: Step-by-Step](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |

@@ -331,6 +331,8 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 |----------|---------|
 | 📖 | [Star Growth Tactics: 10 Proven Ways](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [GitHub Stars History: How to Track Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+| 📖 | [7 Compounding Plays for GitHub Star Growth](https://gingiris.tools/blog/2026/05/08/github-star-growth-compounding-plays-2026/) |
+| 📖 | [GitHub Star Growth in 2026: Levers & Framework](https://gingiris.tools/blog/2026/04/22/github-star-growth-2026/) |
 | 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
 | 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
