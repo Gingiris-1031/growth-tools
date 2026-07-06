@@ -66,6 +66,10 @@ def render(s):
         f'          <a class="rel-card" href="{u}"><span>{t}</span><span class="arr">&rarr;</span></a>'
         for t, u in s["related"])
     takeaways = "\n".join(f'          <li>{t}</li>' for t in s["takeaways"])
+    notice_html = (
+        f'\n      <p class="body" style="border-left:3px solid #f59e0b;'
+        f'padding-left:12px;margin-top:12px;">{s["notice"]}</p>'
+        if s.get("notice") else "")
     steps = "\n".join(
         f'        <li class="step"><span class="step-n">{i+1}</span><div>'
         f'<p class="step-t">{st["name"]}</p><p class="step-d">{st["text"]}</p></div></li>'
@@ -240,7 +244,7 @@ def render(s):
 
     <section>
       <h2>What this is</h2>
-      <p class="body">{s['what']}</p>
+      <p class="body">{s['what']}</p>{notice_html}
     </section>
 
     <section>

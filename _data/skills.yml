@@ -14,17 +14,23 @@
   software_description: "Multi-channel product launch playbook distilled from 30+ Product Hunt #1 daily wins and 150+ AI startup consultations. Covers the T-14 → T-0 → T+7 operating timeline, hunter selection matrix, 6 maker-comment archetypes, launch-day comment cadence, anti-shadowban rules, and second-wave coordination."
   app_category: BusinessApplication
   what: "Only ~10% of Product Hunt submissions ever get featured. The teams that win rarely have the best product that day — they have the best <strong>timing, comment cadence, and pre-seeded audience</strong>. This is the exact 14-day operating timeline used to coach 30+ #1 daily launches across 150+ AI startups."
+  notice: "<strong>⚠️ Choose your launch path first:</strong> <strong>Path A (dev/maker, default)</strong> — use this full PH + GitHub + HN playbook. <strong>Path B (2C consumer: students, gamers, general users)</strong> — skip Product Hunt (audience mismatch, very low ROI); cold-start via Reddit verticals / 小红书 / TikTok / Quora / Naver instead. <strong>Path C (B2B decision-makers)</strong> — use this playbook's B2B sections + LinkedIn outreach + industry media."
   takeaways:
     - "Launch is a <strong>sequence, not an event</strong> — the 14-day run-up decides the day, not the product."
     - "Post at <strong>00:01 PST</strong>, maker comment by 00:15, reply in batches every 30 min — and <strong>never beg for upvotes</strong> (fast shadowban)."
     - "Pick the hunter on <strong>activity, not follower count</strong>. A 50k-follower hunter who hasn't hunted in 6 months is worse than an active 1k one."
     - "<strong>#2–#3 is still a win</strong> — forcing #1 with farmed upvotes risks the whole launch."
+    - "Pace even real supporters: <strong>≤100 votes/hour total, ≤30/hour per channel</strong> — PH sweeps suspicious votes roughly every 2 hours."
+    - "On a small budget, <strong>skip PH</strong>: the same spend on ~10 Twitter KOL/KOCs brings more exposure and signups (PH exposure→upvote converts at ~1%)."
   stats:
     - ["Product Hunt #1 launches coached", "30+"]
     - ["AFFiNE GitHub stars driven", "60,000+"]
     - ["GitHub Trending appearances", "28× in 5 months"]
     - ["AI startups consulted on launch", "150+"]
     - ["Typical launch-day upvote uplift", "3–5× vs. uncoordinated"]
+    - ["Weekly badge exposure vs. daily", "~7× (monthly ~30×)"]
+    - ["Measured launch-day CAC (full UTM attribution)", "$6.25/signup"]
+    - ["Projects advised 2024–2026", "105+"]
   howto:
     title: "How to launch on Product Hunt — the 14-day timeline"
     steps:
@@ -87,11 +93,16 @@
     - "Choose by economics: <strong>ACV &lt; $1k + &lt;1-week cycle → PLG</strong>; <strong>ACV &gt; $10k + &gt;1-month cycle → SLG</strong>."
     - "Watch <strong>NRR, not just ARR</strong>. NRR &lt; 100% is a leaking bucket no amount of new logos fixes."
     - "<strong>Don't pour paid acquisition in before PMF</strong> — you burn cash 10× faster than you learn."
+    - "Enterprise deals: <strong>3:4:3 staged payments, 30% on signature</strong>, SOW signed with the contract — only paperwork counts."
+    - "Below <strong>$2–3M revenue, don't build an overseas office</strong> — distribute through affiliates and resellers instead (rev-share up to 50%)."
   stats:
     - ["AI startups consulted on B2B growth", "150+"]
     - ["Case studies with documented outcomes", "8"]
     - ["Average time to PMF (coached companies)", "4–9 months"]
     - ["PLG-to-SLG transition success rate", "70%+ when timed right"]
+    - ["$1M ARR decomposition", "9 × $100k accounts or 500 × $200/yr subs"]
+    - ["Measured B2B paid CPA (LinkedIn, field-tested)", "$30 per paying user"]
+    - ["Fastest enterprise close coached (2024–2026)", "$100k deal in 2 months"]
   howto:
     title: "The 5-stage path from $0 to $10M ARR"
     steps:
@@ -121,6 +132,7 @@
       - "Watching ARR while ignoring NRR — under 100% is a leaking bucket."
       - "One contract template for everyone — split startup / mid-market / enterprise."
       - "B2C hype words (&quot;amazing&quot;, &quot;magical&quot;) instead of CFO-friendly ROI proof."
+      - "Delivering 100% of features before the final payment clears — keep leverage until the invoice is paid."
   faqs:
     - q: "What's the best growth motion for an AI SaaS in 2026 — PLG or SLG?"
       a: "It depends on ACV and sales cycle. Under $5k ACV with a &lt;30-day cycle → start PLG. Above $20k ACV or a &gt;60-day cycle → you need SLG earlier than you think. The playbook has a decision tree with specific thresholds."
@@ -210,6 +222,7 @@
   software_description: "Dual-engine playbook to rank on Google AND get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). Covers the BOFU-first keyword funnel, an E-E-A-T founder-voice writing system, JSON-LD schema templates, IndexNow setup, and the comparison-page SOP. Battle-tested at AFFiNE (60K stars in 24 months) and across 150+ startup consultations."
   app_category: DeveloperApplication
   what: "Google ranking and AI-search citation are <strong>two different games with one content system</strong>. SEO rewards backlinks + keywords; GEO rewards structured data + E-E-A-T authenticity. This playbook runs both engines from the same content — so a single page earns Google rankings and shows up inside ChatGPT/Perplexity/Claude answers."
+  notice: "<strong>⚠️ Product type note:</strong> This playbook is optimized for <strong>dev tools / OSS / B2B SaaS</strong>. If your product is a <strong>2C consumer app, education platform, or game</strong>, key parameters differ — lower keyword volume threshold (50 vs 300), YMYL E-E-A-T requirements, and different cold-start channels (Reddit communities / 小红书 / TikTok / Quora instead of PH/GitHub/HN). See the 2c-adaptation guide in the skill's references/ folder."
   takeaways:
     - "<strong>Start from BOFU</strong> — do high-intent terms (pricing, comparisons) first; they convert highest, then work up to educational content."
     - "<strong>Authentic voice IS the best E-E-A-T</strong> — don't let AI write like AI; founder voice + real numbers + first-hand stories."
@@ -848,6 +861,7 @@
   software_description: "Meta-router that diagnoses a growth problem and points to the matching Gingiris playbook (launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community) based on product type, stage and channel fit. Use it when you don't yet know which specialist playbook you need."
   app_category: BusinessApplication
   what: "When you don't yet know <strong>which</strong> growth move you need, start here. Growth Finder diagnoses your situation — product type, stage, channel — and routes you to the specialist playbook that fits, so you don't run an SLG play on a PLG product or chase stars when you need PMF."
+  notice: "<strong>⚠️ 2C products:</strong> Growth Finder now includes <strong>Step 0 — growth model selector</strong>: B2B SaaS (pipeline → MQL → SQL → paid → expansion) vs B2C App (impression → install → activation → D1/D7/D30 retention → viral K). Pick the right framework before diagnosing your bottleneck — the metrics and channel plays are fundamentally different."
   takeaways:
     - "<strong>Diagnose before you execute</strong> — the most common growth mistake is running the wrong playbook well."
     - "Routing is by <strong>product type + stage + channel fit</strong>, not by what's trendy."
