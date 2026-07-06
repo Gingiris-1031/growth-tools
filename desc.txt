@@ -1,0 +1,1 @@
+Source of gingiris.tools — Jekyll blog + curated growth tool library for AI startups going global. EN/中文.
