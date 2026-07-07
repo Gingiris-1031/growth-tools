@@ -1,0 +1,496 @@
+# Gingiris 实战案例库数据源
+# 生成器：scripts/gen_case_pages.py  →  /cases/<slug>/index.html + /cases/index.html
+# 铁律：除 AFFiNE（Iris 自己的公司）外，所有顾问客户一律匿名，不得出现任何客户项目名。
+# 数据全部保留真实数字，来自 Gingiris-Client-Cases-Web-2026-07.md。
+
+- slug: open-source-60k-stars-origin
+  anon: false
+  name: "AFFiNE"
+  category: "开源增长"
+  year: "2022–2024"
+  h1: "AFFiNE：一切方法论的原点 — 24 个月 0 到 60K star"
+  title: "AFFiNE 开源增长复盘：24 个月 0 到 60K GitHub star 实战案例 | Gingiris"
+  meta_description: "AFFiNE 开源增长完整复盘：一周 6000 star、一个月破 10K、24 个月 60K+，用户覆盖 280+ 国家。差异化定位、README 引流闭环、近百场用户访谈与 Product Hunt 战役的原点案例。"
+  keywords: "AFFiNE, 开源增长, GitHub star, open source growth, Product Hunt, 用户访谈, README 优化, 出海增长案例"
+  tagline: "一周 6000 star、24 个月 60K+、280+ 国家用户——作为联合创始人 & COO 从 0 做起的全部海外增长。"
+  card_summary: "差异化定位 + README 引流闭环 + 近百场用户访谈 + 顶级 Hunter 合作的原点战役。"
+  card_stat: "24 个月 60K+ star"
+  takeaways:
+    - "<strong>定位先于一切</strong>：市面上第一个「文档 + 白板」结合的工具——一句话讲得清，才传播得动。"
+    - "<strong>README 与官网互为引流闭环</strong>，GitHub 本身就是最大的流量入口之一。"
+    - "<strong>近百场用户访谈</strong>驱动迭代方向，增长和产品从来不是两条线。"
+    - "<strong>Product Hunt 战役与顶级 Hunter（Chris Messina）合作</strong>，把发布做成事件而不是上架。"
+  challenge: >-
+    2022 年 8 月 3 日凌晨 1:47，我们把 AFFiNE 推上了开源社区。协作工具赛道巨头环伺，
+    一个新项目要在发布当天就被全球开发者记住，靠的不是功能列表，而是一句话能讲清的差异化。
+    作为联合创始人 & COO，我负责了从 0 到 1 的全部海外增长。
+  moves:
+    - name: "差异化定位"
+      text: "把产品钉死在「市面上第一个文档 + 白板结合的工具」这一个记忆点上，所有渠道口径统一，不贪多。"
+    - name: "README 与官网的引流闭环"
+      text: "GitHub README 按着陆页标准运营，与官网互相导流，让每一个 star 背后都有一条可追踪的注册路径。"
+    - name: "近百场用户访谈驱动迭代"
+      text: "增长信号直接回灌产品：访谈里反复出现的需求进 roadmap，反复出现的语言进文案。"
+    - name: "Product Hunt 战役"
+      text: "与顶级 Hunter Chris Messina 合作，把 PH 发布当成一场有预热、有节奏、有承接的战役来打。"
+  result: >-
+    一周 6000 star，一个月破 10K，24 个月做到 6 万+ star，用户覆盖 280 多个国家和地区、
+    总量超百万，融资 $10M。这一役沉淀下来的定位、README、访谈与发布方法论，
+    成为后来 105+ 项目咨询的原点。
+  stats:
+    - ["发布第 1 周 star 数", "6,000"]
+    - ["24 个月累计 star", "60,000+"]
+    - ["用户覆盖国家和地区", "280+"]
+    - ["融资金额", "$10M"]
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["GitHub Star Growth Playbook", "/skills/github-star-growth/"]
+    - ["User Interview Playbook", "/skills/user-interview/"]
+
+- slug: 15k-budget-4m-impressions
+  anon: true
+  name: "某 AI 建站产品"
+  category: "发布战役"
+  year: "2024"
+  h1: "某 AI 建站产品：$1.5 万预算打出 400 万曝光"
+  title: "$1.5 万预算 400 万曝光：35 个 KOL 协同发布实战案例 | Gingiris"
+  meta_description: "某 AI 建站产品全球首发复盘：预算不投广告投 KOL，35 个 KOL 五天协同铺开，单条推文 100 万曝光、累计 400 万，UV→注册转化 25%，约 1 万注册并登上 Product Hunt 月榜。"
+  keywords: "KOL 营销, 发布战役, 产品发布, AI 建站, Product Hunt, 曝光转化, 出海营销案例"
+  tagline: "预算主力不投广告投 KOL：35 人协同、五天铺开，400 万曝光、约 1 万注册、两周内真实付费。"
+  card_summary: "「同预算下 KOL 优于卷 PH」的最早实证：35 个 KOL 协同发布，五天铺开。"
+  card_stat: "5 天 400 万曝光"
+  takeaways:
+    - "<strong>同样的预算，KOL 协同发布优于卷 Product Hunt</strong>——这是该结论的最早实证。"
+    - "<strong>35 个 KOL 五天铺开</strong>，密度和节奏比单个大号更重要。"
+    - "<strong>UV→注册 25%</strong>：曝光只是入口，落地页转化决定了 400 万曝光值多少钱。"
+    - "发布不是终点：<strong>两周内产生真实付费</strong>，并登上 PH 月榜。"
+  challenge: >-
+    2024 年，某 AI 建站产品首次全球发布，可用预算约 $1.5 万。常规做法是投信息流广告或
+    全力冲 Product Hunt 日榜，但两条路的获客成本都算不过账。我们决定把预算主力全部
+    压到 KOL 协同发布上。
+  moves:
+    - name: "预算全压 KOL 协同"
+      text: "不投广告，把 $1.5 万预算投给 35 个 KOL 的协同发布，按平台与量级分层定价。"
+    - name: "五天铺开的发布节奏"
+      text: "不是一天引爆而是五天滚动铺开，让每一波内容都能借上一波的热度。"
+    - name: "转化链路预先铺好"
+      text: "曝光进站后由落地页承接，UV→注册转化做到 25%，流量不白来。"
+  result: >-
+    单条 Twitter 100 万曝光、累计 400 万；4 万 UV 进站，约 1 万注册——两周内产生真实付费，
+    并登上 Product Hunt 月榜。这一役成为后来「同预算下 KOL 优于卷 PH」渠道决策的基准案例。
+  stats:
+    - ["总预算", "$15K"]
+    - ["5 天累计曝光", "4,000,000"]
+    - ["单条推文最高曝光", "1,000,000"]
+    - ["UV→注册转化率", "25%"]
+    - ["注册用户", "~10,000"]
+    - ["Product Hunt", "月榜上榜"]
+  related:
+    - ["KOL Outreach & Influencer Marketing Playbook", "/skills/kol-outreach/"]
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["Go-Global GTM Playbook", "/skills/go-global/"]
+
+- slug: music-model-6k-stars-week1
+  anon: true
+  name: "某开源音乐生成模型"
+  category: "开源发布"
+  year: "2026"
+  h1: "某开源音乐生成模型：开源首周近 6000 star"
+  title: "开源首周近 6000 star：竞品危机窗口期的发布战役案例 | Gingiris"
+  meta_description: "某开源音乐生成模型发布复盘：抓住头部竞品信任危机的窗口期，用 Reddit 内容钩子、quote 堆量、HN 双稿与开源项目联动矩阵，首周拿下近 6000 star 并导向商业化。"
+  keywords: "开源发布, GitHub star, AI 音乐生成, 窗口期营销, Hacker News, Reddit 营销, quote 堆量"
+  tagline: "竞品信任危机就是发布窗口：Reddit 钩子 + quote 堆量 + HN 双稿 + 开源矩阵联动，首周近 6000 star。"
+  card_summary: "把竞品危机做成内容钩子，四渠道并进抢下稍纵即逝的发布窗口。"
+  card_stat: "首周 ~6,000 star"
+  takeaways:
+    - "<strong>竞品危机是最好的发布窗口</strong>——把头部竞品的信任危机直接做成 Reddit 内容钩子。"
+    - "<strong>Twitter 预算从 thread 转向 quote 堆量</strong>，同预算下曝光效率更高。"
+    - "<strong>HN 双稿分发</strong>：一个渠道两次机会，角度不同就不算重复。"
+    - "<strong>联动多个开源项目做矩阵宣发</strong>，互相借受众，冷启动不孤军作战。"
+  challenge: >-
+    2026 年初，某开源音乐生成模型要完成开源发布，而彼时赛道头部产品 Suno 正处于信任危机——
+    这是一个稍纵即逝的窗口期：晚两周发布，注意力红利就没了。
+  moves:
+    - name: "竞品危机做成内容钩子"
+      text: "把竞品信任危机转写成 Reddit 讨论钩子，让社区自己把「开源替代」的叙事聊起来。"
+    - name: "quote 堆量替代 thread"
+      text: "Twitter 预算从长 thread 转向 quote 堆量打法，用数量和密度换取算法可见性。"
+    - name: "HN 双稿分发"
+      text: "Hacker News 准备两份不同角度的稿子分发，最大化单渠道的命中概率。"
+    - name: "开源项目矩阵联动"
+      text: "联动多个开源项目做矩阵宣发，互相转发、互相背书，放大发布声量。"
+  result: >-
+    首周近 6000 star，随后开源势能顺势导向同团队的商业化产品——开源发布成为商业化的二级跳板。
+  stats:
+    - ["发布首周 star 数", "~6,000"]
+    - ["宣发方式", "多项目联动矩阵"]
+    - ["势能承接", "开源→商业化二级跳板"]
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["Competitor Research Playbook", "/skills/competitor-research/"]
+    - ["GitHub Star Growth Playbook", "/skills/github-star-growth/"]
+
+- slug: ai-twin-10k-stars-3-weeks
+  anon: true
+  name: "某 AI 数字分身开源项目"
+  category: "开源发布"
+  year: "2025"
+  h1: "某 AI 数字分身开源项目：三周破 10K star"
+  title: "三周破 10K star：产品即敲门砖的开源冷启动案例 | Gingiris"
+  meta_description: "某 AI 数字分身开源项目复盘：用产品给 KOL 捏数字分身来建联，以注册量为北极星设计链路，首周近 6000 star、三周破 10K；黑客松 5 天 0 到 2000 人，直播 4.7 万观看。"
+  keywords: "开源冷启动, GitHub star, AI 数字分身, KOL 建联, 黑客松运营, 开发者社区"
+  tagline: "产品即敲门砖：用产品本身给 KOL 捏数字分身来建联，三周 10K star，黑客松 5 天 0→2000 人。"
+  card_summary: "概念太新没人懂？让 KOL 先拥有一个自己的数字分身——产品即敲门砖。"
+  card_stat: "3 周 10K star"
+  takeaways:
+    - "<strong>产品即敲门砖</strong>：给 KOL 捏数字分身来建联，比任何冷邮件都好使。"
+    - "<strong>以注册量为北极星</strong>设计整条链路，star 是过程指标不是终点。"
+    - "<strong>黑客松是把热度变成社区的机器</strong>：5 天从 0 拉到 2000 人参赛。"
+    - "末场直播 <strong>4.7 万人观看</strong>——活动本身也能成为下一波传播素材。"
+  challenge: >-
+    AI 数字分身是个全新概念，新到需要在极短窗口内建立全球开发者心智——解释成本极高，
+    传统的「写稿-投渠道」打法在这里跑不动。
+  moves:
+    - name: "产品即敲门砖"
+      text: "用产品直接给目标 KOL 捏数字分身，把冷启动建联变成「送你一个你自己」的体验式破冰。"
+    - name: "注册量北极星链路"
+      text: "所有渠道动作都指向注册转化，star、曝光、转发都是中间指标。"
+    - name: "千人 A2A 黑客松"
+      text: "用黑客松承接发布热度：5 天从 0 拉到 2000 人参赛，把围观者变成参与者。"
+  result: >-
+    开源首周近 6000 star、三周破 10K；千人 A2A 黑客松 5 天从 0 拉到 2000 人参赛，
+    末场直播 4.7 万人观看——热度被完整承接进了社区资产。
+  stats:
+    - ["开源首周 star 数", "~6,000"]
+    - ["三周累计 star", "10,000+"]
+    - ["黑客松参赛人数（5 天）", "0→2,000"]
+    - ["末场直播观看", "47,000"]
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["KOL Outreach & Influencer Marketing Playbook", "/skills/kol-outreach/"]
+    - ["Community & Ambassador Playbook", "/skills/community-ambassador/"]
+
+- slug: vote-pacing-lesson
+  anon: true
+  name: "某数据 Agent 产品"
+  category: "发布战役 · 渠道归因"
+  year: "2025"
+  h1: "某数据 Agent 产品：1800 票教会我们的事——节奏比票数值钱"
+  title: "Product Hunt 1800 票被清票的教训：上票控速红线案例 | Gingiris"
+  meta_description: "某数据 Agent 产品复盘：全漏斗归因 + 每周按 CAC 砍渠道；PH 发布日 24 小时 1800 票登顶，却因上票节奏违规被收回 badge——「≤100 票/小时」控速红线从建议变成铁律。"
+  keywords: "Product Hunt, 上票节奏, 渠道归因, CAC, 全漏斗分析, LinkedIn 获客, 数据 Agent"
+  tagline: "24 小时 1800 票登上日榜第一——然后 badge 被收回。票数可以买到，节奏失控就归零。"
+  card_summary: "日榜第一被清票收回的完整复盘：真正留下的资产是每周按 CAC 砍渠道的纪律。"
+  card_stat: "24h 1,800 票（badge 被收回）"
+  takeaways:
+    - "<strong>上票控速红线（≤100 票/小时）是铁律不是建议</strong>——票数可以买到，节奏失控就归零。"
+    - "<strong>先跑通全漏斗归因</strong>（曝光→点击→注册→激活→付费），再谈渠道取舍。"
+    - "<strong>每周按渠道 CAC 排序砍渠道</strong>：砍掉转化持平但花费高的 Twitter，加码 LinkedIn。"
+    - "LinkedIn 实测 <strong>$60 换来 2 个付费用户</strong>——小预算实验先于大预算下注。"
+  challenge: >-
+    一支 10 人团队全力出海的数据 Agent 产品，注册近万但渠道 ROI 一团迷雾：
+    不知道钱花在哪里有效，也不知道 PH 发布该冲多猛。
+  moves:
+    - name: "全漏斗归因先行"
+      text: "跑通「曝光→点击→注册→激活→付费」全漏斗归因，让每个渠道的真实 CAC 可见。"
+    - name: "每周按 CAC 排序砍渠道"
+      text: "砍掉转化持平但花费高的 Twitter，加码实测更优的 LinkedIn——$60 换来 2 个付费用户。"
+    - name: "PH 发布日冲刺——以及翻车"
+      text: "发布日 24 小时冲到 1800 票、登上日榜第一；随后被 PH 判定上票节奏违规，事后清票收回 badge。"
+  result: >-
+    这一役让「上票控速红线」（≤100 票/小时）从建议变成铁律：票数可以买到，节奏失控就归零。
+    真正留下来的资产，是那套每周按 CAC 排序砍渠道的漏斗纪律。
+  stats:
+    - ["PH 发布日 24 小时票数", "1,800（badge 后被收回）"]
+    - ["控速红线", "≤100 票/小时"]
+    - ["LinkedIn 实测", "$60 → 2 个付费用户"]
+    - ["渠道纪律", "每周按 CAC 排序砍渠道"]
+  related:
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["B2B SaaS Growth — PLG vs SLG Playbook", "/skills/b2b-saas-growth/"]
+    - ["Growth Finder Playbook", "/skills/growth-finder/"]
+
+- slug: quote-stacking-700k
+  anon: true
+  name: "某开源 AI memory 框架"
+  category: "开源发布 · 渠道归因"
+  year: "2025"
+  h1: "某开源 AI memory 框架：单条推文 70 万曝光的开源发布战役"
+  title: "单条推文 70 万曝光：quote 堆量打法与渠道归因基准案例 | Gingiris"
+  meta_description: "某开源 AI memory 框架发布复盘：infra 产品抽象难传播，用主推 + 120 个 quote 顶到近 70 万曝光，引来 50 个自来水；短链归因实测出 YouTube > Twitter > 开发者社区的 star 转化排序。"
+  keywords: "quote 堆量, Twitter 营销, 开源发布, infra 产品营销, 渠道归因, star 转化"
+  tagline: "infra 产品抽象难传播？主推 + 120 个 quote 顶到近 70 万曝光，还引来 50 个自来水。"
+  card_summary: "quote 堆量打法的标杆战役，沉淀出所有开源客户复用的渠道归因基准。"
+  card_stat: "单条推文 ~70 万曝光"
+  takeaways:
+    - "<strong>quote 堆量打法</strong>：单条主推配 120 个 quote，顶到近 70 万曝光，还引来 50 个自来水跟风。"
+    - "<strong>每个渠道独立短链归因</strong>，实测出 YouTube &gt; Twitter &gt; 开发者社区的 star 转化排序。"
+    - "这份渠道基准成为<strong>后续所有开源客户的复用资产</strong>。"
+    - "热度要有承接：曝光随后转化为<strong>企业级付费订单</strong>。"
+  challenge: >-
+    开源 AI memory 框架是典型的 infra 产品——抽象、难传播，没有截图可晒、没有 demo 可玩，
+    常规内容营销很难起量。
+  moves:
+    - name: "quote 堆量打法"
+      text: "单条主推配 120 个 quote 协同转发，把算法可见性硬顶上去，最终引来 50 个自来水跟风。"
+    - name: "每渠道独立短链归因"
+      text: "所有分发渠道各配独立短链，star 转化按渠道可比，实测出 YouTube > Twitter > 开发者社区的排序。"
+    - name: "热度承接商业化"
+      text: "发布热度不止于 star——顺势承接为企业级付费订单。"
+  result: >-
+    单条推文顶到近 70 万曝光，单役 +500 star；沉淀下来的渠道归因基准
+    （YouTube &gt; Twitter &gt; 开发者社区）成为后续所有开源客户的渠道决策起点，
+    热度随后转化为企业级付费订单。
+  stats:
+    - ["单条推文曝光", "~700,000"]
+    - ["主推配套 quote 数", "120（另有 50 个自来水）"]
+    - ["单役新增 star", "+500"]
+    - ["star 转化渠道排序", "YouTube > Twitter > 开发者社区"]
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["Twitter Agent Ops Playbook", "/skills/twitter-agent-ops/"]
+    - ["KOL Outreach & Influencer Marketing Playbook", "/skills/kol-outreach/"]
+
+- slug: b2b-0-to-500k-arr
+  anon: true
+  name: "某开源 Multi-Agent 框架公司"
+  category: "2B 商业化"
+  year: "2025"
+  h1: "某开源 Multi-Agent 框架公司：2B 商业化从 0 到 50 万美金 ARR"
+  title: "开源项目 2B 商业化：ARR 从 0 到 $500K 的交付体系案例 | Gingiris"
+  meta_description: "某开源 Multi-Agent 框架公司复盘：分段付款、SOW 与合同同签、变更走 CCB、尾款筹码设计，把 $1M KPI 拆成 9 个 $100K 客户，当年 ARR 约 $500K，单笔 $100K 订单 2 个月关单。"
+  keywords: "2B 商业化, 开源商业化, ARR, 企业级销售, SOW, 交付体系, Multi-Agent"
+  tagline: "企业需求发散、交付边界失控、尾款难收——用一套完整的 2B 交付体系换来 ARR 0→$500K。"
+  card_summary: "教科书式 2B 难题的解法：付款结构、SOW、CCB 与 $1M KPI 的结构化拆解。"
+  card_stat: "ARR $0 → $500K"
+  takeaways:
+    - "<strong>分段付款结构 + SOW 与合同同签</strong>，交付边界从签约那天就定死。"
+    - "<strong>变更走 CCB 流程</strong>：企业需求发散不可怕，没有变更流程才可怕。"
+    - "<strong>尾款筹码设计</strong>——收款能力是设计出来的，不是催出来的。"
+    - "把 <strong>$1M KPI 拆解成 9 个 $100K 客户</strong>的结构化路径，大目标才有抓手。"
+  challenge: >-
+    一个学术影响力很强的开源框架，商业化刚起步就遇到了教科书式的难题：
+    企业需求发散、交付边界失控、尾款难收——热闹的 star 数换不来健康的现金流。
+  moves:
+    - name: "分段付款 + SOW 同签"
+      text: "建立分段付款结构，SOW 与合同同签，让交付范围在法律文件层面可执行。"
+    - name: "变更走 CCB 流程"
+      text: "所有需求变更进 CCB（变更控制委员会）流程，杜绝口头加需求导致的交付失控。"
+    - name: "尾款筹码设计"
+      text: "在交付节奏中预留尾款筹码，把「催款」变成「交换」。"
+    - name: "KPI 结构化拆解"
+      text: "把 100 万美金 KPI 拆解成 9 个 10 万美金客户的结构化路径，逐个击破。"
+  result: >-
+    当年 ARR 做到约 50 万美金，单笔 10 万美金订单 2 个月关单，
+    沉淀出一套可复用的 2B 交付 SOP。
+  stats:
+    - ["年度 ARR", "$0 → ~$500K"]
+    - ["单笔 $100K 订单关单周期", "2 个月"]
+    - ["KPI 拆解", "$1M → 9 个 $100K 客户"]
+    - ["沉淀资产", "全套 2B 交付 SOP"]
+  related:
+    - ["B2B SaaS Growth — PLG vs SLG Playbook", "/skills/b2b-saas-growth/"]
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["Growth Finder Playbook", "/skills/growth-finder/"]
+
+- slug: launch-cac-6-dollars
+  anon: true
+  name: "某专家 Agent 平台"
+  category: "发布战役 · 渠道归因"
+  year: "2025"
+  h1: "某专家 Agent 平台：发布获客成本 $6.25/注册"
+  title: "发布日 CAC $6.25：流量倒排法与全渠道 UTM 归因案例 | Gingiris"
+  meta_description: "某专家 Agent 平台发布复盘：用「发布日流量倒排法」先定 50 万流量总盘子再拆渠道动作数，每渠道 UTM 短链归因，约 800 个注册、CAC $6.25——行业投放普遍 $30 以上。"
+  keywords: "CAC, 发布日流量, UTM 归因, 获客成本, 渠道拆解, Agent 产品发布"
+  tagline: "新品类、无认知、预算有限——每一美金都必须可归因。最终 CAC $6.25，行业基准 $30+。"
+  card_summary: "发布日流量倒排法：先定总盘子，再拆到每个渠道的具体动作数。"
+  card_stat: "CAC $6.25/注册"
+  takeaways:
+    - "<strong>发布日流量倒排法</strong>：先定 50 万流量总盘子，再倒推每个渠道要做多少个动作。"
+    - "渠道动作具体到数字：<strong>40 个红人 quote、10 帖 Reddit、YouTube 分区投流、200 个社群</strong>。"
+    - "<strong>每个渠道 UTM 短链归因</strong>——预算有限时，不可归因的钱一分都不能花。"
+    - "结果 <strong>CAC $6.25/注册</strong>，同类 AI 工具投放获客普遍在 $30 以上。"
+  challenge: >-
+    新品类、无认知、预算有限——每一美金都必须可归因。拍脑袋铺渠道的打法在这里等于烧钱，
+    需要一套能把目标反向拆解到动作的方法。
+  moves:
+    - name: "定总盘子"
+      text: "先定 50 万流量的发布日总目标，让所有渠道动作有统一的分母。"
+    - name: "拆渠道动作数"
+      text: "把总盘子拆到每个渠道的具体动作数：40 个红人 quote、10 帖 Reddit、YouTube 分区投流、200 个社群。"
+    - name: "全渠道 UTM 归因"
+      text: "每个渠道配 UTM 短链，发布结束当天就能算出每个渠道的真实 CAC。"
+  result: >-
+    发布带来约 800 个注册用户，单个获客成本 $6.25——同类 AI 工具投放获客普遍在 $30 以上。
+    流量倒排法自此成为小预算发布的标准起手式。
+  stats:
+    - ["发布日注册用户", "~800"]
+    - ["单个获客成本", "$6.25/注册"]
+    - ["行业投放获客基准", "$30+"]
+    - ["渠道动作拆解", "40 红人 quote + 10 帖 Reddit + 200 社群"]
+  related:
+    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+    - ["KOL Outreach & Influencer Marketing Playbook", "/skills/kol-outreach/"]
+    - ["Growth Finder Playbook", "/skills/growth-finder/"]
+
+- slug: anti-paid-growth-plan
+  anon: true
+  name: "某 AI 产品社区"
+  category: "增长战略"
+  year: "2025"
+  h1: "某 AI 产品社区：100 万预算完成 50 万注册的反投放作战计划"
+  title: "反投放增长：¥2.0 CAC 与五引擎组合的作战计划案例 | Gingiris"
+  meta_description: "某 AI 产品社区复盘：4 个月、100 万预算、50 万注册，CAC 数学只有 ¥2.0 而信息流要 ¥8-30——改用邀请裂变、换量、UGC、校园大使、活动五台低边际成本引擎，护栏优先于北极星。"
+  keywords: "反投放增长, CAC, 邀请裂变, UGC, 校园大使, 增长护栏, 社区增长"
+  tagline: "CAC 数学摊开只有 ¥2.0，信息流要 ¥8-30——这仗不能靠买量打。"
+  card_summary: "五台低边际成本引擎替代投放，立下「护栏优先于北极星」的铁律。"
+  card_stat: "目标 CAC ¥2.0"
+  takeaways:
+    - "<strong>先算 CAC 数学再选打法</strong>：¥2.0/注册的目标下，¥8-30 的信息流投放从一开始就不成立。"
+    - "<strong>五台低边际成本引擎</strong>：邀请裂变、产品方换量、内容 UGC、校园大使、活动，按配比推进。"
+    - "<strong>护栏优先于北极星</strong>：激活率跌破 8% 自动降拉新油门——别一边漏水一边灌水。"
+    - "单场 AMA 用 <strong>¥700 推流换来 3.3 万观众</strong>，低成本杠杆是设计出来的。"
+  challenge: >-
+    4 个月、100 万预算、50 万注册——CAC 数学摊开只有 ¥2.0/注册，
+    而信息流投放要 ¥8-30。结论在开工前就写好了：这仗不能靠买量打。
+  moves:
+    - name: "五引擎组合替代投放"
+      text: "邀请裂变、产品方换量、内容 UGC、校园大使、活动五台低边际成本引擎，按配比组合推进。"
+    - name: "护栏优先于北极星"
+      text: "立下铁律：激活率跌破 8% 自动降拉新油门——增长质量的护栏优先级高于注册数字。"
+    - name: "低成本杠杆运营"
+      text: "配套运营中，单场 AMA 用 700 元推流换来 3.3 万观众，验证小钱撬大杠杆的可行性。"
+  result: >-
+    一套完整的反投放作战计划落地：五引擎配比、护栏机制与低成本杠杆共同支撑 ¥2.0 的目标 CAC，
+    「护栏优先于北极星」自此成为所有增长项目的默认约束。
+  stats:
+    - ["预算 / 目标", "¥1M / 50 万注册（4 个月）"]
+    - ["目标 CAC", "¥2.0/注册（信息流基准 ¥8-30）"]
+    - ["增长引擎", "五台低边际成本引擎替代投放"]
+    - ["单场 AMA", "¥700 推流 → 33,000 观众"]
+  related:
+    - ["Community & Ambassador Playbook", "/skills/community-ambassador/"]
+    - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
+    - ["Growth Finder Playbook", "/skills/growth-finder/"]
+
+- slug: apache-project-campaign
+  anon: true
+  name: "某 Apache 生态数据编目项目"
+  category: "企业级开源"
+  year: "2024–2025"
+  h1: "某 Apache 生态数据编目项目：企业级开源的发布 Campaign"
+  title: "企业级开源发布 Campaign：10 天 20 万曝光 +401 star 案例 | Gingiris"
+  meta_description: "某 Apache 生态数据编目项目复盘：受众窄、star 和 leads 双目标，把发布做成 Campaign——对比文章盯竞品软肋、README 当搜索着陆页运营、sponsor 上游项目换反链，1.0 发布 10 天 20 万曝光、+401 star。"
+  keywords: "企业级开源, Apache 生态, data catalog, README 优化, 开源发布, 对比文章, 反链建设"
+  tagline: "受众窄、双目标的企业级开源怎么发布？把每次 release 都做成一场 Campaign。"
+  card_summary: "对比文章 + 客户案例前置 + README 着陆页 + sponsor 换反链的组合拳。"
+  card_stat: "10 天 +401 star"
+  takeaways:
+    - "<strong>发布做成 Campaign</strong>：对比文章盯住竞品软肋，大厂客户案例前置。"
+    - "<strong>GitHub README 当「站内搜索着陆页」运营</strong>：高搜索词写进去且保持稳定。"
+    - "<strong>sponsor 上游明星项目换 README 反链</strong>——企业级开源的外链要到生态上游去要。"
+    - "受众窄不等于声量小：<strong>1.0 发布 10 天 20 万 impression、+401 star</strong>。"
+  challenge: >-
+    Apache 生态的 data catalog 项目，受众极窄，且背负 star 和 leads 双目标——
+    面向大众开发者的爆款打法在这里失灵，需要一套面向企业级受众的发布方法。
+  moves:
+    - name: "对比文章盯竞品软肋"
+      text: "发布内容以对比文章为主力，直击竞品的架构与生态软肋，让选型中的企业用户自己找上门。"
+    - name: "大厂客户案例前置"
+      text: "把大厂客户案例放到所有发布物料的最前面，用信任背书降低企业级受众的决策成本。"
+    - name: "README 当搜索着陆页"
+      text: "GitHub README 按站内搜索着陆页运营：高搜索词写进去且保持稳定，吃住 GitHub 站内流量。"
+    - name: "sponsor 上游换反链"
+      text: "sponsor 上游明星项目，换取对方 README 的反链——生态位互换的外链建设。"
+  result: >-
+    1.0 发布 10 天 20 万 impression、+401 star——企业级开源同样可以有 Campaign 级的发布声量，
+    README 着陆页与上游反链成为长期资产。
+  stats:
+    - ["1.0 发布 10 天曝光", "200,000 impression"]
+    - ["10 天新增 star", "+401"]
+    - ["README 定位", "站内搜索着陆页"]
+    - ["外链打法", "sponsor 上游项目换 README 反链"]
+  related:
+    - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+    - ["SEO & GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+    - ["Competitor Research Playbook", "/skills/competitor-research/"]
+
+- slug: attribution-over-applause
+  anon: true
+  name: "某 AI 测试工具"
+  category: "渠道归因 · 开发者增长"
+  year: "2025–2026"
+  h1: "某 AI 测试工具：用流量归因砍掉无效渠道"
+  title: "曝光不等于转化：GitHub Insights 流量归因实战案例 | Gingiris"
+  meta_description: "某 AI 测试工具复盘：Twitter 预热帖 50 万浏览只换来 30-40 个报名，GitHub Insights 归因确认 YouTube（595 unique visitors）远优于 Twitter；Hackathon 250+ 人参与，CLI 板块一天收 70 个 PR。"
+  keywords: "流量归因, GitHub Insights, 开发者增长, Hackathon 运营, 渠道分析, AI 测试工具"
+  tagline: "50 万浏览只换来 30-40 个报名——「曝光≠转化」从口号变成可执行的渠道纪律。"
+  card_summary: "用 GitHub Insights 做归因，确认 YouTube 远优于 Twitter 后重新分配资源。"
+  card_stat: "一天 70 个 PR"
+  takeaways:
+    - "<strong>曝光≠转化</strong>：Twitter 预热帖 50 万浏览，只换来 30-40 个报名。"
+    - "<strong>用 GitHub Insights 做流量归因</strong>：YouTube 595 unique visitors 远优于 Twitter。"
+    - "归因结论要落成动作：<strong>确认渠道排序后立即重新分配资源</strong>。"
+    - "<strong>Hackathon 是开发者激活主引擎</strong>：250+ 人参与，CLI 板块上线一天收到 70 个 PR。"
+  challenge: >-
+    AI 测试工具多渠道铺开后资源分散：Twitter 预热帖 50 万浏览，只换来 30-40 个报名——
+    热闹的数字和冷清的转化之间，缺一层归因。
+  moves:
+    - name: "GitHub Insights 流量归因"
+      text: "用 GitHub Insights 拆解真实流量来源，确认 YouTube（595 unique visitors）远优于 Twitter。"
+    - name: "按归因重新分配资源"
+      text: "砍掉 Twitter 投放，把预算和人力转向实测转化更高的渠道。"
+    - name: "Hackathon 作为激活主引擎"
+      text: "把开发者激活押在 Hackathon 上：250+ 人参与，CLI 板块上线一天收到 70 个 PR。"
+  result: >-
+    「曝光≠转化」从口号变成了可执行的渠道纪律：归因先行、按数据砍渠道、
+    用 Hackathon 承接激活——三步沉淀为开发者产品的标准动作。
+  stats:
+    - ["Twitter 预热帖", "500,000 浏览 → 仅 30-40 报名"]
+    - ["GitHub Insights 归因", "YouTube 595 unique visitors > Twitter"]
+    - ["Hackathon 参与", "250+ 人"]
+    - ["CLI 板块上线首日", "70 个 PR"]
+  related:
+    - ["Growth Finder Playbook", "/skills/growth-finder/"]
+    - ["Community & Ambassador Playbook", "/skills/community-ambassador/"]
+    - ["GitHub Star Growth Playbook", "/skills/github-star-growth/"]
+
+- slug: 1k-launch-recipe
+  anon: true
+  name: "某青少年 AI 游戏创作平台"
+  category: "增长战略 · 发布配方"
+  year: "2025–2026"
+  h1: "某青少年 AI 游戏创作平台：「千元级发布配方」"
+  title: "$1000 发布配方：小预算可复制的注册增长案例 | Gingiris"
+  meta_description: "某青少年 AI 游戏创作平台复盘：YouTube 小额投流 + 20 个垂直 subreddit + 200 个主题社群 + 私信 workflow，$1000 稳定换小几百注册；放大版 $1-2 万对应 100 万曝光，形成预算-产出分级基准表。"
+  keywords: "小预算发布, 发布配方, Reddit 营销, 社群营销, YouTube 投流, 注册增长, 预算基准"
+  tagline: "没有大发布预算，但每次功能上新都要有可预期的注册增量——于是有了可复用的千元级配方。"
+  card_summary: "四渠道千元配方，每渠道独立短链，产出可预期、配方可复制。"
+  card_stat: "$1K → 小几百注册"
+  takeaways:
+    - "<strong>千元级配方</strong>：YouTube 小额投流 + 20 个垂直 subreddit + 200 个主题社群 + 私信 workflow。"
+    - "<strong>每渠道独立短链</strong>——配方要可复制，前提是每个成分的产出可度量。"
+    - "<strong>$1000 稳定换来小几百注册</strong>；放大版 $1-2 万对应 100 万曝光、小几千注册。"
+    - "沉淀出<strong>「预算-产出」分级基准表</strong>，让每次上新的投入产出可预算。"
+  challenge: >-
+    没有大发布预算，但每次功能上新都要有可预期的注册增量——
+    需要的不是一次爆发，而是一个可以反复执行、产出稳定的配方。
+  moves:
+    - name: "四渠道千元配方"
+      text: "YouTube 小额投流 + 20 个垂直 subreddit + 200 个主题社群 + 私信 workflow，一次配齐。"
+    - name: "每渠道独立短链"
+      text: "每个渠道独立短链归因，哪个成分失效一眼可见，配方可以持续调优。"
+    - name: "预算-产出分级"
+      text: "跑出 $1000 与 $1-2 万两档的稳定产出后，固化成分级基准表，按需选档执行。"
+  result: >-
+    $1000 稳定换来小几百注册；放大版本 $1-2 万对应 100 万曝光、小几千注册——
+    形成「预算-产出」分级基准表，发布从赌博变成配方。
+  stats:
+    - ["千元档产出", "$1,000 → 小几百注册"]
+    - ["放大档产出", "$10-20K → ~100 万曝光、小几千注册"]
+    - ["配方成分", "YouTube 投流 + 20 subreddit + 200 社群 + 私信 workflow"]
+    - ["沉淀资产", "预算-产出分级基准表"]
+  related:
+    - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
+    - ["ASO Growth Playbook", "/skills/aso-growth/"]
+    - ["Go-Global GTM Playbook", "/skills/go-global/"]
