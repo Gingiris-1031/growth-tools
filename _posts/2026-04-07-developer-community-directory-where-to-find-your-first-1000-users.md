@@ -249,7 +249,7 @@ What works:
 
 ## Dev Community Contact Data Resources
 
-Data from the xlsx files referenced above was collected via [Sheet0.com](https://sheet0.com/) — a data collection API that generates structured community lists on demand.
+Data from the xlsx files referenced above was collected via an in-house data-collection pipeline.
 
 Available datasets (updated periodically):
 - 100+ AI Discord communities with member counts and join links

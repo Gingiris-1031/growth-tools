@@ -542,9 +542,9 @@
   title: "UGC Matrix Growth Playbook — AI + Creators to $10M ARR | Gingiris"
   h1: "UGC Matrix Growth Playbook"
   tagline: "Scale user-generated content with AI + real creators — the flywheel behind $10M ARR in 60 days."
-  meta_description: "UGC matrix playbook: IP + matrix-account flywheel, creator recruitment & tiering, incentive design, multi-platform strategy. Proven at CPM $0.5, $10M ARR in 60 days, 70M impressions (Kuse case)."
+  meta_description: "UGC matrix playbook: IP + matrix-account flywheel, creator recruitment & tiering, incentive design, multi-platform strategy. Proven at CPM $0.5, $10M ARR in 60 days, 70M impressions (anonymized client case)."
   keywords: "UGC matrix, user generated content, creator program, AI UGC, matrix accounts, content flywheel, TikTok UGC, creator recruitment, CPM 0.5"
-  software_description: "UGC matrix growth playbook to scale user-generated content with AI plus real creators: the IP + matrix-account flywheel, creator recruitment and tiering (strategists vs executors), incentive design, AI matrix-account operations, and multi-platform strategy. Proven at CPM $0.5 — $10M ARR in 60 days with 70M impressions (Kuse case)."
+  software_description: "UGC matrix growth playbook to scale user-generated content with AI plus real creators: the IP + matrix-account flywheel, creator recruitment and tiering (strategists vs executors), incentive design, AI matrix-account operations, and multi-platform strategy. Proven at CPM $0.5 — $10M ARR in 60 days with 70M impressions (anonymized client case)."
   app_category: BusinessApplication
   what: "A 2-person team hit ~$10M ARR in 60 days with <strong>zero funding, zero ad budget, zero sales team</strong> — via a UGC flywheel: an IP account builds trust, attracts creators, who feed a matrix of accounts that amplifies reach. This playbook is that flywheel, recruitment, incentives and platform strategy."
   takeaways:
@@ -588,13 +588,13 @@
       - "Same content across platforms — TikTok and YouTube want opposite things."
   faqs:
     - q: "Can a tiny team really run a UGC matrix?"
-      a: "Yes — the validated Kuse case was a 2-person core team reaching ~$10M ARR in 60 days with 70M impressions at CPM $0.5, by leveraging a tiered creator network (10 strategists + 70 executors) plus AI matrix accounts rather than hiring."
+      a: "Yes — the validated client case (anonymized) was a 2-person core team reaching ~$10M ARR in 60 days with 70M impressions at CPM $0.5, by leveraging a tiered creator network (10 strategists + 70 executors) plus AI matrix accounts rather than hiring."
     - q: "What's the human-to-AI content ratio?"
       a: "Around 6:4 human-to-AI UGC. AI multiplies output and tests variations, but real-creator content carries the trust and conversion. The mix keeps volume high without going fully synthetic."
     - q: "How does UGC actually convert, not just get views?"
       a: "Two-step: AI value content (tool lists, tips) grows followers; then Before/After use-case posts and real phone-shot demos convert that audience. Skipping the conversion step gets you reach with no revenue."
     - q: "Who built this?"
-      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), compiled with the Kuse UGC-matrix case study."
+      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), compiled with a fully documented client UGC-matrix case study (anonymized)."
   related:
     - ["ASO &amp; App Cold-Start Playbook", "/skills/aso-growth/"]
     - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]

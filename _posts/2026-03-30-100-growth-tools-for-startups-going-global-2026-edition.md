@@ -13,7 +13,6 @@ faq:
   - q: "What are the best free growth tools for startups?"
     a: "Best free growth tools for early-stage startups: Google Search Console (SEO tracking), Google Analytics 4 (traffic analysis), Notion (content planning and CRM), Buffer free tier (social scheduling), Mailchimp free tier (email up to 500 contacts), PostHog free tier (product analytics), GitHub (code + community hub), dev.to API (developer content distribution free). These tools cover the core growth stack before you need to pay for anything."
   - q: "What growth tools do successful SaaS startups use?"
-    a: "The most commonly used growth tools at successful SaaS startups: Ahrefs or Semrush for SEO, Segment for customer data, HubSpot or Salesforce for CRM, Intercom for in-app messaging, Mixpanel or PostHog for product analytics, Apollo or Clay for outbound sales, and Zapier for automation. For X outreach: DMpro.ai or Drippi.ai. For data collection: Sheet0.com API."
   - q: "How many growth tools should a startup use?"
     a: "At pre-revenue: 3-5 tools maximum (analytics, email, CRM). At $1k-$10k MRR: 5-8 tools (add SEO, social scheduling, product analytics). At $10k-$100k MRR: 8-15 tools (add paid ads, enrichment, automation). Tool sprawl is a real risk — only add a new tool when you have a clear use case and someone responsible for acting on its data."
 ---
@@ -80,14 +79,12 @@ APIs we actually use to run this site and Gingiris tools:
 |-----|------|--------------------|
 | [GitHub REST API](https://docs.github.com/en/rest) | Free | Auto-update READMEs, track stars |
 | [dev.to API](https://developers.forem.com/api) | Free | Sync blog posts to dev.to |
-| [Sheet0.com](https://sheet0.com/) | Paid | Generate community/KOL data lists |
 | [Serper.dev](https://serper.dev/) | 2500 free/mo | Search API for keyword research |
 | [Firecrawl](https://www.firecrawl.dev/) | 500 pages free | Competitor scraping → Markdown |
 | [Anthropic Claude API](https://console.anthropic.com/) | Pay-as-you-go | Content automation, analysis |
 | [Railway](https://railway.app/) | $5/mo hobby | Deploy + manage API keys |
 | [Resend](https://resend.com/) | 3000 free/mo | Transactional email |
 
-**Sheet0.com** is particularly useful — all the community/influencer lists we reference on this site (Discord AI communities, YC founder lists, PH hunters) were built with Sheet0's data collection API.
 
 
 ## 🆕 Picked Up This Week (Week of Apr 13, 2026)
@@ -212,7 +209,6 @@ Plus companion playbooks:
 1. **Replace xAutoDM** with DMpro.ai ($49/mo, best safety features)
 2. **Track competitors** with Toolify Social Listening (free)
 3. **Find KOLs** with Nanoinfluencer
-4. **Master Reddit** with the Leapility agents
 5. **Automate content** publishing with dev.to API + GitHub API
 
 ---

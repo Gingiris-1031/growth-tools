@@ -160,7 +160,6 @@ For global tech subreddits (r/programming, r/startups):
 |------|--------------|-------|
 | [Reddit List](https://www.reddit-list.com/) | Find subreddits by category | Free |
 | [Later for Reddit](https://laterforreddit.com/) | Schedule posts for optimal times | Free |
-| [Reddit Marketing Strategist](https://leapility.com/?agent=i-8poxa0f1xq9q) | AI agent to find subreddits + understand rules | Freemium |
 
 More Reddit tools → [Growth Tools Directory](https://gingiris.tools/)
 

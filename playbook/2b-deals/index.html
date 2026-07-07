@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2B 打单与交付实战 SOP —— 收款保卫战手册 | Gingiris</title>
+<meta name="description" content="中国技术团队的收款保卫战手册：报价单四件套、SOW 必含五要素、3:4:3 分段付款、尾款筹码设计、CCB 变更管理、渠道分层、$1M ARR 拆解。9 章 + 3 附录，含签约前 12 问 Checklist 与实战话术库。¥699 买断含一年更新。">
+<meta name="keywords" content="2B 打单, ToB 销售, 尾款催收, SOW 模板, 分段付款, 私有化部署报价, 开源商业化, 合同条款, CCB 变更管理, 收款">
+<meta name="author" content="Iris Wei">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://gingiris.tools/playbook/2b-deals/">
+<link rel="alternate" hreflang="zh" href="https://gingiris.tools/playbook/2b-deals/">
+<link rel="alternate" hreflang="x-default" href="https://gingiris.tools/playbook/2b-deals/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gingiris.tools/playbook/2b-deals/">
+<meta property="og:title" content="2B 打单与交付实战 SOP —— 收款保卫战手册">
+<meta property="og:description" content="签合同只是一半，全额收回款才是另一半。9 章 + 3 附录的完整实操层：付款结构、尾款筹码、变更管理、条款速查、话术库。">
+<meta property="og:image" content="https://gingiris.tools/assets/images/og-banner.jpg">
+<meta property="og:site_name" content="Gingiris Growth Tools">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2B 打单与交付实战 SOP —— 收款保卫战手册">
+<meta name="twitter:description" content="签合同只是一半，全额收回款才是另一半。9 章 + 3 附录的完整实操层：付款结构、尾款筹码、变更管理、条款速查、话术库。">
+<meta name="twitter:image" content="https://gingiris.tools/assets/images/og-banner.jpg">
+<meta name="twitter:creator" content="@WeiYipei">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "2B 打单与交付实战 SOP —— 收款保卫战手册",
+      "description": "面向第一次做 2B 的技术创始团队、开源项目商业化负责人的付费实操手册：全流程六步、报价单四件套、合同与 SOW、3:4:3 分段付款与尾款筹码设计、CCB 变更管理、私有化与 SaaS 分界、渠道分层、$1M ARR 营收拆解、打单叙事。9 章 + 3 附录（签约前 12 问 Checklist、合同条款速查卡、实战话术库）。基于 2024-2026 年 105+ 项目实战复盘，含某开源 Multi-Agent 框架公司 2B 商业化 0→$500K ARR 全程，已脱敏。买断制含一年更新。",
+      "url": "https://gingiris.tools/playbook/2b-deals/",
+      "category": "Business Playbook / Digital Document",
+      "brand": {
+        "@type": "Brand",
+        "name": "Gingiris"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Iris Wei",
+        "alternateName": "生姜",
+        "url": "https://gingiris.tools",
+        "sameAs": [
+          "https://x.com/WeiYipei",
+          "https://www.linkedin.com/in/yipei-wei-550825105/",
+          "https://huggingface.co/Gingiris"
+        ]
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "标准版（买断）",
+          "description": "完整手册买断，含一年更新——随 Gingiris 项目实战持续更新。",
+          "price": "699",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://gingiris.tools/playbook/2b-deals/"
+        },
+        {
+          "@type": "Offer",
+          "name": "答疑版（买断 + 30 分钟答疑 call）",
+          "description": "完整手册买断 + 一年更新 + 30 分钟一对一答疑 call（对着你的合同/报价单逐条过）。",
+          "price": "1999",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://gingiris.tools/playbook/2b-deals/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "这份 SOP 适合谁？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "第一次做 2B 的技术创始团队、开源项目商业化负责人、从大厂出来单干的售前/交付。不适用已有成熟销售与法务体系的成熟公司——你们的问题不在这份文档里。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "和免费的 gingiris-b2b-growth skill 有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "免费 skill 覆盖框架层（PLG/SLG 诊断、$0→$10M ARR 路径、定价分层）；本手册提供模板、条款与话术的完整实操层——报价单结构、SOW 五要素、可直接交法务的条款速查卡、尾款催收话术。框架免费，实操收费。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "内容会更新吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "买断制含一年更新——所有数字与流程来自真实项目复盘（已脱敏），随 Gingiris 项目实战持续更新。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "现在怎么购买？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "购买链接即将开放。现在发邮件到 iris.wei@gingiris.com 可锁定首发早鸟价 ¥399（标准版），开售后按邮件顺序优先发货。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://gingiris.tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Playbook",
+          "item": "https://gingiris.tools/playbook/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "2B 打单与交付实战 SOP",
+          "item": "https://gingiris.tools/playbook/2b-deals/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root {
+    --bg:#f8f7f4; --surface:#ffffff; --surface-hover:#f3f2ef;
+    --border:#e8e6e1; --border-hover:#c8c5be;
+    --text:#1a1a1a; --text-secondary:#6b6860; --text-muted:#9b9890;
+    --accent:#16a34a; --accent-hover:#15803d;
+    --code-bg:#1f2937; --code-text:#e5e7eb;
+  }
+  body { font-family:'Inter',-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif; background:var(--bg); color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased; }
+  .container { max-width:1200px; margin:0 auto; padding:0 24px; }
+  .narrow { max-width:760px; margin:0 auto; }
+  a { color:inherit; }
+  /* Header */
+  .site-nav { background:var(--surface); border-bottom:1px solid var(--border); padding:14px 0; position:sticky; top:0; z-index:10; }
+  .site-nav .container { display:flex; justify-content:space-between; align-items:center; }
+  .site-nav a.logo { font-weight:800; font-size:18px; color:var(--text); text-decoration:none; }
+  .site-nav .nav-links { display:flex; gap:24px; font-size:14px; }
+  .site-nav .nav-links a { color:var(--text-secondary); text-decoration:none; }
+  .site-nav .nav-links a:hover { color:var(--accent); }
+  /* Breadcrumb */
+  .crumbs { font-size:13px; color:var(--text-muted); padding:20px 0 0; }
+  .crumbs a { color:var(--text-secondary); text-decoration:none; }
+  .crumbs a:hover { color:var(--accent); }
+  /* Hero */
+  .hero { padding:40px 0 8px; text-align:center; }
+  .hero h1 { font-size:clamp(28px,5vw,44px); font-weight:800; line-height:1.15; letter-spacing:-0.02em; margin-bottom:16px; }
+  .hero .tag-line { font-size:18px; color:var(--text-secondary); margin:0 auto 20px; max-width:680px; text-align:left; }
+  .hero .core-line { font-size:19px; font-weight:700; color:var(--accent-hover); margin:0 auto 8px; max-width:680px; }
+  .credentials { font-size:14px; color:var(--text-muted); margin-top:14px; }
+  .credentials strong { color:var(--accent); }
+  /* Sections */
+  section { padding:40px 0 0; }
+  section h2 { font-size:24px; font-weight:800; letter-spacing:-0.01em; margin-bottom:16px; }
+  section h3 { font-size:18px; font-weight:700; margin:22px 0 8px; }
+  section p.body { font-size:16px; color:var(--text-secondary); margin-bottom:10px; }
+  /* Preview article */
+  .preview-box { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:26px 28px; }
+  .preview-box .free-tag { display:inline-block; background:#f0fdf4; border:1px solid #bbf7d0; color:var(--accent-hover); font-size:12px; font-weight:700; padding:3px 10px; border-radius:99px; margin-bottom:12px; text-transform:uppercase; letter-spacing:.04em; }
+  .preview-box pre { background:var(--code-bg); color:var(--code-text); font-family:'JetBrains Mono',monospace; font-size:13px; line-height:1.7; padding:16px 18px; border-radius:8px; overflow-x:auto; margin:14px 0; }
+  .preview-box ul { margin:8px 0 8px; padding-left:20px; }
+  .preview-box li { font-size:15px; color:var(--text-secondary); padding:3px 0; line-height:1.65; }
+  .preview-box p { font-size:15px; color:var(--text-secondary); margin:8px 0; line-height:1.7; }
+  .preview-box strong { color:var(--text); }
+  /* Checklist */
+  ul.checklist { list-style:none; margin:8px 0; padding:0; }
+  ul.checklist li { position:relative; padding:8px 0 8px 32px; border-bottom:1px solid var(--border); font-size:15px; color:var(--text-secondary); line-height:1.6; }
+  ul.checklist li:last-child { border-bottom:none; }
+  ul.checklist li::before { content:'☐'; position:absolute; left:4px; color:var(--accent); font-weight:700; font-size:17px; }
+  ul.checklist li.locked { color:var(--text-muted); filter:blur(3px); user-select:none; }
+  ul.checklist li.locked::before { content:'🔒'; filter:none; font-size:13px; top:11px; }
+  .locked-note { font-size:14px; color:var(--text-muted); margin-top:10px; text-align:center; }
+  .locked-note a { color:var(--accent-hover); font-weight:600; }
+  /* TOC */
+  .toc { background:var(--surface); border:1px solid var(--border); border-radius:12px; overflow:hidden; }
+  .toc-row { display:flex; justify-content:space-between; align-items:center; gap:14px; padding:13px 20px; border-bottom:1px solid var(--border); font-size:15px; }
+  .toc-row:last-child { border-bottom:none; }
+  .toc-row .t { color:var(--text); }
+  .toc-row .t small { color:var(--text-muted); display:block; font-size:13px; }
+  .badge { flex:0 0 auto; font-size:12px; font-weight:700; padding:3px 10px; border-radius:99px; white-space:nowrap; }
+  .badge.free { background:#f0fdf4; border:1px solid #bbf7d0; color:var(--accent-hover); }
+  .badge.paid { background:#fffbeb; border:1px solid #fde68a; color:#b45309; }
+  /* Pricing */
+  .tier-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+  .tier { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:24px 22px; display:flex; flex-direction:column; }
+  .tier.featured { border-color:var(--accent); box-shadow:0 4px 18px rgba(22,163,74,.10); }
+  .tier .t-name { font-size:14px; font-weight:700; color:var(--text-muted); text-transform:uppercase; letter-spacing:.04em; }
+  .tier .t-price { font-size:30px; font-weight:800; margin:6px 0 2px; }
+  .tier .t-sub { font-size:13px; color:var(--text-muted); margin-bottom:14px; }
+  .tier ul { margin:0 0 4px; padding-left:18px; }
+  .tier li { font-size:14px; color:var(--text-secondary); padding:3px 0; }
+  .tier .t-cta { margin-top:auto; padding-top:18px; }
+  .btn { display:inline-block; width:100%; text-align:center; background:var(--accent); color:#fff; font-weight:700; font-size:15px; padding:12px 16px; border-radius:8px; text-decoration:none; transition:background .15s; }
+  .btn:hover { background:var(--accent-hover); }
+  .btn.disabled { background:var(--surface-hover); color:var(--text-muted); border:1px solid var(--border); cursor:not-allowed; }
+  .btn.disabled:hover { background:var(--surface-hover); }
+  .earlybird { background:#f0fdf4; border:1px solid #bbf7d0; border-left:4px solid var(--accent); border-radius:10px; padding:18px 22px; margin-top:16px; text-align:center; }
+  .earlybird p { font-size:15px; color:var(--text); margin-bottom:12px; }
+  .earlybird .btn { width:auto; padding:11px 26px; }
+  /* Takeaways */
+  .takeaways { background:#f0fdf4; border:1px solid #bbf7d0; border-left:4px solid var(--accent); border-radius:10px; padding:20px 24px; margin-top:8px; }
+  .takeaways h2 { font-size:15px; text-transform:uppercase; letter-spacing:0.04em; color:var(--accent-hover); margin-bottom:10px; }
+  .takeaways ul { margin:0; padding-left:20px; }
+  .takeaways li { font-size:15.5px; color:var(--text); padding:5px 0; line-height:1.55; }
+  /* FAQ */
+  .faq-item { padding:20px 0; border-bottom:1px solid var(--border); }
+  .faq-item:last-child { border-bottom:none; }
+  .faq-q { font-size:17px; font-weight:600; margin-bottom:8px; }
+  .faq-q::before { content:'Q '; color:var(--accent); font-weight:700; }
+  .faq-a { font-size:15px; color:var(--text-secondary); line-height:1.65; }
+  /* Related cards */
+  .rel-grid { display:grid; gap:12px; }
+  .rel-card { display:flex; justify-content:space-between; align-items:center; gap:12px; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:16px 18px; text-decoration:none; color:var(--text); font-weight:600; font-size:15px; transition:border-color .15s, transform .15s; }
+  .rel-card:hover { border-color:var(--accent); transform:translateY(-1px); }
+  .rel-card .arr { color:var(--accent); }
+  /* Footer */
+  .site-footer { padding:40px 0; border-top:1px solid var(--border); margin-top:56px; text-align:center; font-size:14px; color:var(--text-muted); }
+  .site-footer a { color:var(--text-secondary); text-decoration:none; margin:0 8px; }
+  .site-footer a:hover { color:var(--accent); }
+  @media (max-width:700px) {
+    .tier-grid { grid-template-columns:1fr; }
+  }
+  @media (max-width:640px) {
+    .container { padding:0 14px; }
+    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:nowrap; }
+    .hero { padding:24px 0 4px; }
+    .preview-box { padding:20px 16px; }
+  }
+</style>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container">
+      <a href="/" class="logo">Gingiris Growth Tools</a>
+      <div class="nav-links">
+        <a href="/blog/">Blog</a>
+        <a href="/tools/">Free Tools</a>
+        <a href="/skills/">Skills</a>
+        <a href="/services/">Services</a>
+        <a href="https://huggingface.co/datasets/Gingiris" target="_blank" rel="noopener">HuggingFace &rarr;</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/services/">顾问服务</a> / 2B 打单与交付实战 SOP</nav>
+  </div>
+
+  <header class="hero">
+    <div class="container narrow">
+      <h1>2B 打单与交付实战 SOP</h1>
+      <p class="core-line">签合同只是一半，全额收回款才是另一半。</p>
+      <p class="tag-line">先讲一个真实场景（已脱敏）：某开源 Multi-Agent 框架团队，学术声誉很好，签下一家企业客户。活干完了，功能全部交付——<strong>尾款拖了三个月</strong>。对接的高管每次都说「在走流程」。复盘发现问题不在客户「坏」，而在合同里没给自己留任何结构性筹码：功能一次性交付完毕、没有违约金条款、变更全靠口头、验收标准没进合同。客户不着急付款，因为<strong>他没有任何理由着急</strong>。这份 SOP 解决一件事：把「催款靠脸皮」变成「收款靠结构」。</p>
+      <p class="credentials">By <strong>Iris Wei（生姜）</strong> · ex-COO of AFFiNE · 2024-2026 年陪跑 105+ AI 项目 · 含 2B 商业化 0→$500K ARR 全程</p>
+    </div>
+  </header>
+
+  <div class="container narrow">
+    <section>
+      <div class="takeaways">
+        <h2>这本手册写给谁</h2>
+        <ul>
+          <li><strong>适用</strong>：第一次做 2B 的技术创始团队、开源项目商业化负责人、从大厂出来单干的售前/交付。</li>
+          <li><strong>不适用</strong>：已有成熟销售与法务体系的成熟公司——你们的问题不在这份文档里。</li>
+          <li>所有数字与流程均来自真实项目复盘，已脱敏。收款的每一分筹码，都必须在签合同之前设计好。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>免费预览 · 第一章 全流程总览：2B 对接六步</h2>
+      <div class="preview-box">
+        <span class="free-tag">全文免费</span>
+        <pre>(1) CEO/最高决策人对接 → (2) 业务方确认需求 → (3) 基于需求出报价单
+→ (4) 签合同（合同+SOW 同签）+ 收预付款 → (5) 第一阶段交付
+→ (6) 按项目周期开定期 Review 会</pre>
+        <p><strong>节奏基准：</strong></p>
+        <ul>
+          <li><strong>Review 会频率</strong>：项目总周期 10 天 → 开 1-2 次；一个月 → 至少 1-2 周一次。</li>
+          <li><strong>角色分工识别</strong>（进场先画清楚对方组织）：CEO 管业务、CTO 管技术、采购推流程。实操分工：和业务方对需求、逐条澄清边界；和 CEO 汇报立项与采购；<strong>追尾款找采购 + 必要时上升 CEO</strong>。</li>
+          <li>大客户对合同看得重——<strong>你必须在合同里有自己的体系</strong>，而不是用对方法务给的模板裸奔。</li>
+        </ul>
+        <p><strong>典型翻车路径</strong>（真实案例改写）：CEO 拿着一个业务自动化的想法开了几次会 → 定了 10 万美金的单子 → 干到一半发现 CEO 定的流程不符合真实业务需求 → 补做多边需求确认 → 工期爆炸。教训：<strong>所有合同都应该在需求确认书签署之后再签</strong>；对方能掏钱的那一刻的需求版本，才是作数的版本。</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>免费预览 · 附录 A 签约前 12 问 Checklist（前 6 问）</h2>
+      <div class="preview-box">
+        <span class="free-tag">前 6 问免费</span>
+        <p>签字之前，逐条打勾：</p>
+        <ul class="checklist">
+          <li>1. 需求确认书（最终版）签了吗？合同是基于它而不是会议纪要吗？</li>
+          <li>2. SOW 和合同是同时签署吗？</li>
+          <li>3. 每项交付物有可打勾的验收标准吗？</li>
+          <li>4. 付款是 3:4:3 / 4:4:2 分段吗？签约当天收 30% 了吗？</li>
+          <li>5. 违约金条款（0.5%/天）写进去了吗？</li>
+          <li>6. 尾款筹码设计好了吗（自服务器功能/时限授权）？签约前和客户说清楚了吗？</li>
+          <li class="locked" aria-hidden="true">7. 变更流程条款（CCB + 时限）在合同里吗？……</li>
+          <li class="locked" aria-hidden="true">8. 项目验收对接人指名道姓写进合同了吗？……</li>
+          <li class="locked" aria-hidden="true">9. 对方组织架构画清楚了吗（谁管业务/谁管……</li>
+          <li class="locked" aria-hidden="true">10. Review 会频率约定了吗？……</li>
+          <li class="locked" aria-hidden="true">11. 报价表之外的口头承诺，都转成附属合同……</li>
+          <li class="locked" aria-hidden="true">12. 这单如果尾款收不回来，你的最大损失是……</li>
+        </ul>
+        <p class="locked-note">🔒 第 7-12 问 + 合同条款速查卡 + 实战话术库，<a href="#pricing">付费解锁完整版 ↓</a></p>
+      </div>
+    </section>
+
+    <section>
+      <h2>完整目录 · 9 章 + 3 附录</h2>
+      <div class="toc">
+        <div class="toc-row"><span class="t">第一章 · 全流程总览：2B 对接六步<small>本页已完整放出</small></span><span class="badge free">免费预览</span></div>
+        <div class="toc-row"><span class="t">第二章 · 立项与报价：报价单是第一道过滤器<small>报价单四件套 · 抬价过滤法 · 席位门槛</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第三章 · 合同与 SOW：只有 paperwork 有效<small>SOR/SOW 分开 · SOW 必含五要素 · 三条铁律</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第四章 · 付款结构与尾款防御（本手册核心）<small>3:4:3 分段 · 违约金条款 · 尾款筹码设计 · 催收路径</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第五章 · 需求边界管理：CCB 与「聊嗨了」的处理<small>变更八步流程 · 商务推拉术</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第六章 · 私有化与 SaaS 的分界线<small>私有化的两个「真点」 · 三条标准应答</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第七章 · 渠道与代理体系<small>代理尽调三问 · 分层模板 · 海外团队门槛纪律</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第八章 · 营收拆解与 KPI 设计<small>$1M ARR 两条腿：9 个 $10 万级客户，或每 $10 万 ≈ 500 订阅</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">第九章 · 2B 内容与打单叙事<small>80/20 内容公式 · Deck 叙事顺序 · ToB 冷启动外挂</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">附录 A · 签约前 12 问 Checklist<small>前 6 问本页免费</small></span><span class="badge free">部分免费</span></div>
+        <div class="toc-row"><span class="t">附录 B · 合同条款速查卡<small>可直接交给法务转正式条款的要点清单</small></span><span class="badge paid">付费</span></div>
+        <div class="toc-row"><span class="t">附录 C · 实战话术库<small>尾款催收 · 需求 battle · 推拉让步 · 抬价过滤</small></span><span class="badge paid">付费</span></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2>定价</h2>
+      <div class="tier-grid">
+        <div class="tier">
+          <p class="t-name">标准版</p>
+          <p class="t-price">¥699</p>
+          <p class="t-sub">买断制 · 含一年更新</p>
+          <ul>
+            <li>9 章 + 3 附录完整内容</li>
+            <li>合同条款速查卡（可直接交法务）</li>
+            <li>实战话术库（催收/推拉/抬价）</li>
+            <li>随 Gingiris 项目实战持续更新，含一年</li>
+          </ul>
+          <!-- 【Iris 换购买链接处 ①】挂上小报童后，把下面这个 <a> 的 href="#" 换成标准版购买链接，
+               并删掉 class 里的 "disabled"、把按钮文案改成「立即购买 ¥699」。 -->
+          <div class="t-cta"><a class="btn disabled" href="#" data-purchase="standard" onclick="return false">购买链接即将开放</a></div>
+        </div>
+        <div class="tier featured">
+          <p class="t-name">答疑版</p>
+          <p class="t-price">¥1,999</p>
+          <p class="t-sub">买断 + 一年更新 + 30 分钟答疑 call</p>
+          <ul>
+            <li>标准版全部内容</li>
+            <li><strong>30 分钟一对一答疑 call</strong>——对着你的合同/报价单逐条过</li>
+            <li>适合手上正有单子在谈的团队</li>
+          </ul>
+          <!-- 【Iris 换购买链接处 ②】挂上小报童后，把下面这个 <a> 的 href="#" 换成答疑版购买链接，
+               并删掉 class 里的 "disabled"、把按钮文案改成「立即购买 ¥1,999」。
+               两个按钮都换好后，可一并删除下方 .earlybird 早鸟区块。 -->
+          <div class="t-cta"><a class="btn disabled" href="#" data-purchase="premium" onclick="return false">购买链接即将开放</a></div>
+        </div>
+      </div>
+      <div class="earlybird">
+        <p><strong>购买链接即将开放。</strong>现在发邮件可锁定首发早鸟价 <strong>¥399</strong>（标准版），开售后按邮件顺序优先发货。</p>
+        <a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E9%94%81%E5%AE%9A%E6%97%A9%E9%B8%9F%E4%BB%B7%20%C2%A5399%20%E2%80%94%202B%20%E6%89%93%E5%8D%95%E4%BA%A4%E4%BB%98%20SOP">邮件锁定早鸟价 ¥399 &rarr;</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>谁写的</h2>
+      <p class="body">Iris Wei（生姜）——ex-COO of AFFiNE（60K+ GitHub stars），2024-2026 年陪跑 <strong>105+ AI 项目</strong>，其中含某开源 Multi-Agent 框架公司 2B 商业化 <strong>0→$500K ARR 全程</strong>：从第一张报价单、第一份 SOW，到尾款催收、渠道分层、营收拆解，每一节都对应真实项目里付过学费的复盘。手册里的分段付款比例、违约金条款、尾款筹码设计，都是被多个单子实测过的版本，不是理论推演。</p>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+        <div class="faq-item"><p class="faq-q">这份 SOP 适合谁？</p><p class="faq-a">第一次做 2B 的技术创始团队、开源项目商业化负责人、从大厂出来单干的售前/交付。不适用已有成熟销售与法务体系的成熟公司——你们的问题不在这份文档里。</p></div>
+        <div class="faq-item"><p class="faq-q">和免费的 gingiris-b2b-growth skill 有什么区别？</p><p class="faq-a">免费 skill 覆盖框架层（PLG/SLG 诊断、$0→$10M ARR 路径、定价分层）；本手册提供模板、条款与话术的完整实操层——报价单结构、SOW 五要素、可直接交法务的条款速查卡、尾款催收话术。框架免费，实操收费。</p></div>
+        <div class="faq-item"><p class="faq-q">内容会更新吗？</p><p class="faq-a">买断制含一年更新——所有数字与流程来自真实项目复盘（已脱敏），随 Gingiris 项目实战持续更新。</p></div>
+        <div class="faq-item"><p class="faq-q">现在怎么购买？</p><p class="faq-a">购买链接即将开放。现在发邮件到 iris.wei@gingiris.com 可锁定首发早鸟价 ¥399（标准版），开售后按邮件顺序优先发货。</p></div>
+    </section>
+
+    <section>
+      <h2>配套资源</h2>
+      <div class="rel-grid">
+          <a class="rel-card" href="/skills/b2b-saas-growth/"><span>gingiris-b2b-growth skill — 免费框架层（PLG/SLG · $0→$10M ARR）</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/services/"><span>顾问服务 — 单次咨询 · 陪跑 · AI 增长员工搭建包</span><span class="arr">&rarr;</span></a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        <a href="https://huggingface.co/datasets/Gingiris" target="_blank" rel="noopener">Hugging Face</a> ·
+        <a href="https://dev.to/iris1031" target="_blank" rel="noopener">Dev.to</a> ·
+        <a href="https://x.com/WeiYipei" target="_blank" rel="noopener">X / Twitter</a> ·
+        <a href="/blog/">Blog</a>
+      </p>
+      <p style="margin-top:12px">© Iris (生姜iris) · 版本 v1.0 · 2026-07 · 基于 105+ 项目实战复盘，随实战持续更新</p>
+    </div>
+  </footer>
+</body>
+</html>

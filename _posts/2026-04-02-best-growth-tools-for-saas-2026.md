@@ -84,13 +84,10 @@ Enterprise-grade KOL management platform.
 **[Reddit List](https://www.reddit-list.com/en)** — *Free*
 The best tool for finding relevant subreddits.
 
-**[Reddit Marketing Strategist AI Agent](https://leapility.com/?agent=i-8poxa0f1xq9q)** — *Freemium*
 AI agent that analyzes subreddit rules before you post.
 
-**[Reddit Soft-Sell Agent](https://leapility.com/?agent=i-c0aezfsqhrdl)** — *Freemium*
 Rewrites promotional content to sound natural.
 
-**[Reddit User Pain Points Agent](https://leapility.com/share/agent/i-6nto7kumdswl)** — *Free*
 Analyzes subreddit discussions to extract user pain points.
 
 ---
