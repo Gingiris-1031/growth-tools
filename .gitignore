@@ -3,3 +3,5 @@ tools/google_credentials.json
 secrets.env
 .env
 secrets/
+__pycache__/
+scripts/__pycache__/

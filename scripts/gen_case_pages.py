@@ -142,7 +142,7 @@ NAV = """  <nav class="site-nav">
       <a href="/" class="logo">Gingiris Growth Tools</a>
       <div class="nav-links">
         <a href="/blog/">Blog</a>
-        <a href="/tools/">Free Tools</a>\n                <a href="/cases/">Cases</a>\n                <a href="/services/">Services</a>
+        <a href="/tools/">Free Tools</a>\n                <a href="/cases/">Cases</a>\n                <a href="/services/">Services</a>\n                <a href="/playbook/2b-deals/">Playbook</a>
         <a href="/skills/">Skills</a>
         <a href="/cases/" style="color:var(--accent)">Cases</a>
         <a href="/services/">Services</a>
