@@ -379,7 +379,7 @@
       </div>
       <div class="earlybird">
         <p><strong>购买链接即将开放。</strong>现在发邮件可锁定首发早鸟价 <strong>¥399</strong>（标准版），开售后按邮件顺序优先发货。</p>
-        <a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E9%94%81%E5%AE%9A%E6%97%A9%E9%B8%9F%E4%BB%B7%20%C2%A5399%20%E2%80%94%202B%20%E6%89%93%E5%8D%95%E4%BA%A4%E4%BB%98%20SOP">邮件锁定早鸟价 ¥399 &rarr;</a>
+        <a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E9%94%81%E5%AE%9A%E6%97%A9%E9%B8%9F%E4%BB%B7%20%C2%A5399%20%E2%80%94%202B%20%E6%89%93%E5%8D%95%E4%BA%A4%E4%BB%98%20SOP" onclick="return contactCTA(event, \'锁定早鸟价 ¥399 — 2B 打单交付 SOP\')">邮件锁定早鸟价 ¥399 &rarr;</a>
       </div>
     </section>
 
@@ -416,5 +416,27 @@
       <p style="margin-top:12px">© Iris (生姜iris) · 版本 v1.0 · 2026-07 · 基于 105+ 项目实战复盘，随实战持续更新</p>
     </div>
   </footer>
+
+<script>
+function contactCTA(ev, subject) {
+  ev.preventDefault();
+  var email = 'iris.wei@gingiris.com';
+  var panel = document.getElementById('contact-reveal');
+  if (!panel) {
+    panel = document.createElement('div');
+    panel.id = 'contact-reveal';
+    panel.style.cssText = 'position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#111;color:#fff;padding:14px 22px;border-radius:12px;font-size:14px;z-index:999;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:92vw;text-align:center;line-height:1.7';
+    document.body.appendChild(panel);
+  }
+  var copied = '';
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(email).then(function(){ document.getElementById('cr-status').textContent = '✅ 邮箱已复制'; }).catch(function(){});
+    copied = '<span id="cr-status">📋 点击上方邮箱可手动复制</span>';
+  } else { copied = '<span id="cr-status"></span>'; }
+  panel.innerHTML = '发邮件到 <b style="user-select:all;cursor:pointer" onclick="navigator.clipboard&&navigator.clipboard.writeText(\'' + email + '\');document.getElementById(\'cr-status\').textContent=\'✅ 邮箱已复制\'">' + email + '</b><br>主题注明：<b>' + subject + '</b> · 24 小时内回复<br>' + copied + ' &nbsp;<a href="mailto:' + email + '?subject=' + encodeURIComponent(subject) + '" style="color:#7dd3fc">或用邮件客户端打开 →</a> <a href="#" onclick="this.parentNode.parentNode.remove();return false" style="color:#999;margin-left:10px">关闭 ✕</a>';
+  return false;
+}
+</script>
+
 </body>
 </html>

@@ -285,7 +285,7 @@
           </ul>
           <h3>适合谁</h3>
           <p class="t-fit">卡在一个具体决策上、需要有人拍板依据的团队。</p>
-          <div class="t-cta"><a class="btn ghost" href="mailto:iris.wei@gingiris.com?subject=%E9%A2%84%E7%BA%A6%E5%8D%95%E6%AC%A1%E5%92%A8%E8%AF%A2">预约咨询 &rarr;</a></div>
+          <div class="t-cta"><a class="btn ghost" href="mailto:iris.wei@gingiris.com?subject=%E9%A2%84%E7%BA%A6%E5%8D%95%E6%AC%A1%E5%92%A8%E8%AF%A2" onclick="return contactCTA(event, \'预约单次咨询\')">预约咨询 &rarr;</a></div>
         </div>
         <div class="tier">
           <p class="t-name">② 月度陪跑</p>
@@ -298,7 +298,7 @@
           </ul>
           <h3>适合谁</h3>
           <p class="t-fit">0-1 阶段全程需要有人盯节奏、防跑偏的团队。</p>
-          <div class="t-cta"><a class="btn ghost" href="mailto:iris.wei@gingiris.com?subject=%E5%92%A8%E8%AF%A2%E6%9C%88%E5%BA%A6%E9%99%AA%E8%B7%91">咨询陪跑排期 &rarr;</a></div>
+          <div class="t-cta"><a class="btn ghost" href="mailto:iris.wei@gingiris.com?subject=%E5%92%A8%E8%AF%A2%E6%9C%88%E5%BA%A6%E9%99%AA%E8%B7%91" onclick="return contactCTA(event, \'咨询月度陪跑\')">咨询陪跑排期 &rarr;</a></div>
         </div>
         <div class="tier featured">
           <p class="t-name">③ AI 增长员工搭建包</p>
@@ -312,7 +312,7 @@
           </ul>
           <h3>适合谁</h3>
           <p class="t-fit">有执行团队或 AI 基建、缺方法论的团队。</p>
-          <div class="t-cta"><a class="btn" href="mailto:iris.wei@gingiris.com?subject=AI%20%E5%A2%9E%E9%95%BF%E5%91%98%E5%B7%A5%E6%90%AD%E5%BB%BA%E5%8C%85%E2%80%94%E9%A2%84%E7%BA%A6%E4%BA%A4%E4%BB%98%E6%8E%92%E6%9C%9F">预约交付排期 &rarr;</a></div>
+          <div class="t-cta"><a class="btn" href="mailto:iris.wei@gingiris.com?subject=AI%20%E5%A2%9E%E9%95%BF%E5%91%98%E5%B7%A5%E6%90%AD%E5%BB%BA%E5%8C%85%E2%80%94%E9%A2%84%E7%BA%A6%E4%BA%A4%E4%BB%98%E6%8E%92%E6%9C%9F" onclick="return contactCTA(event, \'AI 增长员工搭建包—预约交付排期\')">预约交付排期 &rarr;</a></div>
         </div>
       </div>
     </section>
@@ -393,5 +393,27 @@
       <p style="margin-top:12px">© Iris (生姜iris) · 预约咨询：<a href="mailto:iris.wei@gingiris.com">iris.wei@gingiris.com</a></p>
     </div>
   </footer>
+
+<script>
+function contactCTA(ev, subject) {
+  ev.preventDefault();
+  var email = 'iris.wei@gingiris.com';
+  var panel = document.getElementById('contact-reveal');
+  if (!panel) {
+    panel = document.createElement('div');
+    panel.id = 'contact-reveal';
+    panel.style.cssText = 'position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#111;color:#fff;padding:14px 22px;border-radius:12px;font-size:14px;z-index:999;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:92vw;text-align:center;line-height:1.7';
+    document.body.appendChild(panel);
+  }
+  var copied = '';
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(email).then(function(){ document.getElementById('cr-status').textContent = '✅ 邮箱已复制'; }).catch(function(){});
+    copied = '<span id="cr-status">📋 点击上方邮箱可手动复制</span>';
+  } else { copied = '<span id="cr-status"></span>'; }
+  panel.innerHTML = '发邮件到 <b style="user-select:all;cursor:pointer" onclick="navigator.clipboard&&navigator.clipboard.writeText(\'' + email + '\');document.getElementById(\'cr-status\').textContent=\'✅ 邮箱已复制\'">' + email + '</b><br>主题注明：<b>' + subject + '</b> · 24 小时内回复<br>' + copied + ' &nbsp;<a href="mailto:' + email + '?subject=' + encodeURIComponent(subject) + '" style="color:#7dd3fc">或用邮件客户端打开 →</a> <a href="#" onclick="this.parentNode.parentNode.remove();return false" style="color:#999;margin-left:10px">关闭 ✕</a>';
+  return false;
+}
+</script>
+
 </body>
 </html>
