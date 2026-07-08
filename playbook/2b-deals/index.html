@@ -379,7 +379,7 @@
       </div>
       <div class="earlybird">
         <p><strong>购买链接即将开放。</strong>现在发邮件可锁定首发早鸟价 <strong>¥399</strong>（标准版），开售后按邮件顺序优先发货。</p>
-        <a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E9%94%81%E5%AE%9A%E6%97%A9%E9%B8%9F%E4%BB%B7%20%C2%A5399%20%E2%80%94%202B%20%E6%89%93%E5%8D%95%E4%BA%A4%E4%BB%98%20SOP" onclick="return contactCTA(event, \'锁定早鸟价 ¥399 — 2B 打单交付 SOP\')">邮件锁定早鸟价 ¥399 &rarr;</a>
+        <a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E9%94%81%E5%AE%9A%E6%97%A9%E9%B8%9F%E4%BB%B7%20%C2%A5399%20%E2%80%94%202B%20%E6%89%93%E5%8D%95%E4%BA%A4%E4%BB%98%20SOP" onclick="return contactCTA(event, '锁定早鸟价 ¥399 — 2B 打单交付 SOP')">邮件锁定早鸟价 ¥399 &rarr;</a>
       </div>
     </section>
 
@@ -420,20 +420,56 @@
 <script>
 function contactCTA(ev, subject) {
   ev.preventDefault();
-  var email = 'iris.wei@gingiris.com';
-  var panel = document.getElementById('contact-reveal');
-  if (!panel) {
-    panel = document.createElement('div');
-    panel.id = 'contact-reveal';
-    panel.style.cssText = 'position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#111;color:#fff;padding:14px 22px;border-radius:12px;font-size:14px;z-index:999;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:92vw;text-align:center;line-height:1.7';
-    document.body.appendChild(panel);
+  var email = "iris.wei@gingiris.com";
+  var old = document.getElementById("contact-reveal");
+  if (old) old.remove();
+  var panel = document.createElement("div");
+  panel.id = "contact-reveal";
+  panel.style.cssText = "position:fixed;left:50%;bottom:32px;transform:translateX(-50%);background:#111;color:#fff;padding:14px 22px;border-radius:12px;font-size:14px;z-index:999;box-shadow:0 8px 30px rgba(0,0,0,.25);max-width:92vw;text-align:center;line-height:1.8";
+
+  var line1 = document.createElement("div");
+  line1.appendChild(document.createTextNode("发邮件到 "));
+  var em = document.createElement("b");
+  em.textContent = email;
+  em.style.cssText = "user-select:all;cursor:pointer;border-bottom:1px dashed #7dd3fc";
+  line1.appendChild(em);
+  panel.appendChild(line1);
+
+  var line2 = document.createElement("div");
+  line2.appendChild(document.createTextNode("主题注明："));
+  var sb = document.createElement("b");
+  sb.textContent = subject;
+  line2.appendChild(sb);
+  line2.appendChild(document.createTextNode(" · 24 小时内回复"));
+  panel.appendChild(line2);
+
+  var line3 = document.createElement("div");
+  var status = document.createElement("span");
+  status.id = "cr-status";
+  status.textContent = "📋 点击邮箱可复制";
+  line3.appendChild(status);
+  var mail = document.createElement("a");
+  mail.href = "mailto:" + email + "?subject=" + encodeURIComponent(subject);
+  mail.textContent = " 用邮件客户端打开 →";
+  mail.style.color = "#7dd3fc";
+  mail.style.marginLeft = "10px";
+  line3.appendChild(mail);
+  var close = document.createElement("a");
+  close.href = "#";
+  close.textContent = " 关闭 ✕";
+  close.style.cssText = "color:#999;margin-left:12px";
+  close.onclick = function(e){ e.preventDefault(); panel.remove(); };
+  line3.appendChild(close);
+  panel.appendChild(line3);
+
+  function copy() {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(email).then(function(){ status.textContent = "✅ 邮箱已复制"; }, function(){});
+    }
   }
-  var copied = '';
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(email).then(function(){ document.getElementById('cr-status').textContent = '✅ 邮箱已复制'; }).catch(function(){});
-    copied = '<span id="cr-status">📋 点击上方邮箱可手动复制</span>';
-  } else { copied = '<span id="cr-status"></span>'; }
-  panel.innerHTML = '发邮件到 <b style="user-select:all;cursor:pointer" onclick="navigator.clipboard&&navigator.clipboard.writeText(\'' + email + '\');document.getElementById(\'cr-status\').textContent=\'✅ 邮箱已复制\'">' + email + '</b><br>主题注明：<b>' + subject + '</b> · 24 小时内回复<br>' + copied + ' &nbsp;<a href="mailto:' + email + '?subject=' + encodeURIComponent(subject) + '" style="color:#7dd3fc">或用邮件客户端打开 →</a> <a href="#" onclick="this.parentNode.parentNode.remove();return false" style="color:#999;margin-left:10px">关闭 ✕</a>';
+  em.onclick = copy;
+  copy();
+  document.body.appendChild(panel);
   return false;
 }
 </script>
