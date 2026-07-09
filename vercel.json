@@ -2,6 +2,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/2b-deals/",
+      "destination": "/playbook/2b-deals/",
+      "permanent": true
+    },
+    {
+      "source": "/2b-deals",
+      "destination": "/playbook/2b-deals/",
+      "permanent": true
+    },
+    {
       "source": "/skills/ai-launch-playbook/",
       "destination": "/skills/product-hunt-launch/",
       "permanent": true
