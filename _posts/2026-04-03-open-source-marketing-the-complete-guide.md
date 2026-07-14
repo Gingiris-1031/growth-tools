@@ -363,7 +363,8 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 
 ## 📚 Related Guides
 
-| Category | Article |
+
+- [Build in Public: The Playbook That Took AFFiNE to 60K Stars](/blog/2026/06/24/build-in-public-guide-2026/)| Category | Article |
 |----------|---------|
 | 🚀 | [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 👂 | [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |

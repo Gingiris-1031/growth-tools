@@ -1,10 +1,10 @@
 ---
-title: "Get Cited by AI Search: ChatGPT, Claude, Perplexity [2026]"
-description: "FAQ schema, QAE structure, E-E-A-T signals, named authors. 3-piece GEO stack proven with before/after examples. Implementation checklist included."
+title: "AI Search Optimization: Get Cited by ChatGPT, Claude & Perplexity [2026]"
+description: "AI search optimization (GEO) playbook: FAQ schema, QAE structure, E-E-A-T signals, named authors. The 3-piece stack that gets you cited by ChatGPT, Claude & Perplexity — with checklist."
 date: 2026-04-10
 tags: [ai-seo, perplexity-seo, chatgpt-seo, geo, content-marketing]
 canonical_url: https://gingiris.tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
-last_modified_at: 2026-06-29
+last_modified_at: 2026-07-14
 faq:
   - q: "How do you get cited by AI search engines like ChatGPT and Perplexity?"
     a: "Structure content so answers are extractable: lead with a direct one-paragraph answer (the QAE pattern), add FAQPage schema, demonstrate E-E-A-T signals, and push fresh URLs via IndexNow so Bing indexes you fast. AI engines cite sources that are well-structured, trustworthy, and easy to quote verbatim."

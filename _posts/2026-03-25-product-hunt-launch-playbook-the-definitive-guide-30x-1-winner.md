@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "30x Product Hunt #1: The Complete Launch Playbook [2026]"
+title: "Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide [2026]"
 date: 2026-03-25
 canonical_url: https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.tools/assets/images/blog-product-hunt-launch.jpg"
@@ -15,7 +15,7 @@ faq:
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
 gumroad_title: "Product Hunt Launch Action Guide"
 gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
-last_modified_at: 2026-05-27
+last_modified_at: 2026-07-14
 ---
 
 > 🎯 **Deep dive**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://gingiris.tools/blog/2026/04/28/product-hunt-hunter-list-2026/) — the data behind why a 1k-follower active hunter beats a 50k-follower dormant one (r=0.61 vs r=0.12).
