@@ -22,6 +22,9 @@
     - "<strong>#2–#3 is still a win</strong> — forcing #1 with farmed upvotes risks the whole launch."
     - "Pace even real supporters: <strong>≤100 votes/hour total, ≤30/hour per channel</strong> — PH sweeps suspicious votes roughly every 2 hours."
     - "On a small budget, <strong>skip PH</strong>: the same spend on ~10 Twitter KOL/KOCs brings more exposure and signups (PH exposure→upvote converts at ~1%)."
+    - "Can't outspend the Mon-Wed vote pool? <strong>Launch Thu/Fri/Sat</strong> — low-competition days plus one-by-one LinkedIn-group DMs took a daily #1 with zero ad spend (self-reported)."
+    - "<strong>Badges go to the top 5 only</strong> on daily/weekly/monthly boards — if you can't make top 5, email PH to remove the launch and relaunch on a quieter day (increasingly policed; last resort)."
+    - "Marketing = <strong>precise user-channel matching × high-quality content design</strong>: fill the SOP template, turn channels into a named list, ship a 3-piece content pack (one-liner + key features + user cases), 80% reusable / 20% custom."
   stats:
     - ["Product Hunt #1 launches coached", "30+"]
     - ["AFFiNE GitHub stars driven", "60,000+"]
@@ -31,6 +34,8 @@
     - ["Weekly badge exposure vs. daily", "~7× (monthly ~30×)"]
     - ["Measured launch-day CAC (full UTM attribution)", "$6.25/signup"]
     - ["Projects advised 2024–2026", "105+"]
+    - ["Well-run organic launch ROI (self-reported)", "$10-20K → up to ~1M impressions → 1K-10K+ signups"]
+    - ["Minimum launch crew (self-reported)", "1 full-time + 1-2 interns"]
   howto:
     title: "How to launch on Product Hunt — the 14-day timeline"
     steps:
@@ -72,6 +77,10 @@
       a: "That's exactly what this playbook addresses. The KOL outreach and hunter-coordination sections are built specifically for founders launching from zero platform."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K+ GitHub stars, Forbes Asia 30 Under 30). Coached 30+ Product Hunt #1 launches and advised 150+ AI startups on go-to-market."
+    - q: "Which day of the week should I launch?"
+      a: "Decide the goal first. Branding → fight the Mon-Wed high-traffic pool (expect to pay). Early customers → Thursday/Friday/Saturday: lower traffic but far weaker competition, and manual community DMs can take a daily #1 with zero ad spend (self-reported)."
+    - q: "What if I realize mid-launch that I can't make top 5?"
+      a: "Only the top 5 on the daily/weekly/monthly boards get badges. The known escape hatch is emailing PH support to remove the launch and relaunching on a quieter day — but PH has started pushing back on this, so treat it as a last resort."
   related:
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
@@ -95,6 +104,9 @@
     - "<strong>Don't pour paid acquisition in before PMF</strong> — you burn cash 10× faster than you learn."
     - "Enterprise deals: <strong>3:4:3 staged payments, 30% on signature</strong>, SOW signed with the contract — only paperwork counts."
     - "Below <strong>$2–3M revenue, don't build an overseas office</strong> — distribute through affiliates and resellers instead (rev-share up to 50%)."
+    - "Do not scale before signup-to-paid clears the bar — <strong>≥1.5% for ToC AI, 10-15%+ for ToB</strong>. Below that, paid traffic is negative-ROI ('suicide marketing')."
+    - "<strong>Charge from Day 0</strong> — even $1. A deliberately vague pricing page + contact form gets real price signals weeks before the paid tier exists."
+    - "Lean-team discipline: over <strong>25 people without $1M revenue</strong> means the org is the problem — ClickUp reached $1M ARR with ~24 people (podcast-recalled)."
   stats:
     - ["AI startups consulted on B2B growth", "150+"]
     - ["Case studies with documented outcomes", "8"]
@@ -103,6 +115,9 @@
     - ["$1M ARR decomposition", "9 × ~$110k accounts, or ~500 × $200/yr subs per $100k"]
     - ["Measured B2B paid CPA (LinkedIn, field-tested)", "$30 per paying user"]
     - ["Fastest enterprise close coached (2024–2026)", "$100k deal in 2 months"]
+    - ["Signup-to-paid bar before scaling (ToC AI / ToB AI)", "≥1.5% / 10-15%+"]
+    - ["Proof case: ~6 months of conversion grind (coached ToC product)", "6-8% signup-to-paid, ~$5,000 MRR on ~10,000 users"]
+    - ["Pre-revenue pricing-page test", "Dozens of price inquiries in 2 weeks; ~70% free / 20% personal / 10% team"]
   howto:
     title: "The 5-stage path from $0 to $10M ARR"
     steps:
@@ -144,6 +159,12 @@
       a: "NRR (net revenue retention). Teams obsess over new ARR while NRR quietly sits below 100% — a leaking bucket. The playbook treats NRR as the primary health metric above raw ARR."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K+ GitHub stars, Forbes Asia 30 Under 30). Advised 150+ AI startups on B2B growth, with 8 documented case studies."
+    - q: "What signup-to-paid conversion should an AI SaaS hit before scaling?"
+      a: "At least 1.5% for ToC AI (good products reach 6-8%) and 10-15%+ for ToB — below the bar, paid traffic burns cash at negative ROI. Of 200+ teams that heard this playbook, fewer than 10 executed it; those reached 4-8%+ conversion and raised more smoothly. One coached ToC product hit ~$5,000 MRR on ~10,000 users after 6 quiet months of conversion grinding."
+    - q: "Should I hide pricing until the paid tier is built?"
+      a: "No. Ship a deliberately vague pricing page with a contact form on Day 0. In one documented case it produced dozens of price inquiries within two weeks (~70% community-free / 20% personal / 10% team) — and shifted user questions from 'is this free?' to 'how much?'."
+    - q: "When does PLG stop being enough?"
+      a: "Around $1M ARR. Below it, PLG + organic + light paid marketing works; above it (and for most ToB), you need SLG or local key-account channels. The inbound-heavy pattern — community edition drives search ranking and self-serve trials, deals come inbound — grew Mattermost from ~$100k to ~$1M contracts without a large sales team (founder's self-reported account)."
   related:
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
@@ -165,11 +186,18 @@
     - "<strong>English &gt; multilingual &gt; Chinese-only</strong>: launching an English project to Chinese communities first wastes your best shot."
     - "<strong>Show HN is not a one-shot</strong> — Tuesday 9am ET or Saturday, then engage every comment for the full day."
     - "<strong>Never farm stars</strong> — GitHub detects it fast and the penalty is disappearing from search."
+    - "<strong>Healthy week-1 star geography</strong>: US 19-21%, China ~19-21%, top-4 EU countries 10-15% combined — no domestic posting in week one keeps the curve global."
+    - "<strong>Investors buy star velocity, not count</strong> — AFFiNE's angel took ~400 meetings over a year; the $8M Pre-A closed ~1 month after open-sourcing."
+    - "<strong>Reverse-engineer your competitor's launch day</strong> — star-history.com gives you the date, Google advanced search gives you their exact channel list (~40 channels for AppFlowy)."
   stats:
     - ["AFFiNE GitHub stars (24 months)", "60,000+"]
     - ["Time to first 10K stars", "43 days"]
     - ["GitHub Trending appearances", "28×"]
     - ["Dev-tool startups advised", "150+"]
+    - ["Stars in launch week (AFFiNE)", "~6,000 (80% overseas)"]
+    - ["Angel round before open source", "~400 investor meetings over ~12 months"]
+    - ["Pre-A locked after open-sourcing", "$8M in ~1 month"]
+    - ["Pricing inquiries from a vague pricing page", "Dozens in 2 weeks"]
   howto:
     title: "The 3-stage open-source growth framework"
     steps:
@@ -206,6 +234,12 @@
       a: "Choose deliberately — MIT maximizes adoption, Apache-2 adds patent protection, AGPL protects against closed-source forks but scares some enterprises. Decide based on whether you plan to monetize a hosted version."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K+ GitHub stars), who led its organic 0 → 60K growth and advised 150+ dev-tool startups."
+    - q: "What is the minimum launch kit if I only have one week to prepare?"
+      a: "Ship exactly four assets: a one-liner website (headline + subline + GitHub link on the first screen), an illustrated README that lands the value in 30 seconds with a direct star CTA, one 'open source X alternative' benchmark article reused across every channel, and a 4-page minimal dev-docs set (who we are, features, per-OS deploy guides, how to contribute). AFFiNE launched with exactly this in a one-week window."
+    - q: "Does open source actually help fundraising?"
+      a: "It changes what investors see. AFFiNE's angel round took ~400 investor meetings over ~12 months; after open-sourcing it reached ~6,000 stars in week one (80% overseas), 10K stars in 43 days, and locked an $8M Pre-A about one month post-launch. Investors buy star growth velocity, not the absolute count — some even run crawlers during due diligence to verify stars aren't botted."
+    - q: "How do I test monetization before the paid product exists?"
+      a: "Put up a pricing page with deliberately vague tiers, each with a contact-us typeform. AFFiNE received dozens of pricing inquiries within 2 weeks and the question shifted from 'is this free?' to 'how much?' — interest split roughly 70% community free / 20% personal / 10% team. Announce the paid model early to fight the 'open source = free' stereotype."
   related:
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
@@ -228,11 +262,17 @@
     - "<strong>Authentic voice IS the best E-E-A-T</strong> — don't let AI write like AI; founder voice + real numbers + first-hand stories."
     - "<strong>Structured = citable</strong> — Key-Stats tables, FAQ schema and comparison matrices are what AI engines extract and quote."
     - "<strong>IndexNow is GEO infrastructure</strong> — push updates to Bing/AI search in seconds instead of waiting for crawlers."
+    - "<strong>Research Google page 1 before writing</strong> — the top 5-6 results already give you 80% of the structure; improve it by replacing outdated data and adding your own product GIFs."
+    - "<strong>Refresh winners annually</strong> — update product and competitor screenshots in every high-ranking article each year; freshness keeps compounding rankings alive."
+    - "<strong>Audit before you publish</strong> — get your site to 90+ on an SEO audit tool before producing content, or keywords will not rank."
   stats:
     - ["Months to 60K stars (AFFiNE, SEO-driven)", "24"]
     - ["Startup consultations behind the system", "150+"]
     - ["Core principles", "5"]
     - ["Engines optimized from one content set", "Google + 4 AI"]
+    - ["Traffic growth in first 3 months of SEO (AFFiNE, self-reported)", "~25x"]
+    - ["Monthly impressions from SEO alone, zero paid (self-reported)", "~400-500K"]
+    - ["Proven content cadence", "4 articles/week"]
   howto:
     title: "The 5 core principles of SEO + GEO"
     steps:
@@ -271,6 +311,10 @@
       a: "For GEO, yes — it's the infrastructure that pushes updates to Bing and AI search in seconds instead of waiting on crawl cycles. It's a one-time setup that compounds on every publish."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K GitHub stars in 24 months, largely SEO-driven) and advisor to 150+ startups on search and AI-search growth."
+    - q: "How fast can zero-budget SEO actually work?"
+      a: "At AFFiNE (2022-2023, self-reported), traffic grew ~25x within 3 months of starting SEO and reached ~400-500K monthly impressions with zero paid spend — on a cadence of 4 articles/week (~20/month), each ~1,500 words with images, GIFs and tables, refreshed annually."
+    - q: "What does SEO compounding look like in practice?"
+      a: "One AFFiNE article held Google positions 3-4 for 'open source notion alternative'. When Notion banned Russian accounts, searches spiked and that single old article automatically captured a wave of Russian users — high-authority pages catch event-driven traffic for free."
   related:
     - ["SEO/GEO Agent Operations SOP", "/skills/seo-geo-agent/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
@@ -356,6 +400,9 @@
     - "<strong>Compute Channel CPM on a 10-post median</strong>, not the best post, to avoid paying on cherry-picked peaks."
     - "<strong>One video, 1–2 selling points.</strong> A 15–60s short can't carry 6–8 (each gets &lt;4 seconds) — scene-bind the hook to the creator's vertical instead."
     - "<strong>Pay + contract = fulfillment.</strong> Pure-commission and barter deals are where creators ghost; paid-and-contracted campaigns sustain 90%+ delivery rates (field ref: Superlinear, 100+ brands)."
+    - "<strong>Counter at ~30% of the first quote</strong> and create peer momentum ('20+ creators are already in this campaign') — one over-priced creator came back and posted for free."
+    - "<strong>Top creators can't be bought — they can be earned</strong>: a short monthly product-update email turned a no-sponsorship KOL into a free dedicated video in ~6 months."
+    - "<strong>Escalate email to IM (WhatsApp/Telegram/LinkedIn) after 2-3 replies</strong> — the cheapest insurance against creator no-shows."
   stats:
     - ["KOL campaigns behind the SOP", "200+"]
     - ["Best-value follower range", "1k–10k"]
@@ -363,6 +410,9 @@
     - ["Twitter thread benchmark", "$50–200"]
     - ["AI-assisted outreach throughput (field ref: Superlinear)", "20 → 80–100 creators/op/month"]
     - ["Paid-creator fulfillment rate (pay + contract model)", "90%+"]
+    - ["Cheapest KOC deal that shipped (3k followers)", "$80"]
+    - ["YouTube dedicated video floor (under 100k subs, self-reported)", "~$800-1,200"]
+    - ["Counter-offer anchor vs first quote", "~30%"]
   howto:
     title: "The 6-step KOL outreach SOP"
     steps:
@@ -403,6 +453,12 @@
       a: "Give every KOL a unique UTM link, track at minimum to pageview, and compute ROI = (KOL-driven revenue − cost) / cost. Collect 24h/48h/72h performance screenshots for the post-mortem."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from 200+ KOL campaigns across launch and growth."
+    - q: "How do I negotiate a KOL's first quote?"
+      a: "Counter at roughly 30% of the quote and build campaign momentum — mention that 20+ creators are already in. Overseas creators are mostly individuals or small studios, so negotiate directly rather than through an agency. US-market YouTube above ~$2,000 for a sub-100k channel usually means you didn't negotiate."
+    - q: "How do I win top-tier KOLs who don't take sponsorships?"
+      a: "Creators who monetize via content or affiliate income ignore paid offers. Understand their business model, then send a short monthly what's-new email — they read even if they never reply. In one self-reported case, six months of updates converted into a free dedicated video."
+    - q: "How do I stop a creator from ghosting after we agree on a deal?"
+      a: "Move the conversation from email to WhatsApp, Telegram, or LinkedIn after 2-3 replies, and keep follow-up investment only for creators who reciprocate — treat one-way relationships as a stop signal."
   related:
     - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
@@ -424,11 +480,17 @@
     - "<strong>Reddit is the steady workhorse</strong> (2–3 posts/week → direct star conversion); <strong>Hacker News is the spike</strong> (200–500 stars/post)."
     - "<strong>Ship 8–12 content pieces/month</strong> across blog, video, and social — long-tail SEO compounds."
     - "Build a <strong>contributor ladder</strong> (Good First Issue → Core → Maintainer) so the community produces growth, not just you."
+    - "Close the README loop: every exit page (website, docs, community) must <strong>link back to the GitHub README with a star CTA</strong>."
+    - "Route every channel to the <strong>GitHub repo link, not your website</strong> — all traffic must pass the README star prompt."
+    - "Check <strong>GitHub Insights daily during launch week</strong> and double down on the channels actually sending traffic."
   stats:
     - ["Monthly star target", "300+"]
     - ["Content output", "8–12 pieces/month"]
     - ["Hacker News spike per post", "200–500 stars"]
     - ["Validated client outcome", "0 → 10K stars"]
+    - ["Star distribution health benchmark", "US ~19-21% · China ~19-21% · EU ~10-15%"]
+    - ["Reddit funnel (AFFiNE)", "tens of thousands of visits → 2,000+ stars"]
+    - ["Launch-phase trajectory", "~1,000 stars in 72h → 10K in 43 days"]
   howto:
     title: "The monthly 300-stars cadence"
     steps:
@@ -467,6 +529,12 @@
       a: "Run a ladder: label 3–5 Good First Issues weekly with clear scope and mentor responses, reply to PRs within 24h, and promote contributors (Regular → Core → Maintainer) with public Contributor Spotlights."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (0→60K+ GitHub stars), with the cadence validated on an 8-month client engagement that reached 10K stars."
+    - q: "Should posts link to my website or the GitHub repo?"
+      a: "The repo. AFFiNE routed every channel — Reddit, Twitter, Medium, directories — to the GitHub link so all traffic saw the README's star CTA, then linked each exit page (website, docs, community) back to the repo to close the loop."
+    - q: "Does buying stars ever work?"
+      a: "No. AFFiNE never bought a single star, and when growth spiked, multiple investors ran crawlers on the star sources during due diligence — a clean, globally distributed graph (US ~19-21%, China ~19-21%, Europe ~10-15%) is itself a fundraising asset."
+    - q: "What's a healthy geographic star distribution?"
+      a: "Benchmarked from VSCode, Vue, and AppFlowy: US ~19-21%, China ~19-21%, top EU countries ~10-15% combined. AFFiNE enforced a first-week 'no WeChat Moments' rule to protect it — once China spiked to ~35% in week two, it never came back down."
   related:
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["Community &amp; Ambassador Program Playbook", "/skills/community-ambassador/"]
@@ -488,11 +556,19 @@
     - "Nail a one-line position: <strong>[differentiator] + [vs known product] + for [user/use-case]</strong>."
     - "A launch peak is <strong>48 hours</strong> — concentrate all channels, then immediately pivot to interviews + conversion."
     - "Reddit: <strong>lurk 1–2 weeks, 80% value / 20% product</strong>, never cross-post the same thing."
+    - "Gate before scaling: <strong>ToC AI ≥1.5% / ToB 10-15%+ signup-to-paid</strong> — no ads, no PH, no influencers until you clear it."
+    - "Going global is subtraction: <strong>80% standardized SOP + 20% local adaptation</strong> (ecosystem, holidays, culture)."
+    - "Charge from <strong>day 0</strong> — even $1 plants the 'not free' expectation, and paying users give higher-quality feedback."
+    - "Org ladder: one decision maker at ~3 people, full squad at 6-8, leader layer at 10-12 — <strong>revenue before headcount 8</strong>."
   stats:
     - ["Phases, end to end", "0–5"]
     - ["Launch-peak window", "48 hours"]
     - ["Pre-launch interviews", "20–40"]
     - ["First-user channels", "4 (competitor / LinkedIn / Reddit / Fiverr)"]
+    - ["Signup-to-paid gate (ToC AI / ToB AI)", "≥1.5% / 10-15%+"]
+    - ["Teams taught vs. fully executed", "100-200+ taught → under 10 executed"]
+    - ["Executor conversion after the quiet grind", "4-8%+"]
+    - ["Angel round vs. post-traction Pre-A", "~400 meetings, 1 yr → $8M in 1 month"]
   howto:
     title: "The Phase 0–5 go-global sequence"
     steps:
@@ -531,6 +607,10 @@
       a: "[differentiator] + [vs a known product] + for [specific user/use-case]. It borrows the known product's mental model while staking out your wedge — and it's the foundation every channel's copy reuses."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups on going global."
+    - q: "When is it safe to scale paid acquisition?"
+      a: "Only after signup-to-paid conversion clears the gate — at least 1.5% for ToC AI (good products hit 6-8%), 10-15%+ for ToB AI. Of 100-200+ teams taught this, fewer than 10 fully executed; those reached 4-8%+ conversion. One ToC product hit ~$5,000 MRR on ~10K signups after six quiet months, then scaled and raised smoothly."
+    - q: "How much should I localize per market?"
+      a: "Use the 80/20 formula: 80% standardized SOP, 20% local adaptation — integrate the local ecosystem, align with local holidays, adapt to culture. And calibrate down: digital maturity in Southeast Asia (even the US/EU) is often lower than expected, while a 24-hour response time is itself a competitive weapon."
   related:
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
@@ -616,11 +696,17 @@
     - "Run a structured <strong>5-part, 30–45 min script</strong>: background → workflow → competitors → pain → willingness to pay."
     - "Beta tests need <strong>3 layers</strong>: value validation, experience perception, gap identification."
     - "Close with the <strong>5-question method</strong> — including \"would you pay if we launched tomorrow, and why?\""
+    - "A bad interview is an <strong>investor pitch</strong> — you talk 80%. A good one: the user <strong>shares their screen</strong> and shows real use cases."
+    - "\"Willing to pay\" in an interview and actually paying are <strong>two different logics</strong> — validate with real payment behavior, not stated intent."
+    - "Close the loop: user feedback → team-wide breakdown → fix within 1-2 months → tell the user \"your issue is fixed\" — the loop itself drives retention."
   stats:
     - ["Interview script length", "30–45 min"]
     - ["Interview script parts", "5"]
     - ["Synthesis cadence", "every 5–10 sessions"]
     - ["Beta-test layers", "3"]
+    - ["Interviews run by winning teams (reported)", "500-1,000 in ~6 months"]
+    - ["Trust built by daily user chats (reported)", "2 months beats 1 year"]
+    - ["First deep interview length", "up to 2 hours"]
   howto:
     title: "The 5-step user interview framework"
     steps:
@@ -659,6 +745,12 @@
       a: "Synthesize every 5–10 sessions to spot patterns. One vivid interview is an anecdote; recurring themes across a batch are signal."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), advisor to 150+ AI startups on PMF and user research."
+    - q: "What makes a user interview useless?"
+      a: "Turning it into an investor pitch — you talk 80% and the user zones out. Flip it: let the user share their screen, watch their real workflow and real use cases. Your imagined user journey and their actual journey are almost never the same."
+    - q: "How many interviews did successful AI products run before scaling?"
+      a: "Reportedly, teams like Gamma, HeyGen and Lovable ran 500-1,000 user interviews within about six months before pouring money into growth. The counter-example: skipping this and buying installs at tens of dollars per signup and hundreds per paying user."
+    - q: "Can users tell me my own value proposition?"
+      a: "Often yes. Deep users know the scenario, the industry and every competitor better than you do — a single 2-hour interview can surface your real value proposition and your sharpest comparative advantage."
   related:
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
     - ["AI Product / SaaS Go-Global SOP", "/skills/go-global/"]
@@ -680,11 +772,17 @@
     - "Recruit on <strong>A+B: event-organizing ability AND content output</strong> — quality over quantity (only ~25% stay active)."
     - "The strongest incentives are <strong>founder access + helping ambassadors become KOLs</strong>, not swag."
     - "Four tiers by annual points: <strong>Bronze → Silver → Gold → Platinum</strong>."
+    - "Three preconditions in strict order: <strong>team uses it daily → product is genuinely good → word-of-mouth has started</strong>. A paid ambassador program is always the LAST step."
+    - "Run a <strong>social listening bot</strong> (every mention → internal Slack, official reshares) before any program — it doubles as your ambassador discovery funnel."
+    - "Split contributors into <strong>two tracks</strong>: paid code contractors (engineering-owned, interviewed) vs unpaid ambassadors (ops-owned, self-driven) — never mix the incentives."
   stats:
     - ["Readiness conditions before starting", "6"]
     - ["Progression tiers", "4 (Bronze→Platinum)"]
     - ["Incentive pillars", "5"]
     - ["Typical active rate", "~25%"]
+    - ["Founder time with each first country ambassador", "~4 hours (as told firsthand)"]
+    - ["Notion affiliate revenue share", "~50% (10-20% is enough for most)"]
+    - ["One super user can convert", "~10K signups (50-100 such users, as-spoken)"]
   howto:
     title: "How to run an ambassador program"
     steps:
@@ -723,6 +821,12 @@
       a: "Four point-based tiers — Bronze (apply), Silver (≥100/yr), Gold (≥300), Platinum (≥600) — with points from tutorials, videos, talks, translations and referrals, unlocking progressively deeper access."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), drawing on real ambassador interviews from Notion (20M users), Asana and ClickUp."
+    - q: "Should ambassadors be paid?"
+      a: "Split two tracks. Code contributors investing 50%+ of their time deserve paid contractor deals (engineering-owned, entry via PR review plus 1-2 interviews). Ambassadors are unpaid — the incentives are the product itself, early beta access and commercial discounts. AFFiNE got all 6 language versions of its first website translated by 34 ambassadors across 14 countries at zero cost."
+    - q: "How did Notion pick its first ambassadors?"
+      a: "From usage data plus organic advocacy — whoever used it deepest and posted about it unprompted, one per country. The founder then reportedly flew to meet each first country ambassador for about 4 hours to instill the vision (firsthand account from a Notion HQ visit; figures as-spoken)."
+    - q: "How do ambassadors make money?"
+      a: "Notion's model: ~50% affiliate share on converted annual users (industry-high; 10-20% suffices for most products) plus a template economy — custom templates at $300-800 on freelance marketplaces, with top Southeast Asia ambassadors reportedly earning ~SGD 20K/month. Users become a sales force you never put on payroll."
   related:
     - ["GitHub Star Sustained Growth Playbook", "/skills/github-star-growth/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
@@ -744,11 +848,17 @@
     - "Read <strong>3 website versions via Wayback</strong> (V1 / Beta / Launch) to see how positioning evolved."
     - "Score the <strong>6-stage flywheel</strong> (Activation → Referral → Acquisition → Retention → Revenue → Product) to find the real strength."
     - "Content that travels: <strong>visual demo &gt; user story &gt; competitor comparison</strong> (validated ranking)."
+    - "Use <strong>Google date-range search</strong> to rewind to 2016/2018 and study what unicorns did <em>before</em> they were famous — early user cases beat current PR."
+    - "Find a competitor's <strong>open-source launch day on star-history</strong>, then date-filter Google to reconstruct exactly which channels they hit that day."
+    - "Treat a <strong>competitor's funding announcement as a launch-timing signal</strong> — readiness beats the perfect moment."
   stats:
     - ["AI startups analyzed", "150+"]
     - ["Website versions compared", "3 (V1/Beta/Launch)"]
     - ["Flywheel stages scored", "6"]
     - ["Lovable launch-day impressions", "229K"]
+    - ["Channels in AppFlowy's zero-budget launch (self-reported)", "~40"]
+    - ["Stars in week 1 after replicating the SOP (AFFiNE, self-reported)", "~6,000"]
+    - ["Replicable result for other teams (self-reported)", "1,000-3,000 stars / 3 months"]
   howto:
     title: "The 4-step competitor research framework"
     steps:
@@ -785,6 +895,10 @@
       a: "Wayback Machine for historical website snapshots, SimilarWeb for traffic-source distribution, and Semrush for SEO and ad-spend analysis."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from 150+ AI-startup competitive analyses including a full Lovable launch teardown."
+    - q: "How do I research what a competitor did before they got big?"
+      a: "Rewind with Google's date-range filter (e.g. to 2016/2018), compare their taglines across eras, and dig archived early user cases — ClickUp reportedly started by serving ~10 marketing consultancies to crack one vertical before expanding."
+    - q: "How do I reverse-engineer a competitor's launch day?"
+      a: "Look up their open-source date on star-history, then date-restrict Google searches to that day/week. AppFlowy's launch reportedly used only ~40 channels with zero budget; replicating that SOP helped AFFiNE reach ~6,000 stars in week one (self-reported)."
   related:
     - ["AI Product / SaaS Go-Global SOP", "/skills/go-global/"]
     - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
