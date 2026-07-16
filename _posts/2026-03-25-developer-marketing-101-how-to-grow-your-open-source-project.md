@@ -12,7 +12,13 @@ faq:
     a: "The core principle: provide value first, promote second. Effective non-spammy developer marketing: (1) Answer real questions in communities (GitHub Issues, Stack Overflow, Discord, Reddit) before mentioning your product. (2) Create genuinely useful technical content — tutorials, guides, open-source tools. (3) Contribute to the ecosystem your product lives in. (4) Be transparent about what your product does and doesn't do. Developers forgive honest limitations; they don't forgive hype that doesn't deliver."
   - q: "What channels work best for developer marketing?"
     a: "Highest-ROI developer marketing channels: GitHub (your README is your landing page), Hacker News (Show HN for launches, thoughtful comments for community building), Reddit (r/programming, r/webdev, and niche subreddits for your tech stack), Dev.to and Hashnode (developer-specific blogging with built-in audiences), Discord and Slack communities (direct access to engaged developer groups), and conference talks (high credibility, long shelf life as recordings)."
----
+
+  - q: "How long does it take to grow a developer audience?"
+    a: "Months of consistent presence, not a single viral post. A coordinated launch can spike attention in days, but a durable developer audience compounds over 12+ months of shipping, writing, and showing up in communities. AFFiNE's baseline star rate only became self-sustaining after 28 GitHub Trending appearances raised it appearance by appearance."
+  - q: "Which developer marketing channels should you skip?"
+    a: "Skip the low-signal ones until data justifies them. For AFFiNE, r/programming was inconsistent (sometimes 200 stars, sometimes zero), paid Twitter ads returned about 0.4x, and generic 'awesome' lists produced roughly 10 stars over six months. Concentrate on GitHub, Hacker News, one niche subreddit, and Product Hunt before spreading wider."
+  - q: "Does developer marketing need a budget?"
+    a: "No. The highest-return developer channels are free — README, GitHub Trending, Hacker News, niche subreddits, and your own technical blog. In AFFiNE's experience paid channels badly underperformed organic distribution, so effort and consistency beat ad spend for reaching developers."---
 # Developer Marketing 101: How to Grow Your Open Source Project
 
 **TL;DR**: Developer marketing is different. Developers hate traditional marketing but love great tools. Here's how to reach technical audiences authentically.

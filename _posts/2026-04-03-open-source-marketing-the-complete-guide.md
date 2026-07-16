@@ -12,6 +12,12 @@ faq:
     a: "Open source project marketing playbook: (1) README first — write a README that functions as a product page with clear value proposition, compelling visuals, and instant setup. (2) Launch on Hacker News (Show HN) and Product Hunt simultaneously for maximum first-week exposure. (3) Seed relevant communities — Reddit, Discord servers, developer Slack groups — with genuine, value-first participation. (4) Build contributor infrastructure — CONTRIBUTING.md, good first issues, fast PR reviews — so early users become advocates. (5) Create content around the problems your project solves to build organic discovery."
   - q: "How do open source companies make money?"
     a: "Open source monetization models: (1) Open Core — core product is free and open source, advanced features (SSO, audit logs, enterprise controls) are paid. Examples: GitLab, Metabase. (2) Managed service / SaaS — open source software, but pay for hosted version. Examples: MongoDB Atlas, Elastic Cloud. (3) Support and services — enterprise support contracts, training, professional services. Examples: Red Hat, Canonical. (4) Dual licensing — open source for non-commercial use, commercial license for businesses. Examples: Qt, MariaDB. Most successful OSS companies combine open core with managed SaaS."
+  - q: "How long does open source marketing take to work?"
+    a: "Open source marketing compounds over 12-30 months, not weeks. AFFiNE reached 1,000 GitHub stars in 72 hours with a coordinated launch, but the path from 10,000 to 60,000 stars took roughly two and a half years of consistent launches and weekly content. Treat the first launch as a spike and the following two years as the compounding — projects that go quiet after month three stall."
+  - q: "What is the biggest open source marketing mistake?"
+    a: "Going quiet after the launch spike. A single Hacker News or Product Hunt hit produces a burst of stars that decays within days if nothing follows. The projects that compound keep a weekly content and release cadence that raises the baseline between spikes; the ones that plateau treated launch as a finish line instead of a starting line."
+  - q: "Do you need a budget for open source marketing?"
+    a: "No. The highest-return open source marketing channels are free: a strong README, coordinated Reddit / Hacker News / Product Hunt launches, GitHub Trending, and genuine community participation. In AFFiNE's case, paid channels underperformed badly — $500 of Twitter ads in 2024 returned roughly 50 stars (0.4x). Distribution effort beats ad spend for open source."
 gumroad_url: "https://gingiris.gumroad.com/l/vhmkew"
 gumroad_title: "Open-Source Project Integrated Marketing Action Manual"
 gumroad_desc: "开源项目从 0 到首个 10k Stars 的完整营销手册。含 Reddit、HN、GitHub 社区运营 SOP 和内容分发全流程。"
@@ -364,8 +370,10 @@ Start today: optimize your README, engage in one community genuinely, and focus 
 ## 📚 Related Guides
 
 
-- [Build in Public: The Playbook That Took AFFiNE to 60K Stars](/blog/2026/06/24/build-in-public-guide-2026/)| Category | Article |
+| Category | Article |
 |----------|---------|
+| ⭐ | [AFFiNE 60K GitHub Stars: The Exact Playbook (by COO)](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [Build in Public: The Playbook That Took AFFiNE to 60K Stars](https://gingiris.tools/blog/2026/06/24/build-in-public-guide-2026/) |
 | 🚀 | [Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
 | 👂 | [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) |
 | 📖 | [Developer Marketing Guide](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |

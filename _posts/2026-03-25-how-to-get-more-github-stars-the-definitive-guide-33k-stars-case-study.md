@@ -16,6 +16,10 @@ faq:
     a: "100+ shows traction, 1k+ signals a legitimate project, 5k+ means established community, 10k+ puts you in top 0.1% of repos. For fundraising, 1k+ stars is often a meaningful credibility signal — but only if the growth pattern looks organic."
   - q: "How do I get my repo on GitHub Trending?"
     a: "Coordinate your push: publish content, notify your community, post on Reddit and HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier to hit than All Languages. AFFiNE hit Trending on day five of our open source launch by concentrating all distribution into one window."
+  - q: "How many GitHub stars is considered a lot?"
+    a: "Rough benchmarks: 100 signals a usable project, 1,000 signals real traction, 10,000 puts you in the top tier of a category, and 50,000+ is exceptional. AFFiNE crossed 33,000 in year two and 60,000 by year four. Velocity often matters more than the total — a repo gaining 50 stars/day is a stronger signal than a high total sitting still."
+  - q: "What makes a GitHub repo get stars?"
+    a: "Three things in order: a README that works as a product page (hero image, demo GIFs, 200-word quick start), a coordinated distribution push that triggers GitHub Trending, and genuine community engagement that turns early users into advocates. The README converts traffic, distribution creates it, and community sustains the baseline between launch spikes."
 hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
 hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
 last_modified_at: 2026-04-26
