@@ -3,7 +3,9 @@ title: "GitHub Star Growth: 8 Compounding Plays for 2026"
 date: 2026-05-08
 description: "GitHub star growth guide with 8 compounding plays for sharper README conversion, launch sequencing, fast maintainer replies, and evergreen discovery."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.tools/blog/2026/05/08/github-star-growth-compounding-plays-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/"
+sitemap: false
+last_modified_at: 2026-07-23
 seo_title: "GitHub Star Growth: 8 Compounding Plays for 2026"
 seo_description: "A practical GitHub star growth guide covering README clarity, launch waves, maintainer replies, and SEO loops that keep compounding."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]
@@ -212,4 +214,3 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-

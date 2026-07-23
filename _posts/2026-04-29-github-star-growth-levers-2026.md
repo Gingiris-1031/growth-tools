@@ -3,11 +3,12 @@ title: "GitHub Star Growth: 9 Levers That Compound in 2026"
 date: 2026-04-29
 description: "9 GitHub star growth levers behind AFFiNE's 0 → 60k+ stars. README conversion, launch sequencing, fast-reply rule, and the evergreen search compounding play."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.tools/blog/2026/04/29/github-star-growth-levers-2026/"
+canonical_url: "https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/"
+sitemap: false
 seo_title: "GitHub Star Growth: 9 Levers That Compound in 2026"
 seo_description: "A practical GitHub star growth guide covering README conversion, launch waves, maintainer replies, and SEO loops that compound discovery."
 keywords: [github star growth, github stars, open source marketing, developer marketing, github growth]
-last_modified_at: 2026-06-02
+last_modified_at: 2026-07-23
 faq:
   - q: "What are the main levers for GitHub star growth in 2026?"
     a: "Four levers do most of the work: clarifying the repo category above the fold, optimizing the README for star conversion, launching in waves instead of one burst, and picking one primary channel per push that matches developer intent. They compound when used together."
@@ -261,4 +262,3 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-

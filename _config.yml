@@ -6,7 +6,7 @@ baseurl: ""
 author:
   name: Iris Wei
   email: iris.wei@gingiris.com
-  url: https://gingiris.com
+  url: https://gingiris.tools/
   twitter: WeiYipei
 
 # SEO / GEO — emitted by jekyll-seo-tag plugin
@@ -19,7 +19,7 @@ social:
   links:
     - https://x.com/WeiYipei
     - https://github.com/Gingiris-1031
-    - https://gingiris.com
+    - https://gingiris.tools/
 
 # Build settings
 markdown: kramdown

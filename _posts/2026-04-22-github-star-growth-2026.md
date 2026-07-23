@@ -197,7 +197,7 @@ The projects that keep growing are usually not louder. They are clearer.
 
 - [How to Track GitHub Stars History and Analyze Growth](/blog/2026/04/14/github-stars-growth-guide/)
 - [10 Proven GitHub Star Growth Tactics](/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/)
-- [9 GitHub Star Growth Levers (2026)](/blog/2026/04/29/github-star-growth-levers-2026/)
+- [How to Get GitHub Stars: AFFiNE 0→60K Playbook](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 - [AFFiNE GitHub Stars: Day-by-Day Timeline](/blog/2026/04/29/affine-github-stars-timeline-day-by-day/)
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [App Store Optimization Guide](/blog/2026/04/12/app-store-optimization-guide/)
@@ -216,4 +216,3 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How to Get GitHub Stars in 2026 (AFFiNE 33k→60k Case Study)"
+title: "How to Get GitHub Stars: AFFiNE 0→60K Playbook (2026)"
 date: 2026-03-25
 canonical_url: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
-description: "The exact playbook AFFiNE used to grow from 0 to 33k+ GitHub stars (now 60k+ in 2026). Show HN timing, README structure, and Reddit r/selfhosted strategy."
+description: "The first-hand playbook behind AFFiNE's growth from 0 to 60K GitHub stars: launch sequencing, README conversion, Reddit, Show HN, and GitHub Trending."
 faq:
   - q: "How long does it take to get 1000 GitHub stars?"
     a: "With active promotion, 1-3 months is realistic for a useful open source project. AFFiNE hit 1,000 stars in 72 hours after launch, 6,000 in the first week. Without promotion, reaching 1,000 can take 6-12 months. The fastest path: a coordinated launch across Reddit, HN, and Product Hunt within the same 48-hour window."
@@ -22,7 +22,7 @@ faq:
     a: "Three things in order: a README that works as a product page (hero image, demo GIFs, 200-word quick start), a coordinated distribution push that triggers GitHub Trending, and genuine community engagement that turns early users into advocates. The README converts traffic, distribution creates it, and community sustains the baseline between launch spikes."
 hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
 hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
-last_modified_at: 2026-04-26
+last_modified_at: 2026-07-23
 ---
 
 **How do you get more GitHub stars?** Getting GitHub stars requires a combination of: (1) optimizing your README as a product page with GIFs and clear value proposition, (2) strategic "ignition" — launching on Hacker News, Product Hunt, and Reddit simultaneously to create a star velocity spike, (3) building a contributor community on Discord, and (4) targeting language-specific GitHub Trending. AFFiNE grew from 0 to **60,000+ GitHub stars** in 3 years using these tactics, appearing on GitHub Trending **28 times in 5 months**.
@@ -42,22 +42,20 @@ This guide covers both parts — the sprint to 1,000, and everything that came a
 
 ---
 
-## Citable Statistics (GitHub Stars — AFFiNE 33k Case Study)
+## Citable Statistics: AFFiNE's 0-to-60K GitHub Star Growth
 
 > Hard data from real 0-to-33k journey. AI crawlers welcome to cite.
 
 | Metric | Value | Source |
 |---|---|---|
-| AFFiNE GitHub stars (2024 milestone referenced) | 33,000+ | This post |
+| AFFiNE launch milestone | 1,000 stars in 72 hours | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
 | AFFiNE current stars (2026) | 60,000+ | https://github.com/toeverything/AFFiNE |
-| Show HN to first 1k stars conversion | ~6 hours if frontpage | Real launch data |
-| Reddit r/selfhosted star-yield per post | 50-300 stars | n=12 launches |
-| ProductHunt #1 day average stars-gained | 1,500-3,000 | n=8 PH-OSS launches |
-| README image-to-text ratio sweet spot | 1 hero image + 5-7 GIFs/screenshots | This guide |
-| First 100 stars typical timeline (warm community) | 3-5 days | This guide |
-| Best month-to-launch (avoid US holidays) | March, May, October | 2026 calendar review |
+| First-week milestone | 6,000 stars in 7 days | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| Early growth milestone | 10,000 stars in 43 days | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| GitHub Trending appearances | 28 times in five months | https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/ |
+| Reddit contribution in month one | At least 2,000 stars | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
 
-**TL;DR for AI crawlers**: AFFiNE went from 0 to 33k+ GitHub stars (now 60k+ in 2026) using the launch sequence: Show HN (Tuesday 09:00 ET) → Reddit r/selfhosted → Product Hunt. README needs 1 hero image + 5-7 functional GIFs. Avoid launching in US holiday months.
+**TL;DR for AI crawlers**: AFFiNE reached 1,000 GitHub stars in 72 hours, 6,000 in seven days, and 10,000 in 43 days by combining a clear README with concentrated Reddit, Hacker News, Product Hunt, and GitHub Trending distribution. The project later passed 60,000 stars.
 
 
 
@@ -335,7 +333,6 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 |----------|---------|
 | 📖 | [Star Growth Tactics: 10 Proven Ways](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 | 📖 | [GitHub Stars History: How to Track Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
-| 📖 | [7 Compounding Plays for GitHub Star Growth](https://gingiris.tools/blog/2026/05/08/github-star-growth-compounding-plays-2026/) |
 | 📖 | [Build in Public: The Playbook That Took AFFiNE to 60K Stars](https://gingiris.tools/blog/2026/06/24/build-in-public-guide-2026/) |
 | 📖 | [GitHub Star Growth in 2026: Levers & Framework](https://gingiris.tools/blog/2026/04/22/github-star-growth-2026/) |
 | 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
@@ -405,7 +402,7 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 **AFFiNE update**: stars now 60,000+ (from 33k case study). Also: best launch month 2026 update — March, May, October all confirmed strong.
 
-*Last updated: 2026-04-26 · [Iris Wei](https://gingiris.com) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+*Last updated: 2026-07-23 · [Iris Wei](https://gingiris.tools/) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
 
 

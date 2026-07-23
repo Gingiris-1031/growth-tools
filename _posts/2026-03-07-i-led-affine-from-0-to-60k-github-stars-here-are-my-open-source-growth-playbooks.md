@@ -262,4 +262,4 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 ### Related guides
 
 - [GitHub Star Growth Tactics (2026)](/blog/2026/04/22/github-star-growth-2026/)
-- [GitHub Star Compounding Plays (2026)](/blog/2026/05/08/github-star-growth-compounding-plays-2026/)
+- [How to Get GitHub Stars: AFFiNE 0→60K Playbook](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
