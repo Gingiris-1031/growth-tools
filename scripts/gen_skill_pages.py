@@ -289,6 +289,8 @@ def render(s):
       <div class="rel-grid">
 {related}
           <a class="rel-card" href="/skills/"><span>Browse all 40+ playbooks</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>
       </div>
     </section>
   </div>
@@ -301,7 +303,7 @@ def render(s):
         <a href="https://x.com/WeiYipei" target="_blank" rel="noopener">X / Twitter</a> ·
         <a href="/blog/">Blog</a>
       </p>
-      <p style="margin-top:12px">© Iris (生姜iris) · MIT-0 licensed · No attribution required</p>
+      <p style="margin-top:12px">© Iris (生姜iris) · Community skill licensed under MIT · Hosted services separate</p>
     </div>
   </footer>
 </body>

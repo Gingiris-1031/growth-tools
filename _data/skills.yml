@@ -988,7 +988,7 @@
   stats:
     - ["Specialist playbooks routed to", "10+"]
     - ["Inputs used to route", "type · stage · channel"]
-    - ["Cost", "Free (MIT-0)"]
+    - ["Cost", "Free (MIT)"]
     - ["Source", "AFFiNE 60K + 150 startups"]
   howto:
     title: "How to find your growth playbook"
@@ -1025,7 +1025,7 @@
     - q: "I'm pre-PMF — should I start marketing?"
       a: "No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first."
     - q: "Are these playbooks free?"
-      a: "Yes — every Gingiris playbook is MIT-0 (public-domain equivalent, no attribution required) and installs into any AI agent with one command."
+      a: "Yes — every downloadable Gingiris community playbook is MIT licensed and installs into compatible AI agents with one command. Hosted Pro execution, private datasets, and managed services are separate commercial products."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups."
   related:
