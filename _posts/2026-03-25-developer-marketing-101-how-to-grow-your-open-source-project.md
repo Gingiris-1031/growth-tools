@@ -18,7 +18,8 @@ faq:
   - q: "Which developer marketing channels should you skip?"
     a: "Skip the low-signal ones until data justifies them. For AFFiNE, r/programming was inconsistent (sometimes 200 stars, sometimes zero), paid Twitter ads returned about 0.4x, and generic 'awesome' lists produced roughly 10 stars over six months. Concentrate on GitHub, Hacker News, one niche subreddit, and Product Hunt before spreading wider."
   - q: "Does developer marketing need a budget?"
-    a: "No. The highest-return developer channels are free — README, GitHub Trending, Hacker News, niche subreddits, and your own technical blog. In AFFiNE's experience paid channels badly underperformed organic distribution, so effort and consistency beat ad spend for reaching developers."---
+    a: "No. The highest-return developer channels are free — README, GitHub Trending, Hacker News, niche subreddits, and your own technical blog. In AFFiNE's experience paid channels badly underperformed organic distribution, so effort and consistency beat ad spend for reaching developers."
+---
 # Developer Marketing 101: How to Grow Your Open Source Project
 
 **TL;DR**: Developer marketing is different. Developers hate traditional marketing but love great tools. Here's how to reach technical audiences authentically.
@@ -359,4 +360,3 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-
