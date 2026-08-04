@@ -9,9 +9,9 @@
   title: "Product Hunt Launch Playbook — Win #1 of the Day | Gingiris"
   h1: "Product Hunt Launch Playbook — Win #1 of the Day"
   tagline: "The 14-day operating timeline behind 30+ Product Hunt #1 daily wins."
-  meta_description: "Product Hunt launch playbook: the T-14 → T-0 → T+7 timeline, hunter selection matrix, 6 maker-comment templates, realistic upvote benchmarks, anti-shadowban rules. From 30+ PH #1 wins."
+  meta_description: "Product Hunt launch playbook: the T-14 → T-0 → T+7 timeline, hunter selection, maker comments, authentic community support, conversion tracking, and policy-safe launch operations."
   keywords: "product hunt launch playbook, how to win product hunt, hunter selection, maker comment, first comment, launch day timeline, product of the day, upvotes, GTM sequencing"
-  software_description: "Multi-channel product launch playbook distilled from 30+ Product Hunt #1 daily wins and 150+ AI startup consultations. Covers the T-14 → T-0 → T+7 operating timeline, hunter selection matrix, 6 maker-comment archetypes, launch-day comment cadence, anti-shadowban rules, and second-wave coordination."
+  software_description: "Multi-channel product launch playbook distilled from 30+ Product Hunt #1 daily wins and 150+ AI startup consultations. Covers the T-14 → T-0 → T+7 operating timeline, hunter selection, maker comments, authentic community outreach, conversion tracking, and policy-safe second-wave coordination."
   app_category: BusinessApplication
   what: "Only ~10% of Product Hunt submissions ever get featured. The teams that win rarely have the best product that day — they have the best <strong>timing, comment cadence, and pre-seeded audience</strong>. This is the exact 14-day operating timeline used to coach 30+ #1 daily launches across 150+ AI startups."
   notice: "<strong>⚠️ Choose your launch path first:</strong> <strong>Path A (dev/maker, default)</strong> — use this full PH + GitHub + HN playbook. <strong>Path B (2C consumer: students, gamers, general users)</strong> — skip Product Hunt (audience mismatch, very low ROI); cold-start via Reddit verticals / 小红书 / TikTok / Quora / Naver instead. <strong>Path C (B2B decision-makers)</strong> — use this playbook's B2B sections + LinkedIn outreach + industry media."
@@ -20,10 +20,10 @@
     - "Post at <strong>00:01 PST</strong>, maker comment by 00:15, reply in batches every 30 min — and <strong>never beg for upvotes</strong> (fast shadowban)."
     - "Pick the hunter on <strong>activity, not follower count</strong>. A 50k-follower hunter who hasn't hunted in 6 months is worse than an active 1k one."
     - "<strong>#2–#3 is still a win</strong> — forcing #1 with farmed upvotes risks the whole launch."
-    - "Pace even real supporters: <strong>≤100 votes/hour total, ≤30/hour per channel</strong> — PH sweeps suspicious votes roughly every 2 hours."
+    - "Invite real users to try the product and leave honest feedback; <strong>never buy votes, coordinate fake accounts, or use device/network tactics</strong>."
     - "On a small budget, <strong>skip PH</strong>: the same spend on ~10 Twitter KOL/KOCs brings more exposure and signups (PH exposure→upvote converts at ~1%)."
     - "Can't outspend the Mon-Wed vote pool? <strong>Launch Thu/Fri/Sat</strong> — low-competition days plus one-by-one LinkedIn-group DMs took a daily #1 with zero ad spend (self-reported)."
-    - "<strong>Badges go to the top 5 only</strong> on daily/weekly/monthly boards — if you can't make top 5, email PH to remove the launch and relaunch on a quieter day (increasingly policed; last resort)."
+    - "Treat placement as secondary: track <strong>demos, activated users, qualified conversations, and paid conversion</strong> with dated cohorts."
     - "Marketing = <strong>precise user-channel matching × high-quality content design</strong>: fill the SOP template, turn channels into a named list, ship a 3-piece content pack (one-liner + key features + user cases), 80% reusable / 20% custom."
   stats:
     - ["Product Hunt #1 launches coached", "30+"]
@@ -80,7 +80,7 @@
     - q: "Which day of the week should I launch?"
       a: "Decide the goal first. Branding → fight the Mon-Wed high-traffic pool (expect to pay). Early customers → Thursday/Friday/Saturday: lower traffic but far weaker competition, and manual community DMs can take a daily #1 with zero ad spend (self-reported)."
     - q: "What if I realize mid-launch that I can't make top 5?"
-      a: "Only the top 5 on the daily/weekly/monthly boards get badges. The known escape hatch is emailing PH support to remove the launch and relaunching on a quieter day — but PH has started pushing back on this, so treat it as a last resort."
+      a: "Keep supporting users and measuring demos, activation, qualified conversations, and paid conversion. Do not manipulate votes or repeatedly relaunch to chase a badge; follow Product Hunt's current official rules."
   related:
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
