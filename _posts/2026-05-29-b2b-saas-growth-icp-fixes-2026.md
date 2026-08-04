@@ -24,6 +24,8 @@ If you want the deeper operating system behind that work, start with the **[Ging
 
 ## Why ICP Precision Still Drives B2B SaaS Growth
 
+ICP clarity also determines whether an open-source project can monetize without forcing every developer into a subscription. This [anonymous AI startup commercialization case](/blog/2026/08/04/open-source-ai-startup-commercialization-case-study/) shows how narrowing the enterprise buyer and paid outcome made the sales motion repeatable.
+
 A broad market story feels safer, but it often creates softer demand. When everyone can "kind of" use the product, nobody feels urgent enough to buy it now.
 
 ### What a sharper ICP changes

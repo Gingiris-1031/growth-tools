@@ -52,6 +52,8 @@ The core insight: **your community is your marketing team.** Every contributor, 
 
 ## The Open Source Growth Flywheel
 
+The growth flywheel explains how adoption compounds; the harder question is how that trust becomes revenue without weakening the community. The [anonymous open-source AI commercialization case study](/blog/2026/08/04/open-source-ai-startup-commercialization-case-study/) shows how one research-led startup separated community distribution from its enterprise offer.
+
 Successful open source projects run on a flywheel:
 
 ```

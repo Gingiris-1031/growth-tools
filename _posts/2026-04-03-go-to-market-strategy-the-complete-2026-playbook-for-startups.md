@@ -52,6 +52,8 @@ A go-to-market strategy forces you to answer the hard questions before you waste
 
 ## The 4 Pillars of a Strong GTM Strategy
 
+For a concrete example of these pillars working together, see this [open-source AI commercialization case study](/blog/2026/08/04/open-source-ai-startup-commercialization-case-study/): the team changed its paid outcome, standardized the enterprise offer, and kept open source as the trust and distribution layer.
+
 ### 1. Define Your Target Market (Before You Build Anything)
 
 Don't try to serve everyone. Pick one beachhead market and own it.
