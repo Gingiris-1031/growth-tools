@@ -12,7 +12,11 @@ layout: default
   "url": "{{ page.canonical_url | default: page.url | absolute_url }}",
   "datePublished": "{{ page.date | date: '%Y-%m-%dT00:00:00+08:00' }}",
   "dateModified": "{{ page.last_modified_at | default: page.date | date: '%Y-%m-%dT00:00:00+08:00' }}",
-  "author": {
+  "author": {% if page.privacy_strict %}{
+    "@type": "Organization",
+    "name": "Gingiris Growth Tools",
+    "url": "https://gingiris.tools/"
+  }{% else %}{
     "@type": "Person",
     "name": "Iris",
     "url": "https://gingiris.com",
@@ -20,7 +24,7 @@ layout: default
       "https://twitter.com/WeiYipei",
       "https://github.com/Gingiris-1031"
     ]
-  },
+  }{% endif %},
   "publisher": {
     "@type": "Organization",
     "name": "Gingiris",
@@ -149,6 +153,7 @@ layout: default
     </div>
     {% endif %}
 
+    {% unless page.privacy_strict %}
     <!-- Author Box -->
     <div class="author-box">
         <div class="author-avatar">🌱</div>
@@ -161,8 +166,10 @@ layout: default
             </div>
         </div>
     </div>
+    {% endunless %}
 
     <!-- Related Posts (Liquid — tag-based matching) -->
+    {% unless page.privacy_strict %}
     {% assign relatedPosts = "" | split: "" %}
     {% for post in site.posts %}
       {% unless post.url == page.url %}
@@ -192,10 +199,11 @@ layout: default
         </div>
     </section>
     {% endif %}
+    {% endunless %}
 
     <footer class="post-footer">
         <p>—</p>
-        <p>作者: <a href="https://twitter.com/WeiYipei">@Iris</a> · 更多增长工具: <a href="{{ site.baseurl }}/">Growth Tools</a></p>
+        {% if page.privacy_strict %}<p>Published by <a href="{{ site.baseurl }}/">Gingiris Growth Tools</a></p>{% else %}<p>作者: <a href="https://twitter.com/WeiYipei">@Iris</a> · 更多增长工具: <a href="{{ site.baseurl }}/">Growth Tools</a></p>{% endif %}
     </footer>
 </article>
 

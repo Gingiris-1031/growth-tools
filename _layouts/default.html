@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
-    <meta name="author" content="{{ page.author | default: site.author.name | default: "Iris Wei" }}">
+    <meta name="author" content="{% if page.privacy_strict %}Gingiris Growth Tools{% else %}{{ page.author | default: site.author.name | default: "Iris Wei" }}{% endif %}">
     <meta name="google-site-verification" content="k4XyIH1GtMfoPNDhBRKaVE98gYFE9bk_HtH430A3QJE">
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
     {%- comment -%}hreflang — emit self-tag based on page.lang, then alternates pointing elsewhere{%- endcomment -%}
@@ -46,7 +46,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description }}">
-    <meta name="twitter:creator" content="@WeiYipei">
+    {% unless page.privacy_strict %}<meta name="twitter:creator" content="@WeiYipei">{% endunless %}
     <meta name="twitter:image" content="{{ og_image }}">
     <meta property="og:site_name" content="Gingiris Growth Tools">
     <meta property="og:locale" content="{% if page.lang == 'ja' %}ja_JP{% elsif page.lang == 'ko' %}ko_KR{% elsif page.lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
@@ -58,13 +58,17 @@
       "@type": "Article",
       "headline": {{ page.title | jsonify }},
       "description": "{{ page.description | default: site.description }}",
-      "author": {
+      "author": {% if page.privacy_strict %}{
+        "@type": "Organization",
+        "name": "Gingiris Growth Tools",
+        "url": "https://gingiris.tools/"
+      }{% else %}{
         "@type": "Person",
         "name": "Iris Wei",
         "url": "https://gingiris.tools/",
         "sameAs": ["https://x.com/WeiYipei", "https://github.com/Gingiris-1031"],
         "jobTitle": "Ex-AFFiNE COO, Open Source Marketing Consultant"
-      },
+      }{% endif %},
       "datePublished": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
       "publisher": {
@@ -89,7 +93,7 @@
       "@type": "Organization",
       "name": "Gingiris Growth Tools",
       "url": "https://gingiris.tools/",
-      "logo": "https://gingiris.tools/favicon.svg",
+      "logo": "https://gingiris.tools/favicon.svg"{% unless page.privacy_strict %},
       "founder": {
         "@type": "Person",
         "name": "Iris Wei",
@@ -105,7 +109,7 @@
         "email": "iris.wei@gingiris.com",
         "url": "https://gingiris.tools/",
         "availableLanguage": ["en", "zh-CN", "ja", "ko"]
-      }
+      }{% endunless %}
     }
     </script>
 
@@ -431,7 +435,7 @@
 
     <main class="content">
         {{ content }}
-{% if page.layout == 'post' %}
+{% if page.layout == 'post' and page.privacy_strict != true %}
 
 <!-- ───── 4-Tier CTA Block (auto-applied to every post) ───── -->
 <aside class="cta-block-gingiris" style="
@@ -492,7 +496,7 @@
     </main>
 
     <footer class="footer">
-        <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a> · Built by <a href="https://twitter.com/WeiYipei">@Iris</a> · <a href="{{ site.baseurl }}/partnership">Partners</a></p>
+        <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a>{% unless page.privacy_strict %} · Built by <a href="https://twitter.com/WeiYipei">@Iris</a>{% endunless %} · <a href="{{ site.baseurl }}/partnership">Partners</a></p>
     </footer>
 
     <script>
