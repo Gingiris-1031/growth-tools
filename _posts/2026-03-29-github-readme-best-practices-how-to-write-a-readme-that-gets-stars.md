@@ -5,6 +5,7 @@ date: 2026-03-29
 canonical_url: https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
 image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
 description: "The 8 README rules behind AFFiNE's 60k+ GitHub stars. Visuals, hook copy, install commands, and the 30-second readability test — with real before/after examples."
+last_modified_at: 2026-08-04
 faq:
   - q: "What should a GitHub README include?"
     a: "A high-converting GitHub README should include: (1) A one-line description that clearly explains what the project does and for whom. (2) A visual demo (GIF, screenshot, or video) showing the product working. (3) Quick install/setup instructions (under 5 commands). (4) A features list with the most compelling capabilities. (5) Links to documentation, live demo, and contributing guide. (6) Badges (stars, license, build status) for social proof. The goal: a developer should understand the project's value and know how to try it within 30 seconds."
@@ -14,6 +15,16 @@ faq:
     a: "READMEs that earn stars share these characteristics: a compelling headline that makes the value immediately obvious, a visual demo that shows (not tells) what the product does, a 'why this over alternatives' section that honestly addresses comparisons, extremely low friction to try (ideally one command), and a well-maintained appearance (recent commits, responsive issues). The README is your product's first impression — developers judge project quality by README quality before ever running the code."
 ---
 ---
+
+**GitHub README best practices are the eight choices that help a developer understand, trust, and try a repository within 30 seconds:** lead with a specific value proposition, show the product, provide a short quick start, use only meaningful badges, explain core features, compare alternatives honestly, document contribution paths, and keep every example current. This guide applies those rules to the README structure used while growing AFFiNE beyond 60,000 GitHub stars.
+
+| README decision | Recommended standard | Why it matters |
+|:---|:---|:---|
+| First two lines | Product + audience + outcome | Establishes relevance before scrolling |
+| Visual proof | Screenshot or 15–30 second GIF | Shows the product instead of describing it |
+| Quick start | Working result in five commands or fewer | Reduces evaluation friction |
+| Documentation depth | 500–1,500 words for most applications | Keeps the README useful without replacing `/docs` |
+| Maintenance | Verify commands and screenshots every release | Prevents broken examples from eroding trust |
 
 ## Why Your README Matters
 
@@ -297,8 +308,7 @@ A great README doesn't just document — it sells.
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
 - [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
+- [GitHub README Template: 12 Copy-Paste Examples](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-

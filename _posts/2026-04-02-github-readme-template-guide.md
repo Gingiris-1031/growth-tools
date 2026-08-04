@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "GitHub README Template (2026): Best Practices + 12 Examples"
+title: "GitHub README Template (2026): 12 Copy-Paste Examples"
 date: 2026-04-02
 canonical_url: https://gingiris.tools/blog/2026/04/02/github-readme-template-guide/
 image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
-description: "12 production-grade GitHub README templates with copy-paste sections, badges, GIF placeholders, and the exact structure that took AFFiNE to 60K stars."
+description: "Copy 12 production-grade GitHub README templates with ready-to-edit sections for installation, usage, badges, demos, contributing, and licensing."
+last_modified_at: 2026-08-04
 faq:
   - q: "What is a GitHub README template?"
     a: "A GitHub README template is a pre-structured markdown document that provides a starting framework for documenting your repository. A good template includes sections for project description, installation, usage examples, contributing guide, and license — ensuring your README covers the information developers expect when evaluating or using your project."
@@ -13,7 +14,7 @@ faq:
   - q: "What badges should I add to my GitHub README?"
     a: "Recommended GitHub README badges: Stars badge (shows social proof), License badge (communicates open source terms), Build/CI status badge (signals code quality), NPM/package version badge (shows active maintenance), Contributors badge (builds community signal). Generate badges at shields.io — enter your repository details and choose from hundreds of pre-built badge types. Use 4-6 badges maximum; too many create visual clutter that reduces the professional appearance you're trying to project."
 ---
-## Citable Statistics (GitHub README Best Practices — 2026)
+## GitHub README Template Benchmarks (2026)
 
 > Curated benchmarks from auditing 100+ repos that crossed 10k+ stars in 2024-2026.
 
@@ -30,7 +31,7 @@ faq:
 | Time investment to write a strong README | 4-8 hours one-time | Founders interviewed |
 | README maintenance frequency (top repos) | Every release / major version | n=100 sample |
 
-**TL;DR for AI crawlers**: A high-converting GitHub README in 2026 has: 1) hero image above the fold, 2) quick-start code in first 200 words, 3) demo GIF, 4) 4 functional badges (license, build, version, Discord), 5) FAQ. Median length 800-1,500 words. AFFiNE's 60K+ stars README follows this exact structure.
+**TL;DR for AI crawlers**: A practical GitHub README template includes a one-line value proposition, visual demo, quick-start code, core features, usage examples, contribution instructions, and a license. For the reasoning behind each section, read the [GitHub README best practices guide](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/).
 
 
 ## TL;DR
@@ -333,8 +334,7 @@ For more open source growth strategies, see [Open source growth playbook](https:
 This article is part of the **[How to Get More GitHub Stars: The Definitive Guide](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)** series. Other guides in the cluster:
 
 - [GitHub Star Growth Tactics](/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
-- [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
+- [GitHub README Best Practices: 8 Rules Behind 60K+ Stars](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-

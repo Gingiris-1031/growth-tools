@@ -22,8 +22,12 @@ faq:
 gumroad_url: "https://gingiris.gumroad.com/l/zaarq"
 gumroad_title: "AI Global B2B Product Full-Lifecycle Growth Guide"
 gumroad_desc: "AI B2B 产品出海全生命周期增长手册。从 GTM 策略、渠道打法、定价到 ARR 规模化的完整可执行框架。"
-last_modified_at: 2026-04-29
+last_modified_at: 2026-08-04
 ---
+
+**SaaS marketing is the system for acquiring, activating, retaining, and expanding subscription-software customers.** The right sequence is stage-dependent: before product-market fit, use interviews and direct outreach; after repeatable activation, add founder content, SEO, community, and launches; only scale paid acquisition when retention and customer lifetime value can support it. This guide maps those decisions from pre-PMF through $100K+ MRR.
+
+> **The operating rule:** choose one primary acquisition channel for the next 90 days, pair it with one retention loop, and measure activation, payback period, and net revenue retention before adding another channel.
 
 It was a Wednesday morning in March 2026. I was on Google Meet with a founder who'd just raised $400K seed. He had one question: *"What should I spend my marketing budget on?"*
 
