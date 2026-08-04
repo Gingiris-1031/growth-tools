@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Open-source AI commercialization flywheel</title>
+  <desc id="desc">Open-source research and community create trust and enterprise demand. Enterprise products create revenue and feedback that improve the open-source system.</desc>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07110e"/><stop offset="1" stop-color="#12100b"/></linearGradient><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d7a64a"/></marker></defs>
+  <rect width="1200" height="700" rx="32" fill="url(#bg)"/>
+  <text x="70" y="82" fill="#f5f2e8" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Open-Source AI Commercialization Flywheel</text>
+  <text x="70" y="122" fill="#9eaaa4" font-family="Inter,Arial,sans-serif" font-size="18">Separate distribution from monetization, then connect them through learning.</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="90" y="230" width="280" height="190" rx="24" fill="#10251e" stroke="#36b989" stroke-width="2"/>
+    <text x="230" y="286" text-anchor="middle" fill="#74e3b9" font-size="16" font-weight="700" letter-spacing="2">DISTRIBUTION</text>
+    <text x="230" y="332" text-anchor="middle" fill="#f5f2e8" font-size="26" font-weight="700">Open Source</text>
+    <text x="230" y="369" text-anchor="middle" fill="#b8c4bf" font-size="18">Research · Community · Content</text>
+    <rect x="460" y="230" width="280" height="190" rx="24" fill="#242018" stroke="#d7a64a" stroke-width="2"/>
+    <text x="600" y="286" text-anchor="middle" fill="#efc56d" font-size="16" font-weight="700" letter-spacing="2">VALUE</text>
+    <text x="600" y="332" text-anchor="middle" fill="#f5f2e8" font-size="26" font-weight="700">Trust &amp; Demand</text>
+    <text x="600" y="369" text-anchor="middle" fill="#c8c0ad" font-size="18">Adoption · Talent · Pipeline</text>
+    <rect x="830" y="230" width="280" height="190" rx="24" fill="#181c22" stroke="#8b99b1" stroke-width="2"/>
+    <text x="970" y="286" text-anchor="middle" fill="#b7c5df" font-size="16" font-weight="700" letter-spacing="2">MONETIZATION</text>
+    <text x="970" y="332" text-anchor="middle" fill="#f5f2e8" font-size="26" font-weight="700">Enterprise Offers</text>
+    <text x="970" y="369" text-anchor="middle" fill="#bac2d0" font-size="18">Product · Delivery · Support</text>
+    <path d="M370 325 H445" stroke="#d7a64a" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M740 325 H815" stroke="#d7a64a" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M970 455 C970 590 230 590 230 455" fill="none" stroke="#36b989" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="600" y="565" text-anchor="middle" fill="#74e3b9" font-size="19" font-weight="600">Customer learning improves the system</text>
+  </g>
+</svg>

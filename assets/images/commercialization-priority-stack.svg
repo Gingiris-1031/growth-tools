@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Commercialization priority stack</title>
+  <desc id="desc">A four-layer priority stack placing enterprise outcomes and enabling product capabilities above channels, research releases, and community maintenance.</desc>
+  <rect width="1200" height="700" rx="32" fill="#090d0c"/>
+  <text x="70" y="82" fill="#f5f2e8" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">Commercialization Priority Stack</text>
+  <text x="70" y="122" fill="#9eaaa4" font-family="Inter,Arial,sans-serif" font-size="18">Allocate scarce resources by commercial evidence—not internal excitement.</text>
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+    <rect x="170" y="190" width="860" height="92" rx="20" fill="#17372b" stroke="#47c695" stroke-width="2"/><text x="600" y="227" fill="#75e5ba" font-size="15" font-weight="700" letter-spacing="2">P0 · REVENUE ENGINE</text><text x="600" y="260" fill="#f7f4eb" font-size="24" font-weight="700">Enterprise Outcomes &amp; Delivery</text>
+    <rect x="220" y="302" width="760" height="92" rx="20" fill="#1e2c27" stroke="#64a88e" stroke-width="2"/><text x="600" y="339" fill="#90cfb6" font-size="15" font-weight="700" letter-spacing="2">P0 · ENABLING PRODUCT</text><text x="600" y="372" fill="#f7f4eb" font-size="24" font-weight="700">Stable, Standardized Capabilities</text>
+    <rect x="270" y="414" width="660" height="92" rx="20" fill="#292319" stroke="#c59a4c" stroke-width="2"/><text x="600" y="451" fill="#e7bd6c" font-size="15" font-weight="700" letter-spacing="2">P1 · REPEATABILITY</text><text x="600" y="484" fill="#f7f4eb" font-size="24" font-weight="700">Channels &amp; Customer Proof</text>
+    <rect x="320" y="526" width="560" height="92" rx="20" fill="#1b1f24" stroke="#697485" stroke-width="2"/><text x="600" y="563" fill="#aab5c6" font-size="15" font-weight="700" letter-spacing="2">P2 · MAINTENANCE</text><text x="600" y="596" fill="#f7f4eb" font-size="24" font-weight="700">Research Releases &amp; Community</text>
+  </g>
+</svg>
