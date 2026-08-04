@@ -123,13 +123,13 @@ layout: default
 
     <!-- TOC: collapsible on mobile/tablet (hidden until JS confirms ≥3 headings) -->
     <details class="toc-inline" id="toc-details" style="display:none">
-        <summary>📋 目录 / Table of Contents</summary>
+        <summary>📋 {% if page.lang == 'en' %}Table of Contents{% else %}目录 / Table of Contents{% endif %}</summary>
         <nav id="toc-inline-nav"></nav>
     </details>
 
     <!-- TOC: fixed sidebar on wide desktop (≥1440px) -->
     <nav class="toc-float" id="toc-float" style="display:none" aria-label="Table of contents">
-        <p class="toc-label">目录</p>
+        <p class="toc-label">{% if page.lang == 'en' %}Contents{% else %}目录{% endif %}</p>
         <div id="toc-float-nav"></div>
     </nav>
 

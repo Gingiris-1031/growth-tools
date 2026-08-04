@@ -67,11 +67,11 @@ The central question was simple: what would customers repeatedly pay for? The an
 
 ## How did a defensible enterprise outcome become the revenue engine?
 
-**A defensible enterprise outcome is a result the startup can produce unusually well because its technology, evaluation methods, and operating learning work together.** Our case-study workflow mapped the path from research capability to procurement: define an outcome, produce the deliverable, combine automated and human evaluation, document acceptance criteria, and use a repeatable contract. The key was not selling undifferentiated files or hours. It was entering the customer's system as an accountable supplier with quality controls, domain expertise, and a roadmap. A small cross-functional unit owned this line instead of borrowing people ad hoc. More enterprise work improved evaluation methods; better evaluation improved the open-source system; a stronger system lowered production cost and raised the quality of the next delivery. The exact deliverable, customer category, acceptance thresholds, revenue contribution, and team composition are intentionally withheld.
+**A defensible enterprise outcome is a result the startup can produce unusually well because its technology and accumulated learning work together.** The analysis mapped a broad path from research capability to a repeatable paid outcome. The key was not selling undifferentiated files or hours, but packaging an accountable result that improved the underlying system after each delivery. The exact deliverable, buyer, evaluation method, operating workflow, commercial contribution, and team structure are intentionally withheld.
 
 ## How were B2B sales and pricing made repeatable?
 
-**Standardized B2B sales means converting recurring customer outcomes into named packages with explicit boundaries, implementation steps, and support levels.** Our deal reviews separated the enterprise offer into core access, implementation, training, and support. That structure made discounting visible in HubSpot and prevented custom work from disappearing inside one opaque price. We compared long-cycle strategic projects with smaller standardized deals sold directly or through partners. The repeatability test was practical: could another buyer in the same segment purchase substantially the same scope without rebuilding the offer? Clear service levels and a simple partner policy gave channels something concrete to sell. Once the offer repeated, delivery moved from founder memory into Notion checklists, templates, acceptance criteria, and account-review routines. Exact prices, margins, service tiers, sales cycles, and contract structures have been withheld.
+**Standardized B2B sales means converting recurring customer outcomes into named packages with clear boundaries and support levels.** The team separated the reusable offer from optional implementation and enablement, making custom work visible instead of hiding it inside one opaque price. The repeatability test was simple: could another buyer purchase substantially the same outcome without rebuilding the offer? Once the pattern repeated, delivery moved from founder memory into documented routines. Exact packages, systems, prices, margins, service levels, sales cycles, and commercial terms are withheld.
 
 ## What role did community and timely distribution play?
 
@@ -94,9 +94,9 @@ The central question was simple: what would customers repeatedly pay for? The an
 
 **The evidence boundary means separating documented operating decisions from reconstructed attribution and confidential outcomes.** Working notes support the strategy, packaging, prioritization, community, and sales recommendations described here. This article does not publish private financial statements, customer contracts, customer identities, product names, or a causal model claiming that advisory work alone created the result. Startup outcomes are collective: founders, researchers, operators, market timing, customer demand, and capital all mattered. Revenue, growth, customer count, financing, team, and timing details were excluded because they are confidential or could enable reverse identification. This is why the case is framed as “advised through” a transition, not “single-handedly created” one. Use the framework as a set of hypotheses to test against your own buyers—not as a promise that copying a list of tactics will reproduce a particular outcome.
 
-## A 30-day open-source commercialization diagnostic
+## An open-source commercialization diagnostic
 
-**A commercialization diagnostic is a 30-day process for deciding whether an open-source startup has a repeatable paid wedge.** In week 1, interview 5 users, 5 economic buyers, and 3 lost prospects; record their current tools and budget triggers in Notion. In week 2, map competitors with GitHub, Product Hunt, and pricing-page evidence by buyer, outcome, pricing model, and distribution channel—not feature count. In week 3, price 3 offer shapes: standardized software, enterprise implementation, and a proprietary asset such as data or evaluation. In week 4, sell 1 paid pilot with acceptance criteria and a path to a second similar buyer. Track only 5 numbers: qualified conversations, paid pilots, delivery hours, gross-margin estimate, and repeated scope. If every pilot requires a new product, buyer, and process, you have consulting. If the same outcome survives the second and third sale, you may have a scalable business.
+**A commercialization diagnostic is a short evidence-gathering process for deciding whether an open-source startup has a repeatable paid wedge.** Interview users, budget owners, and prospects who chose another solution. Map alternatives by buyer, outcome, pricing model, and distribution channel—not feature count. Compare a small set of offer shapes, test a paid outcome, and look for evidence that another buyer would purchase substantially the same scope. Track qualified conversations, paid tests, delivery effort, margin direction, and repeated scope. If every engagement requires a new product, buyer, and process, the model remains consulting. If the same outcome repeats, it may support a scalable business.
 
 ## Related reading
 
@@ -109,7 +109,7 @@ The central question was simple: what would customers repeatedly pay for? The an
 
 ### How do open-source AI startups make money?
 
-The strongest model separates distribution from monetization. Open source earns trust and adoption, while enterprise products, deployment, support, training, or workflow outcomes capture value from buyers with urgent operational needs.
+The strongest model separates distribution from monetization: open source earns trust and adoption, while enterprise products, deployment, support, training, or workflow outcomes capture value from buyers with urgent operational needs.
 
 ### Should an open-source startup sell SaaS first?
 
