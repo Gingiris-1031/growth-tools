@@ -66,6 +66,8 @@ When you try to move upmarket to mid-market or enterprise, you hit a wall. Your 
 
 PLG puts the product at the center of acquisition, conversion, and retention. Users can sign up, try the product, and upgrade without talking to a salesperson. This model works incredibly well for tools with clear value propositions and low switching costs.
 
+For the measurement layer—activation, repeat value, cohort diagnosis, and sales-assist signals—use the dedicated [product-led growth guide](/blog/2026/08/06/product-led-growth-activation-expansion-2026/).
+
 **Best for:**
 - Developer tools (GitHub, Vercel, Supabase)
 - Collaboration software (Notion, Linear, Figma)

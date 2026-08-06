@@ -39,6 +39,8 @@ The fundamental challenge of **B2B SaaS growth** is that your buyer (the executi
 
 PLG puts the product at the center of acquisition, conversion, and expansion. The product *is* your sales channel. Users try, buy, and upgrade without talking to a human.
 
+Choosing the motion is only the first step. The [product-led growth activation guide](/blog/2026/08/06/product-led-growth-activation-expansion-2026/) explains how to distinguish signup, activation, repeat value, and paid or expansion intent.
+
 **How PLG works:**
 - Freemium or free trial as the entry point
 - Self-service onboarding (no sales call required)
@@ -199,4 +201,3 @@ This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog
 - [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-
