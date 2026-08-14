@@ -288,7 +288,7 @@ def render(s):
       <h2>Related playbooks</h2>
       <div class="rel-grid">
 {related}
-          <a class="rel-card" href="/skills/"><span>Browse all 40+ playbooks</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/"><span>Browse all 60 playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>
       </div>
