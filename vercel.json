@@ -2,6 +2,36 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/blog/how-to-get-more-github-stars",
+      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-get-more-github-stars/",
+      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
+      "permanent": true
+    },
+    {
+      "source": "/github-star-growth-readme-fixes",
+      "destination": "/blog/2026/05/28/github-star-growth-readme-fixes-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/github-star-growth-readme-fixes/",
+      "destination": "/blog/2026/05/28/github-star-growth-readme-fixes-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/kol-marketing-b2b",
+      "destination": "/blog/2026/04/08/kol-marketing-b2b-saas-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/kol-marketing-b2b/",
+      "destination": "/blog/2026/04/08/kol-marketing-b2b-saas-guide/",
+      "permanent": true
+    },
+    {
       "source": "/2b-deals/",
       "destination": "/playbook/2b-deals/",
       "permanent": true
