@@ -12,6 +12,26 @@
       "permanent": true
     },
     {
+      "source": "/blog/the-33k-stars-case-study",
+      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/the-33k-stars-case-study/",
+      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-i-got-33k-stars",
+      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-i-got-33k-stars/",
+      "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
+      "permanent": true
+    },
+    {
       "source": "/github-star-growth-readme-fixes",
       "destination": "/blog/2026/05/28/github-star-growth-readme-fixes-2026/",
       "permanent": true
