@@ -20,8 +20,6 @@ faq:
   - q: "Does developer marketing need a budget?"
     a: "No. The highest-return developer channels are free — README, GitHub Trending, Hacker News, niche subreddits, and your own technical blog. In AFFiNE's experience paid channels badly underperformed organic distribution, so effort and consistency beat ad spend for reaching developers."
 ---
-# Developer Marketing 101: How to Grow Your Open Source Project
-
 **TL;DR**: Developer marketing is different. Developers hate traditional marketing but love great tools. Here's how to reach technical audiences authentically.
 
 ---

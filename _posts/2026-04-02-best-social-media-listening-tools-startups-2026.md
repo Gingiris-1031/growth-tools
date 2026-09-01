@@ -36,8 +36,6 @@ last_modified_at: 2026-04-26
 | Free coverage with Google Alerts + Reddit Search | ~80% of relevant conversations |
 | Time to set up a basic social listening stack | Under 30 minutes |
 
-# Best Social Listening Tools Under $100/mo for B2B SaaS (2026)
-
 Social media listening is one of the most underused growth levers for early-stage startups. The smartest founders use it to find what users complain about, track competitors, and spot conversations where they can add value.
 
 ---
@@ -270,4 +268,3 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If this audit saved you a $79/mo subscription mistake, a ⭐ on the repo is the highest compliment — and it helps the next founder find it via Google + AI search.*
-

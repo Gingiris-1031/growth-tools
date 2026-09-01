@@ -1,5 +1,7 @@
 ---
 title: "App Store Optimization Guide: How to Rank Higher on iOS and Google Play in 2025"
+seo_title: "App Store Optimization Guide: ASO in 2026"
+seo_description: "A practical ASO guide to app-store keyword research, screenshots, localization, reviews, conversion, and retention for iOS and Google Play in 2026."
 description: "Complete ASO guide covering keyword research, screenshot design, review management, and ranking algorithm differences between iOS App Store and Google Play. Learn the tactics that drove 10k+ daily downloads for top apps."
 date: 2026-04-12
 tags: [app-store-optimization, aso, ios, google-play, mobile-growth]
@@ -235,9 +237,10 @@ Looking for tools to execute your ASO strategy? Check out our curated [Growth To
 
 - [ASO in 2026: The Updated Playbook](/blog/2026/05/06/aso-app-store-optimization-2026/)
 - [7 Conversion Loops for App Store Optimization](/blog/2026/05/26/aso-app-store-optimization-conversion-loops-2026/)
-- [7 Retention Signals That Boost ASO Rankings](/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/)- [Product Hunt Launch Guide](/gingiris-launch) — How to combine ASO with a Product Hunt launch for maximum first-week visibility
-- [B2B SaaS Growth Playbook](/gingiris-b2b-growth) — For apps with B2B monetization, the go-to-market playbook covers ASO as one channel in a multi-channel strategy
-- [Go-to-Market Strategy Template](/gingiris-launch) — Downloadable GTM template that includes app store launch checklist
+- [7 Retention Signals That Boost ASO Rankings](/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/)
+- [Product Hunt Launch Guide](/skills/product-hunt-launch/) — How to combine ASO with a Product Hunt launch for maximum first-week visibility
+- [B2B SaaS Growth Playbook](/skills/b2b-saas-growth/) — For apps with B2B monetization, the go-to-market playbook covers ASO as one channel in a multi-channel strategy
+- [Go-to-Market Strategy Playbook](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/) — A complete launch and distribution framework
 
 ---
 

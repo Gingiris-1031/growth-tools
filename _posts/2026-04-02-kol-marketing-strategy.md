@@ -264,8 +264,8 @@ The best KOL partnerships feel like collaborations between friends, not transact
 
 ## Related Reading
 
-- [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Reddit Marketing Guide: How to Promote Without Getting Banned](/blog/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Reddit Marketing Guide: How to Promote Without Getting Banned](/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
 - [Product Hunt Launch Checklist: 30x #1 Winner's Playbook](/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 - [Growth Tools Library](https://gingiris.tools/) — Free tools for startup growth
 

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How to Get GitHub Stars: AFFiNE 0→60K Playbook (2026)"
+seo_title: "How to Get GitHub Stars: 0 to 60K Guide (2026)"
+seo_description: "How AFFiNE grew from zero to 60K GitHub stars using launch sequencing, README conversion, Reddit, Hacker News, GitHub Trending, and community loops."
 date: 2026-03-25
 canonical_url: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"

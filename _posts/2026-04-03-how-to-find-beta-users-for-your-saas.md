@@ -174,7 +174,7 @@ Cold outreach is the most predictable channel for finding beta users when you kn
 
 **Benchmark**: A well-personalized cold email sequence should generate a 15-25% reply rate. Generic emails average 2-5%. The difference is entirely in the personalization.
 
-For detailed email templates and sequences, see our guide on [cold outreach email templates for SaaS](/blog/2026-04-03-cold-outreach-email-templates-saas/).
+For detailed email templates and sequences, see our guide on [cold outreach email templates for SaaS](/blog/2026/04/03/cold-outreach-email-templates-saas/).
 
 ---
 

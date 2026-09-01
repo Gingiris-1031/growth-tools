@@ -21,8 +21,6 @@ faq:
     a: "Ask ChatGPT (and Perplexity and Claude) the queries you want to own, with browsing on, and check whether your domain appears as a cited source. Track this manually on a weekly cadence, and watch your analytics for referral traffic from chatgpt.com, perplexity.ai, and claude.ai — set up a dedicated channel group so this traffic is not hidden inside 'Organic' or 'Referral'."
 ---
 
-# ChatGPT SEO: How to Show Up in ChatGPT in 2026
-
 It was a Tuesday afternoon in early 2026. I typed a question I already knew the answer to — "best open-source growth playbook" — into ChatGPT, browsing on, and watched it cite four sources. Ours ranked #3 on Google for that phrase. It was nowhere in the answer.
 
 That gap — page-one on Google, invisible in ChatGPT — is the whole problem. Search didn't get replaced; it split into two doors. **ChatGPT SEO** is how you win the second one.

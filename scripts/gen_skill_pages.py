@@ -7,7 +7,7 @@ plus topic-cluster internal links and a single install CTA.
 
 Usage:  python3 scripts/gen_skill_pages.py
 """
-import os, json, html, sys
+import os, json, html, sys, textwrap
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://gingiris.tools"
@@ -25,6 +25,16 @@ AUTHOR = {
     "url": SITE, "sameAs": ["https://x.com/WeiYipei",
     "https://www.linkedin.com/in/yipei-wei-550825105/", "https://huggingface.co/Gingiris"],
 }
+
+def compact_meta(value, width=160):
+    """Keep generated SERP descriptions within the shared audit envelope."""
+    plain = html.unescape(value).strip()
+    return textwrap.shorten(plain, width=width, placeholder="…")
+
+def compact_title(value, width=60):
+    """Preserve the keyword-first phrase while avoiding SERP truncation."""
+    plain = html.unescape(value).strip()
+    return textwrap.shorten(plain, width=width, placeholder="…")
 
 def jsonld(s):
     url = f"{SITE}/skills/{s['slug']}/"
@@ -85,8 +95,8 @@ def render(s):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{html.escape(s['title'])}</title>
-<meta name="description" content="{html.escape(s['meta_description'])}">
+<title>{html.escape(compact_title(s['title']))}</title>
+<meta name="description" content="{html.escape(compact_meta(s['meta_description']))}">
 <meta name="keywords" content="{html.escape(s['keywords'])}">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">

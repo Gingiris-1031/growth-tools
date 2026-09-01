@@ -21,8 +21,6 @@ faq:
     a: "The first three hours. Momentum compounds: early traffic, votes, and comments signal to both algorithms and humans that something is worth attention, which pulls in more. Front-load your outreach so your most engaged supporters show up early, respond to every comment personally, and keep the energy going rather than posting once and walking away."
 ---
 
-# Product Launch Checklist 2026: 40 Tasks + Free Template
-
 The night before our first big launch, I made a list on the back of a napkin. It had four things on it. We finished mid-pack, and I spent the next week figuring out everything the napkin didn't say.
 
 Since then I've helped ship 30+ launches to #1 on Product Hunt — and the difference between the napkin and #1 was never talent. It was a **product launch strategy** written down as tasks, in order, so nothing load-bearing gets skipped at 6am.

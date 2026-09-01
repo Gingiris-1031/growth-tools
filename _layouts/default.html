@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'zh-CN' }}" data-theme="light">
 <head>
+    {%- assign resolved_title = page.seo_title | default: page.title -%}
+    {%- assign resolved_description = page.seo_description | default: page.description | default: site.description -%}
+    {%- assign meta_description = resolved_description | strip_html | normalize_whitespace | truncate: 160 -%}
     <meta charset="UTF-8">
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/favicon.svg">
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.svg">
     <meta name="theme-color" content="#16a34a">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    <title>{{ resolved_title }}</title>
+    <meta name="description" content="{{ meta_description }}">
     <meta name="author" content="{% if page.privacy_strict %}Gingiris Growth Tools{% else %}{{ page.author | default: site.author.name | default: "Iris Wei" }}{% endif %}">
     <meta name="google-site-verification" content="k4XyIH1GtMfoPNDhBRKaVE98gYFE9bk_HtH430A3QJE">
     {% if page.canonical_url %}<link rel="canonical" href="{{ page.canonical_url }}">{% else %}<link rel="canonical" href="{{ page.url | absolute_url }}">{% endif %}
@@ -34,9 +37,9 @@
     {%- endif -%}
 
     <!-- Open Graph -->
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.description | default: site.description }}">
-    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ resolved_title }}">
+    <meta property="og:description" content="{{ meta_description }}">
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:url" content="{{ page.canonical_url | default: page.url | absolute_url }}">
     <meta property="og:image" content="{{ og_image }}">
     <meta property="og:image:width" content="1200">
@@ -44,20 +47,21 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+    <meta name="twitter:title" content="{{ resolved_title }}">
+    <meta name="twitter:description" content="{{ meta_description }}">
     {% unless page.privacy_strict %}<meta name="twitter:creator" content="@WeiYipei">{% endunless %}
     <meta name="twitter:image" content="{{ og_image }}">
     <meta property="og:site_name" content="Gingiris Growth Tools">
     <meta property="og:locale" content="{% if page.lang == 'ja' %}ja_JP{% elsif page.lang == 'ko' %}ko_KR{% elsif page.lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
 
+    {% if page.layout == 'post' %}
     <!-- Article Schema (GEO/SEO) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": {{ page.title | jsonify }},
-      "description": "{{ page.description | default: site.description }}",
+      "headline": {{ resolved_title | jsonify }},
+      "description": {{ meta_description | jsonify }},
       "author": {% if page.privacy_strict %}{
         "@type": "Organization",
         "name": "Gingiris Growth Tools",
@@ -85,6 +89,7 @@
       "mainEntityOfPage": "{{ page.canonical_url | default: page.url | absolute_url }}"
     }
     </script>
+    {% endif %}
 
     <!-- Organization Schema (site-wide for E-E-A-T) -->
     <script type="application/ld+json">
@@ -422,11 +427,11 @@
             </a>
             <nav class="nav">
                 <a href="{{ site.baseurl }}/">🛠 {% if page.lang == 'en' %}Tools{% else %}工具库{% endif %}</a>
-                <a href="{{ site.baseurl }}/blog">📝 Blog</a>
+                <a href="{{ site.baseurl }}/blog/">📝 Blog</a>
                 <a href="{{ site.baseurl }}/cases/">📚 Cases</a>
                 <a href="{{ site.baseurl }}/services/">🧭 Services</a>
                 <a href="{{ site.baseurl }}/playbook/2b-deals/">📕 Playbook</a>
-                <a href="{{ site.baseurl }}/partnership">🤝 Partners</a>
+                <a href="{{ site.baseurl }}/partnership/">🤝 Partners</a>
                 <a href="https://github.com/Gingiris-1031">⭐ GitHub</a>
             </nav>
             <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
@@ -496,7 +501,7 @@
     </main>
 
     <footer class="footer">
-        <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a>{% unless page.privacy_strict %} · Built by <a href="https://twitter.com/WeiYipei">@Iris</a>{% endunless %} · <a href="{{ site.baseurl }}/partnership">Partners</a></p>
+        <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a>{% unless page.privacy_strict %} · Built by <a href="https://twitter.com/WeiYipei">@Iris</a>{% endunless %} · <a href="{{ site.baseurl }}/partnership/">Partners</a></p>
     </footer>
 
     <script>

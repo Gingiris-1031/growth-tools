@@ -25,8 +25,6 @@ faq:
     a: "Review activation when the product promise, onboarding, audience, packaging, or instrumentation changes, and on a regular analytics cadence as the product evolves."
 ---
 
-# Product-Led Growth: From Activation to Expansion
-
 In July 2026, I was reviewing an AI product's growth dashboard when one number took over the conversation: approximately 5,000 free daily active users. It looked impressive. It also answered the wrong question—activity is not the same thing as value, and value is not automatically willingness to pay (free credits can make almost any chart look alive).
 
 Product-led growth is a go-to-market model in which users experience meaningful product value before a traditional sales process becomes the main growth driver. It works when users activate, repeat the valuable behavior, and develop paid or account-expansion intent. Signup volume or free daily active users alone cannot establish that PLG is working.

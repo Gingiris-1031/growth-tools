@@ -17,8 +17,6 @@ faq:
     a: "Launch in waves: start with your warm audience, then run a community launch (Hacker News, Reddit, relevant Discords), then do follow-up distribution like newsletters and recap threads. Sequencing sustains momentum instead of spending all your attention in a single day."
 ---
 
-# GitHub Star Growth: 7 Tactics That Still Work in 2026
-
 GitHub star growth still matters in 2026 because stars shape discovery, credibility, contributor trust, and even partnership conversations. If you want **GitHub star growth** without buying fake traction or spamming communities, the real game is better positioning, tighter launch sequencing, and consistent distribution.
 
 This guide breaks down the tactics that actually still work, based on what open source teams keep repeating successfully across Product Hunt, Reddit, Hacker News, and GitHub-native distribution.

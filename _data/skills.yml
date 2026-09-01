@@ -259,9 +259,9 @@
   notice: "<strong>⚠️ Product type note:</strong> This playbook is optimized for <strong>dev tools / OSS / B2B SaaS</strong>. If your product is a <strong>2C consumer app, education platform, or game</strong>, key parameters differ — lower keyword volume threshold (50 vs 300), YMYL E-E-A-T requirements, and different cold-start channels (Reddit communities / 小红书 / TikTok / Quora instead of PH/GitHub/HN). See the 2c-adaptation guide in the skill's references/ folder."
   takeaways:
     - "<strong>Start from BOFU</strong> — do high-intent terms (pricing, comparisons) first; they convert highest, then work up to educational content."
-    - "<strong>Authentic voice IS the best E-E-A-T</strong> — don't let AI write like AI; founder voice + real numbers + first-hand stories."
-    - "<strong>Structured = citable</strong> — Key-Stats tables, FAQ schema and comparison matrices are what AI engines extract and quote."
-    - "<strong>IndexNow is GEO infrastructure</strong> — push updates to Bing/AI search in seconds instead of waiting for crawlers."
+    - "<strong>Make provenance visible</strong> — use founder voice, first-hand examples, dates, scope, and primary sources so claims can be checked."
+    - "<strong>Structure supports extraction</strong> — Key-Stats tables, direct answers, and visible FAQs make passages easier to parse, without guaranteeing citation."
+    - "<strong>IndexNow is discovery infrastructure</strong> — notify participating search engines when content changes, then verify crawl, index, and citation separately."
     - "<strong>Research Google page 1 before writing</strong> — the top 5-6 results already give you 80% of the structure; improve it by replacing outdated data and adding your own product GIFs."
     - "<strong>Refresh winners annually</strong> — update product and competitor screenshots in every high-ranking article each year; freshness keeps compounding rankings alive."
     - "<strong>Audit before you publish</strong> — get your site to 90+ on an SEO audit tool before producing content, or keywords will not rank."
@@ -278,12 +278,12 @@
     steps:
       - name: "1 · Start from BOFU, work upward"
         text: "Build the highest-intent, highest-converting keywords first (pricing, comparisons, alternatives), then expand up the funnel to educational content. Revenue-adjacent pages compound fastest."
-      - name: "2 · Authentic voice is the best E-E-A-T"
-        text: "Don't let AI write like AI. Use the founder's voice, real numbers, and first-hand stories — authenticity signals are what both Google E-E-A-T and AI engines reward."
-      - name: "3 · Structured = citable"
-        text: "Add Key-Stats tables, FAQ schema, and comparison matrices to every page. Structured, answer-first content is exactly what AI engines extract and cite."
-      - name: "4 · IndexNow is GEO infrastructure"
-        text: "Wire up IndexNow so every content update pings Bing and AI search in seconds. Don't wait weeks for organic crawl when you've shipped something citable."
+      - name: "2 · Make provenance visible"
+        text: "Use the founder's voice, real numbers, first-hand stories, dates, and primary sources so readers and systems can verify each important claim."
+      - name: "3 · Structure supports extraction"
+        text: "Use Key-Stats tables, visible FAQs, and comparison matrices where they help readers. Structured, answer-first content is easier to extract, but markup alone does not guarantee citation."
+      - name: "4 · IndexNow supports discovery"
+        text: "Use IndexNow to notify participating search engines when content changes. Treat discovery, crawling, indexing, ranking, and AI citation as separate outcomes."
       - name: "5 · Comparison pages are SEO gold mines"
         text: "Build one dedicated page per competitor (\"X vs Y\", \"X alternatives\") to capture decision-stage users — these are the highest-ROI pages for both SEO and GEO."
   compare:
@@ -301,14 +301,14 @@
       - "AI-sounding generic copy — no E-E-A-T signal, no citation."
       - "Cherry-picked comparison rows — erodes trust and costs you AI citations."
       - "Starting from TOFU educational content — slow, low-converting; do BOFU first."
-      - "Shipping content with no schema — invisible to AI extraction."
+      - "Treating schema as a ranking or citation guarantee instead of a machine-readable description of visible content."
   faqs:
     - q: "What is GEO and how is it different from SEO?"
       a: "GEO (Generative Engine Optimization) is optimizing to be cited inside AI-search answers (ChatGPT, Perplexity, Claude, Gemini), where the signals are structured data + E-E-A-T authenticity. SEO targets Google/Bing rankings via backlinks + keywords. This playbook wins both from one content set."
     - q: "What's the single highest-ROI thing I can do?"
       a: "Build comparison pages — one dedicated \"X vs Y\" or \"X alternatives\" page per competitor. They capture decision-stage users and are equally strong for Google ranking and AI citation."
     - q: "Do I really need IndexNow?"
-      a: "For GEO, yes — it's the infrastructure that pushes updates to Bing and AI search in seconds instead of waiting on crawl cycles. It's a one-time setup that compounds on every publish."
+      a: "IndexNow is useful when you publish or update URLs because it notifies participating search engines of the change. It does not guarantee crawling, indexing, ranking, or AI citation, so verify each stage separately."
     - q: "Who built this?"
       a: "Iris Wei (生姜) — former cofounder/COO of AFFiNE (60K GitHub stars in 24 months, largely SEO-driven) and advisor to 150+ startups on search and AI-search growth."
     - q: "How fast can zero-budget SEO actually work?"
@@ -316,7 +316,7 @@
     - q: "What does SEO compounding look like in practice?"
       a: "One AFFiNE article held Google positions 3-4 for 'open source notion alternative'. When Notion banned Russian accounts, searches spiked and that single old article automatically captured a wave of Russian users — high-authority pages catch event-driven traffic for free."
   related:
-    - ["SEO/GEO Agent Operations SOP", "/skills/seo-geo-agent/"]
+    - ["Growth Finder — diagnose the next growth constraint", "/skills/growth-finder/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
 

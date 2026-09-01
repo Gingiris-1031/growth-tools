@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide [2026]"
+seo_title: "Product Hunt Launch Playbook: 30x #1 Guide (2026)"
+seo_description: "A Product Hunt launch playbook built from 30 daily #1 launches: positioning, outreach, launch-day timing, maker comments, and post-launch retention."
 date: 2026-03-25
 canonical_url: https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://gingiris.tools/assets/images/blog-product-hunt-launch.jpg"

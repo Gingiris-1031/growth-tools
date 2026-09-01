@@ -17,8 +17,6 @@ faq:
     a: "All six are published on skills.sh and can be installed together in one step, or individually if you only need one motion. Once installed, the meta-router (gingiris-growth-finder) helps route your specific goal to the most relevant skill."
 ---
 
-# I Shipped 6 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup
-
 Tuesday morning in Kunshan — I opened skills.sh, searched "seo-audit," and stared at the leaderboard for three minutes. Thirty-plus skills, most of them thin wrappers around "write me a blog post." Nothing about **actually launching a product to the world**. No Product Hunt SOP. No GitHub-star growth playbook. No ASO checklist that understood how Chinese indie apps break through in non-Chinese markets.
 
 So I spent the afternoon shipping four — then the meta-router, then the SEO/GEO dual-engine playbook. Six total.
@@ -170,4 +168,3 @@ This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog
 - [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
 
 *Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
-

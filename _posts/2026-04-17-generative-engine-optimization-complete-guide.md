@@ -26,8 +26,6 @@ faq:
     a: "No stable cross-platform formula has been established. Build a strong canonical source, make claims verifiable and extractable, then test each engine separately with a controlled prompt set."
 ---
 
-# AI Search Optimization: An Evidence-Based Guide
-
 On May 29, 2026, I checked a site that was technically healthy but nearly absent from Google's visible index. The homepage worked. The sitemap worked. The canonical tags were correct—yet the new domain had only begun to appear. That gap is where most AI search advice becomes dangerously simplistic (one more Schema block was not going to restore a retired domain's history).
 
 AI search optimization is the practice of making accurate, useful content discoverable, understandable, and citable by AI-powered search experiences. It starts with conventional SEO: crawlable pages, clear ownership, original value, and verifiable sources. Structured answers and fast update signals can help machines process a page, but no markup or submission protocol guarantees a citation.
