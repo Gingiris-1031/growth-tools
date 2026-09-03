@@ -691,6 +691,10 @@
         background: var(--accent); color: white; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700;
     }
     .router-action.secondary { background: white; color: var(--accent); }
+    .router-action.copied { background: #166534; border-color: #166534; color: white; }
+    .router-action.copy-failed { background: #991b1b; border-color: #991b1b; color: white; }
+    .copy-status { width: 100%; min-height: 20px; margin: 0; color: #166534; font-size: 13px; font-weight: 600; }
+    .copy-status.error { color: #991b1b; }
     .router-advanced { font-size: 12px; color: var(--text-muted); margin-top: 14px; }
     .router-advanced summary { cursor: pointer; }
     .router-advanced code { display: block; margin-top: 8px; word-break: break-all; }
@@ -743,7 +747,7 @@
     }
     .copy-btn:hover { background: #374151; }
     .copy-btn.copied { background: #10b981; border-color: #10b981; }
-    .copy-btn.copied::before { content: '✓'; margin-right: 2px; }
+    .copy-btn.copy-failed { background: #991b1b; border-color: #991b1b; }
     .skill-footer { display: flex; justify-content: space-between; align-items: center; }
     .skill-link { font-size: 13px; color: var(--accent); text-decoration: none; font-weight: 500; }
     .skill-link:hover { text-decoration: underline; }
@@ -934,6 +938,7 @@
                         <div class="router-actions">
                             <button class="router-action" id="copy-router-install">Copy install command</button>
                             <button class="router-action secondary" id="copy-router-prompt">Copy starter prompt</button>
+                            <p class="copy-status" id="router-copy-status" role="status" aria-live="polite"></p>
                         </div>
                     </div>
                     <button class="router-back" data-back="depth">← Change answers</button>
@@ -1664,29 +1669,57 @@
 
     <script>
     // Copy-to-clipboard for all install commands
-    function copyText(text, btn) {
-        if (navigator.clipboard) {
-            navigator.clipboard.writeText(text);
-        } else {
+    async function copyText(text, btn) {
+        let copied = false;
+        if (navigator.clipboard && window.isSecureContext) {
+            try {
+                await navigator.clipboard.writeText(text);
+                copied = true;
+            } catch (e) {
+                copied = false;
+            }
+        }
+        if (!copied) {
             const ta = document.createElement('textarea');
-            ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
-            document.body.appendChild(ta); ta.select();
-            try { document.execCommand('copy'); } catch(e) {}
+            ta.value = text;
+            ta.setAttribute('readonly', '');
+            ta.style.position = 'fixed'; ta.style.left = '-9999px'; ta.style.opacity = '0';
+            document.body.appendChild(ta); ta.focus(); ta.select();
+            try { copied = document.execCommand('copy'); } catch(e) { copied = false; }
             document.body.removeChild(ta);
         }
-        btn.classList.add('copied');
-        setTimeout(() => btn.classList.remove('copied'), 1500);
+        const status = document.getElementById('router-copy-status');
+        if (btn.matches('button')) {
+            const original = btn.dataset.originalLabel || btn.textContent;
+            btn.dataset.originalLabel = original;
+            btn.textContent = copied ? 'Copied ✓' : 'Copy failed';
+            btn.classList.toggle('copied', copied);
+            btn.classList.toggle('copy-failed', !copied);
+            setTimeout(() => {
+                btn.textContent = original;
+                btn.classList.remove('copied', 'copy-failed');
+            }, 1800);
+        } else {
+            btn.classList.toggle('copied', copied);
+            setTimeout(() => btn.classList.remove('copied'), 1800);
+        }
+        if (status && btn.closest('.router-card')) {
+            status.textContent = copied ? 'Copied to clipboard.' : 'Copy failed. Select the text and copy it manually.';
+            status.classList.toggle('error', !copied);
+            setTimeout(() => { status.textContent = ''; status.classList.remove('error'); }, 2500);
+        }
+        return copied;
     }
     document.querySelectorAll('.copy-btn').forEach(b => {
         b.addEventListener('click', e => {
             e.stopPropagation();
-            copyText(b.dataset.cmd, b);
+            void copyText(b.dataset.cmd, b);
         });
     });
     // Hero meta install (whole pill is clickable)
     const metaInstall = document.getElementById('meta-install');
     if (metaInstall) {
-        metaInstall.addEventListener('click', () => copyText(metaInstall.dataset.cmd, metaInstall));
+        metaInstall.addEventListener('click', () => { void copyText(metaInstall.dataset.cmd, metaInstall); });
     }
     // Progressive multiple-choice router. It generates a compact prompt; the
     // installed gr skill performs the final specialist selection.
@@ -1720,11 +1753,11 @@
             button.addEventListener('click', () => showStep(button.dataset.back));
         });
         document.getElementById('copy-router-install').addEventListener('click', e => {
-            copyText('npx skills add Gingiris-1031/gingiris-skills --skill gr', e.currentTarget);
+            void copyText('npx skills add Gingiris-1031/gingiris-skills --skill gr', e.currentTarget);
         });
         document.getElementById('copy-router-prompt').addEventListener('click', e => {
             const prompt = `Use gr. My goal is to ${labels[answers.goal]}. My product stage is ${labels[answers.stage]}. Use ${labels[answers.depth]} mode. Route to one specialist skill. If it is not installed, give me its single-skill install command and stop. Otherwise state missing inputs and start with a Markdown preview. Do not generate office files unless I explicitly confirm.`;
-            copyText(prompt, e.currentTarget);
+            void copyText(prompt, e.currentTarget);
         });
     }
     // Filter tabs
