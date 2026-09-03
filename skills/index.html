@@ -1723,7 +1723,7 @@
             copyText('npx skills add Gingiris-1031/gingiris-skills --skill gr', e.currentTarget);
         });
         document.getElementById('copy-router-prompt').addEventListener('click', e => {
-            const prompt = `Use gr. My goal is to ${labels[answers.goal]}. My product stage is ${labels[answers.stage]}. Use ${labels[answers.depth]} mode. Route to one specialist skill, state missing inputs, and start with a Markdown preview. Do not generate office files unless I explicitly confirm.`;
+            const prompt = `Use gr. My goal is to ${labels[answers.goal]}. My product stage is ${labels[answers.stage]}. Use ${labels[answers.depth]} mode. Route to one specialist skill. If it is not installed, give me its single-skill install command and stop. Otherwise state missing inputs and start with a Markdown preview. Do not generate office files unless I explicitly confirm.`;
             copyText(prompt, e.currentTarget);
         });
     }
