@@ -665,6 +665,35 @@
     .hero .meta-install.copied::after { content: '✓ copied'; color: #10b981; font-family: 'Inter', sans-serif; font-weight: 600; }
     .hero .credentials { font-size: 14px; color: var(--text-muted); margin-top: 12px; }
     .hero .credentials strong { color: var(--accent); }
+    .router-card {
+        max-width: 820px; margin: 28px auto 20px; padding: 24px;
+        background: var(--surface); border: 1px solid var(--border); border-radius: 16px;
+        text-align: left; box-shadow: 0 12px 32px rgba(31, 41, 55, 0.06);
+    }
+    .router-kicker { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+    .router-card h2 { font-size: 22px; line-height: 1.3; margin: 6px 0 8px; }
+    .router-help { color: var(--text-secondary); font-size: 14px; margin-bottom: 16px; }
+    .router-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .router-option {
+        border: 1px solid var(--border); background: var(--surface); color: var(--text);
+        border-radius: 10px; padding: 12px 14px; min-height: 48px; cursor: pointer;
+        font: inherit; font-size: 14px; font-weight: 600; text-align: left;
+    }
+    .router-option:hover, .router-option:focus-visible { border-color: var(--accent); outline: none; }
+    .router-option.selected { border-color: var(--accent); background: #f0fdf4; color: #166534; }
+    .router-step[hidden] { display: none; }
+    .router-back { border: 0; background: transparent; color: var(--text-secondary); cursor: pointer; margin-top: 14px; font: inherit; font-size: 13px; }
+    .router-result { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 16px; }
+    .router-result strong { color: #166534; }
+    .router-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .router-action {
+        border: 1px solid var(--accent); border-radius: 8px; padding: 9px 13px;
+        background: var(--accent); color: white; cursor: pointer; font: inherit; font-size: 13px; font-weight: 700;
+    }
+    .router-action.secondary { background: white; color: var(--accent); }
+    .router-advanced { font-size: 12px; color: var(--text-muted); margin-top: 14px; }
+    .router-advanced summary { cursor: pointer; }
+    .router-advanced code { display: block; margin-top: 8px; word-break: break-all; }
     /* Filter tabs */
     .filter-bar {
         background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
@@ -758,6 +787,9 @@
             margin: 0 4px;
         }
         .hero .credentials { font-size: 12px; }
+        .router-card { padding: 18px; margin-top: 22px; }
+        .router-card h2 { font-size: 19px; }
+        .router-options { grid-template-columns: 1fr; }
         /* Sticky filter bar */
         .filter-bar {
             top: 50px; padding: 10px; gap: 6px;
@@ -859,9 +891,59 @@
 
     <header class="hero">
         <div class="container">
-            <h1>60 Growth Playbooks for AI Agents — Install in 1 Command</h1>
-            <p class="tag-line">Battle-tested SOPs for Product Hunt, GitHub stars, B2B SaaS, ASO, SEO/GEO, KOL outreach. Install into Claude Code, Cursor, OpenClaw, Codex, or any compatible AI agent. Free community skills are MIT licensed.</p>
-            <div class="meta-install" data-cmd="npx skills add Gingiris-1031/gingiris-skills" id="meta-install">npx skills add Gingiris-1031/gingiris-skills</div>
+            <h1>Start with one growth task, not 60 playbooks</h1>
+            <p class="tag-line">Choose what you need. The lightweight Gingiris router asks up to three multiple-choice questions, then loads one specialist skill.</p>
+            <div class="meta-install" data-cmd="npx skills add Gingiris-1031/gingiris-skills --skill gr" id="meta-install">npx skills add Gingiris-1031/gingiris-skills --skill gr</div>
+            <div class="router-card" id="skill-router">
+                <p class="router-kicker">Token-smart setup</p>
+                <div class="router-step" data-step="goal">
+                    <h2>1. What do you want to solve?</h2>
+                    <p class="router-help">Choose one. We only ask the next question when it changes the recommendation.</p>
+                    <div class="router-options">
+                        <button class="router-option" data-value="launch">🚀 Launch a product</button>
+                        <button class="router-option" data-value="acquire">📈 Get more users</button>
+                        <button class="router-option" data-value="search">🔍 Improve search &amp; AI visibility</button>
+                        <button class="router-option" data-value="validate">🧪 Validate product &amp; market</button>
+                        <button class="router-option" data-value="community">🤝 Community, KOL or UGC</button>
+                        <button class="router-option" data-value="unsure">🧭 I’m not sure yet</button>
+                    </div>
+                </div>
+                <div class="router-step" data-step="stage" hidden>
+                    <h2>2. Where is the product now?</h2>
+                    <div class="router-options">
+                        <button class="router-option" data-value="mvp">💡 Idea or MVP</button>
+                        <button class="router-option" data-value="ready">🛠️ Ready to launch</button>
+                        <button class="router-option" data-value="slow">🌱 Live, growth is slow</button>
+                        <button class="router-option" data-value="scale">📊 Stable users, ready to scale</button>
+                    </div>
+                    <button class="router-back" data-back="goal">← Back</button>
+                </div>
+                <div class="router-step" data-step="depth" hidden>
+                    <h2>3. How deep should this run?</h2>
+                    <div class="router-options">
+                        <button class="router-option" data-value="quick">⚡ Quick — recommended<br><small>One skill · Markdown · up to 3 pages</small></button>
+                        <button class="router-option" data-value="standard">📋 Standard<br><small>Analysis + action plan</small></button>
+                        <button class="router-option" data-value="deep">📦 Deep<br><small>Research + optional files · confirmation required</small></button>
+                    </div>
+                    <button class="router-back" data-back="stage">← Back</button>
+                </div>
+                <div class="router-step" data-step="result" hidden aria-live="polite">
+                    <div class="router-result">
+                        <strong>Ready: install only the Gingiris router</strong>
+                        <p id="router-summary">It will select one specialist and start with a Markdown preview.</p>
+                        <div class="router-actions">
+                            <button class="router-action" id="copy-router-install">Copy install command</button>
+                            <button class="router-action secondary" id="copy-router-prompt">Copy starter prompt</button>
+                        </div>
+                    </div>
+                    <button class="router-back" data-back="depth">← Change answers</button>
+                </div>
+                <details class="router-advanced">
+                    <summary>Advanced: install the full collection</summary>
+                    <code>npx skills add Gingiris-1031/gingiris-skills</code>
+                    <p>Higher context cost. Recommended only for operators who routinely use many channels.</p>
+                </details>
+            </div>
             <p class="credentials">
                 <strong>Battle-tested:</strong>
                 AFFiNE 60K+ GitHub stars · 30+ Product Hunt #1 wins · <a href="https://www.forbes.com/profile/toeverything/" target="_blank" rel="noopener">Forbes Asia 30 Under 30</a> · 140+ AI startup engagements · 21,562+ downloads
@@ -1605,6 +1687,45 @@
     const metaInstall = document.getElementById('meta-install');
     if (metaInstall) {
         metaInstall.addEventListener('click', () => copyText(metaInstall.dataset.cmd, metaInstall));
+    }
+    // Progressive multiple-choice router. It generates a compact prompt; the
+    // installed gr skill performs the final specialist selection.
+    const router = document.getElementById('skill-router');
+    if (router) {
+        const answers = {};
+        const labels = {
+            launch: 'launch a product', acquire: 'get more users', search: 'improve search and AI visibility',
+            validate: 'validate product and market', community: 'build community, KOL or UGC', unsure: 'diagnose my growth bottleneck',
+            mvp: 'idea or MVP', ready: 'ready to launch', slow: 'live but growing slowly', scale: 'stable users and ready to scale',
+            quick: 'Quick', standard: 'Standard', deep: 'Deep'
+        };
+        const showStep = name => {
+            router.querySelectorAll('.router-step').forEach(step => { step.hidden = step.dataset.step !== name; });
+        };
+        router.querySelectorAll('.router-option').forEach(button => {
+            button.addEventListener('click', () => {
+                const step = button.closest('.router-step').dataset.step;
+                answers[step] = button.dataset.value;
+                if (step === 'goal') showStep('stage');
+                if (step === 'stage') showStep('depth');
+                if (step === 'depth') {
+                    const cost = answers.depth === 'quick' ? 'low' : answers.depth === 'standard' ? 'medium' : 'high';
+                    document.getElementById('router-summary').textContent =
+                        `Goal: ${labels[answers.goal]}. Stage: ${labels[answers.stage]}. Mode: ${labels[answers.depth]} (${cost} estimated cost).`;
+                    showStep('result');
+                }
+            });
+        });
+        router.querySelectorAll('.router-back').forEach(button => {
+            button.addEventListener('click', () => showStep(button.dataset.back));
+        });
+        document.getElementById('copy-router-install').addEventListener('click', e => {
+            copyText('npx skills add Gingiris-1031/gingiris-skills --skill gr', e.currentTarget);
+        });
+        document.getElementById('copy-router-prompt').addEventListener('click', e => {
+            const prompt = `Use gr. My goal is to ${labels[answers.goal]}. My product stage is ${labels[answers.stage]}. Use ${labels[answers.depth]} mode. Route to one specialist skill, state missing inputs, and start with a Markdown preview. Do not generate office files unless I explicitly confirm.`;
+            copyText(prompt, e.currentTarget);
+        });
     }
     // Filter tabs
     const tabs = document.querySelectorAll('.filter-tab');
