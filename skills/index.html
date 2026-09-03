@@ -1671,22 +1671,15 @@
     // Copy-to-clipboard for all install commands
     async function copyText(text, btn) {
         let copied = false;
-        if (navigator.clipboard && window.isSecureContext) {
-            try {
-                await navigator.clipboard.writeText(text);
-                copied = true;
-            } catch (e) {
-                copied = false;
-            }
-        }
-        if (!copied) {
-            const ta = document.createElement('textarea');
-            ta.value = text;
-            ta.setAttribute('readonly', '');
-            ta.style.position = 'fixed'; ta.style.left = '-9999px'; ta.style.opacity = '0';
-            document.body.appendChild(ta); ta.focus(); ta.select();
-            try { copied = document.execCommand('copy'); } catch(e) { copied = false; }
-            document.body.removeChild(ta);
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.setAttribute('readonly', '');
+        ta.style.position = 'fixed'; ta.style.left = '-9999px'; ta.style.opacity = '0';
+        document.body.appendChild(ta); ta.focus(); ta.select();
+        try { copied = document.execCommand('copy'); } catch(e) { copied = false; }
+        document.body.removeChild(ta);
+        if (!copied && navigator.clipboard && window.isSecureContext) {
+            try { await navigator.clipboard.writeText(text); copied = true; } catch (e) { copied = false; }
         }
         const status = document.getElementById('router-copy-status');
         if (btn.matches('button')) {
