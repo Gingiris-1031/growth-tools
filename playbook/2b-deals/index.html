@@ -85,7 +85,7 @@
           "name": "如何获取完整资料？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "这是一份独立的客户交付资料，不包含在小报童专栏中。可通过 Gingiris 顾问服务页面或邮件联系 Iris，说明团队阶段、产品类型和当前 2B 难题后获取适用版本。"
+            "text": "这是一份独立的客户交付资料，不包含在小报童专栏中。可发送邮件联系 Iris，或微信添加 staywildgrow 并留言「购买 2B SOP」，说明团队阶段、产品类型和当前难题后购买或获取适用版本。"
           }
         },
         {
@@ -347,9 +347,10 @@
             <li>按团队阶段补充报价、SOW、验收、变更和回款建议</li>
             <li>案例与流程来自脱敏项目复盘，随 Gingiris 实战持续迭代</li>
             <li>合同条款仅作业务模板，正式签署前须由专业律师审核</li>
+            <li><strong>购买或获取资料：</strong>邮件联系 Iris，或微信添加 <strong>staywildgrow</strong>，留言「购买 2B SOP」</li>
             <li><strong>如何加入出海社群：</strong>微信添加 <strong>staywildgrow</strong>，留言「加入社群」即可</li>
           </ul>
-          <div class="t-cta"><a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E8%8E%B7%E5%8F%96%202B%20%E6%89%93%E5%8D%95%E4%B8%8E%E4%BA%A4%E4%BB%98%20SOP" onclick="return contactCTA(event, '获取 2B 打单与交付 SOP')">联系 Iris 获取资料 &rarr;</a></div>
+          <div class="t-cta"><a class="btn" href="mailto:iris.wei@gingiris.com?subject=%E8%B4%AD%E4%B9%B0%202B%20%E6%89%93%E5%8D%95%E4%B8%8E%E4%BA%A4%E4%BB%98%20SOP" onclick="return contactCTA(event, '购买 2B 打单与交付 SOP')">联系购买 / 获取资料 &rarr;</a></div>
         </div>
       </div>
     </section>
@@ -364,7 +365,7 @@
         <div class="faq-item"><p class="faq-q">这份 SOP 适合谁？</p><p class="faq-a">第一次做 2B 的技术创始团队、开源项目商业化负责人、从大厂出来单干的售前/交付。不适用已有成熟销售与法务体系的成熟公司——你们的问题不在这份文档里。</p></div>
         <div class="faq-item"><p class="faq-q">和免费的 gingiris-b2b-growth skill 有什么区别？</p><p class="faq-a">免费 skill 覆盖 PLG/SLG、增长阶段与渠道等框架层；本资料是独立的客户交付包，提供报价、SOW、验收、回款、变更管理与沟通模板，不属于小报童课程内容。</p></div>
         <div class="faq-item"><p class="faq-q">内容会更新吗？</p><p class="faq-a">资料会根据新的项目复盘持续修订。案例均做脱敏处理；合同和付款条款仅作业务讨论模板，正式使用前须由适用法域的专业律师审核。</p></div>
-        <div class="faq-item"><p class="faq-q">如何获取完整资料？</p><p class="faq-a">这是一份独立的客户交付资料，不包含在小报童专栏中。可通过顾问服务页面或邮件联系 Iris，说明团队阶段、产品类型和当前 2B 难题后获取适用版本。</p></div>
+        <div class="faq-item"><p class="faq-q">如何获取完整资料？</p><p class="faq-a">这是一份独立的客户交付资料，不包含在小报童专栏中。可发送邮件联系 Iris，或微信添加 <strong>staywildgrow</strong> 并留言「购买 2B SOP」，说明团队阶段、产品类型和当前难题后购买或获取适用版本。</p></div>
         <div class="faq-item"><p class="faq-q">如何加入出海社群？</p><p class="faq-a">微信添加 <strong>staywildgrow</strong>，留言「加入社群」即可。</p></div>
     </section>
 
@@ -393,6 +394,7 @@
 function contactCTA(ev, subject) {
   ev.preventDefault();
   var email = "iris.wei@gingiris.com";
+  var wechat = "staywildgrow";
   var old = document.getElementById("contact-reveal");
   if (old) old.remove();
   var panel = document.createElement("div");
@@ -407,6 +409,15 @@ function contactCTA(ev, subject) {
   line1.appendChild(em);
   panel.appendChild(line1);
 
+  var wechatLine = document.createElement("div");
+  wechatLine.appendChild(document.createTextNode("微信添加 "));
+  var wx = document.createElement("b");
+  wx.textContent = wechat;
+  wx.style.cssText = "user-select:all;cursor:pointer;border-bottom:1px dashed #86efac";
+  wechatLine.appendChild(wx);
+  wechatLine.appendChild(document.createTextNode("，留言「购买 2B SOP」"));
+  panel.appendChild(wechatLine);
+
   var line2 = document.createElement("div");
   line2.appendChild(document.createTextNode("主题注明："));
   var sb = document.createElement("b");
@@ -418,7 +429,7 @@ function contactCTA(ev, subject) {
   var line3 = document.createElement("div");
   var status = document.createElement("span");
   status.id = "cr-status";
-  status.textContent = "📋 点击邮箱可复制";
+  status.textContent = "📋 点击邮箱或微信号可复制";
   line3.appendChild(status);
   var mail = document.createElement("a");
   mail.href = "mailto:" + email + "?subject=" + encodeURIComponent(subject);
@@ -439,7 +450,13 @@ function contactCTA(ev, subject) {
       navigator.clipboard.writeText(email).then(function(){ status.textContent = "✅ 邮箱已复制"; }, function(){});
     }
   }
+  function copyWechat() {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(wechat).then(function(){ status.textContent = "✅ 微信号已复制"; }, function(){});
+    }
+  }
   em.onclick = copy;
+  wx.onclick = copyWechat;
   copy();
   document.body.appendChild(panel);
   return false;
