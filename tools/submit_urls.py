@@ -2,39 +2,30 @@
 """
 Gingiris Blog — Batch URL Submission Tool
 ==========================================
-Submits all blog post URLs to:
-  1. IndexNow  (Bing / Yandex / Seznam — immediate)
-  2. Google Indexing API  (requires one-time Service Account setup)
+Submits all blog post URLs to IndexNow (Bing / Yandex / Seznam).
+
+Google's Indexing API is intentionally not used here: ordinary blog and
+landing-page URLs must be discovered through the sitemap or inspected in GSC.
 
 Usage:
   # Submit all posts
   python3 tools/submit_urls.py
 
-  # IndexNow only (no Google setup needed)
-  python3 tools/submit_urls.py --indexnow-only
-
   # Dry-run: just print URLs
   python3 tools/submit_urls.py --dry-run
 
-Setup (one-time):
-  1. Create Google Cloud project → enable "Web Search Indexing API"
-  2. Create Service Account → download JSON key → save as tools/google_credentials.json
-  3. In Google Search Console → Settings → Users → Add user
-     (paste the service account email, role: Owner)
-  4. IndexNow key is auto-generated on first run and saved to tools/.indexnow_key
+The script reads the already-published IndexNow key from the production site;
+it never creates or stores a new secret locally.
 """
 
-import os, re, sys, json, time, hashlib, argparse
+import os, re, sys, json, argparse
 import urllib.request, urllib.error
 
 # ── Config ────────────────────────────────────────────────────────────────────
 SITE_URL      = "https://tools.gingiris.com"
 POSTS_DIR     = os.path.join(os.path.dirname(__file__), "..", "_posts")
-CREDS_FILE    = os.path.join(os.path.dirname(__file__), "google_credentials.json")
-INDEXNOW_FILE = os.path.join(os.path.dirname(__file__), ".indexnow_key")
-INDEXNOW_HOST = "gingiris.tools"
-# Delay between Google API calls (avoid rate limits)
-GOOGLE_DELAY_S = 1.0
+INDEXNOW_HOST = "tools.gingiris.com"
+INDEXNOW_KEY_LOCATION = f"https://{INDEXNOW_HOST}/gingiris-indexnow-20260403.txt"
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -63,17 +54,12 @@ def extract_canonical_urls():
     return own_urls
 
 
-def get_or_create_indexnow_key():
-    """Return existing IndexNow key or generate a new one."""
-    if os.path.exists(INDEXNOW_FILE):
-        with open(INDEXNOW_FILE) as f:
-            return f.read().strip()
-    key = hashlib.sha256(os.urandom(32)).hexdigest()
-    with open(INDEXNOW_FILE, "w") as f:
-        f.write(key)
-    print(f"[IndexNow] Generated new key: {key}")
-    print(f"[IndexNow] ⚠️  You must expose this key at: {SITE_URL}/{key}.txt")
-    print(f"           Content of the file: {key}")
+def get_indexnow_key():
+    """Read the already-published IndexNow key; never generate an unusable key."""
+    with urllib.request.urlopen(INDEXNOW_KEY_LOCATION, timeout=15) as resp:
+        key = resp.read().decode().strip()
+    if not key:
+        raise RuntimeError(f"empty IndexNow key at {INDEXNOW_KEY_LOCATION}")
     return key
 
 
@@ -83,7 +69,7 @@ def submit_indexnow(urls, key):
     payload = {
         "host": INDEXNOW_HOST,
         "key": key,
-        "keyLocation": f"https://{INDEXNOW_HOST}/{key}.txt",
+        "keyLocation": INDEXNOW_KEY_LOCATION,
         "urlList": urls,
     }
     data = json.dumps(payload).encode()
@@ -110,36 +96,6 @@ def submit_indexnow(urls, key):
         return False
 
 
-def submit_google(urls, creds_path):
-    """Submit URLs to Google Indexing API using a service account."""
-    try:
-        from google.oauth2 import service_account
-        from googleapiclient.discovery import build
-    except ImportError:
-        print("[Google] ❌ Missing dependencies. Run:")
-        print("         pip install google-auth google-api-python-client")
-        return
-
-    SCOPES = ["https://www.googleapis.com/auth/indexing"]
-    creds  = service_account.Credentials.from_service_account_file(creds_path, scopes=SCOPES)
-    service = build("indexing", "v3", credentials=creds, cache_discovery=False)
-
-    ok = fail = 0
-    for url in urls:
-        try:
-            resp = service.urlNotifications().publish(
-                body={"url": url, "type": "URL_UPDATED"}
-            ).execute()
-            print(f"[Google] ✅ {url}")
-            ok += 1
-        except Exception as e:
-            print(f"[Google] ❌ {url}  →  {e}")
-            fail += 1
-        time.sleep(GOOGLE_DELAY_S)
-
-    print(f"[Google] Done: {ok} submitted, {fail} failed")
-
-
 def print_urls(urls):
     print(f"\n{'─'*60}")
     print(f"  {len(urls)} URLs to submit")
@@ -154,8 +110,6 @@ def print_urls(urls):
 def main():
     parser = argparse.ArgumentParser(description="Batch URL submission to search engines")
     parser.add_argument("--dry-run",       action="store_true", help="Print URLs only, don't submit")
-    parser.add_argument("--indexnow-only", action="store_true", help="Skip Google Indexing API")
-    parser.add_argument("--google-only",   action="store_true", help="Skip IndexNow")
     args = parser.parse_args()
 
     urls = extract_canonical_urls()
@@ -165,20 +119,8 @@ def main():
         print("Dry-run mode — no submissions made.")
         return
 
-    # ── IndexNow ──────────────────────────────────────────────────────────────
-    if not args.google_only:
-        key = get_or_create_indexnow_key()
-        submit_indexnow(urls, key)
-
-    # ── Google Indexing API ───────────────────────────────────────────────────
-    if not args.indexnow_only:
-        if os.path.exists(CREDS_FILE):
-            print(f"\n[Google] Submitting {len(urls)} URLs via Indexing API…")
-            submit_google(urls, CREDS_FILE)
-        else:
-            print(f"\n[Google] ⚠️  No credentials found at tools/google_credentials.json")
-            print("         See setup instructions at the top of this file.")
-            print("         To skip Google and use IndexNow only: --indexnow-only")
+    key = get_indexnow_key()
+    submit_indexnow(urls, key)
 
 
 if __name__ == "__main__":

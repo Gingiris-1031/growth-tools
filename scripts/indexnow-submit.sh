@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# IndexNow bulk submitter for gingiris.tools
+# IndexNow bulk submitter for tools.gingiris.com
 # Pushes URLs to the IndexNow network (Bing, Yandex, etc.) for near-instant indexing.
 # Bing's index feeds ChatGPT Search / Copilot / Perplexity, so this also accelerates AI citations.
 #
@@ -10,7 +10,7 @@
 # The IndexNow key is public by design (served at the keyLocation URL), so nothing secret lives here.
 set -euo pipefail
 
-HOST="gingiris.tools"
+HOST="tools.gingiris.com"
 KEY_LOCATION="https://tools.gingiris.com/gingiris-indexnow-20260403.txt"
 
 KEY="$(curl -fsS --max-time 15 "$KEY_LOCATION" | tr -d '[:space:]')"
