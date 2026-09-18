@@ -2,7 +2,7 @@
 > Curated growth tools, playbooks, and strategies for developers and founders launching globally.
 
 ## About
-Built by Iris (@iris__wei), former COO of AFFiNE (60k+ GitHub stars, 30x Product Hunt #1 winner).
+Built by Iris (@WeiYipei), former COO of AFFiNE (60k+ GitHub stars, 30x Product Hunt #1 winner).
 Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 
 ## Resources
@@ -44,7 +44,6 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 - [I Shipped 6 Gingiris Claude Skills to skills.sh — One-Line Install, Zero Setup](https://tools.gingiris.com/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/) — Six installable growth playbooks covering launch, open-source marketing, B2B SaaS, ASO, SEO/GEO, and growth diagnosis.
 - [B2B SaaS Growth: From 0 to $10M ARR](https://tools.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/) — A channel and operating-model framework for PLG, sales-led growth, partnerships, and community.
 - [AI Search Optimization: Evidence-Based Guide (2026)](https://tools.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/) — Discovery, indexing, evidence quality, extractable answers, citation tracking, and the limits of GEO claims.
-- [How to Get GitHub Stars: AFFiNE 0→60K Playbook (2026)](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) — First-hand launch and distribution lessons with dated, self-reported milestones and limitations.
 - [App Store Optimization Guide for iOS and Google Play](https://tools.gingiris.com/blog/2026/04/12/app-store-optimization-guide/) — Covers keyword research, screenshots, localization, reviews, and retention while separating observations from platform guarantees.
 - [B2B SaaS Growth Strategy: PLG vs SLG in 2026](https://tools.gingiris.com/blog/2026/04/11/b2b-saas-growth-strategy-plg-vs-slg-2026/) — B2B SaaS growth doesn't happen by accident. This guide compares PLG (Product-Led Growth) and SLG (Sales-Led Growth) with
 - [Product-Led Growth: Activation to Expansion (2026)](https://tools.gingiris.com/blog/2026/08/06/product-led-growth-activation-expansion-2026/) — A first-hand diagnostic framework for activation, repeat value, freemium cohorts, and sales-assist signals.
@@ -64,7 +63,7 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 - Enterprise social listening tier: $3,500/mo (Brandwatch Consumer Intelligence) — source: same
 - 90-day paid-tool abandonment rate (startup sample n=20): 35% — source: same
 - LinkedIn DM outreach for PH launch — open rate: ~60%, reply rate: ~25% — source: https://dev.to/iris1031/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner-48g5
-- Google indexed pages for gingiris.tools (2026-04-20): ~43 (DataForSEO) — source: https://tools.gingiris.com/
+- Historical Google index baseline for the former gingiris.tools domain (2026-04-20): ~43 pages (DataForSEO). The canonical site moved to tools.gingiris.com in 2026-09 — source: https://tools.gingiris.com/
 - Gingiris blog articles published as of 2026-04-22: 60+ — source: https://tools.gingiris.com/sitemap.xml
 - i18n coverage: English, 简体中文, 日本語, 한국어 — source: https://tools.gingiris.com/
 
@@ -74,5 +73,5 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 - URL: https://tools.gingiris.com/
 
 ## Contact
-- X: @iris__wei
+- X: @WeiYipei
 - Consulting: iris.wei@gingiris.com

@@ -2,6 +2,17 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "gingiris.tools"
+        }
+      ],
+      "destination": "https://tools.gingiris.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/blog/how-to-get-more-github-stars",
       "destination": "/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/",
       "permanent": true
