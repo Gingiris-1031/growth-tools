@@ -9,7 +9,7 @@ seo_description: "Learn product-led growth through activation, repeat value, coh
 author: Iris Wei
 tags: [product-led-growth, plg, product-activation, freemium, b2b-saas, growth]
 keywords: [product led growth, product led growth metrics, product activation, freemium, sales assisted PLG]
-canonical_url: https://gingiris.tools/blog/2026/08/06/product-led-growth-activation-expansion-2026/
+canonical_url: https://tools.gingiris.com/blog/2026/08/06/product-led-growth-activation-expansion-2026/
 faq:
   - q: "What is the difference between signup and activation?"
     a: "Signup creates an account. Activation records the first observable receipt of core product value, such as a successfully completed outcome tied to the product promise."

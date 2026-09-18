@@ -5,12 +5,12 @@ description: "An anonymized case study of how an open-source AI startup moved fr
 tags: [open-source, ai-startup, commercialization, b2b, go-to-market, case-study]
 lang: en
 privacy_strict: true
-canonical_url: https://gingiris.tools/blog/2026/08/04/open-source-ai-startup-commercialization-case-study/
+canonical_url: https://tools.gingiris.com/blog/2026/08/04/open-source-ai-startup-commercialization-case-study/
 seo_title: "Open-Source AI Commercialization: An Anonymous Case Study"
 seo_description: "How an open-source AI startup turned technical influence into repeatable enterprise revenue using a defensible offer, standardized sales, and focused GTM."
 keywords: [open source commercialization, AI startup case study, open source business model, AI startup go to market, B2B AI growth]
 last_modified_at: 2026-08-04
-image: https://gingiris.tools/assets/images/open-source-ai-commercialization-hero.webp
+image: https://tools.gingiris.com/assets/images/open-source-ai-commercialization-hero.webp
 image_alt: "Abstract open-source AI commercialization system connecting community distribution with enterprise value"
 faq:
   - q: "How do open-source AI startups make money?"

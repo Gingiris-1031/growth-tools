@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub README Template (2026): 12 Copy-Paste Examples"
 date: 2026-04-02
-canonical_url: https://gingiris.tools/blog/2026/04/02/github-readme-template-guide/
-image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/02/github-readme-template-guide/
+image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "Copy 12 production-grade GitHub README templates with ready-to-edit sections for installation, usage, badges, demos, contributing, and licensing."
 last_modified_at: 2026-08-04
 faq:
@@ -310,7 +310,7 @@ MIT © [Your Name](https://your-website.com)
 3. **Optimize your first paragraph** with search keywords
 4. **Track your star growth** at [star-history.com](https://star-history.com)
 
-For more open source growth strategies, see [Open source growth playbook](https://gingiris.tools/skills/) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://tools.gingiris.com/skills/) — the complete playbook from 0 to 60k stars.
 
 ---
 
@@ -323,7 +323,7 @@ For more open source growth strategies, see [Open source growth playbook](https:
 - **Scannable features**: Table > paragraphs
 - **Contributing**: Be specific, not generic
 
-*Part of the [Gingiris Open Source Growth Playbook](https://gingiris.tools/skills/) — helping developers get their first 10,000 stars.*
+*Part of the [Gingiris Open Source Growth Playbook](https://tools.gingiris.com/skills/) — helping developers get their first 10,000 stars.*
 
 ---
 
@@ -337,4 +337,4 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices: 8 Rules Behind 60K+ Stars](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*

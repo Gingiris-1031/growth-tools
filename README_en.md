@@ -200,9 +200,9 @@
 
 | Tool | Description | Link |
 |:-----|:------------|:-----|
-| **PH Comment Generator** | Generate authentic PH launch comments | [Try Free](https://gingiris.tools/tools/ph-comment-generator/) |
-| **GitHub Issue Generator** | Create structured GitHub issues | [Try Free](https://gingiris.tools/tools/github-issue-generator/) |
-| **GitHub README Generator** | Write README that gets stars | [Try Free](https://gingiris.tools/tools/github-readme-generator/) |
+| **PH Comment Generator** | Generate authentic PH launch comments | [Try Free](https://tools.gingiris.com/tools/ph-comment-generator/) |
+| **GitHub Issue Generator** | Create structured GitHub issues | [Try Free](https://tools.gingiris.com/tools/github-issue-generator/) |
+| **GitHub README Generator** | Write README that gets stars | [Try Free](https://tools.gingiris.com/tools/github-readme-generator/) |
 
 ---
 

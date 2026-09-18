@@ -11,7 +11,7 @@
 set -euo pipefail
 
 HOST="gingiris.tools"
-KEY_LOCATION="https://gingiris.tools/gingiris-indexnow-20260403.txt"
+KEY_LOCATION="https://tools.gingiris.com/gingiris-indexnow-20260403.txt"
 
 KEY="$(curl -fsS --max-time 15 "$KEY_LOCATION" | tr -d '[:space:]')"
 if [ -z "$KEY" ]; then echo "ERROR: could not read IndexNow key from $KEY_LOCATION" >&2; exit 1; fi

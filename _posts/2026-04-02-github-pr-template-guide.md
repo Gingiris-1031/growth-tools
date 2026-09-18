@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
 date: 2026-04-02
-canonical_url: https://gingiris.tools/blog/2026/04/02/github-pr-template-guide/
-image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/02/github-pr-template-guide/
+image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "GitHub pull request template best practices. Write PR templates that speed up code review — with a complete copy-paste template that actually gets merged."
 faq:
   - q: "What is a GitHub PR template?"
@@ -260,14 +260,14 @@ Read the CONTRIBUTING.md before submitting. Follow their conventions.
 - **Breaking changes**: Flag clearly
 - **Small PRs**: 100 lines > 1000 lines
 
-For more open source growth strategies, see [Open source growth playbook](https://gingiris.tools/skills/) — the complete playbook from 0 to 60k stars.
+For more open source growth strategies, see [Open source growth playbook](https://tools.gingiris.com/skills/) — the complete playbook from 0 to 60k stars.
 
-*Part of the [Gingiris Open Source Growth Playbook](https://gingiris.tools/skills/) — helping developers contribute to open source with confidence.*
+*Part of the [Gingiris Open Source Growth Playbook](https://tools.gingiris.com/skills/) — helping developers contribute to open source with confidence.*
 
 ## Related Articles
 
-- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://gingiris.tools/blog/2026/04/02/github-issue-template-guide/)
-- [GitHub README Best Practices: How to Write a README That Gets Stars](https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
+- [GitHub Issue Template Guide: How to Write Issues That Get Fixed](https://tools.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
+- [GitHub README Best Practices: How to Write a README That Gets Stars](https://tools.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/)
 
 ## Key Takeaways
 
@@ -289,7 +289,7 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 

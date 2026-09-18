@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 8 Compounding Plays for 2026"
 date: 2026-05-08
 description: "GitHub star growth guide with 8 compounding plays for sharper README conversion, launch sequencing, fast maintainer replies, and evergreen discovery."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/"
+canonical_url: "https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/"
 sitemap: false
 last_modified_at: 2026-07-23
 seo_title: "GitHub Star Growth: 8 Compounding Plays for 2026"
@@ -15,7 +15,7 @@ keywords: [github star growth, github stars, open source marketing, developer ma
 
 **GitHub star growth** is easier to talk about than to engineer. In 2026, the repos that keep compounding stars usually do not win because they shout louder. They win because the project is understandable in seconds, the launch sequence is deliberate, and every spike gets turned into search, community, and contributor trust. If your repo quality is improving but star velocity is flat, the problem is usually packaging and distribution, not code output.
 
-If you want the deeper systems behind this, start with the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** for launch timing and **[Gingiris B2B Growth](https://gingiris.tools/skills/)** if your repo also supports product demand generation.
+If you want the deeper systems behind this, start with the **[Gingiris Open Source Playbook](https://tools.gingiris.com/skills/)**. It pairs well with **[Gingiris Launch](https://tools.gingiris.com/skills/)** for launch timing and **[Gingiris B2B Growth](https://tools.gingiris.com/skills/)** if your repo also supports product demand generation.
 
 ## TL;DR
 
@@ -82,7 +82,7 @@ Push into one high-fit channel like Hacker News, Reddit, Product Hunt, or GitHub
 
 Turn the best questions into a postmortem, tutorial, comparison page, or setup guide.
 
-That is where **[Gingiris Launch](https://gingiris.tools/skills/)** becomes useful. It helps turn one launch event into a repeatable sequence instead of random noise.
+That is where **[Gingiris Launch](https://tools.gingiris.com/skills/)** becomes useful. It helps turn one launch event into a repeatable sequence instead of random noise.
 
 ## 4. Pick a Primary Channel for Each Push
 
@@ -138,7 +138,7 @@ That can include:
 4. community discussions with real maintainer presence
 5. docs that remove setup anxiety
 
-If the repo also supports a commercial product, star growth should connect to broader demand generation. The **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is helpful for designing that handoff.
+If the repo also supports a commercial product, star growth should connect to broader demand generation. The **[Gingiris B2B Growth Playbook](https://tools.gingiris.com/skills/)** is helpful for designing that handoff.
 
 ## 8. Keep the Project Visibly Alive
 
@@ -213,4 +213,4 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*

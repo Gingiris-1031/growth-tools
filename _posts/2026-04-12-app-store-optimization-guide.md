@@ -5,7 +5,7 @@ seo_description: "A practical ASO guide to app-store keyword research, screensho
 description: "Complete ASO guide covering keyword research, screenshot design, review management, and ranking algorithm differences between iOS App Store and Google Play. Learn the tactics that drove 10k+ daily downloads for top apps."
 date: 2026-04-12
 tags: [app-store-optimization, aso, ios, google-play, mobile-growth]
-canonical_url: https://gingiris.tools/blog/2026/04/12/app-store-optimization-guide/
+canonical_url: https://tools.gingiris.com/blog/2026/04/12/app-store-optimization-guide/
 last_modified_at: 2026-06-02
 faq:
   - q: "What is App Store Optimization (ASO)?"
@@ -258,7 +258,7 @@ This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog
 - [Go-to-Market Strategy 2026](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
 - [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 ---
@@ -271,5 +271,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

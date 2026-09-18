@@ -3,9 +3,9 @@ layout: post
 title: "GitHub 스타 늘리는 방법: AFFiNE이 6만 스타를 달성한 전략 (2026년)"
 date: 2026-04-07
 lang: ko
-hreflang_en: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
-canonical_url: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/github-stars-increase-guide-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
 description: "AFFiNE COO가 공개하는 GitHub 스타 늘리는 방법. README 최적화부터 커뮤니티 구축까지, 실제로 효과 있었던 7가지 전략."
 categories: [github, opensource, korean]
 tags: [GitHub, 스타, 오픈소스, 마케팅]
@@ -169,5 +169,5 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

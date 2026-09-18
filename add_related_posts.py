@@ -107,12 +107,12 @@ RELATED_SECTION = '''
 |----------|---------|
 {rows}
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 '''
 
 def make_row(title, url):
-    base = "https://gingiris.tools"
+    base = "https://tools.gingiris.com"
     full_url = f"{base}{url}" if url.startswith("/") else url
     return f"| 📖 | [{title}]({full_url}) |"
 

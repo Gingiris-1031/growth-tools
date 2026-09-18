@@ -140,4 +140,4 @@ PLGチームなら活性化率、Time to Value、プロダクト主導の見込�
 - [日本発プロダクトを海外で伸ばす方法](https://zenn.dev/gingiris/articles/japanese-product-go-global)
 - [Product Hunt攻略法：#1を30回達成した戦略](https://zenn.dev/gingiris/articles/product-hunt-strategy-2026)
 - [AI検索に引用される方法（GEO実践ガイド）](https://zenn.dev/gingiris/articles/ai-search-geo-guide)
-- 海外グロースの全プレイブック → [gingiris.tools](https://gingiris.tools)
+- 海外グロースの全プレイブック → [gingiris.tools](https://tools.gingiris.com)

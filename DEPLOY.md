@@ -31,10 +31,10 @@
 ### Verify
 
 ```bash
-curl -I https://gingiris.tools/
+curl -I https://tools.gingiris.com/
 # Should return HTTP 200 with `server: cloudflare`
 
-curl -s https://gingiris.tools/blog/2026/04/03/saas-marketing-guide/ | head -5
+curl -s https://tools.gingiris.com/blog/2026/04/03/saas-marketing-guide/ | head -5
 # Should return the saas marketing post HTML (preserves URL structure)
 ```
 
@@ -48,8 +48,8 @@ If you prefer Vercel: same connect-repo flow, but Vercel requires manual Jekyll 
 
 ## After deploy
 
-1. **Tell Google about new URLs**: GSC → add property `gingiris.tools` → submit `https://gingiris.tools/sitemap.xml`
-2. **301 from old (if you regain access to gingiris.github.io)**: Add a `_redirects` file at repo root with `/* https://gingiris.tools/:splat 301`
+1. **Tell Google about new URLs**: GSC → add property `gingiris.tools` → submit `https://tools.gingiris.com/sitemap.xml`
+2. **301 from old (if you regain access to gingiris.github.io)**: Add a `_redirects` file at repo root with `/* https://tools.gingiris.com/:splat 301`
 3. **Update dev.to canonical_url** (where they currently point at `gingiris.tools/blog/...`): batch PATCH via dev.to API
 4. **Update analook.com cross-links** (already done in commit `ae91fa7`, points to dev.to fallback)
 

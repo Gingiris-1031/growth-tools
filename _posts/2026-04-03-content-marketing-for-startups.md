@@ -4,8 +4,8 @@ title: "Content Marketing for Startups: 0 to 10k Monthly Visitors"
 description: "The complete content marketing guide for startups — how to go from zero traffic to 10k+ monthly visitors with limited resources. Keyword strategy, content types, distribution, and real examples from AFFiNE's 60k-star growth journey."
 date: 2026-04-03
 tags: [content-marketing, startup-growth, seo, growth-tools, saas-marketing]
-canonical_url: https://gingiris.tools/blog/2026/04/03/content-marketing-for-startups/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/03/content-marketing-for-startups/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "How do you start content marketing for a startup?"
     a: "Start with keyword research to find 10-20 high-intent, low-competition keywords your target users search for. Write one comprehensive piece on your most important keyword before diversifying. Publish on your own blog first, then distribute to communities and platforms like Dev.to or Medium. Measure organic traffic from week 1 — you need data to improve."
@@ -174,7 +174,7 @@ This works because:
 
 ---
 
-> 📖 **Related:** [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+> 📖 **Related:** [Best Social Media Listening Tools for Startups 2026](https://tools.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
 
 ## Step 4: Content Calendar Framework
 
@@ -256,7 +256,7 @@ If you're not seeing this at 6 months, the issue is usually: targeting too-compe
 - **Google Search Console** — Keyword rankings and impressions
 - **Hotjar** — Scroll depth and engagement heatmaps
 
-For a full tool breakdown, see [Best Growth Tools for SaaS Startups](https://gingiris.tools/blog/2026/04/best-growth-tools-for-saas-2026/).
+For a full tool breakdown, see [Best Growth Tools for SaaS Startups](https://tools.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/).
 
 ---
 
@@ -301,15 +301,15 @@ Content marketing costs as little as $0 (founder-written) to $5k-15k/month (agen
 
 ## Related Reading
 
-- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.tools/blog/2026/04/growth-hacking-for-startups/)
-- [Generative Engine Optimization (GEO): The Complete 2026 Guide](https://gingiris.tools/blog/2026/04/17/generative-engine-optimization-complete-guide/)
-- [Developer Marketing: How to Reach Technical Audiences](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/)
-- [Startup Marketing Strategy: Zero to 1,000 Users](https://gingiris.tools/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Open Source Marketing: The Complete 2026 Guide](https://gingiris.tools/blog/2026/04/open-source-marketing-the-complete-guide/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://tools.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
+- [Generative Engine Optimization (GEO): The Complete 2026 Guide](https://tools.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/)
+- [Developer Marketing: How to Reach Technical Audiences](https://tools.gingiris.com/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/)
+- [Startup Marketing Strategy: Zero to 1,000 Users](https://tools.gingiris.com/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Open Source Marketing: The Complete 2026 Guide](https://tools.gingiris.com/blog/2026/04/open-source-marketing-the-complete-guide/)
 
 ---
 
-**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
+**📖 Related:** [Product Hunt Launch Playbook: 30x #1 Winner's Strategy](https://tools.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/)
 
 ---
 
@@ -323,7 +323,7 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 ---
@@ -336,5 +336,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

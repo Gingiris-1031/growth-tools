@@ -2,8 +2,8 @@
 layout: post
 title: "Win Product Hunt #1: 30-Day Campaign Playbook [2026]"
 date: 2026-03-18
-canonical_url: https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
-image: "https://gingiris.tools/assets/images/blog-product-hunt-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
+image: "https://tools.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
 description: "30-day PH campaign system: community setup, hunter selection, hour-by-hour launch day execution, and post-launch momentum tactics. From 30x daily #1 experience."
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
 gumroad_title: "Product Hunt Launch Action Guide"
@@ -19,8 +19,8 @@ faq:
     a: "Yes — and you should. Each major feature release, version update, or product angle is a legitimate launch. We launched AFFiNE 30+ times over 18 months. Each launch reaches PH's daily audience, most of whom haven't seen you before. Multi-launch is a campaign strategy, not a loophole."
   - q: "What is the Product Hunt badge worth?"
     a: "The badge is the primary asset. It provides: (1) Social proof on your landing page that converts cold visitors. (2) A high-DA backlink from producthunt.com that helps SEO. (3) Ongoing exposure — PH's homepage shows yesterday's winners, last week's weekly winners, last month's monthly winners. Weekly badge exposure = 7× daily; monthly = 30×."
-hreflang_ja: https://gingiris.tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/product-hunt-guide-ko/
+hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/product-hunt-strategy-2026-ja/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/product-hunt-guide-ko/
 ---
 
 **What is a Product Hunt launch playbook?** A Product Hunt launch playbook is a step-by-step strategy for launching on Product Hunt and winning #1 — covering pre-launch community building (2 weeks before), hunter selection, launch day execution (first hour is critical), and post-launch momentum. AFFiNE used this exact playbook to win Product Hunt #1 **30 times**.
@@ -233,13 +233,13 @@ The weekly and monthly badge multipliers (7× and 30× more exposure respectivel
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt: Definitive Guide (30x #1 Winner)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [After Product Hunt: 7 Ways to Keep Momentum](https://gingiris.tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
-| 📖 | [Product Hunt Launch Checklist](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [AFFiNE GitHub Stars: 0 to 60K](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Product Hunt: Definitive Guide (30x #1 Winner)](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [After Product Hunt: 7 Ways to Keep Momentum](https://tools.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) |
+| 📖 | [Product Hunt Launch Checklist](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://tools.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [AFFiNE GitHub Stars: 0 to 60K](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ## Key Takeaways
 
@@ -262,7 +262,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -318,5 +318,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

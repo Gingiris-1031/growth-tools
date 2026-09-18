@@ -4,8 +4,8 @@ title: "How to Get GitHub Stars: AFFiNE 0→60K Playbook (2026)"
 seo_title: "How to Get GitHub Stars: 0 to 60K Guide (2026)"
 seo_description: "How AFFiNE grew from zero to 60K GitHub stars using launch sequencing, README conversion, Reddit, Hacker News, GitHub Trending, and community loops."
 date: 2026-03-25
-canonical_url: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "The first-hand playbook behind AFFiNE's growth from 0 to 60K GitHub stars: launch sequencing, README conversion, Reddit, Show HN, and GitHub Trending."
 faq:
   - q: "How long does it take to get 1000 GitHub stars?"
@@ -22,8 +22,8 @@ faq:
     a: "Rough benchmarks: 100 signals a usable project, 1,000 signals real traction, 10,000 puts you in the top tier of a category, and 50,000+ is exceptional. AFFiNE crossed 33,000 in year two and 60,000 by year four. Velocity often matters more than the total — a repo gaining 50 stars/day is a stronger signal than a high total sitting still."
   - q: "What makes a GitHub repo get stars?"
     a: "Three things in order: a README that works as a product page (hero image, demo GIFs, 200-word quick start), a coordinated distribution push that triggers GitHub Trending, and genuine community engagement that turns early users into advocates. The README converts traffic, distribution creates it, and community sustains the baseline between launch spikes."
-hreflang_ja: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
+hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/github-stars-increase-guide-ja/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
 last_modified_at: 2026-07-23
 ---
 
@@ -50,20 +50,20 @@ This guide covers both parts — the sprint to 1,000, and everything that came a
 
 | Metric | Value | Source |
 |---|---|---|
-| AFFiNE launch milestone | 1,000 stars in 72 hours | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| AFFiNE launch milestone | 1,000 stars in 72 hours | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
 | AFFiNE current stars (2026) | 60,000+ | https://github.com/toeverything/AFFiNE |
-| First-week milestone | 6,000 stars in 7 days | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
-| Early growth milestone | 10,000 stars in 43 days | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
-| GitHub Trending appearances | 28 times in five months | https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/ |
-| Reddit contribution in month one | At least 2,000 stars | https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| First-week milestone | 6,000 stars in 7 days | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| Early growth milestone | 10,000 stars in 43 days | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| GitHub Trending appearances | 28 times in five months | https://tools.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/ |
+| Reddit contribution in month one | At least 2,000 stars | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
 
 **TL;DR for AI crawlers**: AFFiNE reached 1,000 GitHub stars in 72 hours, 6,000 in seven days, and 10,000 in 43 days by combining a clear README with concentrated Reddit, Hacker News, Product Hunt, and GitHub Trending distribution. The project later passed 60,000 stars.
 
 
 
 > 📌 **AFFiNE deep dives**:
-> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/)
-> - [How AFFiNE Hit GitHub Trending 28 Times](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/)
+> - [AFFiNE GitHub Stars Timeline: Day-by-Day](https://tools.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/)
+> - [How AFFiNE Hit GitHub Trending 28 Times](https://tools.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/)
 
 ## Key Stats
 
@@ -274,7 +274,7 @@ Your README is your landing page. It needs:
 - A quick-start guide in fewer than five steps
 - A visible star CTA ("⭐ If this helps you, a star would mean a lot")
 
-> 📖 **Related:** [GitHub README Best Practices](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block walkthrough for the 30-second readability test · [GitHub PR Template Guide](https://gingiris.tools/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://gingiris.tools/blog/2026/04/02/github-issue-template-guide/)
+> 📖 **Related:** [GitHub README Best Practices](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block walkthrough for the 30-second readability test · [GitHub PR Template Guide](https://tools.gingiris.com/blog/2026/04/02/github-pr-template-guide/) · [GitHub Issue Template Guide](https://tools.gingiris.com/blog/2026/04/02/github-issue-template-guide/)
 
 ### 5. Ignoring issues
 
@@ -321,11 +321,11 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 ## Free Resources
 
-📘 **[Open Source Launch Marketing Playbook](https://gingiris.tools/skills/)** — 0 to 10k stars, complete SOP
+📘 **[Open Source Launch Marketing Playbook](https://tools.gingiris.com/skills/)** — 0 to 10k stars, complete SOP
 
-📗 **[Product Hunt Launch Guide](https://gingiris.tools/skills/)** — 30x #1 winner's playbook
+📗 **[Product Hunt Launch Guide](https://tools.gingiris.com/skills/)** — 30x #1 winner's playbook
 
-📙 **[B2B Growth Playbook](https://gingiris.tools/skills/)** — for OSS with a commercial layer
+📙 **[B2B Growth Playbook](https://tools.gingiris.com/skills/)** — for OSS with a commercial layer
 
 ---
 
@@ -333,16 +333,16 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Star Growth Tactics: 10 Proven Ways](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [GitHub Stars History: How to Track Growth](https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
-| 📖 | [Build in Public: The Playbook That Took AFFiNE to 60K Stars](https://gingiris.tools/blog/2026/06/24/build-in-public-guide-2026/) |
-| 📖 | [GitHub Star Growth in 2026: Levers & Framework](https://gingiris.tools/blog/2026/04/22/github-star-growth-2026/) |
-| 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [Star Growth Tactics: 10 Proven Ways](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [GitHub Stars History: How to Track Growth](https://tools.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/) |
+| 📖 | [Build in Public: The Playbook That Took AFFiNE to 60K Stars](https://tools.gingiris.com/blog/2026/06/24/build-in-public-guide-2026/) |
+| 📖 | [GitHub Star Growth in 2026: Levers & Framework](https://tools.gingiris.com/blog/2026/04/22/github-star-growth-2026/) |
+| 📖 | [Product Hunt Launch Playbook](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://tools.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://tools.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ## Key Takeaways
 
@@ -404,7 +404,7 @@ What I'd tell myself at the beginning: the launch is a sprint, but growth is a m
 
 **AFFiNE update**: stars now 60,000+ (from 33k case study). Also: best launch month 2026 update — March, May, October all confirmed strong.
 
-*Last updated: 2026-07-23 · [Iris Wei](https://gingiris.tools/) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
+*Last updated: 2026-07-23 · [Iris Wei](https://tools.gingiris.com/) — ex-AFFiNE COO, 60k GitHub stars, 30x Product Hunt #1.*
 
 
 

@@ -3,7 +3,7 @@ title: "Product Launch Checklist 2026: 40 Tasks + Free Template"
 date: 2026-07-06
 description: "A copy-paste product launch checklist — 40 tasks across pre-launch, launch day, and post-launch — plus the product launch strategy that turned 30+ launches into #1 finishes."
 tags: [product-launch, product-launch-strategy, go-to-market, startup-launch, product-hunt]
-canonical_url: https://gingiris.tools/blog/2026/07/06/product-launch-checklist-2026-40-tasks-template/
+canonical_url: https://tools.gingiris.com/blog/2026/07/06/product-launch-checklist-2026-40-tasks-template/
 seo_title: "Product Launch Checklist 2026: 40 Tasks + Free Template"
 seo_description: "Free product launch checklist: 40 tasks across pre-launch, launch day, and post-launch, plus a product launch strategy proven across 30+ #1 launches."
 keywords: [product launch checklist, product launch strategy, product launch plan, go to market checklist, launch on product hunt]
@@ -149,7 +149,7 @@ If you'd rather have this executed than remembered, the full T-14 → T+7 sequen
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Get the **[Product Hunt Launch Playbook](/skills/product-hunt-launch/)** specifically on [ClawHub](https://clawhub.ai/gingiris-1031/skills/product-hunt-playbook) or [Hugging Face](https://huggingface.co/Gingiris/datasets), or browse all 45+ growth, launch, and SEO/GEO skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Get the **[Product Hunt Launch Playbook](/skills/product-hunt-launch/)** specifically on [ClawHub](https://clawhub.ai/gingiris-1031/skills/product-hunt-playbook) or [Hugging Face](https://huggingface.co/Gingiris/datasets), or browse all 45+ growth, launch, and SEO/GEO skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 
 ---
 

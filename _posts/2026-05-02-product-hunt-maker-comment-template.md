@@ -5,7 +5,7 @@ date: 2026-05-02 09:00:00 +0800
 last_modified_at: 2026-05-02
 categories: [product-hunt, growth, copywriting]
 tags: [product-hunt, maker-comment, first-comment, launch, ph, comment-template]
-canonical_url: https://gingiris.tools/blog/2026/05/02/product-hunt-maker-comment-template/
+canonical_url: https://tools.gingiris.com/blog/2026/05/02/product-hunt-maker-comment-template/
 description: "The 6 maker-comment variants used across 30 Product Hunt #1 launches. Includes when to use each, 5 anti-patterns, and the exact opener structure that hits ~68% read-through and 2.4x reply rate vs generic comments."
 faq:
   - q: "What should I write in my Product Hunt maker comment?"
@@ -313,7 +313,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 ---
@@ -326,5 +326,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

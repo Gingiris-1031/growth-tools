@@ -3,12 +3,12 @@ layout: post
 title: "GitHub Trendingに載る方法：AFFiNEが5ヶ月で28回登場した戦略（2026年版）"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/github-trending-guide-ja/
 description: "AFFiNEのCOOが公開。5ヶ月でGitHub Trendingに28回登場した実際の戦略。スター獲得からREADME最適化まで完全解説。"
 categories: [github, opensource, japanese]
 tags: [GitHub, Trending, オープンソース, スター]
-hreflang_en: https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-trending-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/github-trending-guide-ko/
 last_modified_at: 2026-06-03
 faq:
   - q: "GitHub Trendingに載るには1日に何個のスターが必要ですか？"
@@ -143,7 +143,7 @@ GitHub Trendingは運ではない。アルゴリズムを理解し、告知を�
 
 2022年の上海の朝、あのTrending初登場から3年経った今も、私は同じ戦術を使ってクライアントのプロジェクトをTrendingに載せている。（成功率は上がった。寝不足は変わらない）
 
-より詳しい戦術は [GitHub Stars完全ガイド](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) を参照してほしい。
+より詳しい戦術は [GitHub Stars完全ガイド](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) を参照してほしい。
 
 ---
 
@@ -161,5 +161,5 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

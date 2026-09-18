@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub Stars History: 5 Free Tools to Track & Analyze Any Repo (2026 Guide)"
 date: 2026-03-30
-canonical_url: https://gingiris.tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/
-image: "https://gingiris.tools/assets/images/blog-github-history.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth/
+image: "https://tools.gingiris.com/assets/images/blog-github-history.jpg"
 description: "Track GitHub stars history for any repo with 5 free tools and the GitHub API. Includes AFFiNE's real 0 → 60K star curve as a worked example."
 faq:
   - q: "How do you track GitHub star history?"
@@ -190,14 +190,14 @@ Before adopting an open source project:
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Get More GitHub Stars: 0 to 60K](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [10 Proven Star Growth Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [GitHub README Best Practices](https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
-| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
-| 📖 | [AFFiNE GitHub Stars: Day-by-Day Timeline](https://gingiris.tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
-| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [How to Get More GitHub Stars: 0 to 60K](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [10 Proven Star Growth Tactics](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [GitHub README Best Practices](https://tools.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) |
+| 📖 | [I Led AFFiNE from 0 to 60K Stars](https://tools.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [AFFiNE GitHub Stars: Day-by-Day Timeline](https://tools.gingiris.com/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ---
 
@@ -211,7 +211,7 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 ---
@@ -224,5 +224,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

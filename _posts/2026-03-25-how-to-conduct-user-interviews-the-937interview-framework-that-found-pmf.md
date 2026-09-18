@@ -2,8 +2,8 @@
 layout: post
 title: "User Interview Questions: 50+ Templates + The 9:3:7 Framework That Found PMF"
 date: 2026-03-25
-canonical_url: https://gingiris.tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
-image: "https://gingiris.tools/assets/images/blog-user-interview.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf/
+image: "https://tools.gingiris.com/assets/images/blog-user-interview.jpg"
 description: "The 9:3:7 user interview framework that found product-market fit. Step-by-step guide to running user interviews that reveal real needs and pain points."
 faq:
   - q: "What is the 9:3:7 user interview framework?"
@@ -266,7 +266,7 @@ Watching users struggle reveals more than any question.
 
 This article covers the essentials. For the complete playbook with templates, scripts, and examples:
 
-📚 **[User Interview Playbook on GitHub](https://gingiris.tools/skills/)** — Full framework, templates, and tools
+📚 **[User Interview Playbook on GitHub](https://tools.gingiris.com/skills/)** — Full framework, templates, and tools
 
 Or install directly into your AI agent:
 ```bash
@@ -287,7 +287,7 @@ npx skills add Gingiris-1031/gingiris-skills
 
 I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping founders validate products faster through user research.
 
-- Playbooks: [gingiris.tools/skills/](https://gingiris.tools/skills/)
+- Playbooks: [gingiris.tools/skills/](https://tools.gingiris.com/skills/)
 - Consulting: [@WeiYipei on Telegram](https://t.me/Iris_carrot)
 
 ---
@@ -296,7 +296,7 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://gingiris.tools/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [B2B SaaS Growth Playbook](https://tools.gingiris.com/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 
@@ -304,10 +304,10 @@ I'm **Iris**, former cofounder & COO of AFFiNE (60K+ GitHub stars). Now helping 
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Startup Marketing Strategy](https://gingiris.tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
-| 📖 | [SaaS Growth Strategy](https://gingiris.tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/) |
+| 📖 | [Startup Marketing Strategy](https://tools.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [SaaS Growth Strategy](https://tools.gingiris.com/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ---
 
@@ -321,5 +321,5 @@ This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog
 - [Go-to-Market Strategy 2026](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
 - [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

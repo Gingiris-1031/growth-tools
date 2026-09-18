@@ -3,12 +3,12 @@ layout: post
 title: "日本のエンジニアコミュニティ完全ガイド：海外スタートアップが知るべき15のプラットフォーム（2026年）"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.tools/blog/2026/04/07/japan-developer-communities-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/japan-developer-communities-ja/
 description: "海外スタートアップが日本のエンジニアコミュニティに参入する方法。Zenn、Qiita、connpassなど15プラットフォームの特徴と活用法を実体験から解説。"
 categories: [community, japanese, marketing]
 tags: [日本, コミュニティ, エンジニア, マーケティング]
-hreflang_en: https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/korea-developer-communities-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/korea-developer-communities-ko/
 last_modified_at: 2026-06-03
 faq:
   - q: "日本のエンジニアコミュニティで最もROIが高いプラットフォームは？"
@@ -129,7 +129,7 @@ DevRel.jpのコミュニティに参加し、「海外OSSの日本展開」と�
 
 Zennに記事を投稿して初めて「日本の開発者と繋がれた」と感じたあの日——あの経験が、私の日本市場への見方を根本から変えた。
 
-プラットフォームのリストはこのページで随時更新していく。追加すべきコミュニティがあれば [GitHubのIssue](https://gingiris.tools/skills/) から教えてほしい。
+プラットフォームのリストはこのページで随時更新していく。追加すべきコミュニティがあれば [GitHubのIssue](https://tools.gingiris.com/skills/) から教えてほしい。
 
 ---
 

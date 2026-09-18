@@ -3,9 +3,9 @@ layout: post
 title: "Hacker News Show HN 가이드: 프론트페이지에 오르는 방법 (2026년)"
 date: 2026-04-07
 lang: ko
-hreflang_en: https://gingiris.tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
-hreflang_ja: https://gingiris.tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
-canonical_url: https://gingiris.tools/blog/2026/04/07/hacker-news-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
+hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/hacker-news-show-hn-guide-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/hacker-news-guide-ko/
 description: "Hacker News Show HN에서 프론트페이지에 오른 경험을 바탕으로 한 완전 가이드. 제목 작성법, 타이밍, 커뮤니티 참여 전략까지."
 categories: [hackernews, launch, korean]
 tags: [HackerNews, Show HN, 출시, 개발자]

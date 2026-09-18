@@ -2,8 +2,8 @@
 layout: post
 title: "GitHub README Best Practices: 8 Rules That Got 60k+ Stars (2026)"
 date: 2026-03-29
-canonical_url: https://gingiris.tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
-image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
+image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "The 8 README rules behind AFFiNE's 60k+ GitHub stars. Visuals, hook copy, install commands, and the 30-second readability test — with real before/after examples."
 last_modified_at: 2026-08-04
 faq:
@@ -277,14 +277,14 @@ A great README doesn't just document — it sells.
 
 ## Free Resources
 
-- 📚 [Open Source Marketing Playbook](https://gingiris.tools/skills/) — How to grow GitHub stars
-- 📚 [Product Hunt Launch Guide](https://gingiris.tools/skills/) — Launch strategy from 30x #1 winner
+- 📚 [Open Source Marketing Playbook](https://tools.gingiris.com/skills/) — How to grow GitHub stars
+- 📚 [Product Hunt Launch Guide](https://tools.gingiris.com/skills/) — Launch strategy from 30x #1 winner
 
 ---
 
 **Questions?** Drop a comment or reach out on [Twitter @WeiYipei](https://x.com/WeiYipei).
 
-*This guide is part of the [Gingiris Open Source Playbook](https://gingiris.tools/skills/) — battle-tested strategies from 60k+ GitHub stars.*
+*This guide is part of the [Gingiris Open Source Playbook](https://tools.gingiris.com/skills/) — battle-tested strategies from 60k+ GitHub stars.*
 
 ---
 
@@ -292,12 +292,12 @@ A great README doesn't just document — it sells.
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Get GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Developer Marketing Playbook](https://gingiris.tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
-| 📖 | [10 Proven GitHub Star Growth Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [9 GitHub Star Growth Levers (2026)](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [How to Get GitHub Stars](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Marketing Playbook](https://tools.gingiris.com/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026/) |
+| 📖 | [10 Proven GitHub Star Growth Tactics](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [9 GitHub Star Growth Levers (2026)](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ---
 
@@ -311,4 +311,4 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Template: 12 Copy-Paste Examples](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*

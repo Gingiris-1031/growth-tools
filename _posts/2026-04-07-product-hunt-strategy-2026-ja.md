@@ -3,12 +3,12 @@ layout: post
 title: "Product Hunt攻略2026：30回1位を取ったCOOが教える完全ガイド"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/product-hunt-strategy-2026-ja/
 description: "AFFiNEでProduct Hunt #1を30回以上獲得した元COOによるPH攻略完全ガイド2026年版。日本人ファウンダー向け実践マニュアル。"
 categories: [producthunt, launch, japanese]
 tags: [ProductHunt, ローンチ, スタートアップ, マーケティング]
-hreflang_en: https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/product-hunt-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/product-hunt-guide-ko/
 last_modified_at: 2026-06-03
 faq:
   - q: "Product Huntで#1を取るには何票必要ですか？"
@@ -151,5 +151,5 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

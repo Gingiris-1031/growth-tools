@@ -10,10 +10,10 @@
     <meta name="keywords" content="growth diagnostic, startup growth audit, growth strategy tool, product growth, startup marketing, growth bottleneck, free growth tool, SaaS growth, open source marketing">
     <meta name="author" content="Gingiris">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://gingiris.tools/tools/growth-diagnostic/">
+    <link rel="canonical" href="https://tools.gingiris.com/tools/growth-diagnostic/">
     
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://gingiris.tools/tools/growth-diagnostic">
+    <meta property="og:url" content="https://tools.gingiris.com/tools/growth-diagnostic">
     <meta property="og:title" content="Growth Strategy Diagnostic: What's Blocking Your Growth?">
     <meta property="og:description" content="Free 2-minute diagnostic. Identify your #1 growth bottleneck and get a personalized action plan with playbook recommendations.">
     <meta property="og:site_name" content="Gingiris Growth Tools">
@@ -32,12 +32,12 @@
         "@type": "SoftwareApplication",
         "name": "Growth Strategy Diagnostic",
         "description": "Free 2-minute startup growth diagnostic. Identifies your biggest growth bottleneck and provides personalized playbook recommendations based on product type, stage, and channel fit.",
-        "url": "https://gingiris.tools/tools/growth-diagnostic",
+        "url": "https://tools.gingiris.com/tools/growth-diagnostic",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Any",
         "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
         "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "42" },
-        "author": { "@type": "Organization", "name": "Gingiris", "url": "https://gingiris.tools/" }
+        "author": { "@type": "Organization", "name": "Gingiris", "url": "https://tools.gingiris.com/" }
     }
     </script>
     <script type="application/ld+json">
@@ -205,13 +205,13 @@
 <!-- Header -->
 <header class="header">
   <div class="header-inner">
-    <a href="https://gingiris.tools/" class="logo">
+    <a href="https://tools.gingiris.com/" class="logo">
       <img src="https://gingiris.com/brand/logo-primary.webp" alt="Gingiris" class="logo-img">
       <div class="logo-divider"></div>
       <span class="logo-sub">Growth Diagnostic</span>
     </a>
     <div class="breadcrumb">
-      <a href="https://gingiris.tools/">Tools</a><span>/</span>Growth Diagnostic
+      <a href="https://tools.gingiris.com/">Tools</a><span>/</span>Growth Diagnostic
     </div>
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button>
   </div>
@@ -340,10 +340,10 @@ function showResults(){
     <div class="tags"><span class="tag">${typeL[d.productType]}</span><span class="tag">${stageL[d.stage]}</span><span class="tag tag-red">Bottleneck: ${bnL[d.bottleneck]}</span></div>
     <div class="diagnosis-box"><h3>Diagnosis</h3><p>${d.diagnosis}</p><div class="channel-rec">Recommended focus: <span>${d.primaryChannel}</span></div></div>
     <div class="action-section"><h2>🎯 Your Action Plan</h2>${d.actions.map((a,i)=>`<div class="action-card"><span class="action-num">${i+1}</span><span class="action-title">${a.title}</span><p class="action-desc">${a.desc}</p><div class="action-remedy">💡 <strong>How:</strong> ${a.remedy}</div></div>`).join('')}</div>
-    <div class="skills-section"><h2>🤖 Recommended AI Playbooks</h2><p class="desc">Install into Claude Code, Cursor, or any AI agent:</p><div class="code-block"><pre>${installs}</pre></div><p class="code-note">MIT-0 licensed · Free · No signup · <a href="https://gingiris.tools/skills/">Browse all 40+ skills →</a></p></div>
-    <div class="cta-grid"><div class="cta-card cta-primary"><div style="font-size:32px">🫚</div><h3>Want Expert Help?</h3><p>1:1 growth strategy with Iris — former AFFiNE COO, 30x PH #1, Forbes 30U30.</p><a href="https://gingiris.com" target="_blank" class="cta-btn cta-btn-primary">Book Advisory →</a></div><div class="cta-card cta-secondary"><div style="font-size:32px">🔧</div><h3>Browse Growth Tools</h3><p>100+ curated tools for social listening, KOL, Reddit, SEO & more.</p><a href="https://gingiris.tools" target="_blank" class="cta-btn cta-btn-secondary">Explore Tools →</a></div></div>
+    <div class="skills-section"><h2>🤖 Recommended AI Playbooks</h2><p class="desc">Install into Claude Code, Cursor, or any AI agent:</p><div class="code-block"><pre>${installs}</pre></div><p class="code-note">MIT-0 licensed · Free · No signup · <a href="https://tools.gingiris.com/skills/">Browse all 40+ skills →</a></p></div>
+    <div class="cta-grid"><div class="cta-card cta-primary"><div style="font-size:32px">🫚</div><h3>Want Expert Help?</h3><p>1:1 growth strategy with Iris — former AFFiNE COO, 30x PH #1, Forbes 30U30.</p><a href="https://gingiris.com" target="_blank" class="cta-btn cta-btn-primary">Book Advisory →</a></div><div class="cta-card cta-secondary"><div style="font-size:32px">🔧</div><h3>Browse Growth Tools</h3><p>100+ curated tools for social listening, KOL, Reddit, SEO & more.</p><a href="https://tools.gingiris.com" target="_blank" class="cta-btn cta-btn-secondary">Explore Tools →</a></div></div>
     <div class="restart-link"><button onclick="restart()">↻ Retake with different answers</button></div>
-    <div class="footer">Built by <a href="https://gingiris.com">Iris (生姜iris)</a> · <a href="https://gingiris.tools">gingiris.tools</a> · <a href="https://gingiris.tools/skills/">Skills</a></div>
+    <div class="footer">Built by <a href="https://gingiris.com">Iris (生姜iris)</a> · <a href="https://tools.gingiris.com">gingiris.tools</a> · <a href="https://tools.gingiris.com/skills/">Skills</a></div>
   </div>`;
 }
 

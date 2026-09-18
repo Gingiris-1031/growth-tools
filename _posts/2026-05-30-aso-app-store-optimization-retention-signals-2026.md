@@ -3,7 +3,7 @@ title: "ASO App Store Optimization: 7 Retention Signals for 2026"
 date: 2026-05-30
 description: "ASO App Store Optimization: 7 Retention Signals for 2026   ASO app store optimization gets..."
 tags: [aso, appmarketing, seo, growth]
-canonical_url: "https://gingiris.tools/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/"
+canonical_url: "https://tools.gingiris.com/blog/2026/05/30/aso-app-store-optimization-retention-signals-2026/"
 seo_title: "ASO App Store Optimization: 7 Retention Signals for 2026"
 seo_description: "ASO App Store Optimization: 7 Retention Signals for 2026   ASO app store optimization gets..."
 keywords: [aso, appmarketing, seo, growth]
@@ -180,7 +180,7 @@ ASO app store optimization becomes much more durable when retention signals infl
 
 ## Related Reading
 
-- [ASO App Store Optimization: 7 Conversion Loops for 2026](https://gingiris.tools/blog/2026/05/26/aso-app-store-optimization-conversion-loops-2026/)
-- [B2B SaaS Growth: 7 ICP Fixes for 2026](https://gingiris.tools/blog/2026/05/29/b2b-saas-growth-icp-fixes-2026/)
-- [GitHub Star Growth: 7 README Fixes for 2026](https://gingiris.tools/blog/2026/05/28/github-star-growth-readme-fixes-2026/)
-- [Growth Tools Home](https://gingiris.tools/)
+- [ASO App Store Optimization: 7 Conversion Loops for 2026](https://tools.gingiris.com/blog/2026/05/26/aso-app-store-optimization-conversion-loops-2026/)
+- [B2B SaaS Growth: 7 ICP Fixes for 2026](https://tools.gingiris.com/blog/2026/05/29/b2b-saas-growth-icp-fixes-2026/)
+- [GitHub Star Growth: 7 README Fixes for 2026](https://tools.gingiris.com/blog/2026/05/28/github-star-growth-readme-fixes-2026/)
+- [Growth Tools Home](https://tools.gingiris.com/)

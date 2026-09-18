@@ -149,4 +149,4 @@ OSSならr/selfhosted、r/opensource、r/coolgithubprojects、r/github。スタ�
 - [Hacker News「Show HN」完全ガイド](https://zenn.dev/gingiris/articles/hacker-news-show-hn-guide)
 - [Product Hunt攻略法：#1を30回達成した戦略](https://zenn.dev/gingiris/articles/product-hunt-strategy-2026)
 - [日本発プロダクトを海外で伸ばす方法](https://zenn.dev/gingiris/articles/japanese-product-go-global)
-- 海外グロースの全プレイブック → [gingiris.tools](https://gingiris.tools)
+- 海外グロースの全プレイブック → [gingiris.tools](https://tools.gingiris.com)

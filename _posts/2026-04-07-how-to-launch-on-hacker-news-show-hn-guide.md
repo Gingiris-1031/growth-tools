@@ -2,8 +2,8 @@
 layout: post
 title: "Show HN Guide 2026: Frontpage Tactics + Best Time to Post"
 date: 2026-04-07
-canonical_url: https://gingiris.tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
-image: "https://gingiris.tools/assets/images/blog-github-stars.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
+image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "The exact Show HN playbook used to hit Hacker News frontpage. Tuesday 9 AM ET timing, title formula, comment strategy, and 5 reasons launches fail."
 faq:
   - q: "What is Show HN and how does it work?"
@@ -16,8 +16,8 @@ faq:
     a: "Yes — HN's guidelines allow resubmitting if the project has significantly changed or you believe the previous submission didn't represent it well. Wait at least a month. Change your title and first comment substantially. Don't submit the exact same post twice. Many projects that went unnoticed on first submission have broken through on a second attempt with better positioning."
   - q: "What kinds of projects do well on Hacker News?"
     a: "Developer tools, open source projects, technical infrastructure, AI/ML research projects, and unconventional technical approaches to well-known problems. HN responds strongly to: novel technical architecture, open source code they can inspect, clear articulation of what you built and why, and honest acknowledgment of limitations. Consumer apps, SaaS without technical depth, and marketing-heavy pitches consistently underperform."
-hreflang_ja: https://gingiris.tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/hacker-news-guide-ko/
+hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/hacker-news-show-hn-guide-ja/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/hacker-news-guide-ko/
 ---
 
 **What is Show HN on Hacker News?** Show HN is a Hacker News submission format for showcasing projects you've built. A successful Show HN front page placement reaches 50,000-200,000 highly technical readers — engineers, CTOs, and startup founders — and can generate 500-2,000 GitHub stars and 1,000+ signups in 24 hours. AFFiNE's Show HN appearance generated 1,200 GitHub stars overnight and drove signups from 3 countries.
@@ -288,13 +288,13 @@ One useful pattern: **Show HN on launch → technical blog post 2–3 weeks late
 
 | Category | Article |
 |----------|---------|
-| 📖 | [How to Get More GitHub Stars: The Definitive Guide](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [How to Get on GitHub Trending](https://gingiris.tools/blog/2026/04/06/how-to-get-on-github-trending/) |
-| 📖 | [Product Hunt Launch: The 2026 Playbook](https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/) |
-| 📖 | [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [GitHub Star Growth: 10 Proven Tactics](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [How to Get More GitHub Stars: The Definitive Guide](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [How to Get on GitHub Trending](https://tools.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/) |
+| 📖 | [Product Hunt Launch: The 2026 Playbook](https://tools.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/) |
+| 📖 | [Reddit Marketing Without Getting Banned](https://tools.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [GitHub Star Growth: 10 Proven Tactics](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ## Key Takeaways
 
@@ -317,7 +317,7 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -373,5 +373,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

@@ -4,8 +4,8 @@ title: "SaaS Marketing on a Budget: 7 Tactics That Actually Worked Across AFFiNE
 description: "I've built two SaaS products with $0 ad spend — one to 60K GitHub stars, one to 39 users in 4 weeks. Here are the 7 marketing tactics that actually moved the needle, with the real numbers behind each."
 date: 2026-04-29
 tags: [saas-marketing, bootstrap, indiehackers, growth, startup-marketing]
-canonical_url: https://gingiris.tools/blog/2026/04/29/saas-marketing-on-a-budget/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/29/saas-marketing-on-a-budget/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 last_modified_at: 2026-04-29
 faq:
   - q: "How do you market a SaaS with no budget?"
@@ -96,7 +96,7 @@ Here's exactly what worked. (And what didn't — I'll save you 6 months by telli
 - 1 week out: Share the launch date with the group, ask them to upvote at 12:01 AM PT
 - Launch day: Execute mechanically; the work is already done
 
-**Read the full playbook:** [Product Hunt Launch Playbook: The Definitive Guide from 30x #1 Winners](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/).
+**Read the full playbook:** [Product Hunt Launch Playbook: The Definitive Guide from 30x #1 Winners](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/).
 
 **Where founders mess this up:** Treating launch day as the strategy. Launch day is the closing of a 6-week sequence. If you start 1 week before, you'll get 50 upvotes and disappear.
 
@@ -193,9 +193,9 @@ Bookmark that. Re-read it when you feel the temptation to run Google Ads on a pr
 ---
 
 **Related reading:**
-- [The complete SaaS marketing playbook for 2026](https://gingiris.tools/blog/2026/04/03/saas-marketing-guide/) — channels by stage, what works at each MRR level
-- [Product Hunt launch playbook (30x #1 winner)](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — pre-launch sequencing in detail
-- [Best growth tools for SaaS 2026](https://gingiris.tools/blog/2026/04/02/best-growth-tools-for-saas-2026/) — the full free + paid stack
+- [The complete SaaS marketing playbook for 2026](https://tools.gingiris.com/blog/2026/04/03/saas-marketing-guide/) — channels by stage, what works at each MRR level
+- [Product Hunt launch playbook (30x #1 winner)](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — pre-launch sequencing in detail
+- [Best growth tools for SaaS 2026](https://tools.gingiris.com/blog/2026/04/02/best-growth-tools-for-saas-2026/) — the full free + paid stack
 
 If you're building a SaaS right now and want a competitor teardown to inform your positioning, [Analook](https://www.analook.com/) does that in 60 seconds — Wayback Machine history, traffic estimates, social footprint, pricing pages. Free for the first 3 reports. Built (transparently) by me to scratch the exact itch this post addresses: how to do high-leverage marketing research without paying $200/month for SimilarWeb.
 
@@ -213,7 +213,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -224,7 +224,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
   "@type": "Article",
   "headline": "SaaS Marketing on a Budget: 7 Tactics That Actually Worked Across AFFiNE, Analook, and 30+ Launches",
   "description": "I've built two SaaS products with $0 ad spend — one to 60K GitHub stars, one to 39 users in 4 weeks. Here are the 7 marketing tactics that actually moved the needle.",
-  "image": "https://gingiris.tools/assets/images/blog-startup-launch.jpg",
+  "image": "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg",
   "datePublished": "2026-04-29",
   "dateModified": "2026-04-29",
   "author": {
@@ -240,7 +240,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://gingiris.tools/blog/2026/04/29/saas-marketing-on-a-budget/"
+    "@id": "https://tools.gingiris.com/blog/2026/04/29/saas-marketing-on-a-budget/"
   }
 }
 </script>
@@ -304,5 +304,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

@@ -4,8 +4,8 @@ title: "Cold Email Templates for SaaS: 10 Copy-Paste Scripts (2026)"
 description: "The best cold email templates for SaaS — beta invites, partnerships, investor outreach, and KOL cold DMs. Plus a review of cold email software tools with open rate benchmarks."
 date: 2026-04-03
 tags: [cold-outreach, email-templates, saas-growth, sales, user-acquisition]
-canonical_url: https://gingiris.tools/blog/2026/04/03/cold-outreach-email-templates-saas/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/03/cold-outreach-email-templates-saas/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is a good response rate for cold outreach emails?"
     a: "A 10-20% reply rate is considered good for cold email. Above 20% is excellent. Most campaigns get 5-10%. Focus on reply rate, not open rate — opens don't mean engagement."
@@ -464,7 +464,7 @@ Cold outreach works when it feels human and specific, and fails when it feels au
 
 Start with 10 personalized emails this week. Measure your reply rate. Iterate on the opening line first (it has the highest impact), then the subject line, then the ask. Within 3-4 weeks of consistent testing, you'll have a formula that works for your specific ICP.
 
-For more SaaS growth tools and templates, visit the [growth tools directory](https://gingiris.tools/).
+For more SaaS growth tools and templates, visit the [growth tools directory](https://tools.gingiris.com/).
 
 ---
 
@@ -476,5 +476,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

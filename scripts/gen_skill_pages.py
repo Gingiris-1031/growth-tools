@@ -10,7 +10,7 @@ Usage:  python3 scripts/gen_skill_pages.py
 import os, json, html, sys, textwrap
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://gingiris.tools"
+SITE = "https://tools.gingiris.com"
 
 def load_skills():
     path = os.path.join(ROOT, "_data", "skills.yml")

@@ -4,8 +4,8 @@ title: "Product-Market Fit: 25 Signs You Have It + The Complete Measurement Chec
 description: "How to measure product-market fit: the Sean Ellis 40% rule, NPS benchmarks, retention curves, and a 25-point PMF checklist for SaaS founders. Real examples from AFFiNE's 60k-star journey."
 date: 2026-04-03
 tags: [product-market-fit, saas-growth, startup, metrics, product-strategy]
-canonical_url: https://gingiris.tools/blog/2026/04/03/product-market-fit-checklist/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/03/product-market-fit-checklist/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is the 40% rule for product-market fit?"
     a: "Sean Ellis's rule: ask users 'How would you feel if you could no longer use this product?' If 40%+ say 'very disappointed', you have PMF. Below 40% means you need to improve before scaling."
@@ -242,7 +242,7 @@ AFFiNE is an open-source knowledge management tool (docs, whiteboard, databases 
 
 **The lesson**: PMF rarely comes from improving your average. It comes from finding the segment where the signal is already strong and serving them so well that they become your evangelists.
 
-For growth tools and frameworks used by teams like AFFiNE, visit the [growth tools directory](https://gingiris.tools/).
+For growth tools and frameworks used by teams like AFFiNE, visit the [growth tools directory](https://tools.gingiris.com/).
 
 ---
 
@@ -324,7 +324,7 @@ This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog
 - [Go-to-Market Strategy 2026](/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
 - [Best Growth Tools for SaaS 2026](/blog/2026/04/02/best-growth-tools-for-saas-2026/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -418,7 +418,7 @@ This article is part of the **[SaaS Marketing 2026: The Complete Playbook](/blog
 }
 </script>
 
-For more frameworks, tools, and templates to accelerate your SaaS growth journey, explore the complete [growth tools directory](https://gingiris.tools/).
+For more frameworks, tools, and templates to accelerate your SaaS growth journey, explore the complete [growth tools directory](https://tools.gingiris.com/).
 
 ---
 
@@ -430,5 +430,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

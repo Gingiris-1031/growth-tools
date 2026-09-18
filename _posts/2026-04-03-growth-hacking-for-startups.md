@@ -4,8 +4,8 @@ title: "Growth Hacking for Startups: 20 Proven Tactics (2026 Edition)"
 description: "The definitive growth hacking guide for startups in 2026. 20 real tactics covering product-led growth, community, content, and distribution — with examples from AFFiNE's 0 to 60k GitHub stars journey."
 date: 2026-04-03
 tags: [growth-hacking, startup-growth, saas-growth, growth-tools, user-acquisition, content-marketing, kol-marketing, social-listening]
-canonical_url: https://gingiris.tools/blog/2026/04/03/growth-hacking-for-startups/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/03/growth-hacking-for-startups/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 faq:
   - q: "What is growth hacking?"
     a: "Growth hacking is a data-driven approach to rapid experimentation across marketing, product, and distribution to find scalable growth levers. The term was coined by Sean Ellis in 2010. Unlike traditional marketing, growth hacking focuses on the full funnel — from acquisition to retention to referral — and treats growth as an engineering problem."
@@ -98,7 +98,7 @@ A single Product Hunt launch is a spike. Repeated launches are a compound growth
 
 **Effort**: Medium per launch. **ROI**: High for B2B/developer tools.
 
-[Full guide: Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
+[Full guide: Product Hunt Launch Playbook](https://tools.gingiris.com/blog/2026/03/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/)
 
 #### 4. The Free Tool Play
 
@@ -126,7 +126,7 @@ Reddit is the most underrated distribution channel for startups. The key: genuin
 
 **What gets you banned**: Promotional posts, asking for upvotes, posting the same link multiple times.
 
-[Full guide: Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+[Full guide: Reddit Marketing Without Getting Banned](https://tools.gingiris.com/blog/2026/03/reddit-marketing-guide-how-to-promote-without-getting-banned/)
 
 #### 6. Cold Outreach With Genuine Research
 
@@ -136,7 +136,7 @@ Most cold outreach fails because it's generic. Growth hackers use cold outreach 
 
 **Conversion benchmark**: Personalized cold outreach (>60 seconds of research per prospect) converts at 8-15%. Generic bulk outreach converts at 0.5-1%.
 
-[Templates: Cold Email for SaaS](https://gingiris.tools/blog/2026/04/cold-outreach-email-templates-saas/)
+[Templates: Cold Email for SaaS](https://tools.gingiris.com/blog/2026/04/cold-outreach-email-templates-saas/)
 
 #### 7. Influencer / KOL Seeding (For developer tools: GitHub stars from big accounts)
 
@@ -146,9 +146,9 @@ For developer tools, one tweet from a respected developer can be worth thousands
 
 **How to approach**: Give value first — contribute to their repo, mention them in your content, help their community. Don't cold-ask for a tweet.
 
-**Key insight**: Track KOL mentions using social listening tools — this tells you which influencers already know your product, making outreach dramatically warmer. See [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) for free and low-cost options.
+**Key insight**: Track KOL mentions using social listening tools — this tells you which influencers already know your product, making outreach dramatically warmer. See [Best Social Media Listening Tools for Startups 2026](https://tools.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) for free and low-cost options.
 
-[Full guide: KOL Marketing Strategy for B2B SaaS](https://gingiris.tools/blog/2026/04/08/kol-marketing-b2b-saas-guide/)
+[Full guide: KOL Marketing Strategy for B2B SaaS](https://tools.gingiris.com/blog/2026/04/08/kol-marketing-b2b-saas-guide/)
 
 ---
 
@@ -168,7 +168,7 @@ Content marketing is the compounding channel — it takes 3-6 months to gain tra
 - Comparison pages ("X vs Y") — captures users already evaluating alternatives
 - Original data / research — earns media mentions and links
 
-[Full guide: Content Marketing for Startups](https://gingiris.tools/blog/2026/04/03/content-marketing-for-startups/)
+[Full guide: Content Marketing for Startups](https://tools.gingiris.com/blog/2026/04/03/content-marketing-for-startups/)
 
 ---
 
@@ -240,7 +240,7 @@ Build sharing into the core workflow. When users accomplish something with your 
 
 Best practice: The shared item should be valuable to the recipient, not just a promotional link.
 
-[Full guide: Word of Mouth Marketing](https://gingiris.tools/blog/2026/04/word-of-mouth-marketing/)
+[Full guide: Word of Mouth Marketing](https://tools.gingiris.com/blog/2026/04/word-of-mouth-marketing/)
 
 #### 15. The Referral Program
 
@@ -307,7 +307,7 @@ The integration also increases retention — users embedded in your product via 
 | Landing pages | Unbounce, Webflow |
 | Community management | Discord, Slack, Circle |
 
-Full tool reviews: [Best Growth Tools for SaaS Startups](https://gingiris.tools/blog/2026/04/best-growth-tools-for-saas-2026/)
+Full tool reviews: [Best Growth Tools for SaaS Startups](https://tools.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/)
 
 ---
 
@@ -367,14 +367,14 @@ Traditional marketing focuses on brand building, awareness, and top-of-funnel ac
 
 ## Related Reading
 
-- [Content Marketing for Startups: The Complete Playbook](https://gingiris.tools/blog/2026/04/03/content-marketing-for-startups/) — how to build compounding inbound with limited budget
-- [KOL Marketing Strategy for B2B SaaS](https://gingiris.tools/blog/2026/04/08/kol-marketing-b2b-saas-guide/) — seeding influencers and developer advocates who move your numbers
-- [Best Social Media Listening Tools for Startups 2026](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — free and low-cost tools to track brand mentions and find warm growth signals
-- [Word of Mouth Marketing: The Complete Guide](https://gingiris.tools/blog/2026/04/word-of-mouth-marketing/)
-- [SaaS Growth Strategy: $0 to $10M ARR](https://gingiris.tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
-- [Product-Market Fit: 25 Signs You Have It](https://gingiris.tools/blog/2026/04/product-market-fit-checklist/)
-- [Startup Marketing Strategy: Zero to 1,000 Users](https://gingiris.tools/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Best Growth Tools for SaaS Startups](https://gingiris.tools/blog/2026/04/best-growth-tools-for-saas-2026/)
+- [Content Marketing for Startups: The Complete Playbook](https://tools.gingiris.com/blog/2026/04/03/content-marketing-for-startups/) — how to build compounding inbound with limited budget
+- [KOL Marketing Strategy for B2B SaaS](https://tools.gingiris.com/blog/2026/04/08/kol-marketing-b2b-saas-guide/) — seeding influencers and developer advocates who move your numbers
+- [Best Social Media Listening Tools for Startups 2026](https://tools.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/) — free and low-cost tools to track brand mentions and find warm growth signals
+- [Word of Mouth Marketing: The Complete Guide](https://tools.gingiris.com/blog/2026/04/word-of-mouth-marketing/)
+- [SaaS Growth Strategy: $0 to $10M ARR](https://tools.gingiris.com/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [Product-Market Fit: 25 Signs You Have It](https://tools.gingiris.com/blog/2026/04/product-market-fit-checklist/)
+- [Startup Marketing Strategy: Zero to 1,000 Users](https://tools.gingiris.com/blog/2026/04/startup-marketing-strategy-from-zero-to-first-1000-users/)
+- [Best Growth Tools for SaaS Startups](https://tools.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/)
 
 ---
 
@@ -388,7 +388,7 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 ---
@@ -401,5 +401,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

@@ -3,9 +3,9 @@ layout: post
 title: "Product Hunt 공략법: #1을 30번 달성한 팀의 출시 전략 (2026년)"
 date: 2026-04-07
 lang: ko
-hreflang_en: https://gingiris.tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
-hreflang_ja: https://gingiris.tools/blog/2026/04/07/product-hunt-strategy-2026-ja/
-canonical_url: https://gingiris.tools/blog/2026/04/07/product-hunt-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1/
+hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/product-hunt-strategy-2026-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/product-hunt-guide-ko/
 description: "Product Hunt에서 #1을 30번 달성한 팀의 실제 전략. 헌터 선정부터 댓글 관리, 출시 후 모멘텀 유지까지 단계별 가이드."
 categories: [producthunt, launch, korean]
 tags: [Product Hunt, 출시, 스타트업, 마케팅]
@@ -182,5 +182,5 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

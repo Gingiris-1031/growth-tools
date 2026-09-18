@@ -167,4 +167,4 @@ Show HNは「自分が作ったものを見てくれ」というHN専用フォ�
 - [Product Hunt攻略法：#1を30回達成した戦略](https://zenn.dev/gingiris/articles/product-hunt-strategy-2026)
 - [GitHubスターを増やす方法：AFFiNEが6万スター達成](https://zenn.dev/gingiris/articles/github-stars-increase-guide)
 - [GitHub Trendingに載る方法：5ヶ月で28回登場](https://zenn.dev/gingiris/articles/github-trending-guide)
-- 海外グロースの全プレイブック → [gingiris.tools](https://gingiris.tools)
+- 海外グロースの全プレイブック → [gingiris.tools](https://tools.gingiris.com)

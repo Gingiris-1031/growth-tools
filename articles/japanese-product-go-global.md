@@ -96,4 +96,4 @@ published: true
 - [GitHub Trendingに載る方法：5ヶ月で28回登場](https://zenn.dev/gingiris/articles/github-trending-guide)
 - [Hacker News「Show HN」完全ガイド](https://zenn.dev/gingiris/articles/hacker-news-show-hn-guide)
 - [日本のエンジニアコミュニティ完全ガイド](https://zenn.dev/gingiris/articles/japan-developer-communities)
-- 海外グロースの全プレイブック → [gingiris.tools](https://gingiris.tools)
+- 海外グロースの全プレイブック → [gingiris.tools](https://tools.gingiris.com)

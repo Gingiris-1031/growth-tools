@@ -131,7 +131,7 @@ GitHub Trendingは運ではない。アルゴリズムを理解し、告知を�
 
 2022年の上海の朝、あのTrending初登場から3年経った今も、私は同じ戦術を使ってクライアントのプロジェクトをTrendingに載せている。（成功率は上がった。寝不足は変わらない）
 
-より詳しい戦術は [GitHub Stars完全ガイド](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) を参照してほしい。
+より詳しい戦術は [GitHub Stars完全ガイド](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) を参照してほしい。
 
 ---
 
@@ -163,4 +163,4 @@ Daily Trendingは通常1〜7日、Weekly Trendingは1〜4週間です。滞在�
 - [Product Hunt攻略法：#1を30回達成した戦略](https://zenn.dev/gingiris/articles/product-hunt-strategy-2026)
 - [GitHubスターを増やす方法：AFFiNEが6万スター達成](https://zenn.dev/gingiris/articles/github-stars-increase-guide)
 - [Hacker News「Show HN」完全ガイド](https://zenn.dev/gingiris/articles/hacker-news-show-hn-guide)
-- 海外グロースの全プレイブック → [gingiris.tools](https://gingiris.tools)
+- 海外グロースの全プレイブック → [gingiris.tools](https://tools.gingiris.com)

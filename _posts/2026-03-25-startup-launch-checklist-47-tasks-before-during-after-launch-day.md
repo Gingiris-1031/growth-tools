@@ -2,8 +2,8 @@
 layout: post
 title: "Startup Launch Checklist: 47 Tasks Before, During & After Launch Day"
 date: 2026-03-25
-canonical_url: https://gingiris.tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 description: "47 essential tasks before, during, and after your startup launch day. The complete checklist from 30+ successful Product Hunt #1 launches."
 faq:
   - q: "How far in advance should you plan a startup launch?"
@@ -206,7 +206,7 @@ Need deeper playbooks? Check out these battle-tested guides:
 
 ---
 
-**Want the full playbook?** Get the complete, open-source [Product Hunt Launch Playbook](https://gingiris.tools/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
+**Want the full playbook?** Get the complete, open-source [Product Hunt Launch Playbook](https://tools.gingiris.com/skills/) on GitHub — with step-by-step frameworks, templates, and real case studies. Star it to bookmark for later.
 
 ---
 
@@ -233,10 +233,10 @@ Send a thank-you to top engagers, reply to every comment, share launch results p
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Startup Marketing Strategy](https://gingiris.tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
+| 📖 | [Product Hunt Launch Playbook](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Startup Marketing Strategy](https://tools.gingiris.com/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ---
 
@@ -250,5 +250,5 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

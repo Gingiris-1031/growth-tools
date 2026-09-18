@@ -28,7 +28,7 @@ import os, re, sys, json, time, hashlib, argparse
 import urllib.request, urllib.error
 
 # ── Config ────────────────────────────────────────────────────────────────────
-SITE_URL      = "https://gingiris.tools"
+SITE_URL      = "https://tools.gingiris.com"
 POSTS_DIR     = os.path.join(os.path.dirname(__file__), "..", "_posts")
 CREDS_FILE    = os.path.join(os.path.dirname(__file__), "google_credentials.json")
 INDEXNOW_FILE = os.path.join(os.path.dirname(__file__), ".indexnow_key")

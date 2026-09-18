@@ -9,8 +9,8 @@ seo_description: "Learn AI search optimization through technical SEO, citable ev
 author: Iris Wei
 tags: [ai-search-optimization, geo, generative-engine-optimization, ai-seo, seo, content-marketing]
 keywords: [ai search optimization, generative engine optimization, GEO optimization, AI citation tracking, content cited by ChatGPT]
-canonical_url: https://gingiris.tools/blog/2026/04/17/generative-engine-optimization-complete-guide/
-image: "https://gingiris.tools/assets/images/blog-seo-analytics.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/
+image: "https://tools.gingiris.com/assets/images/blog-seo-analytics.jpg"
 faq:
   - q: "Is AI search optimization different from SEO?"
     a: "AI search optimization adds the goal of accurate inclusion or citation in generated answers, but it still depends on technical SEO, useful original content, clear ownership, and verifiable sources."

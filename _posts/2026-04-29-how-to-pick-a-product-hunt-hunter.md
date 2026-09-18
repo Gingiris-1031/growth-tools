@@ -4,8 +4,8 @@ title: "How to Pick a Product Hunt Hunter (or Skip Them Entirely) — 7 Criteria
 description: "After helping 30 products win Product Hunt #1, here is the actual decision framework I use to pick a hunter — and the cases where self-submitting outperforms a top hunter."
 date: 2026-04-29
 tags: [producthunt, startup, marketing, launch, growth]
-canonical_url: https://gingiris.tools/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 last_modified_at: 2026-04-29
 faq:
   - q: "How do you pick a Product Hunt hunter?"
@@ -168,9 +168,9 @@ I've seen great launches both ways — with a hunter and without. The mistake is
 ---
 
 **Related reading:**
-- [Product Hunt Launch Playbook: The Definitive Guide](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — the full 6-week pre-launch sequence
-- [Product Hunt Launch Checklist 2026](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — what to do in the 14 days leading up to launch day
-- [After Product Hunt Launch — 7 Ways to Keep Momentum](https://gingiris.tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) — what to do in the 14 days after launch day
+- [Product Hunt Launch Playbook: The Definitive Guide](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — the full 6-week pre-launch sequence
+- [Product Hunt Launch Checklist 2026](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) — what to do in the 14 days leading up to launch day
+- [After Product Hunt Launch — 7 Ways to Keep Momentum](https://tools.gingiris.com/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/) — what to do in the 14 days after launch day
 
 If you're researching competitors before your launch (to position your tagline against alternatives), [Analook](https://www.analook.com/) gives a 60-second teardown of any URL — Wayback Machine history + traffic + social. Free for 3 reports/month.
 
@@ -188,7 +188,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -213,5 +213,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

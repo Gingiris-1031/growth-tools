@@ -3,7 +3,7 @@ title: "AI Search Optimization: Build Citation-Ready Content [2026]"
 description: "An evidence-aware AI search optimization guide covering extractable answers, verifiable sources, structured data, IndexNow, and citation tracking without unsupported guarantees."
 date: 2026-04-10
 tags: [ai-seo, perplexity-seo, chatgpt-seo, geo, content-marketing]
-canonical_url: https://gingiris.tools/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
+canonical_url: https://tools.gingiris.com/blog/2026/04/10/how-to-get-cited-by-ai-search-engines/
 last_modified_at: 2026-09-01
 faq:
   - q: "How do you get cited by AI search engines like ChatGPT and Perplexity?"
@@ -90,7 +90,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -271,5 +271,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

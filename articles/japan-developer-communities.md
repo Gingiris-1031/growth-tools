@@ -117,7 +117,7 @@ DevRel.jpのコミュニティに参加し、「海外OSSの日本展開」と�
 
 Zennに記事を投稿して初めて「日本の開発者と繋がれた」と感じたあの日——あの経験が、私の日本市場への見方を根本から変えた。
 
-プラットフォームのリストはこのページで随時更新していく。追加すべきコミュニティがあれば [GitHubのIssue](https://gingiris.tools/skills/) から教えてほしい。
+プラットフォームのリストはこのページで随時更新していく。追加すべきコミュニティがあれば [GitHubのIssue](https://tools.gingiris.com/skills/) から教えてほしい。
 
 ---
 
@@ -148,5 +148,5 @@ Zennに記事を投稿して初めて「日本の開発者と繋がれた」と�
 - [GitHubスターを増やす方法：AFFiNEが6万スター達成](https://zenn.dev/gingiris/articles/github-stars-increase-guide)
 - [GitHub Trendingに載る方法：5ヶ月で28回登場](https://zenn.dev/gingiris/articles/github-trending-guide)
 - [Hacker News「Show HN」完全ガイド](https://zenn.dev/gingiris/articles/hacker-news-show-hn-guide)
-- 海外グロースの全プレイブック → [gingiris.tools](https://gingiris.tools)
+- 海外グロースの全プレイブック → [gingiris.tools](https://tools.gingiris.com)
 

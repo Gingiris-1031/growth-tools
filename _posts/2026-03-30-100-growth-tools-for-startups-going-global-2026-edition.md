@@ -4,8 +4,8 @@ title: "100+ Growth Tools for Startups Going Global (2026 Edition)"
 date: "2026-06-29 22:23:00 +0800"
 # Explicit permalink so weekly date bumps don't break inbound links / GSC index
 permalink: /blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
-canonical_url: https://gingiris.tools/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
-image: "https://gingiris.tools/assets/images/blog-growth-hacking.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/03/30/100-growth-tools-for-startups-going-global-2026-edition/
+image: "https://tools.gingiris.com/assets/images/blog-growth-hacking.jpg"
 description: "100+ curated growth tools for startups going global in 2026. Social listening, KOL outreach, X DM automation, API stack, Reddit growth, SEO — all verified from real launches."
 faq:
   - q: "What is the best xAutoDM alternative in 2026?"
@@ -197,12 +197,12 @@ Last Monday of June, clearing the browser tabs at the Kunshan desk before the mo
 
 Full tool database on GitHub (updated weekly):
 
-👉 **[Gingiris Growth Tools](https://gingiris.tools/skills/)**
+👉 **[Gingiris Growth Tools](https://tools.gingiris.com/skills/)**
 
 Plus companion playbooks:
-- [Product Hunt Launch Playbook](https://gingiris.tools/skills/)
-- [Open Source Marketing Guide](https://gingiris.tools/skills/)
-- [B2B SaaS Growth Guide](https://gingiris.tools/skills/)
+- [Product Hunt Launch Playbook](https://tools.gingiris.com/skills/)
+- [Open Source Marketing Guide](https://tools.gingiris.com/skills/)
+- [B2B SaaS Growth Guide](https://tools.gingiris.com/skills/)
 
 ## 💡 Quick Wins
 
@@ -223,12 +223,12 @@ Plus companion playbooks:
 
 | Category | Article |
 |----------|---------|
-| 📖 | [Product Hunt Launch Playbook](https://gingiris.tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
-| 📖 | [Reddit Marketing Guide](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
-| 📖 | [How to Get More GitHub Stars](https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
-| 📖 | [Developer Community Directory](https://gingiris.tools/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
+| 📖 | [Product Hunt Launch Playbook](https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/) |
+| 📖 | [Reddit Marketing Guide](https://tools.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/) |
+| 📖 | [How to Get More GitHub Stars](https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/) |
+| 📖 | [Developer Community Directory](https://tools.gingiris.com/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/) |
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 
 ---
 
@@ -242,5 +242,5 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

@@ -35,7 +35,7 @@ RELATED_TEMPLATE='
 
 %LINKS%
 
-*More tools → [Growth Tools Directory](https://gingiris.tools/)*
+*More tools → [Growth Tools Directory](https://tools.gingiris.com/)*
 '
 
 count=0

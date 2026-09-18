@@ -5,8 +5,8 @@ description: "Brand24, Mention, Toolify tested: pricing, free tiers, multilingua
 date: 2026-04-02
 author: Iris
 tags: [social-listening, tools, startup, marketing, analytics]
-image: "https://gingiris.tools/assets/images/blog-social-media-listening.jpg"
-canonical_url: https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
+image: "https://tools.gingiris.com/assets/images/blog-social-media-listening.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
 faq:
   - q: "What is social media listening?"
     a: "Social media listening (also called social listening) is the practice of monitoring social platforms and the web for mentions of your brand, competitors, industry keywords, and relevant topics. Unlike social media monitoring (which tracks direct mentions), listening captures broader conversations — people discussing problems your product solves without mentioning you by name. For startups, this is a free market research channel that reveals real user pain points in real-time."
@@ -155,23 +155,23 @@ Yes — use it to monitor competitors and find communities where your users hang
 
 *Written by [Iris](https://gingiris.com/en) — ex-AFFiNE COO, 30x Product Hunt #1.*
 
-*Browse all tools: [gingiris.tools/en/](https://gingiris.tools/en/)*
+*Browse all tools: [gingiris.tools/en/](https://tools.gingiris.com/en/)*
 
 ---
 
 ## Related Reading
 
-- [Growth Hacking for Startups: 20 Proven Tactics](https://gingiris.tools/blog/2026/04/growth-hacking-for-startups/)
-- [Word of Mouth Marketing: The Complete Guide](https://gingiris.tools/blog/2026/04/word-of-mouth-marketing/)
-- [KOL Marketing Strategy: The Complete Guide](https://gingiris.tools/blog/2026/04/kol-marketing-strategy/)
-- [Reddit Marketing Without Getting Banned](https://gingiris.tools/blog/2026/03/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Best Growth Tools for SaaS Startups](https://gingiris.tools/blog/2026/04/best-growth-tools-for-saas-2026/)
-- [Generative Engine Optimization (GEO): Get Your Content Cited by AI Search](https://gingiris.tools/blog/2026/04/17/generative-engine-optimization-complete-guide/)
+- [Growth Hacking for Startups: 20 Proven Tactics](https://tools.gingiris.com/blog/2026/04/growth-hacking-for-startups/)
+- [Word of Mouth Marketing: The Complete Guide](https://tools.gingiris.com/blog/2026/04/word-of-mouth-marketing/)
+- [KOL Marketing Strategy: The Complete Guide](https://tools.gingiris.com/blog/2026/04/kol-marketing-strategy/)
+- [Reddit Marketing Without Getting Banned](https://tools.gingiris.com/blog/2026/03/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Best Growth Tools for SaaS Startups](https://tools.gingiris.com/blog/2026/04/best-growth-tools-for-saas-2026/)
+- [Generative Engine Optimization (GEO): Get Your Content Cited by AI Search](https://tools.gingiris.com/blog/2026/04/17/generative-engine-optimization-complete-guide/)
 
 ## Related Articles
 
-- [Reddit Marketing Guide: How to Promote Without Getting Banned](https://gingiris.tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
-- [Content Marketing for Startups: The Complete Guide](https://gingiris.tools/blog/2026/04/03/content-marketing-for-startups/)
+- [Reddit Marketing Guide: How to Promote Without Getting Banned](https://tools.gingiris.com/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
+- [Content Marketing for Startups: The Complete Guide](https://tools.gingiris.com/blog/2026/04/03/content-marketing-for-startups/)
 
 ## Key Takeaways
 
@@ -193,7 +193,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 
@@ -261,10 +261,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (which channels to listen on, what to track, when to reply):
-   - [`Gingiris/gingiris-opensource`](https://gingiris.tools/skills/) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://gingiris.tools/skills/) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://gingiris.tools/skills/) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://gingiris.tools/skills/) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://tools.gingiris.com/skills/) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://tools.gingiris.com/skills/) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://tools.gingiris.com/skills/) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://tools.gingiris.com/skills/) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If this audit saved you a $79/mo subscription mistake, a ⭐ on the repo is the highest compliment — and it helps the next founder find it via Google + AI search.*

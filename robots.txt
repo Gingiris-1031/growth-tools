@@ -57,4 +57,4 @@ Allow: /
 
 # ── Discovery ─────────────────────────────────────────────────────────────────
 # llms.txt at /llms.txt — AI agents use this to understand site structure
-Sitemap: https://gingiris.tools/sitemap.xml
+Sitemap: https://tools.gingiris.com/sitemap.xml

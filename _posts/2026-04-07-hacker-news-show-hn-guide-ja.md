@@ -3,12 +3,12 @@ layout: post
 title: "Hacker News「Show HN」完全ガイド：エンジニアが最も信頼するローンチ方法"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.tools/blog/2026/04/07/hacker-news-show-hn-guide-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/hacker-news-show-hn-guide-ja/
 description: "Hacker News Show HNでフロントページに載るための投稿方法と攻略法を日本語で解説。AFFiNEの実体験を基にしたエンジニア向け完全ガイド。"
 categories: [hackernews, launch, japanese]
 tags: [HackerNews, ShowHN, ローンチ, 開発者]
-hreflang_en: https://gingiris.tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/hacker-news-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/hacker-news-guide-ko/
 last_modified_at: 2026-06-03
 faq:
   - q: "Show HNとは何ですか？通常のHN投稿と何が違いますか？"
@@ -165,5 +165,5 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

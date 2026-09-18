@@ -2,8 +2,8 @@
 layout: post
 title: "Reddit Marketing Tools: The Complete 2026 Stack"
 date: 2026-04-03
-canonical_url: https://gingiris.tools/blog/2026/04/03/reddit-marketing-tools/
-image: "https://gingiris.tools/assets/images/blog-reddit-marketing.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/04/03/reddit-marketing-tools/
+image: "https://tools.gingiris.com/assets/images/blog-reddit-marketing.jpg"
 description: "Best Reddit marketing tools for 2026: scheduling, monitoring, analytics, and automation. Free and paid options for every stage and team size."
 faq:
   - q: "What are the best Reddit marketing tools?"
@@ -275,11 +275,11 @@ Remember: Reddit communities reward authenticity and punish manipulation. Build 
 
 - [Reddit Marketing Guide: How to Promote Without Getting Banned](/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned/)
 - [Startup Marketing Strategy: From 0 to First 1000 Users](/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users/)
-- [Growth Tools Library](https://gingiris.tools/) — 100+ tools for startup growth
+- [Growth Tools Library](https://tools.gingiris.com/) — 100+ tools for startup growth
 
 ---
 
-*This guide is part of the [Gingiris Growth Tools](https://gingiris.tools/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
+*This guide is part of the [Gingiris Growth Tools](https://tools.gingiris.com/) collection. For more startup growth playbooks, visit [gingiris.com](https://gingiris.com/en).*
 
 ---
 
@@ -291,5 +291,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

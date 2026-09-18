@@ -16,7 +16,7 @@ Usage:  python3 scripts/gen_case_pages.py
 import os, json, html, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE = "https://gingiris.tools"
+SITE = "https://tools.gingiris.com"
 DATE_PUBLISHED = "2026-07-07"
 
 def load_cases():

@@ -3,7 +3,7 @@ title: "B2B SaaS Growth: 7 ICP Fixes for 2026"
 date: 2026-05-29
 description: "B2B SaaS Growth: 7 ICP Fixes for 2026   B2B SaaS growth usually stalls before the funnel..."
 tags: [b2b, saas, growth, seo]
-canonical_url: "https://gingiris.tools/blog/2026/05/29/b2b-saas-growth-icp-fixes-2026/"
+canonical_url: "https://tools.gingiris.com/blog/2026/05/29/b2b-saas-growth-icp-fixes-2026/"
 seo_title: "B2B SaaS Growth: 7 ICP Fixes for 2026"
 seo_description: "B2B SaaS Growth: 7 ICP Fixes for 2026   B2B SaaS growth usually stalls before the funnel..."
 keywords: [b2b, saas, growth, seo]
@@ -11,7 +11,7 @@ keywords: [b2b, saas, growth, seo]
 
 **B2B SaaS growth** usually stalls before the funnel gets expensive. A lot of teams think they have a traffic problem, but the real issue is ICP blur. If your messaging attracts curious clicks but weak demos, your **B2B SaaS growth** engine wastes budget, sales time, and product focus. In 2026, the strongest teams tighten category, pain, buyer language, and proof before they try to scale distribution.
 
-If you want the deeper operating system behind that work, start with the **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)**. Pair it with **[Gingiris Launch](https://gingiris.tools/skills/)** for positioning and channel sequencing, **[Gingiris Open Source](https://gingiris.tools/skills/)** for public trust assets, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your demand system also depends on app store discovery.
+If you want the deeper operating system behind that work, start with the **[Gingiris B2B Growth Playbook](https://tools.gingiris.com/skills/)**. Pair it with **[Gingiris Launch](https://tools.gingiris.com/skills/)** for positioning and channel sequencing, **[Gingiris Open Source](https://tools.gingiris.com/skills/)** for public trust assets, and **[Gingiris ASO Growth](https://tools.gingiris.com/skills/)** if your demand system also depends on app store discovery.
 
 ## TL;DR
 
@@ -66,7 +66,7 @@ Support language often reveals what users expected to happen versus what actuall
 
 This is where hidden deal friction becomes obvious.
 
-The **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is useful here because it pushes teams to translate insight into repeatable growth assets instead of leaving it inside calls.
+The **[Gingiris B2B Growth Playbook](https://tools.gingiris.com/skills/)** is useful here because it pushes teams to translate insight into repeatable growth assets instead of leaving it inside calls.
 
 ## 3. Build One Homepage for the Best-Fit Buyer, Not the Average Buyer
 
@@ -114,7 +114,7 @@ Make the operational improvement visible.
 
 Simple numbers travel well in internal buying conversations.
 
-This is also where **[Gingiris Launch](https://gingiris.tools/skills/)** helps. Positioning gets stronger when distribution and proof say the same thing.
+This is also where **[Gingiris Launch](https://tools.gingiris.com/skills/)** helps. Positioning gets stronger when distribution and proof say the same thing.
 
 ## 6. Align Onboarding With the Promise That Won the Deal
 
@@ -141,7 +141,7 @@ The best-fit buyer is not only the one who buys. It is the one who retains and e
 - admin activity tied to process standardization
 - feature usage that appears before renewals go smoothly
 
-If your company also has a mobile motion, **[Gingiris ASO Growth](https://gingiris.tools/skills/)** can help connect app store acquisition with the same positioning logic instead of treating mobile as a separate brand story.
+If your company also has a mobile motion, **[Gingiris ASO Growth](https://tools.gingiris.com/skills/)** can help connect app store acquisition with the same positioning logic instead of treating mobile as a separate brand story.
 
 ## Common ICP Mistakes That Hurt B2B SaaS Growth
 
@@ -192,7 +192,7 @@ B2B SaaS growth gets healthier when the team is brave enough to become more spec
 
 ## Related Reading
 
-- [B2B SaaS Growth: 7 Expansion Loops for 2026](https://gingiris.tools/blog/2026/05/25/b2b-saas-growth-expansion-loops-2026/)
-- [B2B SaaS Growth: 7 Retention and Expansion Loops for 2026](https://gingiris.tools/blog/2026/05/20/b2b-saas-growth-retention-expansion-loops-2026/)
-- [GitHub Star Growth: 7 README Fixes for 2026](https://gingiris.tools/blog/2026/05/28/github-star-growth-readme-fixes-2026/)
-- [Growth Tools Home](https://gingiris.tools/)
+- [B2B SaaS Growth: 7 Expansion Loops for 2026](https://tools.gingiris.com/blog/2026/05/25/b2b-saas-growth-expansion-loops-2026/)
+- [B2B SaaS Growth: 7 Retention and Expansion Loops for 2026](https://tools.gingiris.com/blog/2026/05/20/b2b-saas-growth-retention-expansion-loops-2026/)
+- [GitHub Star Growth: 7 README Fixes for 2026](https://tools.gingiris.com/blog/2026/05/28/github-star-growth-readme-fixes-2026/)
+- [Growth Tools Home](https://tools.gingiris.com/)

@@ -3,12 +3,12 @@ layout: post
 title: "GitHub Starsの増やし方：AFFiNEが0から60,000スターを獲得した実践ガイド"
 date: 2026-04-07
 lang: ja
-canonical_url: https://gingiris.tools/blog/2026/04/07/github-stars-increase-guide-ja/
+canonical_url: https://tools.gingiris.com/blog/2026/04/07/github-stars-increase-guide-ja/
 description: "AFFiNEのCOOがGitHub Stars 60,000件達成の実体験を公開。Trending 28回、実証済みの増やし方を日本語で解説。開発者必読。"
 categories: [github, opensource, japanese]
 tags: [GitHub, スター, オープンソース, AFFiNE]
-hreflang_en: https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
-hreflang_ko: https://gingiris.tools/blog/2026/04/07/github-stars-guide-ko/
+hreflang_en: https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
+hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
 last_modified_at: 2026-06-03
 faq:
   - q: "GitHubで1,000スターを獲得するにはどのくらい時間がかかりますか？"
@@ -153,5 +153,5 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 

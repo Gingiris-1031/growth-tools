@@ -3,7 +3,7 @@ title: "ChatGPT SEO: How to Show Up in ChatGPT in 2026"
 date: 2026-07-06
 description: "ChatGPT SEO is the practice of getting your content surfaced and cited inside ChatGPT's answers. Here's the evidence-backed 3-layer stack — and the one lever that moves it up to 40%."
 tags: [chatgpt-seo, llm-seo, geo, ai-visibility, generative-engine-optimization]
-canonical_url: https://gingiris.tools/blog/2026/07/06/chatgpt-seo-how-to-show-up-in-chatgpt-2026/
+canonical_url: https://tools.gingiris.com/blog/2026/07/06/chatgpt-seo-how-to-show-up-in-chatgpt-2026/
 seo_title: "ChatGPT SEO: How to Show Up in ChatGPT in 2026 (Guide)"
 seo_description: "A step-by-step ChatGPT SEO guide: how ChatGPT picks sources, the evidence layer that lifts visibility up to 40% (KDD 2024), and a copy-paste checklist to rank in ChatGPT."
 keywords: [chatgpt seo, how to rank in chatgpt, llm seo, ai visibility, chatgpt search optimization, generative engine optimization]
@@ -128,7 +128,7 @@ This whole workflow is packaged as an installable AI agent skill — ready to ru
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Get the **[SEO &amp; GEO Dual-Engine Playbook](/skills/seo-geo/)** specifically on [ClawHub](https://clawhub.ai/gingiris-1031/skills/gingiris-seo-geo) or [Hugging Face](https://huggingface.co/Gingiris/datasets), or browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Get the **[SEO &amp; GEO Dual-Engine Playbook](/skills/seo-geo/)** specifically on [ClawHub](https://clawhub.ai/gingiris-1031/skills/gingiris-seo-geo) or [Hugging Face](https://huggingface.co/Gingiris/datasets), or browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 
 ---
 

@@ -4,8 +4,8 @@ title: "Build in Public in 2026: The Playbook That Took AFFiNE to 60K Stars"
 description: "Build in public isn't oversharing — it's a distribution engine. Here's what to share, where, and how often, from growing AFFiNE 0→60K GitHub stars in the open."
 date: 2026-06-24
 tags: [build-in-public, open-source, startup, marketing, developer-marketing]
-canonical_url: https://gingiris.tools/blog/2026/06/24/build-in-public-guide-2026/
-image: "https://gingiris.tools/assets/images/blog-startup-launch.jpg"
+canonical_url: https://tools.gingiris.com/blog/2026/06/24/build-in-public-guide-2026/
+image: "https://tools.gingiris.com/assets/images/blog-startup-launch.jpg"
 last_modified_at: 2026-06-24
 faq:
   - q: "What does 'build in public' mean?"
@@ -117,4 +117,4 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.

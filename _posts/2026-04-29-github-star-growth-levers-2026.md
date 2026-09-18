@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 9 Levers That Compound in 2026"
 date: 2026-04-29
 description: "9 GitHub star growth levers behind AFFiNE's 0 → 60k+ stars. README conversion, launch sequencing, fast-reply rule, and the evergreen search compounding play."
 tags: [github-stars, open-source-marketing, developer-marketing, seo]
-canonical_url: "https://gingiris.tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/"
+canonical_url: "https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/"
 sitemap: false
 seo_title: "GitHub Star Growth: 9 Levers That Compound in 2026"
 seo_description: "A practical GitHub star growth guide covering README conversion, launch waves, maintainer replies, and SEO loops that compound discovery."
@@ -22,7 +22,7 @@ faq:
 
 **GitHub star growth** is rarely about luck. In 2026, the repos that keep compounding stars usually do three things well: they make the project legible in seconds, they sequence launches instead of doing one noisy push, and they convert short spikes into evergreen discovery. If your repo is useful but growth feels flat, the fix is usually distribution design, not more random posting.
 
-If you want a deeper system for this, start with the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)**. It pairs well with **[Gingiris Launch](https://gingiris.tools/skills/)** when you want to connect repo growth with launch timing.
+If you want a deeper system for this, start with the **[Gingiris Open Source Playbook](https://tools.gingiris.com/skills/)**. It pairs well with **[Gingiris Launch](https://tools.gingiris.com/skills/)** when you want to connect repo growth with launch timing.
 
 ## TL;DR
 
@@ -67,7 +67,7 @@ A README should not try to answer every question at once. It should move the rig
 - quick start or live demo link
 - community proof, such as stars, users, or testimonials
 
-For maintainers building repeatable repo assets, the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)** has practical guidance on README framing, community proof, and distribution.
+For maintainers building repeatable repo assets, the **[Gingiris Open Source Playbook](https://tools.gingiris.com/skills/)** has practical guidance on README framing, community proof, and distribution.
 
 > 💡 **Related:** [GitHub README Best Practices: How to Write a README That Gets Stars](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/) — block-by-block breakdown of high-converting README structure with the 30-second readability test.
 
@@ -89,7 +89,7 @@ Push into channels that match developer intent, like Hacker News, Reddit, Produc
 
 Publish a postmortem, setup guide, architecture breakdown, or lessons-learned thread while the launch is still fresh.
 
-This is where **[Gingiris Launch](https://gingiris.tools/skills/)** becomes useful. It helps turn launch attention into repeatable waves instead of one-day noise.
+This is where **[Gingiris Launch](https://tools.gingiris.com/skills/)** becomes useful. It helps turn launch attention into repeatable waves instead of one-day noise.
 
 ## 4. Pick One Primary Channel Per Push
 
@@ -145,7 +145,7 @@ For example:
 4. docs or templates improve activation
 5. new users generate more social proof
 
-If the project also sells to teams, the handoff from repo attention to business value matters. The **[Gingiris B2B Growth Playbook](https://gingiris.tools/skills/)** is a useful companion for that transition.
+If the project also sells to teams, the handoff from repo attention to business value matters. The **[Gingiris B2B Growth Playbook](https://tools.gingiris.com/skills/)** is a useful companion for that transition.
 
 ## 8. Build One SEO Article Per Winning Angle
 
@@ -241,10 +241,10 @@ I'm **[Iris Wei](https://gingiris.com/en/)** — ex-AFFiNE COO (0 → 60k+ GitHu
 
 1. 💬 **[Book a free 30-min growth call](https://gingiris.com/en/)** — I personally read every inquiry and reply within 24h. No pitch deck needed; come with the messy stuff.
 2. ⭐ **Star the open-source playbooks** (battle-tested across 30+ launches):
-   - [`Gingiris/gingiris-opensource`](https://gingiris.tools/skills/) — GitHub stars + developer marketing playbook
-   - [`Gingiris/gingiris-launch`](https://gingiris.tools/skills/) — Product Hunt strategy playbook
-   - [`Gingiris/gingiris-b2b-growth`](https://gingiris.tools/skills/) — B2B SaaS PLG/SLG playbook
-   - [`Gingiris/growth-tools`](https://gingiris.tools/skills/) — source for this entire site (87+ posts, MIT-licensed)
+   - [`Gingiris/gingiris-opensource`](https://tools.gingiris.com/skills/) — GitHub stars + developer marketing playbook
+   - [`Gingiris/gingiris-launch`](https://tools.gingiris.com/skills/) — Product Hunt strategy playbook
+   - [`Gingiris/gingiris-b2b-growth`](https://tools.gingiris.com/skills/) — B2B SaaS PLG/SLG playbook
+   - [`Gingiris/growth-tools`](https://tools.gingiris.com/skills/) — source for this entire site (87+ posts, MIT-licensed)
 3. 🐦 **Follow on [dev.to/iris1031](https://dev.to/iris1031)** — fresh playbooks ship there first.
 
 *If a piece here saved you a week of trial-and-error, a ⭐ on the repo is the highest compliment — and it helps the next founder find it via Google + AI search.*
@@ -261,4 +261,4 @@ This article is part of the **[How to Get More GitHub Stars: The Definitive Guid
 - [GitHub README Best Practices](/blog/2026/04/02/github-readme-template-guide/)
 - [Developer Community Directory](/blog/2026/04/07/developer-community-directory-where-to-find-your-first-1000-users/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*

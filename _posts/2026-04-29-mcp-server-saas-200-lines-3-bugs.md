@@ -4,7 +4,7 @@ title: "Adding a Remote MCP Server to Our SaaS in 200 Lines — and the 3 Bugs T
 date: 2026-04-29 14:00:00 +0800
 categories: [saas, mcp, dev]
 description: "How we exposed Analook's competitor-analysis pipeline to Claude Desktop and Cursor as a Remote MCP server — including the 3 silent failures we caught only because we ran an independent code review on every change."
-canonical_url: https://gingiris.tools/blog/2026/04/29/mcp-server-saas-200-lines-3-bugs/
+canonical_url: https://tools.gingiris.com/blog/2026/04/29/mcp-server-saas-200-lines-3-bugs/
 last_modified_at: 2026-06-02
 faq:
   - q: "What are common bugs when building an MCP server?"
@@ -191,7 +191,7 @@ This article is part of the **[Product Hunt Launch Playbook: 30x #1 Winner's Com
 - [After Product Hunt Launch: 7 Ways to Keep Momentum](/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum/)
 - [How to Pick a Product Hunt Hunter (7 Criteria)](/blog/2026/04/29/how-to-pick-a-product-hunt-hunter/)
 
-*Find all 90+ playbooks at [gingiris.tools](https://gingiris.tools).*
+*Find all 90+ playbooks at [gingiris.tools](https://tools.gingiris.com).*
 
 
 ---
@@ -204,5 +204,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

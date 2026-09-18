@@ -66,6 +66,6 @@ Build in Public は、ローンチの一発勝負ではなく、数ヶ月かけ�
 
 ---
 
-*筆者:Iris Wei — [AFFiNE](https://github.com/toeverything/AFFiNE)(GitHubスター6万+)共同創業者、Product Hunt 1位を30回以上獲得、現在は [Analook](https://www.analook.com) を開発中。英語版の全ガイドは [gingiris.tools](https://gingiris.tools/blog/2026/06/24/build-in-public-guide-2026/) に。*
+*筆者:Iris Wei — [AFFiNE](https://github.com/toeverything/AFFiNE)(GitHubスター6万+)共同創業者、Product Hunt 1位を30回以上獲得、現在は [Analook](https://www.analook.com) を開発中。英語版の全ガイドは [gingiris.tools](https://tools.gingiris.com/blog/2026/06/24/build-in-public-guide-2026/) に。*
 
-成長・SEO・オープンソースの実践スキル(45+、MIT、無料)は **[gingiris.tools/skills/](https://gingiris.tools/skills/)** から。
+成長・SEO・オープンソースの実践スキル(45+、MIT、無料)は **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** から。

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Meet TEN, the World's First Truly Real-time Multimodal Agent Framework for Creating Next-Gen AI Agents"
-canonical_url: https://gingiris.tools/blog/2024/09/23/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents/
-image: "https://gingiris.tools/assets/images/blog-devrel-dashboard.jpg"
+canonical_url: https://tools.gingiris.com/blog/2024/09/23/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents/
+image: "https://tools.gingiris.com/assets/images/blog-devrel-dashboard.jpg"
 date: 2024-09-23
 description: "Ever since OpenAI demonstrated the real-time conversational capabilities of GPT-4o, it’s as if the movie ‘Her’ has come to life. Motivated by th"
 tags: [python, ai, opensource, javascript]
@@ -98,5 +98,5 @@ These strategies are packaged as installable AI agent skills — ready to run in
 npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://gingiris.tools/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
+Browse all 45+ growth, SEO/GEO, and open-source skills at **[gingiris.tools/skills/](https://tools.gingiris.com/skills/)** — free, MIT-licensed, built from AFFiNE's 0→60K GitHub star journey.
 ```

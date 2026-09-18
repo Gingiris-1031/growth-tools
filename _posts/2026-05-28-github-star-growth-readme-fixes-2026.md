@@ -3,7 +3,7 @@ title: "GitHub Star Growth: 7 README Fixes for 2026"
 date: 2026-05-28
 description: "GitHub Star Growth: 7 README Fixes for 2026   GitHub star growth often looks like a..."
 tags: [github, opensource, seo, growth]
-canonical_url: "https://gingiris.tools/blog/2026/05/28/github-star-growth-readme-fixes-2026/"
+canonical_url: "https://tools.gingiris.com/blog/2026/05/28/github-star-growth-readme-fixes-2026/"
 seo_title: "GitHub Star Growth: 7 README Fixes for 2026"
 seo_description: "GitHub Star Growth: 7 README Fixes for 2026   GitHub star growth often looks like a..."
 keywords: [github, opensource, seo, growth]
@@ -11,7 +11,7 @@ keywords: [github, opensource, seo, growth]
 
 **GitHub star growth** often looks like a distribution problem, but the leak usually starts in the README. If someone lands on your repo from X, Reddit, Product Hunt, or search and still cannot understand the repo in 10 seconds, your **GitHub star growth** will flatten no matter how often you promote it. In 2026, the strongest teams treat the README like a conversion page: clear category, clear proof, clear audience, and a clear next step.
 
-If you want the deeper operating system behind this, start with the **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)**. Pair it with **[Gingiris Launch](https://gingiris.tools/skills/)** when you need distribution sequencing, **[Gingiris B2B Growth](https://gingiris.tools/skills/)** when repo attention needs to turn into pipeline, and **[Gingiris ASO Growth](https://gingiris.tools/skills/)** if your product also depends on mobile discovery.
+If you want the deeper operating system behind this, start with the **[Gingiris Open Source Playbook](https://tools.gingiris.com/skills/)**. Pair it with **[Gingiris Launch](https://tools.gingiris.com/skills/)** when you need distribution sequencing, **[Gingiris B2B Growth](https://tools.gingiris.com/skills/)** when repo attention needs to turn into pipeline, and **[Gingiris ASO Growth](https://tools.gingiris.com/skills/)** if your product also depends on mobile discovery.
 
 ## TL;DR
 
@@ -73,7 +73,7 @@ Built for teams that need repeatable workflows, automation, or observability.
 
 Built for teams that need launch systems, GTM templates, or community growth.
 
-This is one reason **[Gingiris Launch](https://gingiris.tools/skills/)** and **[Gingiris Open Source Playbook](https://gingiris.tools/skills/)** work well together. One sharpens who the project is for, the other sharpens how it gets discovered.
+This is one reason **[Gingiris Launch](https://tools.gingiris.com/skills/)** and **[Gingiris Open Source Playbook](https://tools.gingiris.com/skills/)** work well together. One sharpens who the project is for, the other sharpens how it gets discovered.
 
 ## 4. Show Proof Before the Long Feature List
 
@@ -100,7 +100,7 @@ Visitors star more often when they can imagine success.
 3. one expected result
 4. one next step if it works
 
-This is especially important if your repo supports a commercial motion. **[Gingiris B2B Growth](https://gingiris.tools/skills/)** is useful here because it helps connect repo trust with deeper evaluation, demos, or signups.
+This is especially important if your repo supports a commercial motion. **[Gingiris B2B Growth](https://tools.gingiris.com/skills/)** is useful here because it helps connect repo trust with deeper evaluation, demos, or signups.
 
 ## 6. Turn Repeated Questions Into Permanent README Sections
 
@@ -134,7 +134,7 @@ The README should not dead-end after setup.
 - community links
 - roadmap or changelog
 
-If your product also has an app-led layer, **[Gingiris ASO Growth](https://gingiris.tools/skills/)** can help you build a cleaner handoff from GitHub interest to app store conversion instead of treating those channels separately.
+If your product also has an app-led layer, **[Gingiris ASO Growth](https://tools.gingiris.com/skills/)** can help you build a cleaner handoff from GitHub interest to app store conversion instead of treating those channels separately.
 
 ## Common README Mistakes That Hurt GitHub Star Growth
 
@@ -178,7 +178,7 @@ GitHub star growth gets easier when the README makes trust feel instant. Better 
 
 ## Related Reading
 
-- [GitHub Star Growth: 7 Distribution Loops for 2026](https://gingiris.tools/blog/2026/05/24/github-star-growth-distribution-loops-2026/)
-- [GitHub Star Growth: 7 Trust Loops That Compound in 2026](https://gingiris.tools/blog/2026/05/19/github-star-growth-trust-loops-2026/)
-- [Open Source Marketing: The Complete Guide](https://gingiris.tools/blog/2026/04/03/open-source-marketing-the-complete-guide/)
-- [Growth Tools Home](https://gingiris.tools/)
+- [GitHub Star Growth: 7 Distribution Loops for 2026](https://tools.gingiris.com/blog/2026/05/24/github-star-growth-distribution-loops-2026/)
+- [GitHub Star Growth: 7 Trust Loops That Compound in 2026](https://tools.gingiris.com/blog/2026/05/19/github-star-growth-trust-loops-2026/)
+- [Open Source Marketing: The Complete Guide](https://tools.gingiris.com/blog/2026/04/03/open-source-marketing-the-complete-guide/)
+- [Growth Tools Home](https://tools.gingiris.com/)
