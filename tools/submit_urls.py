@@ -18,7 +18,7 @@ The script reads the already-published IndexNow key from the production site;
 it never creates or stores a new secret locally.
 """
 
-import os, re, sys, json, argparse
+import os, re, sys, json, argparse, ssl
 import urllib.request, urllib.error
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -26,6 +26,18 @@ SITE_URL      = "https://tools.gingiris.com"
 POSTS_DIR     = os.path.join(os.path.dirname(__file__), "..", "_posts")
 INDEXNOW_HOST = "tools.gingiris.com"
 INDEXNOW_KEY_LOCATION = f"https://{INDEXNOW_HOST}/gingiris-indexnow-20260403.txt"
+
+
+def tls_context():
+    """Use certifi when available; otherwise keep the platform trust store."""
+    try:
+        import certifi
+    except ImportError:
+        return ssl.create_default_context()
+    return ssl.create_default_context(cafile=certifi.where())
+
+
+TLS_CONTEXT = tls_context()
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -56,7 +68,9 @@ def extract_canonical_urls():
 
 def get_indexnow_key():
     """Read the already-published IndexNow key; never generate an unusable key."""
-    with urllib.request.urlopen(INDEXNOW_KEY_LOCATION, timeout=15) as resp:
+    with urllib.request.urlopen(
+        INDEXNOW_KEY_LOCATION, timeout=15, context=TLS_CONTEXT
+    ) as resp:
         key = resp.read().decode().strip()
     if not key:
         raise RuntimeError(f"empty IndexNow key at {INDEXNOW_KEY_LOCATION}")
@@ -80,7 +94,7 @@ def submit_indexnow(urls, key):
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req, timeout=15) as resp:
+        with urllib.request.urlopen(req, timeout=15, context=TLS_CONTEXT) as resp:
             status = resp.status
     except urllib.error.HTTPError as e:
         status = e.code
