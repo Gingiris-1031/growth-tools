@@ -45,7 +45,7 @@ def jsonld(s):
         "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
         "description": s["software_description"], "url": url,
         "downloadUrl": f"https://huggingface.co/datasets/Gingiris/{s['hf']}",
-        "installUrl": f"https://skills.sh/{s['install']}",
+        "installUrl": f"https://skills.sh/{s['install']}" + (f"/{s['install_skill']}" if s.get("install_skill") else ""),
         "license": "https://opensource.org/licenses/MIT",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
         "author": AUTHOR, "keywords": s["keywords"],
@@ -66,6 +66,14 @@ def jsonld(s):
 
 def render(s):
     url = f"{SITE}/skills/{s['slug']}/"
+    install_command = f"npx skills add {s['install']}" + (f" --skill {s['install_skill']}" if s.get('install_skill') else "")
+    companion_html = ""
+    if s.get('companion_skill'):
+        c = s['companion_skill']
+        companion_html = f"""<section><h2>Updated execution templates · October 2026</h2>
+        <p class="body">{c['description']} These templates are in the separate <strong>{c['name']}</strong> skill; install it alongside this playbook.</p>
+        <div class="meta-install"><code>npx skills add Gingiris-1031/gingiris-skills --skill {c['name']}</code></div>
+        <p class="body"><a href="https://skills.sh/Gingiris-1031/gingiris-skills/{c['name']}">View {c['name']} on skills.sh</a></p></section>"""
     stats = "\n".join(
         f'        <tr><td>{html.escape(k)}</td><td class="v">{html.escape(v)}</td></tr>'
         for k, v in s["stats"])
@@ -235,8 +243,8 @@ def render(s):
       <h1>{html.escape(s['h1'])}</h1>
       <p class="tag-line">{s['tagline']}</p>
       <div class="meta-install" id="install">
-        <span>npx skills add <b>{s['install']}</b></span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add {s['install']}');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <span>npx skills add <b>{s['install']}</b>{(' --skill ' + s['install_skill']) if s.get('install_skill') else ''}</span>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('{install_command}');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
       </div>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
@@ -294,6 +302,7 @@ def render(s):
 {faqs}
     </section>
 
+{companion_html}
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
