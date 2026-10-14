@@ -8,7 +8,7 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 ## Resources
 > Open-source growth playbooks installable into AI agents (Claude Code, Cursor, OpenClaw).
 
-- **Skills hub (40+ playbooks)**: https://tools.gingiris.com/skills/ — Filter by category, copy install commands, browse on Hugging Face.
+- **Skills hub (60-skill collection; 41 featured playbooks)**: https://tools.gingiris.com/skills/ — Use the task router, filter by category, or copy an exact install command.
 - **All playbooks on Hugging Face**: https://huggingface.co/Gingiris
 - **Core playbooks**:
   - Open Source Marketing (GitHub stars 0 to 60K)
