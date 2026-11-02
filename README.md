@@ -289,6 +289,7 @@ If this resource saves you time or helps you grow — a GitHub Star ⭐ helps ot
 |:-----|:------------|:--------|:-----|
 | **Discord Hunt** | 找 Discord 社区 | Free | [discordhunt.com](https://discordhunt.com/) |
 | **DevHunt** | 开发者工具打榜平台 | Free | [devhunt.org](https://devhunt.org/) |
+| **SitePatent** | 创业产品与工具发现目录，按分类和技术栈整理 | Freemium | [sitepatent.com](https://sitepatent.com/) |
 | **AngelHack** | 黑客松社区 | Free | [angelhack.com](https://angelhack.com/) |
 
 ---
