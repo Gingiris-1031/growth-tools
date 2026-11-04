@@ -1116,3 +1116,195 @@
     - ["Go-Global SOP — Phase 0 to Monetization", "/skills/go-global/"]
     - ["KOL Outreach Playbook", "/skills/kol-outreach/"]
     - ["Community Ambassador Program Playbook", "/skills/community-ambassador/"]
+
+# November 2026 service and editorial workflows
+- slug: gr-opc-service-validation
+  hf: gr-opc-service-validation
+  install: Gingiris-1031/gingiris-skills
+  install_skill: gr-opc-service-validation
+  title: OPC Service Validation / OPC 服务验证 | Gingiris
+  h1: OPC Service Validation / OPC 服务验证
+  tagline: Validate a bounded service pilot, client fit, delivery capacity and repeat
+    demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。
+  meta_description: Validate a bounded service pilot, client fit, delivery capacity
+    and repeat demand.
+  keywords: gr-opc-service-validation, Gingiris, AI skill
+  software_description: Validate a bounded service pilot, client fit, delivery capacity
+    and repeat demand. 验证有边界的服务试单、客户适配、交付容量与复购信号。
+  what: Validate a bounded service pilot, client fit, delivery capacity and repeat
+    demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。
+  notice: Version 1.0.0 · No private source archive included. / 不含私人素材。 Method and
+    worksheets; no guaranteed business outcome. / 方法与工作表，不保证商业效果。
+  takeaways:
+  - Validate a bounded service pilot, client fit, delivery capacity and repeat demand.
+  - 验证有边界的服务试单、客户适配、交付容量与复购信号。
+  stats:
+  - - Version / 版本
+    - 1.0.0
+  - - Distribution / 分发
+    - GitHub + Hugging Face + skills CLI
+  - - Language / 语言
+    - English / 中文
+  howto:
+    title: How to use / 使用流程
+    steps:
+    - name: Define one offer / 明确一个服务
+      text: Define one offer / 明确一个服务 — use the linked Skill and worksheets with your
+        own authorized materials.
+    - name: Run a bounded pilot / 有上限地试单
+      text: Run a bounded pilot / 有上限地试单 — use the linked Skill and worksheets with
+        your own authorized materials.
+    - name: Review evidence and capacity / 复盘证据与容量
+      text: Review evidence and capacity / 复盘证据与容量 — use the linked Skill and worksheets
+        with your own authorized materials.
+  compare:
+    title: Scope / 范围
+    intro: Choose the workflow for your current task. / 按当前任务选择。
+    columns:
+    - Included / 包含
+    - Boundary / 边界
+    rows:
+    - - 验证有边界的服务试单、客户适配、交付容量与复购信号。
+      - User authorization and source evidence remain required. / 仍需授权与来源。
+  donts:
+    title: Limits / 使用边界
+    items:
+    - Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。
+    - Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。
+  faqs:
+  - q: How do I install it? / 如何安装？
+    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation
+  - q: Does this include private material? / 包含私人素材吗？
+    a: No. Supply your own authorized materials. / 不包含，请使用你获准的资料。
+  related:
+  - - Brand Voice Calibration / 文风校准
+    - /skills/gr-brand-voice-calibration/
+  - - WeChat Editorial / 公众号内容运营
+    - /skills/gr-wechat-editorial/
+  - - Broader Solopreneur Coach / 更广的 OPC 教练
+    - /skills/solopreneur-coach/
+- slug: gr-brand-voice-calibration
+  hf: gr-brand-voice-calibration
+  install: Gingiris-1031/gingiris-skills
+  install_skill: gr-brand-voice-calibration
+  title: Brand Voice Calibration / 文风校准 | Gingiris
+  h1: Brand Voice Calibration / 文风校准
+  tagline: Learn a writing voice from original samples, author edits and contextual
+    evidence.<br>从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
+  meta_description: Learn a writing voice from original samples, author edits and
+    contextual evidence.
+  keywords: gr-brand-voice-calibration, Gingiris, AI skill
+  software_description: Learn a writing voice from original samples, author edits
+    and contextual evidence. 从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
+  what: Learn a writing voice from original samples, author edits and contextual evidence.<br>从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
+  notice: Version 1.0.0 · No private source archive included. / 不含私人素材。 Method and
+    worksheets; no guaranteed business outcome. / 方法与工作表，不保证商业效果。
+  takeaways:
+  - Learn a writing voice from original samples, author edits and contextual evidence.
+  - 从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
+  stats:
+  - - Version / 版本
+    - 1.0.0
+  - - Distribution / 分发
+    - GitHub + Hugging Face + skills CLI
+  - - Language / 语言
+    - English / 中文
+  howto:
+    title: How to use / 使用流程
+    steps:
+    - name: Map original sources / 整理原声来源
+      text: Map original sources / 整理原声来源 — use the linked Skill and worksheets with
+        your own authorized materials.
+    - name: Infer contextual traits / 提炼有边界的特征
+      text: Infer contextual traits / 提炼有边界的特征 — use the linked Skill and worksheets
+        with your own authorized materials.
+    - name: Test and revise / 试写并修正
+      text: Test and revise / 试写并修正 — use the linked Skill and worksheets with your
+        own authorized materials.
+  compare:
+    title: Scope / 范围
+    intro: Choose the workflow for your current task. / 按当前任务选择。
+    columns:
+    - Included / 包含
+    - Boundary / 边界
+    rows:
+    - - 从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
+      - User authorization and source evidence remain required. / 仍需授权与来源。
+  donts:
+    title: Limits / 使用边界
+    items:
+    - Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。
+    - Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。
+  faqs:
+  - q: How do I install it? / 如何安装？
+    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration
+  - q: Does this include private material? / 包含私人素材吗？
+    a: No. Supply your own authorized materials. / 不包含，请使用你获准的资料。
+  related:
+  - - OPC Service Validation / OPC 服务验证
+    - /skills/gr-opc-service-validation/
+  - - WeChat Editorial / 公众号内容运营
+    - /skills/gr-wechat-editorial/
+- slug: gr-wechat-editorial
+  hf: gr-wechat-editorial
+  install: Gingiris-1031/gingiris-skills
+  install_skill: gr-wechat-editorial
+  title: WeChat Editorial / 公众号内容运营 | Gingiris
+  h1: WeChat Editorial / 公众号内容运营
+  tagline: Source-grounded articles, two-stage review, formatting and verified draft
+    handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
+  meta_description: Source-grounded articles, two-stage review, formatting and verified
+    draft handoff.
+  keywords: gr-wechat-editorial, Gingiris, AI skill
+  software_description: Source-grounded articles, two-stage review, formatting and
+    verified draft handoff. 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
+  what: Source-grounded articles, two-stage review, formatting and verified draft
+    handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
+  notice: Version 1.0.0 · No private source archive included. / 不含私人素材。 Local packaging
+    is tested; live account draft writing is not verified. / 本地打包已测，真实账号草稿写入未测。
+  takeaways:
+  - Source-grounded articles, two-stage review, formatting and verified draft handoff.
+  - 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
+  stats:
+  - - Version / 版本
+    - 1.0.0
+  - - Distribution / 分发
+    - GitHub + Hugging Face + skills CLI
+  - - Language / 语言
+    - Chinese workflow
+  howto:
+    title: How to use / 使用流程
+    steps:
+    - name: Source and draft / 取证与写稿
+      text: Source and draft / 取证与写稿 — use the linked Skill and worksheets with your
+        own authorized materials.
+    - name: Review and format / 审稿与排版
+      text: Review and format / 审稿与排版 — use the linked Skill and worksheets with your
+        own authorized materials.
+    - name: Hand off and read back / 草稿交付与回读
+      text: Hand off and read back / 草稿交付与回读 — use the linked Skill and worksheets
+        with your own authorized materials.
+  compare:
+    title: Scope / 范围
+    intro: Choose the workflow for your current task. / 按当前任务选择。
+    columns:
+    - Included / 包含
+    - Boundary / 边界
+    rows:
+    - - 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
+      - User authorization and source evidence remain required. / 仍需授权与来源。
+  donts:
+    title: Limits / 使用边界
+    items:
+    - Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。
+    - Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。
+  faqs:
+  - q: How do I install it? / 如何安装？
+    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial
+  - q: Does this include private material? / 包含私人素材吗？
+    a: No. Supply your own authorized materials. / 不包含，请使用你获准的资料。
+  related:
+  - - OPC Service Validation / OPC 服务验证
+    - /skills/gr-opc-service-validation/
+  - - Brand Voice Calibration / 文风校准
+    - /skills/gr-brand-voice-calibration/
