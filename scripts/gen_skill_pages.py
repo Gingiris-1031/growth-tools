@@ -215,7 +215,11 @@ def render(s):
   .site-footer a:hover {{ color:var(--accent); }}
   @media (max-width:640px) {{
     .container {{ padding:0 14px; }}
-    .site-nav .nav-links {{ gap:14px; font-size:12px; overflow-x:auto; white-space:nowrap; }}
+    .site-nav .container {{ flex-direction:column; align-items:flex-start; gap:10px; }}
+    .site-nav .nav-links {{ max-width:100%; min-width:0; flex-wrap:wrap; white-space:normal; }}
+    .cmp {{ table-layout:fixed; }}
+    .cmp td, .cmp th, .cmp td:nth-child(2) {{ white-space:normal; overflow-wrap:anywhere; }}
+    .site-nav .nav-links {{ gap:14px; font-size:12px; overflow-x:auto; white-space:normal; }}
     .hero {{ padding:24px 0 4px; }}
     .meta-install {{ font-size:13px; max-width:100%; overflow-x:auto; }}
   }}
