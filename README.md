@@ -213,6 +213,7 @@ If this resource saves you time or helps you grow — a GitHub Star ⭐ helps ot
 | **EasyKOL** | KOL 管理平台 | Paid | [easykol.com](https://easykol.com/) |
 | **NoxInfluencer** | 红人信息数据库 | Freemium | [cn.noxinfluencer.com](https://cn.noxinfluencer.com/) |
 | **Connpass** | 日本社群/KOL 资源 | Free | [connpass.com](https://connpass.com/) |
+| **IGDataHub** | Instagram 达人数据：粉丝历史、互动指标、CSV 导出 | Freemium | [igdatahub.com](https://igdatahub.com/) |
 
 ---
 
