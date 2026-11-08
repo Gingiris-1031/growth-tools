@@ -628,12 +628,11 @@
 - slug: ugc-matrix
   hf: gingiris-ugc-matrix
   install: Gingiris-1031/gingiris-skills
-  title: UGC Creator Programs — Outcomes and Testing | Gingiris
-  h1: UGC Creator Programs — Outcomes and Testing
+  title: 'UGC Creator AI Skill: Briefs, Incentives and Attribution | Gingiris'
+  h1: 'UGC Creator AI Skill: Briefs, Incentives and Attribution'
   tagline: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
   meta_description: Match creator incentives to awareness, activation or payment, then test content variants.
-  keywords: UGC matrix, user generated content, creator program, AI UGC, matrix accounts, content flywheel, TikTok
-    UGC, creator recruitment, CPM 0.5
+  keywords: UGC Creator AI Skill, Briefs, Incentives and Attribution, Codex, Claude Code, Cursor
   software_description: Match creator incentives to awareness, activation or payment, then test content variants.
     / 按业务目标选择激励。
   app_category: BusinessApplication
@@ -645,11 +644,11 @@
     small samples can be inconclusive.
   stats:
   - - Version
-    - 1.1.0
+    - 1.1.1
   - - Updated
     - '2026-11-08'
-  - - Evidence
-    - Observations, hypotheses and outcomes kept separate
+  - - License
+    - MIT
   howto:
     title: How to use this workflow
     steps:
@@ -685,22 +684,37 @@
     - Do not substitute views, intent or plans for observed business outcomes.
     - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: What changed in this version?
-    a: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
-  - q: Does this include private workshop material?
-    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
-  - q: How do I install the updated version?
-    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-ugc-matrix. The monorepo is the maintained
-      distribution source.
+  - q: Should every creator be paid per view?
+    a: No. Match compensation to the work, business goal and measurable contribution. Define attribution, refunds,
+      usage rights and acceptance before work begins.
+  - q: What will this skill produce?
+    a: A creator brief, scoped deliverables, compensation options, usage rights, attribution rules and a review
+      plan.
+  - q: How do I start?
+    a: Install gingiris-ugc-matrix from the Gingiris collection, then provide the inputs and starter prompt on this
+      page.
   related:
-  - - ASO &amp; App Cold-Start Playbook
-    - /skills/aso-growth/
-  - - KOL Outreach &amp; Influencer Marketing
-    - /skills/kol-outreach/
-  - - 'Product Hunt Launch Playbook — Win #1 of the Day'
-    - /skills/product-hunt-launch/
+  - - Browse all AI agent skills
+    - /skills/
+  - - Competitor research workflow
+    - /skills/competitor-research/
+  - - User interview workflow
+    - /skills/user-interview/
+  - - Content repurposing workflow
+    - /skills/gr-social-distill/
   install_skill: gingiris-ugc-matrix
-  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
+  notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
+  version: 1.1.1
+  updated: '2026-11-08'
+  usage:
+    inputs: Product, audience, awareness/activation/payment goal, budget, creator roles and known attribution limits.
+    outputs: A creator brief, scoped deliverables, compensation options, usage rights, attribution rules and a review
+      plan.
+    prompt: Create a UGC pilot brief for our activation goal. Compare fixed fees and outcome bonuses, and define
+      what we can actually attribute.
+    example: 'Observed: one post has more saves but impression counts are missing. Decision: do not declare a winner.
+      Track comparable exposure and downstream activation before expanding spend.'
+  stats_title: Version and availability
 
 - slug: user-interview
   companion_skill:
@@ -708,12 +722,11 @@
     description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: gingiris-user-interview
   install: Gingiris-1031/gingiris-skills
-  title: User Interviews — Real Tasks and Follow-up | Gingiris
-  h1: User Interviews — Real Tasks and Follow-up
+  title: 'User Interview AI Skill: Questions and Follow-up | Gingiris'
+  h1: 'User Interview AI Skill: Questions and Follow-up'
   tagline: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
   meta_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
-  keywords: user interview, customer interview, PMF validation, beta testing, willingness to pay, user research,
-    product feedback, customer discovery, find product market fit
+  keywords: User Interview AI Skill, Questions and Follow-up, Codex, Claude Code, Cursor
   software_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
     / 用真实行为与复测验证需求。
   app_category: BusinessApplication
@@ -725,11 +738,11 @@
     and actual payment.
   stats:
   - - Version
-    - 1.1.0
+    - 1.1.1
   - - Updated
     - '2026-11-08'
-  - - Evidence
-    - Observations, hypotheses and outcomes kept separate
+  - - License
+    - MIT
   howto:
     title: How to use this workflow
     steps:
@@ -764,22 +777,35 @@
     - Do not substitute views, intent or plans for observed business outcomes.
     - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: What changed in this version?
-    a: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
-  - q: Does this include private workshop material?
-    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
-  - q: How do I install the updated version?
-    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-user-interview. The monorepo is the maintained
-      distribution source.
+  - q: How many interviews prove product-market fit?
+    a: No fixed interview count proves product-market fit. Match evidence to the decision and check behavior, repeat
+      use or payment separately.
+  - q: What will this skill produce?
+    a: A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest conditions.
+  - q: How do I start?
+    a: Install gingiris-user-interview from the Gingiris collection, then provide the inputs and starter prompt
+      on this page.
   related:
-  - - B2B SaaS Growth — PLG vs SLG to $10M ARR
-    - /skills/b2b-saas-growth/
-  - - AI Product / SaaS Go-Global SOP
-    - /skills/go-global/
-  - - Competitor Research &amp; Growth Flywheel
+  - - Browse all AI agent skills
+    - /skills/
+  - - Competitor research workflow
     - /skills/competitor-research/
+  - - Content repurposing workflow
+    - /skills/gr-social-distill/
   install_skill: gingiris-user-interview
-  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
+  notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
+  version: 1.1.1
+  updated: '2026-11-08'
+  usage:
+    inputs: The decision, participant profile, existing notes or task flow, and whether this is discovery, usability
+      testing or sales.
+    outputs: A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest
+      conditions.
+    prompt: Turn these interview notes into a follow-up plan. Separate actual behavior from interest and record
+      where the moderator helped the user.
+    example: 'Observed: four people said they were interested; none paid. Decision: interest remains a signal, not
+      payment validation. Ask about the most recent real task and observe the next attempt.'
+  stats_title: Version and availability
 
 - slug: community-ambassador
   hf: community-ambassador-playbook
@@ -865,14 +891,13 @@
     description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: competitor-research-playbook
   install: Gingiris-1031/gingiris-skills
-  title: Competitor Research — Evidence to Decisions | Gingiris
-  h1: Competitor Research — Evidence to Decisions
+  title: 'Competitor Research AI Skill: Evidence to Decisions | Gingiris'
+  h1: 'Competitor Research AI Skill: Evidence to Decisions'
   tagline: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
     / 从证据到自己的行动。
   meta_description: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable
     decision.
-  keywords: competitor research, competitive analysis, growth flywheel, Wayback Machine, website teardown, Twitter
-    propagation, KOL identification, market research, ICP analysis
+  keywords: Competitor Research AI Skill, Evidence to Decisions, Codex, Claude Code, Cursor
   software_description: Compare the right stage and page purpose, verify social evidence, and turn findings into
     a testable decision. / 从证据到自己的行动。
   app_category: BusinessApplication
@@ -888,8 +913,8 @@
     - 1.4.0
   - - Updated
     - '2026-11-08'
-  - - Evidence
-    - Observations, hypotheses and outcomes kept separate
+  - - License
+    - MIT
   howto:
     title: How to use this workflow
     steps:
@@ -924,33 +949,45 @@
     - Do not substitute views, intent or plans for observed business outcomes.
     - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: What changed in this version?
-    a: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
-      / 从证据到自己的行动。
-  - q: Does this include private workshop material?
-    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
-  - q: How do I install the updated version?
-    a: Use npx skills add Gingiris-1031/gingiris-skills --skill competitor-research-playbook. The monorepo is the
-      maintained distribution source.
+  - q: Can I use this without Similarweb or a paid research API?
+    a: Yes. Start from supplied pages and visible evidence. Mark unavailable traffic or historical data explicitly;
+      do not infer a growth channel from a Direct traffic share.
+  - q: What will this skill produce?
+    a: A source table, comparable-stage analysis, alternative explanations and a next-action card with an owner
+      and review condition.
+  - q: How do I start?
+    a: Install competitor-research-playbook from the Gingiris collection, then provide the inputs and starter prompt
+      on this page.
   related:
-  - - AI Product / SaaS Go-Global SOP
-    - /skills/go-global/
-  - - SEO &amp; GEO Dual-Engine Playbook
-    - /skills/seo-geo/
-  - - 'Product Hunt Launch Playbook — Win #1 of the Day'
-    - /skills/product-hunt-launch/
+  - - Browse all AI agent skills
+    - /skills/
+  - - User interview workflow
+    - /skills/user-interview/
+  - - Content repurposing workflow
+    - /skills/gr-social-distill/
   install_skill: competitor-research-playbook
-  notice: Updated November 8, 2026 · v1.4.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
+  notice: Updated November 8, 2026 · v1.4.0. Free downloadable workflow; results depend on the evidence and execution.
+  version: 1.4.0
+  updated: '2026-11-08'
+  usage:
+    inputs: Product URL, decision to make, target market, competitor links and time window. Unknown historical data
+      is allowed.
+    outputs: A source table, comparable-stage analysis, alternative explanations and a next-action card with an
+      owner and review condition.
+    prompt: Compare our tool workspace with this competitor landing page. Explain which comparisons are valid, then
+      propose one change and a validation plan.
+    example: 'Observed: a competitor has 17 marketing screens; our workspace has 2. Decision: compare visitor tasks
+      and onboarding friction, not page length. Test one clearer first-action label.'
+  stats_title: Version and availability
 
 - slug: twitter-agent-ops
   hf: gingiris-twitter-agent-ops
   install: Gingiris-1031/gingiris-skills
-  title: Social Operations — Voice, Format and Verification | Gingiris
-  h1: Social Operations — Voice, Format and Verification
+  title: 'X / Twitter AI Skill: Drafts and Verified Publishing | Gingiris'
+  h1: 'X / Twitter AI Skill: Drafts and Verified Publishing'
   tagline: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
   meta_description: Use source-backed voice rules and choose single posts or threads for the actual task.
-  keywords: twitter automation, X account growth, AI ghostwriter, social media agent, persona calibration, tweet
-    scheduling, AI agent twitter, content methodology
+  keywords: X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor
   software_description: Use source-backed voice rules and choose single posts or threads for the actual task. /
     文风、格式与发布验证。
   app_category: DeveloperApplication
@@ -962,11 +999,11 @@
   - Keep draft review, authorized publishing, delivery readback and measured outcomes separate.
   stats:
   - - Version
-    - 2.3.0
+    - 2.3.1
   - - Updated
     - '2026-11-08'
-  - - Evidence
-    - Observations, hypotheses and outcomes kept separate
+  - - License
+    - MIT
   howto:
     title: How to use this workflow
     steps:
@@ -1001,47 +1038,62 @@
     - Do not substitute views, intent or plans for observed business outcomes.
     - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: What changed in this version?
-    a: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
-  - q: Does this include private workshop material?
-    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
-  - q: How do I install the updated version?
-    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-twitter-agent-ops. The monorepo is the
-      maintained distribution source.
+  - q: Can I use it without Buffer or an API connection?
+    a: Yes. Drafts and content plans work from supplied material. Publication requires an authorized, verified integration
+      and a final delivery check.
+  - q: What will this skill produce?
+    a: A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and public
+      readback.
+  - q: How do I start?
+    a: Install gingiris-twitter-agent-ops from the Gingiris collection, then provide the inputs and starter prompt
+      on this page.
   related:
-  - - KOL Outreach &amp; Influencer Marketing
-    - /skills/kol-outreach/
-  - - UGC Matrix Growth Playbook
-    - /skills/ugc-matrix/
-  - - SEO &amp; GEO Dual-Engine Playbook
-    - /skills/seo-geo/
+  - - Browse all AI agent skills
+    - /skills/
+  - - Competitor research workflow
+    - /skills/competitor-research/
+  - - User interview workflow
+    - /skills/user-interview/
+  - - Content repurposing workflow
+    - /skills/gr-social-distill/
   install_skill: gingiris-twitter-agent-ops
-  notice: Updated November 8, 2026 · v2.3.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
+  notice: Updated November 8, 2026 · v2.3.1. Free downloadable workflow; results depend on the evidence and execution.
+  version: 2.3.1
+  updated: '2026-11-08'
+  usage:
+    inputs: Source material, author or brand voice, requested account/channel, language and desired format. Publishing
+      configuration is needed only for delivery.
+    outputs: A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and
+      public readback.
+    prompt: Write one X post from this third-party article. Keep its claims attributed, use my voice samples, and
+      deliver a draft only.
+    example: 'Observed: a publisher returns sending. Decision: retain its ID and read it back; do not create a duplicate.
+      A draft does not require a publisher or cron job.'
+  stats_title: Version and availability
 
 - slug: growth-finder
   hf: gingiris-growth-finder
   install: Gingiris-1031/gingiris-skills
-  title: Growth Finder — Diagnose the Current Constraint | Gingiris
-  h1: Growth Finder — Diagnose the Current Constraint
+  title: 'Growth Strategy AI Skill: Diagnose the Next Constraint | Gingiris'
+  h1: 'Growth Strategy AI Skill: Diagnose the Next Constraint'
   tagline: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
   meta_description: Identify the growth model, stage and constraint before selecting a specialist.
-  keywords: how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing,
-    product launch, growth routing
+  keywords: Growth Strategy AI Skill, Diagnose the Next Constraint, Codex, Claude Code, Cursor
   software_description: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
   app_category: BusinessApplication
   what: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
-  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
+  notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
   takeaways:
   - Separate supplier, user and payer for two-sided products. Supply-first is a hypothesis, not a universal rule.
   - For local services, test a city, segment and delivery step; separate manual service from reusable software.
   - Select the narrowest relevant workflow and define the next observable result before expanding channels or spend.
   stats:
   - - Version
-    - 1.1.0
+    - 1.1.1
   - - Updated
     - '2026-11-08'
-  - - Evidence
-    - Observations, hypotheses and outcomes kept separate
+  - - License
+    - MIT
   howto:
     title: How to use this workflow
     steps:
@@ -1077,21 +1129,35 @@
     - Do not substitute views, intent or plans for observed business outcomes.
     - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: What changed in this version?
-    a: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
-  - q: Does this include private workshop material?
-    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
-  - q: How do I install the updated version?
-    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder. The monorepo is the maintained
-      distribution source.
+  - q: What if I do not know my growth model or funnel metrics?
+    a: The workflow starts from your concrete user task and available evidence. Missing metrics stay unknown; it
+      proposes a limited next test instead of assigning a model from one number.
+  - q: What will this skill produce?
+    a: A bounded diagnosis, uncertain assumptions, one priority test and a specialist recommendation when useful.
+  - q: How do I start?
+    a: Install gingiris-growth-finder from the Gingiris collection, then provide the inputs and starter prompt on
+      this page.
   related:
-  - - 'Product Hunt Launch Playbook — Win #1 of the Day'
-    - /skills/product-hunt-launch/
-  - - B2B SaaS Growth — PLG vs SLG to $10M ARR
-    - /skills/b2b-saas-growth/
-  - - SEO &amp; GEO Dual-Engine Playbook
-    - /skills/seo-geo/
+  - - Browse all AI agent skills
+    - /skills/
+  - - Competitor research workflow
+    - /skills/competitor-research/
+  - - User interview workflow
+    - /skills/user-interview/
+  - - Content repurposing workflow
+    - /skills/gr-social-distill/
   install_skill: gingiris-growth-finder
+  version: 1.1.1
+  updated: '2026-11-08'
+  usage:
+    inputs: Product, user and payer roles, stage evidence, main obstacle, resources and any available funnel data.
+    outputs: A bounded diagnosis, uncertain assumptions, one priority test and a specialist recommendation when
+      useful.
+    prompt: We have few suppliers and few users in a two-sided marketplace. With a $500 budget, identify the next
+      bottleneck to test before choosing channels.
+    example: 'Observed: both supply and demand are small. Decision: test one concrete matching task with a small
+      cohort; do not assume acquisition or supply-first is always correct.'
+  stats_title: Version and availability
 
 - slug: hardware-saas-gtm
   hf: hardware-saas-gtm
@@ -1230,17 +1296,17 @@
   hf: gr-brand-voice-calibration
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-brand-voice-calibration
-  title: Brand Voice Calibration — Original Evidence | Gingiris
-  h1: Brand Voice Calibration — Original Evidence
+  title: 'Brand Voice AI Skill: Original Samples to Voice Guide | Gingiris'
+  h1: 'Brand Voice AI Skill: Original Samples to Voice Guide'
   tagline: Calibrate authentic voice from original samples while separating style from distribution performance.
     / 原声与传播表现分开。
   meta_description: Calibrate authentic voice from original samples while separating style from distribution performance.
-  keywords: gr-brand-voice-calibration, Gingiris, AI skill
+  keywords: Brand Voice AI Skill, Original Samples to Voice Guide, Codex, Claude Code, Cursor
   software_description: Calibrate authentic voice from original samples while separating style from distribution
     performance. / 原声与传播表现分开。
   what: Calibrate authentic voice from original samples while separating style from distribution performance. /
     原声与传播表现分开。
-  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
+  notice: Updated November 8, 2026 · v1.1.0. Free downloadable workflow; results depend on the evidence and execution.
   takeaways:
   - Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.
   - Record whether a pattern is author preference or a performance hypothesis; account for topic, language, timing
@@ -1252,8 +1318,8 @@
     - 1.1.0
   - - Updated
     - '2026-11-08'
-  - - Evidence
-    - Observations, hypotheses and outcomes kept separate
+  - - License
+    - MIT
   howto:
     title: How to use this workflow
     steps:
@@ -1289,18 +1355,33 @@
     - Do not substitute views, intent or plans for observed business outcomes.
     - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: What changed in this version?
-    a: Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。
-  - q: Does this include private workshop material?
-    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
-  - q: How do I install the updated version?
-    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration. The monorepo is the
-      maintained distribution source.
+  - q: Do high-engagement posts define my authentic voice?
+    a: No. Engagement and author preference are different evidence. Keep counterexamples and test the guide on material
+      not used to construct it.
+  - q: What will this skill produce?
+    a: A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.
+  - q: How do I start?
+    a: Install gr-brand-voice-calibration from the Gingiris collection, then provide the inputs and starter prompt
+      on this page.
   related:
-  - - OPC Service Validation / OPC 服务验证
-    - /skills/gr-opc-service-validation/
-  - - WeChat Editorial / 公众号内容运营
-    - /skills/gr-wechat-editorial/
+  - - Browse all AI agent skills
+    - /skills/
+  - - Competitor research workflow
+    - /skills/competitor-research/
+  - - User interview workflow
+    - /skills/user-interview/
+  - - Content repurposing workflow
+    - /skills/gr-social-distill/
+  version: 1.1.0
+  updated: '2026-11-08'
+  usage:
+    inputs: Original writing or speech, context, author edits, disliked examples, desired language and audience.
+    outputs: A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.
+    prompt: Build a provisional voice guide from these originals. Separate my preferences from engagement patterns
+      and test it on a held-out sample.
+    example: 'Observed: Chinese news posts outperform English tutorials. Decision: topic and language changed together,
+      so neither proves a language preference. Ask for author feedback and test comparable material.'
+  stats_title: Version and availability
 
 - slug: gr-wechat-editorial
   hf: gr-wechat-editorial
@@ -1365,3 +1446,89 @@
     - /skills/gr-opc-service-validation/
   - - Brand Voice Calibration / 文风校准
     - /skills/gr-brand-voice-calibration/
+- slug: gr-social-distill
+  hf: gr-social-distill
+  install: Gingiris-1031/gingiris-skills
+  install_skill: gr-social-distill
+  title: 'Content Repurposing AI Skill: Blog to Social Drafts | Gingiris'
+  h1: 'Content Repurposing AI Skill: Blog to Social Drafts'
+  tagline: Adapt articles into source-backed social drafts with explicit authorship and format choices.
+  meta_description: Turn articles into attributed X threads, LinkedIn posts and social drafts. Includes format templates,
+    voice checks and canonical decisions.
+  keywords: Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor
+  software_description: Requested platform drafts, attribution notes and optional visual storyboards; no automatic
+    publishing.
+  what: A content repurposing workflow for X, LinkedIn, Xiaohongshu, DEV and Zenn. Start with an article or draft
+    and choose the channels you need.
+  notice: Updated November 8, 2026 · v0.2.1. Free downloadable workflow; results depend on the evidence and execution.
+  takeaways:
+  - Choose only relevant channels and formats.
+  - Preserve original authorship, facts and voice.
+  - Deliver reviewed drafts before any authorized publishing.
+  stats:
+  - - Version
+    - 0.2.1
+  - - Updated
+    - '2026-11-08'
+  - - License
+    - MIT
+  howto:
+    title: How to repurpose an article
+    steps:
+    - name: Read the original
+      text: An article URL, local draft or supplied text, source author, target channels and any approved voice
+        guide.
+    - name: Adapt to the reader
+      text: Select a channel-native angle without inventing personal experience.
+    - name: Deliver and verify
+      text: Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.
+  compare:
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
+    columns:
+    - Output
+    - Use
+    - Limit
+    rows:
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
+  donts:
+    title: Avoid these shortcuts
+    items:
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
+  faqs:
+  - q: Do I need to create all four social formats?
+    a: No. Choose only the requested channels and suitable formats. A single-post request returns a single draft;
+      a carousel outline is labelled as an outline until rendered.
+  - q: What will this skill produce?
+    a: Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.
+  - q: How do I start?
+    a: Install gr-social-distill from the Gingiris collection, then provide the inputs and starter prompt on this
+      page.
+  related:
+  - - Browse all AI agent skills
+    - /skills/
+  - - Competitor research workflow
+    - /skills/competitor-research/
+  - - User interview workflow
+    - /skills/user-interview/
+  version: 0.2.1
+  updated: '2026-11-08'
+  usage:
+    inputs: An article URL, local draft or supplied text, source author, target channels and any approved voice
+      guide.
+    outputs: Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.
+    prompt: Adapt this article into one X thread and a LinkedIn post. Keep the original author credited and do not
+      invent personal experience.
+    example: 'Observed: the article belongs to another author. Decision: write an attributed takeaway. For near-duplicate
+      republication, identify the preferred original before choosing canonical.'
+  stats_title: Version and availability

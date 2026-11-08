@@ -34,7 +34,7 @@ Allow: /
 # ── Google (Gemini) ───────────────────────────────────────────────────────────
 # Google-Extended: Gemini / Vertex AI training opt-in
 # (developers.google.com/search/docs/crawling-indexing/robots/google-extended)
-# Allowing = your content can train Gemini & appear in AI Overviews
+# This token is separate from Google Search crawling; it does not guarantee AI Overviews inclusion.
 User-agent: Google-Extended
 Allow: /
 

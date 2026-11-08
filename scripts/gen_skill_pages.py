@@ -45,11 +45,15 @@ def jsonld(s):
         "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
         "description": s["software_description"], "url": url,
         "downloadUrl": f"https://huggingface.co/datasets/Gingiris/{s['hf']}",
-        "installUrl": f"https://skills.sh/{s['install']}" + (f"/{s['install_skill']}" if s.get("install_skill") else ""),
+        "installUrl": f"https://github.com/{s['install']}" + (f"/tree/main/skills/{s['install_skill']}" if s.get("install_skill") else ""),
         "license": "https://opensource.org/licenses/MIT",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
         "author": AUTHOR, "keywords": s["keywords"],
     }
+    if s.get("version"):
+        soft["softwareVersion"] = s["version"]
+    if s.get("updated"):
+        soft["dateModified"] = s["updated"]
     howto = {"@type": "HowTo", "name": s["howto"]["title"],
         "step": [{"@type": "HowToStep", "position": i + 1, "name": st["name"],
                   "text": html.unescape(st["text"])}
@@ -67,6 +71,15 @@ def jsonld(s):
 def render(s):
     url = f"{SITE}/skills/{s['slug']}/"
     install_command = f"npx skills add {s['install']}" + (f" --skill {s['install_skill']}" if s.get('install_skill') else "")
+    usage_html = ""
+    if s.get("usage"):
+        u = s["usage"]
+        usage_html = f"""<section id="use-this-skill"><h2>Use this skill</h2>
+        <h3>What to provide</h3><p class="body">{html.escape(u['inputs'])}</p>
+        <h3>What you get</h3><p class="body">{html.escape(u['outputs'])}</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">{html.escape(u['prompt'])}</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: {html.escape(u['example'])}</p>
+        <p class="body"><a href="https://github.com/{s['install']}/tree/main/skills/{s['install_skill']}">Read the maintained SKILL.md and templates on GitHub</a></p></section>"""
     companion_html = ""
     if s.get('companion_skill'):
         c = s['companion_skill']
@@ -248,7 +261,7 @@ def render(s):
       <p class="tag-line">{s['tagline']}</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>{s['install']}</b>{(' --skill ' + s['install_skill']) if s.get('install_skill') else ''}</span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('{install_command}');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('{install_command}').then(()=>{{this.classList.add('copied');this.textContent='✓ copied'}}).catch(()=>{{this.textContent='Select command to copy'}})">copy</button>
       </div>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
@@ -270,12 +283,13 @@ def render(s):
     </section>
 
     <section>
-      <h2>Key results</h2>
+      <h2>{s.get("stats_title", "Key results")}</h2>
       <div class="stats"><table><tbody>
 {stats}
       </tbody></table></div>
     </section>
 
+{usage_html}
     <section>
       <h2>{s['howto']['title']}</h2>
       <ol class="steps">
@@ -311,7 +325,7 @@ def render(s):
       <h2>Related playbooks</h2>
       <div class="rel-grid">
 {related}
-          <a class="rel-card" href="/skills/"><span>Browse all 60 playbooks</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>
       </div>
