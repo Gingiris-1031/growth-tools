@@ -831,18 +831,17 @@
     }
     .site-footer a { color: var(--text-secondary); text-decoration: none; margin: 0 8px; }
     .site-footer a:hover { color: var(--accent); }
-    /* Mobile (≤640) — fix install cmd truncation + better touch targets + scrollable nav */
+    /* Mobile (≤640) — fix install cmd truncation + better touch targets + wrapping nav */
     @media (max-width: 640px) {
         .container { padding: 0 14px; }
-        /* Nav: horizontal scroll instead of hiding items */
+        /* Nav: wrap every link into the visible viewport */
         .site-nav { padding: 12px 0; }
-        .site-nav .container { gap: 12px; }
+        .site-nav .container { gap: 12px; flex-wrap: wrap; }
         .site-nav a.logo { font-size: 15px; flex-shrink: 0; }
         .site-nav .nav-links {
-            gap: 14px; font-size: 12px;
-            overflow-x: auto; -webkit-overflow-scrolling: touch;
-            white-space: nowrap; flex-shrink: 1; min-width: 0;
-            scrollbar-width: none;
+            gap: 8px 14px; font-size: 12px;
+            flex-wrap: wrap; width: 100%; min-width: 0;
+            white-space: normal; overflow: visible;
         }
         .site-nav .nav-links::-webkit-scrollbar { display: none; }
         .site-nav .nav-links a { flex-shrink: 0; }
