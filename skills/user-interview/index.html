@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>User Interview &amp; Beta Testing Playbook — Find PMF | Gingiris</title>
-<meta name="description" content="User interview playbook: who to interview (P0–P2), the 30-45 min 5-part script, beta-test 3-layer design, and the 5-question close. Find PMF and willingness to…">
+<title>User Interviews — Real Tasks and Follow-up | Gingiris</title>
+<meta name="description" content="Recover interviews that turn into sales, observe users doing real tasks, and validate changes.">
 <meta name="keywords" content="user interview, customer interview, PMF validation, beta testing, willingness to pay, user research, product feedback, customer discovery, find product market fit">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/user-interview/">
-<meta property="og:title" content="User Interview &amp;amp; Beta Testing Playbook">
-<meta property="og:description" content="The 5-step interview framework + beta-test design that surfaces the real must-have and willingness to pay.">
+<meta property="og:title" content="User Interviews — Real Tasks and Follow-up">
+<meta property="og:description" content="Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="User Interview &amp;amp; Beta Testing Playbook">
-<meta name="twitter:description" content="The 5-step interview framework + beta-test design that surfaces the real must-have and willingness to pay.">
+<meta name="twitter:title" content="User Interviews — Real Tasks and Follow-up">
+<meta name="twitter:description" content="Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,14 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "User Interview &amp; Beta Testing Playbook",
+      "name": "User Interviews — Real Tasks and Follow-up",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "Claude Skill",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "User interview and beta-testing playbook to find PMF: how to pick and prioritize interviewees (paid / power / competitor / churned), a 30–45 minute 5-part interview script, a 3-layer beta-test design, and a structured 5-question close — surfacing the real must-have and willingness to pay.",
+      "description": "Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。",
       "url": "https://tools.gingiris.com/skills/user-interview/",
       "downloadUrl": "https://huggingface.co/datasets/Gingiris/gingiris-user-interview",
-      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-user-interview",
+      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-skills/gingiris-user-interview",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
         "@type": "Offer",
@@ -61,37 +61,25 @@
     },
     {
       "@type": "HowTo",
-      "name": "The 5-step user interview framework",
+      "name": "How to use this workflow",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "1 · Target & screen",
-          "text": "Prioritize by value: P0 paid users and power users (highest-signal), P1 competitor users and churned users (competitive view + real problems), P2 registered-but-unpaid (conversion blockers)."
+          "name": "Set the research question",
+          "text": "Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "2 · Invite & schedule",
-          "text": "Reach out and book sessions with the right mix, weighting toward P0 and churned users."
+          "name": "Observe without taking over",
+          "text": "Separate discovery, usability and sales. Record actions, blockers and moderator assistance."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "3 · Run the interview (30–45 min)",
-          "text": "Five parts: background (role, channels, tenure, competitors) → workflow (what problem, how before, what changed) → competitor comparison → pain mining (bugs, friction, the \"magic wand\" question) → willingness to pay (what they've paid, how much, upgrade triggers)."
-        },
-        {
-          "@type": "HowToStep",
-          "position": 4,
-          "name": "4 · Close & follow up",
-          "text": "Wrap cleanly, confirm next steps, and keep the relationship open for beta access and follow-up."
-        },
-        {
-          "@type": "HowToStep",
-          "position": 5,
-          "name": "5 · Synthesize (every 5–10 sessions)",
-          "text": "Aggregate findings every 5–10 interviews to spot patterns rather than over-indexing on any single voice."
+          "name": "Close the loop",
+          "text": "Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments and actual payment."
         }
       ]
     },
@@ -100,58 +88,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Who should I interview first?",
+          "name": "What changed in this version?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "P0 — paid users (validated willingness to pay) and power users (deepest product knowledge). Then P1 churned users, who expose the real problems happy users won't mention. Registered-but-unpaid (P2) reveal conversion blockers."
+            "text": "Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。"
           }
         },
         {
           "@type": "Question",
-          "name": "How do I get honest willingness-to-pay signal?",
+          "name": "Does this include private workshop material?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ask what they've actually paid for before, how much, and what triggered an upgrade — then the 5-question close including \"would you pay if we launched tomorrow, and why?\". Past behavior and a concrete commitment beat hypothetical enthusiasm."
+            "text": "No. It includes reusable methods and constructed examples, not private transcripts or student records."
           }
         },
         {
           "@type": "Question",
-          "name": "How many interviews before I trust the data?",
+          "name": "How do I install the updated version?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Synthesize every 5–10 sessions to spot patterns. One vivid interview is an anecdote; recurring themes across a batch are signal."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who built this?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), advisor to 150+ AI startups on PMF and user research."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What makes a user interview useless?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Turning it into an investor pitch — you talk 80% and the user zones out. Flip it: let the user share their screen, watch their real workflow and real use cases. Your imagined user journey and their actual journey are almost never the same."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How many interviews did successful AI products run before scaling?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Reportedly, teams like Gamma, HeyGen and Lovable ran 500-1,000 user interviews within about six months before pouring money into growth. The counter-example: skipping this and buying installs at tens of dollars per signup and hundreds per paying user."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can users tell me my own value proposition?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Often yes. Deep users know the scenario, the industry and every competitor better than you do — a single 2-hour interview can surface your real value proposition and your sharpest comparative advantage."
+            "text": "Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-user-interview. The monorepo is the maintained distribution source."
           }
         }
       ]
@@ -168,7 +124,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "User Interview &amp; Beta Testing Playbook",
+          "name": "User Interviews — Real Tasks and Follow-up",
           "item": "https://tools.gingiris.com/skills/user-interview/"
         }
       ]
@@ -262,7 +218,11 @@
   .site-footer a:hover { color:var(--accent); }
   @media (max-width:640px) {
     .container { padding:0 14px; }
-    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:nowrap; }
+    .site-nav .container { flex-direction:column; align-items:flex-start; gap:10px; }
+    .site-nav .nav-links { max-width:100%; min-width:0; flex-wrap:wrap; white-space:normal; }
+    .cmp { table-layout:fixed; }
+    .cmp td, .cmp th, .cmp td:nth-child(2) { white-space:normal; overflow-wrap:anywhere; }
+    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:normal; }
     .hero { padding:24px 0 4px; }
     .meta-install { font-size:13px; max-width:100%; overflow-x:auto; }
   }
@@ -285,16 +245,16 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / User Interview &amp;amp; Beta Testing Playbook</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / User Interviews — Real Tasks and Follow-up</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>User Interview &amp;amp; Beta Testing Playbook</h1>
-      <p class="tag-line">The 5-step interview framework + beta-test design that surfaces the real must-have and willingness to pay.</p>
+      <h1>User Interviews — Real Tasks and Follow-up</h1>
+      <p class="tag-line">Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。</p>
       <div class="meta-install" id="install">
-        <span>npx skills add <b>Gingiris-1031/gingiris-user-interview</b></span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-user-interview');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-user-interview</span>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-user-interview');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
       </div>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
@@ -305,83 +265,68 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Prioritize <strong>paid + power users (P0)</strong> and <strong>churned users</strong> — churned users expose the real problems.</li>
-          <li>Run a structured <strong>5-part, 30–45 min script</strong>: background → workflow → competitors → pain → willingness to pay.</li>
-          <li>Beta tests need <strong>3 layers</strong>: value validation, experience perception, gap identification.</li>
-          <li>Close with the <strong>5-question method</strong> — including "would you pay if we launched tomorrow, and why?"</li>
-          <li>A bad interview is an <strong>investor pitch</strong> — you talk 80%. A good one: the user <strong>shares their screen</strong> and shows real use cases.</li>
-          <li>"Willing to pay" in an interview and actually paying are <strong>two different logics</strong> — validate with real payment behavior, not stated intent.</li>
-          <li>Close the loop: user feedback → team-wide breakdown → fix within 1-2 months → tell the user "your issue is fixed" — the loop itself drives retention.</li>
+          <li>Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.</li>
+          <li>Separate discovery, usability and sales. Record actions, blockers and moderator assistance.</li>
+          <li>Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments and actual payment.</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Most "user feedback" is vanity — happy users being polite. This playbook gets the <strong>real must-have and the real willingness to pay</strong>: who to interview, a structured 30–45 minute script, a 3-layer beta test, and a 5-question close that forces honest signal.</p>
+      <p class="body">Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。</p>
     </section>
 
     <section>
       <h2>Key results</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Interview script length</td><td class="v">30–45 min</td></tr>
-        <tr><td>Interview script parts</td><td class="v">5</td></tr>
-        <tr><td>Synthesis cadence</td><td class="v">every 5–10 sessions</td></tr>
-        <tr><td>Beta-test layers</td><td class="v">3</td></tr>
-        <tr><td>Interviews run by winning teams (reported)</td><td class="v">500-1,000 in ~6 months</td></tr>
-        <tr><td>Trust built by daily user chats (reported)</td><td class="v">2 months beats 1 year</td></tr>
-        <tr><td>First deep interview length</td><td class="v">up to 2 hours</td></tr>
+        <tr><td>Version</td><td class="v">1.1.0</td></tr>
+        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
+        <tr><td>Evidence</td><td class="v">Observations, hypotheses and outcomes kept separate</td></tr>
       </tbody></table></div>
     </section>
 
     <section>
-      <h2>The 5-step user interview framework</h2>
+      <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">1 · Target & screen</p><p class="step-d">Prioritize by value: P0 paid users and power users (highest-signal), P1 competitor users and churned users (competitive view + real problems), P2 registered-but-unpaid (conversion blockers).</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">2 · Invite & schedule</p><p class="step-d">Reach out and book sessions with the right mix, weighting toward P0 and churned users.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">3 · Run the interview (30–45 min)</p><p class="step-d">Five parts: background (role, channels, tenure, competitors) → workflow (what problem, how before, what changed) → competitor comparison → pain mining (bugs, friction, the "magic wand" question) → willingness to pay (what they've paid, how much, upgrade triggers).</p></div></li>
-        <li class="step"><span class="step-n">4</span><div><p class="step-t">4 · Close & follow up</p><p class="step-d">Wrap cleanly, confirm next steps, and keep the relationship open for beta access and follow-up.</p></div></li>
-        <li class="step"><span class="step-n">5</span><div><p class="step-t">5 · Synthesize (every 5–10 sessions)</p><p class="step-d">Aggregate findings every 5–10 interviews to spot patterns rather than over-indexing on any single voice.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Set the research question</p><p class="step-d">Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Observe without taking over</p><p class="step-d">Separate discovery, usability and sales. Record actions, blockers and moderator assistance.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Close the loop</p><p class="step-d">Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments and actual payment.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>Who to interview — priority by value</h2>
-      <p class="cmp-intro">Not all feedback is equal; weight toward the users whose signal predicts revenue.</p>
+      <h2>What the workflow establishes</h2>
+      <p class="cmp-intro">Keep proposals and verified results separate.</p>
       <table class="cmp">
-        <thead><tr><th>Priority</th><th>User type</th><th>Why</th></tr></thead>
+        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
         <tbody>
-        <tr><td>P0</td><td>Paid users</td><td>Validated willingness to pay — highest value</td></tr>
-        <tr><td>P0</td><td>Power users</td><td>Deep product knowledge — most actionable</td></tr>
-        <tr><td>P1</td><td>Churned users</td><td>Expose the product's real problems</td></tr>
-        <tr><td>P2</td><td>Registered, unpaid</td><td>Reveal conversion blockers</td></tr>
+        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
+        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
+        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Anti-patterns (where interviews mislead)</h2>
+      <h2>Avoid these shortcuts</h2>
       <ul class="donts">
-          <li>Only interviewing happy users — politeness ≠ product-market fit.</li>
-          <li>Leading questions that fish for the answer you want.</li>
-          <li>Skipping the willingness-to-pay question — the only real validation.</li>
-          <li>Acting on a single interview instead of synthesizing every 5–10.</li>
+          <li>Do not turn a teaching example into a universal rule.</li>
+          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
+          <li>Do not publish or contact people merely because a draft exists.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">Who should I interview first?</p><p class="faq-a">P0 — paid users (validated willingness to pay) and power users (deepest product knowledge). Then P1 churned users, who expose the real problems happy users won't mention. Registered-but-unpaid (P2) reveal conversion blockers.</p></div>
-        <div class="faq-item"><p class="faq-q">How do I get honest willingness-to-pay signal?</p><p class="faq-a">Ask what they've actually paid for before, how much, and what triggered an upgrade — then the 5-question close including "would you pay if we launched tomorrow, and why?". Past behavior and a concrete commitment beat hypothetical enthusiasm.</p></div>
-        <div class="faq-item"><p class="faq-q">How many interviews before I trust the data?</p><p class="faq-a">Synthesize every 5–10 sessions to spot patterns. One vivid interview is an anecdote; recurring themes across a batch are signal.</p></div>
-        <div class="faq-item"><p class="faq-q">Who built this?</p><p class="faq-a">Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), advisor to 150+ AI startups on PMF and user research.</p></div>
-        <div class="faq-item"><p class="faq-q">What makes a user interview useless?</p><p class="faq-a">Turning it into an investor pitch — you talk 80% and the user zones out. Flip it: let the user share their screen, watch their real workflow and real use cases. Your imagined user journey and their actual journey are almost never the same.</p></div>
-        <div class="faq-item"><p class="faq-q">How many interviews did successful AI products run before scaling?</p><p class="faq-a">Reportedly, teams like Gamma, HeyGen and Lovable ran 500-1,000 user interviews within about six months before pouring money into growth. The counter-example: skipping this and buying installs at tens of dollars per signup and hundreds per paying user.</p></div>
-        <div class="faq-item"><p class="faq-q">Can users tell me my own value proposition?</p><p class="faq-a">Often yes. Deep users know the scenario, the industry and every competitor better than you do — a single 2-hour interview can surface your real value proposition and your sharpest comparative advantage.</p></div>
+        <div class="faq-item"><p class="faq-q">What changed in this version?</p><p class="faq-a">Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。</p></div>
+        <div class="faq-item"><p class="faq-q">Does this include private workshop material?</p><p class="faq-a">No. It includes reusable methods and constructed examples, not private transcripts or student records.</p></div>
+        <div class="faq-item"><p class="faq-q">How do I install the updated version?</p><p class="faq-a">Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-user-interview. The monorepo is the maintained distribution source.</p></div>
     </section>
 
 <section><h2>Updated execution templates · October 2026</h2>
-        <p class="body">Turn observed pain points into proposed solutions, user journeys, owners and acceptance checks, preserving the original evidence and follow-up questions. These templates are in the separate <strong>gr-user-interview</strong> skill; install it alongside this playbook.</p>
+        <p class="body">Additional compact entrypoint for the same updated evidence and decision workflow. These templates are in the separate <strong>gr-user-interview</strong> skill; install it alongside this playbook.</p>
         <div class="meta-install"><code>npx skills add Gingiris-1031/gingiris-skills --skill gr-user-interview</code></div>
         <p class="body"><a href="https://skills.sh/Gingiris-1031/gingiris-skills/gr-user-interview">View gr-user-interview on skills.sh</a></p></section>
     <section>
@@ -408,14 +353,5 @@
       <p style="margin-top:12px">© Iris (生姜iris) · Community skill licensed under MIT · Hosted services separate</p>
     </div>
   </footer>
-
-<section id="gingiris-community-cta" style="max-width:1000px;margin:40px auto;padding:24px;border:1px solid #b9c9a9;border-radius:16px;line-height:1.8">
-<h2>加入出海社群与购买资料包 · Community &amp; Resources</h2>
-<p><strong>加入出海社群：</strong>微信添加 <strong>staywildgrow</strong>，留言「加入社群」即可。<br>
-<strong>购买资料包：</strong>微信添加 <strong>staywildgrow</strong>，购买 Gingiris 出海资料包，价格 <strong>599 元人民币</strong>。</p>
-<p><strong>Join the community:</strong> Add <strong>staywildgrow</strong> on WeChat and send “加入社群” (join the community).<br>
-<strong>Get the resource pack:</strong> Add <strong>staywildgrow</strong> on WeChat to purchase the Gingiris global growth resource pack for <strong>CNY 599</strong>.</p>
-<p>社群与资料包为可选入口，不影响开源 Skill 的安装和使用。<br>The community and paid resource pack are optional; neither is required to install or use the open-source skills.</p>
-</section>
 </body>
 </html>

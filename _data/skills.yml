@@ -627,146 +627,159 @@
 
 - slug: ugc-matrix
   hf: gingiris-ugc-matrix
-  install: Gingiris-1031/gingiris-ugc-matrix
-  title: "UGC Matrix Growth Playbook — AI + Creators to $10M ARR | Gingiris"
-  h1: "UGC Matrix Growth Playbook"
-  tagline: "Scale user-generated content with AI + real creators — the flywheel behind $10M ARR in 60 days."
-  meta_description: "UGC matrix playbook: IP + matrix-account flywheel, creator recruitment & tiering, incentive design, multi-platform strategy. Proven at CPM $0.5, $10M ARR in 60 days, 70M impressions (anonymized client case)."
-  keywords: "UGC matrix, user generated content, creator program, AI UGC, matrix accounts, content flywheel, TikTok UGC, creator recruitment, CPM 0.5"
-  software_description: "UGC matrix growth playbook to scale user-generated content with AI plus real creators: the IP + matrix-account flywheel, creator recruitment and tiering (strategists vs executors), incentive design, AI matrix-account operations, and multi-platform strategy. Proven at CPM $0.5 — $10M ARR in 60 days with 70M impressions (anonymized client case)."
+  install: Gingiris-1031/gingiris-skills
+  title: UGC Creator Programs — Outcomes and Testing | Gingiris
+  h1: UGC Creator Programs — Outcomes and Testing
+  tagline: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
+  meta_description: Match creator incentives to awareness, activation or payment, then test content variants.
+  keywords: UGC matrix, user generated content, creator program, AI UGC, matrix accounts, content flywheel, TikTok
+    UGC, creator recruitment, CPM 0.5
+  software_description: Match creator incentives to awareness, activation or payment, then test content variants.
+    / 按业务目标选择激励。
   app_category: BusinessApplication
-  what: "A 2-person team hit ~$10M ARR in 60 days with <strong>zero funding, zero ad budget, zero sales team</strong> — via a UGC flywheel: an IP account builds trust, attracts creators, who feed a matrix of accounts that amplifies reach. This playbook is that flywheel, recruitment, incentives and platform strategy."
+  what: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
   takeaways:
-    - "The flywheel: <strong>IP account → attracts creators → matrix accounts → amplifies → more creators</strong>."
-    - "Tier creators: <strong>~10 strategists (new concepts) + ~70 executors (replicate winners)</strong>."
-    - "Two-step content: <strong>AI value posts to grow followers, then Before/After use-cases to convert</strong>."
-    - "Proven economics: <strong>CPM $0.5, 6:4 human-to-AI UGC ratio</strong>, 70M impressions."
+  - Define reach, activation or actual payment separately. Agree fees, attribution, reuse rights and refunds.
+  - Allow original creators to explore; give execution partners an authorized format and observable acceptance criteria.
+  - Track counts, denominators and downstream quality. Natural recommendations are not randomized A/B allocation;
+    small samples can be inconclusive.
   stats:
-    - ["Core team size", "2 people"]
-    - ["Time to ~$10M ARR", "60 days"]
-    - ["Global social impressions", "70M"]
-    - ["CPM", "$0.5"]
+  - - Version
+    - 1.1.0
+  - - Updated
+    - '2026-11-08'
+  - - Evidence
+    - Observations, hypotheses and outcomes kept separate
   howto:
-    title: "How to build a UGC matrix"
+    title: How to use this workflow
     steps:
-      - name: "1 · Recruit & tier creators"
-        text: "Build two tiers: ~10 strategists who create new concepts and test directions, and ~70 executors who precisely replicate the winning scripts."
-      - name: "2 · Design incentives"
-        text: "Set incentives that reward both originating a winning format and faithfully scaling it — so strategists keep inventing and executors keep producing."
-      - name: "3 · Run AI matrix accounts"
-        text: "Operate a matrix of AI-assisted accounts to multiply output, maintaining account health and platform-policy compliance."
-      - name: "4 · Two-step content strategy"
-        text: "Step 1 grow followers with AI value content (tool lists, tips). Step 2 convert with Before/After use-case posts and real phone-shot demos."
-      - name: "5 · Sequence market entry"
-        text: "Enter platforms and markets in order of fit, matching content style and conversion expectation to each platform's audience."
+    - name: Choose the outcome
+      text: Define reach, activation or actual payment separately. Agree fees, attribution, reuse rights and refunds.
+    - name: Brief the creator
+      text: Allow original creators to explore; give execution partners an authorized format and observable acceptance
+        criteria.
+    - name: Read the experiment
+      text: Track counts, denominators and downstream quality. Natural recommendations are not randomized A/B allocation;
+        small samples can be inconclusive.
   compare:
-    title: "Platform strategy by audience"
-    intro: "Match content style and conversion expectation to each platform's audience."
-    columns: ["Platform", "Audience", "Conversion / key"]
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
+    columns:
+    - Output
+    - Use
+    - Limit
     rows:
-      - ["TikTok", "13–18", "Lowest · ultra-abstract, strong hook"]
-      - ["Instagram", "18–25", "Medium · shareable, visual quality"]
-      - ["YouTube", "25–35", "Highest · first-3-second retention"]
-      - ["Threads", "All ages", "High · algorithm dividend window"]
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
   donts:
-    title: "Anti-patterns (where UGC matrices break)"
+    title: Avoid these shortcuts
     items:
-      - "Only running AI accounts — the IP account that builds trust is what attracts real creators."
-      - "All executors, no strategists — you run out of winning formats to replicate."
-      - "Posting value content with no use-case conversion step — followers but no revenue."
-      - "Same content across platforms — TikTok and YouTube want opposite things."
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
   faqs:
-    - q: "Can a tiny team really run a UGC matrix?"
-      a: "Yes — the validated client case (anonymized) was a 2-person core team reaching ~$10M ARR in 60 days with 70M impressions at CPM $0.5, by leveraging a tiered creator network (10 strategists + 70 executors) plus AI matrix accounts rather than hiring."
-    - q: "What's the human-to-AI content ratio?"
-      a: "Around 6:4 human-to-AI UGC. AI multiplies output and tests variations, but real-creator content carries the trust and conversion. The mix keeps volume high without going fully synthetic."
-    - q: "How does UGC actually convert, not just get views?"
-      a: "Two-step: AI value content (tool lists, tips) grows followers; then Before/After use-case posts and real phone-shot demos convert that audience. Skipping the conversion step gets you reach with no revenue."
-    - q: "Who built this?"
-      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), compiled with a fully documented client UGC-matrix case study (anonymized)."
+  - q: What changed in this version?
+    a: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
+  - q: Does this include private workshop material?
+    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
+  - q: How do I install the updated version?
+    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-ugc-matrix. The monorepo is the maintained
+      distribution source.
   related:
-    - ["ASO &amp; App Cold-Start Playbook", "/skills/aso-growth/"]
-    - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
-    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+  - - ASO &amp; App Cold-Start Playbook
+    - /skills/aso-growth/
+  - - KOL Outreach &amp; Influencer Marketing
+    - /skills/kol-outreach/
+  - - 'Product Hunt Launch Playbook — Win #1 of the Day'
+    - /skills/product-hunt-launch/
+  install_skill: gingiris-ugc-matrix
+  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
 
 - slug: user-interview
   companion_skill:
     name: gr-user-interview
-    description: "Turn observed pain points into proposed solutions, user journeys, owners and acceptance checks, preserving the original evidence and follow-up questions."
+    description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: gingiris-user-interview
-  install: Gingiris-1031/gingiris-user-interview
-  title: "User Interview & Beta Testing Playbook — Find PMF | Gingiris"
-  h1: "User Interview &amp; Beta Testing Playbook"
-  tagline: "The 5-step interview framework + beta-test design that surfaces the real must-have and willingness to pay."
-  meta_description: "User interview playbook: who to interview (P0–P2), the 30-45 min 5-part script, beta-test 3-layer design, and the 5-question close. Find PMF and willingness to pay, not vanity feedback."
-  keywords: "user interview, customer interview, PMF validation, beta testing, willingness to pay, user research, product feedback, customer discovery, find product market fit"
-  software_description: "User interview and beta-testing playbook to find PMF: how to pick and prioritize interviewees (paid / power / competitor / churned), a 30–45 minute 5-part interview script, a 3-layer beta-test design, and a structured 5-question close — surfacing the real must-have and willingness to pay."
+  install: Gingiris-1031/gingiris-skills
+  title: User Interviews — Real Tasks and Follow-up | Gingiris
+  h1: User Interviews — Real Tasks and Follow-up
+  tagline: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
+  meta_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
+  keywords: user interview, customer interview, PMF validation, beta testing, willingness to pay, user research,
+    product feedback, customer discovery, find product market fit
+  software_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
+    / 用真实行为与复测验证需求。
   app_category: BusinessApplication
-  what: "Most \"user feedback\" is vanity — happy users being polite. This playbook gets the <strong>real must-have and the real willingness to pay</strong>: who to interview, a structured 30–45 minute script, a 3-layer beta test, and a 5-question close that forces honest signal."
+  what: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
   takeaways:
-    - "Prioritize <strong>paid + power users (P0)</strong> and <strong>churned users</strong> — churned users expose the real problems."
-    - "Run a structured <strong>5-part, 30–45 min script</strong>: background → workflow → competitors → pain → willingness to pay."
-    - "Beta tests need <strong>3 layers</strong>: value validation, experience perception, gap identification."
-    - "Close with the <strong>5-question method</strong> — including \"would you pay if we launched tomorrow, and why?\""
-    - "A bad interview is an <strong>investor pitch</strong> — you talk 80%. A good one: the user <strong>shares their screen</strong> and shows real use cases."
-    - "\"Willing to pay\" in an interview and actually paying are <strong>two different logics</strong> — validate with real payment behavior, not stated intent."
-    - "Close the loop: user feedback → team-wide breakdown → fix within 1-2 months → tell the user \"your issue is fixed\" — the loop itself drives retention."
+  - Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.
+  - Separate discovery, usability and sales. Record actions, blockers and moderator assistance.
+  - Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments
+    and actual payment.
   stats:
-    - ["Interview script length", "30–45 min"]
-    - ["Interview script parts", "5"]
-    - ["Synthesis cadence", "every 5–10 sessions"]
-    - ["Beta-test layers", "3"]
-    - ["Interviews run by winning teams (reported)", "500-1,000 in ~6 months"]
-    - ["Trust built by daily user chats (reported)", "2 months beats 1 year"]
-    - ["First deep interview length", "up to 2 hours"]
+  - - Version
+    - 1.1.0
+  - - Updated
+    - '2026-11-08'
+  - - Evidence
+    - Observations, hypotheses and outcomes kept separate
   howto:
-    title: "The 5-step user interview framework"
+    title: How to use this workflow
     steps:
-      - name: "1 · Target & screen"
-        text: "Prioritize by value: P0 paid users and power users (highest-signal), P1 competitor users and churned users (competitive view + real problems), P2 registered-but-unpaid (conversion blockers)."
-      - name: "2 · Invite & schedule"
-        text: "Reach out and book sessions with the right mix, weighting toward P0 and churned users."
-      - name: "3 · Run the interview (30–45 min)"
-        text: "Five parts: background (role, channels, tenure, competitors) → workflow (what problem, how before, what changed) → competitor comparison → pain mining (bugs, friction, the \"magic wand\" question) → willingness to pay (what they've paid, how much, upgrade triggers)."
-      - name: "4 · Close & follow up"
-        text: "Wrap cleanly, confirm next steps, and keep the relationship open for beta access and follow-up."
-      - name: "5 · Synthesize (every 5–10 sessions)"
-        text: "Aggregate findings every 5–10 interviews to spot patterns rather than over-indexing on any single voice."
+    - name: Set the research question
+      text: Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.
+    - name: Observe without taking over
+      text: Separate discovery, usability and sales. Record actions, blockers and moderator assistance.
+    - name: Close the loop
+      text: Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments
+        and actual payment.
   compare:
-    title: "Who to interview — priority by value"
-    intro: "Not all feedback is equal; weight toward the users whose signal predicts revenue."
-    columns: ["Priority", "User type", "Why"]
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
+    columns:
+    - Output
+    - Use
+    - Limit
     rows:
-      - ["P0", "Paid users", "Validated willingness to pay — highest value"]
-      - ["P0", "Power users", "Deep product knowledge — most actionable"]
-      - ["P1", "Churned users", "Expose the product's real problems"]
-      - ["P2", "Registered, unpaid", "Reveal conversion blockers"]
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
   donts:
-    title: "Anti-patterns (where interviews mislead)"
+    title: Avoid these shortcuts
     items:
-      - "Only interviewing happy users — politeness ≠ product-market fit."
-      - "Leading questions that fish for the answer you want."
-      - "Skipping the willingness-to-pay question — the only real validation."
-      - "Acting on a single interview instead of synthesizing every 5–10."
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
   faqs:
-    - q: "Who should I interview first?"
-      a: "P0 — paid users (validated willingness to pay) and power users (deepest product knowledge). Then P1 churned users, who expose the real problems happy users won't mention. Registered-but-unpaid (P2) reveal conversion blockers."
-    - q: "How do I get honest willingness-to-pay signal?"
-      a: "Ask what they've actually paid for before, how much, and what triggered an upgrade — then the 5-question close including \"would you pay if we launched tomorrow, and why?\". Past behavior and a concrete commitment beat hypothetical enthusiasm."
-    - q: "How many interviews before I trust the data?"
-      a: "Synthesize every 5–10 sessions to spot patterns. One vivid interview is an anecdote; recurring themes across a batch are signal."
-    - q: "Who built this?"
-      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), advisor to 150+ AI startups on PMF and user research."
-    - q: "What makes a user interview useless?"
-      a: "Turning it into an investor pitch — you talk 80% and the user zones out. Flip it: let the user share their screen, watch their real workflow and real use cases. Your imagined user journey and their actual journey are almost never the same."
-    - q: "How many interviews did successful AI products run before scaling?"
-      a: "Reportedly, teams like Gamma, HeyGen and Lovable ran 500-1,000 user interviews within about six months before pouring money into growth. The counter-example: skipping this and buying installs at tens of dollars per signup and hundreds per paying user."
-    - q: "Can users tell me my own value proposition?"
-      a: "Often yes. Deep users know the scenario, the industry and every competitor better than you do — a single 2-hour interview can surface your real value proposition and your sharpest comparative advantage."
+  - q: What changed in this version?
+    a: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
+  - q: Does this include private workshop material?
+    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
+  - q: How do I install the updated version?
+    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-user-interview. The monorepo is the maintained
+      distribution source.
   related:
-    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
-    - ["AI Product / SaaS Go-Global SOP", "/skills/go-global/"]
-    - ["Competitor Research &amp; Growth Flywheel", "/skills/competitor-research/"]
+  - - B2B SaaS Growth — PLG vs SLG to $10M ARR
+    - /skills/b2b-saas-growth/
+  - - AI Product / SaaS Go-Global SOP
+    - /skills/go-global/
+  - - Competitor Research &amp; Growth Flywheel
+    - /skills/competitor-research/
+  install_skill: gingiris-user-interview
+  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
 
 - slug: community-ambassador
   hf: community-ambassador-playbook
@@ -849,206 +862,236 @@
 - slug: competitor-research
   companion_skill:
     name: gr-competitor
-    description: "Research competitors’ early paying customers with dated source and payment evidence, mark unknowns, and turn industry hypotheses into interviews and acceptance criteria."
+    description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: competitor-research-playbook
-  install: Gingiris-1031/competitor-research-playbook
-  title: "Competitor Research & Growth Flywheel Playbook | Gingiris"
-  h1: "Competitor Research &amp; Growth Flywheel Playbook"
-  tagline: "Reverse-engineer how a competitor grew — Wayback teardown, propagation mapping, 6-stage flywheel scoring."
-  meta_description: "Competitor research SOP: 4-step framework, 3-version Wayback website-evolution analysis, X/Twitter propagation-chain mapping, growth-flywheel 6-stage scoring, KOL identification. Incl. Lovable case."
-  keywords: "competitor research, competitive analysis, growth flywheel, Wayback Machine, website teardown, Twitter propagation, KOL identification, market research, ICP analysis"
-  software_description: "Systematic competitor-research SOP: a 4-step framework (website teardown → social media → traffic sources → ad spend), 3-version Wayback website-evolution analysis, X/Twitter propagation-chain mapping, growth-flywheel 6-stage scoring, and KOL identification. Battle-tested across 150+ AI startups including the Lovable launch case study."
+  install: Gingiris-1031/gingiris-skills
+  title: Competitor Research — Evidence to Decisions | Gingiris
+  h1: Competitor Research — Evidence to Decisions
+  tagline: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
+    / 从证据到自己的行动。
+  meta_description: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable
+    decision.
+  keywords: competitor research, competitive analysis, growth flywheel, Wayback Machine, website teardown, Twitter
+    propagation, KOL identification, market research, ICP analysis
+  software_description: Compare the right stage and page purpose, verify social evidence, and turn findings into
+    a testable decision. / 从证据到自己的行动。
   app_category: BusinessApplication
-  what: "When a competitor blows up, the instinct is to copy their latest move — usually the wrong one. This playbook <strong>reverse-engineers the whole flywheel</strong>: how their website evolved, how the launch propagated, and which growth stages are actually strong — so you copy the system, not the symptom."
+  what: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
+    / 从证据到自己的行动。
   takeaways:
-    - "Work the <strong>4 steps in order</strong>: website → social media → traffic sources → ad spend."
-    - "Read <strong>3 website versions via Wayback</strong> (V1 / Beta / Launch) to see how positioning evolved."
-    - "Score the <strong>6-stage flywheel</strong> (Activation → Referral → Acquisition → Retention → Revenue → Product) to find the real strength."
-    - "Content that travels: <strong>visual demo &gt; user story &gt; competitor comparison</strong> (validated ranking)."
-    - "Use <strong>Google date-range search</strong> to rewind to 2016/2018 and study what unicorns did <em>before</em> they were famous — early user cases beat current PR."
-    - "Find a competitor's <strong>open-source launch day on star-history</strong>, then date-filter Google to reconstruct exactly which channels they hit that day."
-    - "Treat a <strong>competitor's funding announcement as a launch-timing signal</strong> — readiness beats the perfect moment."
+  - Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent.
+  - Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch peak does
+    not establish causality.
+  - Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions.
   stats:
-    - ["AI startups analyzed", "150+"]
-    - ["Website versions compared", "3 (V1/Beta/Launch)"]
-    - ["Flywheel stages scored", "6"]
-    - ["Lovable launch-day impressions", "229K"]
-    - ["Channels in AppFlowy's zero-budget launch (self-reported)", "~40"]
-    - ["Stars in week 1 after replicating the SOP (AFFiNE, self-reported)", "~6,000"]
-    - ["Replicable result for other teams (self-reported)", "1,000-3,000 stars / 3 months"]
+  - - Version
+    - 1.4.0
+  - - Updated
+    - '2026-11-08'
+  - - Evidence
+    - Observations, hypotheses and outcomes kept separate
   howto:
-    title: "The 4-step competitor research framework"
+    title: How to use this workflow
     steps:
-      - name: "1 · Website teardown (3 versions)"
-        text: "Pull V1, Beta and Launch snapshots from the Wayback Machine and record, per version: one-line positioning, page length/structure, use cases, CTA/pricing, SEO changes, and which community channels launched when."
-      - name: "2 · Social media teardown"
-        text: "Use SimilarWeb to find their main traffic source, then deep-dive the right channel: official vs founder vs DevRel vs KOL accounts, posting cadence, and content-type mix."
-      - name: "3 · Map the propagation chain"
-        text: "Reconstruct the launch as 4 phases — internal ignition (hours) → ecosystem catalysis (1–2 days) → KOL detonation (2–3 days) → broad penetration (weeks) — and identify the traffic kings, topic starters, and mindset-shifters."
-      - name: "4 · Score the growth flywheel"
-        text: "Rate all six stages (Activation, Referral, Acquisition, Retention, Revenue, Product) strong-vs-weak using signals like Discord DAU, systematic user-story propagation, and clear free-to-paid triggers."
+    - name: Match the task
+      text: Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent.
+    - name: Read the evidence
+      text: Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch
+        peak does not establish causality.
+    - name: Make the decision
+      text: Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions.
   compare:
-    title: "Content effectiveness (validated ranking)"
-    intro: "When mapping a competitor's launch, weight the content types that actually drove spread."
-    columns: ["Rank", "Content type", "Why it travels"]
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
+    columns:
+    - Output
+    - Use
+    - Limit
     rows:
-      - ["🥇", "Visual demo (video/GIF)", "Strongest immediate impact"]
-      - ["🥈", "Real user success story", "Most credible"]
-      - ["🥉", "Competitor comparison", "Sparks discussion"]
-      - ["4–5", "Stats / feature announcements", "Social currency / narrow reach"]
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
   donts:
-    title: "Anti-patterns (where competitor research misleads)"
+    title: Avoid these shortcuts
     items:
-      - "Copying their latest tactic instead of the underlying flywheel."
-      - "Only looking at the current site — you miss how positioning evolved."
-      - "Analyzing every channel equally instead of their main traffic source."
-      - "Ignoring which content actually propagated vs. what merely existed."
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
   faqs:
-    - q: "How do I reverse-engineer a competitor's growth?"
-      a: "Run the 4 steps in order — website teardown (3 Wayback versions), social-media channel analysis, traffic-source mapping, ad-spend — then score their 6-stage growth flywheel to find where the strength actually is."
-    - q: "Which content types drive the most spread?"
-      a: "Validated ranking: visual demos (video/GIF) > real user success stories > competitor comparisons > stats/feature announcements. Weight your teardown — and your own launch — toward the top of that list."
-    - q: "What tools do I need?"
-      a: "Wayback Machine for historical website snapshots, SimilarWeb for traffic-source distribution, and Semrush for SEO and ad-spend analysis."
-    - q: "Who built this?"
-      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from 150+ AI-startup competitive analyses including a full Lovable launch teardown."
-    - q: "How do I research what a competitor did before they got big?"
-      a: "Rewind with Google's date-range filter (e.g. to 2016/2018), compare their taglines across eras, and dig archived early user cases — ClickUp reportedly started by serving ~10 marketing consultancies to crack one vertical before expanding."
-    - q: "How do I reverse-engineer a competitor's launch day?"
-      a: "Look up their open-source date on star-history, then date-restrict Google searches to that day/week. AppFlowy's launch reportedly used only ~40 channels with zero budget; replicating that SOP helped AFFiNE reach ~6,000 stars in week one (self-reported)."
+  - q: What changed in this version?
+    a: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
+      / 从证据到自己的行动。
+  - q: Does this include private workshop material?
+    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
+  - q: How do I install the updated version?
+    a: Use npx skills add Gingiris-1031/gingiris-skills --skill competitor-research-playbook. The monorepo is the
+      maintained distribution source.
   related:
-    - ["AI Product / SaaS Go-Global SOP", "/skills/go-global/"]
-    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
-    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+  - - AI Product / SaaS Go-Global SOP
+    - /skills/go-global/
+  - - SEO &amp; GEO Dual-Engine Playbook
+    - /skills/seo-geo/
+  - - 'Product Hunt Launch Playbook — Win #1 of the Day'
+    - /skills/product-hunt-launch/
+  install_skill: competitor-research-playbook
+  notice: Updated November 8, 2026 · v1.4.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
 
 - slug: twitter-agent-ops
   hf: gingiris-twitter-agent-ops
-  install: Gingiris-1031/gingiris-twitter-agent-ops
-  title: "Twitter/X Agent Operations — AI Ghostwriter SOP (+60% in 45 Days) | Gingiris"
-  h1: "Twitter/X Agent Operations — AI Ghostwriter SOP"
-  tagline: "Turn any AI agent into a ghostwriter that sounds like you — and grew a real account +60% in 45 days."
-  meta_description: "Twitter/X agent SOP: persona calibration, fact-source database (zero fabricated stats), weekly scheduling, 6 safety rules, pre-publish QC. Grew a real account +60% in 45 days, fully agent-operated."
-  keywords: "twitter automation, X account growth, AI ghostwriter, social media agent, persona calibration, tweet scheduling, AI agent twitter, content methodology"
-  software_description: "Complete SOP for AI-agent-driven Twitter/X operations that sound like you: persona calibration (voice guide, dead-opener blacklist), a fact-source database for zero fabricated stats, weekly scheduling with dedup and golden time windows, six hard safety rules, pre-publish QC, and an analytics loop. Real case: +60% followers in 45 days, fully agent-operated."
+  install: Gingiris-1031/gingiris-skills
+  title: Social Operations — Voice, Format and Verification | Gingiris
+  h1: Social Operations — Voice, Format and Verification
+  tagline: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
+  meta_description: Use source-backed voice rules and choose single posts or threads for the actual task.
+  keywords: twitter automation, X account growth, AI ghostwriter, social media agent, persona calibration, tweet
+    scheduling, AI agent twitter, content methodology
+  software_description: Use source-backed voice rules and choose single posts or threads for the actual task. /
+    文风、格式与发布验证。
   app_category: DeveloperApplication
-  what: "You know you should post daily, but writing eats your evenings — and when AI writes for you, it sounds nothing like you. This SOP turns any agent into a ghostwriter that <strong>actually sounds like you</strong>, with a fact-source database so it never fabricates numbers, and safety rails so it never embarrasses you. Real result: +60% in 45 days."
+  what: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
   takeaways:
-    - "<strong>Persona calibration</strong> (voice guide + dead-opener blacklist) is what makes AI sound like you, not a bot."
-    - "A <strong>fact-source database (SOURCE-INDEX)</strong> means every stat is traceable — zero fabricated numbers."
-    - "<strong>Six hard safety rules + pre-publish QC</strong> (triple-translation test) before anything posts."
-    - "Validated: <strong>1,150 → 1,837 followers (+60%) in 45 days</strong>, one tweet/day, fully agent-operated."
+  - Preserve attribution and author intent. Engagement is not proof that a post sounds like the author.
+  - Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread length
+    or frequency.
+  - Keep draft review, authorized publishing, delivery readback and measured outcomes separate.
   stats:
-    - ["Follower growth in 45 days", "+60%"]
-    - ["Posting cadence", "1 tweet/day"]
-    - ["Tweet dataset analyzed", "3,861 tweets"]
-    - ["Hard safety rules", "6"]
+  - - Version
+    - 2.3.0
+  - - Updated
+    - '2026-11-08'
+  - - Evidence
+    - Observations, hypotheses and outcomes kept separate
   howto:
-    title: "How to run an AI Twitter ghostwriter"
+    title: How to use this workflow
     steps:
-      - name: "1 · Calibrate the persona"
-        text: "Build a voice guide and expression rules, plus a dead-opener blacklist, so the agent writes in your voice instead of generic AI cadence."
-      - name: "2 · Build the fact-source database"
-        text: "Create a SOURCE-INDEX of traceable facts and numbers. The agent may only cite stats that exist in the index — this is how it never fabricates."
-      - name: "3 · Schedule the week"
-        text: "Plan posts on a weekly schedule with dedup checks against past tweets and golden time windows (derived from a 3,861-tweet analysis)."
-      - name: "4 · Pre-publish QC"
-        text: "Run every draft through the six hard safety rules and a pre-publish checklist, including a triple-translation test, before it goes live."
-      - name: "5 · Analytics loop"
-        text: "Keep a tweet-log and weekly report so the agent learns which archetypes and lengths perform, and feeds that back into scheduling."
+    - name: Read the source and voice
+      text: Preserve attribution and author intent. Engagement is not proof that a post sounds like the author.
+    - name: Choose the format
+      text: Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread
+        length or frequency.
+    - name: Verify delivery and results
+      text: Keep draft review, authorized publishing, delivery readback and measured outcomes separate.
   compare:
-    title: "Hand-written vs AI-agent-operated"
-    intro: "The goal isn't to remove you — it's to keep your voice while reclaiming your evenings."
-    columns: ["Dimension", "Manual", "Agent-operated (this SOP)"]
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
+    columns:
+    - Output
+    - Use
+    - Limit
     rows:
-      - ["Time cost", "Hours/week", "Minutes of review"]
-      - ["Voice", "Yours", "Yours (persona-calibrated)"]
-      - ["Fabricated stats", "Human error", "Blocked by SOURCE-INDEX"]
-      - ["Consistency", "Drops when busy", "Daily, scheduled"]
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
   donts:
-    title: "Anti-patterns (where AI Twitter goes wrong)"
+    title: Avoid these shortcuts
     items:
-      - "Letting the agent write without persona calibration — instant bot smell."
-      - "No fact-source database — fabricated numbers destroy trust."
-      - "Skipping pre-publish QC — one bad auto-post undoes months."
-      - "Optimizing for volume over the archetypes that actually perform."
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
   faqs:
-    - q: "Can an AI agent really post in my voice?"
-      a: "Yes, with persona calibration — a voice guide, expression rules, and a dead-opener blacklist — validated by a triple-translation test before publishing. The case study grew a real account +60% in 45 days, fully agent-operated, without sounding like a bot."
-    - q: "How does it avoid making up statistics?"
-      a: "A fact-source database (SOURCE-INDEX) holds every traceable fact. The agent is constrained to cite only numbers that exist in the index, so it can't fabricate."
-    - q: "Is it safe to let an agent post automatically?"
-      a: "Only with rails: six hard safety rules plus a pre-publish QC checklist (including a triple-translation test) gate every post. The point is consistency with your voice, not unattended risk."
-    - q: "Who built this?"
-      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars), from analysis of a 3,861-tweet dataset and a real +60%-in-45-days account."
+  - q: What changed in this version?
+    a: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
+  - q: Does this include private workshop material?
+    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
+  - q: How do I install the updated version?
+    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-twitter-agent-ops. The monorepo is the
+      maintained distribution source.
   related:
-    - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
-    - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
-    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+  - - KOL Outreach &amp; Influencer Marketing
+    - /skills/kol-outreach/
+  - - UGC Matrix Growth Playbook
+    - /skills/ugc-matrix/
+  - - SEO &amp; GEO Dual-Engine Playbook
+    - /skills/seo-geo/
+  install_skill: gingiris-twitter-agent-ops
+  notice: Updated November 8, 2026 · v2.3.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
 
 - slug: growth-finder
   hf: gingiris-growth-finder
-  install: Gingiris-1031/gingiris-growth-finder
-  title: "Growth Finder — Which Growth Playbook Do You Need? | Gingiris"
-  h1: "Growth Finder — Diagnose, Then Pick the Right Playbook"
-  tagline: "Tell it your product type, stage and channel — it routes you to the growth playbook that fits."
-  meta_description: "Growth Finder: a meta-router that diagnoses your growth problem and points you to the right Gingiris playbook — launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community — by product type and stage."
-  keywords: "how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing, product launch, growth routing"
-  software_description: "Meta-router that diagnoses a growth problem and points to the matching Gingiris playbook (launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community) based on product type, stage and channel fit. Use it when you don't yet know which specialist playbook you need."
+  install: Gingiris-1031/gingiris-skills
+  title: Growth Finder — Diagnose the Current Constraint | Gingiris
+  h1: Growth Finder — Diagnose the Current Constraint
+  tagline: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
+  meta_description: Identify the growth model, stage and constraint before selecting a specialist.
+  keywords: how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing,
+    product launch, growth routing
+  software_description: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
   app_category: BusinessApplication
-  what: "When you don't yet know <strong>which</strong> growth move you need, start here. Growth Finder diagnoses your situation — product type, stage, channel — and routes you to the specialist playbook that fits, so you don't run an SLG play on a PLG product or chase stars when you need PMF."
-  notice: "<strong>⚠️ 2C products:</strong> Growth Finder now includes <strong>Step 0 — growth model selector</strong>: B2B SaaS (pipeline → MQL → SQL → paid → expansion) vs B2C App (impression → install → activation → D1/D7/D30 retention → viral K). Pick the right framework before diagnosing your bottleneck — the metrics and channel plays are fundamentally different."
+  what: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
+  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
   takeaways:
-    - "<strong>Diagnose before you execute</strong> — the most common growth mistake is running the wrong playbook well."
-    - "Routing is by <strong>product type + stage + channel fit</strong>, not by what's trendy."
-    - "Pre-PMF? <strong>Don't market yet</strong> — go validate the must-have first."
-    - "Each specialist playbook is a one-command install; this just picks the right one."
+  - Separate supplier, user and payer for two-sided products. Supply-first is a hypothesis, not a universal rule.
+  - For local services, test a city, segment and delivery step; separate manual service from reusable software.
+  - Select the narrowest relevant workflow and define the next observable result before expanding channels or spend.
   stats:
-    - ["Specialist playbooks routed to", "10+"]
-    - ["Inputs used to route", "type · stage · channel"]
-    - ["Cost", "Free (MIT)"]
-    - ["Source", "AFFiNE 60K + 150 startups"]
+  - - Version
+    - 1.1.0
+  - - Updated
+    - '2026-11-08'
+  - - Evidence
+    - Observations, hypotheses and outcomes kept separate
   howto:
-    title: "How to find your growth playbook"
+    title: How to use this workflow
     steps:
-      - name: "1 · Name the product type"
-        text: "Open-source project, B2B SaaS, mobile app, or content/creator product — the type rules out half the playbooks immediately."
-      - name: "2 · Locate your stage"
-        text: "Pre-PMF, early traction, or scaling. Pre-PMF means validate first (user interviews), not market."
-      - name: "3 · Identify the bottleneck"
-        text: "Distribution, conversion, retention, or positioning — the bottleneck, not the symptom, points to the playbook."
-      - name: "4 · Route to the specialist"
-        text: "Match to the fitting playbook (see the table below) and install it with one command."
+    - name: Identify roles
+      text: Separate supplier, user and payer for two-sided products. Supply-first is a hypothesis, not a universal
+        rule.
+    - name: Bound the pilot
+      text: For local services, test a city, segment and delivery step; separate manual service from reusable software.
+    - name: Route the next job
+      text: Select the narrowest relevant workflow and define the next observable result before expanding channels
+        or spend.
   compare:
-    title: "Which playbook fits your problem"
-    intro: "Map your situation to the specialist playbook — then install that one."
-    columns: ["If you need to…", "Use", "Page"]
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
+    columns:
+    - Output
+    - Use
+    - Limit
     rows:
-      - ["Launch on Product Hunt / win the day", "Product Hunt Launch", "/skills/product-hunt-launch/"]
-      - ["Grow GitHub stars / OSS adoption", "Open-Source Marketing", "/skills/open-source-marketing/"]
-      - ["Grow B2B SaaS revenue (PLG/SLG)", "B2B SaaS Growth", "/skills/b2b-saas-growth/"]
-      - ["Rank on Google AND AI search", "SEO &amp; GEO", "/skills/seo-geo/"]
-      - ["Launch / grow a mobile app", "ASO &amp; Cold-Start", "/skills/aso-growth/"]
-      - ["Validate PMF / talk to users", "User Interview", "/skills/user-interview/"]
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
   donts:
-    title: "Anti-patterns (growth mistakes this prevents)"
+    title: Avoid these shortcuts
     items:
-      - "Running an SLG playbook on a PLG product (or vice versa)."
-      - "Marketing hard before you have PMF."
-      - "Chasing stars/launches when the real bottleneck is conversion."
-      - "Picking a channel because it's trendy, not because it fits your stage."
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
   faqs:
-    - q: "How do I know which growth playbook I need?"
-      a: "Diagnose three things — product type (OSS / B2B SaaS / app / content), stage (pre-PMF / traction / scaling), and your actual bottleneck (distribution / conversion / retention / positioning). The routing table maps that to a specific playbook to install."
-    - q: "I'm pre-PMF — should I start marketing?"
-      a: "No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first."
-    - q: "Are these playbooks free?"
-      a: "Yes — every downloadable Gingiris community playbook is MIT licensed and installs into compatible AI agents with one command. Hosted Pro execution, private datasets, and managed services are separate commercial products."
-    - q: "Who built this?"
-      a: "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups."
+  - q: What changed in this version?
+    a: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
+  - q: Does this include private workshop material?
+    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
+  - q: How do I install the updated version?
+    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder. The monorepo is the maintained
+      distribution source.
   related:
-    - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
-    - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
-    - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+  - - 'Product Hunt Launch Playbook — Win #1 of the Day'
+    - /skills/product-hunt-launch/
+  - - B2B SaaS Growth — PLG vs SLG to $10M ARR
+    - /skills/b2b-saas-growth/
+  - - SEO &amp; GEO Dual-Engine Playbook
+    - /skills/seo-geo/
+  install_skill: gingiris-growth-finder
 
 - slug: hardware-saas-gtm
   hf: hardware-saas-gtm
@@ -1187,64 +1230,78 @@
   hf: gr-brand-voice-calibration
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-brand-voice-calibration
-  title: Brand Voice Calibration / 文风校准 | Gingiris
-  h1: Brand Voice Calibration / 文风校准
-  tagline: Learn a writing voice from original samples, author edits and contextual
-    evidence.<br>从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
-  meta_description: Learn a writing voice from original samples, author edits and
-    contextual evidence.
+  title: Brand Voice Calibration — Original Evidence | Gingiris
+  h1: Brand Voice Calibration — Original Evidence
+  tagline: Calibrate authentic voice from original samples while separating style from distribution performance.
+    / 原声与传播表现分开。
+  meta_description: Calibrate authentic voice from original samples while separating style from distribution performance.
   keywords: gr-brand-voice-calibration, Gingiris, AI skill
-  software_description: Learn a writing voice from original samples, author edits
-    and contextual evidence. 从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
-  what: Learn a writing voice from original samples, author edits and contextual evidence.<br>从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
-  notice: Version 1.0.0 · No private source archive included. / 不含私人素材。 Method and
-    worksheets; no guaranteed business outcome. / 方法与工作表，不保证商业效果。
+  software_description: Calibrate authentic voice from original samples while separating style from distribution
+    performance. / 原声与传播表现分开。
+  what: Calibrate authentic voice from original samples while separating style from distribution performance. /
+    原声与传播表现分开。
+  notice: Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。
   takeaways:
-  - Learn a writing voice from original samples, author edits and contextual evidence.
-  - 从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
+  - Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.
+  - Record whether a pattern is author preference or a performance hypothesis; account for topic, language, timing
+    and audience.
+  - Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning across
+    languages.
   stats:
-  - - Version / 版本
-    - 1.0.0
-  - - Distribution / 分发
-    - GitHub + Hugging Face + skills CLI
-  - - Language / 语言
-    - English / 中文
+  - - Version
+    - 1.1.0
+  - - Updated
+    - '2026-11-08'
+  - - Evidence
+    - Observations, hypotheses and outcomes kept separate
   howto:
-    title: How to use / 使用流程
+    title: How to use this workflow
     steps:
-    - name: Map original sources / 整理原声来源
-      text: Map original sources / 整理原声来源 — use the linked Skill and worksheets with
-        your own authorized materials.
-    - name: Infer contextual traits / 提炼有边界的特征
-      text: Infer contextual traits / 提炼有边界的特征 — use the linked Skill and worksheets
-        with your own authorized materials.
-    - name: Test and revise / 试写并修正
-      text: Test and revise / 试写并修正 — use the linked Skill and worksheets with your
-        own authorized materials.
+    - name: Select original evidence
+      text: Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.
+    - name: Form scoped rules
+      text: Record whether a pattern is author preference or a performance hypothesis; account for topic, language,
+        timing and audience.
+    - name: Test and revisit
+      text: Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning
+        across languages.
   compare:
-    title: Scope / 范围
-    intro: Choose the workflow for your current task. / 按当前任务选择。
+    title: What the workflow establishes
+    intro: Keep proposals and verified results separate.
     columns:
-    - Included / 包含
-    - Boundary / 边界
+    - Output
+    - Use
+    - Limit
     rows:
-    - - 从原始表达、本人改稿与完整语境提炼文风，验证中英文适配。
-      - User authorization and source evidence remain required. / 仍需授权与来源。
+    - - Evidence
+      - Understand the observation
+      - Does not establish causality by itself
+    - - Decision card
+      - Choose a bounded next test
+      - Not a guaranteed outcome
+    - - Review
+      - Check actual behavior and results
+      - Unknowns remain explicit
   donts:
-    title: Limits / 使用边界
+    title: Avoid these shortcuts
     items:
-    - Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。
-    - Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。
+    - Do not turn a teaching example into a universal rule.
+    - Do not substitute views, intent or plans for observed business outcomes.
+    - Do not publish or contact people merely because a draft exists.
   faqs:
-  - q: How do I install it? / 如何安装？
-    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration
-  - q: Does this include private material? / 包含私人素材吗？
-    a: No. Supply your own authorized materials. / 不包含，请使用你获准的资料。
+  - q: What changed in this version?
+    a: Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。
+  - q: Does this include private workshop material?
+    a: No. It includes reusable methods and constructed examples, not private transcripts or student records.
+  - q: How do I install the updated version?
+    a: Use npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration. The monorepo is the
+      maintained distribution source.
   related:
   - - OPC Service Validation / OPC 服务验证
     - /skills/gr-opc-service-validation/
   - - WeChat Editorial / 公众号内容运营
     - /skills/gr-wechat-editorial/
+
 - slug: gr-wechat-editorial
   hf: gr-wechat-editorial
   install: Gingiris-1031/gingiris-skills

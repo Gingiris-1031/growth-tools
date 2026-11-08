@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Growth Finder — Which Growth Playbook Do You Need? |…</title>
-<meta name="description" content="Growth Finder: a meta-router that diagnoses your growth problem and points you to the right Gingiris playbook — launch, open-source, B2B SaaS, ASO, SEO/GEO,…">
+<title>Growth Finder — Diagnose the Current Constraint | Gingiris</title>
+<meta name="description" content="Identify the growth model, stage and constraint before selecting a specialist.">
 <meta name="keywords" content="how to grow, growth strategy, which growth playbook, go to market, GTM, growth diagnosis, startup marketing, product launch, growth routing">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/growth-finder/">
-<meta property="og:title" content="Growth Finder — Diagnose, Then Pick the Right Playbook">
-<meta property="og:description" content="Tell it your product type, stage and channel — it routes you to the growth playbook that fits.">
+<meta property="og:title" content="Growth Finder — Diagnose the Current Constraint">
+<meta property="og:description" content="Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Growth Finder — Diagnose, Then Pick the Right Playbook">
-<meta name="twitter:description" content="Tell it your product type, stage and channel — it routes you to the growth playbook that fits.">
+<meta name="twitter:title" content="Growth Finder — Diagnose the Current Constraint">
+<meta name="twitter:description" content="Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,14 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "Growth Finder — Diagnose, Then Pick the Right Playbook",
+      "name": "Growth Finder — Diagnose the Current Constraint",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "Claude Skill",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Meta-router that diagnoses a growth problem and points to the matching Gingiris playbook (launch, open-source, B2B SaaS, ASO, SEO/GEO, KOL, community) based on product type, stage and channel fit. Use it when you don't yet know which specialist playbook you need.",
+      "description": "Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。",
       "url": "https://tools.gingiris.com/skills/growth-finder/",
       "downloadUrl": "https://huggingface.co/datasets/Gingiris/gingiris-growth-finder",
-      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-growth-finder",
+      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-skills/gingiris-growth-finder",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
         "@type": "Offer",
@@ -61,31 +61,25 @@
     },
     {
       "@type": "HowTo",
-      "name": "How to find your growth playbook",
+      "name": "How to use this workflow",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "1 · Name the product type",
-          "text": "Open-source project, B2B SaaS, mobile app, or content/creator product — the type rules out half the playbooks immediately."
+          "name": "Identify roles",
+          "text": "Separate supplier, user and payer for two-sided products. Supply-first is a hypothesis, not a universal rule."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "2 · Locate your stage",
-          "text": "Pre-PMF, early traction, or scaling. Pre-PMF means validate first (user interviews), not market."
+          "name": "Bound the pilot",
+          "text": "For local services, test a city, segment and delivery step; separate manual service from reusable software."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "3 · Identify the bottleneck",
-          "text": "Distribution, conversion, retention, or positioning — the bottleneck, not the symptom, points to the playbook."
-        },
-        {
-          "@type": "HowToStep",
-          "position": 4,
-          "name": "4 · Route to the specialist",
-          "text": "Match to the fitting playbook (see the table below) and install it with one command."
+          "name": "Route the next job",
+          "text": "Select the narrowest relevant workflow and define the next observable result before expanding channels or spend."
         }
       ]
     },
@@ -94,34 +88,26 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I know which growth playbook I need?",
+          "name": "What changed in this version?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Diagnose three things — product type (OSS / B2B SaaS / app / content), stage (pre-PMF / traction / scaling), and your actual bottleneck (distribution / conversion / retention / positioning). The routing table maps that to a specific playbook to install."
+            "text": "Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。"
           }
         },
         {
           "@type": "Question",
-          "name": "I'm pre-PMF — should I start marketing?",
+          "name": "Does this include private workshop material?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first."
+            "text": "No. It includes reusable methods and constructed examples, not private transcripts or student records."
           }
         },
         {
           "@type": "Question",
-          "name": "Are these playbooks free?",
+          "name": "How do I install the updated version?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — every downloadable Gingiris community playbook is MIT licensed and installs into compatible AI agents with one command. Hosted Pro execution, private datasets, and managed services are separate commercial products."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who built this?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups."
+            "text": "Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder. The monorepo is the maintained distribution source."
           }
         }
       ]
@@ -138,7 +124,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Growth Finder — Diagnose, Then Pick the Right Playbook",
+          "name": "Growth Finder — Diagnose the Current Constraint",
           "item": "https://tools.gingiris.com/skills/growth-finder/"
         }
       ]
@@ -232,7 +218,11 @@
   .site-footer a:hover { color:var(--accent); }
   @media (max-width:640px) {
     .container { padding:0 14px; }
-    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:nowrap; }
+    .site-nav .container { flex-direction:column; align-items:flex-start; gap:10px; }
+    .site-nav .nav-links { max-width:100%; min-width:0; flex-wrap:wrap; white-space:normal; }
+    .cmp { table-layout:fixed; }
+    .cmp td, .cmp th, .cmp td:nth-child(2) { white-space:normal; overflow-wrap:anywhere; }
+    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:normal; }
     .hero { padding:24px 0 4px; }
     .meta-install { font-size:13px; max-width:100%; overflow-x:auto; }
   }
@@ -255,16 +245,16 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Growth Finder — Diagnose, Then Pick the Right Playbook</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Growth Finder — Diagnose the Current Constraint</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>Growth Finder — Diagnose, Then Pick the Right Playbook</h1>
-      <p class="tag-line">Tell it your product type, stage and channel — it routes you to the growth playbook that fits.</p>
+      <h1>Growth Finder — Diagnose the Current Constraint</h1>
+      <p class="tag-line">Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。</p>
       <div class="meta-install" id="install">
-        <span>npx skills add <b>Gingiris-1031/gingiris-growth-finder</b></span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-growth-finder');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-growth-finder</span>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
       </div>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
@@ -275,73 +265,66 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li><strong>Diagnose before you execute</strong> — the most common growth mistake is running the wrong playbook well.</li>
-          <li>Routing is by <strong>product type + stage + channel fit</strong>, not by what's trendy.</li>
-          <li>Pre-PMF? <strong>Don't market yet</strong> — go validate the must-have first.</li>
-          <li>Each specialist playbook is a one-command install; this just picks the right one.</li>
+          <li>Separate supplier, user and payer for two-sided products. Supply-first is a hypothesis, not a universal rule.</li>
+          <li>For local services, test a city, segment and delivery step; separate manual service from reusable software.</li>
+          <li>Select the narrowest relevant workflow and define the next observable result before expanding channels or spend.</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">When you don't yet know <strong>which</strong> growth move you need, start here. Growth Finder diagnoses your situation — product type, stage, channel — and routes you to the specialist playbook that fits, so you don't run an SLG play on a PLG product or chase stars when you need PMF.</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;"><strong>⚠️ 2C products:</strong> Growth Finder now includes <strong>Step 0 — growth model selector</strong>: B2B SaaS (pipeline → MQL → SQL → paid → expansion) vs B2C App (impression → install → activation → D1/D7/D30 retention → viral K). Pick the right framework before diagnosing your bottleneck — the metrics and channel plays are fundamentally different.</p>
+      <p class="body">Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v1.1.0. Methods and templates; no guaranteed growth outcome. / 方法与模板，不保证商业效果。</p>
     </section>
 
     <section>
       <h2>Key results</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Specialist playbooks routed to</td><td class="v">10+</td></tr>
-        <tr><td>Inputs used to route</td><td class="v">type · stage · channel</td></tr>
-        <tr><td>Cost</td><td class="v">Free (MIT)</td></tr>
-        <tr><td>Source</td><td class="v">AFFiNE 60K + 150 startups</td></tr>
+        <tr><td>Version</td><td class="v">1.1.0</td></tr>
+        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
+        <tr><td>Evidence</td><td class="v">Observations, hypotheses and outcomes kept separate</td></tr>
       </tbody></table></div>
     </section>
 
     <section>
-      <h2>How to find your growth playbook</h2>
+      <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">1 · Name the product type</p><p class="step-d">Open-source project, B2B SaaS, mobile app, or content/creator product — the type rules out half the playbooks immediately.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">2 · Locate your stage</p><p class="step-d">Pre-PMF, early traction, or scaling. Pre-PMF means validate first (user interviews), not market.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">3 · Identify the bottleneck</p><p class="step-d">Distribution, conversion, retention, or positioning — the bottleneck, not the symptom, points to the playbook.</p></div></li>
-        <li class="step"><span class="step-n">4</span><div><p class="step-t">4 · Route to the specialist</p><p class="step-d">Match to the fitting playbook (see the table below) and install it with one command.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Identify roles</p><p class="step-d">Separate supplier, user and payer for two-sided products. Supply-first is a hypothesis, not a universal rule.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Bound the pilot</p><p class="step-d">For local services, test a city, segment and delivery step; separate manual service from reusable software.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Route the next job</p><p class="step-d">Select the narrowest relevant workflow and define the next observable result before expanding channels or spend.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>Which playbook fits your problem</h2>
-      <p class="cmp-intro">Map your situation to the specialist playbook — then install that one.</p>
+      <h2>What the workflow establishes</h2>
+      <p class="cmp-intro">Keep proposals and verified results separate.</p>
       <table class="cmp">
-        <thead><tr><th>If you need to…</th><th>Use</th><th>Page</th></tr></thead>
+        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
         <tbody>
-        <tr><td>Launch on Product Hunt / win the day</td><td>Product Hunt Launch</td><td>/skills/product-hunt-launch/</td></tr>
-        <tr><td>Grow GitHub stars / OSS adoption</td><td>Open-Source Marketing</td><td>/skills/open-source-marketing/</td></tr>
-        <tr><td>Grow B2B SaaS revenue (PLG/SLG)</td><td>B2B SaaS Growth</td><td>/skills/b2b-saas-growth/</td></tr>
-        <tr><td>Rank on Google AND AI search</td><td>SEO &amp; GEO</td><td>/skills/seo-geo/</td></tr>
-        <tr><td>Launch / grow a mobile app</td><td>ASO &amp; Cold-Start</td><td>/skills/aso-growth/</td></tr>
-        <tr><td>Validate PMF / talk to users</td><td>User Interview</td><td>/skills/user-interview/</td></tr>
+        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
+        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
+        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Anti-patterns (growth mistakes this prevents)</h2>
+      <h2>Avoid these shortcuts</h2>
       <ul class="donts">
-          <li>Running an SLG playbook on a PLG product (or vice versa).</li>
-          <li>Marketing hard before you have PMF.</li>
-          <li>Chasing stars/launches when the real bottleneck is conversion.</li>
-          <li>Picking a channel because it's trendy, not because it fits your stage.</li>
+          <li>Do not turn a teaching example into a universal rule.</li>
+          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
+          <li>Do not publish or contact people merely because a draft exists.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">How do I know which growth playbook I need?</p><p class="faq-a">Diagnose three things — product type (OSS / B2B SaaS / app / content), stage (pre-PMF / traction / scaling), and your actual bottleneck (distribution / conversion / retention / positioning). The routing table maps that to a specific playbook to install.</p></div>
-        <div class="faq-item"><p class="faq-q">I'm pre-PMF — should I start marketing?</p><p class="faq-a">No. Before PMF, the highest-leverage move is validating the must-have through user interviews, not running acquisition. Growth Finder routes pre-PMF products to the User Interview playbook first.</p></div>
-        <div class="faq-item"><p class="faq-q">Are these playbooks free?</p><p class="faq-a">Yes — every downloadable Gingiris community playbook is MIT licensed and installs into compatible AI agents with one command. Hosted Pro execution, private datasets, and managed services are separate commercial products.</p></div>
-        <div class="faq-item"><p class="faq-q">Who built this?</p><p class="faq-a">Iris Wei (生姜) — ex-COO of AFFiNE (60K+ GitHub stars, 30× Product Hunt #1), advisor to 150+ AI startups.</p></div>
+        <div class="faq-item"><p class="faq-q">What changed in this version?</p><p class="faq-a">Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。</p></div>
+        <div class="faq-item"><p class="faq-q">Does this include private workshop material?</p><p class="faq-a">No. It includes reusable methods and constructed examples, not private transcripts or student records.</p></div>
+        <div class="faq-item"><p class="faq-q">How do I install the updated version?</p><p class="faq-a">Use npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder. The monorepo is the maintained distribution source.</p></div>
     </section>
+
 
     <section>
       <h2>Related playbooks</h2>
@@ -367,14 +350,5 @@
       <p style="margin-top:12px">© Iris (生姜iris) · Community skill licensed under MIT · Hosted services separate</p>
     </div>
   </footer>
-
-<section id="gingiris-community-cta" style="max-width:1000px;margin:40px auto;padding:24px;border:1px solid #b9c9a9;border-radius:16px;line-height:1.8">
-<h2>加入出海社群与购买资料包 · Community &amp; Resources</h2>
-<p><strong>加入出海社群：</strong>微信添加 <strong>staywildgrow</strong>，留言「加入社群」即可。<br>
-<strong>购买资料包：</strong>微信添加 <strong>staywildgrow</strong>，购买 Gingiris 出海资料包，价格 <strong>599 元人民币</strong>。</p>
-<p><strong>Join the community:</strong> Add <strong>staywildgrow</strong> on WeChat and send “加入社群” (join the community).<br>
-<strong>Get the resource pack:</strong> Add <strong>staywildgrow</strong> on WeChat to purchase the Gingiris global growth resource pack for <strong>CNY 599</strong>.</p>
-<p>社群与资料包为可选入口，不影响开源 Skill 的安装和使用。<br>The community and paid resource pack are optional; neither is required to install or use the open-source skills.</p>
-</section>
 </body>
 </html>
