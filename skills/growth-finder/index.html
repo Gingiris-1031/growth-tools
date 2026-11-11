@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Growth Strategy AI Skill: Diagnose the Next Constraint |…</title>
-<meta name="description" content="Identify the growth model, stage and constraint before selecting a specialist.">
+<title>Growth Strategy Skill: Diagnose the Next Constraint</title>
+<meta name="description" content="Identify a product growth constraint from stage and evidence. Choose a focused experiment with a measurable success criterion and explicit unknowns.">
 <meta name="keywords" content="Growth Strategy AI Skill, Diagnose the Next Constraint, Codex, Claude Code, Cursor">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -34,11 +34,12 @@
       "@type": "SoftwareApplication",
       "name": "Growth Strategy AI Skill: Diagnose the Next Constraint",
       "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": "Claude Skill",
+      "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
       "description": "Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。",
       "url": "https://tools.gingiris.com/skills/growth-finder/",
-      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gingiris-growth-finder",
+      "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder",
+      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -59,7 +60,7 @@
       },
       "keywords": "Growth Strategy AI Skill, Diagnose the Next Constraint, Codex, Claude Code, Cursor",
       "softwareVersion": "1.1.1",
-      "dateModified": "2026-11-08"
+      "dateModified": "2026-11-11"
     },
     {
       "@type": "HowTo",
@@ -258,6 +259,7 @@
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-growth-finder</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
+      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>
@@ -290,6 +292,7 @@
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
         <h3>What to provide</h3><p class="body">Product, user and payer roles, stage evidence, main obstacle, resources and any available funnel data.</p>
         <h3>What you get</h3><p class="body">A bounded diagnosis, uncertain assumptions, one priority test and a specialist recommendation when useful.</p>
         <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">We have few suppliers and few users in a two-sided marketplace. With a $500 budget, identify the next bottleneck to test before choosing channels.</pre>

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Content Repurposing AI Skill: Blog to Social Drafts |…</title>
-<meta name="description" content="Turn articles into attributed X threads, LinkedIn posts and social drafts. Includes format templates, voice checks and canonical decisions.">
+<title>Content Repurposing Skill: Articles to Social Drafts</title>
+<meta name="description" content="Adapt a supplied article into platform-specific social drafts while preserving sources and voice. Includes inputs, templates and a starter prompt.">
 <meta name="keywords" content="Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -34,11 +34,12 @@
       "@type": "SoftwareApplication",
       "name": "Content Repurposing AI Skill: Blog to Social Drafts",
       "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": "Claude Skill",
+      "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
       "description": "Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.",
       "url": "https://tools.gingiris.com/skills/gr-social-distill/",
-      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gr-social-distill",
+      "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill",
+      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -59,7 +60,7 @@
       },
       "keywords": "Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor",
       "softwareVersion": "0.2.1",
-      "dateModified": "2026-11-08"
+      "dateModified": "2026-11-11"
     },
     {
       "@type": "HowTo",
@@ -258,6 +259,7 @@
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-social-distill</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-social-distill').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
+      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>
@@ -290,6 +292,7 @@
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
         <h3>What to provide</h3><p class="body">An article URL, local draft or supplied text, source author, target channels and any approved voice guide.</p>
         <h3>What you get</h3><p class="body">Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.</p>
         <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Adapt this article into one X thread and a LinkedIn post. Keep the original author credited and do not invent personal experience.</pre>

@@ -5,11 +5,11 @@
 
 - slug: product-hunt-launch
   hf: gingiris-launch
-  install: Gingiris-1031/gingiris-launch
-  title: "Product Hunt Launch Playbook — Win #1 of the Day | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "Product Hunt Launch Skill: Timeline and Readiness"
   h1: "Product Hunt Launch Playbook — Win #1 of the Day"
   tagline: "The 14-day operating timeline behind 30+ Product Hunt #1 daily wins."
-  meta_description: "Product Hunt launch playbook: the T-14 → T-0 → T+7 timeline, hunter selection, maker comments, authentic community support, conversion tracking, and policy-safe launch operations."
+  meta_description: "Plan a Product Hunt launch with readiness checks, a preparation timeline, feedback handling and conversion measurement. Includes inputs and a starter prompt."
   keywords: "product hunt launch playbook, how to win product hunt, hunter selection, maker comment, first comment, launch day timeline, product of the day, upvotes, GTM sequencing"
   software_description: "Multi-channel product launch playbook distilled from 30+ Product Hunt #1 daily wins and 150+ AI startup consultations. Covers the T-14 → T-0 → T+7 operating timeline, hunter selection, maker comments, authentic community outreach, conversion tracking, and policy-safe second-wave coordination."
   app_category: BusinessApplication
@@ -85,17 +85,25 @@
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
     - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
+  install_skill: gingiris-launch
+  updated: '2026-11-11'
+  usage:
+    inputs: Product URL, intended users, launch date, available team and budget.
+    outputs: A launch-readiness checklist, dated preparation plan and conversion measurement plan.
+    prompt: Evaluate whether Product Hunt fits our audience before drafting a launch plan. List missing evidence and
+      separate launch targets from historical examples.
+    example: A team without a working demo first receives a readiness checklist and a revised timeline; launch-day promotion waits until the demo works.
 
 - slug: b2b-saas-growth
   companion_skill:
     name: gr-b2b-growth
     description: "Diagnose the blocker to a first paid customer, decide when to pause new lead generation, and verify pricing promises against delivered product capabilities."
   hf: gingiris-b2b-growth
-  install: Gingiris-1031/gingiris-b2b-growth
-  title: "B2B SaaS Growth Playbook — PLG vs SLG to $10M ARR | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "B2B SaaS Growth Skill: PLG, Sales and First Customers"
   h1: "B2B SaaS Growth — PLG vs SLG Playbook"
   tagline: "Diagnose whether your problem is distribution, pricing, or PMF — then walk the staged path to $10M ARR."
-  meta_description: "B2B SaaS growth playbook: PLG vs SLG selection by ACV and sales cycle, the 5-stage path to $10M ARR, NRR discipline, affiliate &amp; channel motion. From 8 case studies incl. HeyGen, Deel, Vercel."
+  meta_description: "Diagnose a B2B SaaS growth constraint, compare PLG and sales motions, and design a first-customer experiment with clear acceptance criteria."
   keywords: "B2B SaaS growth, PLG vs SLG, product-led growth, sales-led growth, SaaS pricing, ARR growth, NRR, enterprise sales, PMF validation, affiliate channel"
   software_description: "B2B SaaS growth playbook covering the path from $0 to $10M ARR across 8 documented case studies (HeyGen, Deel, Vercel, Supabase, AWS, Manus, Devin, AFFiNE). Diagnoses PLG vs SLG motion by ACV and sales cycle, the 5-stage ARR path, NRR discipline, affiliate/channel design, and enterprise tiering."
   app_category: BusinessApplication
@@ -172,17 +180,25 @@
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+  install_skill: gingiris-b2b-growth
+  updated: '2026-11-11'
+  usage:
+    inputs: Product, buyer and user roles, pricing, activation funnel and current sales blocker.
+    outputs: A PLG/SLG diagnosis, first-customer experiment and measurable acceptance checks.
+    prompt: Diagnose our current B2B growth constraint using the supplied funnel. Choose one experiment and define
+      the evidence needed to continue.
+    example: If trials activate but buyers stall at procurement, test a buyer-ready security and pricing package before buying more traffic.
 
 - slug: open-source-marketing
   companion_skill:
     name: gr-oss-marketing
     description: "Plan one scenario-led campaign across official content, creators and communities, with explicit conversion goals and separate Web/CLI event validation."
   hf: gingiris-opensource
-  install: Gingiris-1031/gingiris-opensource
-  title: "Open-Source Marketing — 0 to 60K GitHub Stars | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "Open-Source Marketing Skill: Adoption and Community"
   h1: "Open-Source Marketing — GitHub Stars Growth System"
   tagline: "The staged decision framework used to take AFFiNE from 0 to 60K GitHub stars."
-  meta_description: "Open-source marketing playbook: pre-launch readiness, Show HN / Reddit / Product Hunt sequencing, 6-month growth loop, anti-star-farming. The system that took AFFiNE 0 → 60K stars (10K in 43 days)."
+  meta_description: "Review an open-source project, prioritize its README and community channels, and plan adoption experiments that distinguish stars from actual usage."
   keywords: "open source marketing, GitHub stars growth, Show HN, Hacker News launch, Reddit OSS launch, developer marketing, README optimization, GitHub Trending, dev.to, anti star farming"
   software_description: "Open-source go-to-market system covering pre-launch readiness, the Show HN / Reddit / Product Hunt launch sequence, and a 6-month growth loop. Battle-tested taking AFFiNE 0 → 60K GitHub stars (10K in 43 days, 28 GitHub Trending appearances) plus 150+ dev-tool consultations."
   app_category: DeveloperApplication
@@ -250,14 +266,21 @@
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["SEO &amp; GEO Dual-Engine Playbook", "/skills/seo-geo/"]
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+  install_skill: gingiris-opensource
+  updated: '2026-11-11'
+  usage:
+    inputs: Repository URL, target developer, current README, usage signals and campaign constraints.
+    outputs: Positioning, README priorities, community channels and an attribution plan.
+    prompt: Review our repository for developer adoption. Distinguish stars from actual use and propose one measurable
+      campaign.
+    example: If visitors star the repository but cannot complete setup, prioritize the quick-start path and track successful setup before expanding promotion.
 
 - slug: seo-geo
   hf: gingiris-seo-geo
-  install: Gingiris-1031/gingiris-seo-geo
-  title: "SEO & GEO Dual-Engine Playbook — Rank on Google AND Get Cited by AI | Gingiris"
-  h1: "SEO &amp; GEO Dual-Engine Playbook"
+  install: Gingiris-1031/gingiris-skills
+  title: "SEO & GEO Skill: Search and Citation Workflows"
   tagline: "Rank on Google AND get cited by ChatGPT, Perplexity, Claude and Gemini — with one content system."
-  meta_description: "SEO &amp; GEO playbook: BOFU-first keyword funnel, E-E-A-T founder voice, JSON-LD schema, IndexNow, comparison pages. Win Google rankings AND AI-search citations. From AFFiNE (60K stars) + 150 startups."
+  meta_description: "Audit website SEO and AI-search discoverability. Build a keyword-to-page map, prioritize technical fixes and create evidence-led content briefs."
   keywords: "SEO, GEO, generative engine optimization, AI search optimization, ChatGPT SEO, Perplexity citation, JSON-LD schema, IndexNow, E-E-A-T, comparison pages, keyword funnel"
   software_description: "Dual-engine playbook to rank on Google AND get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). Covers the BOFU-first keyword funnel, an E-E-A-T founder-voice writing system, JSON-LD schema templates, IndexNow setup, and the comparison-page SOP. Battle-tested at AFFiNE (60K stars in 24 months) and across 150+ startup consultations."
   app_category: DeveloperApplication
@@ -325,14 +348,24 @@
     - ["Growth Finder — diagnose the next growth constraint", "/skills/growth-finder/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["B2B SaaS Growth — PLG vs SLG to $10M ARR", "/skills/b2b-saas-growth/"]
+  install_skill: gingiris-seo-geo
+  updated: '2026-11-11'
+  usage:
+    inputs: Website URL, target market, existing pages and dated Search Console or citation evidence when available.
+    outputs: A keyword-to-page map, technical priorities and an evidence-led content brief.
+    prompt: Audit these pages for SEO and AI-search discoverability. Separate technical facts from ranking hypotheses;
+      do not promise indexing or citations.
+    example: If two pages answer the same query, compare their purpose and existing evidence before choosing one primary page; do not create a third duplicate.
+
+  h1: SEO &amp; GEO Dual-Engine Playbook
 
 - slug: aso-growth
   hf: gingiris-aso-growth
-  install: Gingiris-1031/gingiris-aso-growth
-  title: "ASO & App Cold-Start Playbook — Store Optimization + UGC Matrix | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "ASO Skill: App Store Listings and Growth Experiments"
   h1: "ASO &amp; App Cold-Start Playbook"
   tagline: "From App Store keyword ranking to a UGC creator matrix — the organic-first cold-start system."
-  meta_description: "ASO playbook: App Store &amp; Google Play keyword optimization, the Organic-First cold-start method, UGC creator matrix, TikTok/Reels/Shorts strategy, and platform algorithm differences."
+  meta_description: "Review an app store listing by locale, improve copy and screenshots, and define measurable acquisition experiments with this AI agent workflow."
   keywords: "ASO, app store optimization, Google Play optimization, app cold start, UGC creator matrix, TikTok marketing, Instagram Reels, YouTube Shorts, mobile user acquisition, organic first"
   software_description: "App Store Optimization and cold-start playbook: store-listing and keyword optimization for App Store and Google Play, the Organic-First cold-start method, UGC creator-matrix operations, multi-platform short-video strategy (TikTok / Reels / Shorts), and App Store vs Google Play algorithm differences."
   app_category: BusinessApplication
@@ -387,15 +420,23 @@
     - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
+  install_skill: gingiris-aso-growth
+  updated: '2026-11-11'
+  usage:
+    inputs: App store URLs, locale, audience, screenshots, conversion and retention data when available.
+    outputs: A store-listing review and prioritized acquisition experiments with measurement criteria.
+    prompt: Review the supplied app listing for this locale. Propose copy and screenshot tests, and identify which
+      claims need evidence.
+    example: If store views grow but installs do not, test the listing promise and screenshots before increasing acquisition spend.
 
 - slug: kol-outreach
   hf: gingiris-kol-outreach
   install: Gingiris-1031/gingiris-skills
   install_skill: gingiris-kol-outreach
-  title: "KOL Outreach & Influencer Marketing Playbook — Discovery to ROI | Gingiris"
+  title: "KOL Outreach Skill: Creator Briefs and Attribution"
   h1: "KOL Outreach &amp; Influencer Marketing Playbook"
   tagline: "Creator outreach from discovery to ROI, with staged product testing and channel-by-channel response evidence."
-  meta_description: "KOL outreach: discovery, pricing, attribution, staged product testing and channel response tracking. Separate trial intent, real usage and feedback."
+  meta_description: "Build creator selection criteria, outreach drafts and deliverable briefs. Track replies, trials, completed testing and conversions as separate stages."
   keywords: "KOL outreach, influencer marketing, KOL pricing, creator partnership, micro-influencer, content package, UTM tracking, KOL ROI, Twitter thread pricing, YouTube sponsorship"
   software_description: "KOL outreach and influencer-marketing SOP from discovery to ROI tracking: a 3-tier KOL system, platform pricing benchmarks, content-package templates, draft-review process, payment timing, and UTM-based ROI measurement. Battle-tested across 200+ KOL campaigns at AFFiNE (60K stars). Also includes staged product-test invitations and channel-specific response tracking without universal reply-rate claims."
   app_category: BusinessApplication
@@ -472,14 +513,21 @@
     - ["UGC Matrix Growth Playbook", "/skills/ugc-matrix/"]
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
+  updated: '2026-11-11'
+  usage:
+    inputs: Product, target market, creator criteria, budget and proposed deliverables.
+    outputs: A creator shortlist rubric, outreach draft, deliverable brief and attribution checklist.
+    prompt: Build a creator outreach plan for the supplied product. Separate reply, trial, completed testing and paid
+      conversion; draft messages for review.
+    example: A creator who replied positively is recorded as interested, not as a completed trial or an attributable sale.
 
 - slug: github-star-growth
   hf: gingiris-github-star-growth
-  install: Gingiris-1031/gingiris-github-star-growth
-  title: "GitHub Star Sustained Growth — 300+ Stars/Month SOP | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "GitHub Growth Skill: Releases and Developer Adoption"
   h1: "GitHub Star Sustained Growth Playbook"
   tagline: "The monthly operating cadence that adds 300+ GitHub stars — content, community, events, contributors."
-  meta_description: "GitHub star growth SOP: the 300-stars/month cadence across content rhythm, Reddit/HN community ops, event-driven growth, and a contributor + ambassador ladder. Validated AFFiNE 0→60K, Client A 0→10K."
+  meta_description: "Improve repository readiness, plan releases and track developer adoption. Separate GitHub stars from installations, active users and qualified feedback."
   keywords: "GitHub star growth, sustained star growth, 300 stars per month, contributor system, ambassador program, open source community, Reddit OSS, Hacker News stars, developer community growth"
   software_description: "Sustained GitHub-star growth SOP for adding 300+ stars per month: a content rhythm (8–12 pieces/month), Reddit/Hacker News/Discord community operations, event-driven growth (AMAs, meetups, hackathons), and a contributor + ambassador ladder. Validated taking AFFiNE 0→60K and Client Project A 0→10K stars."
   app_category: DeveloperApplication
@@ -548,14 +596,22 @@
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["Community &amp; Ambassador Program Playbook", "/skills/community-ambassador/"]
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
+  install_skill: gingiris-github-star-growth
+  updated: '2026-11-11'
+  usage:
+    inputs: Repository URL, release history, audience, contribution and usage evidence.
+    outputs: A repository-readiness review, release plan and adoption tracking checklist.
+    prompt: Assess our open-source growth bottleneck and propose a release plan. Treat stars as a discovery signal,
+      not proof of product usage.
+    example: A star spike after a release is reported separately from installations, active users and qualified issues.
 
 - slug: go-global
   hf: gingiris-go-global
-  install: Gingiris-1031/gingiris-go-global
-  title: "AI Product Go-Global SOP — Phase 0 to Monetization | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "Go-Global Skill: Market Entry and Validation"
   h1: "AI Product / SaaS Go-Global SOP"
   tagline: "From competitor research to launch to monetization — the full-cycle overseas playbook (Phase 0–5)."
-  meta_description: "Go-global SOP for AI products & SaaS: market validation, one-line positioning, first 100 users, user interviews, 48-hour launch peak, and beta-to-growth. Phase 0–5, end to end."
+  meta_description: "Compare target markets, identify localization needs and plan staged validation for an AI product. Includes required inputs and a starter prompt."
   keywords: "go global, overseas expansion, AI product launch overseas, GTM, cold start, first 100 users, one-line positioning, international expansion, 出海 SOP"
   software_description: "Full-cycle go-global SOP for AI products and SaaS covering Phase 0–5: pre-launch market judgment, competitor research, one-line positioning + website, the first 100 users, user interviews, and converting a launch peak into long-term growth assets via content, community, SEO and ecosystem."
   app_category: BusinessApplication
@@ -624,14 +680,22 @@
     - ["Product Hunt Launch Playbook — Win #1 of the Day", "/skills/product-hunt-launch/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["User Interview & Beta Testing Playbook", "/skills/user-interview/"]
+  install_skill: gingiris-go-global
+  updated: '2026-11-11'
+  usage:
+    inputs: Product, starting market, target geography, buyer, resources and launch constraints.
+    outputs: A market-entry hypothesis, localization checklist and staged validation plan.
+    prompt: Compare the proposed markets using only supplied or verifiable evidence. Select the next validation step
+      and state what would change the decision.
+    example: If one proposed market has only anecdotal interest, schedule customer discovery before translating the entire product.
 
 - slug: ugc-matrix
   hf: gingiris-ugc-matrix
   install: Gingiris-1031/gingiris-skills
-  title: 'UGC Creator AI Skill: Briefs, Incentives and Attribution | Gingiris'
+  title: "UGC Creator Skill: Briefs, Incentives and Attribution"
   h1: 'UGC Creator AI Skill: Briefs, Incentives and Attribution'
   tagline: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
-  meta_description: Match creator incentives to awareness, activation or payment, then test content variants.
+  meta_description: "Plan a UGC creator program with clear briefs, incentives, content variants and attribution. Includes task inputs, expected outputs and a starter prompt."
   keywords: UGC Creator AI Skill, Briefs, Incentives and Attribution, Codex, Claude Code, Cursor
   software_description: Match creator incentives to awareness, activation or payment, then test content variants.
     / 按业务目标选择激励。
@@ -705,7 +769,7 @@
   install_skill: gingiris-ugc-matrix
   notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
   version: 1.1.1
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: Product, audience, awareness/activation/payment goal, budget, creator roles and known attribution limits.
     outputs: A creator brief, scoped deliverables, compensation options, usage rights, attribution rules and a review
@@ -722,10 +786,10 @@
     description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: gingiris-user-interview
   install: Gingiris-1031/gingiris-skills
-  title: 'User Interview AI Skill: Questions and Follow-up | Gingiris'
+  title: "User Interview Skill: Questions, Evidence and Follow-Up"
   h1: 'User Interview AI Skill: Questions and Follow-up'
   tagline: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
-  meta_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
+  meta_description: "Design user interviews around real tasks, organize evidence and turn findings into follow-up actions with acceptance criteria. Includes a starter prompt."
   keywords: User Interview AI Skill, Questions and Follow-up, Codex, Claude Code, Cursor
   software_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
     / 用真实行为与复测验证需求。
@@ -795,7 +859,7 @@
   install_skill: gingiris-user-interview
   notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
   version: 1.1.1
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: The decision, participant profile, existing notes or task flow, and whether this is discovery, usability
       testing or sales.
@@ -811,10 +875,10 @@
   hf: community-ambassador-playbook
   install: Gingiris-1031/gingiris-skills
   install_skill: community-ambassador-playbook
-  title: "Community & Ambassador Program Playbook — Full SOP | Gingiris"
+  title: "Community Ambassador Skill: Roles and Contribution"
   h1: "Community &amp; Ambassador Program Playbook"
   tagline: "Separate volunteer ambassadors, paid tutorial creators and code contributors, with clear deliverables and attribution."
-  meta_description: "Community ambassador playbook: volunteer, paid tutorial creator and code contributor tracks, with deliverables, attribution and settlement checks."
+  meta_description: "Design contributor roles, onboarding, deliverables and incentives. Separate volunteer ambassadors, paid creators and code contributors before recruitment."
   keywords: "ambassador program, community building, community-led growth, DevRel, Bronze to Platinum, incentive framework, community operations, user retention, KOL cultivation"
   software_description: "Community and ambassador operations with three contribution tracks: volunteers, paid tutorial creators and code contributors. Includes recruitment, incentives, retention, deliverables, attribution and settlement review; volunteer case studies are scoped to their original context."
   app_category: BusinessApplication
@@ -884,6 +948,13 @@
     - ["GitHub Star Sustained Growth Playbook", "/skills/github-star-growth/"]
     - ["Open-Source Marketing — 0 to 60K GitHub Stars", "/skills/open-source-marketing/"]
     - ["KOL Outreach &amp; Influencer Marketing", "/skills/kol-outreach/"]
+  updated: '2026-11-11'
+  usage:
+    inputs: Community purpose, member roles, existing activity, budget and expected contributions.
+    outputs: Contributor tracks, onboarding, deliverables, incentives and a review cadence.
+    prompt: Design distinct volunteer, paid-content and code-contributor tracks. Make deliverables and compensation
+      explicit before recruiting anyone.
+    example: A paid tutorial creator receives a content brief and settlement terms; a volunteer ambassador receives a different contribution agreement.
 
 - slug: competitor-research
   companion_skill:
@@ -891,12 +962,11 @@
     description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: competitor-research-playbook
   install: Gingiris-1031/gingiris-skills
-  title: 'Competitor Research AI Skill: Evidence to Decisions | Gingiris'
+  title: "Competitor Research Skill: Evidence to Decisions"
   h1: 'Competitor Research AI Skill: Evidence to Decisions'
   tagline: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
     / 从证据到自己的行动。
-  meta_description: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable
-    decision.
+  meta_description: "Compare competitors using dated sources, distinguish evidence from hypotheses and choose a next validation step. Includes inputs, outputs and a starter prompt."
   keywords: Competitor Research AI Skill, Evidence to Decisions, Codex, Claude Code, Cursor
   software_description: Compare the right stage and page purpose, verify social evidence, and turn findings into
     a testable decision. / 从证据到自己的行动。
@@ -968,7 +1038,7 @@
   install_skill: competitor-research-playbook
   notice: Updated November 8, 2026 · v1.4.0. Free downloadable workflow; results depend on the evidence and execution.
   version: 1.4.0
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: Product URL, decision to make, target market, competitor links and time window. Unknown historical data
       is allowed.
@@ -983,10 +1053,10 @@
 - slug: twitter-agent-ops
   hf: gingiris-twitter-agent-ops
   install: Gingiris-1031/gingiris-skills
-  title: 'X / Twitter AI Skill: Drafts and Verified Publishing | Gingiris'
+  title: "X / Twitter Skill: Drafts and Publishing Checks"
   h1: 'X / Twitter AI Skill: Drafts and Verified Publishing'
   tagline: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
-  meta_description: Use source-backed voice rules and choose single posts or threads for the actual task.
+  meta_description: "Prepare source-grounded X drafts and review publishing prerequisites. Includes task inputs, expected outputs and a starter prompt for controlled operations."
   keywords: X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor
   software_description: Use source-backed voice rules and choose single posts or threads for the actual task. /
     文风、格式与发布验证。
@@ -1059,7 +1129,7 @@
   install_skill: gingiris-twitter-agent-ops
   notice: Updated November 8, 2026 · v2.3.1. Free downloadable workflow; results depend on the evidence and execution.
   version: 2.3.1
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: Source material, author or brand voice, requested account/channel, language and desired format. Publishing
       configuration is needed only for delivery.
@@ -1074,10 +1144,10 @@
 - slug: growth-finder
   hf: gingiris-growth-finder
   install: Gingiris-1031/gingiris-skills
-  title: 'Growth Strategy AI Skill: Diagnose the Next Constraint | Gingiris'
+  title: "Growth Strategy Skill: Diagnose the Next Constraint"
   h1: 'Growth Strategy AI Skill: Diagnose the Next Constraint'
   tagline: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
-  meta_description: Identify the growth model, stage and constraint before selecting a specialist.
+  meta_description: "Identify a product growth constraint from stage and evidence. Choose a focused experiment with a measurable success criterion and explicit unknowns."
   keywords: Growth Strategy AI Skill, Diagnose the Next Constraint, Codex, Claude Code, Cursor
   software_description: Identify the growth model, stage and constraint before selecting a specialist. / 先判断卡点，再选方法。
   app_category: BusinessApplication
@@ -1148,7 +1218,7 @@
     - /skills/gr-social-distill/
   install_skill: gingiris-growth-finder
   version: 1.1.1
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: Product, user and payer roles, stage evidence, main obstacle, resources and any available funnel data.
     outputs: A bounded diagnosis, uncertain assumptions, one priority test and a specialist recommendation when
@@ -1161,11 +1231,11 @@
 
 - slug: hardware-saas-gtm
   hf: hardware-saas-gtm
-  install: Gingiris-1031/hardware-saas-gtm
-  title: "Hardware + SaaS GTM Playbook — Crowdfunding to $100M ARR | Gingiris"
+  install: Gingiris-1031/gingiris-skills
+  title: "Hardware and SaaS GTM Skill: Demand to Delivery"
   h1: "Hardware + SaaS GTM Playbook"
   tagline: "From Kickstarter 221× to $100M ARR — the end-to-end GTM for hardware+subscription products. Built from Plaud, Insta360, and DJI verified data."
-  meta_description: "Hardware+SaaS GTM playbook: crowdfunding engineering (KS/IGG/Makuake), KOL matrix for physical products, hardware PMF validation, device-as-funnel subscription design, localization entry timing. Verified Plaud/Insta360/DJI case data."
+  meta_description: "Plan hardware and SaaS market entry across demand validation, fulfillment risks and recurring value. Includes required inputs and a starter prompt."
   keywords: "hardware GTM, crowdfunding strategy, Kickstarter launch, hardware KOL, hardware PMF, hardware SaaS, device subscription, consumer hardware growth, hardware startup, Makuake, localization timing"
   software_description: "End-to-end GTM playbook for consumer hardware products with software subscription models. Covers crowdfunding engineering (KS 221× mechanics, $5K goal anchoring, 4-tier early-bird pricing), KOL matrix strategy (scene-matrix > follower count, free sample exchange model), hardware PMF validation (60-90 day post-shipping window metrics), device-as-funnel subscription design, localization entry timing (15% GMV trigger rule), and community flywheel mechanics. Built from verified Plaud ($100M ARR), Insta360 (IPO 2025), and DJI (70-80% market share) case data."
   app_category: BusinessApplication
@@ -1227,16 +1297,24 @@
     - ["Community Ambassador Program Playbook", "/skills/community-ambassador/"]
 
 # November 2026 service and editorial workflows
+  install_skill: hardware-saas-gtm
+  updated: '2026-11-11'
+  usage:
+    inputs: Hardware and subscription offer, prototype status, target customer, costs and launch timeline.
+    outputs: A staged GTM plan covering demand validation, fulfillment risks and recurring value.
+    prompt: Review this hardware plus SaaS launch. Separate demand evidence from assumptions and identify the smallest
+      test before inventory commitments.
+    example: If demand is untested and fulfillment costs are uncertain, run interviews and a bounded prototype test before committing to a production batch.
+
 - slug: gr-opc-service-validation
   hf: gr-opc-service-validation
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-opc-service-validation
-  title: OPC Service Validation / OPC 服务验证 | Gingiris
+  title: "OPC Service Validation Skill: Offer to Paid Pilot"
   h1: OPC Service Validation / OPC 服务验证
   tagline: Validate a bounded service pilot, client fit, delivery capacity and repeat
     demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。
-  meta_description: Validate a bounded service pilot, client fit, delivery capacity
-    and repeat demand.
+  meta_description: "Turn a service idea into a fixed-scope offer and paid validation experiment. Define buyer, delivery, price hypothesis and acceptance criteria."
   keywords: gr-opc-service-validation, Gingiris, AI skill
   software_description: Validate a bounded service pilot, client fit, delivery capacity
     and repeat demand. 验证有边界的服务试单、客户适配、交付容量与复购信号。
@@ -1292,15 +1370,23 @@
     - /skills/gr-wechat-editorial/
   - - Broader Solopreneur Coach / 更广的 OPC 教练
     - /skills/solopreneur-coach/
+  updated: '2026-11-11'
+  usage:
+    inputs: Service idea, target buyer, problem evidence, delivery capacity and pricing assumptions.
+    outputs: A bounded service offer, paid validation experiment and delivery acceptance checklist.
+    prompt: Turn this service idea into a small paid validation test. Specify buyer, deliverable, exclusions, price
+      hypothesis and a stop condition.
+    example: A broad consulting idea becomes one fixed-scope delivery for one buyer type, with a price hypothesis and a concrete acceptance checklist.
+
 - slug: gr-brand-voice-calibration
   hf: gr-brand-voice-calibration
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-brand-voice-calibration
-  title: 'Brand Voice AI Skill: Original Samples to Voice Guide | Gingiris'
+  title: "Brand Voice Skill: Original Samples to Voice Guide"
   h1: 'Brand Voice AI Skill: Original Samples to Voice Guide'
   tagline: Calibrate authentic voice from original samples while separating style from distribution performance.
     / 原声与传播表现分开。
-  meta_description: Calibrate authentic voice from original samples while separating style from distribution performance.
+  meta_description: "Extract a reusable voice guide from original writing samples. Preserve source boundaries, identify style patterns and review drafts against the guide."
   keywords: Brand Voice AI Skill, Original Samples to Voice Guide, Codex, Claude Code, Cursor
   software_description: Calibrate authentic voice from original samples while separating style from distribution
     performance. / 原声与传播表现分开。
@@ -1373,7 +1459,7 @@
   - - Content repurposing workflow
     - /skills/gr-social-distill/
   version: 1.1.0
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: Original writing or speech, context, author edits, disliked examples, desired language and audience.
     outputs: A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.
@@ -1387,12 +1473,11 @@
   hf: gr-wechat-editorial
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-wechat-editorial
-  title: WeChat Editorial / 公众号内容运营 | Gingiris
+  title: "WeChat Editorial Skill: Sources to Reviewed Draft"
   h1: WeChat Editorial / 公众号内容运营
   tagline: Source-grounded articles, two-stage review, formatting and verified draft
     handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
-  meta_description: Source-grounded articles, two-stage review, formatting and verified
-    draft handoff.
+  meta_description: "Prepare a WeChat editorial brief, source map and reviewed article draft. Preserve voice, flag unsupported claims and deliver a reviewable package."
   keywords: gr-wechat-editorial, Gingiris, AI skill
   software_description: Source-grounded articles, two-stage review, formatting and
     verified draft handoff. 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
@@ -1446,15 +1531,22 @@
     - /skills/gr-opc-service-validation/
   - - Brand Voice Calibration / 文风校准
     - /skills/gr-brand-voice-calibration/
+  updated: '2026-11-11'
+  usage:
+    inputs: Original materials, intended readers, editorial goal, voice samples and factual sources.
+    outputs: An editorial brief, source map, reviewed draft and delivery package.
+    prompt: Prepare a WeChat article draft from these sources. Preserve my voice, flag unsupported claims and deliver
+      a reviewable draft before publishing.
+    example: If a source contains an unverified performance claim, the draft flags it for review instead of turning it into the headline.
+
 - slug: gr-social-distill
   hf: gr-social-distill
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-social-distill
-  title: 'Content Repurposing AI Skill: Blog to Social Drafts | Gingiris'
+  title: "Content Repurposing Skill: Articles to Social Drafts"
   h1: 'Content Repurposing AI Skill: Blog to Social Drafts'
   tagline: Adapt articles into source-backed social drafts with explicit authorship and format choices.
-  meta_description: Turn articles into attributed X threads, LinkedIn posts and social drafts. Includes format templates,
-    voice checks and canonical decisions.
+  meta_description: "Adapt a supplied article into platform-specific social drafts while preserving sources and voice. Includes inputs, templates and a starter prompt."
   keywords: Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor
   software_description: Requested platform drafts, attribution notes and optional visual storyboards; no automatic
     publishing.
@@ -1522,7 +1614,7 @@
   - - User interview workflow
     - /skills/user-interview/
   version: 0.2.1
-  updated: '2026-11-08'
+  updated: '2026-11-11'
   usage:
     inputs: An article URL, local draft or supplied text, source author, target channels and any approved voice
       guide.

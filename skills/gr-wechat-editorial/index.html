@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WeChat Editorial / 公众号内容运营 | Gingiris</title>
-<meta name="description" content="Source-grounded articles, two-stage review, formatting and verified draft handoff.">
+<title>WeChat Editorial Skill: Sources to Reviewed Draft</title>
+<meta name="description" content="Prepare a WeChat editorial brief, source map and reviewed article draft. Preserve voice, flag unsupported claims and deliver a reviewable package.">
 <meta name="keywords" content="gr-wechat-editorial, Gingiris, AI skill">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -34,12 +34,13 @@
       "@type": "SoftwareApplication",
       "name": "WeChat Editorial / 公众号内容运营",
       "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": "Claude Skill",
+      "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
       "description": "Source-grounded articles, two-stage review, formatting and verified draft handoff. 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。",
       "url": "https://tools.gingiris.com/skills/gr-wechat-editorial/",
-      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gr-wechat-editorial",
-      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-skills/gr-wechat-editorial",
+      "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial",
+      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
         "@type": "Offer",
@@ -57,7 +58,8 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "gr-wechat-editorial, Gingiris, AI skill"
+      "keywords": "gr-wechat-editorial, Gingiris, AI skill",
+      "dateModified": "2026-11-11"
     },
     {
       "@type": "HowTo",
@@ -246,8 +248,9 @@
       <p class="tag-line">Source-grounded articles, two-stage review, formatting and verified draft handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-wechat-editorial</span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
+      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>
@@ -278,6 +281,13 @@
       </tbody></table></div>
     </section>
 
+<section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
+        <h3>What to provide</h3><p class="body">Original materials, intended readers, editorial goal, voice samples and factual sources.</p>
+        <h3>What you get</h3><p class="body">An editorial brief, source map, reviewed draft and delivery package.</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Prepare a WeChat article draft from these sources. Preserve my voice, flag unsupported claims and deliver a reviewable draft before publishing.</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: If a source contains an unverified performance claim, the draft flags it for review instead of turning it into the headline.</p>
+        <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>How to use / 使用流程</h2>
       <ol class="steps">

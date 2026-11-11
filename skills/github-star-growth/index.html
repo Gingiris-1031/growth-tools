@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GitHub Star Sustained Growth — 300+ Stars/Month SOP |…</title>
-<meta name="description" content="GitHub star growth SOP: the 300-stars/month cadence across content rhythm, Reddit/HN community ops, event-driven growth, and a contributor + ambassador ladder.…">
+<title>GitHub Growth Skill: Releases and Developer Adoption</title>
+<meta name="description" content="Improve repository readiness, plan releases and track developer adoption. Separate GitHub stars from installations, active users and qualified feedback.">
 <meta name="keywords" content="GitHub star growth, sustained star growth, 300 stars per month, contributor system, ambassador program, open source community, Reddit OSS, Hacker News stars, developer community growth">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -34,12 +34,13 @@
       "@type": "SoftwareApplication",
       "name": "GitHub Star Sustained Growth Playbook",
       "applicationCategory": "DeveloperApplication",
-      "applicationSubCategory": "Claude Skill",
+      "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
       "description": "Sustained GitHub-star growth SOP for adding 300+ stars per month: a content rhythm (8–12 pieces/month), Reddit/Hacker News/Discord community operations, event-driven growth (AMAs, meetups, hackathons), and a contributor + ambassador ladder. Validated taking AFFiNE 0→60K and Client Project A 0→10K stars.",
       "url": "https://tools.gingiris.com/skills/github-star-growth/",
-      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gingiris-github-star-growth",
-      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-github-star-growth",
+      "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-github-star-growth",
+      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-github-star-growth",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
         "@type": "Offer",
@@ -57,7 +58,8 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "GitHub star growth, sustained star growth, 300 stars per month, contributor system, ambassador program, open source community, Reddit OSS, Hacker News stars, developer community growth"
+      "keywords": "GitHub star growth, sustained star growth, 300 stars per month, contributor system, ambassador program, open source community, Reddit OSS, Hacker News stars, developer community growth",
+      "dateModified": "2026-11-11"
     },
     {
       "@type": "HowTo",
@@ -262,7 +264,11 @@
   .site-footer a:hover { color:var(--accent); }
   @media (max-width:640px) {
     .container { padding:0 14px; }
-    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:nowrap; }
+    .site-nav .container { flex-direction:column; align-items:flex-start; gap:10px; }
+    .site-nav .nav-links { max-width:100%; min-width:0; flex-wrap:wrap; white-space:normal; }
+    .cmp { table-layout:fixed; }
+    .cmp td, .cmp th, .cmp td:nth-child(2) { white-space:normal; overflow-wrap:anywhere; }
+    .site-nav .nav-links { gap:14px; font-size:12px; overflow-x:auto; white-space:normal; }
     .hero { padding:24px 0 4px; }
     .meta-install { font-size:13px; max-width:100%; overflow-x:auto; }
   }
@@ -293,9 +299,10 @@
       <h1>GitHub Star Sustained Growth Playbook</h1>
       <p class="tag-line">The monthly operating cadence that adds 300+ GitHub stars — content, community, events, contributors.</p>
       <div class="meta-install" id="install">
-        <span>npx skills add <b>Gingiris-1031/gingiris-github-star-growth</b></span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-github-star-growth');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-github-star-growth</span>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-github-star-growth').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
+      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-github-star-growth">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>
@@ -334,6 +341,13 @@
       </tbody></table></div>
     </section>
 
+<section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
+        <h3>What to provide</h3><p class="body">Repository URL, release history, audience, contribution and usage evidence.</p>
+        <h3>What you get</h3><p class="body">A repository-readiness review, release plan and adoption tracking checklist.</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Assess our open-source growth bottleneck and propose a release plan. Treat stars as a discovery signal, not proof of product usage.</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: A star spike after a release is reported separately from installations, active users and qualified issues.</p>
+        <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-github-star-growth">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>The monthly 300-stars cadence</h2>
       <ol class="steps">
@@ -380,6 +394,7 @@
         <div class="faq-item"><p class="faq-q">What's a healthy geographic star distribution?</p><p class="faq-a">Benchmarked from VSCode, Vue, and AppFlowy: US ~19-21%, China ~19-21%, top EU countries ~10-15% combined. AFFiNE enforced a first-week 'no WeChat Moments' rule to protect it — once China spiked to ~35% in week two, it never came back down.</p></div>
     </section>
 
+
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
@@ -404,14 +419,5 @@
       <p style="margin-top:12px">© Iris (生姜iris) · Community skill licensed under MIT · Hosted services separate</p>
     </div>
   </footer>
-
-<section id="gingiris-community-cta" style="max-width:1000px;margin:40px auto;padding:24px;border:1px solid #b9c9a9;border-radius:16px;line-height:1.8">
-<h2>加入出海社群与购买资料包 · Community &amp; Resources</h2>
-<p><strong>加入出海社群：</strong>微信添加 <strong>staywildgrow</strong>，留言「加入社群」即可。<br>
-<strong>购买资料包：</strong>微信添加 <strong>staywildgrow</strong>，购买 Gingiris 出海资料包，价格 <strong>599 元人民币</strong>。</p>
-<p><strong>Join the community:</strong> Add <strong>staywildgrow</strong> on WeChat and send “加入社群” (join the community).<br>
-<strong>Get the resource pack:</strong> Add <strong>staywildgrow</strong> on WeChat to purchase the Gingiris global growth resource pack for <strong>CNY 599</strong>.</p>
-<p>社群与资料包为可选入口，不影响开源 Skill 的安装和使用。<br>The community and paid resource pack are optional; neither is required to install or use the open-source skills.</p>
-</section>
 </body>
 </html>

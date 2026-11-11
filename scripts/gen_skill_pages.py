@@ -31,20 +31,23 @@ def compact_meta(value, width=160):
     plain = html.unescape(value).strip()
     return textwrap.shorten(plain, width=width, placeholder="…")
 
-def compact_title(value, width=60):
+def compact_title(value, width=70):
     """Preserve the keyword-first phrase while avoiding SERP truncation."""
     plain = html.unescape(value).strip()
-    return textwrap.shorten(plain, width=width, placeholder="…")
+    if len(plain) > width and " | " in plain:
+        plain = plain.rsplit(" | ", 1)[0]
+    return textwrap.shorten(plain, width=width, placeholder="…").rstrip(" |—")
 
 def jsonld(s):
     url = f"{SITE}/skills/{s['slug']}/"
     soft = {
         "@type": "SoftwareApplication", "name": s["h1"],
         "applicationCategory": s.get("app_category", "BusinessApplication"),
-        "applicationSubCategory": "Claude Skill",
+        "applicationSubCategory": "AI agent instruction workflow",
         "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
         "description": s["software_description"], "url": url,
-        "downloadUrl": f"https://huggingface.co/datasets/Gingiris/{s['hf']}",
+        "downloadUrl": f"https://github.com/{s['install']}" + (f"/tree/main/skills/{s['install_skill']}" if s.get("install_skill") else ""),
+        "sameAs": f"https://github.com/{s['install']}",
         "installUrl": f"https://github.com/{s['install']}" + (f"/tree/main/skills/{s['install_skill']}" if s.get("install_skill") else ""),
         "license": "https://opensource.org/licenses/MIT",
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
@@ -75,6 +78,7 @@ def render(s):
     if s.get("usage"):
         u = s["usage"]
         usage_html = f"""<section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
         <h3>What to provide</h3><p class="body">{html.escape(u['inputs'])}</p>
         <h3>What you get</h3><p class="body">{html.escape(u['outputs'])}</p>
         <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">{html.escape(u['prompt'])}</pre>
@@ -263,6 +267,7 @@ def render(s):
         <span>npx skills add <b>{s['install']}</b>{(' --skill ' + s['install_skill']) if s.get('install_skill') else ''}</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('{install_command}').then(()=>{{this.classList.add('copied');this.textContent='✓ copied'}}).catch(()=>{{this.textContent='Select command to copy'}})">copy</button>
       </div>
+      <p class="body">Workflow guide updated {html.escape(str(s.get("updated", "2026-11-11")))} · <a href="https://github.com/{s['install']}/tree/main/skills/{s.get('install_skill', s['hf'])}">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>

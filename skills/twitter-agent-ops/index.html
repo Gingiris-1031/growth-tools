@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>X / Twitter AI Skill: Drafts and Verified Publishing |…</title>
-<meta name="description" content="Use source-backed voice rules and choose single posts or threads for the actual task.">
+<title>X / Twitter Skill: Drafts and Publishing Checks</title>
+<meta name="description" content="Prepare source-grounded X drafts and review publishing prerequisites. Includes task inputs, expected outputs and a starter prompt for controlled operations.">
 <meta name="keywords" content="X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -34,11 +34,12 @@
       "@type": "SoftwareApplication",
       "name": "X / Twitter AI Skill: Drafts and Verified Publishing",
       "applicationCategory": "DeveloperApplication",
-      "applicationSubCategory": "Claude Skill",
+      "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
       "description": "Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。",
       "url": "https://tools.gingiris.com/skills/twitter-agent-ops/",
-      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gingiris-twitter-agent-ops",
+      "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops",
+      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -59,7 +60,7 @@
       },
       "keywords": "X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor",
       "softwareVersion": "2.3.1",
-      "dateModified": "2026-11-08"
+      "dateModified": "2026-11-11"
     },
     {
       "@type": "HowTo",
@@ -258,6 +259,7 @@
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-twitter-agent-ops</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-twitter-agent-ops').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
+      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>
@@ -290,6 +292,7 @@
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
         <h3>What to provide</h3><p class="body">Source material, author or brand voice, requested account/channel, language and desired format. Publishing configuration is needed only for delivery.</p>
         <h3>What you get</h3><p class="body">A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and public readback.</p>
         <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Write one X post from this third-party article. Keep its claims attributed, use my voice samples, and deliver a draft only.</pre>

@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OPC Service Validation / OPC 服务验证 | Gingiris</title>
-<meta name="description" content="Validate a bounded service pilot, client fit, delivery capacity and repeat demand.">
+<title>OPC Service Validation Skill: Offer to Paid Pilot</title>
+<meta name="description" content="Turn a service idea into a fixed-scope offer and paid validation experiment. Define buyer, delivery, price hypothesis and acceptance criteria.">
 <meta name="keywords" content="gr-opc-service-validation, Gingiris, AI skill">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
@@ -34,12 +34,13 @@
       "@type": "SoftwareApplication",
       "name": "OPC Service Validation / OPC 服务验证",
       "applicationCategory": "BusinessApplication",
-      "applicationSubCategory": "Claude Skill",
+      "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
       "description": "Validate a bounded service pilot, client fit, delivery capacity and repeat demand. 验证有边界的服务试单、客户适配、交付容量与复购信号。",
       "url": "https://tools.gingiris.com/skills/gr-opc-service-validation/",
-      "downloadUrl": "https://huggingface.co/datasets/Gingiris/gr-opc-service-validation",
-      "installUrl": "https://skills.sh/Gingiris-1031/gingiris-skills/gr-opc-service-validation",
+      "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation",
+      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
         "@type": "Offer",
@@ -57,7 +58,8 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "gr-opc-service-validation, Gingiris, AI skill"
+      "keywords": "gr-opc-service-validation, Gingiris, AI skill",
+      "dateModified": "2026-11-11"
     },
     {
       "@type": "HowTo",
@@ -246,8 +248,9 @@
       <p class="tag-line">Validate a bounded service pilot, client fit, delivery capacity and repeat demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-opc-service-validation</span>
-        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation');this.classList.add('copied');this.textContent='✓ copied'">copy</button>
+        <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
+      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation">Maintained source and prerequisites</a></p>
       <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
     </div>
   </header>
@@ -278,6 +281,13 @@
       </tbody></table></div>
     </section>
 
+<section id="use-this-skill"><h2>Use this skill</h2>
+        <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
+        <h3>What to provide</h3><p class="body">Service idea, target buyer, problem evidence, delivery capacity and pricing assumptions.</p>
+        <h3>What you get</h3><p class="body">A bounded service offer, paid validation experiment and delivery acceptance checklist.</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Turn this service idea into a small paid validation test. Specify buyer, deliverable, exclusions, price hypothesis and a stop condition.</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: A broad consulting idea becomes one fixed-scope delivery for one buyer type, with a price hypothesis and a concrete acceptance checklist.</p>
+        <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>How to use / 使用流程</h2>
       <ol class="steps">
