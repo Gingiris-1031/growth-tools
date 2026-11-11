@@ -311,11 +311,37 @@
         /* ── Footer ── */
         .footer {
             border-top: 1px solid var(--border);
-            padding: 20px 24px;
+            padding: 40px 24px 20px;
             text-align: center;
             color: var(--text-muted);
             font-size: 13px;
         }
+
+        .footer-directory {
+            display: grid;
+            gap: 28px;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            margin: 0 auto 36px;
+            max-width: 1100px;
+            text-align: left;
+        }
+
+        .footer-directory h2 {
+            color: var(--text);
+            font-size: 13px;
+            letter-spacing: 0.04em;
+            margin: 0 0 12px;
+        }
+
+        .footer-directory ul {
+            display: grid;
+            gap: 9px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-directory a { line-height: 1.45; }
 
         .footer a {
             color: var(--text-secondary);
@@ -327,6 +353,14 @@
         .footer a:hover {
             color: var(--accent);
             text-decoration: none;
+        }
+
+        @media (max-width: 760px) {
+            .footer-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        }
+
+        @media (max-width: 480px) {
+            .footer-directory { grid-template-columns: 1fr; }
         }
 
         /* ── Post layout prose styles ── */
@@ -501,6 +535,32 @@
     </main>
 
     <footer class="footer">
+        <nav class="footer-directory" aria-label="Explore Gingiris Growth Tools">
+            <section><h2>Free Tools</h2><ul>
+                <li><a href="{{ site.baseurl }}/tools/">All free tools</a></li>
+                <li><a href="{{ site.baseurl }}/tools/github-issue-generator/">GitHub issue generator</a></li>
+                <li><a href="{{ site.baseurl }}/tools/github-readme-generator/">GitHub README generator</a></li>
+                <li><a href="{{ site.baseurl }}/tools/ph-comment-generator/">Product Hunt comment generator</a></li>
+            </ul></section>
+            <section><h2>Use Cases</h2><ul>
+                <li><a href="{{ site.baseurl }}/blog/2026/04/02/best-social-media-listening-tools-startups-2026/">Social listening for startups</a></li>
+                <li><a href="{{ site.baseurl }}/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide/">Launch on Hacker News</a></li>
+                <li><a href="{{ site.baseurl }}/blog/2026/04/02/github-readme-template-guide/">Write a GitHub README</a></li>
+                <li><a href="{{ site.baseurl }}/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars/">Grow GitHub stars</a></li>
+            </ul></section>
+            <section><h2>Skills &amp; Playbooks</h2><ul>
+                <li><a href="{{ site.baseurl }}/skills/">All AI agent skills</a></li>
+                <li><a href="{{ site.baseurl }}/skills/seo-geo/">SEO/GEO agent skill</a></li>
+                <li><a href="{{ site.baseurl }}/skills/competitor-research/">Competitor research skill</a></li>
+                <li><a href="{{ site.baseurl }}/playbook/2b-deals/">B2B deal playbook</a></li>
+            </ul></section>
+            <section><h2>Cases &amp; Services</h2><ul>
+                <li><a href="{{ site.baseurl }}/cases/">All growth cases</a></li>
+                <li><a href="{{ site.baseurl }}/cases/attribution-over-applause/">Growth attribution case</a></li>
+                <li><a href="{{ site.baseurl }}/services/">Advisory services</a></li>
+                <li><a href="{{ site.baseurl }}/partnership/">Partnerships</a></li>
+            </ul></section>
+        </nav>
         <p>© {{ 'now' | date: "%Y" }} <a href="https://gingiris.com">Gingiris</a>{% unless page.privacy_strict %} · Built by <a href="https://twitter.com/WeiYipei">@Iris</a>{% endunless %} · <a href="{{ site.baseurl }}/partnership/">Partners</a></p>
     </footer>
 
