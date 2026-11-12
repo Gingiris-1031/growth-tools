@@ -735,7 +735,7 @@
     <div class="hero-inner">
         <div class="hero-eyebrow"><span class="hero-dot"></span> GINGIRIS · GROWTH TOOLS</div>
         <h1 class="hero-title">海外グロースツールを、<span class="hero-accent">ひとつに集約</span></h1>
-        <p class="hero-sub">海外ローンチで実証済みの100+ツールを厳選 —— ソーシャルリスニング、KOL管理、Redditグロース、SEO、Product Hunt、UGC。無料プレイブックとワンクリックで導入できるAIエージェントスキル付き。</p>
+        <p class="hero-sub">海外ローンチ向けに厳選した100+ツール —— ソーシャルリスニング、KOL管理、Redditグロース、SEO、Product Hunt、UGC。無料プレイブックとワンクリックで導入できるAIエージェントスキル付き。</p>
         <div class="hero-actions">
             <a href="#tools" class="hero-btn hero-btn-primary">すべてのツールを見る →</a>
             <a href="/blog/" class="hero-btn hero-btn-ghost">📝 ブログを読む</a>
@@ -850,22 +850,35 @@
 
     // Tools data — Japan version with Japanese descriptions + Japan-specific tools
     const tools = [
+            {"name":"ChatCut","desc":"自然言語で動画編集。タイムライン、字幕、モーションに対応。初回無料枠と有料生成プランがあります。","category":"コンテンツ制作","price":"freemium","url":"https://chatcut.io/","icon":"🎬"},
+            {"name":"Actionbook","desc":"ブラウザ上でWebデータを収集し、ダッシュボードや出典付き分析を作成するAIアシスタント。","category":"開発ツール","price":"freemium","url":"https://actionbook.app/","icon":"🔧"},
+            {"name":"Profound","desc":"AI検索でのブランド露出を追跡する可視性分析・マーケティングAgentプラットフォーム。","category":"SEO ツール","price":"paid","url":"https://www.tryprofound.com/","icon":"🔧"},
+            {"name":"OpenRouter","desc":"複数のモデル提供元へ接続する統合API。無料モデルと従量課金モデルを利用できます。","category":"開発ツール","price":"freemium","url":"https://openrouter.ai/","icon":"🔧"},
+            {"name":"Octopus.do","desc":"ビジュアルサイトマップとWebサイトのコンテンツ計画。クロール、ワイヤーフレーム、共同作業に対応。","category":"SEO ツール","price":"freemium","url":"https://octopus.do/","icon":"🔧"},
+            {"name":"Attio","desc":"メール・カレンダー同期、データ拡充、営業ワークフローに対応するCRM。","category":"CRM・営業","price":"freemium","url":"https://attio.com/","icon":"🔧"},
+            {"name":"Chatwoot","desc":"共有受信箱、Webチャット、ヘルプセンターを備えた顧客サポート。クラウドとセルフホストに対応。","category":"顧客サポート","price":"freemium","url":"https://www.chatwoot.com/","icon":"🔧"},
+            {"name":"Hypefury","desc":"SNSコンテンツ作成、予約投稿、分析ツール。期間限定の試用と有料プランを提供。","category":"ソーシャルリーチ","price":"paid","url":"https://hypefury.com/","icon":"🔧"},
+            {"name":"SEObot","desc":"SEO調査とブログ制作を支援するAIツール。リンク、画像、コンテンツ更新に対応。","category":"SEO ツール","price":"paid","url":"https://seobotai.com/","icon":"🔧"},
+            {"name":"Intercom","desc":"Fin AI Agent、共有受信箱、チケット、ヘルプセンターを統合した顧客サポート。","category":"顧客サポート","price":"paid","url":"https://www.intercom.com/","icon":"🔧"},
+            {"name":"AppSumo","desc":"ソフトウェア特典のマーケットプレイス。閲覧は無料、製品やライセンスは個別価格です。","category":"ソフトウェア購入","price":"paid","url":"https://appsumo.com/","icon":"🔧"},
+            {"name":"Hypit","desc":"AI Agent向け動画制作・編成ツール。フレームワークは無料、モデル利用とホスティングは別料金。","category":"コンテンツ制作","price":"freemium","url":"https://hypit.ai/","icon":"🎬"},
+            {"name":"OrcaRouter","desc":"モデルルーティング、フォールバック、利用状況分析を備えたAIゲートウェイ。無料枠とモデル従量料金は別です。","category":"開発ツール","price":"freemium","url":"https://www.orcarouter.ai/","icon":"🔧"},
             {"name": "Wayback Machine (web.archive.org)", "desc": "競合サイト・料金ページ・訴求文の過去のスナップショットを確認。Save Page Now でページを保存。記録がない場合や不完全な場合があります。", "category": "SEO ツール", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
         // 🇯🇵 日本特有ツール
         { name: "Zenn", desc: "日本のエンジニア向けブログ・技術書プラットフォーム。GitHub連携で記事管理可能。海外スタートアップの日本語コンテンツ発信に最適", category: "🇯🇵 日本特有", price: "free", url: "https://zenn.dev", icon: "📝" },
-        { name: "Qiita", desc: "日本最大の技術ブログ・Q&Aサービス。月間300万UU以上。タグ検索でSEO効果高。エンジニアへのリーチに必須", category: "🇯🇵 日本特有", price: "free", url: "https://qiita.com", icon: "🔷" },
-        { name: "connpass", desc: "日本最大のエンジニアイベント管理プラットフォーム。月間数千件の勉強会。スポンサー参加で開発者コミュニティに直接アプローチ", category: "🇯🇵 日本特有", price: "free", url: "https://connpass.com", icon: "📅" },
+        {"name":"Qiita","desc":"エンジニア向けの技術知識共有コミュニティ。記事の投稿や情報収集に利用できます。","category":"🇯🇵 日本特有","price":"free","url":"https://qiita.com","icon":"🔷"},
+        {"name":"connpass","desc":"日本のITイベント・コミュニティ管理プラットフォーム。無料・有料の主催者プランがあり、参加費はイベントごとに異なります。","category":"🇯🇵 日本特有","price":"freemium","url":"https://connpass.com","icon":"📅"},
         { name: "JAWS-UG", desc: "Japan AWS User Group。全国50以上の支部で定期勉強会。クラウド系開発者・インフラエンジニアへのリーチに効果的", category: "🇯🇵 日本特有", price: "free", url: "https://jawsug.connpass.com", icon: "☁️" },
         { name: "LAPRAS", desc: "日本のエンジニア向けポートフォリオ・転職サービス。GitHubアクティビティをスコア化。技術力の高いエンジニアが集まる", category: "🇯🇵 日本特有", price: "freemium", url: "https://lapras.com", icon: "💼" },
         { name: "TechFeed", desc: "日本のエンジニア向けニュースアグリゲーター。エキスパートキュレーションで技術コンテンツを発見。日本語・英語両対応", category: "🇯🇵 日本特有", price: "free", url: "https://techfeed.io", icon: "📡" },
         { name: "Findy", desc: "日本のエンジニア転職サービス。GitHubスコアで技術力を評価。OSS開発者との接点を作りやすい", category: "🇯🇵 日本特有", price: "free", url: "https://findy-code.io", icon: "🎯" },
         { name: "DroidKaigi", desc: "日本最大のAndroid開発者カンファレンス。年次開催。スポンサー枠でAndroid開発者コミュニティに認知を広げられる", category: "🇯🇵 日本特有", price: "free", url: "https://droidkaigi.jp", icon: "🤖" },
-        { name: "iOSDC Japan", desc: "iOS開発者向け年次カンファレンス。CFP（発表公募）経由で登壇可能。日本のiOS開発者に直接リーチ", category: "🇯🇵 日本特有", price: "free", url: "https://iosdc.jp", icon: "🍎" },
+        {"name":"iOSDC Japan","desc":"日本のiOS開発者カンファレンス。参加には対象イベントのチケットが必要です。日程は公式案内をご確認ください。","category":"🇯🇵 日本特有","price":"paid","url":"https://iosdc.jp","icon":"🍎"},
         { name: "Rust.Tokyo", desc: "日本のRustコミュニティ主催の年次カンファレンス。技術レベルの高い参加者が集まる。システムプログラミング系OSSのアピールに適切", category: "🇯🇵 日本特有", price: "free", url: "https://rust.tokyo", icon: "🦀" },
         { name: "PyCon JP", desc: "日本のPython開発者カンファレンス。日本語・英語混在セッション。データサイエンス・AI関連OSSの認知拡大に有効", category: "🇯🇵 日本特有", price: "free", url: "https://pycon.jp", icon: "🐍" },
         { name: "DevRel.jp", desc: "日本のDeveloper Relations担当者コミュニティ。開発者向けマーケティング担当者との繋がりを作れる。DevRel戦略のインサイト収集にも有用", category: "🇯🇵 日本特有", price: "free", url: "https://devrel.jp", icon: "🌐" },
-        { name: "Hatena Developer Blog", desc: "はてな技術者ブログ。はてなブックマーク経由でバズりやすい。国内大手IT企業エンジニアが多く読む媒体", category: "🇯🇵 日本特有", price: "free", url: "https://developer.hatenastaff.com", icon: "📖" },
-        { name: "LinuxFoundation Japan", desc: "LinuxFoundationの日本窓口。OSS関連イベントをサポート。企業スポンサーシップの入り口として活用可能", category: "🇯🇵 日本特有", price: "free", url: "https://lf-japan.org", icon: "🐧" },
+        {"name":"Hatena Developer Blog","desc":"はてな公式の開発者ブログ。技術知見や開発事例を読むための情報源です。","category":"🇯🇵 日本特有","price":"free","url":"https://developer.hatenastaff.com","icon":"📖"},
+        {"name":"LinuxFoundation Japan","desc":"LinuxFoundationの日本窓口。OSS関連イベントをサポート。企業スポンサーシップの入り口として活用可能","category":"🇯🇵 日本特有","price":"free","url":"https://www.linuxfoundation.org/ja-jp/","icon":"🐧"},
         { name: "GitHub Japan", desc: "GitHubの日本向けイベント・コミュニティ情報。GitHub主催のローカルイベントへの参加・スポンサー申請窓口", category: "🇯🇵 日本特有", price: "free", url: "https://github.co.jp", icon: "🐙" },
 
         // ソーシャルリスニング
@@ -883,21 +896,21 @@
         { name: "Dev.to", desc: "開発者ブログ・議論プラットフォーム · コンテンツ拡散に効果的", category: "コミュニティ一覧", price: "free", url: "https://dev.to/", icon: "💻" },
         { name: "Indie Hackers", desc: "インディーデベロッパー・SaaS創業者のコアコミュニティ", category: "コミュニティ一覧", price: "free", url: "https://www.indiehackers.com/", icon: "🛠️" },
         { name: "Lobste.rs", desc: "高品質な開発者向けリンク共有サイト。技術深度の高いコミュニティ", category: "コミュニティ一覧", price: "free", url: "https://lobste.rs/", icon: "🦞" },
-        { name: "r/startups", desc: "Reddit · スタートアップコミュニティ。プロダクト紹介に比較的寛容", category: "コミュニティ一覧", price: "free", url: "https://www.reddit.com/r/startups", icon: "🔴" },
+        {"name":"r/startups","desc":"起業の課題や経験を議論するコミュニティ。宣伝はルールで認められた投稿や場面に限られます。","category":"コミュニティ一覧","price":"free","url":"https://www.reddit.com/r/startups","icon":"🔴"},
 
         // ソーシャルリーチ
         { name: "GeeLark", desc: "ソーシャルメディアマーケティング用AIコパイロット（マルチプラットフォーム）", category: "ソーシャルリーチ", price: "paid", url: "https://www.geelark.com/?utm_source=Gingiris", icon: "🦜" },
         { name: "DMpro.ai", desc: "X/Twitter 自動DMツール · 450+ DM/日対応", category: "ソーシャルリーチ", price: "paid", url: "https://www.dmpro.ai/", icon: "✉️" },
         { name: "Drippi.ai", desc: "AIパーソナライズDM · プロフィール・ツイートベースで生成", category: "ソーシャルリーチ", price: "paid", url: "https://www.drippi.ai/", icon: "🎯" },
         { name: "Phantombuster", desc: "LinkedIn DM自動化ツール", category: "ソーシャルリーチ", price: "paid", url: "https://phantombuster.com/", icon: "👻" },
-        { name: "LinkedHelper", desc: "LinkedIn ブラウザプラグイン型自動化ツール", category: "ソーシャルリーチ", price: "paid", url: "https://www.linkedhelper.com/", icon: "🔗" },
-        { name: "EEzycollab", desc: "KOLマッチング + メール送信一体型ツール", category: "ソーシャルリーチ", price: "freemium", url: "https://www.eezycollab.com/", icon: "🤝" },
+        {"name":"LinkedHelper","desc":"LinkedIn向けデスクトップ自動化アプリ。招待、フォローアップ、連絡先管理に対応。","category":"ソーシャルリーチ","price":"paid","url":"https://www.linkedhelper.com/","icon":"🔗"},
+        {"name":"EEzycollab","desc":"KOLマッチング + メール送信一体型ツール","category":"ソーシャルリーチ","price":"paid","url":"https://www.eezycollab.com/","icon":"🤝"},
 
         // SEO ツール
         { name: "AITDK", desc: "AI SEOプラグイン。キーワード分析・競合調査に対応", category: "SEO ツール", price: "free", url: "https://aitdk.com/", icon: "🔑" },
         { name: "Analook", desc: "競合インテリジェンスをワンストップで — SEO・ソーシャル・資金調達・ビジネスモデルを60秒で分析", category: "SEO ツール", price: "paid", url: "https://www.analook.com", icon: "🔍" },
         { name: "Keywords Everywhere", desc: "キーワード検索ボリューム調査プラグイン", category: "SEO ツール", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
-        { name: "Semrush", desc: "包括的SEO分析プラットフォーム。競合分析・バックリンク分析", category: "SEO ツール", price: "paid", url: "https://www.semrush.com/", icon: "📊" },
+        {"name":"Semrush","desc":"包括的SEO分析プラットフォーム。競合分析・バックリンク分析","category":"SEO ツール","price":"freemium","url":"https://www.semrush.com/","icon":"📊"},
         { name: "Ahrefs", desc: "バックリンク分析とキーワードリサーチのスタンダード", category: "SEO ツール", price: "paid", url: "https://ahrefs.com/", icon: "🔍" },
 
         // 開発ツール
@@ -914,8 +927,8 @@
         { name: "Reddit List", desc: "高品質Redditコミュニティディレクトリ", category: "Reddit", price: "free", url: "https://www.reddit-list.com/en", icon: "📋" },
 
             // ── Added 2026-06-23: tools verified through analook integration ──
-            { name: "UnifAPI", desc: "220 個の公開データAPIを統合 (Reddit/X/IG/TikTok/YouTube/LinkedIn/SEO/GEO)。$0.001/クレジット従量課金", category: "開発ツール", price: "freemium", url: "https://unifapi.com", icon: "🔌" },
-            { name: "TwitterAPI.io", desc: "Twitter/X ユーザー検索 + bio キーワード検索 API。公式 X API より約 10 倍安価", category: "開発ツール", price: "freemium", url: "https://twitterapi.io", icon: "🐦" },
+            {"name":"UnifAPI","desc":"公開データAPIとMCPサービス。前払いクレジットで従量課金され、無料補助ツールとは料金体系が異なります。","category":"開発ツール","price":"paid","url":"https://unifapi.com","icon":"🔌"},
+            {"name":"TwitterAPI.io","desc":"第三者提供のX/TwitterデータAPI。従量課金で、初回試用クレジットがあります。","category":"開発ツール","price":"paid","url":"https://twitterapi.io","icon":"🐦"},
             { name: "Resend", desc: "モダンなトランザクション + マーケティングメール API。月 3000 通無料、開発者フレンドリー", category: "開発ツール", price: "freemium", url: "https://resend.com", icon: "📨" },
             { name: "DataForSEO", desc: "フルスタック SEO データ API：ランキング / キーワード / バックリンク / トラフィック推定、プリペイド", category: "SEO ツール", price: "paid", url: "https://dataforseo.com", icon: "📈" },
             { name: "SerpAPI", desc: "Google / Bing SERP スクレイピング API。構造化結果 + Maps + Trends 込み、クリーンな JSON", category: "SEO ツール", price: "freemium", url: "https://serpapi.com", icon: "🔍" },

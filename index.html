@@ -89,7 +89,7 @@
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "Growth Tools - 出海增长工具集合",
-        "description": "100+ verified growth tools for AI & SaaS: social listening, KOL outreach, Reddit growth, SEO, Product Hunt, UGC management.",
+        "description": "100+ curated growth tools for AI & SaaS: social listening, KOL outreach, Reddit growth, SEO, Product Hunt, UGC management.",
         "url": "https://tools.gingiris.com/",
         "numberOfItems": 47,
         "itemListElement": [
@@ -113,7 +113,7 @@
                 "name": "出海增长工具有哪些？",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "核心工具：社媒监听（Brandwatch, Mention）、KOL管理（Apollo, Hunter）、Reddit增长工具、SEO工具（Ahrefs, SEMrush）、Product Hunt工具、UGC管理平台。基于AFFiNE 33k stars实战验证。"
+                    "text": "核心工具：社媒监听（Brandwatch, Mention）、KOL管理（Apollo, Hunter）、Reddit增长工具、SEO工具（Ahrefs, SEMrush）、Product Hunt工具、UGC管理平台。结合增长运营经验整理。"
                 }
             },
             {
@@ -1116,7 +1116,7 @@
         <div class="hero-inner">
             <div class="hero-eyebrow"><span class="hero-dot"></span> GINGIRIS · GROWTH TOOLS</div>
             <h1 class="hero-title">100+ 出海增长工具：<span class="hero-accent">Growth Tools for Startups</span></h1>
-            <p class="hero-sub">精选 100+ 经过实战验证的出海增长工具 —— 社媒监听、KOL 管理、Reddit 增长、SEO、Product Hunt、UGC。配套免费 playbook 与可一键安装的 AI agent skills。</p>
+            <p class="hero-sub">精选 100+ 出海增长工具 —— 社媒监听、KOL 管理、Reddit 增长、SEO、Product Hunt、UGC。配套免费 playbook 与可一键安装的 AI agent skills。</p>
             <div class="hero-actions">
                 <a href="#tools" class="hero-btn hero-btn-primary">浏览全部工具 →</a>
                 <a href="/blog/" class="hero-btn hero-btn-ghost">📝 阅读增长 Blog</a>
@@ -1318,11 +1318,24 @@
 
         // ── Tools Data ─────────────────────────────────────────────────
         const tools = [
+            {"name":"ChatCut","desc":"通过自然语言编辑视频，支持时间线、字幕、动效及音视频生成；免费起始额度与付费方案并存。","category":"内容创作","price":"freemium","url":"https://chatcut.io/","icon":"🎬"},
+            {"name":"Actionbook","desc":"浏览器 AI 助手，采集网页及已登录应用的数据，生成看板与带来源的分析。","category":"开发工具","price":"freemium","url":"https://actionbook.app/","icon":"🔧"},
+            {"name":"Profound","desc":"AI 搜索可见性监测与营销 Agent 平台，跟踪品牌在答案引擎中的表现。","category":"SEO","price":"paid","url":"https://www.tryprofound.com/","icon":"🔧"},
+            {"name":"OpenRouter","desc":"通过统一 API 访问多家模型供应商，支持免费模型与按量计费模型。","category":"开发工具","price":"freemium","url":"https://openrouter.ai/","icon":"🔧"},
+            {"name":"Octopus.do","desc":"可视化站点地图与网站内容规划，支持爬取现有网站、线框图及团队协作。","category":"SEO","price":"freemium","url":"https://octopus.do/","icon":"🔧"},
+            {"name":"Attio","desc":"CRM 与客户数据管理，支持邮件日历同步、数据富化、销售工作流与报告。","category":"市场拓展","price":"freemium","url":"https://attio.com/","icon":"🔧"},
+            {"name":"Chatwoot","desc":"客户支持平台，提供共享收件箱、网站聊天、多渠道会话与帮助中心；支持云端及自托管。","category":"客服支持","price":"freemium","url":"https://www.chatwoot.com/","icon":"🔧"},
+            {"name":"Hypefury","desc":"社交媒体内容创作、排期发布与分析工具，提供付费方案和限时试用。","category":"社媒管理","price":"paid","url":"https://hypefury.com/","icon":"🔧"},
+            {"name":"SEObot","desc":"AI 辅助 SEO 内容研究与博客制作，支持内外链、配图及内容更新。","category":"SEO","price":"paid","url":"https://seobotai.com/","icon":"🔧"},
+            {"name":"Intercom","desc":"客户服务平台，结合 Fin AI Agent、共享收件箱、工单和帮助中心。","category":"客服支持","price":"paid","url":"https://www.intercom.com/","icon":"🔧"},
+            {"name":"AppSumo","desc":"软件优惠与产品发现平台，收录按产品定价的限时优惠和终身授权交易。","category":"社区发现","price":"paid","url":"https://appsumo.com/","icon":"🔧"},
+            {"name":"Hypit","desc":"面向 AI Agent 的视频编排工具；框架免费，模型调用与托管服务另计费。","category":"内容创作","price":"freemium","url":"https://hypit.ai/","icon":"🎬"},
+            {"name":"OrcaRouter","desc":"AI 模型路由网关，支持故障回退与用量观测；平台有免费档，模型用量另计费。","category":"开发工具","price":"freemium","url":"https://www.orcarouter.ai/","icon":"🔧"},
             {"name": "Wayback Machine (web.archive.org)", "desc": "网页时光机：查看竞品网站、定价页和定位文案的历史快照，也可保存当前网页；快照可能缺失或不完整。", "category": "SEO", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
             // 社媒监听 & 分析
             { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", category: "社媒监听", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
             { name: "Vizzylabs", desc: "爆款内容分析，了解社媒趋势", category: "社媒监听", price: "free", url: "https://app.vizzylabs.ai/trending", icon: "📊" },
-            { name: "Tweet Binder", desc: "Twitter 转化率监控工具", category: "社媒监听", price: "paid", url: "https://www.tweetbinder.com/", icon: "🐦" },
+            {"name":"Tweet Binder","desc":"X/Twitter 话题标签与关键词分析，查看相关帖子及互动表现。","category":"社媒监听","price":"paid","url":"https://www.tweetbinder.com/","icon":"🐦"},
             { name: "PH Deck", desc: "每日 Product Hunt Featured 产品追踪", category: "社媒监听", price: "free", url: "https://www.phdeck.com/", icon: "🎯" },
             
 
@@ -1336,66 +1349,63 @@
             { name: "r/LocalLLaMA", desc: "Reddit · 本地部署 LLM 最活跃社区", category: "社区目录", price: "free", url: "https://www.reddit.com/r/LocalLLaMA", icon: "🔴" },
             { name: "r/selfhosted", desc: "Reddit · 自托管工具社区，OSS 曝光良好", category: "社区目录", price: "free", url: "https://www.reddit.com/r/selfhosted", icon: "🔴" },
             { name: "r/SideProject", desc: "Reddit · 独立项目展示，开发者出没", category: "社区目录", price: "free", url: "https://www.reddit.com/r/SideProject", icon: "🔴" },
-            { name: "Vibe Coding Collective", desc: "Meetup · 1119 成员 · AI 辅助编程爱好者", category: "社区目录", price: "free", url: "https://www.meetup.com/vibe-coders-collective/", icon: "📍" },
+            {"name":"Vibe Coding Collective","desc":"AI 辅助编程开发者 Meetup 社区；具体活动安排及费用以活动页为准。","category":"社区目录","price":"free","url":"https://www.meetup.com/vibe-coders-collective/","icon":"📍"},
             { name: "vibec.net Community", desc: "专属 Vibe Coding 平台社区 · 32K 开发者", category: "社区目录", price: "free", url: "https://vibec.net/community", icon: "⌨️" },
-            { name: "ODSC Slack", desc: "Slack · 5K 数据科学家 · 顶级数据科学大会社区", category: "社区目录", price: "free", url: "https://odsc.com/", icon: "💼" },
+            {"name":"ODSC Community","desc":"ODSC 数据科学社区与大会资源；当前链接为官网，活动和社区入口以官网为准。","category":"社区目录","price":"free","url":"https://odsc.com/","icon":"💼"},
             { name: "Hacker News (Show HN)", desc: "最高质量开发者社区 · OSS 首发必选", category: "社区目录", price: "free", url: "https://news.ycombinator.com/shownew", icon: "🟠" },
             { name: "Dev.to Community", desc: "开发者博客 + 讨论平台 · 内容传播效果好", category: "社区目录", price: "free", url: "https://dev.to/", icon: "💻" },
             { name: "Indie Hackers", desc: "独立开发者 & SaaS 创始人核心社区", category: "社区目录", price: "free", url: "https://www.indiehackers.com/", icon: "🛠️" },
             { name: "Lobste.rs", desc: "高质量开发者链接分享，技术深度社区", category: "社区目录", price: "free", url: "https://lobste.rs/", icon: "🦞" },
             { name: "r/datascience", desc: "Reddit · 数据科学入门到进阶讨论", category: "社区目录", price: "free", url: "https://www.reddit.com/r/datascience", icon: "🔴" },
             { name: "r/ecommerce", desc: "Reddit · 电商运营讨论，SaaS 工具需求活跃", category: "社区目录", price: "free", url: "https://www.reddit.com/r/ecommerce", icon: "🔴" },
-            { name: "r/startups", desc: "Reddit · 创业社区，产品展示宽松", category: "社区目录", price: "free", url: "https://www.reddit.com/r/startups", icon: "🔴" },
-            { name: "查看全部 180+ 社区 →", desc: "完整社区目录 · 含 Discord/Reddit/Slack/Meetup 直达链接", category: "社区目录", price: "free", url: "https://tools.gingiris.com/communities", icon: "🗺️" },
+            {"name":"r/startups","desc":"创业问题与经验讨论社区；推广仅限社区规则允许的指定帖子或场景。","category":"社区目录","price":"free","url":"https://www.reddit.com/r/startups","icon":"🔴"},
+            {"name":"查看全部社区 →","desc":"完整社区目录 · 含 Discord/Reddit/Slack/Meetup 直达链接","category":"社区目录","price":"free","url":"https://tools.gingiris.com/communities","icon":"🗺️"},
 
             // KOL/红人管理
-            { name: "EEzycollab", desc: "KOL 匹配 + 邮件发送一体化", category: "KOL管理", price: "freemium", url: "https://www.eezycollab.com/", icon: "🤝" },
+            {"name":"EEzycollab","desc":"KOL 匹配 + 邮件发送一体化","category":"KOL管理","price":"paid","url":"https://www.eezycollab.com/","icon":"🤝"},
             { name: "Nanoinfluencer", desc: "KOL 匹配 / 竞品账号调研", category: "KOL管理", price: "freemium", url: "https://www.nanoinfluencer.ai/", icon: "👥" },
             { name: "EasyKOL", desc: "KOL 管理平台", category: "KOL管理", price: "paid", url: "https://easykol.com/", icon: "📋" },
             { name: "NoxInfluencer", desc: "红人信息数据库", category: "KOL管理", price: "freemium", url: "https://cn.noxinfluencer.com/", icon: "🔍" },
-            { name: "Connpass", desc: "日本社群/KOL 资源", category: "KOL管理", price: "free", url: "https://connpass.com/", icon: "🇯🇵" },
+            {"name":"Connpass","desc":"日本技术活动与开发者社区平台，用于查找、报名和组织活动；活动费用另定。","category":"KOL管理","price":"freemium","url":"https://connpass.com/","icon":"🇯🇵"},
             
             // 社媒触达工具
             { name: "GeeLark", desc: "AI copilot for social media marketing (多平台)", category: "社媒触达", price: "paid", url: "https://www.geelark.com/?utm_source=Gingiris", icon: "🦜" },
-            { name: "DMpro.ai", desc: "X/Twitter 自动 DM 工具（xAutoDM 替代）· 450+ DM/天", category: "社媒触达", price: "paid", url: "https://www.dmpro.ai/", icon: "✉️" },
+            {"name":"DMpro.ai","desc":"X/Twitter 线索查找与个性化私信工作流工具；实际发送额度受账号及平台规则限制。","category":"社媒触达","price":"paid","url":"https://www.dmpro.ai/","icon":"✉️"},
             { name: "Drippi.ai", desc: "AI 个性化 DM · 基于 profile/推文生成", category: "社媒触达", price: "paid", url: "https://www.drippi.ai/", icon: "🎯" },
             { name: "Tweet Hunter", desc: "X/Twitter 触发式自动 DM — 用户点赞/转推/回复后自动发送，社区运营常用。含内容排期功能", category: "社媒触达", price: "paid", url: "https://tweethunter.io/", icon: "🌊" },
             { name: "Phantombuster", desc: "LinkedIn DM 自动化", category: "社媒触达", price: "paid", url: "https://phantombuster.com/", icon: "👻" },
-            { name: "LinkedHelper", desc: "LinkedIn 浏览器插件", category: "社媒触达", price: "paid", url: "https://www.linkedhelper.com/", icon: "🔗" },
+            {"name":"LinkedHelper","desc":"LinkedIn 桌面自动化应用，用于邀请、跟进和联系人管理。","category":"社媒触达","price":"paid","url":"https://www.linkedhelper.com/","icon":"🔗"},
             
             // Reddit 增长
             { name: "BuyUpvotes.io", desc: "Reddit Upvote 购买 · 发帖初期提升曝光（谨慎使用）", category: "Reddit", price: "paid", url: "https://www.buyupvotes.io/dashboard/order-upvotes/", icon: "⬆️" },
-            { name: "Fanscang", desc: "社媒推广平台，覆盖 Reddit 等多平台", category: "Reddit", price: "paid", url: "https://www.fanscang.com/other.html", icon: "🚀" },
             { name: "Reddit List", desc: "高质量 Reddit 社区目录", category: "Reddit", price: "free", url: "https://www.reddit-list.com/en", icon: "📋" },
             
             // SEO 工具
             { name: "AITDK", desc: "AI SEO 插件，关键词分析", category: "SEO", price: "free", url: "https://aitdk.com/", icon: "🔑" },
             { name: "Keywords Everywhere", desc: "关键词搜索量查询插件", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
-            { name: "Semrush", desc: "全面 SEO 分析平台", category: "SEO", price: "paid", url: "https://www.semrush.com/", icon: "📊" },
-            { name: "SubmitDirs", desc: "105 个高质量目录一键提交，快速建设外链 + 提升 DR", category: "SEO", price: "paid", url: "https://submitdirs.com/", icon: "📋" },
+            {"name":"Semrush","desc":"全面 SEO 分析平台","category":"SEO","price":"freemium","url":"https://www.semrush.com/","icon":"📊"},
+            {"name":"SubmitDirs","desc":"产品目录人工代提交服务，提供提交报告；是否收录及排名效果由各目录决定。","category":"SEO","price":"paid","url":"https://submitdirs.com/","icon":"📋"},
             { name: "Analook", desc: "全维度竞品情报：SEO/社交/融资/商业模式一站分析，60秒生成竞品情报", category: "SEO", price: "paid", url: "https://www.analook.com", icon: "🔍" },
             
             // 链接追踪
-            { name: "Juicebox", desc: "Short link + UTM 追踪", category: "链接追踪", price: "freemium", url: "https://juicebox.ai/pricing", icon: "🔗" },
+            {"name":"Juicebox","desc":"AI 人才搜索与招聘平台，支持候选人发现和招聘触达。","category":"市场拓展","price":"freemium","url":"https://juicebox.ai/pricing","icon":"🔗"},
             { name: "Shortpen", desc: "Short link 生成", category: "链接追踪", price: "freemium", url: "https://shortpen.com/pricing/", icon: "✂️" },
             { name: "Bitly", desc: "短链接生成标杆", category: "链接追踪", price: "freemium", url: "https://bitly.com", icon: "⚡" },
             
             // UGC 管理
             { name: "Growi", desc: "达人管理专用平台", category: "UGC管理", price: "paid", url: "https://www.growi.io/grow", icon: "🌱" },
-            { name: "MagicBrief", desc: "AI 生成 KOL/UGC Brief", category: "UGC管理", price: "freemium", url: "https://magicbrief.com/", icon: "✨" },
             { name: "Sideshift", desc: "UGC 创作者支付 (美国达人)", category: "UGC管理", price: "paid", url: "https://sideshift.app/", icon: "💰" },
             { name: "Viral.app", desc: "UGC 流量追踪", category: "UGC管理", price: "paid", url: "https://viral.app/", icon: "📈" },
-            { name: "DansUGC", desc: "UGC 内容生成辅助", category: "UGC管理", price: "paid", url: "https://dansugc.com/", icon: "🎬" },
+            {"name":"DansUGC","desc":"真人 UGC 反应视频素材库，提供搜索与视频编辑工具；素材购买和使用范围以授权条款为准。","category":"UGC管理","price":"freemium","url":"https://dansugc.com/","icon":"🎬"},
             
             // 社区发现
-            { name: "Discord Hunt", desc: "找 Discord 社区", category: "社区发现", price: "free", url: "https://discordhunt.com/", icon: "🎮" },
             { name: "DevHunt", desc: "开发者工具打榜平台", category: "社区发现", price: "free", url: "https://devhunt.org/", icon: "🛠️" },
-            { name: "Skool", desc: "付费社区 + 课程 + 会员一体化平台，适合出海独立创业者和 AI 创始人建付费社区、销售课程。免费创建，2.9% 交易手续费", category: "社区发现", price: "freemium", url: "https://www.skool.com/", icon: "🎓" },
+            {"name":"Skool","desc":"社区、课程与会员运营平台；付费订阅，可免费试用；交易手续费随套餐而异。","category":"社区发现","price":"paid","url":"https://www.skool.com/","icon":"🎓"},
             
             // 内容创作
             { name: "Arcade", desc: "交互式产品 Demo 制作", category: "内容创作", price: "freemium", url: "https://www.arcade.software/", icon: "🎮" },
             { name: "Imgflip", desc: "梗图生成器", category: "内容创作", price: "free", url: "https://imgflip.com/memetemplates", icon: "😂" },
-            { name: "Daily Dose of DS", desc: "技术框架图制作", category: "内容创作", price: "free", url: "https://www.dailydoseofds.com/", icon: "📊" },
+            {"name":"Daily Dose of DS","desc":"AI 工程与数据科学学习资源，提供图解、Newsletter、指南及课程。","category":"内容创作","price":"freemium","url":"https://www.dailydoseofds.com/","icon":"📊"},
             
             // 埋点 & 分析
             { name: "Mixpanel", desc: "用户行为分析", category: "分析埋点", price: "freemium", url: "https://mixpanel.com/", icon: "📈" },
@@ -1412,14 +1422,14 @@
             { name: "Prolific", desc: "海外用户调研平台", category: "用户调研", price: "paid", url: "https://www.prolific.com/", icon: "🔬" },
             { name: "Qwoted", desc: "媒体资源平台", category: "媒体PR", price: "freemium", url: "https://www.qwoted.com/", icon: "📰" },
             { name: "GlueClub", desc: "快速建联 Operation 大佬", category: "网络拓展", price: "paid", url: "https://www.glueclub.com/", icon: "🤝" },
-            { name: "WeAreWisely", desc: "获客增长服务", category: "增长服务", price: "paid", url: "https://wearewisely.com/en/", icon: "🚀" },
+            {"name":"WeAreWisely","desc":"社群运营与管理服务，帮助品牌建设和维护社区。","category":"增长服务","price":"paid","url":"https://wearewisely.com/en/","icon":"🚀"},
             { name: "RapidAPI", desc: "API 集成市场", category: "开发工具", price: "freemium", url: "https://rapidapi.com/", icon: "⚡" },
             { name: "GitHub REST API", desc: "自动更新 README、管理 issue、追踪 star 等 repo 操作。公开数据可读取；未认证通常 60 次/小时，用户认证通常 5,000 次/小时，部分接口限制更严", category: "开发工具", price: "free", url: "https://docs.github.com/en/rest", icon: "🐙" },
             { name: "dev.to API", desc: "编程发布和更新 dev.to 文章，内容多平台分发常用。Gingiris 博文全自动同步到 dev.to/iris1031", category: "开发工具", price: "free", url: "https://developers.forem.com/api", icon: "✍️" },
-            { name: "Serper.dev", desc: "Google 搜索结果 API，提供 2,500 次免费试用查询。关键词研究、竞品监控、GEO 内容验证常用", category: "开发工具", price: "freemium", url: "https://serper.dev/", icon: "🔍" },
+            {"name":"Serper.dev","desc":"Google 搜索结果 API，提供 2,500 次免费试用查询。关键词研究、竞品监控、GEO 内容验证常用","category":"开发工具","price":"paid","url":"https://serper.dev/","icon":"🔍"},
             { name: "Firecrawl", desc: "网页内容转干净 Markdown，网络爬虫 API。竞品分析、内容研究常用，免费方案每月 1,000 credits，基础抓取每页 1 credit", category: "开发工具", price: "freemium", url: "https://www.firecrawl.dev/", icon: "🕷️" },
-            { name: "Anthropic Claude API", desc: "長文写作、分析、代码生成最佳 AI API。按量计费， Claude Sonnet 4.5 性价比首选", category: "开发工具", price: "paid", url: "https://console.anthropic.com/", icon: "🤖" },
-            { name: "Railway", desc: "无需运维的应用部署平台，从 GitHub 自动部署。Analook 后端即托管于此，$5/月 hobby 套餐够用", category: "开发工具", price: "freemium", url: "https://railway.app/", icon: "🚂" },
+            {"name":"Anthropic Claude API","desc":"用于文本、代码、视觉和 Agent 应用的 Claude API，按模型与用量计费。","category":"开发工具","price":"paid","url":"https://console.anthropic.com/","icon":"🤖"},
+            {"name":"Railway","desc":"应用部署平台，按资源用量计费；Hobby 每月最低 $5，含 $5 用量额度，超出另计。","category":"开发工具","price":"freemium","url":"https://railway.com/","icon":"🚂"},
             
             // Gingiris 免费工具
             { name: "PH Comment Generator", desc: "Product Hunt 评论生成器", category: "Gingiris", price: "free", url: "https://tools.gingiris.com/tools/ph-comment-generator/", icon: "💬" },
@@ -1430,31 +1440,30 @@
             // ── Added 2026-07-28 batch-2: Apple Notes 剩余工具 ──
             // 社媒管理
             { name: "Buffer", desc: "全平台社媒工作台，支持 Twitter/LinkedIn/Instagram/Facebook/TikTok 等排期发布，多账号细化管理", category: "社媒管理", price: "freemium", url: "https://buffer.com", icon: "📱" },
-            { name: "Hootsuite", desc: "Social moves fast. Hootsuite keeps you ahead. 支持 35+ 社交平台统一管理、发布、监听和分析", category: "社媒管理", price: "paid", url: "https://hootsuite.com", icon: "💙" },
+            {"name":"Hootsuite","desc":"社交媒体管理平台，支持多平台发布、监听和分析。","category":"社媒管理","price":"paid","url":"https://hootsuite.com","icon":"💙"},
             { name: "Typefully", desc: "AI 驱动社媒排期工具，支持 X/LinkedIn/Bluesky/Threads，专为内容创作者设计，多人协作", category: "社媒管理", price: "freemium", url: "https://typefully.com", icon: "🕊️" },
             // 会议纪要/录音
             { name: "Gling", desc: "YouTube 视频 AI 剪辑工具，自动删除停顿、NG卡和杂词，内容创作者必备", category: "内容创作", price: "freemium", url: "https://gling.ai", icon: "✂️" },
-            { name: "Fathom", desc: "AI 会议录音 + 记录工具，Never Take Notes Again，30万+ 公司在用，免费版无限会议", category: "Analytics", price: "freemium", url: "https://fathom.video", icon: "🎤" },
-            { name: "Superwhisper", desc: "Just speak. Write faster—AI 语音转文字，支持 macOS/Windows/iOS，粿物级准确度，支持多语言", category: "内容创作", price: "freemium", url: "https://superwhisper.com", icon: "🎧" },
+            {"name":"Fathom","desc":"AI 会议录音与笔记工具，提供免费录制及付费团队功能。","category":"Analytics","price":"freemium","url":"https://www.fathom.ai/","icon":"🎤"},
+            {"name":"Superwhisper","desc":"AI 语音转文字工具，提供免费基础功能及付费 Pro 方案。","category":"内容创作","price":"freemium","url":"https://superwhisper.com","icon":"🎧"},
             // 短视频/翻译
-            { name: "Pippit", desc: "CapCut 出品的 AI 创意 Agent，包括 AI 视频生成、图像、文案，多平台内容一键生成", category: "内容创作", price: "freemium", url: "https://pippit.capcut.com", icon: "🎦" },
-            { name: "Vozo", desc: "AI 视频翻译 + 配音 + 唇形同步，支持 160+ 语言，出海视频本地化首选", category: "内容创作", price: "freemium", url: "https://vozo.ai", icon: "🌐" },
-            { name: "Wui.ai", desc: "AI 无脸短视频生成平台，数分钟就能启动一个病毒式视频频道", category: "内容创作", price: "freemium", url: "https://wui.ai", icon: "🤖" },
+            {"name":"Pippit","desc":"CapCut 出品的 AI 创意 Agent，包括 AI 视频生成、图像、文案，多平台内容一键生成","category":"内容创作","price":"freemium","url":"https://www.pippit.ai/","icon":"🎦"},
+            {"name":"Vozo","desc":"AI 视频翻译、配音与唇形同步工具；提供试用额度和付费套餐。","category":"内容创作","price":"paid","url":"https://vozo.ai","icon":"🌐"},
+            {"name":"Wui.ai","desc":"AI 故事短视频与无脸频道内容生成工具，含有限免费额度和付费方案。","category":"内容创作","price":"freemium","url":"https://wui.ai","icon":"🤖"},
             // 分析监控
             { name: "Countik", desc: "TikTok 实时粉丝计数器，追踪任意账号粉丝数变化，冷帖刻数据辅助工具", category: "Analytics", price: "free", url: "https://countik.com", icon: "📊" },
-            { name: "reGrowth", desc: "X （Twitter）竞品增长监控，实时追踪竞品账号的每一个动作和粉丝变化", category: "Analytics", price: "freemium", url: "https://regrowth.so", icon: "📉" },
             { name: "GrowthX", desc: "Turn your website into an inception engine for AI answers. SEO/AEO 增长系统，让网站被 AI 搜索引用", category: "SEO工具", price: "paid", url: "https://growthx.ai", icon: "🚀" },
             // 邮件营销
-            { name: "ActiveCampaign", desc: "AI 自主营销平台，每周省 13 小时重复工作，支持邮件/SMS/CRM 全渠道自动化", category: "邮件营销", price: "paid", url: "https://activecampaign.com", icon: "📨" },
+            {"name":"ActiveCampaign","desc":"邮件、SMS 与营销自动化平台，支持客户分群和跨渠道工作流。","category":"邮件营销","price":"paid","url":"https://activecampaign.com","icon":"📨"},
             // 开发工具
-            { name: "yt-dlp", desc: "功能最全的开源视频/音频下载工具，支持数千个网站，YouTube/B站/小红书等均可，命令行使用", category: "开发工具", price: "free", url: "https://github.com/yt-dlp/yt-dlp", icon: "⬇️" },
+            {"name":"yt-dlp","desc":"开源命令行音视频下载工具，支持多个站点；兼容性随站点和软件版本变化。","category":"开发工具","price":"free","url":"https://github.com/yt-dlp/yt-dlp","icon":"⬇️"},
             { name: "CopyWeb", desc: "Screenshot or URL 一键复刻任意网页设计并转为产品级代码，前端开发效率神器", category: "开发工具", price: "freemium", url: "https://copyweb.ai", icon: "🎨" },
             // 长视频转短视频
-            { name: "Riverside", desc: "高清远程录制 + 视频剖片工具，内容创作者常用", category: "内容创作", price: "freemium", url: "https://riverside.fm", icon: "🎥" },
+            {"name":"Riverside","desc":"高清远程录制 + 视频剖片工具，内容创作者常用","category":"内容创作","price":"freemium","url":"https://riverside.com/","icon":"🎥"},
             { name: "Descript", desc: "AI 视频/音频编辑，文字编辑即剪频，长切短神器", category: "内容创作", price: "freemium", url: "https://www.descript.com", icon: "✏️" },
             { name: "Veed", desc: "AI 在线视频编辑，字幕/翻译/開场白一键生成", category: "内容创作", price: "freemium", url: "https://www.veed.io", icon: "🎨" },
-            { name: "Vizard", desc: "AI 长切短，自动裁剪精彩片段，社媒短视频首选（被推荐 3 次）", category: "内容创作", price: "freemium", url: "https://vizard.ai", icon: "✂️" },
-            { name: "Klap", desc: "AI 把长视频自动剪成 TikTok/Shorts 短片，自动加字幕", category: "内容创作", price: "freemium", url: "https://klap.app", icon: "📱" },
+            {"name":"Vizard","desc":"AI 长视频转短片与剪辑工具，提供有限免费方案和付费升级。","category":"内容创作","price":"freemium","url":"https://vizard.ai","icon":"✂️"},
+            {"name":"Klap","desc":"AI 长视频转短片，支持自动字幕；可试用预览和编辑，导出需付费。","category":"内容创作","price":"paid","url":"https://klap.app","icon":"📱"},
             { name: "Quso.ai", desc: "AI 长切短 + 短视频自动生成，支持多语言字幕", category: "内容创作", price: "freemium", url: "https://quso.ai", icon: "🎦" },
             // LinkedIn/埮片工具
             { name: "Taplio", desc: "LinkedIn 个人品牌增长工具，内容日历+分析+CRM", category: "LinkedIn", price: "paid", url: "https://taplio.com", icon: "💼" },
@@ -1463,47 +1472,47 @@
             // CRM 与增长
             { name: "Clay", desc: "AI 增长编排工具，整合 100+ 数据源全自动化冷外联和 线索富化", category: "市场拓展", price: "freemium", url: "https://www.clay.com", icon: "🪨" },
             // 调查与表单
-            { name: "Tally", desc: "免费表单工具，功能对齐 Typeform，无限表单无限回复免费版", category: "Analytics", price: "free", url: "https://tally.so", icon: "📝" },
+            {"name":"Tally","desc":"在线表单工具；免费方案在公平使用政策内提供不限表单与提交量，另有付费功能。","category":"Analytics","price":"freemium","url":"https://tally.so","icon":"📝"},
             // 用户行为分析
             { name: "Microsoft Clarity", desc: "免费热力图 + Session 录屏，与 GA4 无缝集成，0 成本看用户点击路径", category: "Analytics", price: "free", url: "https://clarity.microsoft.com", icon: "🔥" },
             // 冷邮件
-            { name: "Lemwarm", desc: "邮件预热工具，修复发件域声誉，配合 lemlist 冷邮件必备", category: "邮件营销", price: "paid", url: "https://lemwarm.com", icon: "🔥" },
+            {"name":"Lemwarm","desc":"邮件预热与送达率监测工具，按套餐收费。","category":"邮件营销","price":"paid","url":"https://lemwarm.com","icon":"🔥"},
             { name: "Mailtrap", desc: "邮件测试 + SMTP 服务，开发阶段捕获邮件不丢失，免费额度充裕", category: "邮件营销", price: "freemium", url: "https://mailtrap.io", icon: "📧" },
-            { name: "Customer.io", desc: "Behavioral email + 多渠道自动化营销，多容户 SaaS 濃度首选", category: "邮件营销", price: "freemium", url: "https://customer.io", icon: "📨" },
-            { name: "UnifAPI", desc: "220 个统一公开数据 API (Reddit/X/IG/TikTok/YouTube/LinkedIn/SEO/GEO)，$0.001/credit 按需付费", category: "开发工具", price: "freemium", url: "https://unifapi.com", icon: "🔌" },
-            { name: "TwitterAPI.io", desc: "Twitter/X 用户搜索 + bio 关键词检索 API，按调用付费，比官方 X API 便宜 10×", category: "开发工具", price: "freemium", url: "https://twitterapi.io", icon: "🐦" },
-            { name: "Resend", desc: "现代化 transactional + marketing 邮件 API，3000 封/月免费，API 比 SendGrid 简洁 10×", category: "邮件营销", price: "freemium", url: "https://resend.com", icon: "📨" },
+            {"name":"Customer.io","desc":"Behavioral email + 多渠道自动化营销，多容户 SaaS 濃度首选","category":"邮件营销","price":"paid","url":"https://customer.io","icon":"📨"},
+            {"name":"UnifAPI","desc":"公开数据 API 与 MCP 服务，按预付 credits 计费；免费辅助工具不等于 API 调用免费。","category":"开发工具","price":"paid","url":"https://unifapi.com","icon":"🔌"},
+            {"name":"TwitterAPI.io","desc":"第三方 X/Twitter 数据 API，按使用量计费，提供新用户试用额度。","category":"开发工具","price":"paid","url":"https://twitterapi.io","icon":"🐦"},
+            {"name":"Resend","desc":"事务邮件与营销邮件 API；免费事务邮件有月度及每日限额，营销邮件按独立方案计费。","category":"邮件营销","price":"freemium","url":"https://resend.com","icon":"📨"},
             { name: "DataForSEO", desc: "全栈 SEO 数据 API：排名 / 关键词 / 反链 / 流量估算，预付费按调用计费", category: "SEO", price: "paid", url: "https://dataforseo.com", icon: "📈" },
             { name: "SerpAPI", desc: "Google / Bing / Baidu SERP 抓取 API，含结构化结果 + Maps + Trends，干净 JSON", category: "SEO", price: "freemium", url: "https://serpapi.com", icon: "🔍" },
 
             // ── 辅导案例产品 ──
-            { name: "AFFiNE", desc: "开源 Notion/Miro 替代品， GitHub 60k+ star。Iris 联创 COO，帮助冷启动第一周 6000 star、8M Pre-A 融资", category: "辅导案例", price: "free", url: "https://affine.pro", icon: "📚" },
+            {"name":"AFFiNE","desc":"开源 Notion/Miro 替代品， GitHub 60k+ star。Iris 联创 COO，帮助冷启动第一周 6000 star、8M Pre-A 融资","category":"辅导案例","price":"freemium","url":"https://affine.pro","icon":"📚"},
             { name: "Nolibox 计算美学", desc: "AIGC 设计创作工具「画宇宙」，面向创作者的 AI 设计平台。实现 Twitter/小红书多渠道增长辅导", category: "辅导案例", price: "freemium", url: "https://www.nolibox.com", icon: "🎨" },
             { name: "Medeo", desc: "AI 视频生成器，文本/PDF/链接一键转视频。对标电商内容自动化，进行用户增长与转化辅导", category: "辅导案例", price: "freemium", url: "https://medeo.ai", icon: "🎥" },
             { name: "Manus", desc: "AI Agent 平台，自主完成复杂任务。多轮增长策略与全球分发辅导", category: "辅导案例", price: "freemium", url: "https://manus.im", icon: "🤖" },
-            { name: "Second Me", desc: "开源个人 AI 平台，3周内获得 10K GitHub star。辅导开源冷启动与全球增长", category: "辅导案例", price: "free", url: "https://www.secondme.io", icon: "🧠" },
+            {"name":"Second Me","desc":"个人 AI 身份与分身平台，支持记忆管理和跨场景使用。历史辅导：开源冷启动与全球增长。 历史开源增长记录：3 周获得 10K GitHub stars。","category":"辅导案例","price":"freemium","url":"https://docs.second.me/","icon":"🧠"},
             { name: "Trickle", desc: "AI agentic canvas，能搞 vibe coding / 网页 / 应用 / 表单，内置图像和视频生成。辅导全球分发与增长策略", category: "辅导案例", price: "freemium", url: "https://trickle.so", icon: "⚡" },
             { name: "wegic", desc: "AI 网站生成器，语言对话即可建站。辅导全球市场分发与增长路径", category: "辅导案例", price: "freemium", url: "https://wegic.ai", icon: "🌐" },
             { name: "Teable", desc: "开源表格/数据库平台，对标 Airtable。多轮 weekly 增长策略辅导", category: "辅导案例", price: "freemium", url: "https://teable.io", icon: "📊" },
-            { name: "Leapility", desc: "AI 增长工具平台。辅导开源发布与 Reddit 增长路径", category: "辅导案例", price: "freemium", url: "https://leapility.com", icon: "🚀" },
+            {"name":"Leapility","desc":"AI Agent Kits 创建、分发和变现平台。历史辅导：开源发布与 Reddit 增长。","category":"辅导案例","price":"freemium","url":"https://leapility.com","icon":"🚀"},
 
             { name: "CAMEL-AI", desc: "开源 AI Agent 框架，支持多 Agent 协作。辅导 GitHub 开源增长与社区运营", category: "辅导案例", price: "free", url: "https://www.camel-ai.org", icon: "🐫" },
             { name: "Sheet0", desc: "AI 数据 Agent，支持多步骤工作流和精准数据表。辅导开源推广与增长路径", category: "辅导案例", price: "freemium", url: "https://sheet0.com", icon: "📈" },
             { name: "ClackyAI", desc: "AI 协作开发平台。辅导全球分发与用户增长策略", category: "辅导案例", price: "freemium", url: "https://clacky.ai", icon: "⌨️" },
-            { name: "Hidata", desc: "AI 数据工具。辅导全球分发与开源增长路径", category: "辅导案例", price: "freemium", url: "https://hidata.ai", icon: "📊" },
+            {"name":"Hidata","desc":"数据、表格与演示文稿 AI 工作空间。辅导全球分发与开源增长。","category":"辅导案例","price":"freemium","url":"https://hidata.ai","icon":"📊"},
             { name: "Bisheng.ai", desc: "开源企业级 AgentOps 平台，毅升科技。辅导开源冷启动与全球增长策略", category: "辅导案例", price: "free", url: "https://bisheng.ai", icon: "🏛️" },
             { name: "DeepLang（深言科技）", desc: "AI 语言工具。辅导全球分发与增长策略", category: "辅导案例", price: "freemium", url: "https://deeplang.ai", icon: "💬" },
             { name: "Corespeed", desc: "AI 开发工具平台。辅导全球用户增长与开源运营策略", category: "辅导案例", price: "freemium", url: "https://corespeed.io", icon: "⚡" },
-            { name: "Paperguru", desc: "AI 科研助手平台。辅导全球分发与学术用户增长路径", category: "辅导案例", price: "freemium", url: "https://paperguru.ai", icon: "📚" },
+            {"name":"Paperguru","desc":"AI 科研助手；官网已宣布升级为 ScienceGuru。历史辅导：全球分发与学术用户增长。","category":"辅导案例","price":"freemium","url":"https://paperguru.ai","icon":"📚"},
             { name: "Boltzbit", desc: "英国 AI 研究公司，自然语言处理与数据分析。辅导全球市场分发与开源增长", category: "辅导案例", price: "freemium", url: "https://boltzbit.com", icon: "🤯" },
             { name: "Listenhub", desc: "AI 多模态内容生成平台，支持音频/视频/文字输出。辅导全球分发与增长", category: "辅导案例", price: "freemium", url: "https://listenhub.ai", icon: "🎧" },
             { name: "TourMind（途灵）", desc: "AI 旅游分销平台。辅导全球市场分发与增长路径", category: "辅导案例", price: "freemium", url: "https://tourmind.com", icon: "✈️" },
-            { name: "CoachRocks", desc: "AI 教练笔记工具。辅导全球分发与用户增长策略", category: "辅导案例", price: "freemium", url: "https://coachrocks.com", icon: "🎓" },
+            {"name":"CoachRocks","desc":"AI 教练笔记工具。辅导全球分发与用户增长策略","category":"辅导案例","price":"paid","url":"https://coachrocks.com","icon":"🎓"},
             { name: "InsForge", desc: "AI-native 后端平台（BaaS for agents），供 AI coding agents 构建和运行中线级应用。辅导开源增长与发布", category: "辅导案例", price: "freemium", url: "https://insforge.dev", icon: "🔧" },
             { name: "Questflow", desc: "AI 金融 Agent 平台。辅导全球用户增长与渠道布局", category: "辅导案例", price: "freemium", url: "https://questflow.ai", icon: "💰" },
-            { name: "Tinyfish", desc: "AI Web Agent 企业基础设施，自动化复杂网页工作流。辅导全球增长与开发者运营", category: "辅导案例", price: "paid", url: "https://tinyfish.ai", icon: "🐟" },
+            {"name":"Tinyfish","desc":"网页搜索、抓取与 Web Agent 基础设施；搜索和抓取免费额度与 Agent 计费分别核对。辅导全球增长与开发者运营。","category":"辅导案例","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
             { name: "Holycrab", desc: "AI 视频工具。辅导全球分发与 PMF 验证策略", category: "辅导案例", price: "freemium", url: "https://holycrab.ai", icon: "🦀" },
-            { name: "BoomCut", desc: "AI 视频翻译 + 数字人生成，出海本地化视频自动化工具。辅导全球分发与用户增长策略", category: "辅导案例", price: "freemium", url: "https://boomcut.ai", icon: "🎦" },
+            {"name":"BoomCut","desc":"历史辅导案例：AI 视频翻译与数字人产品的全球分发、用户增长；原站当前不可用。","category":"辅导案例","price":"freemium","url":"https://boomcut.ai","icon":"🎦"},
             { name: "MolyPix", desc: "AI 图形设计工具，一键生成海报/邀请函/内容图。辅导全球分发与 PMF 验证", category: "辅导案例", price: "freemium", url: "https://molypix.ai", icon: "🎨" },
             { name: "Tanka", desc: "AI-Native 公司操作系统，带长期记忆的团队 AI 助手。辅导全球分发与用户增长策略", category: "辅导案例", price: "freemium", url: "https://tanka.ai", icon: "🧠" },
             { name: "TEN Framework", desc: "开源实时多模态 AI Agent 框架，支持语音/视频/文字，由 Agora 支持。辅导开源冷启动与全球增长", category: "辅导案例", price: "free", url: "https://theten.ai", icon: "🔊" },
@@ -1511,20 +1520,20 @@
             { name: "memU", desc: "AI Agent 内存基础设施，存储/组织/检索长期记忆。开源 + 全天候 Proactive Agent 。辅导开源冷启动与增长", category: "辅导案例", price: "freemium", url: "https://memu.so", icon: "🧠" },
 
             { name: "Vipa", desc: "AI 产品平台。辅导全球分发与增长策略", category: "辅导案例", price: "freemium", url: "https://vipalabs.ai", icon: "🧩" },
-            { name: "Helio", desc: "AI 工具。辅导全球分发与增长策略", category: "辅导案例", price: "freemium", url: "https://helio.im", icon: "☀️" },
+            {"name":"Helio","desc":"跨工具 AI 工作助手与自动化平台。辅导全球分发与增长策略。","category":"辅导案例","price":"freemium","url":"https://helio.im","icon":"☀️"},
             { name: "Buddie", desc: "开源 AI 语音伴侣工具包，支持硬件到软件全栈。辅导开源冷启动与全球增长", category: "辅导案例", price: "free", url: "https://bud.inc", icon: "🎧" },
             { name: "OpenAgents", desc: "开源 AI Agent IDE，项目/代码/审查与 Agent 协作一体化工作台。辅导开源冷启动与全球增长", category: "辅导案例", price: "free", url: "https://openagents.com", icon: "🤖" },
             { name: "Testsprite", desc: "AI 端到端软件测试 Agent，自动构建测试计划、执行测试并反馈修复建议。辅导开源增长与 PMF 验证", category: "辅导案例", price: "freemium", url: "https://testsprite.com", icon: "🧪" },
-            { name: "Leadmore", desc: "AI 驱动的 Reddit 营销工具，找子版块/追踪潜客/安全发帖防封号。辅导 Reddit 增长策略与全球分发", category: "辅导案例", price: "freemium", url: "https://leadmore.ai", icon: "📈" },
+            {"name":"Leadmore","desc":"Reddit 社区发现与潜在线索追踪；发布和触达需遵守各社区规则。 历史辅导：Reddit 增长策略与全球分发。","category":"辅导案例","price":"freemium","url":"https://leadmore.ai","icon":"📈"},
             { name: "ChatExcel", desc: "对话式 AI Excel/PPT/Word 处理平台，北京大学团队出品。辅导全球分发与内容增长策略", category: "辅导案例", price: "freemium", url: "https://chatexcel.com", icon: "📊" },
             { name: "Einsia", desc: "主动式 AI 研究 Agent，深入专家工作流、学习行业判断力。辅导开源增长与全球用户策略", category: "辅导案例", price: "freemium", url: "https://einsia.ai", icon: "🔬" },
-            { name: "Ace Music", desc: "全球首个开源音乐 AI 平台，ACE Studio 出品，支持全能音乐创作。辅导开源冷启动与全球增长", category: "辅导案例", price: "free", url: "https://acemusic.ai", icon: "🎵" },
+            {"name":"Ace Music","desc":"AI 音乐创作平台，支持多种输入方式生成音乐，含免费及付费方案。辅导开源冷启动与全球增长。","category":"辅导案例","price":"freemium","url":"https://acemusic.ai","icon":"🎵"},
             { name: "Kuse AI", desc: "AI 工作空间，连接文件与应用自动化日常重复工作，支持生成文档/表格/PPT。辅导全球分发与 PMF 验证", category: "辅导案例", price: "freemium", url: "https://kuse.ai", icon: "📦" },
-            { name: "Prismer", desc: "AI 学习平台，概念图谱 + Feynman 式深度学习，6 分钟揘溅任意主题。辅导全球分发与用户增长", category: "辅导案例", price: "freemium", url: "https://prismer.ai", icon: "📚" },
+            {"name":"Prismer","desc":"AI 学习平台，提供概念图谱与学习辅助。辅导全球分发与用户增长。","category":"辅导案例","price":"freemium","url":"https://prismer.ai","icon":"📚"},
             { name: "筷子科技 Kuaizi", desc: "AIGC 驱动的全球商业内容平台，覆盖视频创作/剪辑/投放/翻译一站式。辅导全球分发与内容增长", category: "辅导案例", price: "freemium", url: "https://kuaizi.ai", icon: "🎬" },
             { name: "Mebot", desc: "数字自我平台，将个人记忆/判断力/权限与上下文打包，可跨会议/应用/Agent 携带使用。辅导全球分发与 PMF 验证", category: "辅导案例", price: "freemium", url: "https://mebot.ai", icon: "🤖" },
-            { name: "Eigent", desc: "开源桌面多 Agent 协作工作台，CAMEL-AI 团队出品，支持浏览器与桌面应用自动化。辅导开源增长与全球分发", category: "辅导案例", price: "free", url: "https://eigent.ai", icon: "🕸️" },
-            { name: "Mizzen", desc: "AI 用户访谈平台，1 小时完成从访谈设计到洞察报告全流程自动化。辅导全球用户增长策略", category: "辅导案例", price: "freemium", url: "https://mizzen.top", icon: "🗣️" },
+            {"name":"Eigent","desc":"开源桌面多 Agent 协作工作台，支持浏览器与桌面自动化；自托管软件与模型调用费用分开计算。辅导开源增长与全球分发。","category":"辅导案例","price":"free","url":"https://eigent.ai","icon":"🕸️"},
+            {"name":"Mizzen","desc":"AI 用户洞察平台，支持访谈与洞察报告。辅导全球用户增长策略。","category":"辅导案例","price":"freemium","url":"https://mizzen.top","icon":"🗣️"},
             { name: "Spatialwalk", desc: "3DGS 实时 AI 数字人 SDK，超低带宽端侧渲染。辅导开源增长与全球市场分发", category: "辅导案例", price: "freemium", url: "https://spatialwalk.cn", icon: "🌐" },
 
                 ];
