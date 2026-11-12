@@ -79,3 +79,5 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 ## Contact
 - X: @WeiYipei
 - Consulting: iris.wei@gingiris.com
+
+- [AI Content Operations](https://tools.gingiris.com/skills/gr-ai-content-ops/): Source-backed planning, editorial review, distribution receipts and weekly measurement. Install gr-ai-content-ops from Gingiris-1031/gingiris-skills.

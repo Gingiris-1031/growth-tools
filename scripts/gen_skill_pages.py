@@ -84,6 +84,9 @@ def render(s):
         <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">{html.escape(u['prompt'])}</pre>
         <h3>Example decision</h3><p class="body">Illustrative example: {html.escape(u['example'])}</p>
         <p class="body"><a href="https://github.com/{s['install']}/tree/main/skills/{s['install_skill']}">Read the maintained SKILL.md and templates on GitHub</a></p></section>"""
+    package_footer = (f'<a href="https://huggingface.co/datasets/Gingiris/{s["hf"]}" target="_blank" rel="noopener">Hugging Face</a>'
+                      if s.get("hf_available", True) else
+                      f'<a href="https://github.com/{s["install"]}/tree/main/skills/{s["install_skill"]}" target="_blank" rel="noopener">Source package</a>')
     companion_html = ""
     if s.get('companion_skill'):
         c = s['companion_skill']
@@ -340,7 +343,7 @@ def render(s):
   <footer class="site-footer">
     <div class="container">
       <p>
-        <a href="https://huggingface.co/datasets/Gingiris/{s['hf']}" target="_blank" rel="noopener">Hugging Face</a> ·
+        {package_footer} ·
         <a href="https://dev.to/iris1031" target="_blank" rel="noopener">Dev.to</a> ·
         <a href="https://x.com/WeiYipei" target="_blank" rel="noopener">X / Twitter</a> ·
         <a href="/blog/">Blog</a>

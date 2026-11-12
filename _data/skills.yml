@@ -1624,3 +1624,80 @@
     example: 'Observed: the article belongs to another author. Decision: write an attributed takeaway. For near-duplicate
       republication, identify the preferred original before choosing canonical.'
   stats_title: Version and availability
+
+- slug: gr-ai-content-ops
+  hf: gr-ai-content-ops
+  hf_available: false
+  install: Gingiris-1031/gingiris-skills
+  install_skill: gr-ai-content-ops
+  title: 'AI Content Operations Skill: Planning, Review & Distribution'
+  h1: AI Content Operations / AI 内容运营
+  tagline: From source libraries to weekly plans, reviewed drafts and distribution receipts.<br>素材库、渠道分工、周排期、三道审稿与分发复盘。
+  meta_description: Plan AI content operations with source tracking, weekly calendars, editorial review, repurposing and distribution receipts. Includes reusable templates.
+  keywords: AI content operations, content calendar, editorial workflow, content distribution, 内容运营, 内容矩阵, gr-ai-content-ops
+  software_description: An agent instruction skill for source-backed content operations, weekly planning, editorial gates and delivery measurement.
+  what: Coordinate a repeatable content operation within your real capacity.<br>从真实素材出发，选择渠道、安排产能、审稿分发，并区分内容表现与业务结果。
+  notice: Version 1.0.0 · Includes templates; no private source material. Publishing and messaging require authorization. / 含操作模板，不含私人素材；发布和发消息需授权。
+  takeaways:
+  - Separate owned, user and external source lines. / 区分自有、用户、外部素材。
+  - Connect each channel to an audience task and next action. / 渠道对应具体人群与下一步。
+  - Review evidence, voice and disclosure before adaptation. / 出处、口吻、脱敏三道闸。
+  - Track acceptance, readback and metrics separately. / 提交、回读、数据分别记录。
+  stats:
+  - - Version / 版本
+    - 1.0.0
+  - - Templates / 模板
+    - 8 operating worksheets
+  - - Language / 输出语言
+    - Chinese or English
+  howto:
+    title: How to use / 使用流程
+    steps:
+    - name: Scope / 确定范围
+      text: Provide audience, sources, channels, capacity and the requested endpoint.
+    - name: Plan and review / 排期与审稿
+      text: Choose a feasible week and review evidence, voice and permissions.
+    - name: Deliver and learn / 交付与复盘
+      text: Prepare drafts; execute only authorized distribution and record verified receipts and measurement gaps.
+  compare:
+    title: Which skill fits? / 如何选择
+    intro: Choose by the unit of work. / 按任务范围选择。
+    columns:
+    - Task / 任务
+    - Workflow / 工作流
+    rows:
+    - - Weekly operation across content assets
+      - gr-ai-content-ops
+    - - One WeChat article and draft handoff
+      - gr-wechat-editorial
+    - - One article adapted for social channels
+      - gr-social-distill
+    - - Calibrating an author voice
+      - gr-brand-voice-calibration
+  donts:
+    title: Limits / 使用边界
+    items:
+    - No invented customer stories, quotes or analytics. / 不编造客户故事、引用和数据。
+    - Cadence and platform tactics are hypotheses, not growth guarantees. / 频次与平台打法需要测试。
+    - An uncertain submission is reconciled before retrying. / 提交状态未知时先核对，避免重复。
+  faqs:
+  - q: How do I install this skill? / 如何安装？
+    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops
+  - q: Can I use it without analytics or API keys? / 没有数据和 API key 可以用吗？
+    a: Yes, for planning from supplied material. It marks missing evidence and creates a pilot; live analytics need platform access.
+  - q: Does it automatically publish or message contributors? / 会自动发布或联系嘉宾吗？
+    a: No. It defaults to a draft pack and requires explicit authorization for publishing or messages.
+  related:
+  - - WeChat Editorial / 公众号编辑
+    - /skills/gr-wechat-editorial/
+  - - Social Distill / 社媒改写
+    - /skills/gr-social-distill/
+  - - Brand Voice Calibration / 文风校准
+    - /skills/gr-brand-voice-calibration/
+  updated: '2026-11-12'
+  usage:
+    inputs: Audience and objective, authorized source material, channels, team capacity and any available history.
+    outputs: A channel/capacity card, source register, weekly calendar, parent/variant map, delivery ledger and review memo as needed.
+    prompt: Use gr-ai-content-ops to plan one week with 6 hours, an approved demo and no analytics. Flag missing evidence and prepare drafts only.
+    example: A private customer transcript without publication permission stays out of public drafts; the approved demo anchors the pilot instead.
+  version: 1.0.0
