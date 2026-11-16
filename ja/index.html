@@ -851,7 +851,7 @@
     // Tools data — Japan version with Japanese descriptions + Japan-specific tools
     const tools = [
             {"name":"ChatCut","desc":"自然言語で動画編集。タイムライン、字幕、モーションに対応。初回無料枠と有料生成プランがあります。","category":"コンテンツ制作","price":"freemium","url":"https://chatcut.io/","icon":"🎬"},
-            {"name":"Actionbook","desc":"ブラウザ上でWebデータを収集し、ダッシュボードや出典付き分析を作成するAIアシスタント。","category":"開発ツール","price":"freemium","url":"https://actionbook.app/","icon":"🔧"},
+            {"name":"Actionbook","desc":"ページのDOMと操作構造を読み取り、競合の情報設計・フォーム・主要導線を再構成。アクセス権限とサイト規約を遵守してください。","category":"競合分析","price":"freemium","url":"https://actionbook.app/","icon":"🧩"},
             {"name":"Profound","desc":"AI検索でのブランド露出を追跡する可視性分析・マーケティングAgentプラットフォーム。","category":"SEO ツール","price":"paid","url":"https://www.tryprofound.com/","icon":"🔧"},
             {"name":"OpenRouter","desc":"複数のモデル提供元へ接続する統合API。無料モデルと従量課金モデルを利用できます。","category":"開発ツール","price":"freemium","url":"https://openrouter.ai/","icon":"🔧"},
             {"name":"Octopus.do","desc":"ビジュアルサイトマップとWebサイトのコンテンツ計画。クロール、ワイヤーフレーム、共同作業に対応。","category":"SEO ツール","price":"freemium","url":"https://octopus.do/","icon":"🔧"},
@@ -863,7 +863,11 @@
             {"name":"AppSumo","desc":"ソフトウェア特典のマーケットプレイス。閲覧は無料、製品やライセンスは個別価格です。","category":"ソフトウェア購入","price":"paid","url":"https://appsumo.com/","icon":"🔧"},
             {"name":"Hypit","desc":"AI Agent向け動画制作・編成ツール。フレームワークは無料、モデル利用とホスティングは別料金。","category":"コンテンツ制作","price":"freemium","url":"https://hypit.ai/","icon":"🎬"},
             {"name":"OrcaRouter","desc":"モデルルーティング、フォールバック、利用状況分析を備えたAIゲートウェイ。無料枠とモデル従量料金は別です。","category":"伴走支援・相談事例","price":"freemium","url":"https://www.orcarouter.ai/","icon":"🔧"},
-            {"name": "Wayback Machine (web.archive.org)", "desc": "競合サイト・料金ページ・訴求文の過去のスナップショットを確認。Save Page Now でページを保存。記録がない場合や不完全な場合があります。", "category": "SEO ツール", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
+            {"name": "Wayback Machine (web.archive.org)", "desc": "競合サイト、料金ページ、訴求文の過去バージョンを確認。記録がない場合や不完全な場合があります。", "category": "競合分析", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
+            {"name":"Similarweb","desc":"推定訪問数、流入チャネル、地域、トラフィック構成を分析。第三者データは推定値です。","category":"競合分析","price":"freemium","url":"https://www.similarweb.com/","icon":"📊"},
+            {"name":"G2","desc":"B2Bソフトウェアの評価・レビューから、1〜3星の不満、購入障壁、乗り換え需要を調査。","category":"競合分析","price":"free","url":"https://www.g2.com/","icon":"⭐"},
+            {"name":"Capterra","desc":"カテゴリ、機能、価格、低評価レビューから競合の弱点を整理できるソフトウェアディレクトリ。","category":"競合分析","price":"free","url":"https://www.capterra.com/","icon":"🗂️"},
+            {"name":"Product Hunt","desc":"ローンチページ、コメント、Makerの返信から初期需要・反論・ポジショニングの反応を調査。","category":"競合分析","price":"free","url":"https://www.producthunt.com/","icon":"🚀"},
         // 🇯🇵 日本特有ツール
         { name: "Zenn", desc: "日本のエンジニア向けブログ・技術書プラットフォーム。GitHub連携で記事管理可能。海外スタートアップの日本語コンテンツ発信に最適", category: "🇯🇵 日本特有", price: "free", url: "https://zenn.dev", icon: "📝" },
         {"name":"Qiita","desc":"エンジニア向けの技術知識共有コミュニティ。記事の投稿や情報収集に利用できます。","category":"🇯🇵 日本特有","price":"free","url":"https://qiita.com","icon":"🔷"},
@@ -908,7 +912,7 @@
 
         // SEO ツール
         { name: "AITDK", desc: "AI SEOプラグイン。キーワード分析・競合調査に対応", category: "SEO ツール", price: "free", url: "https://aitdk.com/", icon: "🔑" },
-        { name: "Analook", desc: "競合インテリジェンスをワンストップで — SEO・ソーシャル・資金調達・ビジネスモデルを60秒で分析", category: "SEO ツール", price: "paid", url: "https://www.analook.com", icon: "🔍" },
+        { name: "Analook", desc: "SEO、トラフィック構成、ソーシャル、ビジネスモデルのシグナルを出典付き競合レポートに統合", category: "競合分析", price: "paid", url: "https://www.analook.com", icon: "🔍" },
         { name: "Keywords Everywhere", desc: "キーワード検索ボリューム調査プラグイン", category: "SEO ツール", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
         {"name":"Semrush","desc":"包括的SEO分析プラットフォーム。競合分析・バックリンク分析","category":"SEO ツール","price":"freemium","url":"https://www.semrush.com/","icon":"📊"},
         { name: "Ahrefs", desc: "バックリンク分析とキーワードリサーチのスタンダード", category: "SEO ツール", price: "paid", url: "https://ahrefs.com/", icon: "🔍" },
@@ -935,7 +939,6 @@
             {"name":"AFFiNE","desc":"Notion・Miroのオープンソース代替ツール。","category":"伴走支援・相談事例","price":"freemium","url":"https://affine.pro","icon":"📚"},
             {"name":"Nolibox","desc":"クリエイター向けのAIデザイン・制作プラットフォーム。","category":"伴走支援・相談事例","price":"freemium","url":"https://www.nolibox.com","icon":"🎨"},
             {"name":"Medeo","desc":"テキスト・PDF・リンクから動画を生成するAIツール。","category":"伴走支援・相談事例","price":"freemium","url":"https://medeo.ai","icon":"🎥"},
-            {"name":"Manus","desc":"複雑なタスクを実行するAIエージェントプラットフォーム。","category":"伴走支援・相談事例","price":"freemium","url":"https://manus.im","icon":"🤖"},
             {"name":"Second Me","desc":"記憶管理と複数の場面での利用に対応する個人AI分身プラットフォーム。","category":"伴走支援・相談事例","price":"freemium","url":"https://docs.second.me/","icon":"🧠"},
             {"name":"Trickle","desc":"Webサイト・アプリ・フォームを作成でき、画像・動画生成も備えるAIキャンバス。","category":"伴走支援・相談事例","price":"freemium","url":"https://trickle.so","icon":"⚡"},
             {"name":"wegic","desc":"自然言語での対話でWebサイトを作成するAIツール。","category":"伴走支援・相談事例","price":"freemium","url":"https://wegic.ai","icon":"🌐"},
@@ -955,7 +958,7 @@
             {"name":"CoachRocks","desc":"コーチ向けのAIノート作成ツール。","category":"伴走支援・相談事例","price":"paid","url":"https://coachrocks.com","icon":"🎓"},
             {"name":"InsForge","desc":"コーディングエージェントによるアプリの構築・実行を支えるAIネイティブなバックエンド。","category":"伴走支援・相談事例","price":"freemium","url":"https://insforge.dev","icon":"🔧"},
             {"name":"Questflow","desc":"AI金融エージェントプラットフォーム。","category":"伴走支援・相談事例","price":"freemium","url":"https://questflow.ai","icon":"💰"},
-            {"name":"Tinyfish","desc":"Web検索・スクレイピング・エージェント基盤。検索・取得の無料枠とエージェント料金は別途確認。","category":"伴走支援・相談事例","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
+            {"name":"TinyFish","desc":"AI検索と抽出で公開されている不満、否定的フィードバック、競合リスクを探索。結論は元ページで検証してください。","category":"競合分析","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
             {"name":"Holycrab","desc":"AI動画ツール。","category":"伴走支援・相談事例","price":"freemium","url":"https://holycrab.ai","icon":"🦀"},
             {"name":"BoomCut","desc":"AI動画翻訳・デジタルヒューマン製品の過去掲載情報。元のサイトは現在利用不可。","category":"伴走支援・相談事例","price":"freemium","url":"https://boomcut.ai","icon":"🎦"},
             {"name":"MolyPix","desc":"ポスター・招待状・コンテンツ画像を作成するAIグラフィックデザインツール。","category":"伴走支援・相談事例","price":"freemium","url":"https://molypix.ai","icon":"🎨"},

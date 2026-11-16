@@ -1319,7 +1319,7 @@
         // ── Tools Data ─────────────────────────────────────────────────
         const tools = [
             {"name":"ChatCut","desc":"通过自然语言编辑视频，支持时间线、字幕、动效及音视频生成；免费起始额度与付费方案并存。","category":"内容创作","price":"freemium","url":"https://chatcut.io/","icon":"🎬"},
-            {"name":"Actionbook","desc":"浏览器 AI 助手，采集网页及已登录应用的数据，生成看板与带来源的分析。","category":"开发工具","price":"freemium","url":"https://actionbook.app/","icon":"🔧"},
+            {"name":"Actionbook","desc":"读取网页 DOM 与交互结构，用于还原竞品页面的信息架构、表单和关键路径；使用时需遵守登录权限与网站规则。","category":"竞品分析","price":"freemium","url":"https://actionbook.app/","icon":"🧩"},
             {"name":"Profound","desc":"AI 搜索可见性监测与营销 Agent 平台，跟踪品牌在答案引擎中的表现。","category":"SEO","price":"paid","url":"https://www.tryprofound.com/","icon":"🔧"},
             {"name":"OpenRouter","desc":"通过统一 API 访问多家模型供应商，支持免费模型与按量计费模型。","category":"开发工具","price":"freemium","url":"https://openrouter.ai/","icon":"🔧"},
             {"name":"Octopus.do","desc":"可视化站点地图与网站内容规划，支持爬取现有网站、线框图及团队协作。","category":"SEO","price":"freemium","url":"https://octopus.do/","icon":"🔧"},
@@ -1331,7 +1331,11 @@
             {"name":"AppSumo","desc":"软件优惠与产品发现平台，收录按产品定价的限时优惠和终身授权交易。","category":"社区发现","price":"paid","url":"https://appsumo.com/","icon":"🔧"},
             {"name":"Hypit","desc":"面向 AI Agent 的视频编排工具；框架免费，模型调用与托管服务另计费。","category":"内容创作","price":"freemium","url":"https://hypit.ai/","icon":"🎬"},
             {"name":"OrcaRouter","desc":"AI 模型路由网关，支持故障回退与用量观测；平台有免费档，模型用量另计费。","category":"辅导案例","price":"freemium","url":"https://www.orcarouter.ai/","icon":"🔧"},
-            {"name": "Wayback Machine (web.archive.org)", "desc": "网页时光机：查看竞品网站、定价页和定位文案的历史快照，也可保存当前网页；快照可能缺失或不完整。", "category": "SEO", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
+            {"name": "Wayback Machine (web.archive.org)", "desc": "查看竞品网站、定价页和定位文案的历史版本；快照可能缺失或不完整。", "category": "竞品分析", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
+            {"name":"Similarweb","desc":"分析网站访问量、来源渠道、地区与流量结构；第三方流量数据属于估算值。","category":"竞品分析","price":"freemium","url":"https://www.similarweb.com/","icon":"📊"},
+            {"name":"G2","desc":"B2B 软件评分与用户评论库，适合集中研究 1–3 星差评、购买阻力和替代需求。","category":"竞品分析","price":"free","url":"https://www.g2.com/","icon":"⭐"},
+            {"name":"Capterra","desc":"软件目录与用户评论平台，可按品类、功能、价格和差评梳理竞品缺口。","category":"竞品分析","price":"free","url":"https://www.capterra.com/","icon":"🗂️"},
+            {"name":"Product Hunt","desc":"通过产品发布页、用户评论和 Maker 回复研究早期需求、异议与定位反馈。","category":"竞品分析","price":"free","url":"https://www.producthunt.com/","icon":"🚀"},
             // 社媒监听 & 分析
             { name: "Toolify Social Listening", desc: "AI 社媒监听，追踪产品相关讨论", category: "社媒监听", price: "freemium", url: "https://www.toolify.ai/social-listening", icon: "📡" },
             { name: "Vizzylabs", desc: "爆款内容分析，了解社媒趋势", category: "社媒监听", price: "free", url: "https://app.vizzylabs.ai/trending", icon: "📊" },
@@ -1385,7 +1389,7 @@
             { name: "Keywords Everywhere", desc: "关键词搜索量查询插件", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
             {"name":"Semrush","desc":"全面 SEO 分析平台","category":"SEO","price":"freemium","url":"https://www.semrush.com/","icon":"📊"},
             {"name":"SubmitDirs","desc":"产品目录人工代提交服务，提供提交报告；是否收录及排名效果由各目录决定。","category":"SEO","price":"paid","url":"https://submitdirs.com/","icon":"📋"},
-            { name: "Analook", desc: "全维度竞品情报：SEO/社交/融资/商业模式一站分析，60秒生成竞品情报", category: "SEO", price: "paid", url: "https://www.analook.com", icon: "🔍" },
+            { name: "Analook", desc: "汇总竞品 SEO、流量结构、社媒与商业模式线索，生成可复核的竞品分析报告", category: "竞品分析", price: "paid", url: "https://www.analook.com", icon: "🔍" },
             
             // 链接追踪
             {"name":"Juicebox","desc":"AI 人才搜索与招聘平台，支持候选人发现和招聘触达。","category":"市场拓展","price":"freemium","url":"https://juicebox.ai/pricing","icon":"🔗"},
@@ -1489,7 +1493,6 @@
             {"name":"AFFiNE","desc":"开源 Notion/Miro 替代品， GitHub 60k+ star。Iris 联创 COO，帮助冷启动第一周 6000 star、8M Pre-A 融资","category":"辅导案例","price":"freemium","url":"https://affine.pro","icon":"📚"},
             { name: "Nolibox 计算美学", desc: "AIGC 设计创作工具「画宇宙」，面向创作者的 AI 设计平台。实现 Twitter/小红书多渠道增长辅导", category: "辅导案例", price: "freemium", url: "https://www.nolibox.com", icon: "🎨" },
             { name: "Medeo", desc: "AI 视频生成器，文本/PDF/链接一键转视频。对标电商内容自动化，进行用户增长与转化辅导", category: "辅导案例", price: "freemium", url: "https://medeo.ai", icon: "🎥" },
-            { name: "Manus", desc: "AI Agent 平台，自主完成复杂任务。多轮增长策略与全球分发辅导", category: "辅导案例", price: "freemium", url: "https://manus.im", icon: "🤖" },
             {"name":"Second Me","desc":"个人 AI 身份与分身平台，支持记忆管理和跨场景使用。历史辅导：开源冷启动与全球增长。 历史开源增长记录：3 周获得 10K GitHub stars。","category":"辅导案例","price":"freemium","url":"https://docs.second.me/","icon":"🧠"},
             { name: "Trickle", desc: "AI agentic canvas，能搞 vibe coding / 网页 / 应用 / 表单，内置图像和视频生成。辅导全球分发与增长策略", category: "辅导案例", price: "freemium", url: "https://trickle.so", icon: "⚡" },
             { name: "wegic", desc: "AI 网站生成器，语言对话即可建站。辅导全球市场分发与增长路径", category: "辅导案例", price: "freemium", url: "https://wegic.ai", icon: "🌐" },
@@ -1510,7 +1513,7 @@
             {"name":"CoachRocks","desc":"AI 教练笔记工具。辅导全球分发与用户增长策略","category":"辅导案例","price":"paid","url":"https://coachrocks.com","icon":"🎓"},
             { name: "InsForge", desc: "AI-native 后端平台（BaaS for agents），供 AI coding agents 构建和运行中线级应用。辅导开源增长与发布", category: "辅导案例", price: "freemium", url: "https://insforge.dev", icon: "🔧" },
             { name: "Questflow", desc: "AI 金融 Agent 平台。辅导全球用户增长与渠道布局", category: "辅导案例", price: "freemium", url: "https://questflow.ai", icon: "💰" },
-            {"name":"Tinyfish","desc":"网页搜索、抓取与 Web Agent 基础设施；搜索和抓取免费额度与 Agent 计费分别核对。辅导全球增长与开发者运营。","category":"辅导案例","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
+            {"name":"TinyFish","desc":"用 AI 搜索与网页提取批量寻找公开负面反馈、用户抱怨和竞品风险信号；结论需回到原始页面复核。","category":"竞品分析","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
             { name: "Holycrab", desc: "AI 视频工具。辅导全球分发与 PMF 验证策略", category: "辅导案例", price: "freemium", url: "https://holycrab.ai", icon: "🦀" },
             {"name":"BoomCut","desc":"历史辅导案例：AI 视频翻译与数字人产品的全球分发、用户增长；原站当前不可用。","category":"辅导案例","price":"freemium","url":"https://boomcut.ai","icon":"🎦"},
             { name: "MolyPix", desc: "AI 图形设计工具，一键生成海报/邀请函/内容图。辅导全球分发与 PMF 验证", category: "辅导案例", price: "freemium", url: "https://molypix.ai", icon: "🎨" },

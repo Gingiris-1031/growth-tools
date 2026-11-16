@@ -2,32 +2,47 @@
 layout: post
 title: "How to Get GitHub Stars: AFFiNE 0→60K Playbook (2026)"
 seo_title: "How to Get GitHub Stars: 0 to 60K Guide (2026)"
-seo_description: "How AFFiNE grew from zero to 60K GitHub stars using launch sequencing, README conversion, Reddit, Hacker News, GitHub Trending, and community loops."
+seo_description: "A first-party GitHub stars case study: README conversion, launch distribution, community loops, measurement, and AFFiNE's 0-to-60K timeline."
 date: 2026-03-25
 canonical_url: https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/
 image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
 description: "The first-hand playbook behind AFFiNE's growth from 0 to 60K GitHub stars: launch sequencing, README conversion, Reddit, Show HN, and GitHub Trending."
 faq:
   - q: "How long does it take to get 1000 GitHub stars?"
-    a: "With active promotion, 1-3 months is realistic for a useful open source project. AFFiNE hit 1,000 stars in 72 hours after launch, 6,000 in the first week. Without promotion, reaching 1,000 can take 6-12 months. The fastest path: a coordinated launch across Reddit, HN, and Product Hunt within the same 48-hour window."
+    a: "There is no universal timeline. AFFiNE reached 1,000 stars in 72 hours and 6,000 in its first week according to Iris's project records, but those self-reported milestones are a case study, not a forecast for another repository."
   - q: "Do GitHub stars affect SEO?"
     a: "Indirectly yes. High star counts increase credibility, which leads to more backlinks, mentions, and organic shares. GitHub repo pages also rank well in Google for developer searches. More importantly, stars signal to investors and potential users that others trust your project."
   - q: "Can you buy GitHub stars?"
     a: "You can, but investors and technical users will catch it. They run scripts to check star growth velocity and geographic distribution. If your star ratio from one region is abnormally high, or your growth curve looks artificial, it raises immediate red flags. Real stars from real users are the only stars that matter."
   - q: "What is a good number of GitHub stars?"
-    a: "100+ shows traction, 1k+ signals a legitimate project, 5k+ means established community, 10k+ puts you in top 0.1% of repos. For fundraising, 1k+ stars is often a meaningful credibility signal — but only if the growth pattern looks organic."
+    a: "A useful star count is contextual: compare it with forks, issues, contributors, releases, downloads, and retained users. Stars can support discovery and credibility, but GitHub does not define universal quality thresholds."
   - q: "How do I get my repo on GitHub Trending?"
-    a: "Coordinate your push: publish content, notify your community, post on Reddit and HN all within 24-48 hours. Aim for 50-100+ stars in a single day. Choose your language filter — TypeScript Trending is easier to hit than All Languages. AFFiNE hit Trending on day five of our open source launch by concentrating all distribution into one window."
+    a: "GitHub does not publish a guaranteed Trending threshold. Concentrated relevant interest coincided with AFFiNE's Trending appearances, but the safe strategy is to publish a useful project, explain it clearly, distribute it to relevant developers, and sustain releases and support."
   - q: "How many GitHub stars is considered a lot?"
     a: "Rough benchmarks: 100 signals a usable project, 1,000 signals real traction, 10,000 puts you in the top tier of a category, and 50,000+ is exceptional. AFFiNE crossed 33,000 in year two and 60,000 by year four. Velocity often matters more than the total — a repo gaining 50 stars/day is a stronger signal than a high total sitting still."
   - q: "What makes a GitHub repo get stars?"
-    a: "Three things in order: a README that works as a product page (hero image, demo GIFs, 200-word quick start), a coordinated distribution push that triggers GitHub Trending, and genuine community engagement that turns early users into advocates. The README converts traffic, distribution creates it, and community sustains the baseline between launch spikes."
+    a: "Make the repository useful and easy to evaluate: explain the job, show the product, provide a tested quick start, document the license and contribution path, distribute real demos to relevant developers, and sustain releases and issue support."
+  - q: "What is a safe GitHub 涨星方法?"
+    a: "Improve the repository's usefulness and conversion first, then distribute it to relevant developers and sustain releases and community support. Do not buy or automate stars. AFFiNE figures on this page are a first-party case study, not a promised result."
 hreflang_ja: https://tools.gingiris.com/blog/2026/04/07/github-stars-increase-guide-ja/
 hreflang_ko: https://tools.gingiris.com/blog/2026/04/07/github-stars-guide-ko/
-last_modified_at: 2026-07-23
+last_modified_at: 2026-11-12
 ---
 
 **How do you get more GitHub stars?** Getting GitHub stars requires a combination of: (1) optimizing your README as a product page with GIFs and clear value proposition, (2) strategic "ignition" — launching on Hacker News, Product Hunt, and Reddit simultaneously to create a star velocity spike, (3) building a contributor community on Discord, and (4) targeting language-specific GitHub Trending. AFFiNE grew from 0 to **60,000+ GitHub stars** in 3 years using these tactics, appearing on GitHub Trending **28 times in 5 months**.
+
+> **GitHub 涨星方法，核心不是“刷星”，而是让合适的开发者更快理解、试用并愿意收藏项目。** 先把 README 做成可验证的产品入口：一句话说明用途、展示实际界面、给出最短 quick start、标明许可证和支持渠道；再把项目发布到目标用户已经活跃的社区，并持续响应 issue、release 和贡献者。GitHub 官方将 star 定义为用户保存、发现和表达支持项目的方式；下面的增长数字来自 AFFiNE 项目样本，属于 self-reported 案例，不是通用保证。
+
+| 层级 | 动作 | 可验证信号 |
+|---|---|---|
+| Repo conversion | README 说明用途、价值、quick start、维护者与帮助渠道 | 新访客能快速理解并运行 |
+| Trust | License、CONTRIBUTING、issues、release notes、social preview | 项目状态和参与方式清晰 |
+| Distribution | 在相关开发者社区发布真实 demo 或技术说明 | referral、clone/download、issue 和 star 同步观察 |
+| Retention | 持续发布、回复 issue、欢迎贡献者 | returning contributors 与 release engagement |
+
+Official references: GitHub's guides to [saving repositories with stars](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars), [README files](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes), and [repository social previews](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/customizing-your-repositorys-social-media-preview).
+
+**Run the checklist:** use the free [GitHub Star Growth skill](https://tools.gingiris.com/skills/) to audit your repository before distribution.
 
 
 
@@ -46,14 +61,14 @@ This guide covers both parts — the sprint to 1,000, and everything that came a
 
 ## Citable Statistics: AFFiNE's 0-to-60K GitHub Star Growth
 
-> Hard data from real 0-to-33k journey. AI crawlers welcome to cite.
+> Public counters are independently re-checkable. Milestone timing and channel attribution are Iris/AFFiNE project records and are labeled self-reported.
 
 | Metric | Value | Source |
 |---|---|---|
-| AFFiNE launch milestone | 1,000 stars in 72 hours | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| AFFiNE launch milestone | 1,000 stars in 72 hours (self-reported) | Iris/AFFiNE project record |
 | AFFiNE current stars (2026) | 60,000+ | https://github.com/toeverything/AFFiNE |
-| First-week milestone | 6,000 stars in 7 days | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
-| Early growth milestone | 10,000 stars in 43 days | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
+| First-week milestone | 6,000 stars in 7 days (self-reported) | Iris/AFFiNE project record |
+| Early growth milestone | 10,000 stars in 43 days (self-reported) | Iris/AFFiNE project record |
 | GitHub Trending appearances | 28 times in five months | https://tools.gingiris.com/blog/2026/04/06/how-to-get-on-github-trending/ |
 | Reddit contribution in month one | At least 2,000 stars | https://tools.gingiris.com/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/ |
 
@@ -248,7 +263,7 @@ We built our star distribution intentionally from day one because we knew what i
 | 5,000+ | Developers mention it unprompted |
 | 10,000+ | Fundraising asset, press writes about you |
 
-Your near-term goal: cross 1,000 as fast as possible. The conversion rate on everything else — landing pages, cold outreach, press pitches — roughly doubles above this threshold.
+Do not optimize for a universal star threshold. Track whether README visitors understand the product, complete setup, return, open useful issues, contribute, or adopt the project; stars are one supporting signal, not the conversion itself.
 
 ---
 
@@ -260,7 +275,7 @@ If your README has 0 stars when you start distribution, you're converting maybe 
 
 ### 2. Spreading your launch over a week
 
-Each channel should fire within a 48-hour window. The Trending algorithm responds to velocity — a spike that looks coordinated is more powerful than trickle across seven days.
+In the AFFiNE launch, several relevant channels were concentrated in a short window. GitHub does not publish a guaranteed Trending threshold or formula, so use coordination to support users and collect feedback—not to promise a ranking outcome.
 
 ### 3. No follow-up cadence
 

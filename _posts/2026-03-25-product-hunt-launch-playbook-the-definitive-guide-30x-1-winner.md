@@ -2,7 +2,7 @@
 layout: post
 title: "Product Hunt Launch Playbook: 30x #1 Winner's Complete Guide [2026]"
 seo_title: "Product Hunt Launch Playbook: 30x #1 Guide (2026)"
-seo_description: "A Product Hunt launch playbook built from 30 daily #1 launches: positioning, outreach, launch-day timing, maker comments, and post-launch retention."
+seo_description: "A first-party Product Hunt launch playbook: page assets, compliant promotion, launch-day coverage, feedback, and post-launch conversion."
 date: 2026-03-25
 canonical_url: https://tools.gingiris.com/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner/
 image: "https://tools.gingiris.com/assets/images/blog-product-hunt-launch.jpg"
@@ -14,15 +14,30 @@ faq:
     a: "Use a 6-week prep window: set up the coming-soon page, validate positioning, prepare listing assets and analytics, brief existing users without asking for votes, schedule launch-day coverage, and assign comment support. Launch with a working product and respond to genuine feedback throughout the day."
   - q: "Should you launch on Product Hunt if you're pre-launch?"
     a: "Set up a coming soon page immediately — it's free future audience. Collect people who click 'Notify Me'; they receive a push notification on launch day. Start building this list weeks in advance. For the actual product launch, wait until you have a working MVP. PH voters expect to try the product immediately."
+  - q: "What is the Product Hunt 打榜文档?"
+    a: "It is Iris's bilingual shorthand for a Product Hunt launch checklist covering preparation, page assets, compliant promotion, launch-day replies, measurement, and post-launch conversion. It does not promise a ranking and follows Product Hunt's rules against asking for or buying upvotes."
 gumroad_url: "https://gingiris.gumroad.com/l/zxamur"
 gumroad_title: "Product Hunt Launch Action Guide"
 gumroad_desc: "30次 Product Hunt #1 的完整操作手册。覆盖发布前准备、当天执行、评论话术、猎手选择，一步一步可执行。"
-last_modified_at: 2026-07-30
+last_modified_at: 2026-11-12
 ---
 
 > **Direct answer:** A Product Hunt launch playbook is a coordinated plan for positioning, launch assets, authentic audience communication, launch-day support, measurement, and post-launch follow-up. It can improve discovery and feedback, but no compliant tactic guarantees a leaderboard position.
 
-> 🎯 **Deep dive**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://tools.gingiris.com/blog/2026/04/28/product-hunt-hunter-list-2026/) — the data behind why a 1k-follower active hunter beats a 50k-follower dormant one (r=0.61 vs r=0.12).
+> **Product Hunt 打榜文档是什么？** 它是一份从发布前准备、产品页素材、发布日值班到发布后转化的执行清单。Product Hunt 不公开完整排序公式；准备时应以真实用户反馈、产品可用性和后续转化为目标，不能购买或直接索要 upvote。以下清单来自 Iris 参与的多次发布实践，其中经验数字属于项目样本，不代表平台保证。
+
+| 阶段 | 必做动作 | 验收结果 |
+|---|---|---|
+| T-21 至 T-7 | 明确目标用户、定位、页面素材、埋点和发布目标 | 产品可用；陌生用户能复述价值主张 |
+| T-7 至 T-1 | 完成 tagline、描述、图库或演示、Maker comment、值班表 | 页面草稿和回复责任人就绪 |
+| 发布日 | 上线后邀请相关用户试用并反馈；持续回复评论 | 无索票、无群发、无虚假账号；反馈被记录 |
+| T+1 至 T+7 | 跟进试用者、整理反馈、发布复盘、推进激活与留存 | 记录访问、激活、对话与留存，而非只报 points |
+
+Official references: [Product Hunt launch guide](https://help.producthunt.com/en/collections/19793093-launch-guide), [how Product Hunt works](https://help.producthunt.com/en/articles/17734306-1-how-product-hunt-works), and [promotion rules](https://help.producthunt.com/en/articles/17734384-5-how-to-promote-your-launch-and-what-to-avoid).
+
+**Use the checklist:** open the free [Product Hunt Launch skill](https://tools.gingiris.com/skills/product-hunt-launch/) for a task-by-task version. If your positioning or launch plan needs an external review, [contact Iris](https://gingiris.com/en/services).
+
+> 🎯 **Deep dive**: [Product Hunt Hunter List 2026 — Why Activity Beats Followers](https://tools.gingiris.com/blog/2026/04/28/product-hunt-hunter-list-2026/) — a practical way to evaluate recent activity, category fit, and genuine product interest instead of relying on follower count alone.
 
 > 📌 **Deep dive**: [Product Hunt LinkedIn DM Template (60% Open Rate Across 30 Launches)](https://tools.gingiris.com/blog/2026/04/26/product-hunt-linkedin-dm-template/) — the exact 4-week T-6 to T-2 sprint, copy-paste templates, and why "comment >> upvote" beats the old playbook.
 
@@ -61,11 +76,11 @@ This playbook is built on **our own dataset of 30 Product Hunt launches** that h
 - LinkedIn Sales Navigator (for the T-6 to T-2 outreach sprints)
 
 **Original research findings unique to this playbook**:
-- We measured that hunter activity (recent hunts/30d) correlates r=0.61 with upvote drive, while follower count correlates only r=0.12 — a finding we have not seen published elsewhere
-- Our launch-day tests showed LinkedIn DMs sent T-6 to T-2 outperform T-0 messages by 3.1x in reply rate
+- In our unpublished internal sample, recent hunter activity appeared more useful than follower count. Treat this as a project observation, not a platform benchmark.
+- In our own launch records, earlier personalized outreach produced better conversations than launch-day blasts. Results are self-reported and vary by audience.
 - We documented the 28-launch GitHub Trending pattern (Mondays 09:00 UTC peak entry window) before any public source described it
 
-Every number quoted in this guide comes from this dataset. Disagree with a claim? The methodology is open — replicate it on your own launches.
+Numbers labeled as project samples are self-reported from Iris/AFFiNE records. Official platform mechanics are sourced separately, and Product Hunt does not publish its complete ranking formula.
 
 
 ## Citable Statistics (PH Launch — 2026 Benchmark)
@@ -77,7 +92,7 @@ Every number quoted in this guide comes from this dataset. Disagree with a claim
 | Daily #1 wins by Iris (2020-2026) | 30+ | This blog |
 | LinkedIn DM open rate for PH outreach | ~60% | 30 launch sample |
 | LinkedIn DM reply rate (with personalization) | ~25% | Same |
-| Optimal launch slot (less-competitive weeks) | Wednesday 12:01 AM PST | 2026 timing analysis |
+| Practical launch slot | A day when the team can cover the full launch window | Iris project practice; no guaranteed best day |
 | Mobile traffic share on PH launch day | ~40% | PH analytics 2026 Q1 |
 | Pre-launch outreach sprint length | 6 weeks (T-6 to T-0) | This playbook |
 
@@ -150,18 +165,13 @@ If you have the momentum to chase Weekly or Monthly, the compounding exposure is
 
 ### For monthly badge hunters
 
-Launch in the **2nd or 3rd week of the month, on a Tuesday.**
-
-Why:
-- Avoids week-1 competition (experienced teams often launch on Mondays of week 1)
-- Weekly badge window spans a full Mon–Sun, so a Tuesday launch captures most of it
-- Wednesday and Thursday also work; Friday–Sunday if you only want daily #1 (lower competition)
+There is no guaranteed best weekday. Choose a day when the product is ready and the team can cover the full launch window, answer questions, and follow up with trial users. Iris often used midweek launches in her own projects; that is an operating preference, not a Product Hunt rule.
 
 Spend time watching [hunted.space](https://hunted.space) for 2–4 weeks before your launch. You can see the daily high-vote trend for the past 10 days. That tells you what target you're actually aiming for.
 
 ### For daily badge only
 
-**Friday, Saturday, Sunday** — fewer featured products, lower competition threshold.
+Do not pick a weekend only because it appears less competitive. Compare product readiness, team coverage, target-user availability, and the post-launch follow-up plan first.
 
 Before committing to a date, run through our [startup launch checklist](https://tools.gingiris.com/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day/) to make sure nothing gets missed.
 
@@ -346,7 +356,7 @@ PH is worth fighting for because of the badge and the downstream conversion. But
       "name": "What time should I launch on Product Hunt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tuesday 12:01 AM PST is most contested in 2026. The sweet spot is Wednesday 12:01 AM PST with a strong community backing, with Thursday as fallback."
+        "text": "There is no guaranteed best weekday. Choose a day when the product is ready and the team can cover the launch window, answer questions, and follow up with trial users."
       }
     },
     {
@@ -405,7 +415,7 @@ PH is worth fighting for because of the badge and the downstream conversion. But
 
 ## 2026 Q2 Field Notes — 5 Launches I Watched This Spring
 
-Updated **May 27, 2026** based on 5 launches I observed or directly helped in March–April 2026. The PH algorithm has shifted in five measurable ways since this playbook was first written:
+Updated **May 27, 2026** from five launches Iris observed or directly supported in March–April 2026. These are small, self-reported field notes—not proof of Product Hunt's undisclosed ranking formula.
 
 ### Change 1: Featured-vs-non-featured weighting has compressed
 
@@ -413,11 +423,9 @@ In 2024-2025, the Featured Tuesday slot gave ~40% upvote-velocity boost vs an un
 
 **What this means for you**: Don't reschedule a strong launch from Wednesday to chase a Tuesday Featured slot. The relative penalty for skipping the Featured weekly cohort is now small enough that timezone and audience-readiness should dominate the calendar decision.
 
-### Change 2: AI-generated launch comments are detected and discounted
+### Observation 2: specific, human comments create better feedback
 
-Product Hunt began parsing comment sentiment and authorship signals in late 2025. By April 2026, **~30% of comments on top-launched products show "low-authenticity" flags** in my analytics.
-
-These don't trigger automatic removal, but they don't contribute to ranking signal either. The practical impact: that "1000 comments from your launch" headline number is now meaningless — only the 250-400 demonstrably-human comments contribute.
+Product Hunt's official guidance favors genuine participation and prohibits manipulation, but it does not publish a rule for detecting or discounting AI-written comments. In Iris's sample, specific comments about a real use case produced more useful product feedback than generic praise.
 
 **What this means for you**: Lean harder on **specific personal-story comments** from your pre-launch community. A 30-word comment from a real user about a specific use case beats a 200-word AI-polished comment from a stranger.
 
@@ -445,11 +453,11 @@ The community doesn't have to be huge. 100-300 engaged members > 5,000 dormant o
 
 If you don't have a community to lean on by 4 weeks before launch: postpone the launch, build one, then launch.
 
-### Change 5: Comment use-case tags now influence ranking
+### Observation 5: ask for use cases, not generic support
 
-A subtle algorithm tweak in Q1 2026 began factoring comment threads into the ranking. Specifically: comments where users tag their use case (e.g., "I'd use this for [X]") get higher weight than generic "love this!" comments.
+Product Hunt does not disclose whether use-case comments receive ranking weight. Asking a concrete question is still useful because it turns the launch thread into product research instead of a collection of generic compliments.
 
-**What this means for you**: In your launch comment, include a question that surfaces use cases. Example: "What's the first thing you'd use this for?" — users responding with specific scenarios both rank your launch higher AND give you product-feedback gold.
+**What this means for you**: In your launch comment, include a question that surfaces use cases. Example: "What's the first thing you'd use this for?" Treat the answers as research; do not promise a ranking effect.
 
 ### Companion reading
 

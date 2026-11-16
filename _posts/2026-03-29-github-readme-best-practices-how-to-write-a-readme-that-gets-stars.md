@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "GitHub README Best Practices: 8 Rules That Got 60k+ Stars (2026)"
+title: "GitHub README Best Practices: 8-Point Checklist (2026)"
+seo_title: "GitHub README Best Practices: 8-Point Checklist"
+seo_description: "Use this 8-point GitHub README checklist to clarify value, show a demo, shorten setup, document trust signals, and help developers evaluate your project."
 date: 2026-03-29
 canonical_url: https://tools.gingiris.com/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/
 image: "https://tools.gingiris.com/assets/images/blog-github-stars.jpg"
-description: "The 8 README rules behind AFFiNE's 60k+ GitHub stars. Visuals, hook copy, install commands, and the 30-second readability test — with real before/after examples."
-last_modified_at: 2026-08-04
+description: "An 8-point GitHub README checklist for clearer value, visual proof, quick start, documentation, trust, and contribution paths."
+last_modified_at: 2026-11-12
 faq:
   - q: "What should a GitHub README include?"
     a: "A high-converting GitHub README should include: (1) A one-line description that clearly explains what the project does and for whom. (2) A visual demo (GIF, screenshot, or video) showing the product working. (3) Quick install/setup instructions (under 5 commands). (4) A features list with the most compelling capabilities. (5) Links to documentation, live demo, and contributing guide. (6) Badges (stars, license, build status) for social proof. The goal: a developer should understand the project's value and know how to try it within 30 seconds."
@@ -16,7 +18,9 @@ faq:
 ---
 ---
 
-**GitHub README best practices are the eight choices that help a developer understand, trust, and try a repository within 30 seconds:** lead with a specific value proposition, show the product, provide a short quick start, use only meaningful badges, explain core features, compare alternatives honestly, document contribution paths, and keep every example current. This guide applies those rules to the README structure used while growing AFFiNE beyond 60,000 GitHub stars.
+**GitHub README best practices are the eight choices that help a developer quickly understand, trust, and try a repository:** lead with a specific value proposition, show the product, provide a short quick start, use only meaningful badges, explain core features, compare alternatives honestly, document contribution paths, and keep every example current. This guide applies those rules to the README structure used in the AFFiNE project; its star count is context, not proof that a README alone caused growth.
+
+> **Start here:** copy the checklist below, then ask one developer who has never seen the project to explain what it does and run the quick start. Record where they hesitate. README quality should be judged by comprehension and successful setup—not by star count alone.
 
 | README decision | Recommended standard | Why it matters |
 |:---|:---|:---|
@@ -196,7 +200,7 @@ Here's a battle-tested template:
 
 ### How long should a README be?
 
-**500-1500 words** is the sweet spot. Long enough to be comprehensive, short enough to be read. Use documentation links for details.
+Match the length to project complexity. A small library may need only a short explanation and working example; a full application may need setup, screenshots, deployment, and contribution guidance. Put reference material in `/docs` and keep the README focused on evaluation and first success.
 
 ### Should I include installation for every platform?
 

@@ -701,7 +701,7 @@
         // Tools Data
         const tools = [
             {"name":"ChatCut","desc":"Natural-language video editing with timelines, captions and motion graphics; limited starter allowance and paid generation plans.","category":"Content Creation","price":"freemium","url":"https://chatcut.io/","icon":"🎬"},
-            {"name":"Actionbook","desc":"Browser AI assistant for collecting web data and creating dashboards and source-linked analysis.","category":"Dev Tools","price":"freemium","url":"https://actionbook.app/","icon":"🔧"},
+            {"name":"Actionbook","desc":"Reads page DOM and interaction structure to reconstruct competitor information architecture, forms and key paths; respect access controls and site rules.","category":"Competitor Research","price":"freemium","url":"https://actionbook.app/","icon":"🧩"},
             {"name":"Profound","desc":"AI-search visibility monitoring and marketing agents for tracking brands in answer engines.","category":"SEO","price":"paid","url":"https://www.tryprofound.com/","icon":"🔧"},
             {"name":"OpenRouter","desc":"Unified API for multiple model providers, with free models and usage-priced models.","category":"Dev Tools","price":"freemium","url":"https://openrouter.ai/","icon":"🔧"},
             {"name":"Octopus.do","desc":"Visual sitemaps and website-content planning, with crawling, wireframes and collaboration.","category":"SEO","price":"freemium","url":"https://octopus.do/","icon":"🔧"},
@@ -713,7 +713,11 @@
             {"name":"AppSumo","desc":"Software-deal marketplace; browsing is free, while products and licenses are individually priced.","category":"Software Deals","price":"paid","url":"https://appsumo.com/","icon":"🔧"},
             {"name":"Hypit","desc":"Video orchestration for AI agents; the framework is free, while model use and hosted services cost extra.","category":"Content Creation","price":"freemium","url":"https://hypit.ai/","icon":"🎬"},
             {"name":"OrcaRouter","desc":"AI model gateway with routing, fallbacks and usage tracking; free platform tier, model usage billed separately.","category":"Case Studies","price":"freemium","url":"https://www.orcarouter.ai/","icon":"🔧"},
-            {"name": "Wayback Machine (web.archive.org)", "desc": "Browse historical snapshots of competitor websites, pricing and positioning; save a page with Save Page Now. Captures may be missing or incomplete.", "category": "SEO", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
+            {"name": "Wayback Machine (web.archive.org)", "desc": "Review historical versions of competitor websites, pricing pages and positioning. Captures may be missing or incomplete.", "category": "Competitor Research", "price": "free", "url": "https://web.archive.org/", "icon": "🕰️"},
+            {"name":"Similarweb","desc":"Analyze estimated visits, acquisition channels, geography and traffic mix; third-party traffic figures are estimates.","category":"Competitor Research","price":"freemium","url":"https://www.similarweb.com/","icon":"📊"},
+            {"name":"G2","desc":"B2B software ratings and reviews for studying 1–3 star complaints, purchase blockers and switching demand.","category":"Competitor Research","price":"free","url":"https://www.g2.com/","icon":"⭐"},
+            {"name":"Capterra","desc":"Software directory and review platform for mapping category, feature, pricing and complaint gaps.","category":"Competitor Research","price":"free","url":"https://www.capterra.com/","icon":"🗂️"},
+            {"name":"Product Hunt","desc":"Research early demand, objections and positioning feedback through launch pages, comments and maker replies.","category":"Competitor Research","price":"free","url":"https://www.producthunt.com/","icon":"🚀"},
             // Community Directory
             { name: "AI HUB (Discord)", desc: "Largest Discord AI community · 538K members · Direct join", category: "Communities", price: "free", url: "https://discord.gg/aihub", icon: "💬" },
             { name: "Data Science/ML/AI", desc: "Discord · 30K developers · ML/DL/AI hub", category: "Communities", price: "free", url: "https://discord.com/invite/v3zeSGb", icon: "💬" },
@@ -762,7 +766,7 @@
             
             // SEO
             { name: "AITDK", desc: "AI SEO plugin for keyword analysis", category: "SEO", price: "free", url: "https://aitdk.com/", icon: "🔑" },
-            { name: "Analook", desc: "All-in-one competitor intel — SEO, social, funding & business model analyzed in 60 seconds", category: "SEO", price: "paid", url: "https://www.analook.com", icon: "🔍" },
+            { name: "Analook", desc: "Combines SEO, traffic-mix, social and business-model signals into a source-linked competitor report", category: "Competitor Research", price: "paid", url: "https://www.analook.com", icon: "🔍" },
             { name: "Keywords Everywhere", desc: "Search volume lookup plugin", category: "SEO", price: "freemium", url: "https://keywordseverywhere.com/", icon: "📈" },
             {"name":"Semrush","desc":"Comprehensive SEO analysis platform","category":"SEO","price":"freemium","url":"https://www.semrush.com/","icon":"📊"},
             
@@ -829,7 +833,6 @@
             { name: "Teable", desc: "Open-source Airtable alternative. Multi-round weekly growth coaching.", category: "Case Studies", price: "freemium", url: "https://teable.io", icon: "📊" },
             { name: "Nolibox", desc: "AIGC design platform (HuaYuzhou). Multi-channel Twitter/Xiaohongshu growth coaching.", category: "Case Studies", price: "freemium", url: "https://www.nolibox.com", icon: "🎨" },
             { name: "Medeo", desc: "AI video generator — text/PDF/link to video in one click. User growth & conversion coaching.", category: "Case Studies", price: "freemium", url: "https://medeo.ai", icon: "🎥" },
-            { name: "Manus", desc: "AI Agent platform for complex autonomous tasks. Global distribution & growth strategy coaching.", category: "Case Studies", price: "freemium", url: "https://manus.im", icon: "🤖" },
             {"name":"Second Me","desc":"Personal AI identity and avatar platform with memory management. Historical coaching: open-source launch and global growth. Historical open-source growth record: 10K GitHub stars in 3 weeks.","category":"Case Studies","price":"freemium","url":"https://docs.second.me/","icon":"🧠"},
             { name: "Trickle", desc: "AI agentic canvas for vibe coding, websites & apps. Coached global distribution & growth strategy.", category: "Case Studies", price: "freemium", url: "https://trickle.so", icon: "⚡" },
             { name: "wegic", desc: "AI website builder via natural language chat. Coached global market distribution & growth.", category: "Case Studies", price: "freemium", url: "https://wegic.ai", icon: "🌐" },
@@ -861,7 +864,7 @@
             {"name":"memU (Open Source)","desc":"Open-source agentic memory framework for AI companions. Coached open-source growth & community ops.","category":"Case Studies","price":"free","url":"https://github.com/NevaMind-AI/memU","icon":"🧠"},
             { name: "InsForge", desc: "AI-native backend platform (BaaS for agents) — full stack for AI coding agents. Coached open-source growth & launch.", category: "Case Studies", price: "freemium", url: "https://insforge.dev", icon: "🔧" },
             { name: "Questflow", desc: "AI finance agent platform. Coached global user growth & channel distribution.", category: "Case Studies", price: "freemium", url: "https://questflow.ai", icon: "💰" },
-            {"name":"Tinyfish","desc":"Web search, extraction and agent infrastructure; check free Search/Fetch limits separately from Agent usage charges. Coached global growth and developer operations.","category":"Case Studies","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
+            {"name":"TinyFish","desc":"AI search and extraction for finding public complaints, negative feedback and competitor risk signals at scale; verify findings against original pages.","category":"Competitor Research","price":"paid","url":"https://tinyfish.ai","icon":"🐟"},
             { name: "Holycrab", desc: "AI video tool. Coached global distribution & PMF validation strategy.", category: "Case Studies", price: "freemium", url: "https://holycrab.ai", icon: "🦀" },
             {"name":"CoachRocks","desc":"AI coaching notes tool. Coached global distribution & user growth strategy.","category":"Case Studies","price":"paid","url":"https://coachrocks.com","icon":"🎓"},
             {"name":"OpenAgents","desc":"Open-source multi-agent collaboration through shared threads, files, knowledge and tasks. Model and infrastructure costs are separate.","category":"Case Studies","price":"free","url":"https://openagents.org/","icon":"🤖"},
