@@ -8,7 +8,7 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 ## Resources
 > Open-source growth playbooks installable into AI agents (Claude Code, Cursor, OpenClaw).
 
-- **Skills hub (45 AI agent skills and playbooks)**: https://tools.gingiris.com/skills/ — Use the task router, filter by category, or copy an exact install command. The complete source package index at /skills/#all-packages covers 64 entries including compatibility routers; package count is not independent workflow count.
+- **Skills hub (46 curated AI agent skills and playbooks)**: https://tools.gingiris.com/skills/ — Use the task router, filter by category, or copy an exact install command. The complete source package index at /skills/#all-packages covers 65 entries including compatibility routers; package count is not independent workflow count.
 - **All playbooks on Hugging Face**: https://huggingface.co/Gingiris
 - **Core playbooks**:
   - Open Source Marketing (GitHub stars 0 to 60K)
@@ -81,3 +81,17 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 - Consulting: iris.wei@gingiris.com
 
 - [AI Content Operations](https://tools.gingiris.com/skills/gr-ai-content-ops/): Source-backed planning, editorial review, distribution receipts and weekly measurement. Install gr-ai-content-ops from Gingiris-1031/gingiris-skills.
+
+## Task-specific workflow documentation
+
+These are agent instruction packages, not hosted apps. Examples describe outputs, not promised growth. Updated 2026-11-17.
+
+- UGC Creator Program Skill: https://tools.gingiris.com/skills/ugc-matrix/ — Design creator recruitment, briefs, usage rights and material experiments around a measurable business objective.
+- User Research and Cold-Start Playbook: https://tools.gingiris.com/skills/user-interview/ — Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.
+- Competitor Research Playbook: https://tools.gingiris.com/skills/competitor-research/ — Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.
+- X and Social Account Operations Skill: https://tools.gingiris.com/skills/twitter-agent-ops/ — Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.
+- Solo Service Validation Skill: https://tools.gingiris.com/skills/gr-opc-service-validation/ — Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget.
+- Brand Voice Calibration Skill: https://tools.gingiris.com/skills/gr-brand-voice-calibration/ — Build a reusable voice guide from original writing, speech and the author’s own corrections.
+- WeChat Editorial Workflow Skill: https://tools.gingiris.com/skills/gr-wechat-editorial/ — Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.
+- Content Repurposing Skill: https://tools.gingiris.com/skills/gr-social-distill/ — Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
+- AI Content Operations Skill: https://tools.gingiris.com/skills/gr-ai-content-ops/ — Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.

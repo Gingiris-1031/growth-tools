@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Competitor Research Skill: Evidence to Decisions</title>
-<meta name="description" content="Compare competitors using dated sources, distinguish evidence from hypotheses and choose a next validation step. Includes inputs, outputs and a starter prompt.">
-<meta name="keywords" content="Competitor Research AI Skill, Evidence to Decisions, Codex, Claude Code, Cursor">
+<title>Competitor Research Playbook | Gingiris</title>
+<meta name="description" content="Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.">
+<meta name="keywords" content="competitor research skill, SaaS competitive analysis">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/competitor-research/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/competitor-research/">
-<meta property="og:title" content="Competitor Research AI Skill: Evidence to Decisions">
-<meta property="og:description" content="Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision. / 从证据到自己的行动。">
+<meta property="og:title" content="Competitor Research Playbook">
+<meta property="og:description" content="Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Competitor Research AI Skill: Evidence to Decisions">
-<meta name="twitter:description" content="Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision. / 从证据到自己的行动。">
+<meta name="twitter:title" content="Competitor Research Playbook">
+<meta name="twitter:description" content="Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "Competitor Research AI Skill: Evidence to Decisions",
+      "name": "Competitor Research Playbook",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision. / 从证据到自己的行动。",
+      "description": "Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.",
       "url": "https://tools.gingiris.com/skills/competitor-research/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/competitor-research-playbook",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/competitor-research-playbook",
+        "https://huggingface.co/datasets/Gingiris/competitor-research-playbook"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/competitor-research-playbook",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,9 +61,9 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "Competitor Research AI Skill, Evidence to Decisions, Codex, Claude Code, Cursor",
+      "keywords": "competitor research skill, SaaS competitive analysis",
       "softwareVersion": "1.4.0",
-      "dateModified": "2026-11-11"
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
@@ -69,20 +72,20 @@
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Match the task",
-          "text": "Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent."
+          "name": "Install and choose the task",
+          "text": "Install competitor-research-playbook into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Read the evidence",
-          "text": "Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch peak does not establish causality."
+          "name": "Provide the evidence",
+          "text": "Your product, buyer, market, stage, decision, competitor URLs and research budget."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Make the decision",
-          "text": "Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions."
+          "name": "Review the result",
+          "text": "Benchmark rationale; historical timeline; evidence register; counterevidence; action card. Check unresolved claims before external action."
         }
       ]
     },
@@ -91,26 +94,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can I use this without Similarweb or a paid research API?",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Start from supplied pages and visible evidence. Mark unavailable traffic or historical data explicitly; do not infer a growth channel from a Direct traffic share."
+            "text": "Teams deciding positioning, early content, partner channels or which customer assumptions to test."
           }
         },
         {
           "@type": "Question",
-          "name": "What will this skill produce?",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A source table, comparable-stage analysis, alternative explanations and a next-action card with an owner and review condition."
+            "text": "Your product, buyer, market, stage, decision, competitor URLs and research budget."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I start?",
+          "name": "What will I receive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Install competitor-research-playbook from the Gingiris collection, then provide the inputs and starter prompt on this page."
+            "text": "Benchmark rationale; historical timeline; evidence register; counterevidence; action card"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research is a maintained compatibility name."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "我方产品、买方、市场、阶段、要做的决定、竞品网址和研究上限。交付：对标理由；历史时间线；证据表；反证；我方行动卡。"
           }
         }
       ]
@@ -127,7 +146,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Competitor Research AI Skill: Evidence to Decisions",
+          "name": "Competitor Research Playbook",
           "item": "https://tools.gingiris.com/skills/competitor-research/"
         }
       ]
@@ -248,19 +267,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Competitor Research AI Skill: Evidence to Decisions</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Competitor Research Playbook</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>Competitor Research AI Skill: Evidence to Decisions</h1>
-      <p class="tag-line">Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision. / 从证据到自己的行动。</p>
+      <h1>Competitor Research Playbook</h1>
+      <p class="tag-line">Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill competitor-research-playbook</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill competitor-research-playbook').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/competitor-research-playbook">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/competitor-research-playbook">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -269,83 +288,83 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent.</li>
-          <li>Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch peak does not establish causality.</li>
-          <li>Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions.</li>
+          <li>Teams deciding positioning, early content, partner channels or which customer assumptions to test.</li>
+          <li>Provide: Your product, buyer, market, stage, decision, competitor URLs and research budget.</li>
+          <li>Receive: Benchmark rationale; historical timeline; evidence register; counterevidence; action card</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision. / 从证据到自己的行动。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v1.4.0. Free downloadable workflow; results depend on the evidence and execution.</p>
+      <p class="body">Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment. 按买方、阶段和商业模式选择对标，用带日期的证据支持一次有边界的实验。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research is a maintained compatibility name.</p>
     </section>
 
     <section>
-      <h2>Version and availability</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version</td><td class="v">1.4.0</td></tr>
-        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
-        <tr><td>License</td><td class="v">MIT</td></tr>
+        <tr><td>Package</td><td class="v">competitor-research-playbook</td></tr>
+        <tr><td>Inputs</td><td class="v">Your product, buyer, market, stage, decision, competitor URLs and research budget.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Benchmark rationale; historical timeline; evidence register; counterevidence; action card</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">Product URL, decision to make, target market, competitor links and time window. Unknown historical data is allowed.</p>
-        <h3>What you get</h3><p class="body">A source table, comparable-stage analysis, alternative explanations and a next-action card with an owner and review condition.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Compare our tool workspace with this competitor landing page. Explain which comparisons are valid, then propose one change and a validation plan.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: Observed: a competitor has 17 marketing screens; our workspace has 2. Decision: compare visitor tasks and onboarding friction, not page length. Test one clearer first-action label.</p>
+        <h3>What to provide</h3><p class="body">Your product, buyer, market, stage, decision, competitor URLs and research budget. / 我方产品、买方、市场、阶段、要做的决定、竞品网址和研究上限</p>
+        <h3>What you get</h3><p class="body">Benchmark rationale; historical timeline; evidence register; counterevidence; action card / 对标理由；历史时间线；证据表；反证；我方行动卡</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use competitor-research-playbook. Compare our launch-stage SaaS with one relevant competitor’s earliest available content. Separate observed facts from inference and propose a test we can run this week.
+
+请使用 competitor-research-playbook。对照一个相关竞品最早可得的内容，研究我们发布阶段的 SaaS；区分事实与推断，提出本周能执行的测试。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Claim: early blog focused on a buyer task → dated URLs and sampling window → transferability check → one trial topic, not a copied calendar.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/competitor-research-playbook">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Match the task</p><p class="step-d">Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Read the evidence</p><p class="step-d">Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch peak does not establish causality.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Make the decision</p><p class="step-d">Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install competitor-research-playbook into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Your product, buyer, market, stage, decision, competitor URLs and research budget.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Benchmark rationale; historical timeline; evidence register; counterevidence; action card. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>What the workflow establishes</h2>
-      <p class="cmp-intro">Keep proposals and verified results separate.</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
-        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
-        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
+        <tr><td>Competitor Analysis Skill</td><td>Run a focused competitor scan and connect the findings to customer hypotheses and a concrete next decision.</td></tr>
+        <tr><td>Open-Source Growth Attribution Skill</td><td>Reconstruct a repository’s growth timeline and representative content from public evidence, with explicit attribution limits.</td></tr>
+        <tr><td>AI Content Operations Skill</td><td>Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Avoid these shortcuts</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not turn a teaching example into a universal rule.</li>
-          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
-          <li>Do not publish or contact people merely because a draft exists.</li>
+          <li>Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research is a maintained compatibility name.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">Can I use this without Similarweb or a paid research API?</p><p class="faq-a">Yes. Start from supplied pages and visible evidence. Mark unavailable traffic or historical data explicitly; do not infer a growth channel from a Direct traffic share.</p></div>
-        <div class="faq-item"><p class="faq-q">What will this skill produce?</p><p class="faq-a">A source table, comparable-stage analysis, alternative explanations and a next-action card with an owner and review condition.</p></div>
-        <div class="faq-item"><p class="faq-q">How do I start?</p><p class="faq-a">Install competitor-research-playbook from the Gingiris collection, then provide the inputs and starter prompt on this page.</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Teams deciding positioning, early content, partner channels or which customer assumptions to test.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Your product, buyer, market, stage, decision, competitor URLs and research budget.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Benchmark rationale; historical timeline; evidence register; counterevidence; action card</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research is a maintained compatibility name.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">我方产品、买方、市场、阶段、要做的决定、竞品网址和研究上限。交付：对标理由；历史时间线；证据表；反证；我方行动卡。</p></div>
     </section>
 
-<section><h2>Updated execution templates · October 2026</h2>
-        <p class="body">Additional compact entrypoint for the same updated evidence and decision workflow. These templates are in the separate <strong>gr-competitor</strong> skill; install it alongside this playbook.</p>
-        <div class="meta-install"><code>npx skills add Gingiris-1031/gingiris-skills --skill gr-competitor</code></div>
-        <p class="body"><a href="https://skills.sh/Gingiris-1031/gingiris-skills/gr-competitor">View gr-competitor on skills.sh</a></p></section>
+
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/"><span>Browse all AI agent skills</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/user-interview/"><span>User interview workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content repurposing workflow</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-ai-content-ops/"><span>AI Content Operations Skill</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

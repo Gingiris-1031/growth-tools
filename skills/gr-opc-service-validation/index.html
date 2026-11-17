@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OPC Service Validation Skill: Offer to Paid Pilot</title>
-<meta name="description" content="Turn a service idea into a fixed-scope offer and paid validation experiment. Define buyer, delivery, price hypothesis and acceptance criteria.">
-<meta name="keywords" content="gr-opc-service-validation, Gingiris, AI skill">
+<title>Solo Service Validation Skill | Gingiris</title>
+<meta name="description" content="Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget.">
+<meta name="keywords" content="solo service validation, paid pilot design">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/gr-opc-service-validation/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/gr-opc-service-validation/">
-<meta property="og:title" content="OPC Service Validation / OPC 服务验证">
-<meta property="og:description" content="Validate a bounded service pilot, client fit, delivery capacity and repeat demand.&lt;br&gt;验证有边界的服务试单、客户适配、交付容量与复购信号。">
+<meta property="og:title" content="Solo Service Validation Skill">
+<meta property="og:description" content="Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="OPC Service Validation / OPC 服务验证">
-<meta name="twitter:description" content="Validate a bounded service pilot, client fit, delivery capacity and repeat demand.&lt;br&gt;验证有边界的服务试单、客户适配、交付容量与复购信号。">
+<meta name="twitter:title" content="Solo Service Validation Skill">
+<meta name="twitter:description" content="Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "OPC Service Validation / OPC 服务验证",
+      "name": "Solo Service Validation Skill",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Validate a bounded service pilot, client fit, delivery capacity and repeat demand. 验证有边界的服务试单、客户适配、交付容量与复购信号。",
+      "description": "Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget.",
       "url": "https://tools.gingiris.com/skills/gr-opc-service-validation/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation",
+        "https://huggingface.co/datasets/Gingiris/gr-opc-service-validation"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,30 +61,30 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "gr-opc-service-validation, Gingiris, AI skill",
-      "dateModified": "2026-11-11"
+      "keywords": "solo service validation, paid pilot design",
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
-      "name": "How to use / 使用流程",
+      "name": "How to use this workflow",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Define one offer / 明确一个服务",
-          "text": "Define one offer / 明确一个服务 — use the linked Skill and worksheets with your own authorized materials."
+          "name": "Install and choose the task",
+          "text": "Install gr-opc-service-validation into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Run a bounded pilot / 有上限地试单",
-          "text": "Run a bounded pilot / 有上限地试单 — use the linked Skill and worksheets with your own authorized materials."
+          "name": "Provide the evidence",
+          "text": "Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Review evidence and capacity / 复盘证据与容量",
-          "text": "Review evidence and capacity / 复盘证据与容量 — use the linked Skill and worksheets with your own authorized materials."
+          "name": "Review the result",
+          "text": "Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision. Check unresolved claims before external action."
         }
       ]
     },
@@ -90,18 +93,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I install it? / 如何安装？",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation"
+            "text": "Independent operators turning experience into a service and deciding whether to continue, change or stop an offer."
           }
         },
         {
           "@type": "Question",
-          "name": "Does this include private material? / 包含私人素材吗？",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Supply your own authorized materials. / 不包含，请使用你获准的资料。"
+            "text": "Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will I receive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment or repeat demand."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "能力证据、目标买方、交付范围、可投入工时、成本和已有客户反馈。交付：服务定义；客户适配清单；试单卡；容量与定价假设；继续/修改/停止决定。"
           }
         }
       ]
@@ -118,7 +145,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "OPC Service Validation / OPC 服务验证",
+          "name": "Solo Service Validation Skill",
           "item": "https://tools.gingiris.com/skills/gr-opc-service-validation/"
         }
       ]
@@ -239,19 +266,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / OPC Service Validation / OPC 服务验证</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Solo Service Validation Skill</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>OPC Service Validation / OPC 服务验证</h1>
-      <p class="tag-line">Validate a bounded service pilot, client fit, delivery capacity and repeat demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。</p>
+      <h1>Solo Service Validation Skill</h1>
+      <p class="tag-line">Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-opc-service-validation</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -260,75 +287,83 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Validate a bounded service pilot, client fit, delivery capacity and repeat demand.</li>
-          <li>验证有边界的服务试单、客户适配、交付容量与复购信号。</li>
+          <li>Independent operators turning experience into a service and deciding whether to continue, change or stop an offer.</li>
+          <li>Provide: Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.</li>
+          <li>Receive: Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Validate a bounded service pilot, client fit, delivery capacity and repeat demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Version 1.0.0 · No private source archive included. / 不含私人素材。 Method and worksheets; no guaranteed business outcome. / 方法与工作表，不保证商业效果。</p>
+      <p class="body">Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery budget. 用有边界的样例或付费试单，验证服务需求、验收方式和可持续交付能力。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment or repeat demand.</p>
     </section>
 
     <section>
-      <h2>Key results</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version / 版本</td><td class="v">1.0.0</td></tr>
-        <tr><td>Distribution / 分发</td><td class="v">GitHub + Hugging Face + skills CLI</td></tr>
-        <tr><td>Language / 语言</td><td class="v">English / 中文</td></tr>
+        <tr><td>Package</td><td class="v">gr-opc-service-validation</td></tr>
+        <tr><td>Inputs</td><td class="v">Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">Service idea, target buyer, problem evidence, delivery capacity and pricing assumptions.</p>
-        <h3>What you get</h3><p class="body">A bounded service offer, paid validation experiment and delivery acceptance checklist.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Turn this service idea into a small paid validation test. Specify buyer, deliverable, exclusions, price hypothesis and a stop condition.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: A broad consulting idea becomes one fixed-scope delivery for one buyer type, with a price hypothesis and a concrete acceptance checklist.</p>
+        <h3>What to provide</h3><p class="body">Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback. / 能力证据、目标买方、交付范围、可投入工时、成本和已有客户反馈</p>
+        <h3>What you get</h3><p class="body">Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision / 服务定义；客户适配清单；试单卡；容量与定价假设；继续/修改/停止决定</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gr-opc-service-validation. Design a paid pilot for a two-week onboarding audit. I can spend eight hours. Define buyer fit, required inputs, deliverables, exclusions and acceptance.
+
+请使用 gr-opc-service-validation。设计一个两周的 onboarding 审计试单，我能投入八小时。明确买方适配、客户输入、交付物、排除项和验收。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Buyer owns onboarding → access to funnel evidence → capped audit scope → accepted findings → separate evidence of repeat demand.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-opc-service-validation">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
-      <h2>How to use / 使用流程</h2>
+      <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Define one offer / 明确一个服务</p><p class="step-d">Define one offer / 明确一个服务 — use the linked Skill and worksheets with your own authorized materials.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Run a bounded pilot / 有上限地试单</p><p class="step-d">Run a bounded pilot / 有上限地试单 — use the linked Skill and worksheets with your own authorized materials.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review evidence and capacity / 复盘证据与容量</p><p class="step-d">Review evidence and capacity / 复盘证据与容量 — use the linked Skill and worksheets with your own authorized materials.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gr-opc-service-validation into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>Scope / 范围</h2>
-      <p class="cmp-intro">Choose the workflow for your current task. / 按当前任务选择。</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Included / 包含</th><th>Boundary / 边界</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>验证有边界的服务试单、客户适配、交付容量与复购信号。</td><td>User authorization and source evidence remain required. / 仍需授权与来源。</td></tr>
+        <tr><td>User Interview Execution Skill</td><td>Turn interview observations into testable requirements, priorities and a follow-up check.</td></tr>
+        <tr><td>Competitor Research Playbook</td><td>Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.</td></tr>
+        <tr><td>Growth Workflow Router</td><td>Choose one specialist for a concrete growth problem instead of loading an entire playbook collection.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Limits / 使用边界</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。</li>
-          <li>Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。</li>
+          <li>A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment or repeat demand.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">How do I install it? / 如何安装？</p><p class="faq-a">npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation</p></div>
-        <div class="faq-item"><p class="faq-q">Does this include private material? / 包含私人素材吗？</p><p class="faq-a">No. Supply your own authorized materials. / 不包含，请使用你获准的资料。</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Independent operators turning experience into a service and deciding whether to continue, change or stop an offer.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment or repeat demand.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">能力证据、目标买方、交付范围、可投入工时、成本和已有客户反馈。交付：服务定义；客户适配清单；试单卡；容量与定价假设；继续/修改/停止决定。</p></div>
     </section>
 
 
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration / 文风校准</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-wechat-editorial/"><span>WeChat Editorial / 公众号内容运营</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/solopreneur-coach/"><span>Broader Solopreneur Coach / 更广的 OPC 教练</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/competitor-research/"><span>Competitor Research Playbook</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

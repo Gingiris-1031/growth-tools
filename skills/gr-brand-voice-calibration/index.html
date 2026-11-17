@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Brand Voice Skill: Original Samples to Voice Guide</title>
-<meta name="description" content="Extract a reusable voice guide from original writing samples. Preserve source boundaries, identify style patterns and review drafts against the guide.">
-<meta name="keywords" content="Brand Voice AI Skill, Original Samples to Voice Guide, Codex, Claude Code, Cursor">
+<title>Brand Voice Calibration Skill | Gingiris</title>
+<meta name="description" content="Build a reusable voice guide from original writing, speech and the author’s own corrections.">
+<meta name="keywords" content="brand voice calibration, writing voice agent skill">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/gr-brand-voice-calibration/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/gr-brand-voice-calibration/">
-<meta property="og:title" content="Brand Voice AI Skill: Original Samples to Voice Guide">
-<meta property="og:description" content="Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。">
+<meta property="og:title" content="Brand Voice Calibration Skill">
+<meta property="og:description" content="Build a reusable voice guide from original writing, speech and the author’s own corrections.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Brand Voice AI Skill: Original Samples to Voice Guide">
-<meta name="twitter:description" content="Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。">
+<meta name="twitter:title" content="Brand Voice Calibration Skill">
+<meta name="twitter:description" content="Build a reusable voice guide from original writing, speech and the author’s own corrections.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "Brand Voice AI Skill: Original Samples to Voice Guide",
+      "name": "Brand Voice Calibration Skill",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。",
+      "description": "Build a reusable voice guide from original writing, speech and the author’s own corrections.",
       "url": "https://tools.gingiris.com/skills/gr-brand-voice-calibration/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-brand-voice-calibration",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-brand-voice-calibration",
+        "https://huggingface.co/datasets/Gingiris/gr-brand-voice-calibration"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-brand-voice-calibration",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,9 +61,9 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "Brand Voice AI Skill, Original Samples to Voice Guide, Codex, Claude Code, Cursor",
+      "keywords": "brand voice calibration, writing voice agent skill",
       "softwareVersion": "1.1.0",
-      "dateModified": "2026-11-11"
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
@@ -69,20 +72,20 @@
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Select original evidence",
-          "text": "Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours."
+          "name": "Install and choose the task",
+          "text": "Install gr-brand-voice-calibration into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Form scoped rules",
-          "text": "Record whether a pattern is author preference or a performance hypothesis; account for topic, language, timing and audience."
+          "name": "Provide the evidence",
+          "text": "Authorized originals with context, liked/disliked examples and the current writing task."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Test and revisit",
-          "text": "Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning across languages."
+          "name": "Review the result",
+          "text": "Source index; contextual voice rules; counterexamples; test draft; unresolved preferences. Check unresolved claims before external action."
         }
       ]
     },
@@ -91,26 +94,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do high-engagement posts define my authentic voice?",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Engagement and author preference are different evidence. Keep counterexamples and test the guide on material not used to construct it."
+            "text": "Authors whose AI drafts sound generic or lose their voice when adapted between Chinese and English."
           }
         },
         {
           "@type": "Question",
-          "name": "What will this skill produce?",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A source inventory, provisional or confirmed voice guide, a test draft and a feedback log."
+            "text": "Authorized originals with context, liked/disliked examples and the current writing task."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I start?",
+          "name": "What will I receive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Install gr-brand-voice-calibration from the Gingiris collection, then provide the inputs and starter prompt on this page."
+            "text": "Source index; contextual voice rules; counterexamples; test draft; unresolved preferences"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Engagement is not proof of authentic voice. Private source archives are not published with the guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "获准使用的原创样本、上下文、喜欢和不喜欢的例子、当前写作任务。交付：来源索引；带场景的文风规则；反例；试写；待确认偏好。"
           }
         }
       ]
@@ -127,7 +146,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Brand Voice AI Skill: Original Samples to Voice Guide",
+          "name": "Brand Voice Calibration Skill",
           "item": "https://tools.gingiris.com/skills/gr-brand-voice-calibration/"
         }
       ]
@@ -248,19 +267,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Brand Voice AI Skill: Original Samples to Voice Guide</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Brand Voice Calibration Skill</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>Brand Voice AI Skill: Original Samples to Voice Guide</h1>
-      <p class="tag-line">Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。</p>
+      <h1>Brand Voice Calibration Skill</h1>
+      <p class="tag-line">Build a reusable voice guide from original writing, speech and the author’s own corrections.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-brand-voice-calibration</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-brand-voice-calibration">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-brand-voice-calibration">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -269,81 +288,85 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.</li>
-          <li>Record whether a pattern is author preference or a performance hypothesis; account for topic, language, timing and audience.</li>
-          <li>Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning across languages.</li>
+          <li>Authors whose AI drafts sound generic or lose their voice when adapted between Chinese and English.</li>
+          <li>Provide: Authorized originals with context, liked/disliked examples and the current writing task.</li>
+          <li>Receive: Source index; contextual voice rules; counterexamples; test draft; unresolved preferences</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Calibrate authentic voice from original samples while separating style from distribution performance. / 原声与传播表现分开。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v1.1.0. Free downloadable workflow; results depend on the evidence and execution.</p>
+      <p class="body">Build a reusable voice guide from original writing, speech and the author’s own corrections. 以本人原文、原话和亲手修改为依据，提炼能复用、可试写验证的文风指南。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Engagement is not proof of authentic voice. Private source archives are not published with the guide.</p>
     </section>
 
     <section>
-      <h2>Version and availability</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version</td><td class="v">1.1.0</td></tr>
-        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
-        <tr><td>License</td><td class="v">MIT</td></tr>
+        <tr><td>Package</td><td class="v">gr-brand-voice-calibration</td></tr>
+        <tr><td>Inputs</td><td class="v">Authorized originals with context, liked/disliked examples and the current writing task.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Source index; contextual voice rules; counterexamples; test draft; unresolved preferences</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">Original writing or speech, context, author edits, disliked examples, desired language and audience.</p>
-        <h3>What you get</h3><p class="body">A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Build a provisional voice guide from these originals. Separate my preferences from engagement patterns and test it on a held-out sample.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: Observed: Chinese news posts outperform English tutorials. Decision: topic and language changed together, so neither proves a language preference. Ask for author feedback and test comparable material.</p>
+        <h3>What to provide</h3><p class="body">Authorized originals with context, liked/disliked examples and the current writing task. / 获准使用的原创样本、上下文、喜欢和不喜欢的例子、当前写作任务</p>
+        <h3>What you get</h3><p class="body">Source index; contextual voice rules; counterexamples; test draft; unresolved preferences / 来源索引；带场景的文风规则；反例；试写；待确认偏好</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gr-brand-voice-calibration. Compare these original posts with my edits. Build a provisional voice guide and test it on one English post without inventing personal experience.
+
+请使用 gr-brand-voice-calibration。对照这些原始动态和我的修改，建立暂定文风指南，再用一条英文试写验证，不添加我没经历过的故事。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Observed trait: conclusions stay qualified → retain uncertainty in a test draft → ask the author whether the result feels accurate.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-brand-voice-calibration">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Select original evidence</p><p class="step-d">Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Form scoped rules</p><p class="step-d">Record whether a pattern is author preference or a performance hypothesis; account for topic, language, timing and audience.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Test and revisit</p><p class="step-d">Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning across languages.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gr-brand-voice-calibration into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Authorized originals with context, liked/disliked examples and the current writing task.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Source index; contextual voice rules; counterexamples; test draft; unresolved preferences. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>What the workflow establishes</h2>
-      <p class="cmp-intro">Keep proposals and verified results separate.</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
-        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
-        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
+        <tr><td>Content Repurposing Skill</td><td>Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.</td></tr>
+        <tr><td>WeChat Editorial Workflow Skill</td><td>Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.</td></tr>
+        <tr><td>AI Content Operations Skill</td><td>Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Avoid these shortcuts</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not turn a teaching example into a universal rule.</li>
-          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
-          <li>Do not publish or contact people merely because a draft exists.</li>
+          <li>Engagement is not proof of authentic voice. Private source archives are not published with the guide.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">Do high-engagement posts define my authentic voice?</p><p class="faq-a">No. Engagement and author preference are different evidence. Keep counterexamples and test the guide on material not used to construct it.</p></div>
-        <div class="faq-item"><p class="faq-q">What will this skill produce?</p><p class="faq-a">A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.</p></div>
-        <div class="faq-item"><p class="faq-q">How do I start?</p><p class="faq-a">Install gr-brand-voice-calibration from the Gingiris collection, then provide the inputs and starter prompt on this page.</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Authors whose AI drafts sound generic or lose their voice when adapted between Chinese and English.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Authorized originals with context, liked/disliked examples and the current writing task.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Source index; contextual voice rules; counterexamples; test draft; unresolved preferences</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">Engagement is not proof of authentic voice. Private source archives are not published with the guide.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">获准使用的原创样本、上下文、喜欢和不喜欢的例子、当前写作任务。交付：来源索引；带场景的文风规则；反例；试写；待确认偏好。</p></div>
     </section>
 
 
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/"><span>Browse all AI agent skills</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/competitor-research/"><span>Competitor research workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/user-interview/"><span>User interview workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content repurposing workflow</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content Repurposing Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-wechat-editorial/"><span>WeChat Editorial Workflow Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-ai-content-ops/"><span>AI Content Operations Skill</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

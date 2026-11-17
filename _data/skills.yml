@@ -692,184 +692,182 @@
 - slug: ugc-matrix
   hf: gingiris-ugc-matrix
   install: Gingiris-1031/gingiris-skills
-  title: "UGC Creator Skill: Briefs, Incentives and Attribution"
-  h1: 'UGC Creator AI Skill: Briefs, Incentives and Attribution'
-  tagline: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
-  meta_description: "Plan a UGC creator program with clear briefs, incentives, content variants and attribution. Includes task inputs, expected outputs and a starter prompt."
-  keywords: UGC Creator AI Skill, Briefs, Incentives and Attribution, Codex, Claude Code, Cursor
-  software_description: Match creator incentives to awareness, activation or payment, then test content variants.
-    / 按业务目标选择激励。
+  title: UGC Creator Program Skill | Gingiris
+  h1: UGC Creator Program Skill
+  tagline: Design creator recruitment, briefs, usage rights and material experiments around a measurable business
+    objective.
+  meta_description: Design creator recruitment, briefs, usage rights and material experiments around a measurable
+    business objective.
+  keywords: UGC creator program, creator brief skill
+  software_description: Design creator recruitment, briefs, usage rights and material experiments around a measurable
+    business objective.
   app_category: BusinessApplication
-  what: Match creator incentives to awareness, activation or payment, then test content variants. / 按业务目标选择激励。
+  what: Design creator recruitment, briefs, usage rights and material experiments around a measurable business objective.
+    围绕可衡量目标设计创作者招募、Brief、授权与素材实验。
   takeaways:
-  - Define reach, activation or actual payment separately. Agree fees, attribution, reuse rights and refunds.
-  - Allow original creators to explore; give execution partners an authorized format and observable acceptance criteria.
-  - Track counts, denominators and downstream quality. Natural recommendations are not randomized A/B allocation;
-    small samples can be inconclusive.
+  - Teams commissioning creator content and deciding which material to reuse, pay for or stop.
+  - 'Provide: Product task, audience, region, budget, usage rights and organic or paid distribution.'
+  - 'Receive: Goal card; creator criteria; brief and acceptance rules; asset ledger; attribution and settlement
+    plan'
   stats:
-  - - Version
-    - 1.1.1
-  - - Updated
-    - '2026-11-08'
-  - - License
-    - MIT
+  - - Package
+    - gingiris-ugc-matrix
+  - - Inputs
+    - Product task, audience, region, budget, usage rights and organic or paid distribution.
+  - - Deliverables
+    - Goal card; creator criteria; brief and acceptance rules; asset ledger; attribution and settlement plan
+  - - Documentation checked
+    - '2026-11-17'
   howto:
     title: How to use this workflow
     steps:
-    - name: Choose the outcome
-      text: Define reach, activation or actual payment separately. Agree fees, attribution, reuse rights and refunds.
-    - name: Brief the creator
-      text: Allow original creators to explore; give execution partners an authorized format and observable acceptance
-        criteria.
-    - name: Read the experiment
-      text: Track counts, denominators and downstream quality. Natural recommendations are not randomized A/B allocation;
-        small samples can be inconclusive.
+    - name: Install and choose the task
+      text: Install gingiris-ugc-matrix into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Product task, audience, region, budget, usage rights and organic or paid distribution.
+    - name: Review the result
+      text: Goal card; creator criteria; brief and acceptance rules; asset ledger; attribution and settlement plan.
+        Check unresolved claims before external action.
   compare:
-    title: What the workflow establishes
-    intro: Keep proposals and verified results separate.
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Output
-    - Use
-    - Limit
+    - Workflow
+    - Choose it for
     rows:
-    - - Evidence
-      - Understand the observation
-      - Does not establish causality by itself
-    - - Decision card
-      - Choose a bounded next test
-      - Not a guaranteed outcome
-    - - Review
-      - Check actual behavior and results
-      - Unknowns remain explicit
+    - - AI Content Operations Skill
+      - Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+        calendar.
+    - - Developer and User Community Playbook
+      - Plan a community around member value, onboarding, events and observable participation.
+    - - X and Social Account Operations Skill
+      - Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.
   donts:
-    title: Avoid these shortcuts
+    title: Scope and limits
     items:
-    - Do not turn a teaching example into a universal rule.
-    - Do not substitute views, intent or plans for observed business outcomes.
-    - Do not publish or contact people merely because a draft exists.
+    - Views, saves and payments are different outcomes. More saves without an exposure denominator do not prove
+      a better save rate.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: Should every creator be paid per view?
-    a: No. Match compensation to the work, business goal and measurable contribution. Define attribution, refunds,
-      usage rights and acceptance before work begins.
-  - q: What will this skill produce?
-    a: A creator brief, scoped deliverables, compensation options, usage rights, attribution rules and a review
-      plan.
-  - q: How do I start?
-    a: Install gingiris-ugc-matrix from the Gingiris collection, then provide the inputs and starter prompt on this
-      page.
+  - q: Who should use this skill?
+    a: Teams commissioning creator content and deciding which material to reuse, pay for or stop.
+  - q: What should I provide?
+    a: Product task, audience, region, budget, usage rights and organic or paid distribution.
+  - q: What will I receive?
+    a: Goal card; creator criteria; brief and acceptance rules; asset ledger; attribution and settlement plan
+  - q: What are the limits?
+    a: Views, saves and payments are different outcomes. More saves without an exposure denominator do not prove
+      a better save rate.
+  - q: 需要什么输入，会得到什么？
+    a: 产品任务、人群、地区、预算、素材授权、自然或付费分发方式。交付：目标卡；筛选条件；Brief 与验收规则；素材台账；归因与结算方案。
   related:
-  - - Browse all AI agent skills
-    - /skills/
-  - - Competitor research workflow
-    - /skills/competitor-research/
-  - - User interview workflow
-    - /skills/user-interview/
-  - - Content repurposing workflow
-    - /skills/gr-social-distill/
+  - - AI Content Operations Skill
+    - /skills/gr-ai-content-ops/
+  - - X and Social Account Operations Skill
+    - /skills/twitter-agent-ops/
   install_skill: gingiris-ugc-matrix
-  notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
+  notice: Views, saves and payments are different outcomes. More saves without an exposure denominator do not prove
+    a better save rate.
   version: 1.1.1
-  updated: '2026-11-11'
+  updated: '2026-11-17'
   usage:
-    inputs: Product, audience, awareness/activation/payment goal, budget, creator roles and known attribution limits.
-    outputs: A creator brief, scoped deliverables, compensation options, usage rights, attribution rules and a review
-      plan.
-    prompt: Create a UGC pilot brief for our activation goal. Compare fixed fees and outcome bonuses, and define
-      what we can actually attribute.
-    example: 'Observed: one post has more saves but impression counts are missing. Decision: do not declare a winner.
-      Track comparable exposure and downstream activation before expanding spend.'
-  stats_title: Version and availability
+    inputs: Product task, audience, region, budget, usage rights and organic or paid distribution. / 产品任务、人群、地区、预算、素材授权、自然或付费分发方式
+    outputs: Goal card; creator criteria; brief and acceptance rules; asset ledger; attribution and settlement plan
+      / 目标卡；筛选条件；Brief 与验收规则；素材台账；归因与结算方案
+    prompt: 'Use gingiris-ugc-matrix. Create a brief for three product-demo creators within our budget. Define accurate
+      demonstrations, usage rights, revisions and an activation metric.
+
+
+      请使用 gingiris-ugc-matrix。在预算内给三位产品演示创作者写 Brief，明确真实演示、复用权、修改轮次和激活指标。'
+    example: Asset A / audience / hook hypothesis / rights / cost / impressions / activation denominator / review
+      decision.
+  stats_title: Inputs and deliverables
+  discovery_update: true
 
 - slug: user-interview
-  companion_skill:
-    name: gr-user-interview
-    description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: gingiris-user-interview
   install: Gingiris-1031/gingiris-skills
-  title: "User Interview Skill: Questions, Evidence and Follow-Up"
-  h1: 'User Interview AI Skill: Questions and Follow-up'
-  tagline: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
-  meta_description: "Design user interviews around real tasks, organize evidence and turn findings into follow-up actions with acceptance criteria. Includes a starter prompt."
-  keywords: User Interview AI Skill, Questions and Follow-up, Codex, Claude Code, Cursor
-  software_description: Recover interviews that turn into sales, observe users doing real tasks, and validate changes.
-    / 用真实行为与复测验证需求。
+  title: User Research and Cold-Start Playbook | Gingiris
+  h1: User Research and Cold-Start Playbook
+  tagline: Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.
+  meta_description: Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.
+  keywords: user research playbook, beta testing and cold start
+  software_description: Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.
   app_category: BusinessApplication
-  what: Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。
+  what: Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers. 围绕真实行为与采用障碍，设计访谈、Beta
+    任务和冷启动用户回访。
   takeaways:
-  - Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.
-  - Separate discovery, usability and sales. Record actions, blockers and moderator assistance.
-  - Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments
-    and actual payment.
+  - Teams running an early user cohort or investigating activation, churn and adoption conditions.
+  - 'Provide: Product task, user segments, available behavioral data, interview access and pilot resources.'
+  - 'Receive: Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision
+    card'
   stats:
-  - - Version
-    - 1.1.1
-  - - Updated
-    - '2026-11-08'
-  - - License
-    - MIT
+  - - Package
+    - gingiris-user-interview
+  - - Inputs
+    - Product task, user segments, available behavioral data, interview access and pilot resources.
+  - - Deliverables
+    - Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card
+  - - Documentation checked
+    - '2026-11-17'
   howto:
     title: How to use this workflow
     steps:
-    - name: Set the research question
-      text: Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.
-    - name: Observe without taking over
-      text: Separate discovery, usability and sales. Record actions, blockers and moderator assistance.
-    - name: Close the loop
-      text: Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments
-        and actual payment.
+    - name: Install and choose the task
+      text: Install gingiris-user-interview into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Product task, user segments, available behavioral data, interview access and pilot resources.
+    - name: Review the result
+      text: Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card.
+        Check unresolved claims before external action.
   compare:
-    title: What the workflow establishes
-    intro: Keep proposals and verified results separate.
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Output
-    - Use
-    - Limit
+    - Workflow
+    - Choose it for
     rows:
-    - - Evidence
-      - Understand the observation
-      - Does not establish causality by itself
-    - - Decision card
-      - Choose a bounded next test
-      - Not a guaranteed outcome
-    - - Review
-      - Check actual behavior and results
-      - Unknowns remain explicit
+    - - User Interview Execution Skill
+      - Turn interview observations into testable requirements, priorities and a follow-up check.
+    - - Competitor Analysis Skill
+      - Run a focused competitor scan and connect the findings to customer hypotheses and a concrete next decision.
+    - - Growth Workflow Router
+      - Choose one specialist for a concrete growth problem instead of loading an entire playbook collection.
   donts:
-    title: Avoid these shortcuts
+    title: Scope and limits
     items:
-    - Do not turn a teaching example into a universal rule.
-    - Do not substitute views, intent or plans for observed business outcomes.
-    - Do not publish or contact people merely because a draft exists.
+    - Historical case metrics are context, not universal activation or payment benchmarks.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: How many interviews prove product-market fit?
-    a: No fixed interview count proves product-market fit. Match evidence to the decision and check behavior, repeat
-      use or payment separately.
-  - q: What will this skill produce?
-    a: A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest conditions.
-  - q: How do I start?
-    a: Install gingiris-user-interview from the Gingiris collection, then provide the inputs and starter prompt
-      on this page.
-  related:
-  - - Browse all AI agent skills
-    - /skills/
-  - - Competitor research workflow
-    - /skills/competitor-research/
-  - - Content repurposing workflow
-    - /skills/gr-social-distill/
+  - q: Who should use this skill?
+    a: Teams running an early user cohort or investigating activation, churn and adoption conditions.
+  - q: What should I provide?
+    a: Product task, user segments, available behavioral data, interview access and pilot resources.
+  - q: What will I receive?
+    a: Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card
+  - q: What are the limits?
+    a: Historical case metrics are context, not universal activation or payment benchmarks.
+  - q: 需要什么输入，会得到什么？
+    a: 产品任务、用户分层、现有行为数据、可访谈对象和试点资源。交付：研究计划；任务型 Beta 方案；采用障碍；分层回访与冷启决策卡。
+  related: []
   install_skill: gingiris-user-interview
-  notice: Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.
+  notice: Historical case metrics are context, not universal activation or payment benchmarks.
   version: 1.1.1
-  updated: '2026-11-11'
+  updated: '2026-11-17'
   usage:
-    inputs: The decision, participant profile, existing notes or task flow, and whether this is discovery, usability
-      testing or sales.
-    outputs: A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest
-      conditions.
-    prompt: Turn these interview notes into a follow-up plan. Separate actual behavior from interest and record
-      where the moderator helped the user.
-    example: 'Observed: four people said they were interested; none paid. Decision: interest remains a signal, not
-      payment validation. Ask about the most recent real task and observe the next attempt.'
-  stats_title: Version and availability
+    inputs: Product task, user segments, available behavioral data, interview access and pilot resources. / 产品任务、用户分层、现有行为数据、可访谈对象和试点资源
+    outputs: Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision
+      card / 研究计划；任务型 Beta 方案；采用障碍；分层回访与冷启决策卡
+    prompt: 'Use gingiris-user-interview. Plan a small Beta cohort for our new workflow. Include active and stalled
+      users, a real task to observe, follow-up questions and criteria for changing the onboarding.
+
+
+      请使用 gingiris-user-interview。为新工作流设计小规模 Beta，覆盖活跃与卡住的用户，明确要观察的任务、回访问题和 onboarding 调整条件。'
+    example: Cohort segment → real task → observed friction → revised onboarding → repeat task and follow-up result.
+  stats_title: Inputs and deliverables
+  discovery_update: true
 
 - slug: community-ambassador
   hf: community-ambassador-playbook
@@ -957,189 +955,194 @@
     example: A paid tutorial creator receives a content brief and settlement terms; a volunteer ambassador receives a different contribution agreement.
 
 - slug: competitor-research
-  companion_skill:
-    name: gr-competitor
-    description: Additional compact entrypoint for the same updated evidence and decision workflow.
   hf: competitor-research-playbook
   install: Gingiris-1031/gingiris-skills
-  title: "Competitor Research Skill: Evidence to Decisions"
-  h1: 'Competitor Research AI Skill: Evidence to Decisions'
-  tagline: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
-    / 从证据到自己的行动。
-  meta_description: "Compare competitors using dated sources, distinguish evidence from hypotheses and choose a next validation step. Includes inputs, outputs and a starter prompt."
-  keywords: Competitor Research AI Skill, Evidence to Decisions, Codex, Claude Code, Cursor
-  software_description: Compare the right stage and page purpose, verify social evidence, and turn findings into
-    a testable decision. / 从证据到自己的行动。
+  title: Competitor Research Playbook | Gingiris
+  h1: Competitor Research Playbook
+  tagline: Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded
+    experiment.
+  meta_description: Study comparable competitors by buyer, stage and business model, then turn dated evidence into
+    one bounded experiment.
+  keywords: competitor research skill, SaaS competitive analysis
+  software_description: Study comparable competitors by buyer, stage and business model, then turn dated evidence
+    into one bounded experiment.
   app_category: BusinessApplication
-  what: Compare the right stage and page purpose, verify social evidence, and turn findings into a testable decision.
-    / 从证据到自己的行动。
+  what: Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded
+    experiment. 按买方、阶段和商业模式选择对标，用带日期的证据支持一次有边界的实验。
   takeaways:
-  - Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent.
-  - Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch peak does
-    not establish causality.
-  - Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions.
+  - Teams deciding positioning, early content, partner channels or which customer assumptions to test.
+  - 'Provide: Your product, buyer, market, stage, decision, competitor URLs and research budget.'
+  - 'Receive: Benchmark rationale; historical timeline; evidence register; counterevidence; action card'
   stats:
-  - - Version
-    - 1.4.0
-  - - Updated
-    - '2026-11-08'
-  - - License
-    - MIT
+  - - Package
+    - competitor-research-playbook
+  - - Inputs
+    - Your product, buyer, market, stage, decision, competitor URLs and research budget.
+  - - Deliverables
+    - Benchmark rationale; historical timeline; evidence register; counterevidence; action card
+  - - Documentation checked
+    - '2026-11-17'
   howto:
     title: How to use this workflow
     steps:
-    - name: Match the task
-      text: Separate marketing pages, project communities and tool workspaces; check eligibility and visitor intent.
-    - name: Read the evidence
-      text: Record account roles, time windows, sampling and interaction denominators. Direct traffic or a launch
-        peak does not establish causality.
-    - name: Make the decision
-      text: Give sources, alternative explanations, a smallest test, an owner and continue/change/stop conditions.
+    - name: Install and choose the task
+      text: Install competitor-research-playbook into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Your product, buyer, market, stage, decision, competitor URLs and research budget.
+    - name: Review the result
+      text: Benchmark rationale; historical timeline; evidence register; counterevidence; action card. Check unresolved
+        claims before external action.
   compare:
-    title: What the workflow establishes
-    intro: Keep proposals and verified results separate.
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Output
-    - Use
-    - Limit
+    - Workflow
+    - Choose it for
     rows:
-    - - Evidence
-      - Understand the observation
-      - Does not establish causality by itself
-    - - Decision card
-      - Choose a bounded next test
-      - Not a guaranteed outcome
-    - - Review
-      - Check actual behavior and results
-      - Unknowns remain explicit
+    - - Competitor Analysis Skill
+      - Run a focused competitor scan and connect the findings to customer hypotheses and a concrete next decision.
+    - - Open-Source Growth Attribution Skill
+      - Reconstruct a repository’s growth timeline and representative content from public evidence, with explicit
+        attribution limits.
+    - - AI Content Operations Skill
+      - Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+        calendar.
   donts:
-    title: Avoid these shortcuts
+    title: Scope and limits
     items:
-    - Do not turn a teaching example into a universal rule.
-    - Do not substitute views, intent or plans for observed business outcomes.
-    - Do not publish or contact people merely because a draft exists.
+    - Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research
+      is a maintained compatibility name.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: Can I use this without Similarweb or a paid research API?
-    a: Yes. Start from supplied pages and visible evidence. Mark unavailable traffic or historical data explicitly;
-      do not infer a growth channel from a Direct traffic share.
-  - q: What will this skill produce?
-    a: A source table, comparable-stage analysis, alternative explanations and a next-action card with an owner
-      and review condition.
-  - q: How do I start?
-    a: Install competitor-research-playbook from the Gingiris collection, then provide the inputs and starter prompt
-      on this page.
+  - q: Who should use this skill?
+    a: Teams deciding positioning, early content, partner channels or which customer assumptions to test.
+  - q: What should I provide?
+    a: Your product, buyer, market, stage, decision, competitor URLs and research budget.
+  - q: What will I receive?
+    a: Benchmark rationale; historical timeline; evidence register; counterevidence; action card
+  - q: What are the limits?
+    a: Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research
+      is a maintained compatibility name.
+  - q: 需要什么输入，会得到什么？
+    a: 我方产品、买方、市场、阶段、要做的决定、竞品网址和研究上限。交付：对标理由；历史时间线；证据表；反证；我方行动卡。
   related:
-  - - Browse all AI agent skills
-    - /skills/
-  - - User interview workflow
-    - /skills/user-interview/
-  - - Content repurposing workflow
-    - /skills/gr-social-distill/
+  - - AI Content Operations Skill
+    - /skills/gr-ai-content-ops/
   install_skill: competitor-research-playbook
-  notice: Updated November 8, 2026 · v1.4.0. Free downloadable workflow; results depend on the evidence and execution.
+  notice: Customer logos do not prove payment; earliest archives do not prove the first launch. gr-competitor-research
+    is a maintained compatibility name.
   version: 1.4.0
-  updated: '2026-11-11'
+  updated: '2026-11-17'
   usage:
-    inputs: Product URL, decision to make, target market, competitor links and time window. Unknown historical data
-      is allowed.
-    outputs: A source table, comparable-stage analysis, alternative explanations and a next-action card with an
-      owner and review condition.
-    prompt: Compare our tool workspace with this competitor landing page. Explain which comparisons are valid, then
-      propose one change and a validation plan.
-    example: 'Observed: a competitor has 17 marketing screens; our workspace has 2. Decision: compare visitor tasks
-      and onboarding friction, not page length. Test one clearer first-action label.'
-  stats_title: Version and availability
+    inputs: Your product, buyer, market, stage, decision, competitor URLs and research budget. / 我方产品、买方、市场、阶段、要做的决定、竞品网址和研究上限
+    outputs: Benchmark rationale; historical timeline; evidence register; counterevidence; action card / 对标理由；历史时间线；证据表；反证；我方行动卡
+    prompt: 'Use competitor-research-playbook. Compare our launch-stage SaaS with one relevant competitor’s earliest
+      available content. Separate observed facts from inference and propose a test we can run this week.
+
+
+      请使用 competitor-research-playbook。对照一个相关竞品最早可得的内容，研究我们发布阶段的 SaaS；区分事实与推断，提出本周能执行的测试。'
+    example: 'Claim: early blog focused on a buyer task → dated URLs and sampling window → transferability check
+      → one trial topic, not a copied calendar.'
+  stats_title: Inputs and deliverables
+  discovery_update: true
 
 - slug: twitter-agent-ops
   hf: gingiris-twitter-agent-ops
   install: Gingiris-1031/gingiris-skills
-  title: "X / Twitter Skill: Drafts and Publishing Checks"
-  h1: 'X / Twitter AI Skill: Drafts and Verified Publishing'
-  tagline: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
-  meta_description: "Prepare source-grounded X drafts and review publishing prerequisites. Includes task inputs, expected outputs and a starter prompt for controlled operations."
-  keywords: X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor
-  software_description: Use source-backed voice rules and choose single posts or threads for the actual task. /
-    文风、格式与发布验证。
+  title: X and Social Account Operations Skill | Gingiris
+  h1: X and Social Account Operations Skill
+  tagline: Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.
+  meta_description: Manage source-backed drafts, authorized publishing checks and measured follow-up for a social
+    account.
+  keywords: X Twitter operations skill, social publishing workflow
+  software_description: Manage source-backed drafts, authorized publishing checks and measured follow-up for a social
+    account.
   app_category: DeveloperApplication
-  what: Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。
+  what: Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account. 连接有来源的草稿、获授权发布检查与账号数据复盘。
   takeaways:
-  - Preserve attribution and author intent. Engagement is not proof that a post sounds like the author.
-  - Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread length
-    or frequency.
-  - Keep draft review, authorized publishing, delivery readback and measured outcomes separate.
+  - Account owners who need a repeatable workflow with voice consistency and clear delivery status.
+  - 'Provide: Target account, source material, language, format, authorization scope and analysis window.'
+  - 'Receive: Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery
+    notes'
   stats:
-  - - Version
-    - 2.3.1
-  - - Updated
-    - '2026-11-08'
-  - - License
-    - MIT
+  - - Package
+    - gingiris-twitter-agent-ops
+  - - Inputs
+    - Target account, source material, language, format, authorization scope and analysis window.
+  - - Deliverables
+    - Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes
+  - - Documentation checked
+    - '2026-11-17'
   howto:
     title: How to use this workflow
     steps:
-    - name: Read the source and voice
-      text: Preserve attribution and author intent. Engagement is not proof that a post sounds like the author.
-    - name: Choose the format
-      text: Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread
-        length or frequency.
-    - name: Verify delivery and results
-      text: Keep draft review, authorized publishing, delivery readback and measured outcomes separate.
+    - name: Install and choose the task
+      text: Install gingiris-twitter-agent-ops into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Target account, source material, language, format, authorization scope and analysis window.
+    - name: Review the result
+      text: Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery
+        notes. Check unresolved claims before external action.
   compare:
-    title: What the workflow establishes
-    intro: Keep proposals and verified results separate.
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Output
-    - Use
-    - Limit
+    - Workflow
+    - Choose it for
     rows:
-    - - Evidence
-      - Understand the observation
-      - Does not establish causality by itself
-    - - Decision card
-      - Choose a bounded next test
-      - Not a guaranteed outcome
-    - - Review
-      - Check actual behavior and results
-      - Unknowns remain explicit
+    - - Content Repurposing Skill
+      - Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
+    - - Brand Voice Calibration Skill
+      - Build a reusable voice guide from original writing, speech and the author’s own corrections.
+    - - AI Content Operations Skill
+      - Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+        calendar.
   donts:
-    title: Avoid these shortcuts
+    title: Scope and limits
     items:
-    - Do not turn a teaching example into a universal rule.
-    - Do not substitute views, intent or plans for observed business outcomes.
-    - Do not publish or contact people merely because a draft exists.
+    - A draft does not require analytics credentials. A proposed schedule does not create automation; live posting
+      needs platform access.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: Can I use it without Buffer or an API connection?
-    a: Yes. Drafts and content plans work from supplied material. Publication requires an authorized, verified integration
-      and a final delivery check.
-  - q: What will this skill produce?
-    a: A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and public
-      readback.
-  - q: How do I start?
-    a: Install gingiris-twitter-agent-ops from the Gingiris collection, then provide the inputs and starter prompt
-      on this page.
+  - q: Who should use this skill?
+    a: Account owners who need a repeatable workflow with voice consistency and clear delivery status.
+  - q: What should I provide?
+    a: Target account, source material, language, format, authorization scope and analysis window.
+  - q: What will I receive?
+    a: Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery
+      notes
+  - q: What are the limits?
+    a: A draft does not require analytics credentials. A proposed schedule does not create automation; live posting
+      needs platform access.
+  - q: 需要什么输入，会得到什么？
+    a: 目标账号、素材、语言、格式、授权范围和需要分析的时间窗。交付：审阅草稿；媒体就绪检查；获授权时的发布回执；复盘与异常恢复记录。
   related:
-  - - Browse all AI agent skills
-    - /skills/
-  - - Competitor research workflow
-    - /skills/competitor-research/
-  - - User interview workflow
-    - /skills/user-interview/
-  - - Content repurposing workflow
+  - - Content Repurposing Skill
     - /skills/gr-social-distill/
+  - - Brand Voice Calibration Skill
+    - /skills/gr-brand-voice-calibration/
+  - - AI Content Operations Skill
+    - /skills/gr-ai-content-ops/
   install_skill: gingiris-twitter-agent-ops
-  notice: Updated November 8, 2026 · v2.3.1. Free downloadable workflow; results depend on the evidence and execution.
+  notice: A draft does not require analytics credentials. A proposed schedule does not create automation; live posting
+    needs platform access.
   version: 2.3.1
-  updated: '2026-11-11'
+  updated: '2026-11-17'
   usage:
-    inputs: Source material, author or brand voice, requested account/channel, language and desired format. Publishing
-      configuration is needed only for delivery.
-    outputs: A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and
-      public readback.
-    prompt: Write one X post from this third-party article. Keep its claims attributed, use my voice samples, and
-      deliver a draft only.
-    example: 'Observed: a publisher returns sending. Decision: retain its ID and read it back; do not create a duplicate.
-      A draft does not require a publisher or cron job.'
-  stats_title: Version and availability
+    inputs: Target account, source material, language, format, authorization scope and analysis window. / 目标账号、素材、语言、格式、授权范围和需要分析的时间窗
+    outputs: Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery
+      notes / 审阅草稿；媒体就绪检查；获授权时的发布回执；复盘与异常恢复记录
+    prompt: 'Use gingiris-twitter-agent-ops. Prepare one X post from my original note and check its factual claims.
+      If publication is authorized, verify the target account and read back the result.
+
+
+      请使用 gingiris-twitter-agent-ops。用我的原始笔记准备一条 X 帖子并核对事实；如本次已授权发布，先核对账号，发布后回读。'
+    example: Draft ready → media ready → account confirmed → submission receipt → public readback; failed or unknown
+      delivery stays unresolved.
+  stats_title: Inputs and deliverables
+  discovery_update: true
 
 - slug: growth-finder
   hf: gingiris-growth-finder
@@ -1310,401 +1313,467 @@
   hf: gr-opc-service-validation
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-opc-service-validation
-  title: "OPC Service Validation Skill: Offer to Paid Pilot"
-  h1: OPC Service Validation / OPC 服务验证
-  tagline: Validate a bounded service pilot, client fit, delivery capacity and repeat
-    demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。
-  meta_description: "Turn a service idea into a fixed-scope offer and paid validation experiment. Define buyer, delivery, price hypothesis and acceptance criteria."
-  keywords: gr-opc-service-validation, Gingiris, AI skill
-  software_description: Validate a bounded service pilot, client fit, delivery capacity
-    and repeat demand. 验证有边界的服务试单、客户适配、交付容量与复购信号。
-  what: Validate a bounded service pilot, client fit, delivery capacity and repeat
-    demand.<br>验证有边界的服务试单、客户适配、交付容量与复购信号。
-  notice: Version 1.0.0 · No private source archive included. / 不含私人素材。 Method and
-    worksheets; no guaranteed business outcome. / 方法与工作表，不保证商业效果。
+  title: Solo Service Validation Skill | Gingiris
+  h1: Solo Service Validation Skill
+  tagline: Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable
+    delivery budget.
+  meta_description: Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable
+    delivery budget.
+  keywords: solo service validation, paid pilot design
+  software_description: Test one expertise-based service with a bounded pilot, explicit acceptance criteria and
+    a sustainable delivery budget.
+  what: Test one expertise-based service with a bounded pilot, explicit acceptance criteria and a sustainable delivery
+    budget. 用有边界的样例或付费试单，验证服务需求、验收方式和可持续交付能力。
+  notice: A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment
+    or repeat demand.
   takeaways:
-  - Validate a bounded service pilot, client fit, delivery capacity and repeat demand.
-  - 验证有边界的服务试单、客户适配、交付容量与复购信号。
+  - Independent operators turning experience into a service and deciding whether to continue, change or stop an
+    offer.
+  - 'Provide: Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.'
+  - 'Receive: Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop
+    decision'
   stats:
-  - - Version / 版本
-    - 1.0.0
-  - - Distribution / 分发
-    - GitHub + Hugging Face + skills CLI
-  - - Language / 语言
-    - English / 中文
+  - - Package
+    - gr-opc-service-validation
+  - - Inputs
+    - Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.
+  - - Deliverables
+    - Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop
+      decision
+  - - Documentation checked
+    - '2026-11-17'
   howto:
-    title: How to use / 使用流程
+    title: How to use this workflow
     steps:
-    - name: Define one offer / 明确一个服务
-      text: Define one offer / 明确一个服务 — use the linked Skill and worksheets with your
-        own authorized materials.
-    - name: Run a bounded pilot / 有上限地试单
-      text: Run a bounded pilot / 有上限地试单 — use the linked Skill and worksheets with
-        your own authorized materials.
-    - name: Review evidence and capacity / 复盘证据与容量
-      text: Review evidence and capacity / 复盘证据与容量 — use the linked Skill and worksheets
-        with your own authorized materials.
+    - name: Install and choose the task
+      text: Install gr-opc-service-validation into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.
+    - name: Review the result
+      text: Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop
+        decision. Check unresolved claims before external action.
   compare:
-    title: Scope / 范围
-    intro: Choose the workflow for your current task. / 按当前任务选择。
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Included / 包含
-    - Boundary / 边界
+    - Workflow
+    - Choose it for
     rows:
-    - - 验证有边界的服务试单、客户适配、交付容量与复购信号。
-      - User authorization and source evidence remain required. / 仍需授权与来源。
+    - - User Interview Execution Skill
+      - Turn interview observations into testable requirements, priorities and a follow-up check.
+    - - Competitor Research Playbook
+      - Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded
+        experiment.
+    - - Growth Workflow Router
+      - Choose one specialist for a concrete growth problem instead of loading an entire playbook collection.
   donts:
-    title: Limits / 使用边界
+    title: Scope and limits
     items:
-    - Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。
-    - Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。
+    - A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment or repeat
+      demand.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: How do I install it? / 如何安装？
-    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation
-  - q: Does this include private material? / 包含私人素材吗？
-    a: No. Supply your own authorized materials. / 不包含，请使用你获准的资料。
+  - q: Who should use this skill?
+    a: Independent operators turning experience into a service and deciding whether to continue, change or stop
+      an offer.
+  - q: What should I provide?
+    a: Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback.
+  - q: What will I receive?
+    a: Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop
+      decision
+  - q: What are the limits?
+    a: A demonstration is not an accepted client case. Pricing assumptions and interest do not prove payment or
+      repeat demand.
+  - q: 需要什么输入，会得到什么？
+    a: 能力证据、目标买方、交付范围、可投入工时、成本和已有客户反馈。交付：服务定义；客户适配清单；试单卡；容量与定价假设；继续/修改/停止决定。
   related:
-  - - Brand Voice Calibration / 文风校准
-    - /skills/gr-brand-voice-calibration/
-  - - WeChat Editorial / 公众号内容运营
-    - /skills/gr-wechat-editorial/
-  - - Broader Solopreneur Coach / 更广的 OPC 教练
-    - /skills/solopreneur-coach/
-  updated: '2026-11-11'
+  - - Competitor Research Playbook
+    - /skills/competitor-research/
+  updated: '2026-11-17'
   usage:
-    inputs: Service idea, target buyer, problem evidence, delivery capacity and pricing assumptions.
-    outputs: A bounded service offer, paid validation experiment and delivery acceptance checklist.
-    prompt: Turn this service idea into a small paid validation test. Specify buyer, deliverable, exclusions, price
-      hypothesis and a stop condition.
-    example: A broad consulting idea becomes one fixed-scope delivery for one buyer type, with a price hypothesis and a concrete acceptance checklist.
+    inputs: Evidence of ability, target buyer, offer scope, available hours, costs and customer feedback. / 能力证据、目标买方、交付范围、可投入工时、成本和已有客户反馈
+    outputs: Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop
+      decision / 服务定义；客户适配清单；试单卡；容量与定价假设；继续/修改/停止决定
+    prompt: 'Use gr-opc-service-validation. Design a paid pilot for a two-week onboarding audit. I can spend eight
+      hours. Define buyer fit, required inputs, deliverables, exclusions and acceptance.
+
+
+      请使用 gr-opc-service-validation。设计一个两周的 onboarding 审计试单，我能投入八小时。明确买方适配、客户输入、交付物、排除项和验收。'
+    example: Buyer owns onboarding → access to funnel evidence → capped audit scope → accepted findings → separate
+      evidence of repeat demand.
+  discovery_update: true
+  stats_title: Inputs and deliverables
 
 - slug: gr-brand-voice-calibration
   hf: gr-brand-voice-calibration
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-brand-voice-calibration
-  title: "Brand Voice Skill: Original Samples to Voice Guide"
-  h1: 'Brand Voice AI Skill: Original Samples to Voice Guide'
-  tagline: Calibrate authentic voice from original samples while separating style from distribution performance.
-    / 原声与传播表现分开。
-  meta_description: "Extract a reusable voice guide from original writing samples. Preserve source boundaries, identify style patterns and review drafts against the guide."
-  keywords: Brand Voice AI Skill, Original Samples to Voice Guide, Codex, Claude Code, Cursor
-  software_description: Calibrate authentic voice from original samples while separating style from distribution
-    performance. / 原声与传播表现分开。
-  what: Calibrate authentic voice from original samples while separating style from distribution performance. /
-    原声与传播表现分开。
-  notice: Updated November 8, 2026 · v1.1.0. Free downloadable workflow; results depend on the evidence and execution.
+  title: Brand Voice Calibration Skill | Gingiris
+  h1: Brand Voice Calibration Skill
+  tagline: Build a reusable voice guide from original writing, speech and the author’s own corrections.
+  meta_description: Build a reusable voice guide from original writing, speech and the author’s own corrections.
+  keywords: brand voice calibration, writing voice agent skill
+  software_description: Build a reusable voice guide from original writing, speech and the author’s own corrections.
+  what: Build a reusable voice guide from original writing, speech and the author’s own corrections. 以本人原文、原话和亲手修改为依据，提炼能复用、可试写验证的文风指南。
+  notice: Engagement is not proof of authentic voice. Private source archives are not published with the guide.
   takeaways:
-  - Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.
-  - Record whether a pattern is author preference or a performance hypothesis; account for topic, language, timing
-    and audience.
-  - Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning across
-    languages.
+  - Authors whose AI drafts sound generic or lose their voice when adapted between Chinese and English.
+  - 'Provide: Authorized originals with context, liked/disliked examples and the current writing task.'
+  - 'Receive: Source index; contextual voice rules; counterexamples; test draft; unresolved preferences'
   stats:
-  - - Version
-    - 1.1.0
-  - - Updated
-    - '2026-11-08'
-  - - License
-    - MIT
+  - - Package
+    - gr-brand-voice-calibration
+  - - Inputs
+    - Authorized originals with context, liked/disliked examples and the current writing task.
+  - - Deliverables
+    - Source index; contextual voice rules; counterexamples; test draft; unresolved preferences
+  - - Documentation checked
+    - '2026-11-17'
   howto:
     title: How to use this workflow
     steps:
-    - name: Select original evidence
-      text: Keep authorship, context, edits and counterexamples. Another person’s experience does not become yours.
-    - name: Form scoped rules
-      text: Record whether a pattern is author preference or a performance hypothesis; account for topic, language,
-        timing and audience.
-    - name: Test and revisit
-      text: Use held-out samples and focused author feedback; keep provisional rules revisable and preserve meaning
-        across languages.
+    - name: Install and choose the task
+      text: Install gr-brand-voice-calibration into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Authorized originals with context, liked/disliked examples and the current writing task.
+    - name: Review the result
+      text: Source index; contextual voice rules; counterexamples; test draft; unresolved preferences. Check unresolved
+        claims before external action.
   compare:
-    title: What the workflow establishes
-    intro: Keep proposals and verified results separate.
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Output
-    - Use
-    - Limit
+    - Workflow
+    - Choose it for
     rows:
-    - - Evidence
-      - Understand the observation
-      - Does not establish causality by itself
-    - - Decision card
-      - Choose a bounded next test
-      - Not a guaranteed outcome
-    - - Review
-      - Check actual behavior and results
-      - Unknowns remain explicit
+    - - Content Repurposing Skill
+      - Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
+    - - WeChat Editorial Workflow Skill
+      - Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.
+    - - AI Content Operations Skill
+      - Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+        calendar.
   donts:
-    title: Avoid these shortcuts
+    title: Scope and limits
     items:
-    - Do not turn a teaching example into a universal rule.
-    - Do not substitute views, intent or plans for observed business outcomes.
-    - Do not publish or contact people merely because a draft exists.
+    - Engagement is not proof of authentic voice. Private source archives are not published with the guide.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: Do high-engagement posts define my authentic voice?
-    a: No. Engagement and author preference are different evidence. Keep counterexamples and test the guide on material
-      not used to construct it.
-  - q: What will this skill produce?
-    a: A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.
-  - q: How do I start?
-    a: Install gr-brand-voice-calibration from the Gingiris collection, then provide the inputs and starter prompt
-      on this page.
+  - q: Who should use this skill?
+    a: Authors whose AI drafts sound generic or lose their voice when adapted between Chinese and English.
+  - q: What should I provide?
+    a: Authorized originals with context, liked/disliked examples and the current writing task.
+  - q: What will I receive?
+    a: Source index; contextual voice rules; counterexamples; test draft; unresolved preferences
+  - q: What are the limits?
+    a: Engagement is not proof of authentic voice. Private source archives are not published with the guide.
+  - q: 需要什么输入，会得到什么？
+    a: 获准使用的原创样本、上下文、喜欢和不喜欢的例子、当前写作任务。交付：来源索引；带场景的文风规则；反例；试写；待确认偏好。
   related:
-  - - Browse all AI agent skills
-    - /skills/
-  - - Competitor research workflow
-    - /skills/competitor-research/
-  - - User interview workflow
-    - /skills/user-interview/
-  - - Content repurposing workflow
+  - - Content Repurposing Skill
     - /skills/gr-social-distill/
+  - - WeChat Editorial Workflow Skill
+    - /skills/gr-wechat-editorial/
+  - - AI Content Operations Skill
+    - /skills/gr-ai-content-ops/
   version: 1.1.0
-  updated: '2026-11-11'
+  updated: '2026-11-17'
   usage:
-    inputs: Original writing or speech, context, author edits, disliked examples, desired language and audience.
-    outputs: A source inventory, provisional or confirmed voice guide, a test draft and a feedback log.
-    prompt: Build a provisional voice guide from these originals. Separate my preferences from engagement patterns
-      and test it on a held-out sample.
-    example: 'Observed: Chinese news posts outperform English tutorials. Decision: topic and language changed together,
-      so neither proves a language preference. Ask for author feedback and test comparable material.'
-  stats_title: Version and availability
+    inputs: Authorized originals with context, liked/disliked examples and the current writing task. / 获准使用的原创样本、上下文、喜欢和不喜欢的例子、当前写作任务
+    outputs: Source index; contextual voice rules; counterexamples; test draft; unresolved preferences / 来源索引；带场景的文风规则；反例；试写；待确认偏好
+    prompt: 'Use gr-brand-voice-calibration. Compare these original posts with my edits. Build a provisional voice
+      guide and test it on one English post without inventing personal experience.
+
+
+      请使用 gr-brand-voice-calibration。对照这些原始动态和我的修改，建立暂定文风指南，再用一条英文试写验证，不添加我没经历过的故事。'
+    example: 'Observed trait: conclusions stay qualified → retain uncertainty in a test draft → ask the author whether
+      the result feels accurate.'
+  stats_title: Inputs and deliverables
+  discovery_update: true
 
 - slug: gr-wechat-editorial
   hf: gr-wechat-editorial
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-wechat-editorial
-  title: "WeChat Editorial Skill: Sources to Reviewed Draft"
-  h1: WeChat Editorial / 公众号内容运营
-  tagline: Source-grounded articles, two-stage review, formatting and verified draft
-    handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
-  meta_description: "Prepare a WeChat editorial brief, source map and reviewed article draft. Preserve voice, flag unsupported claims and deliver a reviewable package."
-  keywords: gr-wechat-editorial, Gingiris, AI skill
-  software_description: Source-grounded articles, two-stage review, formatting and
-    verified draft handoff. 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
-  what: Source-grounded articles, two-stage review, formatting and verified draft
-    handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
-  notice: Version 1.0.0 · No private source archive included. / 不含私人素材。 Local packaging
-    is tested; live account draft writing is not verified. / 本地打包已测，真实账号草稿写入未测。
+  title: WeChat Editorial Workflow Skill | Gingiris
+  h1: WeChat Editorial Workflow Skill
+  tagline: Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.
+  meta_description: Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.
+  keywords: WeChat editorial skill, Chinese article workflow
+  software_description: Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft
+    handoff.
+  what: Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff. 将真实素材整理为经过审稿的中文文章、排版
+    HTML 和可回读的草稿交付。
+  notice: The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized
+    connection.
   takeaways:
-  - Source-grounded articles, two-stage review, formatting and verified draft handoff.
-  - 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
+  - Authors turning interviews, meetings or original notes into WeChat Official Account articles.
+  - 'Provide: Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.'
+  - 'Receive: Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is
+    available'
   stats:
-  - - Version / 版本
-    - 1.0.0
-  - - Distribution / 分发
-    - GitHub + Hugging Face + skills CLI
-  - - Language / 语言
-    - Chinese workflow
+  - - Package
+    - gr-wechat-editorial
+  - - Inputs
+    - Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.
+  - - Deliverables
+    - Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available
+  - - Documentation checked
+    - '2026-11-17'
   howto:
-    title: How to use / 使用流程
+    title: How to use this workflow
     steps:
-    - name: Source and draft / 取证与写稿
-      text: Source and draft / 取证与写稿 — use the linked Skill and worksheets with your
-        own authorized materials.
-    - name: Review and format / 审稿与排版
-      text: Review and format / 审稿与排版 — use the linked Skill and worksheets with your
-        own authorized materials.
-    - name: Hand off and read back / 草稿交付与回读
-      text: Hand off and read back / 草稿交付与回读 — use the linked Skill and worksheets
-        with your own authorized materials.
+    - name: Install and choose the task
+      text: Install gr-wechat-editorial into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.
+    - name: Review the result
+      text: Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available.
+        Check unresolved claims before external action.
   compare:
-    title: Scope / 范围
-    intro: Choose the workflow for your current task. / 按当前任务选择。
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Included / 包含
-    - Boundary / 边界
+    - Workflow
+    - Choose it for
     rows:
-    - - 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。
-      - User authorization and source evidence remain required. / 仍需授权与来源。
+    - - Brand Voice Calibration Skill
+      - Build a reusable voice guide from original writing, speech and the author’s own corrections.
+    - - AI Content Operations Skill
+      - Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+        calendar.
+    - - Content Repurposing Skill
+      - Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
   donts:
-    title: Limits / 使用边界
+    title: Scope and limits
     items:
-    - Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。
-    - Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。
+    - The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized
+      connection.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: How do I install it? / 如何安装？
-    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial
-  - q: Does this include private material? / 包含私人素材吗？
-    a: No. Supply your own authorized materials. / 不包含，请使用你获准的资料。
+  - q: Who should use this skill?
+    a: Authors turning interviews, meetings or original notes into WeChat Official Account articles.
+  - q: What should I provide?
+    a: Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.
+  - q: What will I receive?
+    a: Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available
+  - q: What are the limits?
+    a: The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized
+      connection.
+  - q: 需要什么输入，会得到什么？
+    a: 素材、说话人、目标读者、文风参考、可公开范围和交付阶段。交付：文章 Markdown/HTML；来源表；审稿记录；素材清单；具备权限时的草稿回执。
   related:
-  - - OPC Service Validation / OPC 服务验证
-    - /skills/gr-opc-service-validation/
-  - - Brand Voice Calibration / 文风校准
+  - - Brand Voice Calibration Skill
     - /skills/gr-brand-voice-calibration/
-  updated: '2026-11-11'
+  - - AI Content Operations Skill
+    - /skills/gr-ai-content-ops/
+  - - Content Repurposing Skill
+    - /skills/gr-social-distill/
+  updated: '2026-11-17'
   usage:
-    inputs: Original materials, intended readers, editorial goal, voice samples and factual sources.
-    outputs: An editorial brief, source map, reviewed draft and delivery package.
-    prompt: Prepare a WeChat article draft from these sources. Preserve my voice, flag unsupported claims and deliver
-      a reviewable draft before publishing.
-    example: If a source contains an unverified performance claim, the draft flags it for review instead of turning it into the headline.
+    inputs: Sources, speaker identities, reader, voice references, publication boundaries and delivery stage. /
+      素材、说话人、目标读者、文风参考、可公开范围和交付阶段
+    outputs: Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is
+      available / 文章 Markdown/HTML；来源表；审稿记录；素材清单；具备权限时的草稿回执
+    prompt: 'Use gr-wechat-editorial. Use these notes to draft a Chinese article for our Official Account. Preserve
+      source ownership and prepare a local review package; do not publish.
+
+
+      请使用 gr-wechat-editorial。用这些笔记写公众号文章，保留观点来源，交付本地审阅包，不正式发布。'
+    example: article.md + article.html + source-map.md + review notes. Draft creation and draft readback are reported
+      separately.
+  discovery_update: true
+  stats_title: Inputs and deliverables
 
 - slug: gr-social-distill
   hf: gr-social-distill
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-social-distill
-  title: "Content Repurposing Skill: Articles to Social Drafts"
-  h1: 'Content Repurposing AI Skill: Blog to Social Drafts'
-  tagline: Adapt articles into source-backed social drafts with explicit authorship and format choices.
-  meta_description: "Adapt a supplied article into platform-specific social drafts while preserving sources and voice. Includes inputs, templates and a starter prompt."
-  keywords: Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor
-  software_description: Requested platform drafts, attribution notes and optional visual storyboards; no automatic
-    publishing.
-  what: A content repurposing workflow for X, LinkedIn, Xiaohongshu, DEV and Zenn. Start with an article or draft
-    and choose the channels you need.
-  notice: Updated November 8, 2026 · v0.2.1. Free downloadable workflow; results depend on the evidence and execution.
+  title: Content Repurposing Skill | Gingiris
+  h1: Content Repurposing Skill
+  tagline: Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and
+    voice.
+  meta_description: Adapt one supplied article into channel-native social drafts while preserving authorship, evidence
+    and voice.
+  keywords: content repurposing skill, blog to LinkedIn
+  software_description: Adapt one supplied article into channel-native social drafts while preserving authorship,
+    evidence and voice.
+  what: Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
+    把已有文章改为适合目标平台的社媒草稿，保留事实归属、来源和作者声音。
+  notice: This workflow starts from supplied material; it does not replace a monthly content strategy or publish
+    automatically.
   takeaways:
-  - Choose only relevant channels and formats.
-  - Preserve original authorship, facts and voice.
-  - Deliver reviewed drafts before any authorized publishing.
+  - Writers with a source article who need a LinkedIn post, X post/thread, Xiaohongshu note or DEV/Zenn adaptation.
+  - 'Provide: Source text or URL, requested channels, language, reader and approved voice samples.'
+  - 'Receive: Requested platform drafts; source links; adaptation notes; optional carousel or image brief'
   stats:
-  - - Version
-    - 0.2.1
-  - - Updated
-    - '2026-11-08'
-  - - License
-    - MIT
+  - - Package
+    - gr-social-distill
+  - - Inputs
+    - Source text or URL, requested channels, language, reader and approved voice samples.
+  - - Deliverables
+    - Requested platform drafts; source links; adaptation notes; optional carousel or image brief
+  - - Documentation checked
+    - '2026-11-17'
   howto:
-    title: How to repurpose an article
+    title: How to use this workflow
     steps:
-    - name: Read the original
-      text: An article URL, local draft or supplied text, source author, target channels and any approved voice
-        guide.
-    - name: Adapt to the reader
-      text: Select a channel-native angle without inventing personal experience.
-    - name: Deliver and verify
-      text: Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.
+    - name: Install and choose the task
+      text: Install gr-social-distill into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Source text or URL, requested channels, language, reader and approved voice samples.
+    - name: Review the result
+      text: Requested platform drafts; source links; adaptation notes; optional carousel or image brief. Check unresolved
+        claims before external action.
   compare:
-    title: What the workflow establishes
-    intro: Keep proposals and verified results separate.
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Output
-    - Use
-    - Limit
+    - Workflow
+    - Choose it for
     rows:
-    - - Evidence
-      - Understand the observation
-      - Does not establish causality by itself
-    - - Decision card
-      - Choose a bounded next test
-      - Not a guaranteed outcome
-    - - Review
-      - Check actual behavior and results
-      - Unknowns remain explicit
+    - - AI Content Operations Skill
+      - Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+        calendar.
+    - - Brand Voice Calibration Skill
+      - Build a reusable voice guide from original writing, speech and the author’s own corrections.
+    - - X and Social Account Operations Skill
+      - Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.
   donts:
-    title: Avoid these shortcuts
+    title: Scope and limits
     items:
-    - Do not turn a teaching example into a universal rule.
-    - Do not substitute views, intent or plans for observed business outcomes.
-    - Do not publish or contact people merely because a draft exists.
+    - This workflow starts from supplied material; it does not replace a monthly content strategy or publish automatically.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: Do I need to create all four social formats?
-    a: No. Choose only the requested channels and suitable formats. A single-post request returns a single draft;
-      a carousel outline is labelled as an outline until rendered.
-  - q: What will this skill produce?
-    a: Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.
-  - q: How do I start?
-    a: Install gr-social-distill from the Gingiris collection, then provide the inputs and starter prompt on this
-      page.
+  - q: Who should use this skill?
+    a: Writers with a source article who need a LinkedIn post, X post/thread, Xiaohongshu note or DEV/Zenn adaptation.
+  - q: What should I provide?
+    a: Source text or URL, requested channels, language, reader and approved voice samples.
+  - q: What will I receive?
+    a: Requested platform drafts; source links; adaptation notes; optional carousel or image brief
+  - q: What are the limits?
+    a: This workflow starts from supplied material; it does not replace a monthly content strategy or publish automatically.
+  - q: 需要什么输入，会得到什么？
+    a: 原文或网址、目标平台、语言、读者和认可的文风样本。交付：指定平台完整草稿；来源链接；改写说明；可选轮播或配图说明。
   related:
-  - - Browse all AI agent skills
-    - /skills/
-  - - Competitor research workflow
-    - /skills/competitor-research/
-  - - User interview workflow
-    - /skills/user-interview/
+  - - AI Content Operations Skill
+    - /skills/gr-ai-content-ops/
+  - - Brand Voice Calibration Skill
+    - /skills/gr-brand-voice-calibration/
+  - - X and Social Account Operations Skill
+    - /skills/twitter-agent-ops/
   version: 0.2.1
-  updated: '2026-11-11'
+  updated: '2026-11-17'
   usage:
-    inputs: An article URL, local draft or supplied text, source author, target channels and any approved voice
-      guide.
-    outputs: Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.
-    prompt: Adapt this article into one X thread and a LinkedIn post. Keep the original author credited and do not
-      invent personal experience.
-    example: 'Observed: the article belongs to another author. Decision: write an attributed takeaway. For near-duplicate
-      republication, identify the preferred original before choosing canonical.'
-  stats_title: Version and availability
+    inputs: Source text or URL, requested channels, language, reader and approved voice samples. / 原文或网址、目标平台、语言、读者和认可的文风样本
+    outputs: Requested platform drafts; source links; adaptation notes; optional carousel or image brief / 指定平台完整草稿；来源链接；改写说明；可选轮播或配图说明
+    prompt: 'Use gr-social-distill. Turn this article into one English LinkedIn post. Explain the useful takeaway
+      before linking the blog; keep third-party experiences attributed to their original author.
+
+
+      请使用 gr-social-distill。将这篇文章改成一条英文 LinkedIn 长帖，先讲清读者能带走什么，再引用博客；保留他人经历的原始归属。'
+    example: Original claim + date → reader-facing explanation → practical takeaway → source link. A carousel outline
+      remains an outline until rendered.
+  stats_title: Inputs and deliverables
+  discovery_update: true
 
 - slug: gr-ai-content-ops
   hf: gr-ai-content-ops
   hf_available: true
   install: Gingiris-1031/gingiris-skills
   install_skill: gr-ai-content-ops
-  title: 'AI Content Operations Skill: Audience, SEO & Distribution'
-  h1: AI Content Operations / AI 内容运营
-  tagline: Audience-first content, competitor research and SEO/GEO briefs.<br>从受众价值到完整内容、分发与诊断。
-  meta_description: Plan audience-first AI content with competitor research, SEO/GEO keyword briefs, substantive drafts, visual
-    assets and measurable reviews.
-  keywords: AI content operations, content calendar, editorial workflow, content distribution, 内容运营, 内容矩阵, gr-ai-content-ops
-  software_description: An agent skill for audience-first content planning, SEO/GEO positioning, native drafts and retrieval-led
-    diagnosis.
-  what: Find what readers care about, then build useful content and a measurable workflow.<br>先回答受众为什么愿意看，再连接关键词定位、完整写作和业务行动。
-  notice: Version 1.5.0 · Includes templates and public-source examples; no private source material. / 含模板与公开来源案例；不含私人素材。
+  title: AI Content Operations Skill | Gingiris
+  h1: AI Content Operations Skill
+  tagline: Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+    calendar.
+  meta_description: Turn audience questions and product evidence into researched topics, complete drafts and a feasible
+    content calendar.
+  keywords: AI content operations skill, content calendar agent
+  software_description: Turn audience questions and product evidence into researched topics, complete drafts and
+    a feasible content calendar.
+  what: Turn audience questions and product evidence into researched topics, complete drafts and a feasible content
+    calendar. 从受众真实问题与产品证据出发，形成有定位的选题、完整草稿和能执行的排期。
+  notice: A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business
+    results.
   takeaways:
-  - Audience questions and differentiated angles before keywords. / 先受众问题与内容角度，再关键词。
-  - Competitor research and SEO/GEO page positioning. / 竞品研究与页面定位。
-  - Substantive native posts with useful visual briefs. / 完整原生内容与信息型配图简报。
-  - Retrieve data, diagnose causes and retain delivery state. / 取数诊断与跨会话台账。
+  - Small content teams deciding what to write, what to reuse and why recent content underperformed.
+  - 'Provide: Product and competitor URLs, reader, desired action, source material and weekly capacity.'
+  - 'Receive: Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger'
   stats:
-  - - Version / 版本
-    - 1.5.0
-  - - Workflow / 流程
-    - Audience → evidence → content → review
-  - - Language / 输出语言
-    - Chinese or English
+  - - Package
+    - gr-ai-content-ops
+  - - Inputs
+    - Product and competitor URLs, reader, desired action, source material and weekly capacity.
+  - - Deliverables
+    - Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger
+  - - Documentation checked
+    - '2026-11-17'
   howto:
-    title: How to use / 使用流程
+    title: How to use this workflow
     steps:
-    - name: Understand / 理解受众
-      text: Provide product and competitor URLs, audience questions and the desired action; existing context is reused.
-    - name: Position and write / 定位与写作
-      text: Map search intent and existing pages, choose a supported angle, then write complete drafts and visual briefs.
-    - name: Deliver and diagnose / 交付与诊断
-      text: Fit work to capacity, execute authorized delivery, retrieve available metrics and choose the next evidence-backed
-        change.
+    - name: Install and choose the task
+      text: Install gr-ai-content-ops into a supported agent and ask it to use the Skill.
+    - name: Provide the evidence
+      text: Product and competitor URLs, reader, desired action, source material and weekly capacity.
+    - name: Review the result
+      text: Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger.
+        Check unresolved claims before external action.
   compare:
-    title: Which skill fits? / 如何选择
-    intro: Choose by the unit of work. / 按任务范围选择。
+    title: Choose the right next workflow
+    intro: Related skills solve different tasks; install only what your current request needs.
     columns:
-    - Task / 任务
-    - Workflow / 工作流
+    - Workflow
+    - Choose it for
     rows:
-    - - Weekly operation across content assets
-      - gr-ai-content-ops
-    - - One WeChat article and draft handoff
-      - gr-wechat-editorial
-    - - One article adapted for social channels
-      - gr-social-distill
-    - - Calibrating an author voice
-      - gr-brand-voice-calibration
+    - - Competitor Research Playbook
+      - Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded
+        experiment.
+    - - Content Repurposing Skill
+      - Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
+    - - Brand Voice Calibration Skill
+      - Build a reusable voice guide from original writing, speech and the author’s own corrections.
   donts:
-    title: Limits / 使用边界
+    title: Scope and limits
     items:
-    - No invented customer stories, quotes or analytics. / 不编造客户故事、引用和数据。
-    - Cadence and platform tactics are hypotheses, not growth guarantees. / 频次与平台打法需要测试。
-    - An uncertain submission is reconciled before retrying. / 提交状态未知时先核对，避免重复。
+    - A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business
+      results.
+    - Illustrative examples show output structure, not verified customer outcomes.
+    - Installation does not grant access to private analytics or publishing accounts.
   faqs:
-  - q: How do I install this skill? / 如何安装？
-    a: npx skills add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops
-  - q: Can I use it without analytics or API keys? / 没有数据和 API key 可以用吗？
-    a: Yes. It first checks whether data can be retrieved; genuinely new accounts receive a baseline plan. Keyword candidates
-      and untested assumptions remain explicit.
-  - q: Does it automatically publish or message contributors? / 会自动发布或联系嘉宾吗？
-    a: No. It defaults to a draft pack and requires explicit authorization for publishing or messages.
+  - q: Who should use this skill?
+    a: Small content teams deciding what to write, what to reuse and why recent content underperformed.
+  - q: What should I provide?
+    a: Product and competitor URLs, reader, desired action, source material and weekly capacity.
+  - q: What will I receive?
+    a: Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger
+  - q: What are the limits?
+    a: A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business
+      results.
+  - q: 需要什么输入，会得到什么？
+    a: 产品网址、竞品网址、目标读者、期望行动、素材和每周工时。交付：受众与角度简报；SEO/GEO 页面意图；完整草稿；配图说明；排期与复盘台账。
   related:
-  - - WeChat Editorial / 公众号编辑
-    - /skills/gr-wechat-editorial/
-  - - Social Distill / 社媒改写
+  - - Competitor Research Playbook
+    - /skills/competitor-research/
+  - - Content Repurposing Skill
     - /skills/gr-social-distill/
-  - - Brand Voice Calibration / 文风校准
+  - - Brand Voice Calibration Skill
     - /skills/gr-brand-voice-calibration/
-  updated: '2026-11-15'
+  updated: '2026-11-17'
   usage:
-    inputs: Product and competitor URLs, audience needs, usable material, team capacity and available history.
-    outputs: Reader-value and SEO/GEO briefs, native drafts, visual briefs, feasible calendars, saved ledgers and diagnostic
-      next steps.
-    prompt: Use gr-ai-content-ops to research our audience and competitors, position one blog for search, and draft two substantive
-      LinkedIn posts within 6 hours. Draft only.
-    example: A service product may need a workflow demonstration; an analysis tool may need a worked report. Select the asset
-      by reader value, not a fixed posting quota.
+    inputs: Product and competitor URLs, reader, desired action, source material and weekly capacity. / 产品网址、竞品网址、目标读者、期望行动、素材和每周工时
+    outputs: Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger
+      / 受众与角度简报；SEO/GEO 页面意图；完整草稿；配图说明；排期与复盘台账
+    prompt: 'Use gr-ai-content-ops. Our B2B product has two demos and six hours per week. Research an early-stage
+      competitor, propose one useful blog and a native LinkedIn draft, and state what needs verification.
+
+
+      请使用 gr-ai-content-ops。我们有两份产品演示，每周六小时。研究一个竞品的早期内容，给出一篇有用的博客方案和完整 LinkedIn 草稿，标注待验证事实。'
+    example: Reader problem → supported angle → parent blog brief → LinkedIn explanation → visual asset task → review
+      date.
   version: 1.5.0
+  discovery_update: true
+  stats_title: Inputs and deliverables

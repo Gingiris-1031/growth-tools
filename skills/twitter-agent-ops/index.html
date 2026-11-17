@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>X / Twitter Skill: Drafts and Publishing Checks</title>
-<meta name="description" content="Prepare source-grounded X drafts and review publishing prerequisites. Includes task inputs, expected outputs and a starter prompt for controlled operations.">
-<meta name="keywords" content="X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor">
+<title>X and Social Account Operations Skill | Gingiris</title>
+<meta name="description" content="Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.">
+<meta name="keywords" content="X Twitter operations skill, social publishing workflow">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/twitter-agent-ops/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/twitter-agent-ops/">
-<meta property="og:title" content="X / Twitter AI Skill: Drafts and Verified Publishing">
-<meta property="og:description" content="Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。">
+<meta property="og:title" content="X and Social Account Operations Skill">
+<meta property="og:description" content="Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="X / Twitter AI Skill: Drafts and Verified Publishing">
-<meta name="twitter:description" content="Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。">
+<meta name="twitter:title" content="X and Social Account Operations Skill">
+<meta name="twitter:description" content="Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "X / Twitter AI Skill: Drafts and Verified Publishing",
+      "name": "X and Social Account Operations Skill",
       "applicationCategory": "DeveloperApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。",
+      "description": "Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.",
       "url": "https://tools.gingiris.com/skills/twitter-agent-ops/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops",
+        "https://huggingface.co/datasets/Gingiris/gingiris-twitter-agent-ops"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,9 +61,9 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "X / Twitter AI Skill, Drafts and Verified Publishing, Codex, Claude Code, Cursor",
+      "keywords": "X Twitter operations skill, social publishing workflow",
       "softwareVersion": "2.3.1",
-      "dateModified": "2026-11-11"
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
@@ -69,20 +72,20 @@
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Read the source and voice",
-          "text": "Preserve attribution and author intent. Engagement is not proof that a post sounds like the author."
+          "name": "Install and choose the task",
+          "text": "Install gingiris-twitter-agent-ops into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Choose the format",
-          "text": "Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread length or frequency."
+          "name": "Provide the evidence",
+          "text": "Target account, source material, language, format, authorization scope and analysis window."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Verify delivery and results",
-          "text": "Keep draft review, authorized publishing, delivery readback and measured outcomes separate."
+          "name": "Review the result",
+          "text": "Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes. Check unresolved claims before external action."
         }
       ]
     },
@@ -91,26 +94,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can I use it without Buffer or an API connection?",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Drafts and content plans work from supplied material. Publication requires an authorized, verified integration and a final delivery check."
+            "text": "Account owners who need a repeatable workflow with voice consistency and clear delivery status."
           }
         },
         {
           "@type": "Question",
-          "name": "What will this skill produce?",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and public readback."
+            "text": "Target account, source material, language, format, authorization scope and analysis window."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I start?",
+          "name": "What will I receive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Install gingiris-twitter-agent-ops from the Gingiris collection, then provide the inputs and starter prompt on this page."
+            "text": "Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A draft does not require analytics credentials. A proposed schedule does not create automation; live posting needs platform access."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "目标账号、素材、语言、格式、授权范围和需要分析的时间窗。交付：审阅草稿；媒体就绪检查；获授权时的发布回执；复盘与异常恢复记录。"
           }
         }
       ]
@@ -127,7 +146,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "X / Twitter AI Skill: Drafts and Verified Publishing",
+          "name": "X and Social Account Operations Skill",
           "item": "https://tools.gingiris.com/skills/twitter-agent-ops/"
         }
       ]
@@ -248,19 +267,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / X / Twitter AI Skill: Drafts and Verified Publishing</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / X and Social Account Operations Skill</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>X / Twitter AI Skill: Drafts and Verified Publishing</h1>
-      <p class="tag-line">Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。</p>
+      <h1>X and Social Account Operations Skill</h1>
+      <p class="tag-line">Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-twitter-agent-ops</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-twitter-agent-ops').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -269,81 +288,85 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Preserve attribution and author intent. Engagement is not proof that a post sounds like the author.</li>
-          <li>Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread length or frequency.</li>
-          <li>Keep draft review, authorized publishing, delivery readback and measured outcomes separate.</li>
+          <li>Account owners who need a repeatable workflow with voice consistency and clear delivery status.</li>
+          <li>Provide: Target account, source material, language, format, authorization scope and analysis window.</li>
+          <li>Receive: Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Use source-backed voice rules and choose single posts or threads for the actual task. / 文风、格式与发布验证。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v2.3.1. Free downloadable workflow; results depend on the evidence and execution.</p>
+      <p class="body">Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account. 连接有来源的草稿、获授权发布检查与账号数据复盘。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">A draft does not require analytics credentials. A proposed schedule does not create automation; live posting needs platform access.</p>
     </section>
 
     <section>
-      <h2>Version and availability</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version</td><td class="v">2.3.1</td></tr>
-        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
-        <tr><td>License</td><td class="v">MIT</td></tr>
+        <tr><td>Package</td><td class="v">gingiris-twitter-agent-ops</td></tr>
+        <tr><td>Inputs</td><td class="v">Target account, source material, language, format, authorization scope and analysis window.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">Source material, author or brand voice, requested account/channel, language and desired format. Publishing configuration is needed only for delivery.</p>
-        <h3>What you get</h3><p class="body">A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and public readback.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Write one X post from this third-party article. Keep its claims attributed, use my voice samples, and deliver a draft only.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: Observed: a publisher returns sending. Decision: retain its ID and read it back; do not create a duplicate. A draft does not require a publisher or cron job.</p>
+        <h3>What to provide</h3><p class="body">Target account, source material, language, format, authorization scope and analysis window. / 目标账号、素材、语言、格式、授权范围和需要分析的时间窗</p>
+        <h3>What you get</h3><p class="body">Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes / 审阅草稿；媒体就绪检查；获授权时的发布回执；复盘与异常恢复记录</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gingiris-twitter-agent-ops. Prepare one X post from my original note and check its factual claims. If publication is authorized, verify the target account and read back the result.
+
+请使用 gingiris-twitter-agent-ops。用我的原始笔记准备一条 X 帖子并核对事实；如本次已授权发布，先核对账号，发布后回读。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Draft ready → media ready → account confirmed → submission receipt → public readback; failed or unknown delivery stays unresolved.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-twitter-agent-ops">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Read the source and voice</p><p class="step-d">Preserve attribution and author intent. Engagement is not proof that a post sounds like the author.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Choose the format</p><p class="step-d">Follow the requested format, audience and verified publisher capabilities; do not impose a fixed thread length or frequency.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Verify delivery and results</p><p class="step-d">Keep draft review, authorized publishing, delivery readback and measured outcomes separate.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gingiris-twitter-agent-ops into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Target account, source material, language, format, authorization scope and analysis window.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>What the workflow establishes</h2>
-      <p class="cmp-intro">Keep proposals and verified results separate.</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
-        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
-        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
+        <tr><td>Content Repurposing Skill</td><td>Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.</td></tr>
+        <tr><td>Brand Voice Calibration Skill</td><td>Build a reusable voice guide from original writing, speech and the author’s own corrections.</td></tr>
+        <tr><td>AI Content Operations Skill</td><td>Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Avoid these shortcuts</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not turn a teaching example into a universal rule.</li>
-          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
-          <li>Do not publish or contact people merely because a draft exists.</li>
+          <li>A draft does not require analytics credentials. A proposed schedule does not create automation; live posting needs platform access.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">Can I use it without Buffer or an API connection?</p><p class="faq-a">Yes. Drafts and content plans work from supplied material. Publication requires an authorized, verified integration and a final delivery check.</p></div>
-        <div class="faq-item"><p class="faq-q">What will this skill produce?</p><p class="faq-a">A source-backed draft or calendar; for authorized publishing, account checks, a delivery ledger and public readback.</p></div>
-        <div class="faq-item"><p class="faq-q">How do I start?</p><p class="faq-a">Install gingiris-twitter-agent-ops from the Gingiris collection, then provide the inputs and starter prompt on this page.</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Account owners who need a repeatable workflow with voice consistency and clear delivery status.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Target account, source material, language, format, authorization scope and analysis window.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">A draft does not require analytics credentials. A proposed schedule does not create automation; live posting needs platform access.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">目标账号、素材、语言、格式、授权范围和需要分析的时间窗。交付：审阅草稿；媒体就绪检查；获授权时的发布回执；复盘与异常恢复记录。</p></div>
     </section>
 
 
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/"><span>Browse all AI agent skills</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/competitor-research/"><span>Competitor research workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/user-interview/"><span>User interview workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content repurposing workflow</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content Repurposing Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-ai-content-ops/"><span>AI Content Operations Skill</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WeChat Editorial Skill: Sources to Reviewed Draft</title>
-<meta name="description" content="Prepare a WeChat editorial brief, source map and reviewed article draft. Preserve voice, flag unsupported claims and deliver a reviewable package.">
-<meta name="keywords" content="gr-wechat-editorial, Gingiris, AI skill">
+<title>WeChat Editorial Workflow Skill | Gingiris</title>
+<meta name="description" content="Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.">
+<meta name="keywords" content="WeChat editorial skill, Chinese article workflow">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/gr-wechat-editorial/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/gr-wechat-editorial/">
-<meta property="og:title" content="WeChat Editorial / 公众号内容运营">
-<meta property="og:description" content="Source-grounded articles, two-stage review, formatting and verified draft handoff.&lt;br&gt;真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。">
+<meta property="og:title" content="WeChat Editorial Workflow Skill">
+<meta property="og:description" content="Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="WeChat Editorial / 公众号内容运营">
-<meta name="twitter:description" content="Source-grounded articles, two-stage review, formatting and verified draft handoff.&lt;br&gt;真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。">
+<meta name="twitter:title" content="WeChat Editorial Workflow Skill">
+<meta name="twitter:description" content="Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "WeChat Editorial / 公众号内容运营",
+      "name": "WeChat Editorial Workflow Skill",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Source-grounded articles, two-stage review, formatting and verified draft handoff. 真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。",
+      "description": "Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.",
       "url": "https://tools.gingiris.com/skills/gr-wechat-editorial/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial",
+        "https://huggingface.co/datasets/Gingiris/gr-wechat-editorial"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,30 +61,30 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "gr-wechat-editorial, Gingiris, AI skill",
-      "dateModified": "2026-11-11"
+      "keywords": "WeChat editorial skill, Chinese article workflow",
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
-      "name": "How to use / 使用流程",
+      "name": "How to use this workflow",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Source and draft / 取证与写稿",
-          "text": "Source and draft / 取证与写稿 — use the linked Skill and worksheets with your own authorized materials."
+          "name": "Install and choose the task",
+          "text": "Install gr-wechat-editorial into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Review and format / 审稿与排版",
-          "text": "Review and format / 审稿与排版 — use the linked Skill and worksheets with your own authorized materials."
+          "name": "Provide the evidence",
+          "text": "Sources, speaker identities, reader, voice references, publication boundaries and delivery stage."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Hand off and read back / 草稿交付与回读",
-          "text": "Hand off and read back / 草稿交付与回读 — use the linked Skill and worksheets with your own authorized materials."
+          "name": "Review the result",
+          "text": "Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available. Check unresolved claims before external action."
         }
       ]
     },
@@ -90,18 +93,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I install it? / 如何安装？",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial"
+            "text": "Authors turning interviews, meetings or original notes into WeChat Official Account articles."
           }
         },
         {
           "@type": "Question",
-          "name": "Does this include private material? / 包含私人素材吗？",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Supply your own authorized materials. / 不包含，请使用你获准的资料。"
+            "text": "Sources, speaker identities, reader, voice references, publication boundaries and delivery stage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What will I receive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized connection."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "素材、说话人、目标读者、文风参考、可公开范围和交付阶段。交付：文章 Markdown/HTML；来源表；审稿记录；素材清单；具备权限时的草稿回执。"
           }
         }
       ]
@@ -118,7 +145,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "WeChat Editorial / 公众号内容运营",
+          "name": "WeChat Editorial Workflow Skill",
           "item": "https://tools.gingiris.com/skills/gr-wechat-editorial/"
         }
       ]
@@ -239,19 +266,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / WeChat Editorial / 公众号内容运营</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / WeChat Editorial Workflow Skill</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>WeChat Editorial / 公众号内容运营</h1>
-      <p class="tag-line">Source-grounded articles, two-stage review, formatting and verified draft handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。</p>
+      <h1>WeChat Editorial Workflow Skill</h1>
+      <p class="tag-line">Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-wechat-editorial</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -260,74 +287,85 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Source-grounded articles, two-stage review, formatting and verified draft handoff.</li>
-          <li>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。</li>
+          <li>Authors turning interviews, meetings or original notes into WeChat Official Account articles.</li>
+          <li>Provide: Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.</li>
+          <li>Receive: Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Source-grounded articles, two-stage review, formatting and verified draft handoff.<br>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Version 1.0.0 · No private source archive included. / 不含私人素材。 Local packaging is tested; live account draft writing is not verified. / 本地打包已测，真实账号草稿写入未测。</p>
+      <p class="body">Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff. 将真实素材整理为经过审稿的中文文章、排版 HTML 和可回读的草稿交付。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized connection.</p>
     </section>
 
     <section>
-      <h2>Key results</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version / 版本</td><td class="v">1.0.0</td></tr>
-        <tr><td>Distribution / 分发</td><td class="v">GitHub + Hugging Face + skills CLI</td></tr>
-        <tr><td>Language / 语言</td><td class="v">Chinese workflow</td></tr>
+        <tr><td>Package</td><td class="v">gr-wechat-editorial</td></tr>
+        <tr><td>Inputs</td><td class="v">Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">Original materials, intended readers, editorial goal, voice samples and factual sources.</p>
-        <h3>What you get</h3><p class="body">An editorial brief, source map, reviewed draft and delivery package.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Prepare a WeChat article draft from these sources. Preserve my voice, flag unsupported claims and deliver a reviewable draft before publishing.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: If a source contains an unverified performance claim, the draft flags it for review instead of turning it into the headline.</p>
+        <h3>What to provide</h3><p class="body">Sources, speaker identities, reader, voice references, publication boundaries and delivery stage. / 素材、说话人、目标读者、文风参考、可公开范围和交付阶段</p>
+        <h3>What you get</h3><p class="body">Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available / 文章 Markdown/HTML；来源表；审稿记录；素材清单；具备权限时的草稿回执</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gr-wechat-editorial. Use these notes to draft a Chinese article for our Official Account. Preserve source ownership and prepare a local review package; do not publish.
+
+请使用 gr-wechat-editorial。用这些笔记写公众号文章，保留观点来源，交付本地审阅包，不正式发布。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: article.md + article.html + source-map.md + review notes. Draft creation and draft readback are reported separately.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-wechat-editorial">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
-      <h2>How to use / 使用流程</h2>
+      <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Source and draft / 取证与写稿</p><p class="step-d">Source and draft / 取证与写稿 — use the linked Skill and worksheets with your own authorized materials.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Review and format / 审稿与排版</p><p class="step-d">Review and format / 审稿与排版 — use the linked Skill and worksheets with your own authorized materials.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Hand off and read back / 草稿交付与回读</p><p class="step-d">Hand off and read back / 草稿交付与回读 — use the linked Skill and worksheets with your own authorized materials.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gr-wechat-editorial into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>Scope / 范围</h2>
-      <p class="cmp-intro">Choose the workflow for your current task. / 按当前任务选择。</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Included / 包含</th><th>Boundary / 边界</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>真实素材到文章、双重审稿、排版与草稿回读；附本地交付工具。</td><td>User authorization and source evidence remain required. / 仍需授权与来源。</td></tr>
+        <tr><td>Brand Voice Calibration Skill</td><td>Build a reusable voice guide from original writing, speech and the author’s own corrections.</td></tr>
+        <tr><td>AI Content Operations Skill</td><td>Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.</td></tr>
+        <tr><td>Content Repurposing Skill</td><td>Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Limits / 使用边界</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not invent facts, client outcomes or author approval. / 不编造事实、客户结果或作者认可。</li>
-          <li>Installation does not authorize public posting or contacting clients. / 安装不等于发布或联系客户授权。</li>
+          <li>The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized connection.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">How do I install it? / 如何安装？</p><p class="faq-a">npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial</p></div>
-        <div class="faq-item"><p class="faq-q">Does this include private material? / 包含私人素材吗？</p><p class="faq-a">No. Supply your own authorized materials. / 不包含，请使用你获准的资料。</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Authors turning interviews, meetings or original notes into WeChat Official Account articles.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Sources, speaker identities, reader, voice references, publication boundaries and delivery stage.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">The included packager runs locally; it is not a WeChat API client. Live draft upload requires an authorized connection.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">素材、说话人、目标读者、文风参考、可公开范围和交付阶段。交付：文章 Markdown/HTML；来源表；审稿记录；素材清单；具备权限时的草稿回执。</p></div>
     </section>
 
 
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/gr-opc-service-validation/"><span>OPC Service Validation / OPC 服务验证</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration / 文风校准</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-ai-content-ops/"><span>AI Content Operations Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content Repurposing Skill</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

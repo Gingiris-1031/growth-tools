@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Content Repurposing Skill: Articles to Social Drafts</title>
-<meta name="description" content="Adapt a supplied article into platform-specific social drafts while preserving sources and voice. Includes inputs, templates and a starter prompt.">
-<meta name="keywords" content="Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor">
+<title>Content Repurposing Skill | Gingiris</title>
+<meta name="description" content="Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.">
+<meta name="keywords" content="content repurposing skill, blog to LinkedIn">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/gr-social-distill/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/gr-social-distill/">
-<meta property="og:title" content="Content Repurposing AI Skill: Blog to Social Drafts">
-<meta property="og:description" content="Adapt articles into source-backed social drafts with explicit authorship and format choices.">
+<meta property="og:title" content="Content Repurposing Skill">
+<meta property="og:description" content="Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Content Repurposing AI Skill: Blog to Social Drafts">
-<meta name="twitter:description" content="Adapt articles into source-backed social drafts with explicit authorship and format choices.">
+<meta name="twitter:title" content="Content Repurposing Skill">
+<meta name="twitter:description" content="Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "Content Repurposing AI Skill: Blog to Social Drafts",
+      "name": "Content Repurposing Skill",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.",
+      "description": "Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.",
       "url": "https://tools.gingiris.com/skills/gr-social-distill/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill",
+        "https://huggingface.co/datasets/Gingiris/gr-social-distill"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,31 +61,31 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "Content Repurposing AI Skill, Blog to Social Drafts, Codex, Claude Code, Cursor",
+      "keywords": "content repurposing skill, blog to LinkedIn",
       "softwareVersion": "0.2.1",
-      "dateModified": "2026-11-11"
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
-      "name": "How to repurpose an article",
+      "name": "How to use this workflow",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Read the original",
-          "text": "An article URL, local draft or supplied text, source author, target channels and any approved voice guide."
+          "name": "Install and choose the task",
+          "text": "Install gr-social-distill into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Adapt to the reader",
-          "text": "Select a channel-native angle without inventing personal experience."
+          "name": "Provide the evidence",
+          "text": "Source text or URL, requested channels, language, reader and approved voice samples."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Deliver and verify",
-          "text": "Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing."
+          "name": "Review the result",
+          "text": "Requested platform drafts; source links; adaptation notes; optional carousel or image brief. Check unresolved claims before external action."
         }
       ]
     },
@@ -91,26 +94,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do I need to create all four social formats?",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Choose only the requested channels and suitable formats. A single-post request returns a single draft; a carousel outline is labelled as an outline until rendered."
+            "text": "Writers with a source article who need a LinkedIn post, X post/thread, Xiaohongshu note or DEV/Zenn adaptation."
           }
         },
         {
           "@type": "Question",
-          "name": "What will this skill produce?",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing."
+            "text": "Source text or URL, requested channels, language, reader and approved voice samples."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I start?",
+          "name": "What will I receive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Install gr-social-distill from the Gingiris collection, then provide the inputs and starter prompt on this page."
+            "text": "Requested platform drafts; source links; adaptation notes; optional carousel or image brief"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This workflow starts from supplied material; it does not replace a monthly content strategy or publish automatically."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "原文或网址、目标平台、语言、读者和认可的文风样本。交付：指定平台完整草稿；来源链接；改写说明；可选轮播或配图说明。"
           }
         }
       ]
@@ -127,7 +146,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Content Repurposing AI Skill: Blog to Social Drafts",
+          "name": "Content Repurposing Skill",
           "item": "https://tools.gingiris.com/skills/gr-social-distill/"
         }
       ]
@@ -248,19 +267,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Content Repurposing AI Skill: Blog to Social Drafts</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / Content Repurposing Skill</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>Content Repurposing AI Skill: Blog to Social Drafts</h1>
-      <p class="tag-line">Adapt articles into source-backed social drafts with explicit authorship and format choices.</p>
+      <h1>Content Repurposing Skill</h1>
+      <p class="tag-line">Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-social-distill</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-social-distill').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -269,80 +288,85 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Choose only relevant channels and formats.</li>
-          <li>Preserve original authorship, facts and voice.</li>
-          <li>Deliver reviewed drafts before any authorized publishing.</li>
+          <li>Writers with a source article who need a LinkedIn post, X post/thread, Xiaohongshu note or DEV/Zenn adaptation.</li>
+          <li>Provide: Source text or URL, requested channels, language, reader and approved voice samples.</li>
+          <li>Receive: Requested platform drafts; source links; adaptation notes; optional carousel or image brief</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">A content repurposing workflow for X, LinkedIn, Xiaohongshu, DEV and Zenn. Start with an article or draft and choose the channels you need.</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v0.2.1. Free downloadable workflow; results depend on the evidence and execution.</p>
+      <p class="body">Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice. 把已有文章改为适合目标平台的社媒草稿，保留事实归属、来源和作者声音。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">This workflow starts from supplied material; it does not replace a monthly content strategy or publish automatically.</p>
     </section>
 
     <section>
-      <h2>Version and availability</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version</td><td class="v">0.2.1</td></tr>
-        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
-        <tr><td>License</td><td class="v">MIT</td></tr>
+        <tr><td>Package</td><td class="v">gr-social-distill</td></tr>
+        <tr><td>Inputs</td><td class="v">Source text or URL, requested channels, language, reader and approved voice samples.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Requested platform drafts; source links; adaptation notes; optional carousel or image brief</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">An article URL, local draft or supplied text, source author, target channels and any approved voice guide.</p>
-        <h3>What you get</h3><p class="body">Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Adapt this article into one X thread and a LinkedIn post. Keep the original author credited and do not invent personal experience.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: Observed: the article belongs to another author. Decision: write an attributed takeaway. For near-duplicate republication, identify the preferred original before choosing canonical.</p>
+        <h3>What to provide</h3><p class="body">Source text or URL, requested channels, language, reader and approved voice samples. / 原文或网址、目标平台、语言、读者和认可的文风样本</p>
+        <h3>What you get</h3><p class="body">Requested platform drafts; source links; adaptation notes; optional carousel or image brief / 指定平台完整草稿；来源链接；改写说明；可选轮播或配图说明</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gr-social-distill. Turn this article into one English LinkedIn post. Explain the useful takeaway before linking the blog; keep third-party experiences attributed to their original author.
+
+请使用 gr-social-distill。将这篇文章改成一条英文 LinkedIn 长帖，先讲清读者能带走什么，再引用博客；保留他人经历的原始归属。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Original claim + date → reader-facing explanation → practical takeaway → source link. A carousel outline remains an outline until rendered.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
-      <h2>How to repurpose an article</h2>
+      <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Read the original</p><p class="step-d">An article URL, local draft or supplied text, source author, target channels and any approved voice guide.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Adapt to the reader</p><p class="step-d">Select a channel-native angle without inventing personal experience.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Deliver and verify</p><p class="step-d">Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gr-social-distill into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Source text or URL, requested channels, language, reader and approved voice samples.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Requested platform drafts; source links; adaptation notes; optional carousel or image brief. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>What the workflow establishes</h2>
-      <p class="cmp-intro">Keep proposals and verified results separate.</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
-        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
-        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
+        <tr><td>AI Content Operations Skill</td><td>Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.</td></tr>
+        <tr><td>Brand Voice Calibration Skill</td><td>Build a reusable voice guide from original writing, speech and the author’s own corrections.</td></tr>
+        <tr><td>X and Social Account Operations Skill</td><td>Manage source-backed drafts, authorized publishing checks and measured follow-up for a social account.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Avoid these shortcuts</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not turn a teaching example into a universal rule.</li>
-          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
-          <li>Do not publish or contact people merely because a draft exists.</li>
+          <li>This workflow starts from supplied material; it does not replace a monthly content strategy or publish automatically.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">Do I need to create all four social formats?</p><p class="faq-a">No. Choose only the requested channels and suitable formats. A single-post request returns a single draft; a carousel outline is labelled as an outline until rendered.</p></div>
-        <div class="faq-item"><p class="faq-q">What will this skill produce?</p><p class="faq-a">Requested platform drafts, attribution notes and optional visual storyboards; no automatic publishing.</p></div>
-        <div class="faq-item"><p class="faq-q">How do I start?</p><p class="faq-a">Install gr-social-distill from the Gingiris collection, then provide the inputs and starter prompt on this page.</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Writers with a source article who need a LinkedIn post, X post/thread, Xiaohongshu note or DEV/Zenn adaptation.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Source text or URL, requested channels, language, reader and approved voice samples.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Requested platform drafts; source links; adaptation notes; optional carousel or image brief</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">This workflow starts from supplied material; it does not replace a monthly content strategy or publish automatically.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">原文或网址、目标平台、语言、读者和认可的文风样本。交付：指定平台完整草稿；来源链接；改写说明；可选轮播或配图说明。</p></div>
     </section>
 
 
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/"><span>Browse all AI agent skills</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/competitor-research/"><span>Competitor research workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/user-interview/"><span>User interview workflow</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-ai-content-ops/"><span>AI Content Operations Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/twitter-agent-ops/"><span>X and Social Account Operations Skill</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

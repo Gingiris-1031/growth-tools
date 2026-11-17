@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>User Interview Skill: Questions, Evidence and Follow-Up</title>
-<meta name="description" content="Design user interviews around real tasks, organize evidence and turn findings into follow-up actions with acceptance criteria. Includes a starter prompt.">
-<meta name="keywords" content="User Interview AI Skill, Questions and Follow-up, Codex, Claude Code, Cursor">
+<title>User Research and Cold-Start Playbook | Gingiris</title>
+<meta name="description" content="Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.">
+<meta name="keywords" content="user research playbook, beta testing and cold start">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/user-interview/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/user-interview/">
-<meta property="og:title" content="User Interview AI Skill: Questions and Follow-up">
-<meta property="og:description" content="Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。">
+<meta property="og:title" content="User Research and Cold-Start Playbook">
+<meta property="og:description" content="Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="User Interview AI Skill: Questions and Follow-up">
-<meta name="twitter:description" content="Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。">
+<meta name="twitter:title" content="User Research and Cold-Start Playbook">
+<meta name="twitter:description" content="Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "User Interview AI Skill: Questions and Follow-up",
+      "name": "User Research and Cold-Start Playbook",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。",
+      "description": "Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.",
       "url": "https://tools.gingiris.com/skills/user-interview/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview",
+        "https://huggingface.co/datasets/Gingiris/gingiris-user-interview"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,9 +61,9 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "User Interview AI Skill, Questions and Follow-up, Codex, Claude Code, Cursor",
+      "keywords": "user research playbook, beta testing and cold start",
       "softwareVersion": "1.1.1",
-      "dateModified": "2026-11-11"
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
@@ -69,20 +72,20 @@
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Set the research question",
-          "text": "Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF."
+          "name": "Install and choose the task",
+          "text": "Install gingiris-user-interview into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Observe without taking over",
-          "text": "Separate discovery, usability and sales. Record actions, blockers and moderator assistance."
+          "name": "Provide the evidence",
+          "text": "Product task, user segments, available behavioral data, interview access and pilot resources."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Close the loop",
-          "text": "Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments and actual payment."
+          "name": "Review the result",
+          "text": "Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card. Check unresolved claims before external action."
         }
       ]
     },
@@ -91,26 +94,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How many interviews prove product-market fit?",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No fixed interview count proves product-market fit. Match evidence to the decision and check behavior, repeat use or payment separately."
+            "text": "Teams running an early user cohort or investigating activation, churn and adoption conditions."
           }
         },
         {
           "@type": "Question",
-          "name": "What will this skill produce?",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest conditions."
+            "text": "Product task, user segments, available behavioral data, interview access and pilot resources."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I start?",
+          "name": "What will I receive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Install gingiris-user-interview from the Gingiris collection, then provide the inputs and starter prompt on this page."
+            "text": "Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Historical case metrics are context, not universal activation or payment benchmarks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "产品任务、用户分层、现有行为数据、可访谈对象和试点资源。交付：研究计划；任务型 Beta 方案；采用障碍；分层回访与冷启决策卡。"
           }
         }
       ]
@@ -127,7 +146,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "User Interview AI Skill: Questions and Follow-up",
+          "name": "User Research and Cold-Start Playbook",
           "item": "https://tools.gingiris.com/skills/user-interview/"
         }
       ]
@@ -248,19 +267,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / User Interview AI Skill: Questions and Follow-up</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / User Research and Cold-Start Playbook</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>User Interview AI Skill: Questions and Follow-up</h1>
-      <p class="tag-line">Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。</p>
+      <h1>User Research and Cold-Start Playbook</h1>
+      <p class="tag-line">Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gingiris-user-interview</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gingiris-user-interview').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-11 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -269,83 +288,83 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.</li>
-          <li>Separate discovery, usability and sales. Record actions, blockers and moderator assistance.</li>
-          <li>Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments and actual payment.</li>
+          <li>Teams running an early user cohort or investigating activation, churn and adoption conditions.</li>
+          <li>Provide: Product task, user segments, available behavioral data, interview access and pilot resources.</li>
+          <li>Receive: Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Recover interviews that turn into sales, observe users doing real tasks, and validate changes. / 用真实行为与复测验证需求。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Updated November 8, 2026 · v1.1.1. Free downloadable workflow; results depend on the evidence and execution.</p>
+      <p class="body">Plan interviews, Beta tasks and cohort follow-up around observed behavior and adoption barriers. 围绕真实行为与采用障碍，设计访谈、Beta 任务和冷启动用户回访。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Historical case metrics are context, not universal activation or payment benchmarks.</p>
     </section>
 
     <section>
-      <h2>Version and availability</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version</td><td class="v">1.1.1</td></tr>
-        <tr><td>Updated</td><td class="v">2026-11-08</td></tr>
-        <tr><td>License</td><td class="v">MIT</td></tr>
+        <tr><td>Package</td><td class="v">gingiris-user-interview</td></tr>
+        <tr><td>Inputs</td><td class="v">Product task, user segments, available behavioral data, interview access and pilot resources.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">The decision, participant profile, existing notes or task flow, and whether this is discovery, usability testing or sales.</p>
-        <h3>What you get</h3><p class="body">A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest conditions.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Turn these interview notes into a follow-up plan. Separate actual behavior from interest and record where the moderator helped the user.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: Observed: four people said they were interested; none paid. Decision: interest remains a signal, not payment validation. Ask about the most recent real task and observe the next attempt.</p>
+        <h3>What to provide</h3><p class="body">Product task, user segments, available behavioral data, interview access and pilot resources. / 产品任务、用户分层、现有行为数据、可访谈对象和试点资源</p>
+        <h3>What you get</h3><p class="body">Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card / 研究计划；任务型 Beta 方案；采用障碍；分层回访与冷启决策卡</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gingiris-user-interview. Plan a small Beta cohort for our new workflow. Include active and stalled users, a real task to observe, follow-up questions and criteria for changing the onboarding.
+
+请使用 gingiris-user-interview。为新工作流设计小规模 Beta，覆盖活跃与卡住的用户，明确要观察的任务、回访问题和 onboarding 调整条件。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Cohort segment → real task → observed friction → revised onboarding → repeat task and follow-up result.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
       <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Set the research question</p><p class="step-d">Choose participants for the decision; no fixed interview count or conversion percentage certifies PMF.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Observe without taking over</p><p class="step-d">Separate discovery, usability and sales. Record actions, blockers and moderator assistance.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Close the loop</p><p class="step-d">Hand off consented evidence clips with owners and acceptance criteria; distinguish intent, trial commitments and actual payment.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gingiris-user-interview into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Product task, user segments, available behavioral data, interview access and pilot resources.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>What the workflow establishes</h2>
-      <p class="cmp-intro">Keep proposals and verified results separate.</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Output</th><th>Use</th><th>Limit</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>Evidence</td><td>Understand the observation</td><td>Does not establish causality by itself</td></tr>
-        <tr><td>Decision card</td><td>Choose a bounded next test</td><td>Not a guaranteed outcome</td></tr>
-        <tr><td>Review</td><td>Check actual behavior and results</td><td>Unknowns remain explicit</td></tr>
+        <tr><td>User Interview Execution Skill</td><td>Turn interview observations into testable requirements, priorities and a follow-up check.</td></tr>
+        <tr><td>Competitor Analysis Skill</td><td>Run a focused competitor scan and connect the findings to customer hypotheses and a concrete next decision.</td></tr>
+        <tr><td>Growth Workflow Router</td><td>Choose one specialist for a concrete growth problem instead of loading an entire playbook collection.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Avoid these shortcuts</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>Do not turn a teaching example into a universal rule.</li>
-          <li>Do not substitute views, intent or plans for observed business outcomes.</li>
-          <li>Do not publish or contact people merely because a draft exists.</li>
+          <li>Historical case metrics are context, not universal activation or payment benchmarks.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">How many interviews prove product-market fit?</p><p class="faq-a">No fixed interview count proves product-market fit. Match evidence to the decision and check behavior, repeat use or payment separately.</p></div>
-        <div class="faq-item"><p class="faq-q">What will this skill produce?</p><p class="faq-a">A research question, non-leading prompts, observation sheet, evidence-to-action handoff and retest conditions.</p></div>
-        <div class="faq-item"><p class="faq-q">How do I start?</p><p class="faq-a">Install gingiris-user-interview from the Gingiris collection, then provide the inputs and starter prompt on this page.</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Teams running an early user cohort or investigating activation, churn and adoption conditions.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Product task, user segments, available behavioral data, interview access and pilot resources.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">Historical case metrics are context, not universal activation or payment benchmarks.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">产品任务、用户分层、现有行为数据、可访谈对象和试点资源。交付：研究计划；任务型 Beta 方案；采用障碍；分层回访与冷启决策卡。</p></div>
     </section>
 
-<section><h2>Updated execution templates · October 2026</h2>
-        <p class="body">Additional compact entrypoint for the same updated evidence and decision workflow. These templates are in the separate <strong>gr-user-interview</strong> skill; install it alongside this playbook.</p>
-        <div class="meta-install"><code>npx skills add Gingiris-1031/gingiris-skills --skill gr-user-interview</code></div>
-        <p class="body"><a href="https://skills.sh/Gingiris-1031/gingiris-skills/gr-user-interview">View gr-user-interview on skills.sh</a></p></section>
+
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/"><span>Browse all AI agent skills</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/competitor-research/"><span>Competitor research workflow</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content repurposing workflow</span><span class="arr">&rarr;</span></a>
+
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>

@@ -53,6 +53,8 @@ def jsonld(s):
         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
         "author": AUTHOR, "keywords": s["keywords"],
     }
+    if s.get("discovery_update"):
+        soft["sameAs"] = [soft["downloadUrl"], f"https://huggingface.co/datasets/Gingiris/{s['hf']}"]
     if s.get("version"):
         soft["softwareVersion"] = s["version"]
     if s.get("updated"):
@@ -271,7 +273,7 @@ def render(s):
         <button class="copy-btn" onclick="navigator.clipboard.writeText('{install_command}').then(()=>{{this.classList.add('copied');this.textContent='✓ copied'}}).catch(()=>{{this.textContent='Select command to copy'}})">copy</button>
       </div>
       <p class="body">Workflow guide updated {html.escape(str(s.get("updated", "2026-11-11")))} · <a href="https://github.com/{s['install']}/tree/main/skills/{s.get('install_skill', s['hf'])}">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 

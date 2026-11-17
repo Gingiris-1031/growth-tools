@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Content Operations Skill: Audience, SEO &amp; Distribution</title>
-<meta name="description" content="Plan audience-first AI content with competitor research, SEO/GEO keyword briefs, substantive drafts, visual assets and measurable reviews.">
-<meta name="keywords" content="AI content operations, content calendar, editorial workflow, content distribution, 内容运营, 内容矩阵, gr-ai-content-ops">
+<title>AI Content Operations Skill | Gingiris</title>
+<meta name="description" content="Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.">
+<meta name="keywords" content="AI content operations skill, content calendar agent">
 <meta name="author" content="Iris Wei">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://tools.gingiris.com/skills/gr-ai-content-ops/">
@@ -17,13 +17,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://tools.gingiris.com/skills/gr-ai-content-ops/">
-<meta property="og:title" content="AI Content Operations / AI 内容运营">
-<meta property="og:description" content="Audience-first content, competitor research and SEO/GEO briefs.&lt;br&gt;从受众价值到完整内容、分发与诊断。">
+<meta property="og:title" content="AI Content Operations Skill">
+<meta property="og:description" content="Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.">
 <meta property="og:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta property="og:site_name" content="Gingiris Growth Tools">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="AI Content Operations / AI 内容运营">
-<meta name="twitter:description" content="Audience-first content, competitor research and SEO/GEO briefs.&lt;br&gt;从受众价值到完整内容、分发与诊断。">
+<meta name="twitter:title" content="AI Content Operations Skill">
+<meta name="twitter:description" content="Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.">
 <meta name="twitter:image" content="https://tools.gingiris.com/assets/images/og-banner.jpg">
 <meta name="twitter:creator" content="@WeiYipei">
 <script type="application/ld+json">
@@ -32,14 +32,17 @@
   "@graph": [
     {
       "@type": "SoftwareApplication",
-      "name": "AI Content Operations / AI 内容运营",
+      "name": "AI Content Operations Skill",
       "applicationCategory": "BusinessApplication",
       "applicationSubCategory": "AI agent instruction workflow",
       "operatingSystem": "Any (Claude Code, Cursor, Codex, Cline)",
-      "description": "An agent skill for audience-first content planning, SEO/GEO positioning, native drafts and retrieval-led diagnosis.",
+      "description": "Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.",
       "url": "https://tools.gingiris.com/skills/gr-ai-content-ops/",
       "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ai-content-ops",
-      "sameAs": "https://github.com/Gingiris-1031/gingiris-skills",
+      "sameAs": [
+        "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ai-content-ops",
+        "https://huggingface.co/datasets/Gingiris/gr-ai-content-ops"
+      ],
       "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ai-content-ops",
       "license": "https://opensource.org/licenses/MIT",
       "offers": {
@@ -58,31 +61,31 @@
           "https://huggingface.co/Gingiris"
         ]
       },
-      "keywords": "AI content operations, content calendar, editorial workflow, content distribution, 内容运营, 内容矩阵, gr-ai-content-ops",
+      "keywords": "AI content operations skill, content calendar agent",
       "softwareVersion": "1.5.0",
-      "dateModified": "2026-11-15"
+      "dateModified": "2026-11-17"
     },
     {
       "@type": "HowTo",
-      "name": "How to use / 使用流程",
+      "name": "How to use this workflow",
       "step": [
         {
           "@type": "HowToStep",
           "position": 1,
-          "name": "Understand / 理解受众",
-          "text": "Provide product and competitor URLs, audience questions and the desired action; existing context is reused."
+          "name": "Install and choose the task",
+          "text": "Install gr-ai-content-ops into a supported agent and ask it to use the Skill."
         },
         {
           "@type": "HowToStep",
           "position": 2,
-          "name": "Position and write / 定位与写作",
-          "text": "Map search intent and existing pages, choose a supported angle, then write complete drafts and visual briefs."
+          "name": "Provide the evidence",
+          "text": "Product and competitor URLs, reader, desired action, source material and weekly capacity."
         },
         {
           "@type": "HowToStep",
           "position": 3,
-          "name": "Deliver and diagnose / 交付与诊断",
-          "text": "Fit work to capacity, execute authorized delivery, retrieve available metrics and choose the next evidence-backed change."
+          "name": "Review the result",
+          "text": "Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger. Check unresolved claims before external action."
         }
       ]
     },
@@ -91,26 +94,42 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I install this skill? / 如何安装？",
+          "name": "Who should use this skill?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "npx skills add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops"
+            "text": "Small content teams deciding what to write, what to reuse and why recent content underperformed."
           }
         },
         {
           "@type": "Question",
-          "name": "Can I use it without analytics or API keys? / 没有数据和 API key 可以用吗？",
+          "name": "What should I provide?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. It first checks whether data can be retrieved; genuinely new accounts receive a baseline plan. Keyword candidates and untested assumptions remain explicit."
+            "text": "Product and competitor URLs, reader, desired action, source material and weekly capacity."
           }
         },
         {
           "@type": "Question",
-          "name": "Does it automatically publish or message contributors? / 会自动发布或联系嘉宾吗？",
+          "name": "What will I receive?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. It defaults to a draft pack and requires explicit authorization for publishing or messages."
+            "text": "Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the limits?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "需要什么输入，会得到什么？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "产品网址、竞品网址、目标读者、期望行动、素材和每周工时。交付：受众与角度简报；SEO/GEO 页面意图；完整草稿；配图说明；排期与复盘台账。"
           }
         }
       ]
@@ -127,7 +146,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "AI Content Operations / AI 内容运营",
+          "name": "AI Content Operations Skill",
           "item": "https://tools.gingiris.com/skills/gr-ai-content-ops/"
         }
       ]
@@ -248,19 +267,19 @@
   </nav>
 
   <div class="container">
-    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / AI Content Operations / AI 内容运营</nav>
+    <nav class="crumbs"><a href="/">Home</a> / <a href="/skills/">Skills</a> / AI Content Operations Skill</nav>
   </div>
 
   <header class="hero">
     <div class="container narrow">
-      <h1>AI Content Operations / AI 内容运营</h1>
-      <p class="tag-line">Audience-first content, competitor research and SEO/GEO briefs.<br>从受众价值到完整内容、分发与诊断。</p>
+      <h1>AI Content Operations Skill</h1>
+      <p class="tag-line">Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.</p>
       <div class="meta-install" id="install">
         <span>npx skills add <b>Gingiris-1031/gingiris-skills</b> --skill gr-ai-content-ops</span>
         <button class="copy-btn" onclick="navigator.clipboard.writeText('npx skills add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops').then(()=>{this.classList.add('copied');this.textContent='✓ copied'}).catch(()=>{this.textContent='Select command to copy'})">copy</button>
       </div>
-      <p class="body">Workflow guide updated 2026-11-15 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ai-content-ops">Maintained source and prerequisites</a></p>
-      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · ex-COO of AFFiNE (60K+ GitHub stars) · 30× Product Hunt #1</p>
+      <p class="body">Workflow guide updated 2026-11-17 · <a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ai-content-ops">Maintained source and prerequisites</a></p>
+      <p class="credentials">By <strong>Iris Wei (生姜)</strong> · Gingiris growth workflows</p>
     </div>
   </header>
 
@@ -269,82 +288,85 @@
       <div class="takeaways">
         <h2>Key takeaways</h2>
         <ul>
-          <li>Audience questions and differentiated angles before keywords. / 先受众问题与内容角度，再关键词。</li>
-          <li>Competitor research and SEO/GEO page positioning. / 竞品研究与页面定位。</li>
-          <li>Substantive native posts with useful visual briefs. / 完整原生内容与信息型配图简报。</li>
-          <li>Retrieve data, diagnose causes and retain delivery state. / 取数诊断与跨会话台账。</li>
+          <li>Small content teams deciding what to write, what to reuse and why recent content underperformed.</li>
+          <li>Provide: Product and competitor URLs, reader, desired action, source material and weekly capacity.</li>
+          <li>Receive: Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger</li>
         </ul>
       </div>
     </section>
 
     <section>
       <h2>What this is</h2>
-      <p class="body">Find what readers care about, then build useful content and a measurable workflow.<br>先回答受众为什么愿意看，再连接关键词定位、完整写作和业务行动。</p>
-      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">Version 1.5.0 · Includes templates and public-source examples; no private source material. / 含模板与公开来源案例；不含私人素材。</p>
+      <p class="body">Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar. 从受众真实问题与产品证据出发，形成有定位的选题、完整草稿和能执行的排期。</p>
+      <p class="body" style="border-left:3px solid #f59e0b;padding-left:12px;margin-top:12px;">A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business results.</p>
     </section>
 
     <section>
-      <h2>Key results</h2>
+      <h2>Inputs and deliverables</h2>
       <div class="stats"><table><tbody>
-        <tr><td>Version / 版本</td><td class="v">1.5.0</td></tr>
-        <tr><td>Workflow / 流程</td><td class="v">Audience → evidence → content → review</td></tr>
-        <tr><td>Language / 输出语言</td><td class="v">Chinese or English</td></tr>
+        <tr><td>Package</td><td class="v">gr-ai-content-ops</td></tr>
+        <tr><td>Inputs</td><td class="v">Product and competitor URLs, reader, desired action, source material and weekly capacity.</td></tr>
+        <tr><td>Deliverables</td><td class="v">Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger</td></tr>
+        <tr><td>Documentation checked</td><td class="v">2026-11-17</td></tr>
       </tbody></table></div>
     </section>
 
 <section id="use-this-skill"><h2>Use this skill</h2>
         <p class="body">An AI agent instruction package: it guides a supported agent through a task. Results depend on your inputs, connected tools and review.</p>
-        <h3>What to provide</h3><p class="body">Product and competitor URLs, audience needs, usable material, team capacity and available history.</p>
-        <h3>What you get</h3><p class="body">Reader-value and SEO/GEO briefs, native drafts, visual briefs, feasible calendars, saved ledgers and diagnostic next steps.</p>
-        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gr-ai-content-ops to research our audience and competitors, position one blog for search, and draft two substantive LinkedIn posts within 6 hours. Draft only.</pre>
-        <h3>Example decision</h3><p class="body">Illustrative example: A service product may need a workflow demonstration; an analysis tool may need a worked report. Select the asset by reader value, not a fixed posting quota.</p>
+        <h3>What to provide</h3><p class="body">Product and competitor URLs, reader, desired action, source material and weekly capacity. / 产品网址、竞品网址、目标读者、期望行动、素材和每周工时</p>
+        <h3>What you get</h3><p class="body">Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger / 受众与角度简报；SEO/GEO 页面意图；完整草稿；配图说明；排期与复盘台账</p>
+        <h3>Starter prompt</h3><pre style="white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);padding:16px;border:1px solid var(--border);border-radius:8px">Use gr-ai-content-ops. Our B2B product has two demos and six hours per week. Research an early-stage competitor, propose one useful blog and a native LinkedIn draft, and state what needs verification.
+
+请使用 gr-ai-content-ops。我们有两份产品演示，每周六小时。研究一个竞品的早期内容，给出一篇有用的博客方案和完整 LinkedIn 草稿，标注待验证事实。</pre>
+        <h3>Example decision</h3><p class="body">Illustrative example: Reader problem → supported angle → parent blog brief → LinkedIn explanation → visual asset task → review date.</p>
         <p class="body"><a href="https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ai-content-ops">Read the maintained SKILL.md and templates on GitHub</a></p></section>
     <section>
-      <h2>How to use / 使用流程</h2>
+      <h2>How to use this workflow</h2>
       <ol class="steps">
-        <li class="step"><span class="step-n">1</span><div><p class="step-t">Understand / 理解受众</p><p class="step-d">Provide product and competitor URLs, audience questions and the desired action; existing context is reused.</p></div></li>
-        <li class="step"><span class="step-n">2</span><div><p class="step-t">Position and write / 定位与写作</p><p class="step-d">Map search intent and existing pages, choose a supported angle, then write complete drafts and visual briefs.</p></div></li>
-        <li class="step"><span class="step-n">3</span><div><p class="step-t">Deliver and diagnose / 交付与诊断</p><p class="step-d">Fit work to capacity, execute authorized delivery, retrieve available metrics and choose the next evidence-backed change.</p></div></li>
+        <li class="step"><span class="step-n">1</span><div><p class="step-t">Install and choose the task</p><p class="step-d">Install gr-ai-content-ops into a supported agent and ask it to use the Skill.</p></div></li>
+        <li class="step"><span class="step-n">2</span><div><p class="step-t">Provide the evidence</p><p class="step-d">Product and competitor URLs, reader, desired action, source material and weekly capacity.</p></div></li>
+        <li class="step"><span class="step-n">3</span><div><p class="step-t">Review the result</p><p class="step-d">Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger. Check unresolved claims before external action.</p></div></li>
       </ol>
     </section>
 
     <section>
-      <h2>Which skill fits? / 如何选择</h2>
-      <p class="cmp-intro">Choose by the unit of work. / 按任务范围选择。</p>
+      <h2>Choose the right next workflow</h2>
+      <p class="cmp-intro">Related skills solve different tasks; install only what your current request needs.</p>
       <table class="cmp">
-        <thead><tr><th>Task / 任务</th><th>Workflow / 工作流</th></tr></thead>
+        <thead><tr><th>Workflow</th><th>Choose it for</th></tr></thead>
         <tbody>
-        <tr><td>Weekly operation across content assets</td><td>gr-ai-content-ops</td></tr>
-        <tr><td>One WeChat article and draft handoff</td><td>gr-wechat-editorial</td></tr>
-        <tr><td>One article adapted for social channels</td><td>gr-social-distill</td></tr>
-        <tr><td>Calibrating an author voice</td><td>gr-brand-voice-calibration</td></tr>
+        <tr><td>Competitor Research Playbook</td><td>Study comparable competitors by buyer, stage and business model, then turn dated evidence into one bounded experiment.</td></tr>
+        <tr><td>Content Repurposing Skill</td><td>Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.</td></tr>
+        <tr><td>Brand Voice Calibration Skill</td><td>Build a reusable voice guide from original writing, speech and the author’s own corrections.</td></tr>
         </tbody>
       </table>
     </section>
 
     <section>
-      <h2>Limits / 使用边界</h2>
+      <h2>Scope and limits</h2>
       <ul class="donts">
-          <li>No invented customer stories, quotes or analytics. / 不编造客户故事、引用和数据。</li>
-          <li>Cadence and platform tactics are hypotheses, not growth guarantees. / 频次与平台打法需要测试。</li>
-          <li>An uncertain submission is reconciled before retrying. / 提交状态未知时先核对，避免重复。</li>
+          <li>A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business results.</li>
+          <li>Illustrative examples show output structure, not verified customer outcomes.</li>
+          <li>Installation does not grant access to private analytics or publishing accounts.</li>
       </ul>
     </section>
 
     <section>
       <h2>FAQ</h2>
-        <div class="faq-item"><p class="faq-q">How do I install this skill? / 如何安装？</p><p class="faq-a">npx skills add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops</p></div>
-        <div class="faq-item"><p class="faq-q">Can I use it without analytics or API keys? / 没有数据和 API key 可以用吗？</p><p class="faq-a">Yes. It first checks whether data can be retrieved; genuinely new accounts receive a baseline plan. Keyword candidates and untested assumptions remain explicit.</p></div>
-        <div class="faq-item"><p class="faq-q">Does it automatically publish or message contributors? / 会自动发布或联系嘉宾吗？</p><p class="faq-a">No. It defaults to a draft pack and requires explicit authorization for publishing or messages.</p></div>
+        <div class="faq-item"><p class="faq-q">Who should use this skill?</p><p class="faq-a">Small content teams deciding what to write, what to reuse and why recent content underperformed.</p></div>
+        <div class="faq-item"><p class="faq-q">What should I provide?</p><p class="faq-a">Product and competitor URLs, reader, desired action, source material and weekly capacity.</p></div>
+        <div class="faq-item"><p class="faq-q">What will I receive?</p><p class="faq-a">Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger</p></div>
+        <div class="faq-item"><p class="faq-q">What are the limits?</p><p class="faq-a">A calendar is a plan, not a scheduled job. Draft quality checks do not establish reader demand or business results.</p></div>
+        <div class="faq-item"><p class="faq-q">需要什么输入，会得到什么？</p><p class="faq-a">产品网址、竞品网址、目标读者、期望行动、素材和每周工时。交付：受众与角度简报；SEO/GEO 页面意图；完整草稿；配图说明；排期与复盘台账。</p></div>
     </section>
 
 
     <section>
       <h2>Related playbooks</h2>
       <div class="rel-grid">
-          <a class="rel-card" href="/skills/gr-wechat-editorial/"><span>WeChat Editorial / 公众号编辑</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-social-distill/"><span>Social Distill / 社媒改写</span><span class="arr">&rarr;</span></a>
-          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration / 文风校准</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/competitor-research/"><span>Competitor Research Playbook</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-social-distill/"><span>Content Repurposing Skill</span><span class="arr">&rarr;</span></a>
+          <a class="rel-card" href="/skills/gr-brand-voice-calibration/"><span>Brand Voice Calibration Skill</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/skills/"><span>Browse all skills and playbooks</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/"><span>Find a growth tool for live data or execution</span><span class="arr">&rarr;</span></a>
           <a class="rel-card" href="/services/"><span>Get Gingiris advisory or a custom AI growth employee</span><span class="arr">&rarr;</span></a>
