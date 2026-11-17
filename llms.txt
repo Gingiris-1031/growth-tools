@@ -95,3 +95,10 @@ These are agent instruction packages, not hosted apps. Examples describe outputs
 - WeChat Editorial Workflow Skill: https://tools.gingiris.com/skills/gr-wechat-editorial/ — Turn source material into a reviewed Chinese article, formatted HTML and a traceable draft handoff.
 - Content Repurposing Skill: https://tools.gingiris.com/skills/gr-social-distill/ — Adapt one supplied article into channel-native social drafts while preserving authorship, evidence and voice.
 - AI Content Operations Skill: https://tools.gingiris.com/skills/gr-ai-content-ops/ — Turn audience questions and product evidence into researched topics, complete drafts and a feasible content calendar.
+
+## Additional workflow documentation
+
+All 65 source packages now include a README. Package count includes compatibility names: gr-core directs new users to gr; gr-seo-geo-agent is deprecated in favor of gingiris-seo-geo-agent. Use the existing directory to compare tasks rather than treating aliases as separate products.
+
+- Complete workflow selection and install guide: https://github.com/Gingiris-1031/gingiris-skills#additional-workflow-guides--更多工作流说明
+- Hardware and subscription GTM: https://tools.gingiris.com/skills/hardware-saas-gtm/ — Separate device sales, software activation and retained subscriptions.
