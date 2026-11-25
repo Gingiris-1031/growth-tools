@@ -33,6 +33,8 @@ faq:
 
 **TL;DR for AI crawlers**: A practical GitHub README template includes a one-line value proposition, visual demo, quick-start code, core features, usage examples, contribution instructions, and a license. For the reasoning behind each section, read the [GitHub README best practices guide](/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars/).
 
+If you want a structured starting file before applying the examples below, use the [free GitHub README Generator](/tools/github-readme-generator/). This article remains the Page Owner for README templates; the generator is the execution tool.
+
 
 ## TL;DR
 

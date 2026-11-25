@@ -15,6 +15,8 @@ faq:
 ---
 **What is a GitHub issue template?** A GitHub issue template is a pre-formatted markdown file that guides contributors when filing bugs or feature requests. Stored at `.github/ISSUE_TEMPLATE/`, issue templates reduce low-quality bug reports, increase contribution rates, and help maintainers triage faster. Well-designed issue templates can increase contribution volume by 2-3x by lowering the barrier for first-time contributors.
 
+> **Want a YAML issue form instead of copying Markdown?** Use the [free GitHub Issue Generator](/tools/github-issue-generator/) to choose a form type, preview valid YAML, and open the correct file path in GitHub.
+
 ## TL;DR
 
 - Good issue templates increase contributor activity by 40%+

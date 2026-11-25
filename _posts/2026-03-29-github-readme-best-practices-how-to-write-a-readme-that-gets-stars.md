@@ -22,6 +22,8 @@ faq:
 
 > **Start here:** copy the checklist below, then ask one developer who has never seen the project to explain what it does and run the quick start. Record where they hesitate. README quality should be judged by comprehension and successful setup—not by star count alone.
 
+Already know the structure you need? Create a first draft with the [GitHub README Generator](/tools/github-readme-generator/), then use this checklist to review the value proposition, visual proof, quick start, and contribution path.
+
 | README decision | Recommended standard | Why it matters |
 |:---|:---|:---|
 | First two lines | Product + audience + outcome | Establishes relevance before scrolling |
